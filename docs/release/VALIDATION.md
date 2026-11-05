@@ -18,9 +18,9 @@
 
 `id_ed25519.pub` 指纹为 `SHA256:4eqszijS/nGnOufaRZKudcL3wda6ZKSTK5AUWVTw5KI`，显式使用该密钥时 GitHub 返回 `Hi winohastings! You've successfully authenticated`。这证明 SSH 身份认证成功，不证明目标仓库已存在，也不提供创建仓库的 REST API 授权。
 
-检查时 `git ls-remote git@github-wino:winohastings/SCOPE.git` 返回 `Repository not found`，公共 API 返回 HTTP 404。本机未配置 GitHub CLI/API token，因此创建远端仓库需要账号持有者网页操作或后续 API 授权；不把“准备好推送”写成“已上传成功”。
+最初检查时 `git ls-remote git@github-wino:winohastings/SCOPE.git` 返回 `Repository not found`，公共 API 返回 HTTP 404。之后账号持有者创建了公开远端，初始提交 `8724cd49ce3372c251f2a98b2451c2869905c3cf` 包含 Apache-2.0 `LICENSE`。本地合并该提交并原样保留许可证，不使用 force push，也不覆盖用户的初始历史。
 
-建议先创建私有空仓库 `winohastings/SCOPE`，不要初始化 README、license 或 gitignore。完成后在本发布目录执行：
+本机未配置 GitHub CLI/API token，远端创建不冒充由代理API完成。后续使用现有SSH密钥推送即可：
 
 ```bash
 git push \

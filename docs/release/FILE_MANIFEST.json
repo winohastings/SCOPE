@@ -3255,6 +3255,11 @@
     "sha256": "abf8c22efa69334f3c045e7808c8cf8e198db2bed9a4a00ba0a9ae4d55ff986e"
   },
   {
+    "path": "LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
     "path": "README.md",
     "bytes": 3688,
     "sha256": "d2ff506dd5be852a19ab24f983ff9f6e4a038741ea211387c7c498fbe21c25ef"
@@ -3416,8 +3421,8 @@
   },
   {
     "path": "docs/release/REVIEW.md",
-    "bytes": 3666,
-    "sha256": "a6b2f1287d23302c85f646fb6960a6c5fb20058a8c2bcdc33418d1fbef2efe43"
+    "bytes": 3736,
+    "sha256": "9bea9dac676682c97fca2268c89c29c95686c1a248fd8a6c4d7612bdc9113f58"
   },
   {
     "path": "docs/release/SCOPE_REGRESSION.log",
@@ -3431,8 +3436,8 @@
   },
   {
     "path": "docs/release/VALIDATION.md",
-    "bytes": 2306,
-    "sha256": "4c4a7d44af5c16af8d1cb30c6ac0bfffb4c7fa84071d4966feb80268dfd707de"
+    "bytes": 2358,
+    "sha256": "90585cb56d77dc76b957cb23b5bce4e0306fcf00f49c1441535e12c6bfb2155b"
   },
   {
     "path": "patches/legacy_scope.patch",
@@ -3476,8 +3481,8 @@
   },
   {
     "path": "third_party/README.md",
-    "bytes": 1832,
-    "sha256": "d301f6e1aa218152064bcca14251312b285101bf708b41e9c071f972f53439fc"
+    "bytes": 2038,
+    "sha256": "f83b92744d34dee83dc9bdcc231245940b846da6bd5066cb01e33695aee31aa0"
   },
   {
     "path": "third_party/SimpleNav.LICENSE",
