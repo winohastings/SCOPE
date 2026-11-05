@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:224",
+  "source_episode_id": "224",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Go to the doorway\r\nGo forward 1 metre\r\nGo to the chair\r\nGo to the painting\r\nGo to the plastic chair\r\nGo to the water faucet.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.0381611056074682,
+  "path_length": 9.406688912400568,
+  "gt_path_length": 7.715058326721191,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7257629484597478,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.0381611056074682,
+    "SPL": 0.8201672659282536,
+    "nDTW": 0.7257629484597478,
+    "path_length": 9.406688912400568,
+    "steps_taken": 11.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

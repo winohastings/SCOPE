@@ -1,0 +1,7 @@
+START smoke_G0
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/execute.py", line 88, in <module>
+    main()
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/execute.py", line 71, in main
+    raise RuntimeError(f"full episode smoke failed: {label}")
+RuntimeError: full episode smoke failed: smoke_G0

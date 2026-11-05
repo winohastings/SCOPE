@@ -1,0 +1,1809 @@
+{
+  "fixture": "docs/Logs/Task1/fixed_habitat_observation.npz",
+  "comparisons": [
+    {
+      "step": 0,
+      "max_abs_difference": 0.0,
+      "shape": [
+        8,
+        4
+      ]
+    },
+    {
+      "step": 1,
+      "max_abs_difference": 0.0,
+      "shape": [
+        8,
+        4
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "episode_id": "fixed",
+      "step": 0,
+      "policy_mode": "glance_only",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 0,
+      "selection_trace": [],
+      "focus": [],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        }
+      ],
+      "current_visual_tokens": 64,
+      "total_visual_tokens": 64,
+      "vision_ms": 27.896374464035034,
+      "llm_ms": 252.61868815869093,
+      "dit_b_ms": 51.19967274367809,
+      "server_total_ms": 388.2272485643625,
+      "peak_gpu_memory_bytes": 10003975168,
+      "predicted_body_waypoints": [
+        [
+          0.11577868461608887,
+          0.04429423809051514,
+          0.013041466474533081,
+          0.16197669506072998
+        ],
+        [
+          0.25900986790657043,
+          0.017972111701965332,
+          0.015482783317565918,
+          0.03184342384338379
+        ],
+        [
+          0.3097482919692993,
+          0.010418176651000977,
+          0.021848738193511963,
+          0.3014802932739258
+        ],
+        [
+          0.2542581260204315,
+          -0.005787968635559082,
+          0.013653337955474854,
+          1.0433239936828613
+        ],
+        [
+          0.22297954559326172,
+          -0.037260591983795166,
+          0.013998657464981079,
+          1.4681463241577148
+        ],
+        [
+          0.1951064169406891,
+          0.021823644638061523,
+          0.020560115575790405,
+          2.290740966796875
+        ],
+        [
+          0.06532464921474457,
+          0.06969696283340454,
+          0.08798611164093018,
+          2.683617115020752
+        ],
+        [
+          -0.13546106219291687,
+          0.1911829710006714,
+          0.12815320491790771,
+          2.6914072036743164
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 1,
+      "policy_mode": "glance_only",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 0,
+      "selection_trace": [],
+      "focus": [],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "left",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "right",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "rear",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        }
+      ],
+      "current_visual_tokens": 64,
+      "total_visual_tokens": 80,
+      "vision_ms": 35.710906609892845,
+      "llm_ms": 253.7263808771968,
+      "dit_b_ms": 51.93147622048855,
+      "server_total_ms": 426.4385253190994,
+      "peak_gpu_memory_bytes": 10018664960,
+      "predicted_body_waypoints": [
+        [
+          0.22968801856040955,
+          0.008092641830444336,
+          0.005753308534622192,
+          -0.056653499603271484
+        ],
+        [
+          0.38013115525245667,
+          0.005258023738861084,
+          0.03392568230628967,
+          -0.26282060146331787
+        ],
+        [
+          0.5048943758010864,
+          -0.04065871238708496,
+          0.061903417110443115,
+          -0.47782063484191895
+        ],
+        [
+          0.662575900554657,
+          -0.13510805368423462,
+          0.121468186378479,
+          -0.40221118927001953
+        ],
+        [
+          0.7375519871711731,
+          -0.11760479211807251,
+          0.13283812999725342,
+          -0.07767713069915771
+        ],
+        [
+          0.956092894077301,
+          -0.12174355983734131,
+          0.17316758632659912,
+          -0.05197596549987793
+        ],
+        [
+          1.048539161682129,
+          -0.16197502613067627,
+          0.17792969942092896,
+          -0.3859372138977051
+        ],
+        [
+          1.1860474348068237,
+          -0.19512546062469482,
+          0.17801278829574585,
+          -0.4846752882003784
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 0,
+      "policy_mode": "fixed_2",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 2,
+      "selection_trace": [
+        0,
+        3
+      ],
+      "focus": [
+        {
+          "candidate_id": 0,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "candidate_id": 3,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            256,
+            256,
+            512,
+            512
+          ],
+          "focus_index": 1
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            256,
+            256,
+            512,
+            512
+          ],
+          "focus_index": 1
+        }
+      ],
+      "current_visual_tokens": 192,
+      "total_visual_tokens": 192,
+      "vision_ms": 32.03326649963856,
+      "llm_ms": 269.8789509013295,
+      "dit_b_ms": 51.4496099203825,
+      "server_total_ms": 416.5049158036709,
+      "peak_gpu_memory_bytes": 10033545216,
+      "predicted_body_waypoints": [
+        [
+          0.056582264602184296,
+          0.04447484016418457,
+          0.010202109813690186,
+          -0.28717219829559326
+        ],
+        [
+          -0.013019826263189316,
+          0.010143935680389404,
+          0.013673871755599976,
+          -0.9977419972419739
+        ],
+        [
+          0.026028156280517578,
+          -0.01249837875366211,
+          0.012331396341323853,
+          -1.4541220664978027
+        ],
+        [
+          0.08897773176431656,
+          -0.22305017709732056,
+          0.0051482319831848145,
+          -1.4469050168991089
+        ],
+        [
+          0.06760817021131516,
+          -0.33689939975738525,
+          -0.0058737993240356445,
+          -1.085405707359314
+        ],
+        [
+          0.09048013389110565,
+          -0.24110060930252075,
+          -0.016234010457992554,
+          0.031932711601257324
+        ],
+        [
+          0.0309166107326746,
+          -0.28051823377609253,
+          -0.00837060809135437,
+          0.7782411575317383
+        ],
+        [
+          0.013303754851222038,
+          -0.31622517108917236,
+          0.0009703934192657471,
+          1.1697585582733154
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 1,
+      "policy_mode": "fixed_2",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 2,
+      "selection_trace": [
+        0,
+        3
+      ],
+      "focus": [
+        {
+          "candidate_id": 0,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "candidate_id": 3,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            256,
+            256,
+            512,
+            512
+          ],
+          "focus_index": 1
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "left",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "right",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "rear",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            256,
+            256,
+            512,
+            512
+          ],
+          "focus_index": 1
+        }
+      ],
+      "current_visual_tokens": 192,
+      "total_visual_tokens": 208,
+      "vision_ms": 38.55716157704592,
+      "llm_ms": 273.2680384069681,
+      "dit_b_ms": 51.41432862728834,
+      "server_total_ms": 458.2303427159786,
+      "peak_gpu_memory_bytes": 10045014528,
+      "predicted_body_waypoints": [
+        [
+          0.07261141389608383,
+          0.017941534519195557,
+          -0.007411062717437744,
+          -0.37982749938964844
+        ],
+        [
+          0.22109454870224,
+          -0.05972421169281006,
+          0.012380421161651611,
+          -0.5524874925613403
+        ],
+        [
+          0.25819626450538635,
+          -0.12152284383773804,
+          0.01935577392578125,
+          -0.9357866048812866
+        ],
+        [
+          0.3912816345691681,
+          -0.29746150970458984,
+          0.047442883253097534,
+          -0.9315593838691711
+        ],
+        [
+          0.43006205558776855,
+          -0.32247117161750793,
+          0.058483511209487915,
+          -0.6985957622528076
+        ],
+        [
+          0.5270784497261047,
+          -0.41997209191322327,
+          0.07877910137176514,
+          -0.6397934556007385
+        ],
+        [
+          0.597733199596405,
+          -0.517665445804596,
+          0.10071384906768799,
+          -1.018409013748169
+        ],
+        [
+          0.6614089012145996,
+          -0.5964177250862122,
+          0.0980987548828125,
+          -1.10431969165802
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 0,
+      "policy_mode": "random_2",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 2,
+      "selection_trace": [
+        14,
+        2
+      ],
+      "focus": [
+        {
+          "candidate_id": 14,
+          "camera_id": 3,
+          "camera_name": "rear",
+          "roi": [
+            0,
+            256,
+            256,
+            512
+          ],
+          "focus_index": 0
+        },
+        {
+          "candidate_id": 2,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            256,
+            256,
+            512
+          ],
+          "focus_index": 1
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 3,
+          "roi": [
+            0,
+            256,
+            256,
+            512
+          ],
+          "focus_index": 0
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            256,
+            256,
+            512
+          ],
+          "focus_index": 1
+        }
+      ],
+      "current_visual_tokens": 192,
+      "total_visual_tokens": 192,
+      "vision_ms": 32.40590449422598,
+      "llm_ms": 265.900993719697,
+      "dit_b_ms": 50.46059936285019,
+      "server_total_ms": 411.0810738056898,
+      "peak_gpu_memory_bytes": 10033545216,
+      "predicted_body_waypoints": [
+        [
+          0.14981001615524292,
+          0.04797250032424927,
+          0.020719289779663086,
+          -0.16035568714141846
+        ],
+        [
+          0.07935014367103577,
+          0.014404475688934326,
+          0.01873531937599182,
+          -0.844675600528717
+        ],
+        [
+          0.19499178230762482,
+          -0.065096914768219,
+          0.02002575993537903,
+          -1.074223279953003
+        ],
+        [
+          0.2919279932975769,
+          -0.2876216769218445,
+          0.031784117221832275,
+          -1.0167635679244995
+        ],
+        [
+          0.37639498710632324,
+          -0.4567217230796814,
+          0.042393237352371216,
+          -0.9915115833282471
+        ],
+        [
+          0.37300965189933777,
+          -0.4057038426399231,
+          0.025689810514450073,
+          -0.46809303760528564
+        ],
+        [
+          0.3629421889781952,
+          -0.47145694494247437,
+          0.04832643270492554,
+          -0.14035570621490479
+        ],
+        [
+          0.41881275177001953,
+          -0.5716232061386108,
+          0.07102102041244507,
+          -0.05679523944854736
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 1,
+      "policy_mode": "random_2",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 2,
+      "selection_trace": [
+        7,
+        9
+      ],
+      "focus": [
+        {
+          "candidate_id": 7,
+          "camera_id": 1,
+          "camera_name": "left",
+          "roi": [
+            256,
+            256,
+            512,
+            512
+          ],
+          "focus_index": 0
+        },
+        {
+          "candidate_id": 9,
+          "camera_id": 2,
+          "camera_name": "right",
+          "roi": [
+            256,
+            0,
+            512,
+            256
+          ],
+          "focus_index": 1
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "left",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "right",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "rear",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 1,
+          "roi": [
+            256,
+            256,
+            512,
+            512
+          ],
+          "focus_index": 0
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 2,
+          "roi": [
+            256,
+            0,
+            512,
+            256
+          ],
+          "focus_index": 1
+        }
+      ],
+      "current_visual_tokens": 192,
+      "total_visual_tokens": 208,
+      "vision_ms": 38.00456877797842,
+      "llm_ms": 268.03046371787786,
+      "dit_b_ms": 50.31621176749468,
+      "server_total_ms": 450.47166757285595,
+      "peak_gpu_memory_bytes": 10045014528,
+      "predicted_body_waypoints": [
+        [
+          0.25383713841438293,
+          0.009515941143035889,
+          0.004147142171859741,
+          0.007413148880004883
+        ],
+        [
+          0.4934060275554657,
+          0.009752333164215088,
+          0.03931260108947754,
+          -0.04055130481719971
+        ],
+        [
+          0.692331075668335,
+          0.01644665002822876,
+          0.08126801252365112,
+          -0.12006616592407227
+        ],
+        [
+          0.89754718542099,
+          -0.021892428398132324,
+          0.1372690200805664,
+          -0.14693105220794678
+        ],
+        [
+          1.0676671266555786,
+          -0.017018437385559082,
+          0.1653258204460144,
+          -0.10599648952484131
+        ],
+        [
+          1.212937831878662,
+          -0.023944497108459473,
+          0.17625069618225098,
+          -0.1542060375213623
+        ],
+        [
+          1.3499083518981934,
+          -0.11443936824798584,
+          0.18983101844787598,
+          -0.43332624435424805
+        ],
+        [
+          1.4804726839065552,
+          -0.1186380386352539,
+          0.1987243890762329,
+          -0.38227880001068115
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 0,
+      "policy_mode": "learned_2",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 2,
+      "selection_trace": [
+        0,
+        1
+      ],
+      "focus": [
+        {
+          "candidate_id": 0,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "candidate_id": 1,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            256,
+            0,
+            512,
+            256
+          ],
+          "focus_index": 1
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            256,
+            0,
+            512,
+            256
+          ],
+          "focus_index": 1
+        }
+      ],
+      "current_visual_tokens": 192,
+      "total_visual_tokens": 192,
+      "vision_ms": 31.738463789224625,
+      "llm_ms": 268.5394147410989,
+      "dit_b_ms": 51.93237401545048,
+      "server_total_ms": 416.66379384696484,
+      "peak_gpu_memory_bytes": 10033545216,
+      "predicted_body_waypoints": [
+        [
+          0.2382686287164688,
+          0.042811810970306396,
+          0.08007156848907471,
+          -0.0006656646728515625
+        ],
+        [
+          0.24964943528175354,
+          0.010729372501373291,
+          0.10140782594680786,
+          -0.4924873113632202
+        ],
+        [
+          0.4260970950126648,
+          -0.08238184452056885,
+          0.11554312705993652,
+          -0.5559767484664917
+        ],
+        [
+          0.5930495262145996,
+          -0.204445481300354,
+          0.18322139978408813,
+          -0.5120724439620972
+        ],
+        [
+          0.725820779800415,
+          -0.2917209267616272,
+          0.21748054027557373,
+          -0.3446768522262573
+        ],
+        [
+          0.7512474656105042,
+          -0.2587406635284424,
+          0.20957183837890625,
+          0.026359081268310547
+        ],
+        [
+          0.739550769329071,
+          -0.33091074228286743,
+          0.24798822402954102,
+          0.35836613178253174
+        ],
+        [
+          0.8433196544647217,
+          -0.306260347366333,
+          0.29171621799468994,
+          0.3569573163986206
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 1,
+      "policy_mode": "learned_2",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 2,
+      "selection_trace": [
+        0,
+        1
+      ],
+      "focus": [
+        {
+          "candidate_id": 0,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "candidate_id": 1,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            256,
+            0,
+            512,
+            256
+          ],
+          "focus_index": 1
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "left",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "right",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "rear",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            256,
+            0,
+            512,
+            256
+          ],
+          "focus_index": 1
+        }
+      ],
+      "current_visual_tokens": 192,
+      "total_visual_tokens": 208,
+      "vision_ms": 38.3896566927433,
+      "llm_ms": 265.4865439981222,
+      "dit_b_ms": 50.942291505634785,
+      "server_total_ms": 432.00417421758175,
+      "peak_gpu_memory_bytes": 10045014528,
+      "predicted_body_waypoints": [
+        [
+          0.21198181807994843,
+          0.008948743343353271,
+          0.02017521858215332,
+          -0.10905003547668457
+        ],
+        [
+          0.37160494923591614,
+          -0.002257049083709717,
+          0.06855857372283936,
+          -0.28010106086730957
+        ],
+        [
+          0.5098490715026855,
+          -0.0550081729888916,
+          0.11989486217498779,
+          -0.4702543020248413
+        ],
+        [
+          0.7009896039962769,
+          -0.15809094905853271,
+          0.19933241605758667,
+          -0.43721961975097656
+        ],
+        [
+          0.7962818741798401,
+          -0.14848363399505615,
+          0.2151036262512207,
+          -0.16399800777435303
+        ],
+        [
+          1.0119541883468628,
+          -0.16134393215179443,
+          0.25301480293273926,
+          -0.08980488777160645
+        ],
+        [
+          1.1790016889572144,
+          -0.21552997827529907,
+          0.2763445973396301,
+          -0.27403712272644043
+        ],
+        [
+          1.3484665155410767,
+          -0.21661925315856934,
+          0.2660090923309326,
+          -0.3062121868133545
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 0,
+      "policy_mode": "learned_adaptive",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 1,
+      "selection_trace": [
+        0,
+        16
+      ],
+      "focus": [
+        {
+          "candidate_id": 0,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        }
+      ],
+      "current_visual_tokens": 128,
+      "total_visual_tokens": 128,
+      "vision_ms": 28.979746624827385,
+      "llm_ms": 258.93839728087187,
+      "dit_b_ms": 51.9981449469924,
+      "server_total_ms": 405.3606931120157,
+      "peak_gpu_memory_bytes": 10018403840,
+      "predicted_body_waypoints": [
+        [
+          0.20863357186317444,
+          0.04485893249511719,
+          0.02985072135925293,
+          -0.03037846088409424
+        ],
+        [
+          0.20739580690860748,
+          0.01211482286453247,
+          0.04567217826843262,
+          -0.5597710609436035
+        ],
+        [
+          0.3023706376552582,
+          -0.04947477579116821,
+          0.04156026244163513,
+          -0.7987861037254333
+        ],
+        [
+          0.39500293135643005,
+          -0.1404067873954773,
+          0.04712364077568054,
+          -0.468686580657959
+        ],
+        [
+          0.45579206943511963,
+          -0.1768776774406433,
+          0.0536055862903595,
+          -0.17826783657073975
+        ],
+        [
+          0.43027809262275696,
+          -0.14780467748641968,
+          0.03310444951057434,
+          0.3235359191894531
+        ],
+        [
+          0.37388554215431213,
+          -0.216697096824646,
+          0.0671851634979248,
+          0.8239114284515381
+        ],
+        [
+          0.37662386894226074,
+          -0.21253597736358643,
+          0.09411567449569702,
+          1.0825395584106445
+        ]
+      ]
+    },
+    {
+      "episode_id": "fixed",
+      "step": 1,
+      "policy_mode": "learned_adaptive",
+      "selector": "SCRIPTED_INTERFACE_SMOKE_NOT_LEARNED",
+      "focus_count": 1,
+      "selection_trace": [
+        0,
+        16
+      ],
+      "focus": [
+        {
+          "candidate_id": 0,
+          "camera_id": 0,
+          "camera_name": "front",
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        }
+      ],
+      "blocks": [
+        {
+          "camera_name": "front",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "left",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "right",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "rear",
+          "is_history": true,
+          "grid_thw": [
+            1,
+            4,
+            4
+          ],
+          "tokens": 4
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "left",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "right",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "rear",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            8,
+            8
+          ],
+          "tokens": 16,
+          "scope_kind": "glance"
+        },
+        {
+          "camera_name": "front",
+          "is_history": false,
+          "grid_thw": [
+            1,
+            16,
+            16
+          ],
+          "tokens": 64,
+          "scope_kind": "focus",
+          "camera_id": 0,
+          "roi": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "focus_index": 0
+        }
+      ],
+      "current_visual_tokens": 128,
+      "total_visual_tokens": 144,
+      "vision_ms": 38.43353968113661,
+      "llm_ms": 258.4980307146907,
+      "dit_b_ms": 50.69730430841446,
+      "server_total_ms": 424.24909118562937,
+      "peak_gpu_memory_bytes": 10032843776,
+      "predicted_body_waypoints": [
+        [
+          0.12338410317897797,
+          0.007795214653015137,
+          -0.002495497465133667,
+          -0.2712984085083008
+        ],
+        [
+          0.2604351043701172,
+          -0.04860502481460571,
+          0.018602997064590454,
+          -0.4538724422454834
+        ],
+        [
+          0.4443229138851166,
+          -0.17065441608428955,
+          0.04837784171104431,
+          -0.5203146934509277
+        ],
+        [
+          0.6375443339347839,
+          -0.27379459142684937,
+          0.10700947046279907,
+          -0.5028014183044434
+        ],
+        [
+          0.7735362648963928,
+          -0.2948644161224365,
+          0.12843430042266846,
+          -0.4651072025299072
+        ],
+        [
+          0.917271077632904,
+          -0.3317646086215973,
+          0.15432995557785034,
+          -0.521754264831543
+        ],
+        [
+          0.9702162146568298,
+          -0.42564213275909424,
+          0.1701744794845581,
+          -0.9531092643737793
+        ],
+        [
+          1.0321234464645386,
+          -0.5067514777183533,
+          0.16010993719100952,
+          -1.022700548171997
+        ]
+      ]
+    }
+  ]
+}

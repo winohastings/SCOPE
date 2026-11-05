@@ -1,0 +1,20 @@
+..............
+----------------------------------------------------------------------
+Ran 14 tests in 0.505s
+
+OK
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.076s
+
+OK
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/home/data/czh/Third_Party/simulator/habitat-lab-v0.3.1/habitat-lab/habitat/utils/visualizations/maps.py:25: DeprecationWarning: Starting with ImageIO v3 the behavior of this function will switch to that of iio.v3.imread. To keep the current behavior (and make this warning disappear) use `import imageio.v2 as imageio` or call `imageio.v2.imread` directly.
+  AGENT_SPRITE = imageio.imread(
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 2.357s
+
+OK

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5875",
+  "source_episode_id": "5875",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Take a left, then a right. Walk down the hall and wait in the bedroom.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 7.4856030836867,
+  "path_length": 3.061551036313176,
+  "gt_path_length": 9.36184024810791,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3252466339437013,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 7.4856030836867,
+    "SPL": 0.0,
+    "nDTW": 0.3252466339437013,
+    "path_length": 3.061551036313176,
+    "steps_taken": 4.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

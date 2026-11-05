@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:4905",
+  "source_episode_id": "4905",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Exit the room using the door on the right then turn left and then turn right on and go up one step on the stairs then stop there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.42770442487989846,
+  "path_length": 16.500768881989643,
+  "gt_path_length": 8.117049217224121,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.23798732613440812,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.42770442487989846,
+    "SPL": 0.4919194538918587,
+    "nDTW": 0.23798732613440812,
+    "path_length": 16.500768881989643,
+    "steps_taken": 18.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5949",
+  "source_episode_id": "5949",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Walk through the hallway past the ascending stairs, then take a hard left, and wait at the top of the stairs.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 4.271752339324359,
+  "path_length": 6.372256850008853,
+  "gt_path_length": 7.035735130310059,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3562531605054334,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 4.271752339324359,
+    "SPL": 0.0,
+    "nDTW": 0.3562531605054334,
+    "path_length": 6.372256850008853,
+    "steps_taken": 9.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

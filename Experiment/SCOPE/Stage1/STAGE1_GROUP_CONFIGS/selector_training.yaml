@@ -1,0 +1,55 @@
+schema: scope.stage1.selector_training.v1
+status: DESIGN_ONLY_NO_TRAINING_AUTHORIZED
+task: r2r
+split: train
+data_root: /home/data/czh/Third_Party/tasks
+scene_partition:
+  algorithm: ascending_sha256_scene_id_last_10_percent_dev
+  dev_fraction: 0.1
+  minimum_dev_scenes: 1
+  training_scene_manifest: manifests/r2r_selector_train_dev.json
+  validation_scene_manifest: manifests/r2r_selector_train_dev.json
+  disallow_overlap_with_eval_scenes: true
+  heldout_evaluation_results_for_tuning: forbidden
+training_seeds: [101, 202, 303]
+backbone_frozen: true
+max_trainable_parameters: 2000000
+optimizer:
+  name: AdamW
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+algorithm:
+  name: masked_joint_sequential_PPO
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_epsilon: 0.2
+  value_coefficient: 0.5
+  entropy_coefficient: 0.01
+  parallel_environments: 4
+  navigation_steps_per_environment_per_update: 128
+  transitions_per_update: 512
+  minibatch_size: 64
+  epochs_per_update: 4
+  maximum_navigation_transitions: 199680
+  updates: 390
+  dev_check_every_transitions: 10240
+  update_unit: one_navigation_step_with_two_focus_choices
+  recurrent_state: none
+reward:
+  progress_weight: 0.2
+  progress_distance_scale_m: 3.0
+  progress_clip: [-1.0, 1.0]
+  navigation_step_penalty: 0.01
+  collision_step_penalty: 0.02
+  terminal_success_weight: 2.0
+  terminal_spl_weight: 0.5
+  terminal_failure_penalty: 0.5
+  distance_source: training_only_geodesic_distance
+  visual_cost_penalty: 0.0
+checkpoint_selection:
+  rule: highest_dev_nDTW_then_SR_then_earliest_step
+  dev_seed: 909
+  dev_episode_count: 64
+  chosen_checkpoint_per_training_seed: true
+  val_unseen_access_for_selection: false

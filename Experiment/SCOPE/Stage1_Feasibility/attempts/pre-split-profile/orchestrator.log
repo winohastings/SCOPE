@@ -1,0 +1,17 @@
+START smoke_G0
+DONE smoke_G0
+START smoke_G1
+DONE smoke_G1
+START smoke_G2
+DONE smoke_G2
+START smoke_G3
+DONE smoke_G3
+START pilot
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/execute.py", line 88, in <module>
+    "failures": sum(row["failures"] for row in completions), "workers": 2,
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/execute.py", line 67, in main
+    streams = []
+  File "/home/data/anaconda3/envs/py310/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/data/czh/Third_Party/baselines/SimpleNav/.venv/bin/python', '/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/pilot.py']' died with <Signals.SIGTERM: 15>.

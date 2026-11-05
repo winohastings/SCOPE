@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350">
+<rect width="760" height="350" fill="white"/>
+<text x="30" y="35" font-size="20">R2R development SPL</text>
+<rect x="110" y="96.71571298466864" width="85" height="188.28428701533136" fill="#4c78a8"/>
+<text x="110" y="310" font-size="16">G0</text>
+<text x="110" y="86.71571298466864" font-size="14">0.394</text>
+<rect x="270" y="75.0" width="85" height="210.0" fill="#72b7b2"/>
+<text x="270" y="310" font-size="16">G1</text>
+<text x="270" y="65.0" font-size="14">0.440</text>
+<rect x="430" y="143.96595715958298" width="85" height="141.03404284041702" fill="#f58518"/>
+<text x="430" y="310" font-size="16">G2</text>
+<text x="430" y="133.96595715958298" font-size="14">0.295</text>
+<rect x="590" y="145.57098149815258" width="85" height="139.42901850184742" fill="#e45756"/>
+<text x="590" y="310" font-size="16">G3</text>
+<text x="590" y="135.57098149815258" font-size="14">0.292</text>
+<text x="30" y="335" font-size="12">SPL; single seed, development set, descriptive only</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2568",
+  "source_episode_id": "2568",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Go to the right to enter the kitchen. Continue through the kitchen at a left angle and wait near the patio door.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 0.7802283152285615,
+  "path_length": 28.95602626213804,
+  "gt_path_length": 8.166095733642578,
+  "steps": 25,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "habitat_done",
+  "failure_traceback": null,
+  "nDTW": 0.07222775292012276,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 0.7802283152285615,
+    "SPL": 0.0,
+    "nDTW": 0.07222775292012276,
+    "path_length": 28.95602626213804,
+    "steps_taken": 25.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

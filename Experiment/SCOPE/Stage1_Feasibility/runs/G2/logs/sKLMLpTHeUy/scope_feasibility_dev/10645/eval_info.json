@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:10645",
+  "source_episode_id": "10645",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Enter through the doorway on the left, then exit the room through the doorway on the right. Then turn left and proceed to the first doorway on the left. Wait in that doorway, next to the light switch.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.41445698134240705,
+  "path_length": 12.08470898680389,
+  "gt_path_length": 11.371668815612793,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8724140299357108,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.41445698134240705,
+    "SPL": 0.9409964963186359,
+    "nDTW": 0.8724140299357108,
+    "path_length": 12.08470898680389,
+    "steps_taken": 10.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

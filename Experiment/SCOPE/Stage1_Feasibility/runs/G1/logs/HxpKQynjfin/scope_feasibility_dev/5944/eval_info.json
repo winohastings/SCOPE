@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5944",
+  "source_episode_id": "5944",
+  "scene_id": "HxpKQynjfin",
+  "instruction": "Walk straight ahead to past the desk and TV. Walk past the bar on your right and turn right into the bathroom. Stop when you walk in.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.0795475153786587,
+  "path_length": 18.103972696699202,
+  "gt_path_length": 5.054368019104004,
+  "steps": 21,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.015495658508064175,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 2.0795475153786587,
+    "SPL": 0.2791855745576516,
+    "nDTW": 0.015495658508064175,
+    "path_length": 18.103972696699202,
+    "steps_taken": 21.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

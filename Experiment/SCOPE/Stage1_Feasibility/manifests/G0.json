@@ -1,0 +1,392 @@
+{
+  "group": "G0",
+  "mode": "original",
+  "current_tokens": 256,
+  "run_seed": 42,
+  "episodes": [
+    {
+      "ordinal": 0,
+      "episode_id": "9791",
+      "scene_id": "jh4fc5c5qoQ",
+      "session_seed": 42
+    },
+    {
+      "ordinal": 1,
+      "episode_id": "1279",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 43
+    },
+    {
+      "ordinal": 2,
+      "episode_id": "8140",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 44
+    },
+    {
+      "ordinal": 3,
+      "episode_id": "4844",
+      "scene_id": "jh4fc5c5qoQ",
+      "session_seed": 45
+    },
+    {
+      "ordinal": 4,
+      "episode_id": "1837",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 46
+    },
+    {
+      "ordinal": 5,
+      "episode_id": "1434",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 47
+    },
+    {
+      "ordinal": 6,
+      "episode_id": "4649",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 48
+    },
+    {
+      "ordinal": 7,
+      "episode_id": "6256",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 49
+    },
+    {
+      "ordinal": 8,
+      "episode_id": "3926",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 50
+    },
+    {
+      "ordinal": 9,
+      "episode_id": "10721",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 51
+    },
+    {
+      "ordinal": 10,
+      "episode_id": "4830",
+      "scene_id": "jh4fc5c5qoQ",
+      "session_seed": 52
+    },
+    {
+      "ordinal": 11,
+      "episode_id": "2786",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 53
+    },
+    {
+      "ordinal": 12,
+      "episode_id": "5875",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 54
+    },
+    {
+      "ordinal": 13,
+      "episode_id": "2318",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 55
+    },
+    {
+      "ordinal": 14,
+      "episode_id": "2422",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 56
+    },
+    {
+      "ordinal": 15,
+      "episode_id": "4905",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 57
+    },
+    {
+      "ordinal": 16,
+      "episode_id": "2215",
+      "scene_id": "XcA2TqTSSAj",
+      "session_seed": 58
+    },
+    {
+      "ordinal": 17,
+      "episode_id": "2214",
+      "scene_id": "XcA2TqTSSAj",
+      "session_seed": 59
+    },
+    {
+      "ordinal": 18,
+      "episode_id": "5992",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 60
+    },
+    {
+      "ordinal": 19,
+      "episode_id": "4729",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 61
+    },
+    {
+      "ordinal": 20,
+      "episode_id": "4863",
+      "scene_id": "HxpKQynjfin",
+      "session_seed": 62
+    },
+    {
+      "ordinal": 21,
+      "episode_id": "7045",
+      "scene_id": "HxpKQynjfin",
+      "session_seed": 63
+    },
+    {
+      "ordinal": 22,
+      "episode_id": "5224",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 64
+    },
+    {
+      "ordinal": 23,
+      "episode_id": "4883",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 65
+    },
+    {
+      "ordinal": 24,
+      "episode_id": "7008",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 66
+    },
+    {
+      "ordinal": 25,
+      "episode_id": "10645",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 67
+    },
+    {
+      "ordinal": 26,
+      "episode_id": "10829",
+      "scene_id": "jh4fc5c5qoQ",
+      "session_seed": 68
+    },
+    {
+      "ordinal": 27,
+      "episode_id": "5223",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 69
+    },
+    {
+      "ordinal": 28,
+      "episode_id": "2303",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 70
+    },
+    {
+      "ordinal": 29,
+      "episode_id": "5949",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 71
+    },
+    {
+      "ordinal": 30,
+      "episode_id": "2751",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 72
+    },
+    {
+      "ordinal": 31,
+      "episode_id": "683",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 73
+    },
+    {
+      "ordinal": 32,
+      "episode_id": "7374",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 74
+    },
+    {
+      "ordinal": 33,
+      "episode_id": "10633",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 75
+    },
+    {
+      "ordinal": 34,
+      "episode_id": "1475",
+      "scene_id": "jh4fc5c5qoQ",
+      "session_seed": 76
+    },
+    {
+      "ordinal": 35,
+      "episode_id": "10785",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 77
+    },
+    {
+      "ordinal": 36,
+      "episode_id": "634",
+      "scene_id": "uNb9QFRL6hY",
+      "session_seed": 78
+    },
+    {
+      "ordinal": 37,
+      "episode_id": "2071",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 79
+    },
+    {
+      "ordinal": 38,
+      "episode_id": "5942",
+      "scene_id": "HxpKQynjfin",
+      "session_seed": 80
+    },
+    {
+      "ordinal": 39,
+      "episode_id": "2704",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 81
+    },
+    {
+      "ordinal": 40,
+      "episode_id": "5944",
+      "scene_id": "HxpKQynjfin",
+      "session_seed": 82
+    },
+    {
+      "ordinal": 41,
+      "episode_id": "3802",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 83
+    },
+    {
+      "ordinal": 42,
+      "episode_id": "9093",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 84
+    },
+    {
+      "ordinal": 43,
+      "episode_id": "2568",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 85
+    },
+    {
+      "ordinal": 44,
+      "episode_id": "6402",
+      "scene_id": "uNb9QFRL6hY",
+      "session_seed": 86
+    },
+    {
+      "ordinal": 45,
+      "episode_id": "2867",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 87
+    },
+    {
+      "ordinal": 46,
+      "episode_id": "5465",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 88
+    },
+    {
+      "ordinal": 47,
+      "episode_id": "5856",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 89
+    },
+    {
+      "ordinal": 48,
+      "episode_id": "1153",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 90
+    },
+    {
+      "ordinal": 49,
+      "episode_id": "9493",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 91
+    },
+    {
+      "ordinal": 50,
+      "episode_id": "5558",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 92
+    },
+    {
+      "ordinal": 51,
+      "episode_id": "742",
+      "scene_id": "5q7pvUzZiYa",
+      "session_seed": 93
+    },
+    {
+      "ordinal": 52,
+      "episode_id": "3086",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 94
+    },
+    {
+      "ordinal": 53,
+      "episode_id": "4147",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 95
+    },
+    {
+      "ordinal": 54,
+      "episode_id": "9807",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 96
+    },
+    {
+      "ordinal": 55,
+      "episode_id": "7044",
+      "scene_id": "HxpKQynjfin",
+      "session_seed": 97
+    },
+    {
+      "ordinal": 56,
+      "episode_id": "8557",
+      "scene_id": "HxpKQynjfin",
+      "session_seed": 98
+    },
+    {
+      "ordinal": 57,
+      "episode_id": "8278",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 99
+    },
+    {
+      "ordinal": 58,
+      "episode_id": "2611",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 100
+    },
+    {
+      "ordinal": 59,
+      "episode_id": "7510",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 101
+    },
+    {
+      "ordinal": 60,
+      "episode_id": "6957",
+      "scene_id": "jh4fc5c5qoQ",
+      "session_seed": 102
+    },
+    {
+      "ordinal": 61,
+      "episode_id": "224",
+      "scene_id": "sKLMLpTHeUy",
+      "session_seed": 103
+    },
+    {
+      "ordinal": 62,
+      "episode_id": "5857",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 104
+    },
+    {
+      "ordinal": 63,
+      "episode_id": "7258",
+      "scene_id": "1pXnuDYAj8r",
+      "session_seed": 105
+    }
+  ]
+}

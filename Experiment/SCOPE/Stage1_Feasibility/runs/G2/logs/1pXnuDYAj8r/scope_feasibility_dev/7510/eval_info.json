@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:7510",
+  "source_episode_id": "7510",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Exit the office area through double glass doors. Turn right and pass the staircase. After passing the staircase, turn right again and exit the double doors with Woodside homes written on the mat. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6520507733933624,
+  "path_length": 19.01176330740418,
+  "gt_path_length": 11.470918655395508,
+  "steps": 22,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4185807692636804,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.6520507733933624,
+    "SPL": 0.6033590083108246,
+    "nDTW": 0.4185807692636804,
+    "path_length": 19.01176330740418,
+    "steps_taken": 22.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

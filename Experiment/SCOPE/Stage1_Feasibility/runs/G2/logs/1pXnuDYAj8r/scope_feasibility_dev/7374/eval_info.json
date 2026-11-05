@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:7374",
+  "source_episode_id": "7374",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Walk past the fireplace on the right. When you get to the table and chairs turn right and wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.283410624561771,
+  "path_length": 10.494653230067343,
+  "gt_path_length": 9.922956466674805,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8253324327157399,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.283410624561771,
+    "SPL": 0.9455249496234313,
+    "nDTW": 0.8253324327157399,
+    "path_length": 10.494653230067343,
+    "steps_taken": 11.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

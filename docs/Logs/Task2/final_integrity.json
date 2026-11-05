@@ -1,0 +1,9 @@
+{
+  "candidate_file_hashes_match": true,
+  "protected_task1_files_unchanged": 521,
+  "task1_runtime_files_unchanged": 238,
+  "new_training_started": false,
+  "new_full_evaluation_started": false,
+  "new_model_service_started": false,
+  "approval_status": "DRAFT_REVIEW_REQUIRED"
+}

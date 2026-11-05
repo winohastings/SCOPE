@@ -1,0 +1,1120 @@
+diff --git a/benchmark/common/config.py b/benchmark/common/config.py
+index 65bacf2..3332d3e 100644
+--- a/benchmark/common/config.py
++++ b/benchmark/common/config.py
+@@ -60,6 +60,7 @@ class EnvConfig:
+ class ParallelConfig:
+     gpu_ids: tuple[int, ...]
+     worker_timeout_sec: float = 0.0
++    worker_python: str | None = None
+ 
+ 
+ @dataclass(frozen=True)
+@@ -225,7 +226,11 @@ def _build_typed_config(data: dict[str, Any], *, base_dir: Path) -> EvalConfig:
+             kwargs=env_kwargs,
+             raw=env,
+         ),
+-        parallel=ParallelConfig(gpu_ids, float(parallel.get("worker_timeout_sec", 0))),
++    parallel=ParallelConfig(
++        gpu_ids,
++        float(parallel.get("worker_timeout_sec", 0)),
++        str(parallel["worker_python"]) if parallel.get("worker_python") else None,
++    ),
+         output=OutputConfig(
+             root=Path(output["root"]),
+             run_name=output["run_name"],
+diff --git a/benchmark/common/runner/parallel_runner.py b/benchmark/common/runner/parallel_runner.py
+index a944985..90b3a22 100644
+--- a/benchmark/common/runner/parallel_runner.py
++++ b/benchmark/common/runner/parallel_runner.py
+@@ -2,6 +2,7 @@ from __future__ import annotations
+ 
+ import os
+ import subprocess
++import sys
+ import threading
+ import time
+ from pathlib import Path
+@@ -63,6 +64,7 @@ def run_eval_from_config(
+             worker_module=worker_module,
+             driver_environment=cfg.driver_environment,
+             worker_timeout_sec=cfg.parallel.worker_timeout_sec,
++            worker_python=cfg.parallel.worker_python,
+         )
+         summary = summary_from_run_artifacts(
+             ArtifactStore(planned.run_root).run_plan_path, planned.run_root, metric_keys=cfg.output.metrics
+@@ -82,6 +84,7 @@ def build_worker_subprocess_command(
+     repo_root: str | Path,
+     worker_module: str = "benchmark.common.runner.worker",
+     driver_environment: dict[str, str] | None = None,
++    worker_python: str | Path | None = None,
+ ) -> tuple[dict[str, str], list[str]]:
+     env = os.environ.copy()
+     env["CUDA_VISIBLE_DEVICES"] = str(int(physical_gpu_id))
+@@ -89,8 +92,11 @@ def build_worker_subprocess_command(
+     apply_driver_environment(driver_environment or {}, env)
+     env["UV_PROJECT_ENVIRONMENT"] = str(Path(repo_root) / ".venv")
+     env["PYTHONNOUSERSITE"] = "1"
++    worker_python = Path(worker_python).expanduser() if worker_python else Path(repo_root) / ".venv/bin/python"
++    if not worker_python.exists():
++        worker_python = Path(sys.executable)
+     command = [
+-        str(Path(repo_root) / ".venv/bin/python"),
++        str(worker_python),
+         "-u",
+         "-m",
+         str(worker_module),
+@@ -101,7 +107,13 @@ def build_worker_subprocess_command(
+ 
+ 
+ def launch_worker_subprocesses(
+-    *, workers, repo_root, worker_module="benchmark.common.runner.worker", driver_environment=None, worker_timeout_sec=0
++    *,
++    workers,
++    repo_root,
++    worker_module="benchmark.common.runner.worker",
++    driver_environment=None,
++    worker_timeout_sec=0,
++    worker_python=None,
+ ):
+     processes = []
+     try:
+@@ -113,6 +125,7 @@ def launch_worker_subprocesses(
+                 physical_gpu_id=worker.physical_gpu_id,
+                 repo_root=repo_root,
+                 worker_module=worker_module,
++                worker_python=worker_python,
+                 driver_environment=driver_environment,
+             )
+             worker.worker_log_path.parent.mkdir(parents=True, exist_ok=True)
+diff --git a/benchmark/common/runner/worker.py b/benchmark/common/runner/worker.py
+index 81998a1..ad9e3b6 100644
+--- a/benchmark/common/runner/worker.py
++++ b/benchmark/common/runner/worker.py
+@@ -3,11 +3,14 @@
+ from __future__ import annotations
+ 
+ import argparse
++import gzip
+ import json
+ import logging
+ import signal
+ import traceback
++import time
+ from dataclasses import asdict, replace
++from functools import lru_cache
+ from pathlib import Path
+ 
+ import numpy as np
+@@ -41,6 +44,8 @@ def observation_frame(observation, *, frame_id, timestamp_s, pose):
+     for key in ("camera_poses", "body_rotation"):
+         if key in observation:
+             frame[key] = observation[key]
++    if "dynamic_sensor" in observation:
++        frame["dynamic_sensor"] = observation["dynamic_sensor"]
+     return frame
+ 
+ 
+@@ -61,6 +66,24 @@ def run_worker_plan(*, cfg, worker, runtime, model, env_backend):
+     return evaluator.summary()
+ 
+ 
++@lru_cache(maxsize=4)
++def _vlnce_gt_locations(data_root, task_name, split, roles):
++    from benchmark.common.simulators.habitat.vlnce031_datasets import vlnce_split_gt_path
++
++    gt_path = vlnce_split_gt_path(data_root, task_name=task_name, split=split, roles=roles)
++    with gzip.open(gt_path, "rt", encoding="utf-8") as handle:
++        return json.load(handle)
++
++
++def _distinct_consecutive_positions(poses):
++    positions = []
++    for pose in poses:
++        position = pose.as_array()[:3]
++        if not positions or not np.array_equal(position, positions[-1]):
++            positions.append(position)
++    return positions
++
++
+ def _run_episode(*, cfg, worker, store, episode, runtime, model, env_backend):
+     history = EpisodeHistory()
+     path_length, steps, tick = 0.0, 0, 0
+@@ -92,6 +115,7 @@ def _run_episode(*, cfg, worker, store, episode, runtime, model, env_backend):
+             seed=cfg.model.seed + worker.episode_ordinals[episode.episode_uid],
+         )
+         for step in range(cfg.benchmark.max_steps):
++            scope_started = time.perf_counter()
+             steps = step + 1
+             instruction = runtime.instruction_for_step(episode, history, step)
+             prepared = runtime.prepare_observation_for_model(
+@@ -99,6 +123,8 @@ def _run_episode(*, cfg, worker, store, episode, runtime, model, env_backend):
+             )
+             instruction = prepared.get("instruction", instruction)
+             stage = "model_prediction"
++            for frame in frames:
++                frame["policy_mode"] = cfg.raw.get("policy_mode", "original")
+             response = model.predict(frames=frames, instruction=instruction)
+             if response.get("stop", False):
+                 termination = runtime.finalize(
+@@ -120,6 +146,13 @@ def _run_episode(*, cfg, worker, store, episode, runtime, model, env_backend):
+                 if motion <= float(cfg.raw["stop_threshold"]):
+                     stop_reason = stop_reason or "waypoint_motion_stop"
+             if stop_reason:
++                if "scope" in response.get("metadata", {}):
++                    writer.write_step_json(f"scope_{step:05d}.json", {
++                        **response["metadata"]["scope"], "termination": stop_reason,
++                        "predicted_world_waypoints": env_backend.project_action_to_world(current_pose, actions).tolist(),
++                        "actual_waypoint_poses": [], "habitat_render_ms": 0.0,
++                        "observation_render_ms": observation.get("scope_render_ms", 0.0),
++                        "total_ms": (time.perf_counter() - scope_started) * 1000})
+                 termination = runtime.finalize(
+                     episode, current_pose, reason=stop_reason, previous=termination, oracle_success=oracle
+                 )
+@@ -139,6 +172,15 @@ def _run_episode(*, cfg, worker, store, episode, runtime, model, env_backend):
+             distance_before = final_distance
+             step_result = env_backend.apply_action(before, actions)
+             current_pose = step_result.next_pose
++            if "scope" in response.get("metadata", {}):
++                render_observations = step_result.action_observations or [step_result.observation]
++                writer.write_step_json(f"scope_{step:05d}.json", {
++                    **response["metadata"]["scope"],
++                    "predicted_world_waypoints": world_waypoints.tolist(),
++                    "actual_waypoint_poses": np.asarray(step_result.diagnostics.get("actual_waypoint_poses", [])).tolist(),
++                    "habitat_render_ms": sum(obs.get("scope_render_ms", 0.0) for obs in render_observations),
++                    "observation_render_ms": observation.get("scope_render_ms", 0.0),
++                    "total_ms": (time.perf_counter() - scope_started) * 1000})
+             actual_rows = step_result.diagnostics.get("actual_waypoint_poses", [current_pose.as_array()])
+             actual = [Pose4D(*map(float, row[:4])) for row in actual_rows]
+             if not actual or not np.array_equal(actual[-1].as_array(), current_pose.as_array()):
+@@ -227,8 +269,22 @@ def _run_episode(*, cfg, worker, store, episode, runtime, model, env_backend):
+                 else:
+                     logging.exception("Episode cleanup failed after %s", failure)
+     reference = episode.payload.get("reference_points", [])
++    vlnce_task = episode.payload.get("task_name") in {"r2r", "rxr"}
++    if vlnce_task:
++        gt_locations = _vlnce_gt_locations(
++            str(cfg.env.kwargs["data_root"]),
++            str(episode.payload["task_name"]),
++            str(episode.payload["split"]),
++            tuple(cfg.benchmark.kwargs.get("roles") or ("guide",)),
++        )
++        reference = [
++            [-point[2], point[0], -point[1]]
++            for point in gt_locations[str(episode.source_episode_id)]["locations"]
++        ]
+     ndtw = ndtw_score(
+-        [pose.as_array()[:3] for pose in history.poses],
++        _distinct_consecutive_positions(history.poses)
++        if vlnce_task
++        else [pose.as_array()[:3] for pose in history.poses],
+         reference,
+         success_distance=float(
+             cfg.benchmark.kwargs.get(
+diff --git a/benchmark/common/simulators/habitat/backend.py b/benchmark/common/simulators/habitat/backend.py
+index 548ab58..f9d57a8 100644
+--- a/benchmark/common/simulators/habitat/backend.py
++++ b/benchmark/common/simulators/habitat/backend.py
+@@ -156,6 +156,7 @@ def _build_action_adapter(cfg: EnvConfig) -> BodyFrameContinuousActionAdapter:
+ def _observation_from_payload(payload: dict[str, Any]) -> dict[str, Any]:
+     observation = dict(payload.get("observation") or {})
+     converted: dict[str, Any] = {}
++    converted["scope_render_ms"] = float(payload.get("scope_render_ms", 0.0))
+     images = _images_from_observation_payload(observation)
+     if images:
+         converted["images"] = images
+@@ -172,6 +173,10 @@ def _observation_from_payload(payload: dict[str, Any]) -> dict[str, Any]:
+     for key in ("camera_poses", "body_rotation"):
+         if key in payload:
+             converted[key] = payload[key]
++    if observation.get("dynamic_sensor") is not None:
++        converted["dynamic_sensor"] = dict(observation["dynamic_sensor"])
++    if payload.get("dynamic_sensor") is not None:
++        converted["dynamic_sensor"] = dict(payload["dynamic_sensor"])
+     converted["instruction"] = str(payload.get("instruction") or "")
+     converted["metrics"] = dict(payload.get("metrics") or {})
+     converted["done"] = bool(payload.get("done", False))
+@@ -234,7 +239,9 @@ def _waypoint_control_diagnostics(
+         for waypoint in np.asarray(raw_actions, dtype=np.float32).reshape(-1, 4)[: len(actual_waypoint_poses)]
+     ]
+     diagnostics: list[dict[str, Any]] = []
+-    for index, (target, actual) in enumerate(zip(expected, actual_waypoint_poses, strict=True)):
++    if len(expected) != len(actual_waypoint_poses):
++        raise ValueError("Expected and actual waypoint pose counts must match")
++    for index, (target, actual) in enumerate(zip(expected, actual_waypoint_poses)):
+         position_error = float(np.linalg.norm(actual.as_array()[:3] - target.as_array()[:3]))
+         yaw_error = _wrap_to_pi(float(actual.yaw) - float(target.yaw))
+         diagnostics.append(
+diff --git a/benchmark/common/simulators/habitat/vlnce031_actions.py b/benchmark/common/simulators/habitat/vlnce031_actions.py
+index f272c6e..cae78fd 100644
+--- a/benchmark/common/simulators/habitat/vlnce031_actions.py
++++ b/benchmark/common/simulators/habitat/vlnce031_actions.py
+@@ -79,7 +79,9 @@ class MoveByPoseDelta031(SimulatorTaskAction):
+             new_pos = agent_pos
+ 
+         if abs(float(dyaw)) > 1e-6:
+-            dyaw_quat = habitat_sim.utils.quat_from_angle_axis(float(dyaw), habitat_sim.geo.UP)
++            dyaw_quat = habitat_sim.utils.quat_from_angle_axis(
++                float(dyaw), np.asarray(habitat_sim.geo.UP, dtype=np.float64)
++            )
+             new_rot = current_rot * dyaw_quat
+         else:
+             new_rot = current_rot
+diff --git a/benchmark/common/simulators/habitat/vlnce031_datasets.py b/benchmark/common/simulators/habitat/vlnce031_datasets.py
+index 779b5a1..4742014 100644
+--- a/benchmark/common/simulators/habitat/vlnce031_datasets.py
++++ b/benchmark/common/simulators/habitat/vlnce031_datasets.py
+@@ -189,13 +189,27 @@ def _split_file_path(
+     split_text = str(split)
+     task = str(task_name).lower()
+     if task == "r2r":
+-        split_dir = root / "datasets" / R2R_DATASET_NAME / split_text
++        candidates = [
++            root / "datasets" / R2R_DATASET_NAME / split_text,
++            root / "R2RCE" / R2R_DATASET_NAME / split_text,
++            root / "R2R-CE" / R2R_DATASET_NAME / split_text,
++        ]
+         stem = f"{split_text}{suffix}"
++        split_dir = next(
++            (
++                directory
++                for directory in candidates
++                if any((directory / f"{stem}{extension}").exists() for extension in (".json.gz", ".json"))
++            ),
++            candidates[0],
++        )
+     elif task == "rxr":
+         role_values = tuple(str(role) for role in (roles or ("guide",)))
+         if len(role_values) != 1:
+             raise ValueError(f"Habitat031 RxR runtime expects exactly one role per worker, got {role_values!r}")
+         split_dir = root / "datasets" / RXR_DATASET_NAME / split_text
++        if not split_dir.exists() and (root / "RXR-CE" / RXR_DATASET_NAME / split_text).exists():
++            split_dir = root / "RXR-CE" / RXR_DATASET_NAME / split_text
+         stem = f"{split_text}_{role_values[0]}{suffix}"
+     else:
+         raise ValueError(f"Unsupported VLN-CE task_name: {task_name!r}")
+diff --git a/benchmark/common/simulators/habitat/vlnce031_runtime.py b/benchmark/common/simulators/habitat/vlnce031_runtime.py
+index 01852e0..8302dee 100644
+--- a/benchmark/common/simulators/habitat/vlnce031_runtime.py
++++ b/benchmark/common/simulators/habitat/vlnce031_runtime.py
+@@ -2,6 +2,7 @@ from __future__ import annotations
+ 
+ import importlib
+ import os
++import zlib
+ from dataclasses import dataclass
+ from pathlib import Path
+ from typing import Any
+@@ -14,6 +15,7 @@ class VLNCE031HabitatRuntime:
+         self,
+         *,
+         data_root: str | Path,
++        scenes_dir: str | Path | None = None,
+         split: str,
+         gpu_id: int,
+         task_name: str = "r2r",
+@@ -27,9 +29,12 @@ class VLNCE031HabitatRuntime:
+         roles: list[str] | tuple[str, ...] | None = None,
+         languages: list[str] | tuple[str, ...] | None = None,
+         content_scenes: list[str] | tuple[str, ...] | None = None,
++        dynamic_sensor_mode: str = "fixed",
++        dynamic_sensor_seed: int = 0,
+         load_on_init: bool = True,
+     ) -> None:
+         self.data_root = Path(data_root).expanduser().resolve()
++        self.scenes_dir = Path(scenes_dir).expanduser().resolve() if scenes_dir else None
+         self.split = str(split)
+         self.gpu_id = int(gpu_id)
+         self.task_name = str(task_name or "r2r").lower()
+@@ -43,6 +48,10 @@ class VLNCE031HabitatRuntime:
+         self.roles = tuple(str(role) for role in (roles or ("guide",)))
+         self.languages = tuple(str(language) for language in (languages or ()))
+         self.content_scenes = tuple(str(scene) for scene in (content_scenes or ()))
++        self.dynamic_sensor_mode = str(dynamic_sensor_mode)
++        self.dynamic_sensor_seed = int(dynamic_sensor_seed)
++        self._dynamic_sensor = None
++        self._dynamic_policy = None
+         self.env: Any | None = None
+         self.dataset: Any | None = None
+         self._last_observation: dict[str, Any] = {}
+@@ -57,7 +66,33 @@ class VLNCE031HabitatRuntime:
+         if not episode_id:
+             raise KeyError("VLNCE031 reset payload must contain episode_id")
+         self._seek_episode(episode_id)
++        if self._dynamic_sensor is not None:
++            self._dynamic_sensor.close()
++            self._dynamic_sensor = None
++        import time
++        self._scope_render_ms = 0.0
++        if not getattr(self, "_scope_render_wrapped", False):
++            self._scope_render_depth = 0
++            for method_name in ("get_sensor_observations", "get_observations_at"):
++                original = getattr(self.env.sim, method_name)
++                def measured(*args, _original=original, **kwargs):
++                    outer = self._scope_render_depth == 0
++                    self._scope_render_depth += 1
++                    started = time.perf_counter()
++                    try:
++                        return _original(*args, **kwargs)
++                    finally:
++                        self._scope_render_depth -= 1
++                        if outer:
++                            self._scope_render_ms += (time.perf_counter() - started) * 1000
++                setattr(self.env.sim, method_name, measured)
++            self._scope_render_wrapped = True
+         observation = self.env.reset()
++        if self.dynamic_sensor_mode == "random":
++            self._ensure_dynamic_sensor()
++            episode_seed = self.dynamic_sensor_seed + zlib.crc32(episode_id.encode("utf-8"))
++            self._dynamic_policy = self._random_policy_class(seed=episode_seed)
++            observation = self._render_dynamic_sensor(observation)
+         actual_episode_id = str(getattr(self.env.current_episode, "episode_id", ""))
+         if actual_episode_id != episode_id:
+             raise RuntimeError(
+@@ -65,6 +100,8 @@ class VLNCE031HabitatRuntime:
+                 f"requested_episode_id={episode_id!r}, actual_episode_id={actual_episode_id!r}"
+             )
+         self._last_observation = dict(observation)
++        if self.dynamic_sensor_mode == "random":
++            self._last_dynamic_sensor["gt_agent_pose"] = _agent_pose(self.env)
+         return self._response(observation)
+ 
+     def step(self, payload: dict[str, Any]) -> dict[str, Any]:
+@@ -73,16 +110,25 @@ class VLNCE031HabitatRuntime:
+         action = dict(payload)
+         if "action_args" not in action:
+             action["action_args"] = {}
++        self._scope_render_ms = 0.0
+         observation = self.env.step(action)
++        if self.dynamic_sensor_mode == "random":
++            observation = self._render_dynamic_sensor(observation, action)
+         self._last_observation = dict(observation)
++        if self.dynamic_sensor_mode == "random":
++            self._last_dynamic_sensor["gt_agent_pose"] = _agent_pose(self.env)
+         return self._response(observation)
+ 
+     def close(self) -> None:
++        if self._dynamic_sensor is not None:
++            self._dynamic_sensor.close()
+         if self.env is not None:
+             self.env.close()
+             self.env = None
+         self.dataset = None
+         self._last_observation = {}
++        self._dynamic_sensor = None
++        self._dynamic_policy = None
+ 
+     def _load(self) -> None:
+         from tool.navvla.simulator_dependencies import require_simulator
+@@ -93,6 +139,13 @@ class VLNCE031HabitatRuntime:
+         actions_module = importlib.import_module("benchmark.common.simulators.habitat.vlnce031_actions")
+         measures_module = importlib.import_module("benchmark.common.simulators.habitat.vlnce031_measures")
+         datasets_module = importlib.import_module("benchmark.common.simulators.habitat.vlnce031_datasets")
++        if self.dynamic_sensor_mode == "random":
++            dynamic_sensor_module = importlib.import_module("habitat_extensions.dynamic_sensor")
++            random_policy_module = importlib.import_module(
++                "Experiment.Baselines.SimpleNav_RXR_AdaPerc_Random.random_policy"
++            )
++            self._dynamic_sensor_class = dynamic_sensor_module.DynamicSensorController
++            self._random_policy_class = random_policy_module.RandomPerceptionPolicy
+ 
+         get_config = importlib.import_module("habitat.config.default").get_config
+         read_write = importlib.import_module("habitat.config").read_write
+@@ -115,12 +168,19 @@ class VLNCE031HabitatRuntime:
+                 languages=self.languages,
+                 content_scenes=self.content_scenes,
+             )
++            if self.scenes_dir is not None:
++                cfg.habitat.dataset.scenes_dir = str(self.scenes_dir)
+             cfg.habitat.simulator.habitat_sim_v0.gpu_device_id = habitat_gpu_device_id(self.gpu_id)
+             cfg.habitat.simulator.agents.main_agent.sim_sensors = structured_camera_sensor_configs(
+                 image_size=self.image_size,
+                 height=self.camera_height,
+             )
+             cfg.habitat.task.lab_sensors = {}
++            if self.dynamic_sensor_mode == "random":
++                importlib.import_module("Experiment.Benchmark.AdaPerc_RXR_CE_VLN.habitat_task")
++                cfg.habitat.task.type = (
++                    "AdaPerc-VLNCE-RXR-v0" if self.task_name == "rxr" else "AdaPerc-VLNCE-R2R-v0"
++                )
+             cfg.habitat.task.actions = actions_module.structured_action_configs(
+                 control_mode=self.continuous_control_mode
+             )
+@@ -137,6 +197,33 @@ class VLNCE031HabitatRuntime:
+ 
+         self.dataset = make_dataset(id_dataset=cfg.habitat.dataset.type, config=cfg.habitat.dataset)
+         self.env = habitat.Env(config=cfg, dataset=self.dataset)
++        self._dynamic_sensor = None
++        if self.dynamic_sensor_mode == "random":
++            self._dynamic_policy = self._random_policy_class(seed=self.dynamic_sensor_seed)
++
++    def _ensure_dynamic_sensor(self) -> None:
++        if self._dynamic_sensor is None:
++            self._dynamic_sensor = self._dynamic_sensor_class(
++                self.env.sim,
++                width=self.image_size,
++                height=self.image_size,
++                camera_height=self.camera_height,
++            )
++
++    def _render_dynamic_sensor(self, observation: dict[str, Any], action: dict[str, Any] | None = None) -> dict[str, Any]:
++        state = self.env.sim.get_agent_state()
++        yaw = np.rad2deg(_habitat_yaw_from_quaternion(state.rotation))
++        request = self._dynamic_policy.sample(state.position, float(yaw))
++        if action:
++            action_args = action.get("action_args") or {}
++            request.update(action.get("dynamic_sensor") or action_args.get("dynamic_sensor") or {})
++        rendered = self._dynamic_sensor.render(request)
++        observation = dict(observation)
++        observation["rgb"] = rendered["image"]
++        observation["dynamic_sensor"] = {key: value for key, value in rendered.items() if key != "image"}
++        observation["dynamic_sensor"].update({key: request[key] for key in ("yaw", "hfov", "width", "height")})
++        self._last_dynamic_sensor = observation["dynamic_sensor"]
++        return observation
+ 
+     def _seek_episode(self, episode_id: str) -> None:
+         assert self.env is not None
+@@ -165,21 +252,28 @@ class VLNCE031HabitatRuntime:
+             if "distance_to_goal" in metrics:
+                 metrics["geodesic_distance_to_goal"] = metrics["distance_to_goal"]
+             metrics["euclidean_distance_to_goal"] = euclidean_distance
++        camera_metadata = camera_observation_metadata(self.env.sim)
++        if self.dynamic_sensor_mode == "random":
++            camera_metadata["camera_poses"]["front"] = camera_pose_from_transform(
++                self._last_dynamic_sensor["extrinsics"]
++            )
+         return {
+             "observation": dict(observation),
++            "scope_render_ms": float(getattr(self, "_scope_render_ms", 0.0)),
+             "pose": _agent_pose(self.env),
+-            **camera_observation_metadata(self.env.sim),
++            **camera_metadata,
+             "instruction": str(getattr(getattr(episode, "instruction", None), "instruction_text", "") or ""),
+             "episode_id": str(getattr(episode, "episode_id", "")),
+             "scene_id": str(getattr(episode, "scene_id", "")),
++            "dynamic_sensor": dict(getattr(self, "_last_dynamic_sensor", {}) or {}),
+             "metrics": metrics,
+             "done": bool(self.env.episode_over),
+         }
+ 
+-
+ def runtime_kwargs_from_cfg(kwargs: dict[str, Any], *, physical_gpu_id: int) -> dict[str, Any]:
+     return {
+         "data_root": Path(str(kwargs.get("data_root") or kwargs.get("vlnce_data_root") or ".")).expanduser().resolve(),
++        "scenes_dir": kwargs.get("scenes_dir"),
+         "split": str(kwargs.get("split") or "val_seen"),
+         "gpu_id": int(physical_gpu_id),
+         "task_name": str(kwargs.get("task_name") or kwargs.get("benchmark_name") or "r2r").lower(),
+@@ -195,6 +289,8 @@ def runtime_kwargs_from_cfg(kwargs: dict[str, Any], *, physical_gpu_id: int) ->
+         "roles": tuple(str(role) for role in (kwargs.get("roles") or ("guide",))),
+         "languages": tuple(str(language) for language in (kwargs.get("languages") or ())),
+         "content_scenes": kwargs.get("content_scenes") or kwargs.get("scene_ids"),
++        "dynamic_sensor_mode": str(kwargs.get("dynamic_sensor_mode", "fixed")),
++        "dynamic_sensor_seed": int(kwargs.get("dynamic_sensor_seed", 0)),
+     }
+ 
+ 
+@@ -233,7 +329,12 @@ def habitat_gpu_device_id(requested_gpu_id: int) -> int:
+ def _agent_pose(env: Any) -> list[float]:
+     state = env.sim.get_agent_state()
+     position = np.asarray(state.position, dtype=np.float64).reshape(-1)
+-    return [float(position[0]), float(position[1]), float(position[2]), _heading_from_quaternion(state.rotation)]
++    return [float(position[0]), float(position[1]), float(position[2]), _habitat_yaw_from_quaternion(state.rotation)]
++
++
++def _habitat_yaw_from_quaternion(rotation: Any) -> float:
++    w, x, y, z = rotation.components
++    return float(np.arctan2(2.0 * (w * y + x * z), 1.0 - 2.0 * (y * y + z * z)))
+ 
+ 
+ def _euclidean_distance_to_episode_goal(env: Any, episode: Any) -> float | None:
+diff --git a/benchmark/vlnce/benchmark.py b/benchmark/vlnce/benchmark.py
+index 59fcb7c..e923466 100644
+--- a/benchmark/vlnce/benchmark.py
++++ b/benchmark/vlnce/benchmark.py
+@@ -63,9 +63,14 @@ class VLNCEBenchmark(BaseBenchmarkRuntime):
+ 
+     def log_step_artifacts(self, state: StepState, artifacts: Any) -> dict[str, Any]:
+         del artifacts
+-        return {
++        payload = {
+             "habitat_metrics": dict(state.diagnostics.get("metrics") or {}),
+         }
++        if "action_uncertainty" in state.prediction.metadata:
++            payload["action_uncertainty"] = state.prediction.metadata["action_uncertainty"]
++        if "dynamic_sensor" in state.post_observation:
++            payload["dynamic_sensor"] = state.post_observation["dynamic_sensor"]
++        return payload
+ 
+     def observe(self, episode, observation):
+         self._last_metrics[episode.episode_uid] = dict(observation["metrics"])
+diff --git a/benchmark/vlnce/inputs.py b/benchmark/vlnce/inputs.py
+index b50d71b..14712f4 100644
+--- a/benchmark/vlnce/inputs.py
++++ b/benchmark/vlnce/inputs.py
+@@ -171,12 +171,25 @@ def _load_records(
+ 
+ def _split_paths(data_root: Path, *, task_name: str, split: str, roles: tuple[str, ...]) -> list[Path]:
+     if task_name == "rxr":
+-        return [data_root / "datasets" / "RxR_VLNCE_v0" / split / f"{split}_{role}.json.gz" for role in roles]
++        standard = data_root / "datasets" / "RxR_VLNCE_v0" / split
++        local = data_root / "RXR-CE" / "RxR_VLNCE_v0" / split
++        split_dir = local if not standard.exists() and local.exists() else standard
++        return [split_dir / f"{split}_{role}.json.gz" for role in roles]
+     if task_name == "r2r":
+-        return [data_root / "datasets" / "R2R_VLNCE_v1-3_preprocessed" / split / f"{split}.json.gz"]
++        standard = data_root / "datasets" / "R2R_VLNCE_v1-3_preprocessed" / split / f"{split}.json.gz"
++        candidates = [
++            standard,
++            data_root / "R2RCE" / "R2R_VLNCE_v1-3_preprocessed" / split / f"{split}.json.gz",
++            data_root / "R2R-CE" / "R2R_VLNCE_v1-3_preprocessed" / split / f"{split}.json.gz",
++        ]
++        return [next((path for path in candidates if _existing_split(path)), standard)]
+     raise ValueError(f"Unsupported VLN-CE task_name: {task_name!r}")
+ 
+ 
++def _existing_split(path: Path) -> bool:
++    return path.exists() or path.with_suffix("").exists()
++
++
+ def _existing_json_or_json_gz(path: Path) -> Path:
+     if path.exists():
+         return path
+diff --git a/deployment/model_server/legacy_rxr_server.py b/deployment/model_server/legacy_rxr_server.py
+new file mode 100644
+--- /dev/null
++++ b/deployment/model_server/legacy_rxr_server.py
+@@ -0,0 +1,270 @@
++"""Serve the released navvla_qwen35_cpm RXR checkpoint with the current RPC protocol."""
++from __future__ import annotations
++
++import argparse
++import asyncio
++import json
++import sys
++from pathlib import Path
++from types import MethodType
++
++import numpy as np
++
++
++class LegacyRXRPolicy:
++    def __init__(
++        self,
++        checkpoint: str,
++        legacy_root: str,
++        qwen_root: str,
++        device: str = "cuda",
++        action_uncertainty: bool = False,
++        uncertainty_log: str | None = None,
++        uncertainty_mode: str = "hutchinson",
++        hutchinson_samples: int = 4,
++    ):
++        import importlib
++        import os
++
++        legacy_root = str(Path(legacy_root).resolve())
++        for module_name in tuple(sys.modules):
++            if module_name in {"starVLA", "NavVLAeval", "deployment"} or module_name.startswith(("starVLA.", "NavVLAeval.", "deployment.")):
++                del sys.modules[module_name]
++        sys.path = [legacy_root] + [item for item in sys.path if Path(item or os.getcwd()).resolve() != Path(__file__).resolve().parents[2]]
++        importlib.invalidate_caches()
++        import torch
++        from starVLA.model.framework.base_framework import baseframework
++        from NavVLAeval.common.data.runtime_dataset import OnlineNavVLARuntimeDatasetAdapter
++        from NavVLAeval.common.types import EpisodeHistory
++
++        self.torch = torch
++        self.EpisodeHistory = EpisodeHistory
++        self.adapter = OnlineNavVLARuntimeDatasetAdapter(
++            required_cameras=("front", "left", "right", "rear"),
++            action_horizon=8,
++            history_selection="bats",
++            history_update_mode="action_observations",
++            dataset_name="rxr",
++            bats_seed=42,
++            bats_epsilon=0.1,
++            bats_k=4.0,
++            use_dynamic_bats_k=True,
++            bats_sampling_mode="priority_capped",
++            bats_token_budget=1024,
++            budget_num_cameras=4,
++            current_visual_tokens=64,
++            history_visual_tokens=4,
++            tvi_tokens=1,
++            include_state=False,
++            eval_image_fps=1.0,
++        )
++        overrides = {
++            "framework": {
++                "name": "navvla_qwen35_cpm",
++                "qwenvl": {
++                    "base_vlm": str(Path(qwen_root).resolve()),
++                    "attn_implementation": "sdpa",
++                },
++                "navvla": {
++                    "use_platform_text": True,
++                    "tvi_mode": "time_yaw",
++                    "history_visual_tokens": 4,
++                    "long_memory_source_visual_tokens": 4,
++                    "long_memory_visual_tokens": 0,
++                    "current_visual_tokens": 64,
++                    "visual_token_profile": "qwen3_5_4b_postmerge_pool4_256_mmap",
++                    "visual_cache_stage": "vit_postmerge_pool4",
++                    "visual_cache_input_resize": [256, 256],
++                    "visual_cache_encoder_ckpt": str(Path(qwen_root).resolve()),
++                },
++                "action_model": {
++                    "action_dim": 4,
++                    "action_horizon": 8,
++                    "max_seq_len": 2048,
++                    "diffusion_model_cfg": {"cross_attention_dim": 2560, "interleave_self_attention": True},
++                },
++            }
++        }
++        self.model = baseframework.from_pretrained(checkpoint, config_overrides=overrides)
++        self.model = self.model.to(device).eval()
++        self.action_stats_by_key = self.model.norm_stats
++        self.action_uncertainty = action_uncertainty
++        self.uncertainty_log = Path(uncertainty_log) if uncertainty_log else None
++        self.uncertainty_mode = uncertainty_mode
++        self.hutchinson_samples = int(hutchinson_samples)
++        if action_uncertainty:
++            import importlib.util
++
++            head_path = Path(__file__).resolve().parents[2] / "starVLA/model/modules/action_model/GR00T_ActionHeader.py"
++            spec = importlib.util.spec_from_file_location("_adaperc_uncertainty_action_head", head_path)
++            if spec is None or spec.loader is None:
++                raise ImportError(f"Cannot load uncertainty action head: {head_path}")
++            module = importlib.util.module_from_spec(spec)
++            spec.loader.exec_module(module)
++            head = self.model.action_model
++            for method_name in ("_predict_velocity", "_predict_action_impl", "predict_action"):
++                setattr(head, method_name, MethodType(getattr(module.FlowmatchingActionHead, method_name), head))
++
++    def new_session(self, *, episode_id, statistics_key, seed):
++        key = statistics_key or "vln_train_train"
++        if key not in self.action_stats_by_key:
++            raise KeyError(f"statistics key not found: {key}")
++        self.adapter.set_action_stats(self.action_stats_by_key[key]["action"])
++        session = {
++            "episode_id": str(episode_id),
++            "seed": int(seed),
++            "history": self.EpisodeHistory(),
++            "frame_index": 0,
++            "prediction_index": 0,
++            "key": key,
++        }
++        return session
++
++    @staticmethod
++    def _observation(frame, frame_index):
++        return {
++            "images": {key: np.asarray(value, dtype=np.uint8) for key, value in frame["images"].items()},
++            "image": np.asarray(frame["images"]["front"], dtype=np.uint8),
++            "pose": np.asarray(frame.get("body_pose", [0, 0, 0, 0]), dtype=np.float32),
++            "navvla_eval": {"frame_index": int(frame_index), "timestamp": float(frame.get("timestamp_s", frame_index))},
++        }
++
++    @staticmethod
++    def _append_history(history, observation, instruction):
++        history.observations.append(observation)
++        history.instructions.append(str(instruction))
++
++    def _seeded_prediction(self, sample, seed):
++        with self.torch.random.fork_rng(devices=[self.torch.cuda.current_device()] if self.torch.cuda.is_available() else []):
++            self.torch.manual_seed(int(seed))
++            if self.torch.cuda.is_available():
++                self.torch.cuda.manual_seed_all(int(seed))
++            if not self.action_uncertainty:
++                return self.model.predict_action(examples=[sample])
++            head = self.model.action_model
++            original_predict = head.predict_action
++            measured = {}
++
++            def predict_with_uncertainty(vl_embs, state=None):
++                actions, metrics = original_predict(
++                    vl_embs,
++                    state,
++                    return_uncertainty=True,
++                    uncertainty_mode=self.uncertainty_mode,
++                    hutchinson_samples=self.hutchinson_samples,
++                )
++                measured.update({key: float(value[0].item()) for key, value in metrics.items()})
++                return actions
++
++            head.predict_action = predict_with_uncertainty
++            try:
++                output = self.model.predict_action(examples=[sample])
++            finally:
++                head.predict_action = original_predict
++            if not measured:
++                raise RuntimeError("Action uncertainty was not computed")
++            output["action_uncertainty"] = measured
++            return output
++
++    def predict_session(self, session, *, frames, instruction):
++        history = session["history"]
++        latest = None
++        for frame in frames:
++            latest = self._observation(frame, session["frame_index"])
++            self._append_history(history, latest, instruction)
++            session["frame_index"] += 1
++        if latest is None:
++            raise ValueError("predict requires at least one frame")
++        prior = self.EpisodeHistory(
++            observations=list(history.observations[:-1]),
++            instructions=list(history.instructions[:-1]),
++            poses=list(history.poses),
++            raw_actions=list(history.raw_actions),
++            long_memory_tokens=history.long_memory_tokens,
++            long_memory_tvi=history.long_memory_tvi,
++            long_memory_blocks=list(history.long_memory_blocks),
++            long_memory_frame_indices=set(history.long_memory_frame_indices),
++        )
++        sample = self.adapter.build_example(observation=latest, history=prior, instruction=instruction)
++        output = self._seeded_prediction(sample, session["seed"] + len(history.observations))
++        normalized = np.asarray(output["normalized_actions"], dtype=np.float32)
++        if normalized.ndim == 3:
++            normalized = normalized[0]
++        from tool.navvla.statistics import unnormalize_values
++
++        actions = normalized.copy()
++        actions[:, :4] = unnormalize_values(normalized[:, :4], self.action_stats_by_key[session["key"]]["action"])
++        response = {"actions": actions, "stop": False, "action_spec": "anchor_relative_body_frame_xyz_yaw"}
++        if self.action_uncertainty:
++            record = {
++                "episode_id": session["episode_id"],
++                "prediction_index": session["prediction_index"],
++                **output["action_uncertainty"],
++            }
++            response["metadata"] = {"action_uncertainty": record}
++            if self.uncertainty_log is not None:
++                self.uncertainty_log.parent.mkdir(parents=True, exist_ok=True)
++                with self.uncertainty_log.open("a", encoding="utf-8") as stream:
++                    stream.write(json.dumps(record, allow_nan=False) + "\n")
++        session["prediction_index"] += 1
++        return response
++
++
++async def serve(policy, host, port, checkpoint):
++    import websockets.asyncio.server
++    from deployment.model_server.tools import msgpack_numpy
++
++    async def handle(websocket):
++        sessions = {}
++        await websocket.send(msgpack_numpy.packb({"protocol": "simplenav.session.v1", "checkpoint": checkpoint}))
++        async for raw in websocket:
++            request = msgpack_numpy.unpackb(raw)
++            session_id = request["session_id"]
++            try:
++                if request["method"] == "reset":
++                    sessions[session_id] = policy.new_session(**request["payload"])
++                    result = None
++                elif request["method"] == "predict":
++                    result = policy.predict_session(sessions[session_id], **request["payload"])
++                elif request["method"] == "close":
++                    sessions.pop(session_id, None)
++                    result = None
++                else:
++                    raise ValueError(f"unknown method: {request['method']}")
++                response = {"ok": True, "data": result}
++            except Exception as exc:
++                import traceback
++
++                traceback.print_exc()
++                sessions.pop(session_id, None)
++                response = {"ok": False, "error": f"{type(exc).__name__}: {exc}"}
++            await websocket.send(msgpack_numpy.packb(response))
++
++    async with websockets.asyncio.server.serve(handle, host, port, compression=None, max_size=None) as server:
++        await server.serve_forever()
++
++
++if __name__ == "__main__":
++    parser = argparse.ArgumentParser()
++    parser.add_argument("--checkpoint", required=True)
++    parser.add_argument("--legacy-root", required=True)
++    parser.add_argument("--qwen-root", required=True)
++    parser.add_argument("--host", default="127.0.0.1")
++    parser.add_argument("--port", type=int, default=10093)
++    parser.add_argument("--device", default="cuda")
++    parser.add_argument("--action-uncertainty", action="store_true")
++    parser.add_argument("--uncertainty-log")
++    parser.add_argument("--uncertainty-mode", choices=("full", "diag", "hutchinson"), default="hutchinson")
++    parser.add_argument("--hutchinson-samples", type=int, default=4)
++    args = parser.parse_args()
++    policy = LegacyRXRPolicy(
++        args.checkpoint,
++        args.legacy_root,
++        args.qwen_root,
++        args.device,
++        args.action_uncertainty,
++        args.uncertainty_log,
++        args.uncertainty_mode,
++        args.hutchinson_samples,
++    )
++    asyncio.run(serve(policy, args.host, args.port, args.checkpoint))
+diff --git a/benchmark/vlnce/r2r/config_standard_local.yaml b/benchmark/vlnce/r2r/config_standard_local.yaml
+new file mode 100644
+--- /dev/null
++++ b/benchmark/vlnce/r2r/config_standard_local.yaml
+@@ -0,0 +1,64 @@
++benchmark:
++  name: SimpleNav-R2RCE-Standard
++  class_path: benchmark.vlnce.benchmark:VLNCEBenchmark
++  max_steps: 200
++  max_samples: null
++  kwargs:
++    task_name: r2r
++    split: val_unseen
++    success_distance: 3.0
++    stop_on_success_radius: false
++    distance_metric: euclidean
++input:
++  type: vlnce_r2r
++  adapter_class_path: benchmark.vlnce.inputs:VLNCEInputAdapter
++  namespace: r2r_standard_val_unseen
++  path: /home/data/czh/Third_Party/tasks
++  task_name: r2r
++  split: val_unseen
++model:
++  uri: ws://127.0.0.1:10093
++  statistics_key: vln_train_train
++  seed: 42
++  request_timeout_sec: 120.0
++env:
++  type: habitat
++  backend_class_path: benchmark.common.simulators.habitat.backend:VLNCE031HabitatBackend
++  kwargs:
++    data_root: /home/data/czh/Third_Party/tasks
++    scenes_dir: /home/data/czh/Third_Party/scenes/mp3d
++    split: val_unseen
++    success_distance: 3.0
++    image_size: 256
++    camera_height: 1.25
++    max_episode_steps: 200
++    task_name: r2r
++    seed: 0
++    continuous_control_mode: collision_slide_pose_delta
++    capture_action_observations: true
++    action_adapter_class_path: benchmark.common.simulators.habitat.action_adapter:BodyFrameContinuousActionAdapter
++    action_adapter_kwargs:
++      step_scale: 1.0
++      min_delta: 0.001
++      enable_lateral: true
++      lateral_sign: -1.0
++      yaw_sign: -1.0
++      action_index: 0
++    execute_waypoints_per_step: 8
++parallel:
++  gpu_ids: [0]
++  worker_timeout_sec: 0
++  worker_python: /home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python
++output:
++  root: /home/data/czh/Third_Party/baselines/SimpleNav/local/eval_results/vlnce
++  run_name: simplenav_r2rce_standard_val_unseen
++  save_step_artifacts: true
++  save_images: false
++  action_observation_image_policy: step
++  image_cameras: [front, left, right, rear]
++  metrics: [SR, OSR, NE, SPL, nDTW, path_length, steps_taken]
++stop_rule: mean_adjacent_waypoint_translation
++stop_threshold: 0.03
++observation:
++  fps: 1.0
++driver_paths_file: ../../driver_paths.yaml
+diff --git a/benchmark/vlnce/rxr/config_standard_local_50.yaml b/benchmark/vlnce/rxr/config_standard_local_50.yaml
+new file mode 100644
+--- /dev/null
++++ b/benchmark/vlnce/rxr/config_standard_local_50.yaml
+@@ -0,0 +1,70 @@
++benchmark:
++  name: SimpleNav-RXRCE-Standard
++  class_path: benchmark.vlnce.benchmark:VLNCEBenchmark
++  max_steps: 500
++  max_samples: 50
++  kwargs:
++    task_name: rxr
++    split: val_unseen
++    roles: [guide]
++    languages: [en-US, en-IN]
++    success_distance: 3.0
++    stop_on_success_radius: false
++    distance_metric: euclidean
++input:
++  type: vlnce_rxr
++  adapter_class_path: benchmark.vlnce.inputs:VLNCEInputAdapter
++  namespace: rxr_standard_val_unseen_guide_en
++  path: /home/data/czh/Third_Party/tasks
++  task_name: rxr
++  split: val_unseen
++  roles: [guide]
++  languages: [en-US, en-IN]
++model:
++  uri: ws://127.0.0.1:10093
++  statistics_key: vln_train_train
++  seed: 42
++  request_timeout_sec: 120.0
++env:
++  type: habitat
++  backend_class_path: benchmark.common.simulators.habitat.backend:VLNCE031HabitatBackend
++  kwargs:
++    data_root: /home/data/czh/Third_Party/tasks
++    scenes_dir: /home/data/czh/Third_Party/scenes/mp3d
++    split: val_unseen
++    success_distance: 3.0
++    image_size: 256
++    camera_height: 1.25
++    max_episode_steps: 500
++    task_name: rxr
++    roles: [guide]
++    languages: [en-US, en-IN]
++    seed: 0
++    continuous_control_mode: collision_slide_pose_delta
++    capture_action_observations: true
++    action_adapter_class_path: benchmark.common.simulators.habitat.action_adapter:BodyFrameContinuousActionAdapter
++    action_adapter_kwargs:
++      step_scale: 1.0
++      min_delta: 0.001
++      enable_lateral: true
++      lateral_sign: -1.0
++      yaw_sign: -1.0
++      action_index: 0
++    execute_waypoints_per_step: 8
++parallel:
++  gpu_ids: [0]
++  worker_timeout_sec: 0
++  worker_python: /home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python
++output:
++  root: /home/data/czh/Third_Party/baselines/SimpleNav/local/eval_results/vlnce
++  run_name: simplenav_rxrce_standard_val_unseen_50
++  save_step_artifacts: true
++  save_images: false
++  action_observation_image_policy: step
++  image_cameras: [front, left, right, rear]
++  metrics: [SR, OSR, NE, SPL, nDTW, path_length, steps_taken]
++stop_rule: mean_adjacent_waypoint_translation
++stop_threshold: 0.03
++observation:
++  fps: 1.0
++driver_paths_file: ../../driver_paths.yaml
+diff --git a/tests/test_vlnce_ndtw.py b/tests/test_vlnce_ndtw.py
+new file mode 100644
+--- /dev/null
++++ b/tests/test_vlnce_ndtw.py
+@@ -0,0 +1,41 @@
++from __future__ import annotations
++
++import gzip
++import json
++import tempfile
++import unittest
++from pathlib import Path
++
++import numpy as np
++
++from benchmark.common.log.metrics import ndtw_score
++from benchmark.common.runner.worker import _distinct_consecutive_positions, _vlnce_gt_locations
++from benchmark.common.types import Pose4D
++
++
++class VLNCENDTWTests(unittest.TestCase):
++    def test_dense_ground_truth_is_loaded_for_both_tasks(self):
++        with tempfile.TemporaryDirectory() as temporary:
++            root = Path(temporary)
++            for task_name, dataset, filename in (
++                ("r2r", "R2R_VLNCE_v1-3_preprocessed", "val_unseen_gt.json.gz"),
++                ("rxr", "RxR_VLNCE_v0", "val_unseen_guide_gt.json.gz"),
++            ):
++                with self.subTest(task_name=task_name):
++                    directory = root / "datasets" / dataset / "val_unseen"
++                    directory.mkdir(parents=True)
++                    expected = {"1": {"locations": [[0, 0, 0], [0.25, 0, 0], [0.5, 0, 0]]}}
++                    with gzip.open(directory / filename, "wt", encoding="utf-8") as stream:
++                        json.dump(expected, stream)
++                    loaded = _vlnce_gt_locations(str(root), task_name, "val_unseen", ("guide",))
++                    self.assertEqual(loaded, expected)
++
++    def test_stationary_waypoints_do_not_change_ndtw(self):
++        poses = [Pose4D(0, 0, 0, 0), Pose4D(0, 0, 0, 1), Pose4D(1, 0, 0, 1)]
++        positions = _distinct_consecutive_positions(poses)
++        np.testing.assert_array_equal(positions, [[0, 0, 0], [1, 0, 0]])
++        self.assertEqual(ndtw_score(positions, [[0, 0, 0], [1, 0, 0]], success_distance=3), 1.0)
++
++
++if __name__ == "__main__":
++    unittest.main()
+diff --git a/tests/test_vlnce_r2r_paths.py b/tests/test_vlnce_r2r_paths.py
+new file mode 100644
+--- /dev/null
++++ b/tests/test_vlnce_r2r_paths.py
+@@ -0,0 +1,68 @@
++from __future__ import annotations
++
++import gzip
++import json
++import tempfile
++import unittest
++from pathlib import Path
++
++from benchmark.vlnce.inputs import _open_json_or_json_gz, _split_paths
++
++
++class R2RSplitPathTests(unittest.TestCase):
++    def test_empty_standard_directory_does_not_hide_local_annotations(self):
++        with tempfile.TemporaryDirectory() as temporary:
++            root = Path(temporary)
++            standard = root / "datasets" / "R2R_VLNCE_v1-3_preprocessed" / "val_unseen"
++            standard.mkdir(parents=True)
++            local = root / "R2R-CE" / "R2R_VLNCE_v1-3_preprocessed" / "val_unseen"
++            local.mkdir(parents=True)
++            annotation = local / "val_unseen.json.gz"
++            with gzip.open(annotation, "wt", encoding="utf-8") as stream:
++                json.dump({"episodes": []}, stream)
++            selected = _split_paths(root, task_name="r2r", split="val_unseen", roles=())
++            self.assertEqual(selected, [annotation])
++            from benchmark.common.simulators.habitat.vlnce031_datasets import _split_file_path
++
++            self.assertEqual(
++                Path(_split_file_path(root, task_name="r2r", split="val_unseen", suffix="")),
++                annotation,
++            )
++
++    def test_input_layouts(self):
++        for layout in ("datasets", "R2RCE", "R2R-CE"):
++            for extension in (".json.gz", ".json"):
++                with self.subTest(layout=layout, extension=extension), tempfile.TemporaryDirectory() as temporary:
++                    root = Path(temporary)
++                    directory = root / layout / "R2R_VLNCE_v1-3_preprocessed" / "val_unseen"
++                    directory.mkdir(parents=True)
++                    annotation = directory / f"val_unseen{extension}"
++                    opener = gzip.open if extension.endswith(".gz") else open
++                    with opener(annotation, "wt", encoding="utf-8") as stream:
++                        json.dump({"episodes": []}, stream)
++                    selected = _split_paths(root, task_name="r2r", split="val_unseen", roles=())
++                    with _open_json_or_json_gz(selected[0]) as stream:
++                        self.assertEqual(json.load(stream), {"episodes": []})
++
++    def test_habitat_annotation_and_ground_truth_layouts(self):
++        from benchmark.common.simulators.habitat.vlnce031_datasets import _split_file_path
++
++        for layout in ("datasets", "R2RCE", "R2R-CE"):
++            for suffix in ("", "_gt"):
++                for extension in (".json.gz", ".json"):
++                    with self.subTest(layout=layout, suffix=suffix, extension=extension):
++                        with tempfile.TemporaryDirectory() as temporary:
++                            root = Path(temporary)
++                            directory = root / layout / "R2R_VLNCE_v1-3_preprocessed" / "val_unseen"
++                            directory.mkdir(parents=True)
++                            annotation = directory / f"val_unseen{suffix}{extension}"
++                            opener = gzip.open if extension.endswith(".gz") else open
++                            with opener(annotation, "wt", encoding="utf-8") as stream:
++                                json.dump({}, stream)
++                            selected = _split_file_path(root, task_name="r2r", split="val_unseen", suffix=suffix)
++                            with gzip.open(selected, "rt", encoding="utf-8") as stream:
++                                self.assertEqual(json.load(stream), {})
++
++
++if __name__ == "__main__":
++    unittest.main()

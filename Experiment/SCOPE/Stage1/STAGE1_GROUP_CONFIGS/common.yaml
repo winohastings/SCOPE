@@ -1,0 +1,75 @@
+schema: scope.stage1.protocol.v1
+status: DRAFT_REVIEW_REQUIRED
+execution:
+  training_authorized: false
+  full_evaluation_authorized: false
+  directly_loadable_by_existing_evaluator: false
+  approval_record: null
+  freeze_manifest: null
+checkpoint:
+  path: /home/data/czh/Third_Party/baselines/SimpleNav/local/checkpoints/vlnce/navvla_qwen35_cpm_rxr/checkpoints/steps_8000_pytorch_model.pt
+  sha256: 49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa
+  runtime: Experiment/SCOPE/legacy_runtime
+  qwen_root: /home/data/czh/Third_Party/models/Qwen3.5-4B
+  freeze_all_backbone_parameters: true
+  freeze_action_head: true
+  freeze_tvi: true
+  dtype: bfloat16
+  attention: sdpa
+vision:
+  cameras: [front, left, right, rear]
+  render_size: [512, 512]
+  compatible_size: [256, 256]
+  glance_size: [128, 128]
+  focus_size: [256, 256]
+  roi_count: 16
+  merged_feature_dim: 2560
+  camera_height_m: 1.25
+  hfov_deg: 90
+  roi_coordinate_convention: xyxy_right_bottom_exclusive
+  history_contract: task1_compatible_256_pool4
+  history_sampling: bats
+  history_token_budget_config: 1024
+  history_budget_current_visual_tokens_config: 64
+  history_tokens_per_camera: 4
+  encode_unselected_focus: false
+action:
+  specification: anchor_relative_body_frame_xyz_yaw
+  statistics_key: vln_train_train
+  horizon: 8
+  execute_waypoints_per_step: 8
+  continuous_control_mode: collision_slide_pose_delta
+  adapter_kwargs:
+    step_scale: 1.0
+    min_delta: 0.001
+    enable_lateral: true
+    lateral_sign: -1.0
+    yaw_sign: -1.0
+    action_index: 0
+  stop_rule: mean_adjacent_waypoint_translation
+  stop_threshold: 0.03
+  success_distance_m: 3.0
+  stop_on_success_radius: false
+  evaluation_distance_metric: euclidean
+  observation_fps: 1.0
+seeds:
+  evaluation_blocks: [42, 43, 44]
+  selector_training: [101, 202, 303]
+  habitat: 0
+  statistics_bootstrap: 20261105
+  session_rule: evaluation_block_seed_plus_global_manifest_ordinal
+  task1_prediction_rule: session_seed_plus_accumulated_observation_count
+resources:
+  model_physical_gpu: 1
+  habitat_physical_gpu: 0
+  workers: 1
+  omp_num_threads: 4
+  openblas_num_threads: 1
+  exclusive_model_gpu_required: true
+stage1:
+  stop_selection_enabled: false
+  adaptive_visual_budget_enabled: false
+  scripted_selector_allowed_for_reported_G4: false
+  require_exact_manifest_match: true
+  require_all_episode_results: true
+  failure_policy: block_final_table_until_all_results_resolved

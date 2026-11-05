@@ -1,0 +1,16 @@
+schema: scope.stage1.benchmark.v1
+task: rxr
+role: generalization_zero_selector_finetuning
+split: val_unseen
+base_config: /home/data/czh/Third_Party/baselines/SimpleNav/benchmark/vlnce/rxr/config_standard_local_50.yaml
+episode_manifest: manifests/rxr_val_unseen_guide_en.json
+expected_episodes: 3669
+expected_scenes: 11
+max_policy_steps: 500
+max_habitat_episode_steps: 500
+max_samples: null
+roles: [guide]
+languages: [en-US, en-IN]
+group_ids: [G0, G1, G2, G3, G4]
+run_seed_blocks: [42, 43, 44]
+notes: 现有base_config默认50集，正式配置编译必须覆盖为manifest全量，不能漏掉该覆盖。

@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "groups": 4,
+  "episodes_per_group": 64,
+  "total_episodes": 256,
+  "execution_failures": 0,
+  "second_stage_started": false,
+  "regression_test_log_sha256": "55c425da6e4d0e41a47e19d095f35a037312f4d70013991db2368327172b336f",
+  "final_source_hashes_sha256": "338469a7bc6a1fc80437241b3e1b32930a4d76d22f4ac691d043e8353e5047db",
+  "note": "EXECUTION_STATUS tracks process shutdown; this marker additionally requires aggregation and integrity audit"
+}

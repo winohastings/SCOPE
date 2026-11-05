@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5856",
+  "source_episode_id": "5856",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Head all the way down the stairs. At the bottom of the stairs, turn right. Go forward to the door at the end of the corridor. Enter the room, and turn left. Wait by the sink area.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.591789787593728,
+  "path_length": 25.013810372445732,
+  "gt_path_length": 12.645339965820312,
+  "steps": 22,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.32426402935644305,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.591789787593728,
+    "SPL": 0.5055343339353824,
+    "nDTW": 0.32426402935644305,
+    "path_length": 25.013810372445732,
+    "steps_taken": 22.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5224",
+  "source_episode_id": "5224",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Walk down the stairs and turn left. Stop in front of the doorway.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 4.180304296890108,
+  "path_length": 13.189129950478673,
+  "gt_path_length": 8.197208404541016,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.29930050402943403,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 4.180304296890108,
+    "SPL": 0.0,
+    "nDTW": 0.29930050402943403,
+    "path_length": 13.189129950478673,
+    "steps_taken": 12.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

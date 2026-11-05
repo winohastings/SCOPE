@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:7258",
+  "source_episode_id": "7258",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Turn around and walk over to the stairs then go down them and wait on the first landing.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.027438009847218,
+  "path_length": 13.533684138208628,
+  "gt_path_length": 13.152363777160645,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.30979882426159944,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 5.027438009847218,
+    "SPL": 0.0,
+    "nDTW": 0.30979882426159944,
+    "path_length": 13.533684138208628,
+    "steps_taken": 12.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

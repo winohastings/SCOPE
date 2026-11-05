@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "group": "G0",
+      "count": 64,
+      "failures": 0,
+      "token_roi_seed_history_stop_logs_validated": true,
+      "complete": true
+    },
+    {
+      "group": "G1",
+      "count": 64,
+      "failures": 0,
+      "token_roi_seed_history_stop_logs_validated": true,
+      "complete": true
+    },
+    {
+      "group": "G2",
+      "count": 64,
+      "failures": 0,
+      "token_roi_seed_history_stop_logs_validated": true,
+      "complete": true
+    },
+    {
+      "group": "G3",
+      "count": 64,
+      "failures": 0,
+      "token_roi_seed_history_stop_logs_validated": true,
+      "complete": true
+    }
+  ],
+  "all_complete": true,
+  "mixed_vision_calls": 3512,
+  "step_records": 3768,
+  "episode_records": 256
+}

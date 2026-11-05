@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:634",
+  "source_episode_id": "634",
+  "scene_id": "uNb9QFRL6hY",
+  "instruction": "Walk past the dining table  around the kitchen counter island. Walk through the entry into the next dining area with a smaller round table. Walk through the open entry on the other side of the table. Stop in the entryway of the home near the front door.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.883909443736012,
+  "path_length": 23.272505345754325,
+  "gt_path_length": 13.384648323059082,
+  "steps": 21,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.25856593325468674,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 3.883909443736012,
+    "SPL": 0.0,
+    "nDTW": 0.25856593325468674,
+    "path_length": 23.272505345754325,
+    "steps_taken": 21.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

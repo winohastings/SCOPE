@@ -1,0 +1,12 @@
+schema: scope.stage1.group.v1
+group: G1
+name: current_glance_only_common_history
+task1_policy_mode: glance_only
+selector: none
+implementation_status: existing_task1_path
+current_image_sizes: [[128, 128], [128, 128], [128, 128], [128, 128]]
+glance_views: 4
+focus_budget: 0
+current_visual_tokens: 64
+stop_selection_enabled: false
+notes: 仅当前观测为Glance；历史沿用共同256图pool4契约，不能称全程仅看低分辨率。

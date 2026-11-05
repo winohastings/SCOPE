@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:8557",
+  "source_episode_id": "8557",
+  "scene_id": "HxpKQynjfin",
+  "instruction": "From bar walk left across bedroom. Stop at closet with robes.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.09886975588149016,
+  "path_length": 8.232718427781947,
+  "gt_path_length": 5.173020839691162,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5863612642013837,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.09886975588149016,
+    "SPL": 0.6283490544550148,
+    "nDTW": 0.5863612642013837,
+    "path_length": 8.232718427781947,
+    "steps_taken": 10.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

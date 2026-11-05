@@ -1,0 +1,433 @@
+{
+  "class": "Qwen3_5VisionModel",
+  "repr": "Qwen3_5VisionModel(\n  (patch_embed): Qwen3_5VisionPatchEmbed(\n    (proj): Conv3d(3, 1024, kernel_size=(2, 16, 16), stride=(2, 16, 16))\n  )\n  (pos_embed): Embedding(2304, 1024)\n  (rotary_pos_emb): Qwen3_5VisionRotaryEmbedding()\n  (blocks): ModuleList(\n    (0-23): 24 x Qwen3_5VisionBlock(\n      (norm1): LayerNorm((1024,), eps=1e-06, elementwise_affine=True)\n      (norm2): LayerNorm((1024,), eps=1e-06, elementwise_affine=True)\n      (attn): Qwen3_5VisionAttention(\n        (qkv): Linear(in_features=1024, out_features=3072, bias=True)\n        (proj): Linear(in_features=1024, out_features=1024, bias=True)\n      )\n      (mlp): Qwen3_5VisionMLP(\n        (linear_fc1): Linear(in_features=1024, out_features=4096, bias=True)\n        (linear_fc2): Linear(in_features=4096, out_features=1024, bias=True)\n        (act_fn): GELUTanh()\n      )\n    )\n  )\n  (merger): Qwen3_5VisionPatchMerger(\n    (norm): LayerNorm((1024,), eps=1e-06, elementwise_affine=True)\n    (linear_fc1): Linear(in_features=4096, out_features=4096, bias=True)\n    (act_fn): GELU(approximate='none')\n    (linear_fc2): Linear(in_features=4096, out_features=2560, bias=True)\n  )\n)",
+  "config": {
+    "transformers_version": "5.12.1",
+    "architectures": null,
+    "output_hidden_states": false,
+    "return_dict": true,
+    "dtype": "bfloat16",
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "problem_type": null,
+    "depth": 24,
+    "hidden_size": 1024,
+    "hidden_act": "gelu_pytorch_tanh",
+    "intermediate_size": 4096,
+    "num_heads": 16,
+    "in_channels": 3,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2,
+    "out_hidden_size": 2560,
+    "num_position_embeddings": 2304,
+    "initializer_range": 0.02,
+    "_name_or_path": "",
+    "deepstack_visual_indexes": [],
+    "model_type": "qwen3_5_vision",
+    "output_attentions": false
+  },
+  "flops_status": "shape-based estimate; excludes elementwise, norm, softmax, RoPE",
+  "linear_shapes": {
+    "blocks.0.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.0.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.0.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.0.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.1.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.1.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.1.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.1.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.2.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.2.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.2.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.2.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.3.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.3.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.3.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.3.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.4.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.4.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.4.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.4.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.5.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.5.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.5.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.5.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.6.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.6.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.6.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.6.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.7.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.7.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.7.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.7.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.8.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.8.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.8.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.8.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.9.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.9.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.9.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.9.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.10.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.10.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.10.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.10.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.11.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.11.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.11.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.11.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.12.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.12.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.12.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.12.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.13.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.13.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.13.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.13.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.14.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.14.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.14.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.14.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.15.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.15.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.15.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.15.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.16.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.16.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.16.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.16.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.17.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.17.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.17.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.17.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.18.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.18.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.18.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.18.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.19.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.19.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.19.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.19.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.20.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.20.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.20.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.20.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.21.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.21.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.21.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.21.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.22.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.22.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.22.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.22.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "blocks.23.attn.qkv": [
+      1024,
+      3072
+    ],
+    "blocks.23.attn.proj": [
+      1024,
+      1024
+    ],
+    "blocks.23.mlp.linear_fc1": [
+      1024,
+      4096
+    ],
+    "blocks.23.mlp.linear_fc2": [
+      4096,
+      1024
+    ],
+    "merger.linear_fc1": [
+      4096,
+      4096
+    ],
+    "merger.linear_fc2": [
+      4096,
+      2560
+    ]
+  }
+}

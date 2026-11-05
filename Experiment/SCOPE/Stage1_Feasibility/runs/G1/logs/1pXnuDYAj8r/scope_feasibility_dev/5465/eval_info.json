@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5465",
+  "source_episode_id": "5465",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "After you leave the bathroom and go into the bedroom turn left and walk out the bedroom. When you are in the hallway make a left and walk to the second room on the right. Now go into the room and wait just inside the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.2449025087546422,
+  "path_length": 12.155237580649555,
+  "gt_path_length": 11.095426559448242,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8005730096375449,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.2449025087546422,
+    "SPL": 0.9128103408782012,
+    "nDTW": 0.8005730096375449,
+    "path_length": 12.155237580649555,
+    "steps_taken": 11.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

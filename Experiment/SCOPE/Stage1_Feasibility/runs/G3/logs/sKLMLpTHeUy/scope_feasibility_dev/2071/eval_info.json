@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2071",
+  "source_episode_id": "2071",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Turn right and exit the bedroom with the doorway to the right. Turn right again and walk along the hallway with pictures. Turn right on the first door to your right. Wait by the lamp in the bedroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.9480795286599903,
+  "path_length": 13.652664790861309,
+  "gt_path_length": 10.693849563598633,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6955467513260816,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.9480795286599903,
+    "SPL": 0.7832792885061369,
+    "nDTW": 0.6955467513260816,
+    "path_length": 13.652664790861309,
+    "steps_taken": 14.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

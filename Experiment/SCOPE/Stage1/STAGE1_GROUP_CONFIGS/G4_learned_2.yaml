@@ -1,0 +1,20 @@
+schema: scope.stage1.group.v1
+group: G4
+name: learned_sequential_2
+task1_policy_mode: learned_2
+selector: feature_conditioned_pointer_policy_v1
+implementation_status: design_only_not_trained
+current_image_sizes: [[128, 128], [128, 128], [128, 128], [128, 128], [256, 256], [256, 256]]
+glance_views: 4
+focus_budget: 2
+current_visual_tokens: 192
+stop_selection_enabled: false
+selector_requirements:
+  checkpoint_paths: []
+  train_seeds: [101, 202, 303]
+  feature_inputs: [four_glance_features, instruction_embedding, acquired_focus_features, camera_roi_embeddings]
+  max_trainable_parameters: 2000000
+  deterministic_evaluation: masked_argmax_lowest_id_tie_break
+  unique_within_step: true
+  reject_scripted_interface_smoke: true
+  early_stop_action_exists: false

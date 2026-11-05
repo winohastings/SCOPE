@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:3802",
+  "source_episode_id": "3802",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Stand with the railing on your left and walk straight until you get to some artwork with feathers hanging on the wall.  Turn left and enter the entertainment room.  Stop just after stepping into this room.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 1.7462503470684938,
+  "path_length": 28.150791892316192,
+  "gt_path_length": 9.12730598449707,
+  "steps": 25,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "habitat_done",
+  "failure_traceback": null,
+  "nDTW": 0.04989409255995756,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 1.7462503470684938,
+    "SPL": 0.0,
+    "nDTW": 0.04989409255995756,
+    "path_length": 28.150791892316192,
+    "steps_taken": 25.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

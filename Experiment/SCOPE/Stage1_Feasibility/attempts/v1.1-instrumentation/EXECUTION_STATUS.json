@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "started_epoch": 1793877309.8136108,
+  "finished_epoch": 1793877372.203516,
+  "wall_seconds": 62.38990569114685,
+  "two_gpu_reservation_hours": 0.0346610591146681,
+  "warning": "reservation time, not utilization-integrated compute; unrelated GPU1 service excluded"
+}

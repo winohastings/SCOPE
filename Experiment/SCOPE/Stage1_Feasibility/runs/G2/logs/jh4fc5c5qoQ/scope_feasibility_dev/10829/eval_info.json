@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:10829",
+  "source_episode_id": "10829",
+  "scene_id": "jh4fc5c5qoQ",
+  "instruction": "Enter the building, walking past the stove on your left, followed by the sink, then the refrigerator and finally, the washing machine and dryer. Stop in the doorway to the bedroom directly ahead.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.3968373283271696,
+  "path_length": 8.981754189357162,
+  "gt_path_length": 8.066496849060059,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8613644968694254,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.3968373283271696,
+    "SPL": 0.8980981531000227,
+    "nDTW": 0.8613644968694254,
+    "path_length": 8.981754189357162,
+    "steps_taken": 9.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

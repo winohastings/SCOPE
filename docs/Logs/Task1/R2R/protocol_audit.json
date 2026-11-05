@@ -1,0 +1,164 @@
+{
+  "official_protocol_source": "/home/data/czh/Third_Party/baselines/SimpleNav/docs/guides/VLNCE_TRAINING_AND_EVALUATION.md",
+  "official_protocol_sha256": "e07633d178dbe52b138b5bce6e9655d4b74ece3b8dccc7bab982272721fec66f",
+  "checkpoint_protocol": "One RXR-trained step-8000 checkpoint for R2R and RxR",
+  "baseline_artifacts": "docs/Logs/Task1/before_baselines/task1_before_r2r_20261105",
+  "baseline_metrics": {
+    "NE": 0.9433175728892051,
+    "OSR": 1.0,
+    "SPL": 0.8257989600357091,
+    "SR": 1.0,
+    "nDTW": 0.737396479579614,
+    "path_length": 10.81958181830123,
+    "steps_taken": 10.5
+  },
+  "shared_protocol": {
+    "benchmark": {
+      "name": "SimpleNav-R2RCE-Standard",
+      "class_path": "benchmark.vlnce.benchmark:VLNCEBenchmark",
+      "max_steps": 2,
+      "max_samples": 2,
+      "kwargs": {
+        "task_name": "r2r",
+        "split": "val_unseen",
+        "success_distance": 3.0,
+        "stop_on_success_radius": false,
+        "distance_metric": "euclidean"
+      }
+    },
+    "input": {
+      "type": "vlnce_r2r",
+      "adapter_class_path": "benchmark.vlnce.inputs:VLNCEInputAdapter",
+      "namespace": "r2r_standard_val_unseen",
+      "path": "/home/data/czh/Third_Party/tasks",
+      "task_name": "r2r",
+      "split": "val_unseen",
+      "roots": []
+    },
+    "env": {
+      "type": "habitat",
+      "backend_class_path": "benchmark.common.simulators.habitat.backend:VLNCE031HabitatBackend",
+      "kwargs": {
+        "data_root": "/home/data/czh/Third_Party/tasks",
+        "scenes_dir": "/home/data/czh/Third_Party/scenes/mp3d",
+        "split": "val_unseen",
+        "success_distance": 3.0,
+        "image_size": 512,
+        "camera_height": 1.25,
+        "max_episode_steps": 200,
+        "task_name": "r2r",
+        "seed": 0,
+        "continuous_control_mode": "collision_slide_pose_delta",
+        "capture_action_observations": true,
+        "action_adapter_class_path": "benchmark.common.simulators.habitat.action_adapter:BodyFrameContinuousActionAdapter",
+        "action_adapter_kwargs": {
+          "step_scale": 1.0,
+          "min_delta": 0.001,
+          "enable_lateral": true,
+          "lateral_sign": -1.0,
+          "yaw_sign": -1.0,
+          "action_index": 0
+        },
+        "execute_waypoints_per_step": 8
+      }
+    },
+    "model": {
+      "uri": "ws://127.0.0.1:10094",
+      "statistics_key": "vln_train_train",
+      "seed": 42,
+      "request_timeout_sec": 120.0
+    },
+    "stop_rule": "mean_adjacent_waypoint_translation",
+    "stop_threshold": 0.03,
+    "observation": {
+      "fps": 1.0
+    }
+  },
+  "mode_checks": [
+    {
+      "mode": "original",
+      "episodes": [
+        "1",
+        "2"
+      ],
+      "predictions": 4,
+      "current_tokens": 256,
+      "passed": true
+    },
+    {
+      "mode": "glance_only",
+      "episodes": [
+        "1",
+        "2"
+      ],
+      "predictions": 4,
+      "current_tokens": 64,
+      "passed": true
+    },
+    {
+      "mode": "fixed_2",
+      "episodes": [
+        "1",
+        "2"
+      ],
+      "predictions": 4,
+      "current_tokens": 192,
+      "passed": true
+    },
+    {
+      "mode": "random_2",
+      "episodes": [
+        "1",
+        "2"
+      ],
+      "predictions": 4,
+      "current_tokens": 192,
+      "passed": true
+    },
+    {
+      "mode": "learned_2",
+      "episodes": [
+        "1",
+        "2"
+      ],
+      "predictions": 4,
+      "current_tokens": 192,
+      "passed": true
+    },
+    {
+      "mode": "learned_adaptive",
+      "episodes": [
+        "1",
+        "2"
+      ],
+      "predictions": 4,
+      "current_tokens": 128,
+      "passed": true
+    }
+  ],
+  "fixed_observation_equivalence": [
+    {
+      "step": 0,
+      "max_abs_difference": 0.0,
+      "shape": [
+        8,
+        4
+      ]
+    },
+    {
+      "step": 1,
+      "max_abs_difference": 0.0,
+      "shape": [
+        8,
+        4
+      ]
+    }
+  ],
+  "smoke_episode_runs": 12,
+  "smoke_prediction_steps": 24,
+  "passed": true,
+  "limitations": [
+    "two-policy-step smoke, not full evaluation",
+    "scripted selectors, not trained policies"
+  ]
+}

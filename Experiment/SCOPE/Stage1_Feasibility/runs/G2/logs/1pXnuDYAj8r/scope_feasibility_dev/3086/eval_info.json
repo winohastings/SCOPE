@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:3086",
+  "source_episode_id": "3086",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Exit laundry room and walk down stairs to the left. At bottom of the stairs walk into open room and stop next to chair with pillow.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 3.5501885041626857,
+  "path_length": 1.0379488123580813,
+  "gt_path_length": 11.686015129089355,
+  "steps": 5,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3516403338482098,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 3.5501885041626857,
+    "SPL": 0.0,
+    "nDTW": 0.3516403338482098,
+    "path_length": 1.0379488123580813,
+    "steps_taken": 5.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5857",
+  "source_episode_id": "5857",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Go down the flight of stairs to the living room. Take a right and go into the bedroom. Turn left and wait in front of the sink.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 6.999016465259487,
+  "path_length": 28.28061901219189,
+  "gt_path_length": 12.645339965820312,
+  "steps": 25,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "habitat_done",
+  "failure_traceback": null,
+  "nDTW": 0.0866698343609702,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 6.999016465259487,
+    "SPL": 0.0,
+    "nDTW": 0.0866698343609702,
+    "path_length": 28.28061901219189,
+    "steps_taken": 25.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

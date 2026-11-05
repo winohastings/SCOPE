@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2867",
+  "source_episode_id": "2867",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Enter the house and take a right. Go straight into the kitchen at the end of the hall. Stop behind the first dining chair you come to.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.0120716230762477,
+  "path_length": 17.400908441690262,
+  "gt_path_length": 11.659695625305176,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2205298387526896,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 3.0120716230762477,
+    "SPL": 0.0,
+    "nDTW": 0.2205298387526896,
+    "path_length": 17.400908441690262,
+    "steps_taken": 18.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

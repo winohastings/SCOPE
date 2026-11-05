@@ -1,0 +1,18 @@
+schema: scope.stage1.benchmark.v1
+task: r2r
+role: primary
+split: val_unseen
+base_config: /home/data/czh/Third_Party/baselines/SimpleNav/benchmark/vlnce/r2r/config_standard_local.yaml
+episode_manifest: manifests/r2r_val_unseen.json
+expected_episodes: 1839
+expected_scenes: 11
+max_policy_steps: 200
+max_habitat_episode_steps: 200
+max_samples: null
+roles: []
+languages: []
+group_ids: [G0, G1, G2, G3, G4]
+run_seed_blocks: [42, 43, 44]
+pilot:
+  source: train_heldout_scenes_only
+  val_unseen_tuning_allowed: false

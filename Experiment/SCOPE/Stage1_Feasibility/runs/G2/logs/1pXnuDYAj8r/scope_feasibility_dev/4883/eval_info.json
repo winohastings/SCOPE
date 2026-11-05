@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:4883",
+  "source_episode_id": "4883",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Turn to the left to face the balcony hallway. Walk down the hallway towards the horse painting at the end of the hall. Before you reach the end of the hall turn to the right towards the top of the stairs. Walk down the stairs to the first landing and turn to face the rest of the stairs leading down.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.4441792354168805,
+  "path_length": 10.409672368317842,
+  "gt_path_length": 9.883399963378906,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7517446569925985,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.4441792354168805,
+    "SPL": 0.9494439031010561,
+    "nDTW": 0.7517446569925985,
+    "path_length": 10.409672368317842,
+    "steps_taken": 9.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

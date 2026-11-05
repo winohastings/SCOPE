@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2303",
+  "source_episode_id": "2303",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "Walk across the patio and into the house. Go straight past the sectional sofa and wait near the three doors.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6506002635995882,
+  "path_length": 13.646327749826014,
+  "gt_path_length": 13.08346176147461,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.75656009837309,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.6506002635995882,
+    "SPL": 0.9587532998862217,
+    "nDTW": 0.75656009837309,
+    "path_length": 13.646327749826014,
+    "steps_taken": 12.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

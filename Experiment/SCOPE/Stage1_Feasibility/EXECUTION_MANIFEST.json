@@ -1,0 +1,45 @@
+{
+  "version": "feasibility-v1.1",
+  "authorized": true,
+  "training_authorized": false,
+  "protocol_sha256": "0294c1f08268d111115ae0b390198ca17646024cba662728bbd197809d1f91f6",
+  "checkpoint": {
+    "path": "/home/data/czh/Third_Party/baselines/SimpleNav/local/checkpoints/vlnce/navvla_qwen35_cpm_rxr/checkpoints/steps_8000_pytorch_model.pt",
+    "sha256": "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa",
+    "runtime": "Experiment/SCOPE/legacy_runtime",
+    "qwen_root": "/home/data/czh/Third_Party/models/Qwen3.5-4B",
+    "freeze_all_backbone_parameters": true,
+    "freeze_action_head": true,
+    "freeze_tvi": true,
+    "dtype": "bfloat16",
+    "attention": "sdpa"
+  },
+  "episodes_sha256": "0e9155b2fe4b6aff780cb37e419a52c44a9a4e5cc03511ff34642bacc735d8c2",
+  "planned_per_group": 64,
+  "groups": {
+    "G0": {
+      "config": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/configs/G0.yaml",
+      "sha256": "59bebb9720fee52175681e291557f7fb72cabd7f9d95caa129493ce26eca20eb",
+      "mode": "original",
+      "manifest_sha256": "6911dc39611128c634ca6d81a2bed44150629510537d40fb4b25717b5b7240f8"
+    },
+    "G1": {
+      "config": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/configs/G1.yaml",
+      "sha256": "7dd34c659d507e2edfd8542ebfe3e00330661f8612b9b16431de7e73f8080d57",
+      "mode": "glance_only",
+      "manifest_sha256": "4f97792289626b88bbc5f588cd34c7f30a9d6ef0e5429cc6538efe1ebf15c00c"
+    },
+    "G2": {
+      "config": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/configs/G2.yaml",
+      "sha256": "e21d45ff04fe7167e0ab6edf83210a1353bbaa583756e8328740b48a81909612",
+      "mode": "fixed_2",
+      "manifest_sha256": "4cb118425863c4a838b34d193b543ae062c2c21228d07d750650c309477cbfca"
+    },
+    "G3": {
+      "config": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/configs/G3.yaml",
+      "sha256": "f9dbd41ef628e8ad7b12293a708ce9ca3ade7d09e0e1188b1c374afd18afa781",
+      "mode": "random_2",
+      "manifest_sha256": "6ac541d8407eb4446bfe79b1694e03b63fe7e67aecfa6ef885f6ad3f7c37f338"
+    }
+  }
+}

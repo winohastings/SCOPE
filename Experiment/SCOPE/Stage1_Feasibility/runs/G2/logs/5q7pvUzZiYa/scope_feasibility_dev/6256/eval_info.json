@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:6256",
+  "source_episode_id": "6256",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Turn around and exit out the door to the left of the TV. Once out walk across the room and out the door straight ahead. Go up the stairs and stop on the 2nd step.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.28262753828951404,
+  "path_length": 21.660113553574774,
+  "gt_path_length": 10.89818000793457,
+  "steps": 21,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3563807454806946,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.28262753828951404,
+    "SPL": 0.5031451003697965,
+    "nDTW": 0.3563807454806946,
+    "path_length": 21.660113553574774,
+    "steps_taken": 21.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

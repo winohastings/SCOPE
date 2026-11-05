@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:7045",
+  "source_episode_id": "7045",
+  "scene_id": "HxpKQynjfin",
+  "instruction": "Exit bathroom to bedroom and walk to balcony outside. Stop next to blue lounge chair.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.4639574750842901,
+  "path_length": 7.555193576030433,
+  "gt_path_length": 6.569570064544678,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8500315068093924,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.4639574750842901,
+    "SPL": 0.8695435793183726,
+    "nDTW": 0.8500315068093924,
+    "path_length": 7.555193576030433,
+    "steps_taken": 10.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

@@ -1,0 +1,48 @@
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.550s
+
+OK
+EE
+======================================================================
+ERROR: test_vlnce_ndtw (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_vlnce_ndtw
+Traceback (most recent call last):
+  File "/home/data/anaconda3/envs/habitat_cyf/lib/python3.9/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/data/anaconda3/envs/habitat_cyf/lib/python3.9/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/tests/test_vlnce_ndtw.py", line 11, in <module>
+    from benchmark.common.log.metrics import ndtw_score
+ModuleNotFoundError: No module named 'benchmark'
+
+
+======================================================================
+ERROR: test_vlnce_r2r_paths (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_vlnce_r2r_paths
+Traceback (most recent call last):
+  File "/home/data/anaconda3/envs/habitat_cyf/lib/python3.9/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/data/anaconda3/envs/habitat_cyf/lib/python3.9/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/tests/test_vlnce_r2r_paths.py", line 9, in <module>
+    from benchmark.vlnce.inputs import _open_json_or_json_gz, _split_paths
+ModuleNotFoundError: No module named 'benchmark'
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (errors=2)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/home/data/czh/Third_Party/simulator/habitat-lab-v0.3.1/habitat-lab/habitat/utils/visualizations/maps.py:25: DeprecationWarning: Starting with ImageIO v3 the behavior of this function will switch to that of iio.v3.imread. To keep the current behavior (and make this warning disappear) use `import imageio.v2 as imageio` or call `imageio.v2.imread` directly.
+  AGENT_SPRITE = imageio.imread(
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 2.510s
+
+OK

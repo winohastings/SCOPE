@@ -1,0 +1,17 @@
+schema: scope.stage1.group.v1
+group: G3
+name: random_2
+task1_policy_mode: random_2
+selector: task1_seeded_random_without_replacement
+implementation_status: existing_task1_path_feature_reuse_pending
+current_image_sizes: [[128, 128], [128, 128], [128, 128], [128, 128], [256, 256], [256, 256]]
+glance_views: 4
+focus_budget: 2
+current_visual_tokens: 192
+stop_selection_enabled: false
+randomness:
+  digest: SHA256
+  input: "{session_seed}:{episode_id}:{navigation_step}"
+  integer_seed: first_8_digest_bytes_little_endian
+  generator: numpy_default_rng
+  without_replacement: true

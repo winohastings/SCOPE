@@ -1,0 +1,98 @@
+[
+  {
+    "task": "r2r",
+    "policy_mode": "original",
+    "episodes": [
+      [
+        "1",
+        "zsNo4HB9uLZ"
+      ],
+      [
+        "2",
+        "zsNo4HB9uLZ"
+      ]
+    ],
+    "steps": 4,
+    "passed": true
+  },
+  {
+    "task": "r2r",
+    "policy_mode": "glance_only",
+    "episodes": [
+      [
+        "1",
+        "zsNo4HB9uLZ"
+      ],
+      [
+        "2",
+        "zsNo4HB9uLZ"
+      ]
+    ],
+    "steps": 4,
+    "passed": true
+  },
+  {
+    "task": "r2r",
+    "policy_mode": "fixed_2",
+    "episodes": [
+      [
+        "1",
+        "zsNo4HB9uLZ"
+      ],
+      [
+        "2",
+        "zsNo4HB9uLZ"
+      ]
+    ],
+    "steps": 4,
+    "passed": true
+  },
+  {
+    "task": "r2r",
+    "policy_mode": "random_2",
+    "episodes": [
+      [
+        "1",
+        "zsNo4HB9uLZ"
+      ],
+      [
+        "2",
+        "zsNo4HB9uLZ"
+      ]
+    ],
+    "steps": 4,
+    "passed": true
+  },
+  {
+    "task": "r2r",
+    "policy_mode": "learned_2",
+    "episodes": [
+      [
+        "1",
+        "zsNo4HB9uLZ"
+      ],
+      [
+        "2",
+        "zsNo4HB9uLZ"
+      ]
+    ],
+    "steps": 4,
+    "passed": true
+  },
+  {
+    "task": "r2r",
+    "policy_mode": "learned_adaptive",
+    "episodes": [
+      [
+        "1",
+        "zsNo4HB9uLZ"
+      ],
+      [
+        "2",
+        "zsNo4HB9uLZ"
+      ]
+    ],
+    "steps": 4,
+    "passed": true
+  }
+]

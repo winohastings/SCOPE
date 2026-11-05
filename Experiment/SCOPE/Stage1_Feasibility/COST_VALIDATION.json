@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "post-prediction split replay, all four full episodes",
+  "note": "natural online batching preserved; split timings not additive to online latency",
+  "full_episode_action_equivalence": [
+    {
+      "group": "G0",
+      "predictions": 8,
+      "max_abs_action_difference": 0.0
+    },
+    {
+      "group": "G1",
+      "predictions": 21,
+      "max_abs_action_difference": 0.0
+    },
+    {
+      "group": "G2",
+      "predictions": 9,
+      "max_abs_action_difference": 0.0
+    },
+    {
+      "group": "G3",
+      "predictions": 9,
+      "max_abs_action_difference": 0.0
+    }
+  ]
+}

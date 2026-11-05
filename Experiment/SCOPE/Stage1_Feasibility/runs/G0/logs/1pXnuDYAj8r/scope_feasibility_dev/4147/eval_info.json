@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:4147",
+  "source_episode_id": "4147",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Walk past the sitting area and go up the stairs.  Stop on the fifth step from the top.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.8102858721971637,
+  "path_length": 12.656395185505971,
+  "gt_path_length": 14.24393367767334,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7674667513543212,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.8102858721971637,
+    "SPL": 1.0,
+    "nDTW": 0.7674667513543212,
+    "path_length": 12.656395185505971,
+    "steps_taken": 12.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

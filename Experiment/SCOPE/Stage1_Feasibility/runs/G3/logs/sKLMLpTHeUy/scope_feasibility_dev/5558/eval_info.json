@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5558",
+  "source_episode_id": "5558",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "With the glass windows and doors showing the outside to your left, move forward on the wooden flooring until the kitchen island is to your left. Turn right and go to the top of the stairs that lead downwards.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6173936210554819,
+  "path_length": 18.227313890121877,
+  "gt_path_length": 8.128552436828613,
+  "steps": 22,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.09398174045991405,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.6173936210554819,
+    "SPL": 0.4459544881834622,
+    "nDTW": 0.09398174045991405,
+    "path_length": 18.227313890121877,
+    "steps_taken": 22.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:10633",
+  "source_episode_id": "10633",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Walk past the stairs and proceed down the hallway to the double doors on the right. Wait there near the posters.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.5032826626556274,
+  "path_length": 7.869233051547781,
+  "gt_path_length": 7.668743133544922,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8919804858500722,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.5032826626556274,
+    "SPL": 0.9745223051993072,
+    "nDTW": 0.8919804858500722,
+    "path_length": 7.869233051547781,
+    "steps_taken": 9.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

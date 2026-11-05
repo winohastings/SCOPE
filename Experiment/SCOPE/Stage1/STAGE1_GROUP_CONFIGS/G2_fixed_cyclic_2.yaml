@@ -1,0 +1,19 @@
+schema: scope.stage1.group.v1
+group: G2
+name: fixed_cyclic_2
+task1_policy_mode: fixed_2
+selector: deterministic_cyclic_v1
+implementation_status: proposed_not_wired
+current_image_sizes: [[128, 128], [128, 128], [128, 128], [128, 128], [256, 256], [256, 256]]
+glance_views: 4
+focus_budget: 2
+current_visual_tokens: 192
+stop_selection_enabled: false
+schedule:
+  roi_order: [0, 4, 8, 12, 1, 5, 9, 13, 2, 6, 10, 14, 3, 7, 11, 15]
+  pair_rule: order[(2*navigation_step)%16],order[(2*navigation_step+1)%16]
+  reset_navigation_step_each_episode: true
+  phase: 0
+  coverage_period_steps: 8
+  unique_within_step: true
+notes: 不能直接映射到现有fixed_2执行；当前fixed_2硬编码0/3，需先接线验收。

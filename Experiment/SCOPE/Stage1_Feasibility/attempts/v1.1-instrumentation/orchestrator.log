@@ -1,0 +1,9 @@
+START smoke_G0
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/execute.py", line 88, in <module>
+    main()
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/execute.py", line 67, in main
+    subprocess.run(command, env=environment, cwd=SIMPLENAV, stdout=stream, stderr=subprocess.STDOUT, check=True)
+  File "/home/data/anaconda3/envs/py310/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python', '/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage1_Feasibility/run_group.py', '--group', 'G0', '--phase', 'smoke']' returned non-zero exit status 1.

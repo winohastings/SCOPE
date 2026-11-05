@@ -1,0 +1,11 @@
+{
+  "base_manifest_sha256": "fd0fb5fc1cc676c7c7ccab6620e436246f98d859774043e75939be01e4f40685",
+  "amendments": {
+    "ENVIRONMENT_AMENDMENT.md": "17dbce13f9391facca3a403b5652347f4c18cf16e7a440eb01af31a39e1b2e81",
+    "COST_PROFILING_AMENDMENT.md": "855462a1f0c852dbf4349e734bcf33d67dccb76c727e3b36bfde9d40cfddc0dd",
+    "CONCURRENCY_AMENDMENT.md": "e3c01e68ddae9b6706216a79338bff38d1d22363f7b2dd06009c7ce316e1d4a9"
+  },
+  "environment_workers": 2,
+  "model_instances": 1,
+  "training_started": false
+}

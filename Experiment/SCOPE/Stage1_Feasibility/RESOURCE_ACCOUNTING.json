@@ -1,0 +1,8 @@
+{
+  "final_execution_wall_seconds": 6260.179265022278,
+  "prior_execution_wall_seconds": 594.5808944702148,
+  "total_two_gpu_reservation_hours": 3.8082000905937616,
+  "first_start_to_final_finish_seconds": 7018.891359567642,
+  "prior_attempt_count": 3,
+  "definition": "two provisioned devices × measured execution wall; not utilization integral"
+}

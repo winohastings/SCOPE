@@ -1,0 +1,12 @@
+schema: scope.stage1.group.v1
+group: G0
+name: original_simplenav_common_render
+task1_policy_mode: original
+selector: none
+implementation_status: existing_task1_path
+current_image_sizes: [[256, 256], [256, 256], [256, 256], [256, 256]]
+glance_views: 0
+focus_budget: 0
+current_visual_tokens: 256
+stop_selection_enabled: false
+notes: 原始模型输入为512原图的256兼容图；非原生256渲染逐像素复现。

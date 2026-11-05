@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:6402",
+  "source_episode_id": "6402",
+  "scene_id": "uNb9QFRL6hY",
+  "instruction": "Walk right through the open doors an enter the hallway. Stop near the stairs on your left.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 3.666795452087846,
+  "path_length": 5.069806450046599,
+  "gt_path_length": 7.752197265625,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6031676197637179,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 3.666795452087846,
+    "SPL": 0.0,
+    "nDTW": 0.6031676197637179,
+    "path_length": 5.069806450046599,
+    "steps_taken": 7.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

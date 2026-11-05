@@ -1,0 +1,88 @@
+{
+  "status": "DRAFT_VALIDATED_NOT_APPROVED",
+  "training_started": false,
+  "full_evaluation_started": false,
+  "cyclic_first_eight_pairs": [
+    [
+      0,
+      4
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      11,
+      15
+    ]
+  ],
+  "tasks": {
+    "r2r": {
+      "episodes": 1839,
+      "scenes": 11,
+      "manifest_sha256": "ed4ce6c11dd1000c2c33cbbc7275a6383684bd24da4c1d3e037bc1ddaf2e75e6"
+    },
+    "rxr": {
+      "episodes": 3669,
+      "scenes": 11,
+      "manifest_sha256": "4610f9a440233249c576760b35f489b787fc70566aa3f487631df877dc9b1ed8"
+    }
+  },
+  "selector_split": {
+    "training_scenes": 54,
+    "development_scenes": 7,
+    "training_episodes": 9837,
+    "development_pool": 982,
+    "development_evaluation_episodes": 64
+  },
+  "historical_evidence_sha256": {
+    "fixed_equivalence.json": "ced2b9579292887eaaa6ce086c7ec88d090f5929957efb3f938ae6e91a55193e",
+    "fixed_habitat_equivalence.json": "4b922697c346355be3aa77b6dcc9e67ee379496827ed161783f6d625683ccda0",
+    "R2R/fixed_habitat_equivalence.json": "0a889fd63304c0062cced05b104b96ec8fd2e18d5860f56e7e702e752a0bf2e1",
+    "smoke_verification.json": "06e19795df39336e7afeac7c3e399f53c15f0891e9675dce5fc12841d1aa17b0",
+    "R2R/smoke_verification.json": "65372a4a8827e1fb9b13aa2a62f630cee94332c1f117e359270b27f24aa13147"
+  },
+  "candidate_bundle_sha256": {
+    "Experiment/SCOPE/Stage1/COST_MEASUREMENT_PROTOCOL.md": "1c7138398c1126cdd8a37712f4ba5d0c582d11d76176344707b33d4c890810fa",
+    "Experiment/SCOPE/Stage1/IMPLEMENTATION_AUDIT.md": "eda48beadf6b9d3c3f62abffc9725cae109195570d5da71fd2cfb8abd248d8d8",
+    "Experiment/SCOPE/Stage1/METRICS_AND_STATISTICS.md": "6953d187542588bbaf1eca8a05c7921f55e5a3dd46d2836aa539b0a9c807c064",
+    "Experiment/SCOPE/Stage1/REMAINING_IMPLEMENTATION_TASKS.md": "bd2e622d4b4255d5cd16324a40c0907604c670b954f733339fa72797838a7b25",
+    "Experiment/SCOPE/Stage1/SELECTOR_DESIGN.md": "b6ebdc1cfa337bad43a96a460369579a4499ab9f6ec227b4f320e9155c22b00c",
+    "Experiment/SCOPE/Stage1/STAGE1_EXPERIMENT_PROTOCOL.md": "4e7300dc2302f58c5080c05c7de8e8d03450f44af5de54c294e6b435cf7d822a",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/G0_original.yaml": "c2f194889f279ec07b5d36fe7c44c08814c913db4adc751003a69993f4734660",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/G1_glance_only.yaml": "aae13b005bd4804ed1f06cfef6e6e3268b326c543abbe13bcbe77dc5c7524095",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/G2_fixed_cyclic_2.yaml": "692250de3b89824910280ad6350345aa6312e5a104a60f4a894c70e054b94b93",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/G3_random_2.yaml": "0e94834a88809bec138ae2c2b351f40d01f63dfe0dce6cf1a65bfb007248bcd8",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/G4_learned_2.yaml": "7f4493c8e5736a147f15b87b576dcda7f502903034a1def89e067fbd41bb9ba1",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/README.md": "26c7852cd82451e5cec2ea24f3c765376e65fdabeb84b3da67d1ae9989ebb335",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/common.yaml": "c51ceccf9e8dcb17e7e0394f1041ce8fed5638831ad32d6c81fda100f45326fc",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/manifests/r2r_selector_train_dev.json": "18033c0569b13230777d2df2c20150b60d1e0776d6500622aed33f0acce8fd77",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/manifests/r2r_val_unseen.json": "ed4ce6c11dd1000c2c33cbbc7275a6383684bd24da4c1d3e037bc1ddaf2e75e6",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/manifests/rxr_val_unseen_guide_en.json": "4610f9a440233249c576760b35f489b787fc70566aa3f487631df877dc9b1ed8",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/r2r_val_unseen.yaml": "7baf34dc2a38e822776e9d075e5007e2a8e593464e891295aee82f90467ccfe9",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/rxr_val_unseen.yaml": "83304af720fadc0610c5604077c3cb665868aa7efa057596711c1c27df34e7a9",
+    "Experiment/SCOPE/Stage1/STAGE1_GROUP_CONFIGS/selector_training.yaml": "c82b956bf9f6aa30cb4520257799d327902348845e6fed8a92d1ec285f88b100",
+    "Experiment/SCOPE/Stage1/validate_protocol.py": "10142f1889e5c70e2724ffa25fc4440b55d370f103bf17690345024acae879e9"
+  },
+  "warning": "Offline schema/math/source/evidence checks only; not fresh model equivalence, trained selector, or execution approval."
+}

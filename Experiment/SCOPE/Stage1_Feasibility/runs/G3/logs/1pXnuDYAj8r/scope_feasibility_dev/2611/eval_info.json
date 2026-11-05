@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2611",
+  "source_episode_id": "2611",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Go straight in between the couch and the coffee table. Walk past the blue chairs. Take a right down the hall, stop in the entry way.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.960258345674333,
+  "path_length": 18.375454142456874,
+  "gt_path_length": 12.697759628295898,
+  "steps": 21,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.09365509873411806,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 9.960258345674333,
+    "SPL": 0.0,
+    "nDTW": 0.09365509873411806,
+    "path_length": 18.375454142456874,
+    "steps_taken": 21.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

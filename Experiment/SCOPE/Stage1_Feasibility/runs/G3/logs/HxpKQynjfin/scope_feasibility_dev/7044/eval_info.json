@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:7044",
+  "source_episode_id": "7044",
+  "scene_id": "HxpKQynjfin",
+  "instruction": "Turn around and walk towards the desk. At the desk turn left and walk in front of the couch and exit our the door to go outside. Stop once you step on on the deck.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.1613970588460142,
+  "path_length": 8.073302725329995,
+  "gt_path_length": 6.569570064544678,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8106671482770248,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.1613970588460142,
+    "SPL": 0.8137400873043749,
+    "nDTW": 0.8106671482770248,
+    "path_length": 8.073302725329995,
+    "steps_taken": 9.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

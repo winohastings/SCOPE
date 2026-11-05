@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2215",
+  "source_episode_id": "2215",
+  "scene_id": "XcA2TqTSSAj",
+  "instruction": "Walk across to the opposite side of the patio and stop before the stairway.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.877981650580658,
+  "path_length": 3.527900880202651,
+  "gt_path_length": 9.264591217041016,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5348289119606718,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 5.877981650580658,
+    "SPL": 0.0,
+    "nDTW": 0.5348289119606718,
+    "path_length": 3.527900880202651,
+    "steps_taken": 4.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

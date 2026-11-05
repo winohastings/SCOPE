@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:5942",
+  "source_episode_id": "5942",
+  "scene_id": "HxpKQynjfin",
+  "instruction": "Walk through the sitting area and wait in the bathroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.9608381674739674,
+  "path_length": 7.981168336904375,
+  "gt_path_length": 5.054368019104004,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.05167672942351219,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.9608381674739674,
+    "SPL": 0.6332867326871121,
+    "nDTW": 0.05167672942351219,
+    "path_length": 7.981168336904375,
+    "steps_taken": 12.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

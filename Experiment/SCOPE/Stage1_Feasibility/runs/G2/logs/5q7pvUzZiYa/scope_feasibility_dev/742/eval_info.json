@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:742",
+  "source_episode_id": "742",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "With the counter on your left.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.050107028507637,
+  "path_length": 0.6598029788583517,
+  "gt_path_length": 7.715722560882568,
+  "steps": 3,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.36244929090564926,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 5.050107028507637,
+    "SPL": 0.0,
+    "nDTW": 0.36244929090564926,
+    "path_length": 0.6598029788583517,
+    "steps_taken": 3.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

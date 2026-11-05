@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350">
+<rect width="760" height="350" fill="white"/>
+<text x="30" y="35" font-size="20">Online model latency p50</text>
+<rect x="110" y="75.0" width="85" height="210.0" fill="#4c78a8"/>
+<text x="110" y="310" font-size="16">G0</text>
+<text x="110" y="65.0" font-size="14">1596.716</text>
+<rect x="270" y="109.75362086996853" width="85" height="175.24637913003147" fill="#72b7b2"/>
+<text x="270" y="310" font-size="16">G1</text>
+<text x="270" y="99.75362086996853" font-size="14">1332.470</text>
+<rect x="430" y="110.73496019897388" width="85" height="174.26503980102612" fill="#f58518"/>
+<text x="430" y="310" font-size="16">G2</text>
+<text x="430" y="100.73496019897388" font-size="14">1325.008</text>
+<rect x="590" y="110.51812670687312" width="85" height="174.48187329312688" fill="#e45756"/>
+<text x="590" y="310" font-size="16">G3</text>
+<text x="590" y="100.51812670687312" font-size="14">1326.657</text>
+<text x="30" y="335" font-size="12">ms; single seed, development set, descriptive only</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:4729",
+  "source_episode_id": "4729",
+  "scene_id": "sKLMLpTHeUy",
+  "instruction": "exit bedroom to hallway, continue straight down hallway to stairs going up. Stop at base of stairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.375244707865233,
+  "path_length": 6.549229618161917,
+  "gt_path_length": 6.586874008178711,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8889993378425974,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.375244707865233,
+    "SPL": 1.0,
+    "nDTW": 0.8889993378425974,
+    "path_length": 6.549229618161917,
+    "steps_taken": 7.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

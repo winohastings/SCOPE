@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:1153",
+  "source_episode_id": "1153",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Turn right and exit the room via the farthest door to your right. Turn left and walk towards the stairs. Wait at the top of the stairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.8362127870828424,
+  "path_length": 11.903151294973213,
+  "gt_path_length": 6.145808696746826,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.16710668162939293,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.8362127870828424,
+    "SPL": 0.5163177837907719,
+    "nDTW": 0.16710668162939293,
+    "path_length": 11.903151294973213,
+    "steps_taken": 15.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "count": 64,
+  "adapter_payloads_exactly_equal": true,
+  "all_scene_files_exist": true,
+  "all_dense_gt_locations_exist": true,
+  "gt_path": "/home/data/czh/Third_Party/tasks/R2R-CE/R2R_VLNCE_v1-3_preprocessed/train/train_gt.json.gz",
+  "gt_sha256": "e1f380f83e898dc50383f2fae5fbefac1a9c62a766dde1c30b254db47e93b0ac",
+  "baseline_reference": "docs/Logs/2026-11-05-simplenav-r2r-rxr-baseline-smoke.md"
+}

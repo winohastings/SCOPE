@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:2751",
+  "source_episode_id": "2751",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "go downstairs, stop at bottom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6520585106366009,
+  "path_length": 11.933515979908407,
+  "gt_path_length": 6.235010147094727,
+  "steps": 13,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2783354645360023,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.6520585106366009,
+    "SPL": 0.5224788869929164,
+    "nDTW": 0.2783354645360023,
+    "path_length": 11.933515979908407,
+    "steps_taken": 13.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G0",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G0-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

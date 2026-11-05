@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:4863",
+  "source_episode_id": "4863",
+  "scene_id": "HxpKQynjfin",
+  "instruction": "Go past the bed, the tv, and the desk. Stop at mirror by the entrance door.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.1321018258161903,
+  "path_length": 4.865813591517508,
+  "gt_path_length": 5.083614349365234,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8787070788507277,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 1.1321018258161903,
+    "SPL": 1.0,
+    "nDTW": 0.8787070788507277,
+    "path_length": 4.865813591517508,
+    "steps_taken": 6.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G2",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G2-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

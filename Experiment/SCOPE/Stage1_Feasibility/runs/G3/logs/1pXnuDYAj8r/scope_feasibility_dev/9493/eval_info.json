@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:9493",
+  "source_episode_id": "9493",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Exit the room and go up the stairs on your right. Turn right and go into the room on the right. Wait there.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 4.396316864327948,
+  "path_length": 22.385083133820444,
+  "gt_path_length": 11.969093322753906,
+  "steps": 25,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "habitat_done",
+  "failure_traceback": null,
+  "nDTW": 0.015045503215767298,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 4.396316864327948,
+    "SPL": 0.0,
+    "nDTW": 0.015045503215767298,
+    "path_length": 22.385083133820444,
+    "steps_taken": 25.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G3",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G3-v1",
+  "worker_index": 1,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

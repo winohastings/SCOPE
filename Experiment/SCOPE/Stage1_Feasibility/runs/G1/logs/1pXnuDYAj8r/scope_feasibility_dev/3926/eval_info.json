@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:3926",
+  "source_episode_id": "3926",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Go to the top of the stairs. Continue past the stairs to the painting at the end of the hallway. Turn right and enter the door to the room with the chest of drawers and large white bed.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.1802654782593321,
+  "path_length": 6.525349399540573,
+  "gt_path_length": 6.292518615722656,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8568409023688657,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.1802654782593321,
+    "SPL": 0.9643190318920991,
+    "nDTW": 0.8568409023688657,
+    "path_length": 6.525349399540573,
+    "steps_taken": 7.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "G1",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "runs-G1-v1",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

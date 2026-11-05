@@ -1,0 +1,158 @@
+--- a/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py
++++ b/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py
+@@ -576,6 +576,10 @@
+ 
+     def _prepare_visual_image(self, image: Any) -> Image.Image:
+         value = to_pil_preserve(image)
++        if getattr(self, "scope_enabled", False):
++            if value.size not in ((128, 128), (256, 256)):
++                raise ValueError(f"Unexpected SCOPE image size {value.size}")
++            return value
+         resize = self.config.framework.navvla.get("visual_cache_input_resize", [256, 256])
+         width, height = [int(item) for item in resize]
+         if value.size != (width, height):
+@@ -586,6 +590,8 @@
+         expected = self._visual_token_budgets()[2]
+         merge_size = int(self.qwen35_vl_interface.model.model.visual.spatial_merge_size)
+         actual = qwen35_postmerge_token_count(grid, spatial_merge_size=merge_size)
++        if getattr(self, "scope_enabled", False) and actual in (16, 64):
++            return
+         if actual != expected:
+             raise ValueError(
+                 f"Qwen3.5 preprocessing produced {actual} post-merge tokens, expected {expected}; "
+@@ -885,13 +891,13 @@
+                 if bool(block.get("is_history", False)):
+                     chunks.append(self._pool_postmerge(postmerge, grid, target_tokens=target))
+                 else:
+-                    if tuple(postmerge.shape) != (current_tokens, self.hidden_size):
++                    if tuple(postmerge.shape) != (target, self.hidden_size):
+                         raise ValueError(
+                             f"Qwen3.5 current merger output {tuple(postmerge.shape)} != "
+-                            f"{(current_tokens, self.hidden_size)}"
++                            f"{(target, self.hidden_size)}"
+                         )
+                     chunks.append(postmerge)
+-                if capture_online_current_cache and not bool(block.get("is_history", False)):
++                if capture_online_current_cache and not bool(block.get("is_history", False)) and block.get("scope_kind") != "focus":
+                     records.append(
+                         {
+                             "camera_name": str(block["camera_name"]),
+--- /dev/null
++++ b/starVLA/model/modules/input_context.py
+@@ -0,0 +1,60 @@
++from __future__ import annotations
++
++import hashlib
++
++import numpy as np
++from PIL import Image
++
++CAMERAS = ("front", "left", "right", "rear")
++POLICY_MODES = ("original", "glance_only", "fixed_2", "random_2", "learned_2", "learned_adaptive")
++STOP = 16
++
++
++def prepare_scope_images(images):
++    raw = {}
++    for camera in CAMERAS:
++        image = Image.fromarray(np.asarray(images[camera], dtype=np.uint8)).convert("RGB")
++        if image.size != (512, 512):
++            raise ValueError(f"SCOPE requires raw 512x512 {camera}, got {image.size}")
++        raw[camera] = image.copy()
++    compatible = {camera: image.resize((256, 256), Image.Resampling.BICUBIC) for camera, image in raw.items()}
++    glance = {camera: image.resize((128, 128), Image.Resampling.BICUBIC) for camera, image in raw.items()}
++    candidates = []
++    for camera_id, camera in enumerate(CAMERAS):
++        for region in range(4):
++            left, top = (region % 2) * 256, (region // 2) * 256
++            roi = [left, top, left + 256, top + 256]
++            candidates.append({"candidate_id": len(candidates), "camera_id": camera_id,
++                               "camera_name": camera, "roi": roi, "image": raw[camera].crop(roi)})
++    return raw, compatible, glance, candidates
++
++
++def select_focus(mode, *, seed, episode_id, step, glance, candidates, selector=None):
++    if mode not in POLICY_MODES:
++        raise ValueError(f"Unknown policy_mode: {mode}")
++    if mode in ("original", "glance_only"):
++        return [], []
++    digest = hashlib.sha256(f"{seed}:{episode_id}:{step}".encode()).digest()
++    rng = np.random.default_rng(int.from_bytes(digest[:8], "little"))
++    selected, trace = [], []
++    for focus_index in range(2):
++        available = [index for index in range(16) if index not in selected]
++        if mode == "fixed_2":
++            action = (0, 3)[focus_index]
++        elif mode == "random_2":
++            action = int(rng.choice(available))
++        else:
++            if selector is None:
++                raise ValueError("learned modes require an explicit selector; no silent fixed/random fallback")
++            action = int(selector(glance=glance, selected=[candidates[index] for index in selected],
++                                  available=available, allow_stop=mode == "learned_adaptive",
++                                  focus_index=focus_index, rng=rng))
++        trace.append(action)
++        if action == STOP:
++            if mode != "learned_adaptive":
++                raise ValueError("STOP is only valid for learned_adaptive")
++            break
++        if action not in available:
++            raise ValueError(f"Invalid or repeated Focus action: {action}")
++        selected.append(action)
++    return [{**candidates[index], "focus_index": position} for position, index in enumerate(selected)], trace
+--- a/starVLA/model/modules/navvla_context.py
++++ b/starVLA/model/modules/navvla_context.py
+@@ -94,7 +94,7 @@
+         return int(long_memory_visual_tokens)
+     if bool(block.get("is_history", False)):
+         return int(history_visual_tokens)
+-    return int(current_visual_tokens)
++    return int(block.get("visual_tokens", current_visual_tokens))
+ 
+ 
+ def samples_from_collated_batch(
+@@ -589,6 +589,18 @@
+                 "sample": sample,
+             }
+         )
++    scope_blocks = sample.get("scope_blocks")
++    if scope_blocks is not None:
++        for block in blocks:
++            if not block.get("is_history", False):
++                block["visual_tokens"] = 16
++                block["scope_kind"] = "glance"
++        for focus in scope_blocks:
++            source = next(block for block in blocks if not block.get("is_history", False)
++                          and block["camera_name"] == focus["camera_name"])
++            online_images.append(focus["image"])
++            blocks.append({**source, **{key: value for key, value in focus.items() if key != "image"},
++                           "visual_tokens": 64, "scope_kind": "focus"})
+     return online_images, blocks
+ 
+ 
+--- a/starVLA/model/modules/qwen35_vision.py
++++ b/starVLA/model/modules/qwen35_vision.py
+@@ -9,6 +9,13 @@
+ import torch.nn.functional as F
+ 
+ BFLOAT16_BITS_STORAGE_ENCODING = "bfloat16_bits"
++
++
++def validate_scope_grids(grids, expected_tokens):
++    actual = [qwen35_postmerge_token_count(grid) for grid in grids]
++    if actual != list(expected_tokens):
++        raise ValueError(f"SCOPE processor changed resolutions: {actual} != {expected_tokens}")
++    return actual
+ 
+ 
+ def configure_qwen35_processor(processor: Any, input_resize: tuple[int, int]) -> None:
+--- a/starVLA/model/modules/vlm/QWen3_5.py
++++ b/starVLA/model/modules/vlm/QWen3_5.py
+@@ -261,6 +261,7 @@
+             add_vision_id=False,
+             return_dict=True,
+             return_tensors="pt",
++            **({"images_kwargs": {"do_resize": False}} if getattr(self, "scope_enabled", False) else {}),
+         )
+ 
+         # if solutions, mask out the solution tokens in labels

@@ -1,0 +1,25 @@
+{
+  "devices": [
+    {
+      "gpu": 0,
+      "baseline_mib": 274.0,
+      "peak_device_mib": 12103.0,
+      "sample_count": 120386,
+      "interval_p50_ms": 52.00004577636719,
+      "interval_p90_ms": 52.00004577636719,
+      "occupied_device_hours_estimate": 1.727397500011656,
+      "utilization_weighted_device_hours_estimate": 0.4016981419019317
+    },
+    {
+      "gpu": 1,
+      "baseline_mib": 20.0,
+      "peak_device_mib": 2495.0,
+      "sample_count": 120386,
+      "interval_p50_ms": 52.00004577636719,
+      "interval_p90_ms": 52.00004577636719,
+      "occupied_device_hours_estimate": 1.636071111228731,
+      "utilization_weighted_device_hours_estimate": 0.05034454082780414
+    }
+  ],
+  "definition": "sample-based device-level estimates; occupancy > initial baseline +64MiB, utilization includes desktop; not process-exact kernel time"
+}
