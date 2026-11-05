@@ -4,6 +4,7 @@ import hashlib
 import importlib.util
 import json
 from pathlib import Path
+import subprocess
 import tempfile
 import unittest
 
@@ -12,9 +13,26 @@ ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location("release_verification", ROOT / "tools/verify_release.py")
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
+DEPENDENCY_SPEC = importlib.util.spec_from_file_location("release_dependencies", ROOT / "tools/prepare_dependencies.py")
+DEPENDENCIES = importlib.util.module_from_spec(DEPENDENCY_SPEC)
+DEPENDENCY_SPEC.loader.exec_module(DEPENDENCIES)
 
 
 class ReleaseArchiveTests(unittest.TestCase):
+    def test_dependency_patch_ignores_parent_git_repository(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            subprocess.run(["git", "init", "--quiet", str(root)], check=True)
+            (root / "sample.txt").write_text("parent\n")
+            nested = root / "nested"
+            nested.mkdir()
+            (nested / "sample.txt").write_text("before\n")
+            patch = root / "change.patch"
+            patch.write_text("--- a/sample.txt\n+++ b/sample.txt\n@@ -1 +1 @@\n-before\n+after\n")
+            DEPENDENCIES.apply_dependency_patch(nested, patch)
+            self.assertEqual((nested / "sample.txt").read_text(), "after\n")
+            self.assertEqual((root / "sample.txt").read_text(), "parent\n")
+
     def test_actual_archive_and_denominators(self):
         result = VERIFIER.verify(ROOT)
         self.assertEqual(result["integrity"], "PASS")

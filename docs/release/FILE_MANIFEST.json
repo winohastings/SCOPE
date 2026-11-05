@@ -3436,8 +3436,8 @@
   },
   {
     "path": "docs/release/VALIDATION.md",
-    "bytes": 2952,
-    "sha256": "09709c72810eaad9a63e74f279e15b21a85b6bb2fac3b3a3825313b83a18e1fa"
+    "bytes": 3375,
+    "sha256": "b2906a14646d3a38b492b9d07022ece9ae93c0fab283773fe33fd7205d30d000"
   },
   {
     "path": "patches/legacy_scope.patch",
@@ -3451,8 +3451,8 @@
   },
   {
     "path": "tests/test_release_archive.py",
-    "bytes": 1941,
-    "sha256": "8f6f3da81a19394abc456a0622786e6deb00abf311338d306323e9b244e40a2f"
+    "bytes": 2968,
+    "sha256": "f9a7660baa39e02493868c12470740de949a0ff0106998002c4c481f6168762c"
   },
   {
     "path": "tests/test_scope_feasibility.py",
@@ -3496,8 +3496,8 @@
   },
   {
     "path": "tools/prepare_dependencies.py",
-    "bytes": 3850,
-    "sha256": "c017603479553ac3880ca5fc829efb2a1b081ca9a97f142b16f7dc9e5a1f85dd"
+    "bytes": 3755,
+    "sha256": "af001a6d8f94459dbb3415cad861f52867fcb0359a332f0c7380797db6a37c5f"
   },
   {
     "path": "tools/verify_release.py",

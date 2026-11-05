@@ -19,6 +19,12 @@ def sha256(path):
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def apply_dependency_patch(directory, patch):
+    command = ["patch", "--batch", "--fuzz=0", "-p1", "-d", str(directory), "-i", str(patch)]
+    subprocess.run(command + ["--dry-run"], check=True)
+    subprocess.run(command, check=True)
+
+
 def prepare(legacy_source, simplenav_source, output):
     lock = json.loads((ROOT / "third_party/dependencies.lock.json").read_text())
     runtime = ROOT / "Experiment/SCOPE/legacy_runtime"
@@ -45,10 +51,7 @@ def prepare(legacy_source, simplenav_source, output):
                 target = staged_runtime / record["path"]
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(legacy_source / record["path"], target)
-        subprocess.run(
-            ["patch", "--batch", "--fuzz=0", "-p1", "-d", str(staged_runtime),
-             "-i", str(ROOT / "patches/legacy_scope.patch")], check=True
-        )
+        apply_dependency_patch(staged_runtime, ROOT / "patches/legacy_scope.patch")
         for record in lock["legacy_files"]:
             if sha256(staged_runtime / record["path"]) != record["scope_sha256"]:
                 raise ValueError(f"Reconstructed runtime mismatch: {record['path']}")
@@ -59,14 +62,7 @@ def prepare(legacy_source, simplenav_source, output):
         )
         with tarfile.open(fileobj=io.BytesIO(archive)) as stream:
             stream.extractall(staged_simplenav, filter="data")
-        subprocess.run(
-            ["git", "apply", "--check", str(ROOT / "patches/simplenav_stage1.patch")],
-            cwd=staged_simplenav, check=True
-        )
-        subprocess.run(
-            ["git", "apply", str(ROOT / "patches/simplenav_stage1.patch")],
-            cwd=staged_simplenav, check=True
-        )
+        apply_dependency_patch(staged_simplenav, ROOT / "patches/simplenav_stage1.patch")
         for relative, digest in lock["simplenav_files"].items():
             if sha256(staged_simplenav / relative) != digest:
                 raise ValueError(f"SimpleNav patched hash mismatch: {relative}")
