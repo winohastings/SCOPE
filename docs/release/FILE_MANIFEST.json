@@ -3436,8 +3436,8 @@
   },
   {
     "path": "docs/release/VALIDATION.md",
-    "bytes": 2358,
-    "sha256": "90585cb56d77dc76b957cb23b5bce4e0306fcf00f49c1441535e12c6bfb2155b"
+    "bytes": 2952,
+    "sha256": "09709c72810eaad9a63e74f279e15b21a85b6bb2fac3b3a3825313b83a18e1fa"
   },
   {
     "path": "patches/legacy_scope.patch",
