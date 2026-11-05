@@ -1,0 +1,30 @@
+{
+  "transitions": 2,
+  "updated": true,
+  "statistics": [
+    {
+      "actor_loss": -0.05567215383052826,
+      "critic_loss": 0.002226731739938259,
+      "ratio_mean": 1.0,
+      "actor_grad_norm": 6.966365337371826,
+      "critic_grad_norm": 0.5400800704956055,
+      "entropy": 5.567227363586426,
+      "actor_state_gru_grad_norm": 0.015243900939822197,
+      "critic_state_gru_grad_norm": 0.007698999717831612
+    },
+    {
+      "actor_loss": -0.20153096318244934,
+      "critic_loss": 0.001495475647971034,
+      "ratio_mean": 0.9546329975128174,
+      "actor_grad_norm": 6.478914737701416,
+      "critic_grad_norm": 0.417402446269989,
+      "entropy": 5.556711673736572,
+      "actor_state_gru_grad_norm": 0.014250116422772408,
+      "critic_state_gru_grad_norm": 0.011205741204321384
+    }
+  ],
+  "update_seconds": 0.205424758605659,
+  "actor_parameter_l2_change": 0.21319475769996643,
+  "backbone_gradients_none": true,
+  "checkpoint": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/actor_critic_C_update_003.pt"
+}

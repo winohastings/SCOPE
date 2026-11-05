@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "primary_normal_navigation_steps": 82,
+  "primary_real_training_transitions": 24,
+  "primary_ppo_updates": 4,
+  "supplemental_resume_transitions": 2,
+  "supplemental_resume_updates": 1,
+  "total_final_validation_real_training_transitions": 26,
+  "diagnostic_branch_comparisons": 54,
+  "matched_history_native_scatter_action_max_abs": 0.0,
+  "native_cached_feature_max_abs": 0.0,
+  "restored_dev_metrics_exact": true,
+  "scope_tests_passed": 34,
+  "stage2_tests_passed": 20,
+  "external_navigation_tests_passed": 5,
+  "legacy_files_unchanged": true,
+  "legacy_checked_files": 238,
+  "protected_history": {
+    "passed": true,
+    "count": 9013,
+    "changed": []
+  },
+  "resume_episode_id": "3",
+  "resume_training": {
+    "transitions": 2,
+    "updated": true,
+    "statistics": [
+      {
+        "actor_loss": -0.05567215383052826,
+        "critic_loss": 0.002226731739938259,
+        "ratio_mean": 1.0,
+        "actor_grad_norm": 6.966365337371826,
+        "critic_grad_norm": 0.5400800704956055,
+        "entropy": 5.567227363586426,
+        "actor_state_gru_grad_norm": 0.015243900939822197,
+        "critic_state_gru_grad_norm": 0.007698999717831612
+      },
+      {
+        "actor_loss": -0.20153096318244934,
+        "critic_loss": 0.001495475647971034,
+        "ratio_mean": 0.9546329975128174,
+        "actor_grad_norm": 6.478914737701416,
+        "critic_grad_norm": 0.417402446269989,
+        "entropy": 5.556711673736572,
+        "actor_state_gru_grad_norm": 0.014250116422772408,
+        "critic_state_gru_grad_norm": 0.011205741204321384
+      }
+    ],
+    "update_seconds": 0.205424758605659,
+    "actor_parameter_l2_change": 0.21319475769996643,
+    "backbone_gradients_none": true,
+    "checkpoint": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/actor_critic_C_update_003.pt"
+  },
+  "diagnostic_amendment": "Native-scatter reference now retains exactly the same history features; first diagnostic results archived under release/diagnostic_attempts, matched-history train/dev diagnostics rerun after main pilot; no Actor/PPO or reward parameter change.",
+  "final_diagnostic_runtime_source_hashes": {
+    "policy.py": "94b708f4ec43871c3c1290643b3c70f899ffd16b851eaf7b5d10298c1d137bef",
+    "run_pilot.py": "e70edd634665dccf240a60e3844e04a63ae5cdfe33c115fee3f859d2141d84ee",
+    "runtime.py": "1fa4edf175c18e73f558dd631ddac8871457031bfde3612fe8074d1122f8587f",
+    "data_guard.py": "291980dd8798f4fe2f72085c88a13c053df5cc83b59ca13f3beea886f9efddfe",
+    "features.py": "fb5cee4ca2e4da60cb85d27dabbbda1f5d8c99f0e6e51602f3b9d81b1a5ca3f7",
+    "training.py": "d8c6319d541397c55889b87006a0a632ae17f0dead45bb65a8c10f14721323e2",
+    "server.py": "53e9280ce06603e8d4d5858fa3978199265de7c6e80070b13c5f7e3516257a7e",
+    "trajectory.py": "4c0fef4f564c0ab765d36c35c6812a0639cb5eaf4ba17df968f838b2f931bdf8",
+    "real_rollout.py": "c98b14f5d621643abba0253f2f6ccb9fee035108b2e8e26ba3618782dfbba573",
+    "learning_sanity.py": "6102fc2da77da770d4cefef42908a6a15291c9163606f4eb2a218a80dda3227d",
+    "audit_results.py": "93ec182fa89d9633183deded33a5c39fc05f707cb506834b0bd09969c0a710b0"
+  },
+  "full_training_started": false,
+  "val_unseen_evaluation_started": false,
+  "own_gpu_processes_stopped": true
+}

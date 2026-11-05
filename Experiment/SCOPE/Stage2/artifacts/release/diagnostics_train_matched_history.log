@@ -1,0 +1,63 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-05 23:14:42,980 Initializing dataset R2RVLN-v1
+2026-11-05 23:14:43,696 initializing sim Sim-v0
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[23:14:43:823959]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+2026-11-05 23:14:55,582 Initializing task VLN-v0
+/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "glance", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.974193572998047, "progress": 0.6338295936584473, "wall_seconds": 1.934415684081614}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "fixed", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.837151050567627, "progress": 0.7708721160888672, "wall_seconds": 0.7920770458877087}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "fixed_spatial", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.812734603881836, "progress": 0.7952885627746582, "wall_seconds": 0.6654908759519458}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "cross_camera", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.851254463195801, "progress": 0.7567687034606934, "wall_seconds": 0.6555979130789638}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "cross_spatial", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.809509754180908, "progress": 0.7985134124755859, "wall_seconds": 0.6559533625841141}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "right_rear", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.840224266052246, "progress": 0.767798900604248, "wall_seconds": 0.6547354869544506}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "fixed_low_detail", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.762664318084717, "progress": 0.8453588485717773, "wall_seconds": 0.6491439612582326}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "fixed_native_scatter", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.837151050567627, "progress": 0.7708721160888672, "wall_seconds": 0.7520163720473647}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "single_front", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.795496940612793, "progress": 0.8125262260437012, "wall_seconds": 0.6130118519067764}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "glance", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.744116306304932, "progress": 1.2300772666931152, "wall_seconds": 1.2430220134556293}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "fixed", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.74937105178833, "progress": 1.2248225212097168, "wall_seconds": 1.5053236819803715}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "fixed_spatial", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.7278242111206055, "progress": 1.2463693618774414, "wall_seconds": 1.3059983169659972}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "cross_camera", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.794183254241943, "progress": 1.1800103187561035, "wall_seconds": 1.3378865839913487}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "cross_spatial", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.782470226287842, "progress": 1.191723346710205, "wall_seconds": 1.3483522767201066}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "right_rear", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.801079750061035, "progress": 1.1731138229370117, "wall_seconds": 1.3553627077490091}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "fixed_low_detail", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.701127052307129, "progress": 1.273066520690918, "wall_seconds": 1.3012168584391475}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "fixed_native_scatter", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.74937105178833, "progress": 1.2248225212097168, "wall_seconds": 1.5363943120464683}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": true, "variant": "single_front", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 4.7471089363098145, "progress": 1.2270846366882324, "wall_seconds": 1.2640072302892804}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "glance", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 6.137877941131592, "progress": -0.16368436813354492, "wall_seconds": 0.6550238793715835}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "fixed", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 5.898525238037109, "progress": 0.0756683349609375, "wall_seconds": 0.8222804665565491}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "fixed_spatial", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 5.910735130310059, "progress": 0.06345844268798828, "wall_seconds": 0.73865448217839}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "cross_camera", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 6.023399829864502, "progress": -0.04920625686645508, "wall_seconds": 0.7128921542316675}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "cross_spatial", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 5.996774673461914, "progress": -0.022581100463867188, "wall_seconds": 0.7270964747294784}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "right_rear", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 5.9888505935668945, "progress": -0.014657020568847656, "wall_seconds": 0.7364878375083208}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "fixed_low_detail", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 5.871644020080566, "progress": 0.10254955291748047, "wall_seconds": 0.7621454671025276}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "fixed_native_scatter", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 5.898525238037109, "progress": 0.0756683349609375, "wall_seconds": 0.8386764759197831}
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 1, "history": false, "variant": "single_front", "image_sha256": "6474694107a05019b6ecc3a5e8ddd096fadeee09f71b4fd662b27dcbac79c986", "distance_before": 5.974193572998047, "distance_after": 6.083922386169434, "progress": -0.10972881317138672, "wall_seconds": 0.697294875048101}

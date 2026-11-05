@@ -1,0 +1,23 @@
+{
+  "started": "2026-11-05T23:04:35.071592+08:00",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "model_python": "/home/data/czh/Third_Party/baselines/SimpleNav/.venv/bin/python",
+  "habitat_python": "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+  "model_gpu": 0,
+  "habitat_gpu": 1,
+  "runtime": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release_runtime",
+  "initial_gpu": "Thu Nov  5 23:04:35 2026       \n+---------------------------------------------------------------------------------------+\n| NVIDIA-SMI 535.230.02             Driver Version: 535.230.02   CUDA Version: 12.2     |\n|-----------------------------------------+----------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |\n|                                         |                      |               MIG M. |\n|=========================================+======================+======================|\n|   0  NVIDIA GeForce RTX 4090        Off | 00000000:17:00.0 Off |                  Off |\n| 30%   40C    P8              25W / 450W |  10415MiB / 24564MiB |      0%      Default |\n|                                         |                      |                  N/A |\n+-----------------------------------------+----------------------+----------------------+\n|   1  NVIDIA GeForce RTX 4090        Off | 00000000:A6:00.0 Off |                  Off |\n| 30%   39C    P8              34W / 450W |     20MiB / 24564MiB |      0%      Default |\n|                                         |                      |                  N/A |\n+-----------------------------------------+----------------------+----------------------+\n                                                                                         \n+---------------------------------------------------------------------------------------+\n| Processes:                                                                            |\n|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |\n|        ID   ID                                                             Usage      |\n|=======================================================================================|\n|    0   N/A  N/A      7129      G   /usr/lib/xorg/Xorg                          187MiB |\n|    0   N/A  N/A      7580      G   /usr/bin/gnome-shell                          8MiB |\n|    0   N/A  N/A      7762      G   ...in/bin/sunloginclient --cmd=autorun       21MiB |\n|    0   N/A  N/A      8041      G   ...) Chrome/58.0.3029.81 Safari/537.36        6MiB |\n|    0   N/A  N/A      8078      G   ...en=38E8EB4377B3EC8B533D2495429A7FDA       16MiB |\n|    0   N/A  N/A   1989986      C   ...aselines/SimpleNav/.venv/bin/python    10134MiB |\n|    1   N/A  N/A      7129      G   /usr/lib/xorg/Xorg                            4MiB |\n+---------------------------------------------------------------------------------------+\n",
+  "source_hashes": {
+    "policy.py": "94b708f4ec43871c3c1290643b3c70f899ffd16b851eaf7b5d10298c1d137bef",
+    "run_pilot.py": "e70edd634665dccf240a60e3844e04a63ae5cdfe33c115fee3f859d2141d84ee",
+    "runtime.py": "97f7fd517ba390cc6e80de39bde02e79941849ded06aec21083cab7368465fc9",
+    "data_guard.py": "291980dd8798f4fe2f72085c88a13c053df5cc83b59ca13f3beea886f9efddfe",
+    "features.py": "fb5cee4ca2e4da60cb85d27dabbbda1f5d8c99f0e6e51602f3b9d81b1a5ca3f7",
+    "training.py": "d8c6319d541397c55889b87006a0a632ae17f0dead45bb65a8c10f14721323e2",
+    "server.py": "53e9280ce06603e8d4d5858fa3978199265de7c6e80070b13c5f7e3516257a7e",
+    "trajectory.py": "4c0fef4f564c0ab765d36c35c6812a0639cb5eaf4ba17df968f838b2f931bdf8",
+    "real_rollout.py": "c98b14f5d621643abba0253f2f6ccb9fee035108b2e8e26ba3618782dfbba573",
+    "learning_sanity.py": "6102fc2da77da770d4cefef42908a6a15291c9163606f4eb2a218a80dda3227d",
+    "audit_results.py": "90a5445d910583b1a06eeeee76b4afef55cb7f1b7145ac5d754410bf0ccb9374"
+  }
+}

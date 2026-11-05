@@ -1,0 +1,3098 @@
+[
+  {
+    "path": "Experiment/SCOPE/Stage2/FILES_MANIFEST.tsv",
+    "bytes": 122837,
+    "reason": "Original full inventory superseded by curated release inventory"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/audit_results.cpython-310.pyc",
+    "bytes": 13931,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/data_guard.cpython-310.pyc",
+    "bytes": 4230,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/data_guard.cpython-39.pyc",
+    "bytes": 4228,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/features.cpython-310.pyc",
+    "bytes": 7775,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/learning_sanity.cpython-310.pyc",
+    "bytes": 2286,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/policy.cpython-310.pyc",
+    "bytes": 8063,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/real_rollout.cpython-310.pyc",
+    "bytes": 11519,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/run_pilot.cpython-310.pyc",
+    "bytes": 4799,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/runtime.cpython-310.pyc",
+    "bytes": 18858,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/server.cpython-310.pyc",
+    "bytes": 2581,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/training.cpython-310.pyc",
+    "bytes": 8270,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/__pycache__/trajectory.cpython-310.pyc",
+    "bytes": 3352,
+    "reason": "Python bytecode cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/all_scope_tests.log",
+    "bytes": 133,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/audit_complete.log",
+    "bytes": 548,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/audit_complete_retry.log",
+    "bytes": 5297,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/audit_final.log",
+    "bytes": 865,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/audit_matched_history.log",
+    "bytes": 5298,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/actor_critic_A_update_001.pt",
+    "bytes": 11753323,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "56f27ce656cc1954b3621302df24efbb980cd5ea86f95c403f836b2eec0a4887"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/actor_critic_B_update_001.pt",
+    "bytes": 12379543,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "f564cf9e011cd0c35ddd425e786822dbe05cdf7016280b5ae0b26478bbd41cfd"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/actor_critic_C_update_001.pt",
+    "bytes": 12379543,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "0c183226ad02aba083d0006eb08693a4365388342dd533d703072244a2091051"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/actor_critic_C_update_002.pt",
+    "bytes": 12379543,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "0a3e1b60adc0b3d670721f7aaa341d2b33e09e3fa9aecd2c907e2f90eafba748"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_dev_C_1279_5_0.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_dev_C_1279_5_2.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_dev_C_9791_15_0.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_dev_C_9791_9_2.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_train_A_1_4_1.json",
+    "bytes": 958,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_train_B_1_4_1.json",
+    "bytes": 1032,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_train_C_1_8_1.json",
+    "bytes": 1031,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/finish_train_C_2_8_2.json",
+    "bytes": 1032,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/model_contract.json",
+    "bytes": 294,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/real_train_rollout_A_1.pt",
+    "bytes": 5518594,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "dd37c8a84ad3d37c2fcd3e5ea6c0a98a809dd3622b171e0b63cb5a306c8caccb"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/real_train_rollout_B_1.pt",
+    "bytes": 5518594,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "00819a52c8b3a3101538a572708110398983c3c12f60067736b83ec098afedf3"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/real_train_rollout_C_1.pt",
+    "bytes": 10357966,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "82f95478901eb34b60d09bfda2542783bf03fa059a42a63139fbc63db4f705c9"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/real_train_rollout_C_2.pt",
+    "bytes": 11036534,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "3fcb254bcf9489d37a9a6455e0b60471269bc2d3ea106d13a25436af4f487494"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/scope.jsonl",
+    "bytes": 537581,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/source_hashes.json",
+    "bytes": 778,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/certified_runtime/trajectories.jsonl",
+    "bytes": 16203399,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/compile_final.log",
+    "bytes": 0,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/compile_release.log",
+    "bytes": 0,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/debug_runtime/model_contract.json",
+    "bytes": 294,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/debug_runtime/source_hashes.json",
+    "bytes": 954,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/config.yaml",
+    "bytes": 1933,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/episodes.json",
+    "bytes": 6064,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6654,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6642,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6576,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6586,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "bytes": 1192,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 4194,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 8962,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 13644,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 17783,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 16911,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "bytes": 3915,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6670,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6661,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6657,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6677,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6678,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6643,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6642,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6635,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000064.json",
+    "bytes": 6664,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "bytes": 1459,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 4203,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 8953,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 13687,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 17818,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 17816,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 17779,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 17789,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 17794,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 17819,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00009.json",
+    "bytes": 15757,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "bytes": 8693,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after/results.json",
+    "bytes": 1670,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_after.log",
+    "bytes": 5362,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/config.yaml",
+    "bytes": 1935,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/episodes.json",
+    "bytes": 6064,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6668,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6636,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6636,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6656,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "bytes": 1194,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5201,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9916,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14654,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18793,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17918,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "bytes": 3956,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6665,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6678,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6667,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6667,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6646,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6617,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6651,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000064.json",
+    "bytes": 6649,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000072.json",
+    "bytes": 6678,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000080.json",
+    "bytes": 6594,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000088.json",
+    "bytes": 6645,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000096.json",
+    "bytes": 6582,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000104.json",
+    "bytes": 6568,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000112.json",
+    "bytes": 6577,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000120.json",
+    "bytes": 6603,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000128.json",
+    "bytes": 6620,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000136.json",
+    "bytes": 6636,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000144.json",
+    "bytes": 6662,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000152.json",
+    "bytes": 6644,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000160.json",
+    "bytes": 6672,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000168.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000176.json",
+    "bytes": 6672,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000184.json",
+    "bytes": 6693,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "bytes": 1450,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5170,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9967,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14690,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18815,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18812,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18782,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18758,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18792,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 18815,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00009.json",
+    "bytes": 17633,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00010.json",
+    "bytes": 18762,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00011.json",
+    "bytes": 18785,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00012.json",
+    "bytes": 12280,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00013.json",
+    "bytes": 16978,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00014.json",
+    "bytes": 16382,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00015.json",
+    "bytes": 16399,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00016.json",
+    "bytes": 18760,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00017.json",
+    "bytes": 17594,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00018.json",
+    "bytes": 18806,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00019.json",
+    "bytes": 15834,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00020.json",
+    "bytes": 18812,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00021.json",
+    "bytes": 18808,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00022.json",
+    "bytes": 18802,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00023.json",
+    "bytes": 18788,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00024.json",
+    "bytes": 13183,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "bytes": 22864,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial/results.json",
+    "bytes": 1674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dev_initial.log",
+    "bytes": 5366,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/actor_critic_C_update_003.pt",
+    "bytes": 12380055,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "a72e23fa28394e1f94b3d7a4afe18ef38ec826ea156427b8bf11acdd7063fccc"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/real_train_rollout_C_3.pt",
+    "bytes": 2759690,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "fa3d999a14e3d744e1fe1c2e2d886aaba574bf1ca0a67c1d5ca6d042c08c16f4"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/external_navigation_regression.log",
+    "bytes": 1428,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/external_navigation_regression_retry.log",
+    "bytes": 3387,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/commands.json",
+    "bytes": 3912,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/config.yaml",
+    "bytes": 1965,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/episodes.json",
+    "bytes": 6064,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6585,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6607,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6602,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6589,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "bytes": 1192,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5127,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9901,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14643,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18747,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17888,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "bytes": 3903,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6679,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6670,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6678,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6680,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6637,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6634,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6665,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "bytes": 1457,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5183,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9944,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18786,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18779,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18786,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18762,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18786,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 17882,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "bytes": 7777,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after/results.json",
+    "bytes": 1669,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_after.log",
+    "bytes": 5361,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/config.yaml",
+    "bytes": 1966,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/episodes.json",
+    "bytes": 6064,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6668,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6636,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6636,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6656,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "bytes": 1194,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5203,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9916,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14656,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18791,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17918,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "bytes": 3956,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6665,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6678,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6667,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6667,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6634,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6626,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6705,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000064.json",
+    "bytes": 6675,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000072.json",
+    "bytes": 6660,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000080.json",
+    "bytes": 6684,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000088.json",
+    "bytes": 6659,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000096.json",
+    "bytes": 6653,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000104.json",
+    "bytes": 6642,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "bytes": 1461,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5171,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9967,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14690,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18813,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18814,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18787,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18764,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18845,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 18809,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00009.json",
+    "bytes": 17631,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00010.json",
+    "bytes": 18790,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00011.json",
+    "bytes": 18778,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00012.json",
+    "bytes": 12316,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00013.json",
+    "bytes": 17008,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00014.json",
+    "bytes": 15548,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "bytes": 13469,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before/results.json",
+    "bytes": 1673,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_before.log",
+    "bytes": 5365,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/config.yaml",
+    "bytes": 1968,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/episodes.json",
+    "bytes": 6064,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6585,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6607,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6602,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6589,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "bytes": 1192,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5130,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9897,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14641,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18744,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17890,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "bytes": 3903,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6679,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6670,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6678,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6680,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6637,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6634,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6665,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "bytes": 1457,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5186,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9941,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18787,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18783,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18785,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18761,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18786,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 17882,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "bytes": 7777,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/results.json",
+    "bytes": 1670,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored/resume_cursor.json",
+    "bytes": 66,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/dev_restored.log",
+    "bytes": 5362,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/diagnostics_train/config.yaml",
+    "bytes": 1973,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/diagnostics_train/diagnostics.json",
+    "bytes": 4495,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/diagnostics_train/episodes.json",
+    "bytes": 2434,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/environment.json",
+    "bytes": 4038,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/gpu_samples.csv",
+    "bytes": 545492,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/protected_before.json",
+    "bytes": 1807454,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/server.log",
+    "bytes": 0,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/config.yaml",
+    "bytes": 1963,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/episodes.json",
+    "bytes": 2434,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6745,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6688,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6713,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1172,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5179,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 9974,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14703,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18809,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 3981,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A/results.json",
+    "bytes": 1713,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_A.log",
+    "bytes": 3366,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/config.yaml",
+    "bytes": 1963,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/episodes.json",
+    "bytes": 2434,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6745,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6688,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6713,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1172,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5177,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 9973,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14704,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18808,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 3981,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B/results.json",
+    "bytes": 1787,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_B.log",
+    "bytes": 3440,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/config.yaml",
+    "bytes": 1963,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/episodes.json",
+    "bytes": 4787,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6731,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6655,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6641,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6696,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000040.json",
+    "bytes": 6651,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000048.json",
+    "bytes": 6642,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000056.json",
+    "bytes": 6641,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1178,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5177,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8991,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14180,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18811,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 18807,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 18772,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00006.json",
+    "bytes": 18773,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00007.json",
+    "bytes": 18765,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 7735,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6670,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6629,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6648,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6652,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6699,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6674,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6710,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6643,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "bytes": 1137,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 5214,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 9933,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 14651,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 18781,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 18828,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 18777,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 18820,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 18766,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "bytes": 7728,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C/results.json",
+    "bytes": 3538,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/train_C.log",
+    "bytes": 4864,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_audit.log",
+    "bytes": 5298,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_pilot.log",
+    "bytes": 612,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/actor_critic_A_update_001.pt",
+    "bytes": 11753195,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "0ae6769b6a8e4977e53917f34e2662c4be9b8a3af887f00f606d695bfd4b5ed6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/actor_critic_B_update_001.pt",
+    "bytes": 12379415,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "5138d053dbca350d5a639a2c7efc473c2cb497565e89b8f89d603c71be16395e"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/actor_critic_C_update_001.pt",
+    "bytes": 12379415,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "3735374dfc56ce21b58e806f07af0ecd4f44d51ebb433e6169d758694e25e0dc"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/actor_critic_C_update_002.pt",
+    "bytes": 12379415,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "957b190758742d21d21dc9260fc8d70c080cd3dcab3a8de7b445a3da98485d5c"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/finish_dev_C_1279_5_2.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/finish_dev_C_9791_10_2.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/finish_train_A_1_4_1.json",
+    "bytes": 791,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/finish_train_B_1_4_1.json",
+    "bytes": 797,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/finish_train_C_1_8_1.json",
+    "bytes": 798,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/finish_train_C_2_8_2.json",
+    "bytes": 800,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/model_contract.json",
+    "bytes": 294,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/real_train_rollout_A_1.pt",
+    "bytes": 5518594,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "56476a81cb53fbb4a8135e07451578b36f61a4b206d0f09cc4daa257ba418ad0"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/real_train_rollout_B_1.pt",
+    "bytes": 5518594,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "e4bd7471231370a95c627871cbd5c9323bbf19e2cc7801855823f378dda82429"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/real_train_rollout_C_1.pt",
+    "bytes": 10357966,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "ab78b6fd40f11645be4f6f2c9e971c82a6b5c97d32e97f4b34b0313b5ce431c0"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/real_train_rollout_C_2.pt",
+    "bytes": 11036534,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "a098f21ba73e0acbc463662deadd9d5f265cdd7f8103dfc8de20b289b5bd43cd"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/scope.jsonl",
+    "bytes": 275441,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final_runtime/trajectories.jsonl",
+    "bytes": 6900131,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/learning_sanity_preflight.json",
+    "bytes": 343,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/pilot_C/finish_1279_5.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/pilot_C/finish_9791_25.json",
+    "bytes": 43,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/pilot_C/model_contract.json",
+    "bytes": 294,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/pilot_C/scope.jsonl",
+    "bytes": 245758,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/pilot_C/trajectories.jsonl",
+    "bytes": 1823342,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6585,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6607,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6602,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6589,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5129,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9899,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14640,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18746,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17889,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6679,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6670,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6678,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6674,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6680,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6637,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6634,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6665,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5187,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9944,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14672,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18784,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18779,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18788,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18763,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18786,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 17882,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6668,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6636,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6636,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6656,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5202,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9918,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14654,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18794,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17918,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6665,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6678,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6674,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6667,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6667,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6646,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6617,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6651,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000064.json",
+    "bytes": 6649,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000072.json",
+    "bytes": 6678,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000080.json",
+    "bytes": 6594,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000088.json",
+    "bytes": 6645,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000096.json",
+    "bytes": 6582,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000104.json",
+    "bytes": 6568,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000112.json",
+    "bytes": 6577,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000120.json",
+    "bytes": 6603,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000128.json",
+    "bytes": 6620,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000136.json",
+    "bytes": 6636,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000144.json",
+    "bytes": 6662,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000152.json",
+    "bytes": 6644,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000160.json",
+    "bytes": 6672,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000168.json",
+    "bytes": 6695,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000176.json",
+    "bytes": 6672,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000184.json",
+    "bytes": 6693,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5172,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9967,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14689,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18811,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18813,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18784,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18757,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18791,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 18816,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00009.json",
+    "bytes": 17635,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00010.json",
+    "bytes": 18761,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00011.json",
+    "bytes": 18781,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00012.json",
+    "bytes": 12279,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00013.json",
+    "bytes": 16979,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00014.json",
+    "bytes": 16382,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00015.json",
+    "bytes": 16401,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00016.json",
+    "bytes": 18762,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00017.json",
+    "bytes": 17591,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00018.json",
+    "bytes": 18807,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00019.json",
+    "bytes": 15833,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00020.json",
+    "bytes": 18811,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00021.json",
+    "bytes": 18811,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00022.json",
+    "bytes": 18803,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00023.json",
+    "bytes": 18788,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00024.json",
+    "bytes": 13180,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000000.json",
+    "bytes": 6585,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000008.json",
+    "bytes": 6607,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000016.json",
+    "bytes": 6602,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/data/000024.json",
+    "bytes": 6589,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00000.json",
+    "bytes": 5131,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00001.json",
+    "bytes": 9898,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00002.json",
+    "bytes": 14642,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00003.json",
+    "bytes": 18746,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/scope_00004.json",
+    "bytes": 17889,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000000.json",
+    "bytes": 6679,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000008.json",
+    "bytes": 6670,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000016.json",
+    "bytes": 6678,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000024.json",
+    "bytes": 6674,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000032.json",
+    "bytes": 6680,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000040.json",
+    "bytes": 6637,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000048.json",
+    "bytes": 6634,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/data/000056.json",
+    "bytes": 6665,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00000.json",
+    "bytes": 5183,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00001.json",
+    "bytes": 9944,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00002.json",
+    "bytes": 14671,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00003.json",
+    "bytes": 18785,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00004.json",
+    "bytes": 18777,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00005.json",
+    "bytes": 18782,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00006.json",
+    "bytes": 18760,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00007.json",
+    "bytes": 18788,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/scope_00008.json",
+    "bytes": 17884,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/protected_before.json",
+    "bytes": 1807454,
+    "reason": "Duplicate protection snapshot or empty server log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/server.log",
+    "bytes": 0,
+    "reason": "Duplicate protection snapshot or empty server log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6745,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6688,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6713,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5179,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 9975,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14704,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18809,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6745,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6688,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6713,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5178,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 9975,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14705,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18805,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6731,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6655,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6641,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6696,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000040.json",
+    "bytes": 6651,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000048.json",
+    "bytes": 6642,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000056.json",
+    "bytes": 6641,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5177,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8992,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14182,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18809,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 18807,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 18772,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00006.json",
+    "bytes": 18770,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00007.json",
+    "bytes": 18769,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6670,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6629,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6648,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6652,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6699,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6674,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6710,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6643,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 5215,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 9931,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 14653,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 18784,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 18826,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 18778,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 18821,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 18765,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_pilot.log",
+    "bytes": 679,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/actor_critic_A_update_001.pt",
+    "bytes": 11753323,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "56f27ce656cc1954b3621302df24efbb980cd5ea86f95c403f836b2eec0a4887"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/actor_critic_B_update_001.pt",
+    "bytes": 12379543,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "40235813560f07ee20c95615571def7a74e996ba1f7ee856d3ea8717a7cb1e33"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/actor_critic_C_update_001.pt",
+    "bytes": 12379543,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "de04827cd90e1379e103d3a63f68b262af41a16d32affcecb6d2cf98f9f66c63"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/actor_critic_C_update_002.pt",
+    "bytes": 12379543,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "0b23c8932dac3557951d55d87bdd55eb428f9c67f0d39065ba2f8d25f882cf6a"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/real_train_rollout_A_1.pt",
+    "bytes": 5518594,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "fb6eccdaa6dc209a6d83deabcc04c04bb5b5a40568a13c40a29039a5530246f3"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/real_train_rollout_B_1.pt",
+    "bytes": 5518594,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "6bb43cd6d877e576f148966c63c3b6e8e160a40b89dd5355384979fcca058172"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/real_train_rollout_C_1.pt",
+    "bytes": 10357966,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "d2455d0e9e772e8f1adc2e5b43c503e1d1df4b49025e25da880b8e94c6f8f734"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/real_train_rollout_C_2.pt",
+    "bytes": 11036534,
+    "reason": "Actor/Critic checkpoint or tensor rollout omitted; recorded hash and scalar update evidence retained",
+    "sha256": "e43703047c4503efded0a34043b158ecff47c0775971e90ab231bf298af9b43e"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/data/000000.json",
+    "bytes": 6718,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/data/000008.json",
+    "bytes": 6714,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/scope_00000.json",
+    "bytes": 5210,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/scope_00001.json",
+    "bytes": 9974,
+    "reason": "Duplicate per-step artifacts covered by structured runtime trajectories"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_C.log",
+    "bytes": 15072,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_certified.log",
+    "bytes": 32895,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_debug.log",
+    "bytes": 15150,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_final.log",
+    "bytes": 16305,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_validated.log",
+    "bytes": 11691,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/config.yaml",
+    "bytes": 1931,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/episodes.json",
+    "bytes": 2434,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6745,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6688,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6713,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1172,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5182,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 9974,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14703,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18809,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 3981,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A/results.json",
+    "bytes": 1530,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_A.log",
+    "bytes": 3223,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/config.yaml",
+    "bytes": 1931,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/episodes.json",
+    "bytes": 2434,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6745,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6688,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6713,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1172,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5178,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 9973,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14703,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18808,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 3981,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B/results.json",
+    "bytes": 1536,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_B.log",
+    "bytes": 3229,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/config.yaml",
+    "bytes": 1931,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/episodes.json",
+    "bytes": 4787,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6695,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6731,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6655,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6641,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6696,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000040.json",
+    "bytes": 6651,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000048.json",
+    "bytes": 6642,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000056.json",
+    "bytes": 6641,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1178,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 5179,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8993,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 14182,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 18812,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 18807,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 18768,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00006.json",
+    "bytes": 18773,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00007.json",
+    "bytes": 18769,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 7735,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6673,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6703,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6705,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6718,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6774,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6705,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6662,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6653,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "bytes": 1139,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 4717,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 9972,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 14683,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 18348,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 18846,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 18798,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 18774,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 18781,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "bytes": 7798,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C/results.json",
+    "bytes": 3042,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/train_C.log",
+    "bytes": 4448,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/unit_tests.log",
+    "bytes": 117,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/upstream_manifest.json",
+    "bytes": 139223,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/upstream_provenance.json",
+    "bytes": 174063,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/validated_runtime/model_contract.json",
+    "bytes": 294,
+    "reason": "Superseded pilot or duplicate debug output; final release and key failure evidence retained"
+  }
+]

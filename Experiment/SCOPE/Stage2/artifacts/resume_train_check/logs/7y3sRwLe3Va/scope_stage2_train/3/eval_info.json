@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_stage2_train:3",
+  "source_episode_id": "3",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Turn to the right, go past the refrigerator.  Turn left and walk to the point where you're to the hallway by the entry and dining room area.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 4.410214818006583,
+  "path_length": 2.137747686356306,
+  "gt_path_length": 7.240866344252394,
+  "steps": 2,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "max_steps",
+  "failure_traceback": null,
+  "nDTW": 0.40925379773511406,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 0.0,
+    "NE": 4.410214818006583,
+    "SPL": 0.0,
+    "nDTW": 0.40925379773511406,
+    "path_length": 2.137747686356306,
+    "steps_taken": 2.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "stage2-train",
+  "input_namespace": "scope_stage2_train",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "stage2-pilot",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

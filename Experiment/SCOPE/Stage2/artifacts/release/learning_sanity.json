@@ -1,0 +1,10 @@
+{
+  "kind": "train-only real-observation overfit sanity; not navigation or on-policy PPO",
+  "source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release_runtime/real_train_rollout_C_1.pt",
+  "samples": 8,
+  "iterations": 30,
+  "initial_nll": 2.85299015045166,
+  "final_nll": 0.0021546930074691772,
+  "seconds": 0.9358222633600235,
+  "passed": true
+}

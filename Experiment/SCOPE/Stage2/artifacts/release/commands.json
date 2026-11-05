@@ -1,0 +1,169 @@
+[
+  {
+    "label": "dev_before",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/dev_before",
+      "--purpose",
+      "dev",
+      "--count",
+      "2",
+      "--max-steps",
+      "200",
+      "--port",
+      "10096"
+    ],
+    "returncode": 0,
+    "wall_seconds": 82.24777581822127
+  },
+  {
+    "label": "train_A",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/train_A",
+      "--purpose",
+      "train",
+      "--count",
+      "1",
+      "--max-steps",
+      "4",
+      "--port",
+      "10096",
+      "--regime",
+      "A",
+      "--update"
+    ],
+    "returncode": 0,
+    "wall_seconds": 25.636511074379086
+  },
+  {
+    "label": "train_B",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/train_B",
+      "--purpose",
+      "train",
+      "--count",
+      "1",
+      "--max-steps",
+      "4",
+      "--port",
+      "10096",
+      "--regime",
+      "B",
+      "--update"
+    ],
+    "returncode": 0,
+    "wall_seconds": 25.539819723926485
+  },
+  {
+    "label": "train_C",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/train_C",
+      "--purpose",
+      "train",
+      "--count",
+      "2",
+      "--max-steps",
+      "8",
+      "--port",
+      "10096",
+      "--regime",
+      "C",
+      "--update"
+    ],
+    "returncode": 0,
+    "wall_seconds": 44.54273793194443
+  },
+  {
+    "label": "dev_after",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/dev_after",
+      "--purpose",
+      "dev",
+      "--count",
+      "2",
+      "--max-steps",
+      "200",
+      "--port",
+      "10096"
+    ],
+    "returncode": 0,
+    "wall_seconds": 52.96751613356173
+  },
+  {
+    "label": "dev_restored",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/dev_restored",
+      "--purpose",
+      "dev",
+      "--count",
+      "2",
+      "--max-steps",
+      "200",
+      "--port",
+      "10096",
+      "--resume",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release_runtime/actor_critic_C_update_002.pt"
+    ],
+    "returncode": 0,
+    "wall_seconds": 53.47070940118283
+  },
+  {
+    "label": "diagnostics_train",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train",
+      "--purpose",
+      "train",
+      "--count",
+      "1",
+      "--max-steps",
+      "2",
+      "--port",
+      "10096",
+      "--mode",
+      "diagnose"
+    ],
+    "returncode": 0,
+    "wall_seconds": 43.54698727745563
+  },
+  {
+    "label": "diagnostics_dev",
+    "command": [
+      "/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py",
+      "--output",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev",
+      "--purpose",
+      "dev",
+      "--count",
+      "1",
+      "--max-steps",
+      "2",
+      "--port",
+      "10096",
+      "--mode",
+      "diagnose"
+    ],
+    "returncode": 0,
+    "wall_seconds": 48.15646472387016
+  }
+]

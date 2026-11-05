@@ -1,0 +1,46 @@
+[
+  {
+    "episode_uid": "scope_feasibility_dev:9791",
+    "source_episode_id": "9791",
+    "scene_id": "jh4fc5c5qoQ",
+    "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+    "success": 0,
+    "oracle_success": 0,
+    "final_distance": 11.098906011763068,
+    "path_length": 25.365384419681504,
+    "gt_path_length": 9.090362548828125,
+    "steps": 25,
+    "failure": null,
+    "failure_type": null,
+    "termination_reason": "waypoint_motion_stop",
+    "failure_traceback": null,
+    "nDTW": 8.560137134484911e-05,
+    "wall_seconds": 48.21760389767587,
+    "training": {
+      "transitions": 0,
+      "updated": false
+    }
+  },
+  {
+    "episode_uid": "scope_feasibility_dev:1279",
+    "source_episode_id": "1279",
+    "scene_id": "5q7pvUzZiYa",
+    "instruction": "Walk down the hallway past the stairs towards the bedroom. Stop and wait just before crossing into the next room.",
+    "success": 1,
+    "oracle_success": 1,
+    "final_distance": 0.8703468374016479,
+    "path_length": 5.5109226405620575,
+    "gt_path_length": 6.198246002197266,
+    "steps": 5,
+    "failure": null,
+    "failure_type": null,
+    "termination_reason": "waypoint_motion_stop",
+    "failure_traceback": null,
+    "nDTW": 0.9400091940971208,
+    "wall_seconds": 15.730560044758022,
+    "training": {
+      "transitions": 0,
+      "updated": false
+    }
+  }
+]

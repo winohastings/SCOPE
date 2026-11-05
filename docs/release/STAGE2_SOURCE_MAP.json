@@ -1,0 +1,794 @@
+[
+  {
+    "path": "Experiment/SCOPE/Stage2/CORE_ARCHITECTURE.md",
+    "source": "Experiment/SCOPE/Stage2/CORE_ARCHITECTURE.md",
+    "source_sha256": "a173a1edeb8c8b1737fd3e7c8aac649afe47930c42eeccb0c9c270dd0a7ae2d9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/FOCUS_DIAGNOSTICS.md",
+    "source": "Experiment/SCOPE/Stage2/FOCUS_DIAGNOSTICS.md",
+    "source_sha256": "89f27fc3841713ba6399f4a371c3585354d8e07c4ff7d7d3dfed285706237fcd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/GPU_BUDGET_PILOT.md",
+    "source": "Experiment/SCOPE/Stage2/GPU_BUDGET_PILOT.md",
+    "source_sha256": "75e74fd0bfdf240eb56de77ff03172febc3c8c5c7c67b61695dfea55a6004a54",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/IMPLEMENTATION_REPORT.md",
+    "source": "Experiment/SCOPE/Stage2/IMPLEMENTATION_REPORT.md",
+    "source_sha256": "bfdda511cf946d8e9fc1b882e5c75db1aec223226ea07e9b74fb0850a4fe8cda",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/README.md",
+    "source": "Experiment/SCOPE/Stage2/README.md",
+    "source_sha256": "8ec45e9db7ddda8b326aeb37aa27677fac1eefd77b146f2b3688bdef83914602",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/SHORT_TRAINING_REPORT.md",
+    "source": "Experiment/SCOPE/Stage2/SHORT_TRAINING_REPORT.md",
+    "source_sha256": "ed62fa3b5f361f3a900658be203cce739ba1a3b960288f6526a0f17e403bdaaa",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/STATE_TRAJECTORY_SPEC.md",
+    "source": "Experiment/SCOPE/Stage2/STATE_TRAJECTORY_SPEC.md",
+    "source_sha256": "86bd01af5613bcdd106fcb8474195c53e13e5db2f0a35a9498d842cf7cac66b0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/TRAINING_OBJECTIVES.md",
+    "source": "Experiment/SCOPE/Stage2/TRAINING_OBJECTIVES.md",
+    "source_sha256": "e499631312713d0e54b95b1832e8b56db15e7dcd523f63765cf17c9d9987bb5a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/UNIT_AND_INTEGRATION_TESTS.md",
+    "source": "Experiment/SCOPE/Stage2/UNIT_AND_INTEGRATION_TESTS.md",
+    "source_sha256": "2207d48a4aa09b00da6c19fb61213c50b6245406a4c6855e51c72e66e94710bd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/FINAL_SOURCE_HASHES.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/FINAL_SOURCE_HASHES.json",
+    "source_sha256": "2355c07bc639579c593fb517b1e7b7ee8449c75b1dd766412c60e113a716059e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/FINAL_VALIDATION.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/FINAL_VALIDATION.json",
+    "source_sha256": "44a31891ea80e4ec514a4d59d714f7c13fdc4e8a4efa6927e8ccec60ee51f9b0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/alignment_pilot.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/alignment_pilot.json",
+    "source_sha256": "6a248b75aa8f158a6e5f5a2481e36bd114e53f89c55bcbcc757e8e4346b5b9d7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/all_scope_tests_final.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/all_scope_tests_final.log",
+    "source_sha256": "56748d5f75b723edcc7024c19f947b0bdd2362d643b4f1977477d0db1f5dc35e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/debug_runtime/native_feature_mismatch.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/debug_runtime/native_feature_mismatch.json",
+    "source_sha256": "9528f7e354f4481bfc0d8a4ad34d05a54359ac054a372810678803380205e25a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/dependency_integrity.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/dependency_integrity.json",
+    "source_sha256": "5c548ef8cf826d8bb83cbf4c00909118fcdaa8b2748c328f6d72e919d860e328",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/finish_train_C_3_2_3.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/finish_train_C_3_2_3.json",
+    "source_sha256": "acd17648fc5a7aac66aa8823f368e9da8121fdf70c823a70fe56b11ff7209cc6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/model_contract.json",
+    "source_sha256": "37377b163f4a3bca2cce5a8439db1fbd37c33a9591f1f749c5eae216bb84f3ea",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/scope.jsonl",
+    "source_sha256": "b1a5ce4b79d912d03aa29b51e946923c78cbb211fbec7421cabbf94183cb6b54",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/source_hashes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/source_hashes.json",
+    "source_sha256": "312b4ca58da077218f4c4ed5bb4856fb9629e18bec5fa1cd6bfa2159b555fa82",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/trajectories.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/artifacts/diagnostic_runtime/trajectories.jsonl",
+    "source_sha256": "b77adc996feb5315a54bab1c909b26b6995f1977c03621893a30e5ba8b6d37fb",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/external_navigation_regression_habitat.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/external_navigation_regression_habitat.log",
+    "source_sha256": "dfd0a1c88ca47f0749b6e0b8028c994949041ec48cb466409ac65a49400c0575",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/final/diagnostics_train.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/final/diagnostics_train.log",
+    "source_sha256": "aac7e328a3e793b0bf1f17efbdc71bc219409b6b1a07aa32815fcfde809614a9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/gpu_samples.csv.gz",
+    "source": "Experiment/SCOPE/Stage2/artifacts/gpu_samples.csv",
+    "source_sha256": "e39243c92ac117859a56ff152cacb992a62ac6a515d431ff78939e81fc01240a",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/legacy_integrity.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/legacy_integrity.json",
+    "source_sha256": "f525c98ad12d318ce7eb6a4aec0639eb70f3975d3a3233b3b84f80389b8abf0e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/protected_before.json.gz",
+    "source": "Experiment/SCOPE/Stage2/artifacts/protected_before.json",
+    "source_sha256": "3e5d4d565f7dce4773cc07a16ab378f8d68df1dcf9649a155d304634debf3dec",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/regression_all.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/regression_all.log",
+    "source_sha256": "88aa3e55064c1f75df488b84f4244998d72fd7f310e3841e2c6ede7ce169d65b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/AUDIT.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/AUDIT.json",
+    "source_sha256": "9a9a8e78dd1a78b76fa00cee5601b4e2683e13474a7ef584974e40a3d2bf2da7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/COMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/COMPLETE.json",
+    "source_sha256": "27b3e4c3c58888ca5068847d85879941c94694cb9f1e1ebd30776c4f5f30ef92",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/commands.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/commands.json",
+    "source_sha256": "51690cdd8dad26c4fcc9d2d1990cf041c55e54371b782a9a978cd1624b9eb8b0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/config.yaml",
+    "source_sha256": "5311da9371f08d15716b8d638862177b1da68fc1b8f331f6261a93f399ed7c9b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/episodes.json",
+    "source_sha256": "670f9b150a1216e6eef798bb33e378ada11d752abb924e351c00653876afdcc4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "source_sha256": "18ed0deea0501c5db24bee12b4b09d7312575eae8837a2e809c450d0623c9f2a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "source_sha256": "21be174938d837a5908136e97b34761551e60cee40341a54784af353e4e097cb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "source_sha256": "7fc22e179cbd69ba74a08b67909af5e5452d2ccb64dec345eda194759a4f0ecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "source_sha256": "faeb1b8f23d9f5c885539484ff95d4a370c308f82ab5824429980e9c5e229626",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after/results.json",
+    "source_sha256": "f5c91a733bfdf48be35bead701d52ac0a79870910cda3ad34a923722576543dd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_after.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_after.log",
+    "source_sha256": "8de5d1e1f682eae1e935d51dee33a5358bc2b542bf1780ebb66b026b7c481d4d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/config.yaml",
+    "source_sha256": "b4ba6c1d4d8787d0996d8f9ceca72718edc722f67ac78c0d93089aae309c8735",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/episodes.json",
+    "source_sha256": "670f9b150a1216e6eef798bb33e378ada11d752abb924e351c00653876afdcc4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "source_sha256": "e33fb30d89c76425b71cdc04211a6fa4215dc799f5ac45028e420cc212af48b9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "source_sha256": "9ecebf46286f219a07c452b3eb7e74b11d37b272861ef638c31e704af8fb0c79",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "source_sha256": "9fe58470c0c09480268f4849af84981ec03a3a167a22863a76fc93c71ef68c52",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "source_sha256": "a111108e925aa8220d039f55c914f3a258304acddbbec40938a0b11cdcde51c8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before/results.json",
+    "source_sha256": "bdf00de2648d37ac167d219da1ef97baee9229bc912846fce24f3bcecaa682d4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_before.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_before.log",
+    "source_sha256": "5a4d123421f0acca83dbf58ae355f5552576fbcdada8389ebd7b0f75f4df6e86",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/config.yaml",
+    "source_sha256": "228417e5f51334b6e469c4b24073dbae6b80d1487f316dd4607b4a2c561d72bf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/episodes.json",
+    "source_sha256": "670f9b150a1216e6eef798bb33e378ada11d752abb924e351c00653876afdcc4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/eval_info.json",
+    "source_sha256": "18ed0deea0501c5db24bee12b4b09d7312575eae8837a2e809c450d0623c9f2a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/5q7pvUzZiYa/scope_feasibility_dev/1279/trajectory.json",
+    "source_sha256": "21be174938d837a5908136e97b34761551e60cee40341a54784af353e4e097cb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/eval_info.json",
+    "source_sha256": "7fc22e179cbd69ba74a08b67909af5e5452d2ccb64dec345eda194759a4f0ecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/logs/jh4fc5c5qoQ/scope_feasibility_dev/9791/trajectory.json",
+    "source_sha256": "faeb1b8f23d9f5c885539484ff95d4a370c308f82ab5824429980e9c5e229626",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/results.json",
+    "source_sha256": "228d9a932754a43cc030c517862c377ff16795bdc21517c920e22290bbdaa2b9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/resume_cursor.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored/resume_cursor.json",
+    "source_sha256": "f1d75c47db2c5b554a612642d9e440e17106877118b53e4bfb9f6daeab5a12c6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/dev_restored.log",
+    "source_sha256": "cf8c4786969384431f45ef8c029b2ddae9510cdbd79143adc1b42058b1d9acdf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_dev/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_dev/config.yaml",
+    "source_sha256": "2fb76e05ef3a41241ad4a099e43764353a148c2ad1ad1e4255a03c239589a185",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_dev/diagnostics.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_dev/diagnostics.json",
+    "source_sha256": "91914d97e9b44258cbed2132ec702790a093c7b4a09d9cdfcbb0d0cb17420e50",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_dev/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_dev/episodes.json",
+    "source_sha256": "84672644d317d509aa845ed297b81a518778877b6782923fb1612a98fd9626c4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_train/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_train/config.yaml",
+    "source_sha256": "c0a22df348cab188a5287d8f49d11c41d573087e68497f34ec1be70b7a9ecd1c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_train/diagnostics.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_train/diagnostics.json",
+    "source_sha256": "8c73677fb5694cceba57be80b6d24de77763dbf89d896d5d180a12c0dc27d857",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_train/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostic_attempts/diagnostics_train/episodes.json",
+    "source_sha256": "b7363adea7064b86c74474f8f8378222750d20b71360b87d9e50e4c837f0451a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev/config.yaml",
+    "source_sha256": "99e40e09acb3eea6124fee8e0811bfdfe23028fdb76de829a1f10042a9f91c1a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev/diagnostics.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev/diagnostics.json",
+    "source_sha256": "c863348e3e50df7f09b7e17f642299ac27f3f526364b12ee938b809b8204286e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev/episodes.json",
+    "source_sha256": "84672644d317d509aa845ed297b81a518778877b6782923fb1612a98fd9626c4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev.log",
+    "source_sha256": "5c84ed039afa03d9ee5c028683c8a5ac3cf76756939f46d718257d1c8fa67aaf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev_matched_history.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_dev_matched_history.log",
+    "source_sha256": "32421a6a016af057e2434df55ed17451ab32b26f6921cb45313befece0dfc225",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train/config.yaml",
+    "source_sha256": "516513fd6edf1fd8af01f9e106ba067fc01dde431093ded93e6716680a7b2392",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train/diagnostics.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train/diagnostics.json",
+    "source_sha256": "497ac6db5be2c47c9119d911cdeaa56e5b58bfcb40ecb8eff8f294c722ab26d4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train/episodes.json",
+    "source_sha256": "b7363adea7064b86c74474f8f8378222750d20b71360b87d9e50e4c837f0451a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train.log",
+    "source_sha256": "1a7d9424cec71e901c79b62baa9189f0fadde448038d9098260aa8b5eb8ec348",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train_matched_history.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/diagnostics_train_matched_history.log",
+    "source_sha256": "29147d7f2585d859b6334da384c59abc45f4b61bc29fd438fc620c278a38c9e8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/environment.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/environment.json",
+    "source_sha256": "de81ac949da5af947b5f7df39c984d126052e7c010ae035b4942fbe35a7e08d2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/gpu_samples.csv",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/gpu_samples.csv",
+    "source_sha256": "6da8fbcb229fbbfc7c691b4ca0b2654f2f5ff89277e020a49f00e51f9bb77224",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/learning_sanity.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/learning_sanity.json",
+    "source_sha256": "85cce941ab6eaac94b8c253defef660194a71b1a73f96e6729b9f3ed293e5507",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/protection_audit.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/protection_audit.json",
+    "source_sha256": "88623e3510163f070d089a40e21465e848b244d1734fe7a083094879995ca20c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_A/config.yaml",
+    "source_sha256": "dfd303689b6dae21bf7cc0108d183ccb97f983d365901900b66d90b3427df5ff",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_A/episodes.json",
+    "source_sha256": "b7363adea7064b86c74474f8f8378222750d20b71360b87d9e50e4c837f0451a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "source_sha256": "8e436581b99b2f89daf21087ad564a055a0f20a2b26cfd9a2b38f722e4cfc1e3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_A/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "source_sha256": "01f1cc27356da74cfc903f7830cc4b6edac20a8ba1b32daa4d2453749b191e15",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_A/results.json",
+    "source_sha256": "399be18a9f673ea64219b4026ddc3a07936d294d71db34096f37636096675690",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_A.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_A.log",
+    "source_sha256": "a5f0dbe241de471b92bdd9886fdf702c950a321a9cecd88cf34b946c3c246e9a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_B/config.yaml",
+    "source_sha256": "da903faaad537a74a1a5871ec9e0bb3ec10d5f4fc7deb43a6201f0d5a75daf20",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_B/episodes.json",
+    "source_sha256": "b7363adea7064b86c74474f8f8378222750d20b71360b87d9e50e4c837f0451a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "source_sha256": "8e436581b99b2f89daf21087ad564a055a0f20a2b26cfd9a2b38f722e4cfc1e3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_B/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "source_sha256": "01f1cc27356da74cfc903f7830cc4b6edac20a8ba1b32daa4d2453749b191e15",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_B/results.json",
+    "source_sha256": "56aa929fa6976d17d032dfccc23e4d15b40e1741acede062574707d4a1f87b5e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_B.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_B.log",
+    "source_sha256": "2eb5086dd46bd4a581dfaf04c48a158a5a5cf395d9686202cc38c1e22a4400c9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/config.yaml",
+    "source_sha256": "7effd90d39dcd7415b5cc5a83798ef6eab85043dbdf974d760f575f3ff3af808",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/episodes.json",
+    "source_sha256": "873265603765b8d408da3d5972605c46a1d33a7edda2d5b79a10a9bbe2142651",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "source_sha256": "c3759f779186fcfb746127f9db256bcddb9b204ece1e17176e8953aac2873feb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "source_sha256": "52866e2d75a160e24f1e0a86beaed1591bc08ab42b453245e62578079ec32f3c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "source_sha256": "caf893ac135823261aa7c80d833e2bed60e6fb63c15322acd82c16f3e6bf6c97",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "source_sha256": "9fa5c0844bc4259618170925390d690ddc34c4340dbb2e383e951ee83553cc15",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C/results.json",
+    "source_sha256": "0f5b44c13c30c16e0797c53c061ec9d81236a50682fe28b811f0c829435177c6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release/train_C.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release/train_C.log",
+    "source_sha256": "0f85cd83ecfb4fcf98d123f3582ab237539486b6f152ebed1384929d5e078164",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_1279_5_0.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_1279_5_0.json",
+    "source_sha256": "11fbd7aca5e2dd7ae8003c56522bb58f20f2b15f62f3a3b7f1010b0fdda643e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_1279_5_2.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_1279_5_2.json",
+    "source_sha256": "11fbd7aca5e2dd7ae8003c56522bb58f20f2b15f62f3a3b7f1010b0fdda643e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_9791_25_0.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_9791_25_0.json",
+    "source_sha256": "11fbd7aca5e2dd7ae8003c56522bb58f20f2b15f62f3a3b7f1010b0fdda643e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_9791_9_2.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_dev_C_9791_9_2.json",
+    "source_sha256": "11fbd7aca5e2dd7ae8003c56522bb58f20f2b15f62f3a3b7f1010b0fdda643e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_A_1_4_1.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_A_1_4_1.json",
+    "source_sha256": "7ef1ddf7d996d9dc6b1847867b08fb26d2eb067d5394cb8acd3b77147c624e80",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_B_1_4_1.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_B_1_4_1.json",
+    "source_sha256": "a65b6e691872217daedaaa04d3ffb33cc813c0ff0c85881378525dfd582d0324",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_C_1_8_1.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_C_1_8_1.json",
+    "source_sha256": "53370e52c78f822fcf0b0e77e5035144fd524d526c430967a5957e1d698d8be0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_C_2_8_2.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/finish_train_C_2_8_2.json",
+    "source_sha256": "5af754a8c387a66109eb090403a0bd905266cbc1644569b3705188ae576daf12",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/model_contract.json",
+    "source_sha256": "37377b163f4a3bca2cce5a8439db1fbd37c33a9591f1f749c5eae216bb84f3ea",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/scope.jsonl",
+    "source_sha256": "8caf6265f3f7258c8ad449beffd538f420d6635369378bb48237148bebd7fabc",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/source_hashes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/source_hashes.json",
+    "source_sha256": "2bdfbb3986edfdc9c3f166a88de98802ee451402d3e9d0fadc02636ae8d16d3d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/release_runtime/trajectories.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/artifacts/release_runtime/trajectories.jsonl",
+    "source_sha256": "a46309118bc8fd32e517362a3148149553db1f120335a8c988cc20780c8941f3",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resource_accounting.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resource_accounting.json",
+    "source_sha256": "d02a9c94376416ba2573cc163d18a610e4971b6bb2191e03f6edf6f2ee1526b9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/config.yaml",
+    "source_sha256": "888c435af9b8e67fc7d6b8d4e03c58dd11fac771a6d611512f7fd97b4ea154f6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/episodes.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/episodes.json",
+    "source_sha256": "ca20a93b8aaefae33159fd37fb119ddc7d47f85faa9006445b9f1b77821f1562",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/eval_info.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/eval_info.json",
+    "source_sha256": "b9ca650c5800dd6df916688d6578d58f528de68eb1ae959f4c3385cc4e58f801",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/trajectory.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/logs/7y3sRwLe3Va/scope_stage2_train/3/trajectory.json",
+    "source_sha256": "f05cd3a9023d0169a7554035569837ec6a4ed0fbffb81f24993a9b32f0b3a719",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/results.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/results.json",
+    "source_sha256": "d97b9c2223fded002382b3689679e5bfea5fbbacd6085c121cabdc51a2b256cd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/resume_cursor.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check/resume_cursor.json",
+    "source_sha256": "f1d75c47db2c5b554a612642d9e440e17106877118b53e4bfb9f6daeab5a12c6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/resume_train_check.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/resume_train_check.log",
+    "source_sha256": "5bcc177bc5ca3b5e83083333b5dcaa969c13e985bd053e3dbf04869b95ac28de",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_diagnostic.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/server_diagnostic.log",
+    "source_sha256": "7852948f4a101067ff3b0ef23d01d88a55b3502067834477be7403e6353d6e6e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/server_release.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/server_release.log",
+    "source_sha256": "7bbd7674d29d9f09300d3f1d82470570008e6551637dd84ff713b040234da036",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/stage1_review_audit.json",
+    "source": "Experiment/SCOPE/Stage2/artifacts/stage1_review_audit.json",
+    "source_sha256": "a8ef82759da51711ce70c66221f8387ee737c39e61107318dbe833adb9e526f8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/artifacts/stage2_tests_final.log",
+    "source": "Experiment/SCOPE/Stage2/artifacts/stage2_tests_final.log",
+    "source_sha256": "c89c7bbd1a7f100bc989c80e65854369bc68116e41918437514e4b7f56382812",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/audit_results.py",
+    "source": "Experiment/SCOPE/Stage2/audit_results.py",
+    "source_sha256": "4542fc2d3a58f2a6e516d7eb6e84fe5da5351a9d1e1d0b71118938a0a17991d9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/data_guard.py",
+    "source": "Experiment/SCOPE/Stage2/data_guard.py",
+    "source_sha256": "291980dd8798f4fe2f72085c88a13c053df5cc83b59ca13f3beea886f9efddfe",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/features.py",
+    "source": "Experiment/SCOPE/Stage2/features.py",
+    "source_sha256": "fb5cee4ca2e4da60cb85d27dabbbda1f5d8c99f0e6e51602f3b9d81b1a5ca3f7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/learning_sanity.py",
+    "source": "Experiment/SCOPE/Stage2/learning_sanity.py",
+    "source_sha256": "6102fc2da77da770d4cefef42908a6a15291c9163606f4eb2a218a80dda3227d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/policy.py",
+    "source": "Experiment/SCOPE/Stage2/policy.py",
+    "source_sha256": "94b708f4ec43871c3c1290643b3c70f899ffd16b851eaf7b5d10298c1d137bef",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/real_rollout.py",
+    "source": "Experiment/SCOPE/Stage2/real_rollout.py",
+    "source_sha256": "c98b14f5d621643abba0253f2f6ccb9fee035108b2e8e26ba3618782dfbba573",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/run_pilot.py",
+    "source": "Experiment/SCOPE/Stage2/run_pilot.py",
+    "source_sha256": "ee99bb611488de6f24328b618e39f0a20346dfc248bae06c69817ebfe8096f8e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/runtime.py",
+    "source": "Experiment/SCOPE/Stage2/runtime.py",
+    "source_sha256": "1fa4edf175c18e73f558dd631ddac8871457031bfde3612fe8074d1122f8587f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/server.py",
+    "source": "Experiment/SCOPE/Stage2/server.py",
+    "source_sha256": "53e9280ce06603e8d4d5858fa3978199265de7c6e80070b13c5f7e3516257a7e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/training.py",
+    "source": "Experiment/SCOPE/Stage2/training.py",
+    "source_sha256": "d8c6319d541397c55889b87006a0a632ae17f0dead45bb65a8c10f14721323e2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/trajectory.py",
+    "source": "Experiment/SCOPE/Stage2/trajectory.py",
+    "source_sha256": "4c0fef4f564c0ab765d36c35c6812a0639cb5eaf4ba17df968f838b2f931bdf8",
+    "encoding": "identity"
+  },
+  {
+    "path": "tests/test_scope_stage2.py",
+    "source": "tests/test_scope_stage2.py",
+    "source_sha256": "e1e27f70af1b11ea294187fc01e9754fcb8b6a874fc06110f94bc6ca0e888494",
+    "encoding": "identity"
+  },
+  {
+    "path": "docs/Tasks/Stage2/stage2_task4_focus_benefit_judge.md",
+    "source": "docs/Tasks/Stage2/stage2_task4_focus_benefit_judge.md",
+    "source_sha256": "6d66da4a97defc89552952e5e631817862b192cac58bd721e470533f15c57d67",
+    "encoding": "identity"
+  },
+  {
+    "path": "docs/Logs/Task3/STAGE2_REVIEW_REPORT.md",
+    "source": "docs/Logs/Task3/STAGE2_REVIEW_REPORT.md",
+    "source_sha256": "c8719f01382a965c05753f958423ec0e83ed044cd6d54c4129e498bd85cf095e",
+    "encoding": "identity"
+  }
+]

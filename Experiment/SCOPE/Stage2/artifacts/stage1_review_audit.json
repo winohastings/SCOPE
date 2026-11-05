@@ -1,0 +1,62 @@
+{
+  "all_episode_rows": 256,
+  "all_step_rows": 3768,
+  "groups": {
+    "G0": {
+      "episodes": 64,
+      "steps": 829,
+      "failures": 0,
+      "SR": 0.46875,
+      "SPL": 0.394123847796213,
+      "nDTW": 0.41034495328113063,
+      "current_tokens": [
+        256
+      ],
+      "checkpoint_hashes": [
+        "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa"
+      ]
+    },
+    "G1": {
+      "episodes": 64,
+      "steps": 954,
+      "failures": 0,
+      "SR": 0.5625,
+      "SPL": 0.43958000611312475,
+      "nDTW": 0.41334617557087433,
+      "current_tokens": [
+        64
+      ],
+      "checkpoint_hashes": [
+        "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa"
+      ]
+    },
+    "G2": {
+      "episodes": 64,
+      "steps": 1002,
+      "failures": 0,
+      "SR": 0.375,
+      "SPL": 0.2952178353045201,
+      "nDTW": 0.3328403939508024,
+      "current_tokens": [
+        192
+      ],
+      "checkpoint_hashes": [
+        "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa"
+      ]
+    },
+    "G3": {
+      "episodes": 64,
+      "steps": 983,
+      "failures": 0,
+      "SR": 0.375,
+      "SPL": 0.2918581371685194,
+      "nDTW": 0.34770700939366284,
+      "current_tokens": [
+        192
+      ],
+      "checkpoint_hashes": [
+        "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa"
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-05 23:10:06,058 Initializing dataset R2RVLN-v1
+2026-11-05 23:10:06,814 initializing sim Sim-v0
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[23:10:06:962232]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+2026-11-05 23:10:18,740 Initializing task VLN-v0
+/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "glance", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 7.838769912719727, "progress": 0.9620552062988281, "wall_seconds": 5.937537305988371}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "fixed", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 8.239873886108398, "progress": 0.5609512329101562, "wall_seconds": 0.7884662030264735}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "fixed_spatial", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 8.328357696533203, "progress": 0.47246742248535156, "wall_seconds": 0.6827375013381243}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "cross_camera", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 7.819333553314209, "progress": 0.9814915657043457, "wall_seconds": 0.6725751087069511}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "cross_spatial", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 7.858743667602539, "progress": 0.9420814514160156, "wall_seconds": 0.6876168176531792}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "right_rear", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 7.799716949462891, "progress": 1.001108169555664, "wall_seconds": 0.6689588269218802}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "fixed_low_detail", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 8.884088516235352, "progress": -0.08326339721679688, "wall_seconds": 0.6684471620246768}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "fixed_native_scatter", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 8.239873886108398, "progress": 0.5609512329101562, "wall_seconds": 0.7851550802588463}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 0, "history": true, "variant": "single_front", "image_sha256": "2cfba86b7475d5a009a7c3a7861073c51b8a27861bfb11d57c245bb355b0a70a", "distance_before": 8.800825119018555, "distance_after": 7.859023094177246, "progress": 0.9418020248413086, "wall_seconds": 0.6341731045395136}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "glance", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.730227947235107, "progress": 1.1085419654846191, "wall_seconds": 1.2883371729403734}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "fixed", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.844425201416016, "progress": 0.9943447113037109, "wall_seconds": 1.523833659477532}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "fixed_spatial", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.8227338790893555, "progress": 1.016036033630371, "wall_seconds": 1.3205181201919913}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "cross_camera", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.772897720336914, "progress": 1.0658721923828125, "wall_seconds": 1.3175451746210456}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "cross_spatial", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.749405860900879, "progress": 1.0893640518188477, "wall_seconds": 1.3388084173202515}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "right_rear", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.768677234649658, "progress": 1.0700926780700684, "wall_seconds": 1.273016975261271}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "fixed_low_detail", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.7828779220581055, "progress": 1.055891990661621, "wall_seconds": 1.3067505015060306}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "fixed_native_scatter", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.8438849449157715, "progress": 0.9948849678039551, "wall_seconds": 1.467719729989767}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": true, "variant": "single_front", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.815918445587158, "progress": 1.0228514671325684, "wall_seconds": 1.2192879365757108}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "glance", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.602766990661621, "progress": 1.2360029220581055, "wall_seconds": 0.6598562924191356}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "fixed", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 7.478158473968506, "progress": 0.3606114387512207, "wall_seconds": 0.8400834295898676}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "fixed_spatial", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 7.4850897789001465, "progress": 0.3536801338195801, "wall_seconds": 0.7561047337949276}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "cross_camera", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.655737400054932, "progress": 1.183032512664795, "wall_seconds": 0.733205784112215}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "cross_spatial", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.618403434753418, "progress": 1.2203664779663086, "wall_seconds": 0.7441704263910651}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "right_rear", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.655555725097656, "progress": 1.1832141876220703, "wall_seconds": 0.7397235175594687}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "fixed_low_detail", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 7.388059616088867, "progress": 0.4507102966308594, "wall_seconds": 0.7415833631530404}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "fixed_native_scatter", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 7.478158473968506, "progress": 0.3606114387512207, "wall_seconds": 0.8428907515481114}
+{"purpose": "dev", "episode": "9791", "scene": "jh4fc5c5qoQ", "state_index": 1, "history": false, "variant": "single_front", "image_sha256": "b28cb449bcf2196f43499626cdcb9ac06d90bcd9e60c6f22edb5b7b76aaf9c0d", "distance_before": 7.838769912719727, "distance_after": 6.821017742156982, "progress": 1.0177521705627441, "wall_seconds": 0.7211682107299566}

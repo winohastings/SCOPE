@@ -1,0 +1,25 @@
+{
+  "own_gpu_processes_stopped_at": "2026-11-05T23:22:50.508154+08:00",
+  "whole_task_two_gpu_reserved_window_hours_upper_bound": 1.5947267522222224,
+  "whole_task_wall_window_hours": 0.7973633761111112,
+  "definition": "upper-bound two-device reservation window including cold starts, idle/debug gaps, failures, retries, final pilot and supplemental checks; not actual GPU utilization integral",
+  "primary_eight_case_pilot_wall_seconds": 433.0697331940755,
+  "primary_eight_case_two_gpu_reserved_hours": 0.24059429621893086,
+  "global_gpu_sampling_first": "2026/11/05 22:44:34.173",
+  "global_gpu_sampling_last": "2026/11/05 23:22:50.392",
+  "global_gpu_sampling_started_after_first_model": "early model startup is not covered by GPU samples",
+  "global_gpu_peak_memory_mib": {
+    "0": 11941.0,
+    "1": 1046.0
+  },
+  "own_processes_signaled": [
+    1999589,
+    1974229
+  ],
+  "previous_attempts_retained": true,
+  "supplemental_train_resume_transitions": 2,
+  "supplemental_resume_training_episode_wall_seconds": 4.035728046670556,
+  "conservative_window_start_rounded_down_to_minute": "2026-11-05T22:35:00+08:00",
+  "start_source": "first own model process observed with start minute 22:35; rounded down conservatively; first log message 22:36:10; filesystem birth time unavailable",
+  "own_processes_confirmed_exited": true
+}

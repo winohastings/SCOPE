@@ -1,0 +1,118 @@
+[
+  {
+    "episode_uid": "scope_feasibility_dev:9791",
+    "source_episode_id": "9791",
+    "scene_id": "jh4fc5c5qoQ",
+    "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+    "source": "vlnce_r2r",
+    "input_namespace": "scope_feasibility_dev",
+    "input_root": "/home/data/czh/Third_Party/tasks",
+    "payload": {
+      "episode_id": "9791",
+      "trajectory_id": 6578,
+      "scene_id": "mp3d/jh4fc5c5qoQ/jh4fc5c5qoQ.glb",
+      "start_position": [
+        9.334070205688477,
+        0.010303772985935211,
+        2.853209972381592
+      ],
+      "start_rotation": [
+        0,
+        -0.5305113376229448,
+        0,
+        0.8476778401335698
+      ],
+      "info": {
+        "geodesic_distance": 8.800825119018555
+      },
+      "goals": [
+        {
+          "position": [
+            11.826700210571289,
+            0.005573004484176636,
+            -4.506340026855469
+          ],
+          "radius": 3.0
+        }
+      ],
+      "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+      "reference_path": [
+        [
+          9.334070205688477,
+          0.010303772985935211,
+          2.853209972381592
+        ],
+        [
+          10.456899642944336,
+          0.005573004484176636,
+          2.683729887008667
+        ],
+        [
+          11.724499702453613,
+          0.20557300746440887,
+          1.9464099407196045
+        ],
+        [
+          11.893099784851074,
+          0.1471835970878601,
+          0.4742070138454437
+        ],
+        [
+          11.855899810791016,
+          0.13183410465717316,
+          -0.8568959832191467
+        ],
+        [
+          11.731300354003906,
+          0.005573004484176636,
+          -2.8359999656677246
+        ],
+        [
+          11.826700210571289,
+          0.005573004484176636,
+          -4.506340026855469
+        ]
+      ],
+      "task_name": "r2r",
+      "split": "train",
+      "gt_path_length": 9.090362548828125,
+      "reference_points": [
+        [
+          -2.853209972381592,
+          9.334070205688477,
+          -0.010303772985935211
+        ],
+        [
+          -2.683729887008667,
+          10.456899642944336,
+          -0.005573004484176636
+        ],
+        [
+          -1.9464099407196045,
+          11.724499702453613,
+          -0.20557300746440887
+        ],
+        [
+          -0.4742070138454437,
+          11.893099784851074,
+          -0.1471835970878601
+        ],
+        [
+          0.8568959832191467,
+          11.855899810791016,
+          -0.13183410465717316
+        ],
+        [
+          2.8359999656677246,
+          11.731300354003906,
+          -0.005573004484176636
+        ],
+        [
+          4.506340026855469,
+          11.826700210571289,
+          -0.005573004484176636
+        ]
+      ]
+    }
+  }
+]

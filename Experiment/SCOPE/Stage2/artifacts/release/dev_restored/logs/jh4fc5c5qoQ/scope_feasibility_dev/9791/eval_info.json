@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_feasibility_dev:9791",
+  "source_episode_id": "9791",
+  "scene_id": "jh4fc5c5qoQ",
+  "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.42998883349305955,
+  "path_length": 9.156438670586795,
+  "gt_path_length": 9.090362548828125,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.9005364748434296,
+  "metrics": {
+    "SR": 1.0,
+    "OSR": 1.0,
+    "NE": 0.42998883349305955,
+    "SPL": 0.9927836439323374,
+    "nDTW": 0.9005364748434296,
+    "path_length": 9.156438670586795,
+    "steps_taken": 9.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "stage2-dev",
+  "input_namespace": "scope_feasibility_dev",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "stage2-pilot",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

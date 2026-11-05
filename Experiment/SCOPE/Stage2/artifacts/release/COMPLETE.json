@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "wall_seconds": 433.0697331940755,
+  "runtime": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release_runtime",
+  "cases": 8,
+  "full_training_started": false,
+  "heldout_evaluation_started": false
+}

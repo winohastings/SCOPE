@@ -1,0 +1,10 @@
+{
+  "backbone": "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa",
+  "regime": "C",
+  "actor_parameters": 578497,
+  "critic_parameters": 573569,
+  "frozen_parameters": 4728515844,
+  "backbone_frozen": true,
+  "visual_class": "Qwen3_5VisionModel",
+  "dtype": "torch.bfloat16"
+}

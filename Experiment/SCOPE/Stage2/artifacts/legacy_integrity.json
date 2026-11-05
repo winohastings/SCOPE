@@ -1,0 +1,1196 @@
+{
+  "passed": true,
+  "checked": 238,
+  "checks": [
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/README.md",
+      "expected": "7a888ea4c047f09329f0db8c741c078609eea40695ddd1b9a2c5835e85d629bb",
+      "actual": "7a888ea4c047f09329f0db8c741c078609eea40695ddd1b9a2c5835e85d629bb"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/__init__.py",
+      "expected": "398b40a651b294320977ab1f2d773f96072bff0ba9c3dd1ae1e0e65c0a9704ec",
+      "actual": "398b40a651b294320977ab1f2d773f96072bff0ba9c3dd1ae1e0e65c0a9704ec"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/__init__.py",
+      "expected": "6141fbfa2f29a5c1665ede4d194fa8118858d33796d3763fda1b87d0375fa5a6",
+      "actual": "6141fbfa2f29a5c1665ede4d194fa8118858d33796d3763fda1b87d0375fa5a6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/benchmark.py",
+      "expected": "38181bc1f54ddf3f788b27eb7096ef67c93cfd44f63f8b10b505bc006d54a057",
+      "actual": "38181bc1f54ddf3f788b27eb7096ef67c93cfd44f63f8b10b505bc006d54a057"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/config_portable.yaml",
+      "expected": "6b282adf7783b1ba65fe37dbf9819f4cdffe40ea665e6ac4036807742175e03b",
+      "actual": "6b282adf7783b1ba65fe37dbf9819f4cdffe40ea665e6ac4036807742175e03b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/config_qwen35_tb1024_ph32_s_seen_stop_finalseg0p292_k2.yaml",
+      "expected": "d02ec14eb0ce4ea123c8d0deb8e0683f2177394414e1889a6a1ab7ab71e30605",
+      "actual": "d02ec14eb0ce4ea123c8d0deb8e0683f2177394414e1889a6a1ab7ab71e30605"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/config_template.yaml",
+      "expected": "85899b00fbce42880468e6e25b331314bc1217de928432d8d7bcf257cced878d",
+      "actual": "85899b00fbce42880468e6e25b331314bc1217de928432d8d7bcf257cced878d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/eval.py",
+      "expected": "8affdcb9f91134a6017d156c17d7754d38a46774474fef7344454911c0c7f00d",
+      "actual": "8affdcb9f91134a6017d156c17d7754d38a46774474fef7344454911c0c7f00d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/inputs.py",
+      "expected": "39920a0c24720ce7a02b8097a8ac05ac579b1e8e2d29630dea7ec44380ed8bb2",
+      "actual": "39920a0c24720ce7a02b8097a8ac05ac579b1e8e2d29630dea7ec44380ed8bb2"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/aerialvln/run_eval.sh",
+      "expected": "d45cd1daa1bec6be5b885278c28fb8771a13fdec67f072a28da4e8024ad2a27b",
+      "actual": "d45cd1daa1bec6be5b885278c28fb8771a13fdec67f072a28da4e8024ad2a27b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/__init__.py",
+      "expected": "362b10899e1fca0eff29a64f7b10da85b72c1ce4284e7d5f0c0aacf4e6e8abbb",
+      "actual": "362b10899e1fca0eff29a64f7b10da85b72c1ce4284e7d5f0c0aacf4e6e8abbb"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/config.py",
+      "expected": "de11180214f326d85f2597440cf4470ff4e433e757757c0e9ec7164086853e7b",
+      "actual": "de11180214f326d85f2597440cf4470ff4e433e757757c0e9ec7164086853e7b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/data/inputs.py",
+      "expected": "09068f3007ae6cd2bb2648fb8ed330affb5b0872ed3e89085e1e1be83910abc8",
+      "actual": "09068f3007ae6cd2bb2648fb8ed330affb5b0872ed3e89085e1e1be83910abc8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/data/runtime_dataset.py",
+      "expected": "40b16c91b7fc51ade49a509116d958d50491c7a376c69ae5b4d77a1cc3e45a59",
+      "actual": "40b16c91b7fc51ade49a509116d958d50491c7a376c69ae5b4d77a1cc3e45a59"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/data/runtime_history.py",
+      "expected": "8225d7251cdee533d2505477554a6bf40eb0b22380e9b4130a6aa89e137484d5",
+      "actual": "8225d7251cdee533d2505477554a6bf40eb0b22380e9b4130a6aa89e137484d5"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/env/backends.py",
+      "expected": "e430905ae3f0fc1b50910fff40db07e30db9aa276de300d6de3bbe0998a626b4",
+      "actual": "e430905ae3f0fc1b50910fff40db07e30db9aa276de300d6de3bbe0998a626b4"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/log/artifacts.py",
+      "expected": "5501884cecff1f8fefed10b5df5b4ef73d2d75fbf57e106e700b0e6675fc59d6",
+      "actual": "5501884cecff1f8fefed10b5df5b4ef73d2d75fbf57e106e700b0e6675fc59d6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/log/metrics.py",
+      "expected": "43294c3aff4d81b7931b8336eaf726655e7d0e7ea0fba9a2cc6212f63fd43fb1",
+      "actual": "43294c3aff4d81b7931b8336eaf726655e7d0e7ea0fba9a2cc6212f63fd43fb1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/model/action_codec.py",
+      "expected": "6f88bb87d198f10a35baf3b1ae5c1c9cb73fbeedbdfcd2f3a5c24c4ab19c9aca",
+      "actual": "6f88bb87d198f10a35baf3b1ae5c1c9cb73fbeedbdfcd2f3a5c24c4ab19c9aca"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/model/model_wrappers.py",
+      "expected": "a3b861311e402928f80822f3d6aaf34ce50bff56f97069504cad67d486ae7163",
+      "actual": "a3b861311e402928f80822f3d6aaf34ce50bff56f97069504cad67d486ae7163"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/protocols.py",
+      "expected": "0698729e550f945518d11fdc8841775b7bdc8ce165463777e5033649c44cca1c",
+      "actual": "0698729e550f945518d11fdc8841775b7bdc8ce165463777e5033649c44cca1c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/runner/backend_plan.py",
+      "expected": "a2eb1f2ac557234ee521f2baf6aa5c61c1f73b01b938376274b868df83645046",
+      "actual": "a2eb1f2ac557234ee521f2baf6aa5c61c1f73b01b938376274b868df83645046"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/runner/parallel_runner.py",
+      "expected": "7781f6da2afdf4e2cdeb77402a159d02ee29f3acd69c67c489268ed00b95bc87",
+      "actual": "7781f6da2afdf4e2cdeb77402a159d02ee29f3acd69c67c489268ed00b95bc87"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/runner/planning.py",
+      "expected": "cb5dc3c730b4cf2ffd5f252254d5d1e45f98604c5ac243370b9912075e969662",
+      "actual": "cb5dc3c730b4cf2ffd5f252254d5d1e45f98604c5ac243370b9912075e969662"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/runner/worker.py",
+      "expected": "1a8e06552d2db63369d21b4cb40c35d74c91eedfb8acdd6afbaf2c58af29d82c",
+      "actual": "1a8e06552d2db63369d21b4cb40c35d74c91eedfb8acdd6afbaf2c58af29d82c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/runtime_components.py",
+      "expected": "cef5d8097468b79625262c44bd2418a7fed85b0ed75e007fc1357c314d17b735",
+      "actual": "cef5d8097468b79625262c44bd2418a7fed85b0ed75e007fc1357c314d17b735"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/runtime_defaults.py",
+      "expected": "4e8f207eafb415f8bfd234c0c500c2de664c4ff9354c9cee7f4a9adda476c1d4",
+      "actual": "4e8f207eafb415f8bfd234c0c500c2de664c4ff9354c9cee7f4a9adda476c1d4"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/__init__.py",
+      "expected": "e26f647e595dd8aa4541d92d964ebc7aa18b797e1a7f45a4b047459bdcab4ab3",
+      "actual": "e26f647e595dd8aa4541d92d964ebc7aa18b797e1a7f45a4b047459bdcab4ab3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/__init__.py",
+      "expected": "6ed684694fe50e94e0c5b7c45a0abcac7a21e05714553ca7b2a912794ec12c84",
+      "actual": "6ed684694fe50e94e0c5b7c45a0abcac7a21e05714553ca7b2a912794ec12c84"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/actions.py",
+      "expected": "d36154ec336ce0c8fbadc679566b687b12b5faf2eaa3bf508a55f89d487b2e2c",
+      "actual": "d36154ec336ce0c8fbadc679566b687b12b5faf2eaa3bf508a55f89d487b2e2c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/backend.py",
+      "expected": "77e6745384d0198be63e431acef9f688ce49fb979efb2550af6153e83a55b44d",
+      "actual": "77e6745384d0198be63e431acef9f688ce49fb979efb2550af6153e83a55b44d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/images.py",
+      "expected": "712bbb99996f8b4da22f9094cf2504c60df3e8a862146907ef88f0a8325419c6",
+      "actual": "712bbb99996f8b4da22f9094cf2504c60df3e8a862146907ef88f0a8325419c6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/observation.py",
+      "expected": "95537f4e1666a95792c5080dc0c857833358b8c08dc2b32a3809b273fc1f7885",
+      "actual": "95537f4e1666a95792c5080dc0c857833358b8c08dc2b32a3809b273fc1f7885"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/process.py",
+      "expected": "66c6af40ae72181346e809fb0c4def452e7a4b2c85f9c0a6aad1b37395cacf9e",
+      "actual": "66c6af40ae72181346e809fb0c4def452e7a4b2c85f9c0a6aad1b37395cacf9e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/rpc.py",
+      "expected": "6a8d89ccc77972052b3727f89eb851e6c087424f2a81fba3bbb4891c69a95680",
+      "actual": "6a8d89ccc77972052b3727f89eb851e6c087424f2a81fba3bbb4891c69a95680"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/airsim/settings.py",
+      "expected": "c21ba904995b7d4a065d526030b8fe89b931b2ba031fdf0da035c5bf62ea155b",
+      "actual": "c21ba904995b7d4a065d526030b8fe89b931b2ba031fdf0da035c5bf62ea155b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/base.py",
+      "expected": "70b130817dc52ff53513dd4cbb22d527dc0b289e15eefdb7477d86fa106fec26",
+      "actual": "70b130817dc52ff53513dd4cbb22d527dc0b289e15eefdb7477d86fa106fec26"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/habitat/action_adapter.py",
+      "expected": "d41f37ef71195007c25389c89ade6cfcf06677b6dd59292b260f1147f24d0e6a",
+      "actual": "d41f37ef71195007c25389c89ade6cfcf06677b6dd59292b260f1147f24d0e6a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/habitat/backend.py",
+      "expected": "dc4add6cac4f99f3ede0d7a4a8bb119b21c861ec4ae40fb4413dfa303e95d42c",
+      "actual": "dc4add6cac4f99f3ede0d7a4a8bb119b21c861ec4ae40fb4413dfa303e95d42c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/habitat/vlnce031_actions.py",
+      "expected": "0ab83dfb031e648578c9fad88c102154f918e62bbaa5b97bd18c5ba73dc81a81",
+      "actual": "0ab83dfb031e648578c9fad88c102154f918e62bbaa5b97bd18c5ba73dc81a81"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/habitat/vlnce031_datasets.py",
+      "expected": "e7447923e7f1b8d7dd620698599953048b59dc0de04805fa546f515ab077d062",
+      "actual": "e7447923e7f1b8d7dd620698599953048b59dc0de04805fa546f515ab077d062"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/habitat/vlnce031_measures.py",
+      "expected": "0e02145fa7619f83f361595aca09a0574e030a660361245c180da7bcda5af51c",
+      "actual": "0e02145fa7619f83f361595aca09a0574e030a660361245c180da7bcda5af51c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/habitat/vlnce031_runtime.py",
+      "expected": "173f31beff7d90164e84b8c5aa8e1ec201f2d1d83135dc8adf47694247a37705",
+      "actual": "173f31beff7d90164e84b8c5aa8e1ec201f2d1d83135dc8adf47694247a37705"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/unrealzoo/backend.py",
+      "expected": "a5eeda252aca347a345331edb15f69221e3bd0c77c7e6a238cdedecfbf89fb27",
+      "actual": "a5eeda252aca347a345331edb15f69221e3bd0c77c7e6a238cdedecfbf89fb27"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/simulators/unrealzoo/coordinates.py",
+      "expected": "d27cd6813760a379c3c71d0f24410feca002eca27cb849065f37eed9f6b9da6f",
+      "actual": "d27cd6813760a379c3c71d0f24410feca002eca27cb849065f37eed9f6b9da6f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/common/types.py",
+      "expected": "901a6f3286e74ba890bbb054bb84d4a717edbb061b1f45d6f65564aecb4a2326",
+      "actual": "901a6f3286e74ba890bbb054bb84d4a717edbb061b1f45d6f65564aecb4a2326"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/__init__.py",
+      "expected": "a42c475a617f6c40f38fcefff5b8725f10f349a710fdd7c3ed0c5cd839542401",
+      "actual": "a42c475a617f6c40f38fcefff5b8725f10f349a710fdd7c3ed0c5cd839542401"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/benchmark.py",
+      "expected": "f6fca99f59b028279a46955d0926507663aba96be6c04520c8ff15c76b4ed9e8",
+      "actual": "f6fca99f59b028279a46955d0926507663aba96be6c04520c8ff15c76b4ed9e8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/config_portable.yaml",
+      "expected": "2b4d7e9fa722ab49abafe8e861d9ca195c774706383341b56ea2f09559405c6d",
+      "actual": "2b4d7e9fa722ab49abafe8e861d9ca195c774706383341b56ea2f09559405c6d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/config_template.yaml",
+      "expected": "dee37d855e13cfb4b5ed8acf20d3c5a2daa8acb9354a20f0cc5fdf0c9cfa9fc3",
+      "actual": "dee37d855e13cfb4b5ed8acf20d3c5a2daa8acb9354a20f0cc5fdf0c9cfa9fc3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/eval.py",
+      "expected": "7dd0a679759a11b74c5316764b5962ef9622196c352195c4cecc4db68d8f441d",
+      "actual": "7dd0a679759a11b74c5316764b5962ef9622196c352195c4cecc4db68d8f441d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/inputs.py",
+      "expected": "fea35e658e02c1711cd5a5e2e48e40013da8bad25100ba3ffdfbfdfe747d55ab",
+      "actual": "fea35e658e02c1711cd5a5e2e48e40013da8bad25100ba3ffdfbfdfe747d55ab"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/openfly/run_eval.sh",
+      "expected": "c6e83d35f90d237dc541ea5e44ed8358ee24b659bb904aaba79fdea4bf18bdb7",
+      "actual": "c6e83d35f90d237dc541ea5e44ed8358ee24b659bb904aaba79fdea4bf18bdb7"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/plot_eval_trajectories.py",
+      "expected": "5ac62e7dabe75dc634f8f6fac7e2d8a2a5ee0b22026fc671550e11f21993c4e1",
+      "actual": "5ac62e7dabe75dc634f8f6fac7e2d8a2a5ee0b22026fc671550e11f21993c4e1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/eval_qwen35_track.py",
+      "expected": "5fb18dd8ba916d6465e58385bdae029590e74f622bcaf807283f176708009449",
+      "actual": "5fb18dd8ba916d6465e58385bdae029590e74f622bcaf807283f176708009449"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/LICENSE",
+      "expected": "2d4c3d00d67067461412a2d9a2f3f8b7b9cda62b3db501e4b6844ccf35c949aa",
+      "actual": "2d4c3d00d67067461412a2d9a2f3f8b7b9cda62b3db501e4b6844ccf35c949aa"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/__init__.py",
+      "expected": "50bda045b5f9eafc3a2cad7fb6b2c215701aa32861877ca178f62b0e8f74732c",
+      "actual": "50bda045b5f9eafc3a2cad7fb6b2c215701aa32861877ca178f62b0e8f74732c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/additional_action.py",
+      "expected": "8ce5a484aacf9fdfe935e5d07ad6c7e55f8dc6b254dbdfa1f939377b977ca7a1",
+      "actual": "8ce5a484aacf9fdfe935e5d07ad6c7e55f8dc6b254dbdfa1f939377b977ca7a1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/additional_metric.py",
+      "expected": "9948db0ff52edf1518be54789cd1a399b01c1c3de860886bb9f680ed4927260f",
+      "actual": "9948db0ff52edf1518be54789cd1a399b01c1c3de860886bb9f680ed4927260f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/additional_sensor.py",
+      "expected": "0d8b2c36e30126918fb4a4edca8c94edffc423fffea10d34a2729273ee06d6f9",
+      "actual": "0d8b2c36e30126918fb4a4edca8c94edffc423fffea10d34a2729273ee06d6f9"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/benchmark/nav/track/track_infer_at.yaml",
+      "expected": "f16b1209fd60ee45c51c92366803b747b7c08a7abc8bdf63a37b862e94b7d550",
+      "actual": "f16b1209fd60ee45c51c92366803b747b7c08a7abc8bdf63a37b862e94b7d550"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/benchmark/nav/track/track_infer_dt.yaml",
+      "expected": "4d16b34a308b683a0666c9c467e9b829e5c6f1b41be410d6c20acfd3d4af37fa",
+      "actual": "4d16b34a308b683a0666c9c467e9b829e5c6f1b41be410d6c20acfd3d4af37fa"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/benchmark/nav/track/track_infer_stt.yaml",
+      "expected": "c2f892af7a4f478b0c6ae1bfad0cc35dce873f35c963769c8ea9679c296f4910",
+      "actual": "c2f892af7a4f478b0c6ae1bfad0cc35dce873f35c963769c8ea9679c296f4910"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/dataset/track/track-val-at-minival.yaml",
+      "expected": "50277ffdc2830ebda8ea1eaf457f67f46c3feef583574640ec457fbad2c6ec7c",
+      "actual": "50277ffdc2830ebda8ea1eaf457f67f46c3feef583574640ec457fbad2c6ec7c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/dataset/track/track-val-at.yaml",
+      "expected": "d0f75d6e0b26ca5e97c5bb1961b147ec2550cb9e12d791d454278011005b0dc3",
+      "actual": "d0f75d6e0b26ca5e97c5bb1961b147ec2550cb9e12d791d454278011005b0dc3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/dataset/track/track-val-dt.yaml",
+      "expected": "81f3a2aed6e798cc2728354936bdb4ea74c76561d17b70334493c6e45ba23b41",
+      "actual": "81f3a2aed6e798cc2728354936bdb4ea74c76561d17b70334493c6e45ba23b41"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/dataset/track/track-val-stt-hssd.yaml",
+      "expected": "1cca0064801d76b6138ae77968484ba3ca86da198056488780d89a0bd7a5f418",
+      "actual": "1cca0064801d76b6138ae77968484ba3ca86da198056488780d89a0bd7a5f418"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/dataset/track/track-val-stt-minival.yaml",
+      "expected": "4ac08d584456e537847f8184db2f7783896947d2a2cf30c2749d0ac1ef8d0f79",
+      "actual": "4ac08d584456e537847f8184db2f7783896947d2a2cf30c2749d0ac1ef8d0f79"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/dataset/track/track-val-stt.yaml",
+      "expected": "bad635085d6d8ff4a89e57ce83ccf1e2cf6b020a2ccb9a8be536bbfcffd50ff0",
+      "actual": "bad635085d6d8ff4a89e57ce83ccf1e2cf6b020a2ccb9a8be536bbfcffd50ff0"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/simulator/agents/human.yaml",
+      "expected": "69d76ab07d3f3c8cb55f044082e2ef84fdd8412da46304ed0e2b919d7cb8bd43",
+      "actual": "69d76ab07d3f3c8cb55f044082e2ef84fdd8412da46304ed0e2b919d7cb8bd43"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/simulator/agents/spot.yaml",
+      "expected": "c6442411f3a4c30a9431c03208cea8e5d393fc54bc81e9d6e6d7745325a46332",
+      "actual": "c6442411f3a4c30a9431c03208cea8e5d393fc54bc81e9d6e6d7745325a46332"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/simulator/sensor_setups/following_humanoid.yaml",
+      "expected": "1f45ccf06452184aa9f928f0c93eb5555234055cef6cff2d15db03ddab98341e",
+      "actual": "1f45ccf06452184aa9f928f0c93eb5555234055cef6cff2d15db03ddab98341e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/simulator/sensor_setups/spot_agent_simplified.yaml",
+      "expected": "4b3f73fbdc6360a64b812bed8ace0415f98ae9cdd57905e0d04882f5ef6b1582",
+      "actual": "4b3f73fbdc6360a64b812bed8ace0415f98ae9cdd57905e0d04882f5ef6b1582"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config/habitat/task/track_task.yaml",
+      "expected": "82298d9a4b5785c3e45919a37d92159bad0f694c193a60775be4d39d140d2984",
+      "actual": "82298d9a4b5785c3e45919a37d92159bad0f694c193a60775be4d39d140d2984"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/config_plugin.py",
+      "expected": "55dc68b0e7dad6ec1bbb4a3c254332a7c60c21962faf4f7bfff8bfae3753d922",
+      "actual": "55dc68b0e7dad6ec1bbb4a3c254332a7c60c21962faf4f7bfff8bfae3753d922"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/rearrange_sim_v2.py",
+      "expected": "9a30462f30b8c9e202d0ce812201c6377cde8c9916972c6ef7997fe98fe4220c",
+      "actual": "9a30462f30b8c9e202d0ce812201c6377cde8c9916972c6ef7997fe98fe4220c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/habitat/task.py",
+      "expected": "5965a17074bb2fb6108dfdcbe1fe1db40bd70fb3f32a7251cf5848ace6071ea6",
+      "actual": "5965a17074bb2fb6108dfdcbe1fe1db40bd70fb3f32a7251cf5848ace6071ea6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/run_qwen35_track_eval.sh",
+      "expected": "fc054b8c88d2fdc0a4fceeba3dce5af5b1baa18e554d605a8c85218132a2cb7b",
+      "actual": "fc054b8c88d2fdc0a4fceeba3dce5af5b1baa18e554d605a8c85218132a2cb7b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/track/run_qwen35_track_eval_multigpu.sh",
+      "expected": "035456431070c09ee51cc94a2f59e7824322dc2e873100492192ff3ccb862e13",
+      "actual": "035456431070c09ee51cc94a2f59e7824322dc2e873100492192ff3ccb862e13"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/config/GroundingDINO_SwinB_cfg.py",
+      "expected": "d1ad82ad130e5699bc1318eda0c95953a834e499c7923343afbbd74be3f1994f",
+      "actual": "d1ad82ad130e5699bc1318eda0c95953a834e499c7923343afbbd74be3f1994f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/config/GroundingDINO_SwinT_OGC.py",
+      "expected": "0d181bf430d6230d52afdb0ec89229a5c1cfcd6d73281b26363795911144bec1",
+      "actual": "0d181bf430d6230d52afdb0ec89229a5c1cfcd6d73281b26363795911144bec1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/config/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/datasets/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/datasets/cocogrounding_eval.py",
+      "expected": "3194be4a6ca19e3321e2cc58b700f7245364096a933316037631511c783e43cc",
+      "actual": "3194be4a6ca19e3321e2cc58b700f7245364096a933316037631511c783e43cc"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/datasets/transforms.py",
+      "expected": "a2cddfa32283c814f7d9583a514e792ee1a5eacd6bc4b9f8871ddfb96c94b208",
+      "actual": "a2cddfa32283c814f7d9583a514e792ee1a5eacd6bc4b9f8871ddfb96c94b208"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/__init__.py",
+      "expected": "155c376a85cbd6935c66f290afc6ca67d360b006da0d7e0857ea07b054cc89b9",
+      "actual": "155c376a85cbd6935c66f290afc6ca67d360b006da0d7e0857ea07b054cc89b9"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/backbone/__init__.py",
+      "expected": "a324d241d6a8d4a9d4484689c531b790c44abeb56076901058a2541860ce2d2f",
+      "actual": "a324d241d6a8d4a9d4484689c531b790c44abeb56076901058a2541860ce2d2f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/backbone/backbone.py",
+      "expected": "cc70458b83ea52a9ca2a5106d9837ea26123d5c5af68e1a40accd9e6b918106a",
+      "actual": "cc70458b83ea52a9ca2a5106d9837ea26123d5c5af68e1a40accd9e6b918106a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/backbone/position_encoding.py",
+      "expected": "579812d7756857f6e56f56ef606d1de8d459d6a5ad53a658bd72243a4bf609de",
+      "actual": "579812d7756857f6e56f56ef606d1de8d459d6a5ad53a658bd72243a4bf609de"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/backbone/swin_transformer.py",
+      "expected": "91456e2ff4e0be6a0712ed62adec9893cb4e07c1991b4123c5532f837ad12199",
+      "actual": "91456e2ff4e0be6a0712ed62adec9893cb4e07c1991b4123c5532f837ad12199"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/bertwarper.py",
+      "expected": "0d5b1c2b4ed1b4a796d3f153293f7d7b4dc8fcf19c3b4ba8b936670af38a7f22",
+      "actual": "0d5b1c2b4ed1b4a796d3f153293f7d7b4dc8fcf19c3b4ba8b936670af38a7f22"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/fuse_modules.py",
+      "expected": "0e9814234780744ab1041e0a611e454ff0b8f3fb81578599e522e2ef3f45f3b1",
+      "actual": "0e9814234780744ab1041e0a611e454ff0b8f3fb81578599e522e2ef3f45f3b1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/groundingdino.py",
+      "expected": "cdfb48d5b15d6b98f3d2002f59ae4730740a1ecfbaeba324f6840c5e4666a5b8",
+      "actual": "cdfb48d5b15d6b98f3d2002f59ae4730740a1ecfbaeba324f6840c5e4666a5b8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/ms_deform_attn.py",
+      "expected": "42aa71c7c47e6f930f48100924393adac95eb94aae0eef779bd7cad2d5bcc95d",
+      "actual": "42aa71c7c47e6f930f48100924393adac95eb94aae0eef779bd7cad2d5bcc95d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/transformer.py",
+      "expected": "e3b1691d80c8ca5503862d55de8993840e2e952bba060505825a8d2f67baf1c3",
+      "actual": "e3b1691d80c8ca5503862d55de8993840e2e952bba060505825a8d2f67baf1c3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/transformer_vanilla.py",
+      "expected": "c4e69af49cd5070dd51aa9a4e33664e076ee98d3d08bb3960e6e8dceebec53d8",
+      "actual": "c4e69af49cd5070dd51aa9a4e33664e076ee98d3d08bb3960e6e8dceebec53d8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/GroundingDINO/utils.py",
+      "expected": "2827ba921acaa263db7533afb6a818473a957fb2ef559c4f3407da72028a0842",
+      "actual": "2827ba921acaa263db7533afb6a818473a957fb2ef559c4f3407da72028a0842"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/__init__.py",
+      "expected": "1b43a34c9922c74db0c9c4ec9947647ab36f2cccc43f30f1f9e072953015667a",
+      "actual": "1b43a34c9922c74db0c9c4ec9947647ab36f2cccc43f30f1f9e072953015667a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/models/registry.py",
+      "expected": "3b64fd5762a8f0e8e2e48afa96ed3918abc45ff19708a359f9f98bc1a2900eac",
+      "actual": "3b64fd5762a8f0e8e2e48afa96ed3918abc45ff19708a359f9f98bc1a2900eac"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/__init__.py",
+      "expected": "9e535c45af09ac24ef8d5631a151f77febafe72a92ad6bfeb2d941f0c4a54e35",
+      "actual": "9e535c45af09ac24ef8d5631a151f77febafe72a92ad6bfeb2d941f0c4a54e35"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/box_ops.py",
+      "expected": "9ca6f03a1df11fa7e1b9a6056e0f5a79b67682fd4c275de41353559daef7d327",
+      "actual": "9ca6f03a1df11fa7e1b9a6056e0f5a79b67682fd4c275de41353559daef7d327"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/get_tokenlizer.py",
+      "expected": "bedc47db390249eb2230c2031b114d1d5f470ed6dbc1d3905e97e742289cb3b3",
+      "actual": "bedc47db390249eb2230c2031b114d1d5f470ed6dbc1d3905e97e742289cb3b3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/inference.py",
+      "expected": "0c06c5dd2fa46ae89a9fa376c0eaa383d12e7fc21aa65d662bcf3e758d26b598",
+      "actual": "0c06c5dd2fa46ae89a9fa376c0eaa383d12e7fc21aa65d662bcf3e758d26b598"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/logger.py",
+      "expected": "1455b7b5d68ac7c0ab3c0dd472a9aee1d7fa4903bc70aee84f33057c409edb7f",
+      "actual": "1455b7b5d68ac7c0ab3c0dd472a9aee1d7fa4903bc70aee84f33057c409edb7f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/misc.py",
+      "expected": "def44cace6aa403c5be40c3cc35503b4d8ea704019d33bc9af8485dfccc9ebd7",
+      "actual": "def44cace6aa403c5be40c3cc35503b4d8ea704019d33bc9af8485dfccc9ebd7"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/slconfig.py",
+      "expected": "af79fb9d2cbc969813873e257ffbad8890e23fcce9eab0c210b68b0a0279cf2f",
+      "actual": "af79fb9d2cbc969813873e257ffbad8890e23fcce9eab0c210b68b0a0279cf2f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/slio.py",
+      "expected": "fe8dd5e3efae4a93180c0f9319af838a4f22444e1a7544b496a7cd713bf5b461",
+      "actual": "fe8dd5e3efae4a93180c0f9319af838a4f22444e1a7544b496a7cd713bf5b461"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/time_counter.py",
+      "expected": "14e08e1416920094e760b0e6082fbe374bf7838b8a0712a755c071bc41c25dad",
+      "actual": "14e08e1416920094e760b0e6082fbe374bf7838b8a0712a755c071bc41c25dad"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/utils.py",
+      "expected": "4b33dbbb960e6421136b4663e82d56f740f8f98f2792e052c7e03e71968b70c0",
+      "actual": "4b33dbbb960e6421136b4663e82d56f740f8f98f2792e052c7e03e71968b70c0"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/visualizer.py",
+      "expected": "a8d6415a7eaf68ba08f3f81b93ae868550a049ea1ae23ef41c507e601a24d0f8",
+      "actual": "a8d6415a7eaf68ba08f3f81b93ae868550a049ea1ae23ef41c507e601a24d0f8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/util/vl_utils.py",
+      "expected": "19ecd4beadcd2e9a1900e6f6b884040e1000a7783ac235d9e3138d0fac874150",
+      "actual": "19ecd4beadcd2e9a1900e6f6b884040e1000a7783ac235d9e3138d0fac874150"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/3dparty/groundingdino/version.py",
+      "expected": "20c8e430ededc2143396e553a3c67aac4ec483ef54efdfcb18a31cb162ca0646",
+      "actual": "20c8e430ededc2143396e553a3c67aac4ec483ef54efdfcb18a31cb162ca0646"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/README.md",
+      "expected": "02c81130e21f9ad811796632e00f790b7c82519a39a14524a9b6eca013ebdaa1",
+      "actual": "02c81130e21f9ad811796632e00f790b7c82519a39a14524a9b6eca013ebdaa1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/__init__.py",
+      "expected": "45591b35544a7fafbd4dc71f7a2ac381ec71c47b889a1d5a0ad9246135dae218",
+      "actual": "45591b35544a7fafbd4dc71f7a2ac381ec71c47b889a1d5a0ad9246135dae218"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/benchmark.py",
+      "expected": "5e18576b22eedaedfbfeec538c7abc99958cd575d595b7137636defa66efdfff",
+      "actual": "5e18576b22eedaedfbfeec538c7abc99958cd575d595b7137636defa66efdfff"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/config_portable.yaml",
+      "expected": "492d11a8c9c6187f0524b1c91b7d6b6c1636cf7e7698c94d8534675996705a29",
+      "actual": "492d11a8c9c6187f0524b1c91b7d6b6c1636cf7e7698c94d8534675996705a29"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/config_template.yaml",
+      "expected": "8766288588c49259b8e136787513cbbe2944a5464ea251e62820df16dadfec05",
+      "actual": "8766288588c49259b8e136787513cbbe2944a5464ea251e62820df16dadfec05"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/dino_monitor.py",
+      "expected": "0bcc8f7efb8c92bae4ac3a65263d0f336313d3a0ddfd69ccc6744d24028f7648",
+      "actual": "0bcc8f7efb8c92bae4ac3a65263d0f336313d3a0ddfd69ccc6744d24028f7648"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/eval.py",
+      "expected": "afd2b03cd5dbb94b8c9ffbd9eaf50420ada09f21508ca1baa379e18afa6ca73a",
+      "actual": "afd2b03cd5dbb94b8c9ffbd9eaf50420ada09f21508ca1baa379e18afa6ca73a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/inputs.py",
+      "expected": "b2ba5b2066986b8b3855b99c44d556abc5f1d8f352cf236d0b88834dbfee32cd",
+      "actual": "b2ba5b2066986b8b3855b99c44d556abc5f1d8f352cf236d0b88834dbfee32cd"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/run_eval.sh",
+      "expected": "68393d17342e7d06034487acb248ea38ba4893b523db2ae78b900743827b9a6d",
+      "actual": "68393d17342e7d06034487acb248ea38ba4893b523db2ae78b900743827b9a6d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/traveluav/sample_builder.py",
+      "expected": "960baef49c92a99b6c7fa9827c3072c7785ccac6bbdaafd90f2bcc52b760673a",
+      "actual": "960baef49c92a99b6c7fa9827c3072c7785ccac6bbdaafd90f2bcc52b760673a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/benchmark.py",
+      "expected": "8c98e55a3c0b525eaec692ae2afde3cbc74a22b74f70c12936884a03dc6c7c45",
+      "actual": "8c98e55a3c0b525eaec692ae2afde3cbc74a22b74f70c12936884a03dc6c7c45"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/inputs.py",
+      "expected": "947ebb21df38847a356adde3a241b57d5e20367f38ea1197eba1449520a0b3f6",
+      "actual": "947ebb21df38847a356adde3a241b57d5e20367f38ea1197eba1449520a0b3f6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/r2r/benchmark.py",
+      "expected": "3578ac3ce4b9e595e97687f42466ff4ff38c9a08ab3222ba1a64e15c0e3dbe4b",
+      "actual": "3578ac3ce4b9e595e97687f42466ff4ff38c9a08ab3222ba1a64e15c0e3dbe4b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/r2r/config_portable.yaml",
+      "expected": "b061fa58504928eca4758514dfb4cdd6e1c1bfcb59176c687a1a387eb80de033",
+      "actual": "b061fa58504928eca4758514dfb4cdd6e1c1bfcb59176c687a1a387eb80de033"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/r2r/config_template.yaml",
+      "expected": "610128877d1fdafadb2ed27df937eff93f8cda0f1b029a7c86a1860b23b38051",
+      "actual": "610128877d1fdafadb2ed27df937eff93f8cda0f1b029a7c86a1860b23b38051"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/r2r/eval.py",
+      "expected": "e0f954c85989c78682d8539f00f25b61eb6b4275d0f90e9a5d7fbd201c3a060c",
+      "actual": "e0f954c85989c78682d8539f00f25b61eb6b4275d0f90e9a5d7fbd201c3a060c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/r2r/inputs.py",
+      "expected": "6bcf2cafe5a2183ce1013214117aeb0cbbf6869739ba098a4138764b1e8420b0",
+      "actual": "6bcf2cafe5a2183ce1013214117aeb0cbbf6869739ba098a4138764b1e8420b0"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/r2r/run_eval.sh",
+      "expected": "7fbfecfb0f92d85ca68ff4ff98037b042276ebaa1fd0e09018d115a664dd1f04",
+      "actual": "7fbfecfb0f92d85ca68ff4ff98037b042276ebaa1fd0e09018d115a664dd1f04"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/rxr/benchmark.py",
+      "expected": "dea7afeebac9e0bcaaf547c5ca6895f9123018e1f3977db98a08b773e8f4dc96",
+      "actual": "dea7afeebac9e0bcaaf547c5ca6895f9123018e1f3977db98a08b773e8f4dc96"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/rxr/config_portable.yaml",
+      "expected": "3b078e0cbb21dd03e673a2c21d5151aff5247448fcade66a85bed6cd024969d2",
+      "actual": "3b078e0cbb21dd03e673a2c21d5151aff5247448fcade66a85bed6cd024969d2"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/rxr/config_template.yaml",
+      "expected": "c33c7614577d7111f8b3d49ec3128d1964243c009207553232ba3bffaf8a2126",
+      "actual": "c33c7614577d7111f8b3d49ec3128d1964243c009207553232ba3bffaf8a2126"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/rxr/eval.py",
+      "expected": "c44b686b0f6dc20a127e6f3c2766abc4596927af079f8b7dc8cce6ef3a9b6ddb",
+      "actual": "c44b686b0f6dc20a127e6f3c2766abc4596927af079f8b7dc8cce6ef3a9b6ddb"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/rxr/inputs.py",
+      "expected": "1489b0b1df4ce260238da5a746186e63110c9643b81dcc6f53b88f7d407606f8",
+      "actual": "1489b0b1df4ce260238da5a746186e63110c9643b81dcc6f53b88f7d407606f8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/NavVLAeval/vlnce/rxr/run_eval.sh",
+      "expected": "445561cf7b7f704e730a696e0ee940713d65f9807b85070bc311c180725ed1dd",
+      "actual": "445561cf7b7f704e730a696e0ee940713d65f9807b85070bc311c180725ed1dd"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/README.md",
+      "expected": "85662206d8f9ba1948ccc2c588b241fe9f45e0ee43e77ce825a2247f195cb3a6",
+      "actual": "85662206d8f9ba1948ccc2c588b241fe9f45e0ee43e77ce825a2247f195cb3a6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/legacy_rxr_server.py",
+      "expected": "bce14f813b38334140f05a743f9cc697336edd1145483e99dee4a7394a34097e",
+      "actual": "bce14f813b38334140f05a743f9cc697336edd1145483e99dee4a7394a34097e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/server_policy.py",
+      "expected": "a76f37a8083cebde807448c369f15ce94360fb6d03d9b5d5f621e270dcaef154",
+      "actual": "a76f37a8083cebde807448c369f15ce94360fb6d03d9b5d5f621e270dcaef154"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/tools/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/tools/debug_server_policy.py",
+      "expected": "4983d14c15a5f923fa3f277b491775370500160e921c7e406c6524bdb0df9a72",
+      "actual": "4983d14c15a5f923fa3f277b491775370500160e921c7e406c6524bdb0df9a72"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/tools/image_tools.py",
+      "expected": "ea839b396072667eb0a1c723bfcc93e1e25886e4dd2d49c84302cc1ef262c186",
+      "actual": "ea839b396072667eb0a1c723bfcc93e1e25886e4dd2d49c84302cc1ef262c186"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/tools/msgpack_numpy.py",
+      "expected": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+      "actual": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/tools/websocket_policy_client.py",
+      "expected": "6b3394c6db64a24ed8cd96feb6975e04ffe5132a713d6ad78753eee5e7c2dd48",
+      "actual": "6b3394c6db64a24ed8cd96feb6975e04ffe5132a713d6ad78753eee5e7c2dd48"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/deployment/model_server/tools/websocket_policy_server.py",
+      "expected": "41d3ef83f6a9a4f1e920dee21b4b8c454e472bcd34a773650edc202899f25d8d",
+      "actual": "41d3ef83f6a9a4f1e920dee21b4b8c454e472bcd34a773650edc202899f25d8d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/__init__.py",
+      "expected": "c3b98260a78deaefda19149bc5b53dab7d72090057b01eefac1ef2ffb2f07196",
+      "actual": "c3b98260a78deaefda19149bc5b53dab7d72090057b01eefac1ef2ffb2f07196"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/airsim_utils.py",
+      "expected": "1fc9d682df8a91e43401ef50bcd9aab18e474c58ef50ce10099a8c011e70fdc5",
+      "actual": "1fc9d682df8a91e43401ef50bcd9aab18e474c58ef50ce10099a8c011e70fdc5"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/__init__.py",
+      "expected": "2fb45f9bdc45fce93b7f88aef5b843de992325d410b33f5044e9b892b287f26d",
+      "actual": "2fb45f9bdc45fce93b7f88aef5b843de992325d410b33f5044e9b892b287f26d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/builder.py",
+      "expected": "c53027d69e5ebf36464204c33c9e33862858c223fc076605672f9e04ea74ad7f",
+      "actual": "c53027d69e5ebf36464204c33c9e33862858c223fc076605672f9e04ea74ad7f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/cache.py",
+      "expected": "5eb590d879da8715bed60aad5a421656f7fd0ed4cc706eed9f7ca271dd0ce64b",
+      "actual": "5eb590d879da8715bed60aad5a421656f7fd0ed4cc706eed9f7ca271dd0ce64b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/collate.py",
+      "expected": "43dce6a7b476364b9fd7bab695bbd80a4d0b5e6990ed07dfbe4878283e3aca27",
+      "actual": "43dce6a7b476364b9fd7bab695bbd80a4d0b5e6990ed07dfbe4878283e3aca27"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/context.py",
+      "expected": "d7b257be89a2d03c2bbfe9931fc625ba457436ba80955c1429a45a837fecddb8",
+      "actual": "d7b257be89a2d03c2bbfe9931fc625ba457436ba80955c1429a45a837fecddb8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/dataset.py",
+      "expected": "4366ec3e4dc1fb23309a7a2949f195d84a3034d6aae5967be592b028996024bd",
+      "actual": "4366ec3e4dc1fb23309a7a2949f195d84a3034d6aae5967be592b028996024bd"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/mixture.py",
+      "expected": "633a03801432ab2af36eebc3c86b2ac8fe200b85efda54c80ba255588571b5de",
+      "actual": "633a03801432ab2af36eebc3c86b2ac8fe200b85efda54c80ba255588571b5de"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/parquet.py",
+      "expected": "d3347d13f114d1d3e68a358aadcda58311fdaa2db13041f131c06b689d888008",
+      "actual": "d3347d13f114d1d3e68a358aadcda58311fdaa2db13041f131c06b689d888008"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/sampler.py",
+      "expected": "1b353cf763705e3a006e35cd555d62b48ebd12aedb51595347c0ded283c42f5f",
+      "actual": "1b353cf763705e3a006e35cd555d62b48ebd12aedb51595347c0ded283c42f5f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/utils.py",
+      "expected": "b2590459ed182ba7fbbbd4f1879eeb85a8fb4472aab43aa48fb5ecba7087a808",
+      "actual": "b2590459ed182ba7fbbbd4f1879eeb85a8fb4472aab43aa48fb5ecba7087a808"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/cpm_lerobot/video.py",
+      "expected": "66e77619b58d3eea1adf2613966cad1dfad2603bb2b100c333c471af1a7ae0c4",
+      "actual": "66e77619b58d3eea1adf2613966cad1dfad2603bb2b100c333c471af1a7ae0c4"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/dataloader/navvla_cpm_dataset.py",
+      "expected": "ac985e3a9bddf947975ce160bdd814d4e85b3f70b865bfa47b3da3716f48ec8e",
+      "actual": "ac985e3a9bddf947975ce160bdd814d4e85b3f70b865bfa47b3da3716f48ec8e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/__init__.py",
+      "expected": "bf7ea8a9d118cba3c9b00765597df909433dba7aeb54f91c0d8554d87f5fdc87",
+      "actual": "bf7ea8a9d118cba3c9b00765597df909433dba7aeb54f91c0d8554d87f5fdc87"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/navvla_cpm.py",
+      "expected": "2959da6749190cfc86034a17f5ea99a5adb77a385964cf24278ac6e5ab5e4ab0",
+      "actual": "2959da6749190cfc86034a17f5ea99a5adb77a385964cf24278ac6e5ab5e4ab0"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py",
+      "expected": "0d2e56504572c9e896e9830ace19bdfd26b89e306a0cfca7cc6da832631660a3",
+      "actual": "0d2e56504572c9e896e9830ace19bdfd26b89e306a0cfca7cc6da832631660a3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/framework/__init__.py",
+      "expected": "6d920f507781d5ffd7eb80159f09359220997829ab0452ca75cb2fb232bf3d48",
+      "actual": "6d920f507781d5ffd7eb80159f09359220997829ab0452ca75cb2fb232bf3d48"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/framework/base_framework.py",
+      "expected": "62491f8ecdc8398640ab7f5f4e782fcb0f84fc095cc92d6fdfa745ef8e973761",
+      "actual": "62491f8ecdc8398640ab7f5f4e782fcb0f84fc095cc92d6fdfa745ef8e973761"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/framework/share_tools.py",
+      "expected": "c59dc9a19a05449572ee61a7e4eb2c756fc2cbeb706f96a53beddfbe87505856",
+      "actual": "c59dc9a19a05449572ee61a7e4eb2c756fc2cbeb706f96a53beddfbe87505856"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/action_model/GR00T_ActionHeader.py",
+      "expected": "bebb11f3fc67e2d88aefe823275a61a74bbd16aa878db40124828096bde30c4a",
+      "actual": "bebb11f3fc67e2d88aefe823275a61a74bbd16aa878db40124828096bde30c4a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/action_model/__init__.py",
+      "expected": "d09f1b8447fad6e2cb69b093a37320bada738e6a660292592e50486a8f1c2bb9",
+      "actual": "d09f1b8447fad6e2cb69b093a37320bada738e6a660292592e50486a8f1c2bb9"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/action_model/flow_matching_head/__init__.py",
+      "expected": "dd7d5f5e544e1d2923bf4f1aa548504255938f58a6e74a119356573e6ce9e36e",
+      "actual": "dd7d5f5e544e1d2923bf4f1aa548504255938f58a6e74a119356573e6ce9e36e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/action_model/flow_matching_head/action_encoder.py",
+      "expected": "c88c409e5db16eab2f64d50efb159fb8a943527a4673461106035dc55e8708bf",
+      "actual": "c88c409e5db16eab2f64d50efb159fb8a943527a4673461106035dc55e8708bf"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/action_model/flow_matching_head/cross_attention_dit.py",
+      "expected": "21d9620f76e91f2794ae97237b69b5da3536df49ce0ce479fe05a74683652fe9",
+      "actual": "21d9620f76e91f2794ae97237b69b5da3536df49ce0ce479fe05a74683652fe9"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/bats.py",
+      "expected": "673c406edbbd19b7649290e25a3d80903cbb99b4a084966329178bcacd75c1a1",
+      "actual": "673c406edbbd19b7649290e25a3d80903cbb99b4a084966329178bcacd75c1a1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/input_context.py",
+      "expected": "9b927bee9f4797877db9f11154e71958dfaafef1d3f0465be81feaf930d70127",
+      "actual": "9b927bee9f4797877db9f11154e71958dfaafef1d3f0465be81feaf930d70127"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/long_memory.py",
+      "expected": "37f925e9eb5a41de3d32b01be0e6fd9c2ca15159eb626107301bc32260a37151",
+      "actual": "37f925e9eb5a41de3d32b01be0e6fd9c2ca15159eb626107301bc32260a37151"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/navvla_context.py",
+      "expected": "fe75b8c13c2c0e30e4f66f9400494fdb7f0968618ef0d3ba0f51f10d835add15",
+      "actual": "fe75b8c13c2c0e30e4f66f9400494fdb7f0968618ef0d3ba0f51f10d835add15"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/navvla_long_memory.py",
+      "expected": "c903c093420ee537e70f7c82654489cf1eab30259422717b73e8bd64a6cdff4f",
+      "actual": "c903c093420ee537e70f7c82654489cf1eab30259422717b73e8bd64a6cdff4f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/qwen35_vision.py",
+      "expected": "cb344f50f1677b177d9e26f70cf752265ae4d247f3f9ef9a54d41b34f2f44cda",
+      "actual": "cb344f50f1677b177d9e26f70cf752265ae4d247f3f9ef9a54d41b34f2f44cda"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/tvi.py",
+      "expected": "17fb983193421e209e62075eb90c32117a60f0220fdd650a21bb722bc9e07d68",
+      "actual": "17fb983193421e209e62075eb90c32117a60f0220fdd650a21bb722bc9e07d68"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/vlm/MiniCPMV.py",
+      "expected": "43d6e49ffdeba1f1d1a41f140324d4a17a9281753560f037e9fcac9bd7ff1b92",
+      "actual": "43d6e49ffdeba1f1d1a41f140324d4a17a9281753560f037e9fcac9bd7ff1b92"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/vlm/QWen3_5.py",
+      "expected": "fa590389e16d349ded994be3895695e054bcfc779017a3ee0b2b487bdcefd13f",
+      "actual": "fa590389e16d349ded994be3895695e054bcfc779017a3ee0b2b487bdcefd13f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/vlm/README.md",
+      "expected": "267ae3cfeaee5e5b28e5d8e7479e9d024926901a9fc274b91b991740af2e07c3",
+      "actual": "267ae3cfeaee5e5b28e5d8e7479e9d024926901a9fc274b91b991740af2e07c3"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/modules/vlm/__init__.py",
+      "expected": "2c3e52b983a69a07180d00d4a9fa0f7ba16c8a1d9dd6ce6656e8de96c58e2afe",
+      "actual": "2c3e52b983a69a07180d00d4a9fa0f7ba16c8a1d9dd6ce6656e8de96c58e2afe"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/model/tools.py",
+      "expected": "ddb7cf5a0a4d56aebfe2eb7ab3e1770f1c6f7d331d2dd1cf37a84220da02b55a",
+      "actual": "ddb7cf5a0a4d56aebfe2eb7ab3e1770f1c6f7d331d2dd1cf37a84220da02b55a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/__init__.py",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/openloop_eval.py",
+      "expected": "0713e37481510d9edd9ca8dffe0ab35699392cdf829d7664b03a589545b794b9",
+      "actual": "0713e37481510d9edd9ca8dffe0ab35699392cdf829d7664b03a589545b794b9"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/train_starvla.py",
+      "expected": "bf784e462a58b1fdfab92741c57c8812925249e29e5320593b530813b72d8663",
+      "actual": "bf784e462a58b1fdfab92741c57c8812925249e29e5320593b530813b72d8663"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/trainer_utils/__init__.py",
+      "expected": "bd036db0376e394f189a420f798d0fa0b93637b72004419ccaaf316b8b5e757d",
+      "actual": "bd036db0376e394f189a420f798d0fa0b93637b72004419ccaaf316b8b5e757d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/trainer_utils/config_tracker.py",
+      "expected": "18b0e7ffc016e75e5b863893241225b649ed99def9265aa26e1a355b296f3dde",
+      "actual": "18b0e7ffc016e75e5b863893241225b649ed99def9265aa26e1a355b296f3dde"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/trainer_utils/overwatch.py",
+      "expected": "26490d610d638c975b1f60ade0d94125d09f86e1773ce8ad0fb65d81e6bf057f",
+      "actual": "26490d610d638c975b1f60ade0d94125d09f86e1773ce8ad0fb65d81e6bf057f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/trainer_utils/resume_state.py",
+      "expected": "532258d8a2f66438930948f7aea2828f23921d23e6cee62e047a81977e8cf1f8",
+      "actual": "532258d8a2f66438930948f7aea2828f23921d23e6cee62e047a81977e8cf1f8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/starVLA/training/trainer_utils/trainer_tools.py",
+      "expected": "d9e3594fc0324b6b8acba965a029a966d247df0f867e0df8dff2b3f57a24baf6",
+      "actual": "d9e3594fc0324b6b8acba965a029a966d247df0f867e0df8dff2b3f57a24baf6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/README.md",
+      "expected": "6b0e9b7c3093ac53297283b68164b8fce4a5f524ea81813ec193a4e2ac769670",
+      "actual": "6b0e9b7c3093ac53297283b68164b8fce4a5f524ea81813ec193a4e2ac769670"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/__init__.py",
+      "expected": "18cb8cdada9b8f2ecb609bc62fdfec82801c9396ff1601ef66a8025286fa93f9",
+      "actual": "18cb8cdada9b8f2ecb609bc62fdfec82801c9396ff1601ef66a8025286fa93f9"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/action.py",
+      "expected": "b9cc7a1efbd071c2b99828c24ec1151e31299645fa63076cf4b019d8f6eb9589",
+      "actual": "b9cc7a1efbd071c2b99828c24ec1151e31299645fa63076cf4b019d8f6eb9589"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/__init__.py",
+      "expected": "c11fa6e084f2c3028363efd40cb682f2b2e18769aa6b526f727188d8208e4e2a",
+      "actual": "c11fa6e084f2c3028363efd40cb682f2b2e18769aa6b526f727188d8208e4e2a"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/_cosfly_splits.py",
+      "expected": "79eac7d4bba88e8d83ff26180c7f7b6ba9a0fe90c4349a99e065bb28188c68c0",
+      "actual": "79eac7d4bba88e8d83ff26180c7f7b6ba9a0fe90c4349a99e065bb28188c68c0"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/_nuscenes_splits.py",
+      "expected": "653d458e388a727aff02a20f7415915cd7509486b98d6995400255951f085364",
+      "actual": "653d458e388a727aff02a20f7415915cd7509486b98d6995400255951f085364"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/aerialvln.py",
+      "expected": "5102c796e0a1df8c1c99adfed1aef6f96843c9c232936b311111e4e91277c82c",
+      "actual": "5102c796e0a1df8c1c99adfed1aef6f96843c9c232936b311111e4e91277c82c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/base.py",
+      "expected": "79aa17e6dcba16311f41f1d934a3b77cedfe93c37755433fd0fdc4b5cdf8dab7",
+      "actual": "79aa17e6dcba16311f41f1d934a3b77cedfe93c37755433fd0fdc4b5cdf8dab7"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/cosfly.py",
+      "expected": "e0036ccb50db849adadb848378546482767baff98ad5276554d13d3c11bda574",
+      "actual": "e0036ccb50db849adadb848378546482767baff98ad5276554d13d3c11bda574"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/cosfly_convert.py",
+      "expected": "8291154f94c981dc9b262d0ccf186e8bba29fbeec0ffcb17633548aee2bbe061",
+      "actual": "8291154f94c981dc9b262d0ccf186e8bba29fbeec0ffcb17633548aee2bbe061"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/embodiednav.py",
+      "expected": "d898651d1e921c8aa2df84bb52e49a25910d19c4a652e14b5714ea55303c211e",
+      "actual": "d898651d1e921c8aa2df84bb52e49a25910d19c4a652e14b5714ea55303c211e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/enhanced_vln.py",
+      "expected": "2cf783d824b4136b44e499e54cd183a0db2335b6ddc72e89d1050e20712b7914",
+      "actual": "2cf783d824b4136b44e499e54cd183a0db2335b6ddc72e89d1050e20712b7914"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/flight.py",
+      "expected": "f2a840eb69136f465783b9a1df7d22d0b20f1523cd66f8cb0158243eb69b2390",
+      "actual": "f2a840eb69136f465783b9a1df7d22d0b20f1523cd66f8cb0158243eb69b2390"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/huge.py",
+      "expected": "b44712aad536f83d2b140f42dab568a7a0d81bf1c2dc1bbbe33e56ddb71bc09b",
+      "actual": "b44712aad536f83d2b140f42dab568a7a0d81bf1c2dc1bbbe33e56ddb71bc09b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/indooruav.py",
+      "expected": "aa217ee58b63739febc15201c93237541b40209c092b868973e2413676c4ff59",
+      "actual": "aa217ee58b63739febc15201c93237541b40209c092b868973e2413676c4ff59"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/nuscenes.py",
+      "expected": "ad2882dac5c915579e033c87873dfe894bd76f9be315860494c3edfdaca98296",
+      "actual": "ad2882dac5c915579e033c87873dfe894bd76f9be315860494c3edfdaca98296"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/openfly.py",
+      "expected": "547ff9ff396aa1d118df49accd522f1e5f212baeb3806704d117f26cfdc0dec5",
+      "actual": "547ff9ff396aa1d118df49accd522f1e5f212baeb3806704d117f26cfdc0dec5"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/openscene.py",
+      "expected": "ae026ed3e358ea692dc0015604314e4b5218603329f612dad9d0607321e49b6b",
+      "actual": "ae026ed3e358ea692dc0015604314e4b5218603329f612dad9d0607321e49b6b"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/traveluav.py",
+      "expected": "805e3601688574f7a017eda1e682d95cf644993cd4aa49c1ee5e309fb0e2a1c2",
+      "actual": "805e3601688574f7a017eda1e682d95cf644993cd4aa49c1ee5e309fb0e2a1c2"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/adapters/vlnce_rendered.py",
+      "expected": "f87fcb725f6e104ea06b0220a221739073ab8d84c002a9a7d20a14c411873887",
+      "actual": "f87fcb725f6e104ea06b0220a221739073ab8d84c002a9a7d20a14c411873887"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/build_openloop_eval.py",
+      "expected": "55bb46401b01fead7642ea765dacc4b954208266dd5cd7704947e0841cc2dcd6",
+      "actual": "55bb46401b01fead7642ea765dacc4b954208266dd5cd7704947e0841cc2dcd6"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/common.py",
+      "expected": "1c73fba2ad844bfb8181c6be603cd45836ad725044aec6eea54d0eb997fdc672",
+      "actual": "1c73fba2ad844bfb8181c6be603cd45836ad725044aec6eea54d0eb997fdc672"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/convert_dataset.py",
+      "expected": "afbc2eb67187076116b51e2f7054e855eb8c794adcdcc0779ee265a3c761010c",
+      "actual": "afbc2eb67187076116b51e2f7054e855eb8c794adcdcc0779ee265a3c761010c"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/generate_enhanced_vln_report.py",
+      "expected": "adff87c39acd02870ffeef96b5ef20809a050a11c80c6d1610b74aea02e72e0e",
+      "actual": "adff87c39acd02870ffeef96b5ef20809a050a11c80c6d1610b74aea02e72e0e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/generate_visual_cache.py",
+      "expected": "43a6140bb36ef50b77616cc741d51e8972ac08a760072ee38f3dc3688be83877",
+      "actual": "43a6140bb36ef50b77616cc741d51e8972ac08a760072ee38f3dc3688be83877"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/render_vlnce_rgb.py",
+      "expected": "fb056d966f5095f2886cbe17b33d6f776190ab84ae0f314cbe6bbcf3df1e4239",
+      "actual": "fb056d966f5095f2886cbe17b33d6f776190ab84ae0f314cbe6bbcf3df1e4239"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/repair_dataset.py",
+      "expected": "448bb0b48b7a0cf9d59eacf923dca21deec70fbf409ce4c94b257e3ebb3278a8",
+      "actual": "448bb0b48b7a0cf9d59eacf923dca21deec70fbf409ce4c94b257e3ebb3278a8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/cli/validate_dataset.py",
+      "expected": "3d5fd0c250d9bc0d945991395d4866dec01b453a90230383eed6fd59d343c010",
+      "actual": "3d5fd0c250d9bc0d945991395d4866dec01b453a90230383eed6fd59d343c010"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/compute_bats_k.py",
+      "expected": "e6c100a63497bb3d298141367f2ced487dd4a6bc3ba5db7983e0476fc4bb8a46",
+      "actual": "e6c100a63497bb3d298141367f2ced487dd4a6bc3ba5db7983e0476fc4bb8a46"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/context_index.py",
+      "expected": "0c8f421ae43fba0f6136be662a83ab72351dfae4a9baa68bd7facb9aa70efec8",
+      "actual": "0c8f421ae43fba0f6136be662a83ab72351dfae4a9baa68bd7facb9aa70efec8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/enhanced_vln_report.py",
+      "expected": "a3e330643aa4e2448840110b703bb1701703c3dbb62c83efbdbd01971771361f",
+      "actual": "a3e330643aa4e2448840110b703bb1701703c3dbb62c83efbdbd01971771361f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/generate_qwen35_postmerge_caches.sh",
+      "expected": "23a3b870eae98db8879ea9248f4b6fed6dc3dd7b9e178fb011a1c0d4b6683470",
+      "actual": "23a3b870eae98db8879ea9248f4b6fed6dc3dd7b9e178fb011a1c0d4b6683470"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/interpolate_aerialvln_openfly_train.py",
+      "expected": "48d0767cc8c7ea7776da5508226918d870c6bbd83b1946e5d3e28671afac5fc8",
+      "actual": "48d0767cc8c7ea7776da5508226918d870c6bbd83b1946e5d3e28671afac5fc8"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/lerobot_v3_writer.py",
+      "expected": "640bda876fd81ae8b030ba61c40507c9476082540a400ccf18bc9980f744a6f1",
+      "actual": "640bda876fd81ae8b030ba61c40507c9476082540a400ccf18bc9980f744a6f1"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/openloop_eval.py",
+      "expected": "cd0eaff7a7e23d9cd6125c6ac39cc4161adb8647cbda76ae6952935bcfbd9966",
+      "actual": "cd0eaff7a7e23d9cd6125c6ac39cc4161adb8647cbda76ae6952935bcfbd9966"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/profile_visual_cache.py",
+      "expected": "d50d23a17be7bb174f22c81f771bdf21dd3b6fa347e22a05f9ea6cce48912c0f",
+      "actual": "d50d23a17be7bb174f22c81f771bdf21dd3b6fa347e22a05f9ea6cce48912c0f"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/repair.py",
+      "expected": "d10c582bb418999f8088cafd4ee87813229e54a169f0a6a85841ec77655437cd",
+      "actual": "d10c582bb418999f8088cafd4ee87813229e54a169f0a6a85841ec77655437cd"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/schema.py",
+      "expected": "d7669edcaad75f34fb8162bf9dcb8cb4ec7eb3ccd71e3b27aa180b94eee5df7e",
+      "actual": "d7669edcaad75f34fb8162bf9dcb8cb4ec7eb3ccd71e3b27aa180b94eee5df7e"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/statistics.py",
+      "expected": "2ed0161dd1b41ffdc020bc854d96e0a3fef37e008d8d4beb5f9b70538ef7992d",
+      "actual": "2ed0161dd1b41ffdc020bc854d96e0a3fef37e008d8d4beb5f9b70538ef7992d"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/validation.py",
+      "expected": "958afe2c2903df1a949b0fa20a84bd85ac98d29997c0387206e6a574738c32f0",
+      "actual": "958afe2c2903df1a949b0fa20a84bd85ac98d29997c0387206e6a574738c32f0"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/visual_token_cache.py",
+      "expected": "617d65272cb2414cb02f44945c7b7a40e89bca879e7e3b13d4b29c0f0fdb9883",
+      "actual": "617d65272cb2414cb02f44945c7b7a40e89bca879e7e3b13d4b29c0f0fdb9883"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/navvla/workers.py",
+      "expected": "ab1e108093362dde17dd7b8ed2e7717658c50b185cc5c7c1dc486f93b45f0526",
+      "actual": "ab1e108093362dde17dd7b8ed2e7717658c50b185cc5c7c1dc486f93b45f0526"
+    },
+    {
+      "path": "Experiment/SCOPE/legacy_runtime/tool/openfly_prediction_video.py",
+      "expected": "a88bdd607caac48e2cbcc40dc15aa3d96fab05a5870eb8161f40bb3ec30db639",
+      "actual": "a88bdd607caac48e2cbcc40dc15aa3d96fab05a5870eb8161f40bb3ec30db639"
+    }
+  ]
+}

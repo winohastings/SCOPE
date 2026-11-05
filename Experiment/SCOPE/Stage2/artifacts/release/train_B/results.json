@@ -1,0 +1,50 @@
+[
+  {
+    "episode_uid": "scope_stage2_train:1",
+    "source_episode_id": "1",
+    "scene_id": "7y3sRwLe3Va",
+    "instruction": "Go around the right side of the center unit and stop by the right side doorway with the dining table and mirror in it.",
+    "success": 0,
+    "oracle_success": 0,
+    "final_distance": 3.731165504554709,
+    "path_length": 4.24993552826345,
+    "gt_path_length": 7.240866344252394,
+    "steps": 4,
+    "failure": null,
+    "failure_type": null,
+    "termination_reason": "max_steps",
+    "failure_traceback": null,
+    "nDTW": 0.3644847178104837,
+    "wall_seconds": 7.135879839770496,
+    "training": {
+      "transitions": 4,
+      "updated": true,
+      "statistics": [
+        {
+          "actor_loss": -0.05478881672024727,
+          "critic_loss": 0.006623805966228247,
+          "ratio_mean": 1.0,
+          "actor_grad_norm": 9.06491756439209,
+          "critic_grad_norm": 1.4913235902786255,
+          "entropy": 5.478888511657715,
+          "actor_state_gru_grad_norm": 0.009334673173725605,
+          "critic_state_gru_grad_norm": 0.013007904402911663
+        },
+        {
+          "actor_loss": -0.2114141881465912,
+          "critic_loss": 0.09951016306877136,
+          "ratio_mean": 1.0193008184432983,
+          "actor_grad_norm": 0.7441540956497192,
+          "critic_grad_norm": 4.925195693969727,
+          "entropy": 5.465559005737305,
+          "actor_state_gru_grad_norm": 0.018346469849348068,
+          "critic_state_gru_grad_norm": 0.021318627521395683
+        }
+      ],
+      "update_seconds": 0.1251557394862175,
+      "actor_parameter_l2_change": 0.3421204388141632,
+      "backbone_gradients_none": true,
+      "checkpoint": "Experiment/SCOPE/Stage2/artifacts/release_runtime/actor_critic_B_update_001.pt"
+    }
+  }
+]

@@ -1,6 +1,20 @@
-# SCOPE：Stage1 Glance–Focus 可行性实验
+# SCOPE：Glance–Focus 与状态条件主动感知
 
-这是从 AdaPercVLN 定向整理的 SCOPE 方法与第一阶段研究归档，不是 Habitat、R2R、RxR 或 SimpleNav 官方仓库的镜像。
+这是从 AdaPercVLN 定向整理的 SCOPE 方法、Stage1 可行性与 Stage2 Task4 架构验证归档，不是 Habitat、R2R、RxR 或 SimpleNav 官方仓库的镜像。
+
+## Stage2 Task4 更新
+
+`Experiment/SCOPE/Stage2/` 新增可复用当前视觉特征、统一语言条件 ROI Actor、独立 Critic、真实执行反馈 State GRU、顺序 Focus 记忆、感知 STOP 与 PPO/GAE。全部 Stage1 文件保持原样；具体文件范围和排除项见 `docs/release/STAGE2_RELEASE.md`。
+
+历史实测：54 次同状态诊断，主训练 24 transitions/4 次 PPO 更新，恢复训练另 2 transitions/1 次更新。固定开发两集 SR 为 0.5→0.5，nDTW 均值 0.47005→0.58335；不宣称导航改善、训练收敛或完整评测完成。没有启动全规模 PPO 或 val_unseen 评估。
+
+```bash
+python3.11 tools/verify_stage2_release.py
+
+/home/data/czh/Third_Party/baselines/SimpleNav/.venv/bin/python -m unittest discover \
+  -s tests \
+  -p test_scope_stage2.py
+```
 
 ## 方法与范围
 
@@ -13,7 +27,7 @@
 | G2 | 四张 Glance + Fixed-Cyclic-2 | 192 |
 | G3 | 四张 Glance + 确定性 Random-2 | 192 |
 
-G0 来自共享 512 渲染后缩放，不宣称与原生 256 渲染像素一致。历史 tokens 单独计算。Task1 的 Fixed-2 为固定 0/3，Task3 的 Fixed-2 才使用八步循环；两者不可混用。Task1 的 learned/STOP 仅是接口冒烟，Task2 的 G4 为设计草案，未训练学习策略，也没有启动第二阶段。
+G0 来自共享 512 渲染后缩放，不宣称与原生 256 渲染像素一致。历史 tokens 单独计算。Task1 的 Fixed-2 为固定 0/3，Task3 的 Fixed-2 才使用八步循环；两者不可混用。Task1 的 learned/STOP 仅是接口冒烟，Task2 的 G4 为设计草案，Stage1 当时未训练学习策略；后续 Stage2 Task4 的受限架构与短训练验证单列，不回写 Stage1 结论。
 
 ## 已有结果（历史证据，不是发布时重跑）
 
@@ -30,7 +44,9 @@ R2R 隔离开发清单 64 集/组，seed=42，四组共 256 集，记录执行�
 
 ## 导航
 
-- `docs/Tasks/`：三个原始任务。
+- `docs/Tasks/`：三个 Stage1 原始任务及 `Stage2/` 下的 Task4。
+- `Experiment/SCOPE/Stage2/`：Task4 核心代码、八份交付报告与关键实测产物。
+- `docs/Logs/Task3/`：Task4 执行前独立审阅记录。
 - `Experiment/SCOPE/`：Task1 入口、Stage1 协议草案、Stage1_Feasibility 已执行协议与实现。
 - `patches/legacy_scope.patch`：新增采集代码与四个模型接口文件的精确补丁。
 - `patches/simplenav_stage1.patch`：实际依赖的 benchmark、Habitat 接入与 legacy 服务改动。

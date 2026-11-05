@@ -1,0 +1,962 @@
+{
+  "navigation": {
+    "dev_before": {
+      "episodes": 2,
+      "failures": 0,
+      "SR": 0.5,
+      "nDTW": 0.4700473977342328,
+      "records": [
+        {
+          "episode_uid": "scope_feasibility_dev:9791",
+          "source_episode_id": "9791",
+          "scene_id": "jh4fc5c5qoQ",
+          "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+          "success": 0,
+          "oracle_success": 0,
+          "final_distance": 11.098906011763068,
+          "path_length": 25.365384419681504,
+          "gt_path_length": 9.090362548828125,
+          "steps": 25,
+          "failure": null,
+          "failure_type": null,
+          "termination_reason": "waypoint_motion_stop",
+          "failure_traceback": null,
+          "nDTW": 8.560137134484911e-05,
+          "wall_seconds": 48.21760389767587,
+          "training": {
+            "transitions": 0,
+            "updated": false
+          }
+        },
+        {
+          "episode_uid": "scope_feasibility_dev:1279",
+          "source_episode_id": "1279",
+          "scene_id": "5q7pvUzZiYa",
+          "instruction": "Walk down the hallway past the stairs towards the bedroom. Stop and wait just before crossing into the next room.",
+          "success": 1,
+          "oracle_success": 1,
+          "final_distance": 0.8703468374016479,
+          "path_length": 5.5109226405620575,
+          "gt_path_length": 6.198246002197266,
+          "steps": 5,
+          "failure": null,
+          "failure_type": null,
+          "termination_reason": "waypoint_motion_stop",
+          "failure_traceback": null,
+          "nDTW": 0.9400091940971208,
+          "wall_seconds": 15.730560044758022,
+          "training": {
+            "transitions": 0,
+            "updated": false
+          }
+        }
+      ]
+    },
+    "dev_after": {
+      "episodes": 2,
+      "failures": 0,
+      "SR": 0.5,
+      "nDTW": 0.5833496815305074,
+      "records": [
+        {
+          "episode_uid": "scope_feasibility_dev:9791",
+          "source_episode_id": "9791",
+          "scene_id": "jh4fc5c5qoQ",
+          "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+          "success": 1,
+          "oracle_success": 1,
+          "final_distance": 0.42998883349305955,
+          "path_length": 9.156438670586795,
+          "gt_path_length": 9.090362548828125,
+          "steps": 9,
+          "failure": null,
+          "failure_type": null,
+          "termination_reason": "waypoint_motion_stop",
+          "failure_traceback": null,
+          "nDTW": 0.9005364748434296,
+          "wall_seconds": 20.24623777065426,
+          "training": {
+            "transitions": 0,
+            "updated": false
+          }
+        },
+        {
+          "episode_uid": "scope_feasibility_dev:1279",
+          "source_episode_id": "1279",
+          "scene_id": "5q7pvUzZiYa",
+          "instruction": "Walk down the hallway past the stairs towards the bedroom. Stop and wait just before crossing into the next room.",
+          "success": 0,
+          "oracle_success": 0,
+          "final_distance": 7.6623492285640955,
+          "path_length": 3.304839848075062,
+          "gt_path_length": 6.198246002197266,
+          "steps": 5,
+          "failure": null,
+          "failure_type": null,
+          "termination_reason": "waypoint_motion_stop",
+          "failure_traceback": null,
+          "nDTW": 0.2661628882175852,
+          "wall_seconds": 14.842209991067648,
+          "training": {
+            "transitions": 0,
+            "updated": false
+          }
+        }
+      ]
+    },
+    "dev_restored": {
+      "episodes": 2,
+      "failures": 0,
+      "SR": 0.5,
+      "nDTW": 0.5833496815305074,
+      "records": [
+        {
+          "episode_uid": "scope_feasibility_dev:9791",
+          "source_episode_id": "9791",
+          "scene_id": "jh4fc5c5qoQ",
+          "instruction": "Locate the screen door that leads to the screened in patio.  Walk into the patio and stop when you get to the doorway on the left.  Turn left and look into the white room.  Following the left side of the room with the white table walk down the length of the kitchen.   Stop in the area in front of the stacked washer and dryer and in front of the bathroom door.",
+          "success": 1,
+          "oracle_success": 1,
+          "final_distance": 0.42998883349305955,
+          "path_length": 9.156438670586795,
+          "gt_path_length": 9.090362548828125,
+          "steps": 9,
+          "failure": null,
+          "failure_type": null,
+          "termination_reason": "waypoint_motion_stop",
+          "failure_traceback": null,
+          "nDTW": 0.9005364748434296,
+          "wall_seconds": 19.46078299265355,
+          "training": {
+            "transitions": 0,
+            "updated": false
+          }
+        },
+        {
+          "episode_uid": "scope_feasibility_dev:1279",
+          "source_episode_id": "1279",
+          "scene_id": "5q7pvUzZiYa",
+          "instruction": "Walk down the hallway past the stairs towards the bedroom. Stop and wait just before crossing into the next room.",
+          "success": 0,
+          "oracle_success": 0,
+          "final_distance": 7.6623492285640955,
+          "path_length": 3.304839848075062,
+          "gt_path_length": 6.198246002197266,
+          "steps": 5,
+          "failure": null,
+          "failure_type": null,
+          "termination_reason": "waypoint_motion_stop",
+          "failure_traceback": null,
+          "nDTW": 0.2661628882175852,
+          "wall_seconds": 15.918719163164496,
+          "training": {
+            "transitions": 0,
+            "updated": false
+          }
+        }
+      ]
+    },
+    "restored_metrics_exact": true
+  },
+  "diagnostics": {
+    "comparisons": 54,
+    "state_history_pairs": 6,
+    "summary": {
+      "glance": {
+        "count": 6,
+        "mean_delta_m": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "fixed": {
+        "count": 6,
+        "mean_delta_m": -0.1699253718058268,
+        "positive": 2,
+        "negative": 4,
+        "min": -0.8753914833068848,
+        "max": 0.23935270309448242
+      },
+      "fixed_spatial": {
+        "count": 6,
+        "mean_delta_m": -0.17658710479736328,
+        "positive": 3,
+        "negative": 3,
+        "min": -0.8823227882385254,
+        "max": 0.2271428108215332
+      },
+      "cross_camera": {
+        "count": 6,
+        "mean_delta_m": 0.0185244083404541,
+        "positive": 3,
+        "negative": 3,
+        "min": -0.05297040939331055,
+        "max": 0.1229391098022461
+      },
+      "cross_spatial": {
+        "count": 6,
+        "mean_delta_m": 0.03544084231058756,
+        "positive": 2,
+        "negative": 4,
+        "min": -0.038353919982910156,
+        "max": 0.16468381881713867
+      },
+      "right_rear": {
+        "count": 6,
+        "mean_delta_m": 0.02897469202677409,
+        "positive": 3,
+        "negative": 3,
+        "min": -0.056963443756103516,
+        "max": 0.14902734756469727
+      },
+      "fixed_low_detail": {
+        "count": 6,
+        "mean_delta_m": -0.2270847956339518,
+        "positive": 3,
+        "negative": 3,
+        "min": -1.045318603515625,
+        "max": 0.2662339210510254
+      },
+      "fixed_native_scatter": {
+        "count": 6,
+        "mean_delta_m": -0.1699253718058268,
+        "positive": 2,
+        "negative": 4,
+        "min": -0.8753914833068848,
+        "max": 0.23935270309448242
+      },
+      "single_front": {
+        "count": 6,
+        "mean_delta_m": -0.01575581232706706,
+        "positive": 2,
+        "negative": 4,
+        "min": -0.21825075149536133,
+        "max": 0.1786966323852539
+      }
+    },
+    "pairs": [
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "glance",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.6338295936584473,
+        "delta": 0.0
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "fixed",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.7708721160888672,
+        "delta": 0.13704252243041992
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "fixed_spatial",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.7952885627746582,
+        "delta": 0.16145896911621094
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "cross_camera",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.7567687034606934,
+        "delta": 0.1229391098022461
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "cross_spatial",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.7985134124755859,
+        "delta": 0.16468381881713867
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "right_rear",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.767798900604248,
+        "delta": 0.13396930694580078
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "fixed_low_detail",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.8453588485717773,
+        "delta": 0.21152925491333008
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "fixed_native_scatter",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.7708721160888672,
+        "delta": 0.13704252243041992
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 0,
+        "history": true,
+        "variant": "single_front",
+        "glance_progress": 0.6338295936584473,
+        "progress": 0.8125262260437012,
+        "delta": 0.1786966323852539
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "glance",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.2300772666931152,
+        "delta": 0.0
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "fixed",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.2248225212097168,
+        "delta": -0.0052547454833984375
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "fixed_spatial",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.2463693618774414,
+        "delta": 0.016292095184326172
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "cross_camera",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.1800103187561035,
+        "delta": -0.05006694793701172
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "cross_spatial",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.191723346710205,
+        "delta": -0.038353919982910156
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "right_rear",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.1731138229370117,
+        "delta": -0.056963443756103516
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "fixed_low_detail",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.273066520690918,
+        "delta": 0.042989253997802734
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "fixed_native_scatter",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.2248225212097168,
+        "delta": -0.0052547454833984375
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": true,
+        "variant": "single_front",
+        "glance_progress": 1.2300772666931152,
+        "progress": 1.2270846366882324,
+        "delta": -0.0029926300048828125
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "glance",
+        "glance_progress": -0.16368436813354492,
+        "progress": -0.16368436813354492,
+        "delta": 0.0
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "fixed",
+        "glance_progress": -0.16368436813354492,
+        "progress": 0.0756683349609375,
+        "delta": 0.23935270309448242
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "fixed_spatial",
+        "glance_progress": -0.16368436813354492,
+        "progress": 0.06345844268798828,
+        "delta": 0.2271428108215332
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "cross_camera",
+        "glance_progress": -0.16368436813354492,
+        "progress": -0.04920625686645508,
+        "delta": 0.11447811126708984
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "cross_spatial",
+        "glance_progress": -0.16368436813354492,
+        "progress": -0.022581100463867188,
+        "delta": 0.14110326766967773
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "right_rear",
+        "glance_progress": -0.16368436813354492,
+        "progress": -0.014657020568847656,
+        "delta": 0.14902734756469727
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "fixed_low_detail",
+        "glance_progress": -0.16368436813354492,
+        "progress": 0.10254955291748047,
+        "delta": 0.2662339210510254
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "fixed_native_scatter",
+        "glance_progress": -0.16368436813354492,
+        "progress": 0.0756683349609375,
+        "delta": 0.23935270309448242
+      },
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "history": false,
+        "variant": "single_front",
+        "glance_progress": -0.16368436813354492,
+        "progress": -0.10972881317138672,
+        "delta": 0.0539555549621582
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "glance",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.9620552062988281,
+        "delta": 0.0
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "fixed",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.5609512329101562,
+        "delta": -0.4011039733886719
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "fixed_spatial",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.47246742248535156,
+        "delta": -0.48958778381347656
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "cross_camera",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.9814915657043457,
+        "delta": 0.019436359405517578
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "cross_spatial",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.9420814514160156,
+        "delta": -0.0199737548828125
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "right_rear",
+        "glance_progress": 0.9620552062988281,
+        "progress": 1.001108169555664,
+        "delta": 0.03905296325683594
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "fixed_low_detail",
+        "glance_progress": 0.9620552062988281,
+        "progress": -0.08326339721679688,
+        "delta": -1.045318603515625
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "fixed_native_scatter",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.5609512329101562,
+        "delta": -0.4011039733886719
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 0,
+        "history": true,
+        "variant": "single_front",
+        "glance_progress": 0.9620552062988281,
+        "progress": 0.9418020248413086,
+        "delta": -0.02025318145751953
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "glance",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.1085419654846191,
+        "delta": 0.0
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "fixed",
+        "glance_progress": 1.1085419654846191,
+        "progress": 0.9943447113037109,
+        "delta": -0.1141972541809082
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "fixed_spatial",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.016036033630371,
+        "delta": -0.09250593185424805
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "cross_camera",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.0658721923828125,
+        "delta": -0.04266977310180664
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "cross_spatial",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.0893640518188477,
+        "delta": -0.019177913665771484
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "right_rear",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.0700926780700684,
+        "delta": -0.03844928741455078
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "fixed_low_detail",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.055891990661621,
+        "delta": -0.05264997482299805
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "fixed_native_scatter",
+        "glance_progress": 1.1085419654846191,
+        "progress": 0.9943447113037109,
+        "delta": -0.1141972541809082
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": true,
+        "variant": "single_front",
+        "glance_progress": 1.1085419654846191,
+        "progress": 1.0228514671325684,
+        "delta": -0.08569049835205078
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "glance",
+        "glance_progress": 1.2360029220581055,
+        "progress": 1.2360029220581055,
+        "delta": 0.0
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "fixed",
+        "glance_progress": 1.2360029220581055,
+        "progress": 0.3606114387512207,
+        "delta": -0.8753914833068848
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "fixed_spatial",
+        "glance_progress": 1.2360029220581055,
+        "progress": 0.3536801338195801,
+        "delta": -0.8823227882385254
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "cross_camera",
+        "glance_progress": 1.2360029220581055,
+        "progress": 1.183032512664795,
+        "delta": -0.05297040939331055
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "cross_spatial",
+        "glance_progress": 1.2360029220581055,
+        "progress": 1.2203664779663086,
+        "delta": -0.015636444091796875
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "right_rear",
+        "glance_progress": 1.2360029220581055,
+        "progress": 1.1832141876220703,
+        "delta": -0.052788734436035156
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "fixed_low_detail",
+        "glance_progress": 1.2360029220581055,
+        "progress": 0.4507102966308594,
+        "delta": -0.7852926254272461
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "fixed_native_scatter",
+        "glance_progress": 1.2360029220581055,
+        "progress": 0.3606114387512207,
+        "delta": -0.8753914833068848
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "history": false,
+        "variant": "single_front",
+        "glance_progress": 1.2360029220581055,
+        "progress": 1.0177521705627441,
+        "delta": -0.21825075149536133
+      }
+    ],
+    "annotation_delta": [
+      0.024416446685791016,
+      0.02154684066772461,
+      -0.012209892272949219,
+      -0.08848381042480469,
+      0.021691322326660156,
+      -0.006931304931640625
+    ],
+    "cross_annotation_delta": [
+      0.04174470901489258,
+      0.011713027954101562,
+      0.02662515640258789,
+      -0.03941011428833008,
+      0.023491859436035156,
+      0.03733396530151367
+    ],
+    "full_detail_minus_low_detail": [
+      -0.07448673248291016,
+      -0.04824399948120117,
+      -0.02688121795654297,
+      0.6442146301269531,
+      -0.061547279357910156,
+      -0.09009885787963867
+    ],
+    "history_interactions": [
+      {
+        "purpose": "train",
+        "episode": "1",
+        "state": 1,
+        "focus_delta_with_history": -0.0052547454833984375,
+        "focus_delta_without_history": 0.23935270309448242,
+        "interaction": -0.24460744857788086
+      },
+      {
+        "purpose": "dev",
+        "episode": "9791",
+        "state": 1,
+        "focus_delta_with_history": -0.1141972541809082,
+        "focus_delta_without_history": -0.8753914833068848,
+        "interaction": 0.7611942291259766
+      }
+    ],
+    "cached_native_action_max_abs": 0.0,
+    "cached_native_feature_max_abs": 0.0,
+    "cached_native_feature_relative_l2_max": 0.0,
+    "old_batched_feature_relative_l2_max": 0.07274878770112991,
+    "fixed_state_pixel_identity_passed": true
+  },
+  "training": {
+    "A": {
+      "episodes": 1,
+      "transitions": 4,
+      "updates": 1,
+      "episode_seconds": 7.156810655258596,
+      "phase_seconds": 25.636511074379086,
+      "transitions_per_second_episode_inclusive": 0.558908177493969,
+      "transitions_per_second_phase_inclusive": 0.15602747146032545,
+      "ppo_update_seconds": 0.21849050465971231,
+      "actor_l2_changes": [
+        0.32181796431541443
+      ],
+      "actor_grad_max": 8.60326099395752,
+      "critic_grad_max": 4.597107410430908,
+      "actor_state_gru_grad_max": 0.0,
+      "critic_state_gru_grad_max": 0.0,
+      "backbone_gradients_none": true,
+      "first_epoch_ratios": [
+        1.0
+      ]
+    },
+    "B": {
+      "episodes": 1,
+      "transitions": 4,
+      "updates": 1,
+      "episode_seconds": 7.135879839770496,
+      "phase_seconds": 25.539819723926485,
+      "transitions_per_second_episode_inclusive": 0.5605475554264164,
+      "transitions_per_second_phase_inclusive": 0.15661817676233156,
+      "ppo_update_seconds": 0.1251557394862175,
+      "actor_l2_changes": [
+        0.3421204388141632
+      ],
+      "actor_grad_max": 9.06491756439209,
+      "critic_grad_max": 4.925195693969727,
+      "actor_state_gru_grad_max": 0.018346469849348068,
+      "critic_state_gru_grad_max": 0.021318627521395683,
+      "backbone_gradients_none": true,
+      "first_epoch_ratios": [
+        1.0
+      ]
+    },
+    "C": {
+      "episodes": 2,
+      "transitions": 16,
+      "updates": 2,
+      "episode_seconds": 26.217408693395555,
+      "phase_seconds": 44.54273793194443,
+      "transitions_per_second_episode_inclusive": 0.6102815189370935,
+      "transitions_per_second_phase_inclusive": 0.3592055796939546,
+      "ppo_update_seconds": 0.42755209002643824,
+      "actor_l2_changes": [
+        0.3409544825553894,
+        0.2452249974012375
+      ],
+      "actor_grad_max": 4.105409145355225,
+      "critic_grad_max": 5.20444393157959,
+      "actor_state_gru_grad_max": 0.022707223892211914,
+      "critic_state_gru_grad_max": 0.02410028874874115,
+      "backbone_gradients_none": true,
+      "first_epoch_ratios": [
+        1.0,
+        1.0
+      ]
+    },
+    "total": {
+      "transitions": 24,
+      "episode_seconds": 40.51009918842465,
+      "phase_seconds": 95.71906873025,
+      "normal_navigation_steps": 82,
+      "focus_count_histogram_train": {
+        "2": 22,
+        "0": 1,
+        "1": 1
+      },
+      "reward_min": -0.05915159935473154,
+      "reward_max": 0.10328563690185548,
+      "measured_filter_contact_chunks": 3,
+      "actual_feedback_state_updates": 82,
+      "current_feature_reuse_passed": true
+    }
+  },
+  "budget": {
+    "reference_not_authorization": "199680 transitions per seed, 3 seeds, 2 GPUs",
+    "per_seed_navigation_hours_optimistic": 90.88701680377126,
+    "per_seed_navigation_hours_phase_inclusive": 154.41482483074068,
+    "three_seed_two_gpu_hours_optimistic": 545.3221008226276,
+    "three_seed_two_gpu_hours_phase_inclusive": 926.488948984444,
+    "excludes": [
+      "long histories",
+      "longer PPO epochs",
+      "multi-environment scaling changes",
+      "periodic dev evaluation",
+      "multi-seed variation",
+      "failures and restarts",
+      "full-training steady-state measurement"
+    ]
+  },
+  "gpu": {
+    "0": {
+      "samples": 7789,
+      "peak_memory_mib": 11929.0,
+      "sampling_ms": 50
+    },
+    "1": {
+      "samples": 7789,
+      "peak_memory_mib": 1046.0,
+      "sampling_ms": 50
+    }
+  },
+  "pilot": {
+    "passed": true,
+    "wall_seconds": 433.0697331940755,
+    "runtime": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release_runtime",
+    "cases": 8,
+    "full_training_started": false,
+    "heldout_evaluation_started": false
+  },
+  "learning_sanity": {
+    "kind": "train-only real-observation overfit sanity; not navigation or on-policy PPO",
+    "source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/artifacts/release_runtime/real_train_rollout_C_1.pt",
+    "samples": 8,
+    "iterations": 30,
+    "initial_nll": 2.85299015045166,
+    "final_nll": 0.0021546930074691772,
+    "seconds": 0.9358222633600235,
+    "passed": true
+  },
+  "protected_history": {
+    "passed": true,
+    "count": 9013,
+    "changed": []
+  }
+}

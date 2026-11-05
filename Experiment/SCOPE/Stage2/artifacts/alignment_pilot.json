@@ -1,0 +1,347 @@
+{
+  "episode_id": "9791",
+  "step": 0,
+  "purpose": "dev",
+  "trace": [
+    0,
+    3
+  ],
+  "bank": {
+    "observation_key": "f9ac7cdcf5ee6dd9c14a76167fab7cfd27fd112bdbe6f2cf29475326fae61209",
+    "encoder_hash": "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa",
+    "selected": [
+      0,
+      3
+    ],
+    "encoder_images": 6,
+    "entries": [
+      {
+        "camera": 0,
+        "roi": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "grid": [
+          1,
+          8,
+          8
+        ],
+        "shape": [
+          16,
+          2560
+        ],
+        "dtype": "torch.bfloat16"
+      },
+      {
+        "camera": 1,
+        "roi": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "grid": [
+          1,
+          8,
+          8
+        ],
+        "shape": [
+          16,
+          2560
+        ],
+        "dtype": "torch.bfloat16"
+      },
+      {
+        "camera": 2,
+        "roi": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "grid": [
+          1,
+          8,
+          8
+        ],
+        "shape": [
+          16,
+          2560
+        ],
+        "dtype": "torch.bfloat16"
+      },
+      {
+        "camera": 3,
+        "roi": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "grid": [
+          1,
+          8,
+          8
+        ],
+        "shape": [
+          16,
+          2560
+        ],
+        "dtype": "torch.bfloat16"
+      },
+      {
+        "camera": 0,
+        "roi": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "grid": [
+          1,
+          16,
+          16
+        ],
+        "shape": [
+          64,
+          2560
+        ],
+        "dtype": "torch.bfloat16"
+      },
+      {
+        "camera": 0,
+        "roi": [
+          256,
+          256,
+          512,
+          512
+        ],
+        "grid": [
+          1,
+          16,
+          16
+        ],
+        "shape": [
+          64,
+          2560
+        ],
+        "dtype": "torch.bfloat16"
+      }
+    ]
+  },
+  "reused_current": 6,
+  "encoder_calls": [
+    {
+      "phase": "current",
+      "grids": [
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ]
+    },
+    {
+      "phase": "current",
+      "grids": [
+        [
+          1,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "phase": "current",
+      "grids": [
+        [
+          1,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "phase": "diagnostic_reencode",
+      "grids": [
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          16,
+          16
+        ],
+        [
+          1,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "phase": "diagnostic_reencode",
+      "grids": [
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ]
+    },
+    {
+      "phase": "diagnostic_reencode",
+      "grids": [
+        [
+          1,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "phase": "diagnostic_reencode",
+      "grids": [
+        [
+          1,
+          16,
+          16
+        ]
+      ]
+    }
+  ],
+  "context_grids": [
+    [
+      1,
+      8,
+      8
+    ],
+    [
+      1,
+      8,
+      8
+    ],
+    [
+      1,
+      8,
+      8
+    ],
+    [
+      1,
+      8,
+      8
+    ],
+    [
+      1,
+      16,
+      16
+    ],
+    [
+      1,
+      16,
+      16
+    ]
+  ],
+  "perception_ms": 1002.8144074603915,
+  "model_ms": 1596.0034187883139,
+  "navigation_completed_before": 0,
+  "history_visual_tokens": 0,
+  "annotated": false,
+  "no_history": false,
+  "spatial_adapter_enabled": false,
+  "low_detail": false,
+  "diffusion_seed": null,
+  "diagnostic_reencode": true,
+  "reencode_errors": [
+    {
+      "max_abs": 0.0,
+      "relative_l2": 0.0,
+      "pixel_max_abs": 0.0,
+      "old_batched_relative_l2": 0.025857361033558846
+    },
+    {
+      "max_abs": 0.0,
+      "relative_l2": 0.0,
+      "pixel_max_abs": 0.0,
+      "old_batched_relative_l2": 0.02642982266843319
+    },
+    {
+      "max_abs": 0.0,
+      "relative_l2": 0.0,
+      "pixel_max_abs": 0.0,
+      "old_batched_relative_l2": 0.02547137811779976
+    },
+    {
+      "max_abs": 0.0,
+      "relative_l2": 0.0,
+      "pixel_max_abs": 0.0,
+      "old_batched_relative_l2": 0.04500339552760124
+    },
+    {
+      "max_abs": 0.0,
+      "relative_l2": 0.0,
+      "pixel_max_abs": 0.0,
+      "old_batched_relative_l2": 0.030404871329665184
+    },
+    {
+      "max_abs": 0.0,
+      "relative_l2": 0.0,
+      "pixel_max_abs": 0.0,
+      "old_batched_relative_l2": 0.028222544118762016
+    }
+  ],
+  "value": -0.2967892289161682,
+  "forced": [
+    0,
+    3
+  ]
+}

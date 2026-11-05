@@ -1,0 +1,49 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-05 22:58:31,954 Initializing dataset R2RVLN-v1
+2026-11-05 22:58:32,667 initializing sim Sim-v0
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[22:58:32:792378]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+2026-11-05 22:58:44,608 Initializing task VLN-v0
+/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+{"purpose": "train", "episode": "1", "scene": "7y3sRwLe3Va", "state_index": 0, "history": true, "variant": "glance", "image_sha256": "b061efed689521b0cb0ee7d426439b7979c74a952712271df774f33f07ff8c56", "distance_before": 6.608023166656494, "distance_after": 5.974193572998047, "progress": 0.6338295936584473, "wall_seconds": 0.835622706450522}
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py", line 271, in <module>
+    main()
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py", line 264, in main
+    function(args, cfg, backend, client, records)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py", line 197, in diagnose
+    response = client.predict(frames=frames if history_enabled else [current], instruction=episode.instruction)
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py", line 47, in predict
+    return self._request("predict", dict(frames=frames, instruction=instruction))
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py", line 39, in _request
+    raise RuntimeError(f"Policy {method} failed: {response['error']}")
+RuntimeError: Policy predict failed: AssertionError('native cached/scatter feature mismatch')
