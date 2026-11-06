@@ -2,3 +2,4 @@
 *.csv whitespace=cr-at-eol
 *.patch -whitespace
 *.log -whitespace
+Plans/AGM_method.md -whitespace

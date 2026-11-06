@@ -2,7 +2,15 @@
 
 这是从 AdaPercVLN 定向整理的 SCOPE 方法、Stage1 可行性与 Stage2 Task4 架构验证归档，不是 Habitat、R2R、RxR 或 SimpleNav 官方仓库的镜像。
 
+## Stage2 Task2.2 更新
+最新增量为 `Experiment/SCOPE/Stage2/Task22/`：完整 Spatial Query Actor（STOP→camera→连续latent位置）、Task21增量融合控制器和真实Habitat闭环。保留初始化Actor、30条无损压缩轨迹、4份episode边界及验证报告。67项SCOPE相关测试的历史结果不代表正式RL训练；本轮optimizer更新为0。详见 `docs/release/TASK22_RELEASE.md`。
+
+```bash
+python3.11 tools/verify_task22_release.py
+```
+
 ## Stage2 Task2.1 更新
+
 
 `Experiment/SCOPE/Stage2/Task21/` 实现192×192原图裁剪→256×256编码，并将Focus按真实面积覆盖写回对应相机的4×4网格。当前输出始终为 `(4,16,2560)`，不沿用Task4追加Focus token的路径；历史BATS另计。
 

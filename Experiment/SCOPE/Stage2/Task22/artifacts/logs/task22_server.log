@@ -1,0 +1,166 @@
+11/06 [19:02:06] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/home/data/czh/Third_Party/baselin                   
+                          es/SimpleNav/local/checkpoints/vlnc                   
+                          e/navvla_qwen35_cpm_rxr/checkpoints                   
+                          /steps_8000_pytorch_model.pt`                         
+                 INFO     | >> [*]  normalised config from    share_tools.py:522
+                          version_id=None to '0.21'                             
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:  45%|████▌     | 328/723 [00:00<00:00, 3272.44it/s]Loading weights:  91%|█████████ | 656/723 [00:00<00:00, 2930.11it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 3017.39it/s]
+Total number of DiT parameters:  157032448
+11/06 [19:02:20] INFO     | >> server listening on 127.0.0.1:10122 server.py:341
+                 INFO     | >> connection open                     server.py:531
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/server.py", line 38, in handle
+    result = policy.predict_session(sessions[identifier], **payload)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/actor_runtime.py", line 87, in predict_session
+    response = super().predict_session(session, frames=frames, instruction=instruction, controller=controller)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task21/runtime.py", line 128, in predict_session
+    response = super().predict_session(session, frames=frames, instruction=instruction)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/scope_server.py", line 115, in predict_session
+    response = super().predict_session(session, frames=frames, instruction=instruction)
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/legacy_rxr_server.py", line 189, in predict_session
+    output = self._seeded_prediction(sample, session["seed"] + len(history.observations))
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/scope_server.py", line 96, in _seeded_prediction
+    return super()._seeded_prediction(sample, seed)
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/legacy_rxr_server.py", line 143, in _seeded_prediction
+    return self.model.predict_action(examples=[sample])
+  File "/home/data/czh/Third_Party/baselines/SimpleNav/.venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py", line 1066, in predict_action
+    return predict_navvla_action(
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/legacy_runtime/starVLA/model/modules/navvla_context.py", line 317, in predict_navvla_action
+    vl_embs, records = owner._forward_vlm_for_action(
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py", line 1028, in _forward_vlm_for_action
+    outputs, records = self._forward_qwen35_backbone(
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py", line 976, in _forward_qwen35_backbone
+    image_embeds, records = self._fuse_qwen35_visual_tokens(
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/legacy_runtime/starVLA/model/framework/VLM4A/navvla_qwen35_cpm.py", line 875, in _fuse_qwen35_visual_tokens
+    online_postmerge = self._encode_online_postmerge(qwen_inputs)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task21/runtime.py", line 70, in encode
+    self.perception_controller(perception)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/actor_runtime.py", line 82, in controller
+    trace = perception_loop(self.actor, perception, session["language"], mode=self.mode,
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/trajectory.py", line 33, in perception_loop
+    action = distribution.choose(mode, generator)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/actor.py", line 98, in choose
+    raise ValueError("explicit deterministic or training-sampling mode required")
+ValueError: explicit deterministic or training-sampling mode required
+11/06 [19:03:00] INFO     | >> connection rejected (426 Upgrade    server.py:534
+                          Required)                                             
+                 ERROR    | >> opening handshake failed            server.py:365
+                          ╭─ Traceback (most recent call last) ──╮              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/asyncio/server. │              
+                          │ py:356 in conn_handler               │              
+                          │                                      │              
+                          │   353 │   │   try:                   │              
+                          │   354 │   │   │   async with asyncio │              
+                          │   355 │   │   │   │   try:           │              
+                          │ ❱ 356 │   │   │   │   │   await conn │              
+                          │   357 │   │   │   │   │   │   self.p │              
+                          │   358 │   │   │   │   │   │   self.p │              
+                          │   359 │   │   │   │   │   │   self.s │              
+                          │                                      │              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/asyncio/server. │              
+                          │ py:207 in handshake                  │              
+                          │                                      │              
+                          │   204 │   │   # response that reject │              
+                          │   205 │   │                          │              
+                          │   206 │   │   if self.protocol.hands │              
+                          │ ❱ 207 │   │   │   raise self.protoco │              
+                          │   208 │                              │              
+                          │   209 │   def process_event(self, ev │              
+                          │   210 │   │   """                    │              
+                          │                                      │              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/server.py:140   │              
+                          │ in accept                            │              
+                          │                                      │              
+                          │   137 │   │   │   │   accept_header, │              
+                          │   138 │   │   │   │   extensions_hea │              
+                          │   139 │   │   │   │   protocol_heade │              
+                          │ ❱ 140 │   │   │   ) = self.process_r │              
+                          │   141 │   │   except InvalidOrigin a │              
+                          │   142 │   │   │   request._exception │              
+                          │   143 │   │   │   self.handshake_exc │              
+                          │                                      │              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/server.py:235   │              
+                          │ in process_request                   │              
+                          │                                      │              
+                          │   232 │   │   │   [parse_connection( │              
+                          │   233 │   │   )                      │              
+                          │   234 │   │   if not any(value.lower │              
+                          │ ❱ 235 │   │   │   raise InvalidUpgra │              
+                          │   236 │   │   │   │   "Connection",  │              
+                          │   237 │   │   │   )                  │              
+                          │   238                                │              
+                          ╰──────────────────────────────────────╯              
+                          InvalidUpgrade: invalid Connection                    
+                          header: close                                         
+11/06 [19:03:01] INFO     | >> connection rejected (426 Upgrade    server.py:534
+                          Required)                                             
+                 ERROR    | >> opening handshake failed            server.py:365
+                          ╭─ Traceback (most recent call last) ──╮              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/asyncio/server. │              
+                          │ py:356 in conn_handler               │              
+                          │                                      │              
+                          │   353 │   │   try:                   │              
+                          │   354 │   │   │   async with asyncio │              
+                          │   355 │   │   │   │   try:           │              
+                          │ ❱ 356 │   │   │   │   │   await conn │              
+                          │   357 │   │   │   │   │   │   self.p │              
+                          │   358 │   │   │   │   │   │   self.p │              
+                          │   359 │   │   │   │   │   │   self.s │              
+                          │                                      │              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/asyncio/server. │              
+                          │ py:207 in handshake                  │              
+                          │                                      │              
+                          │   204 │   │   # response that reject │              
+                          │   205 │   │                          │              
+                          │   206 │   │   if self.protocol.hands │              
+                          │ ❱ 207 │   │   │   raise self.protoco │              
+                          │   208 │                              │              
+                          │   209 │   def process_event(self, ev │              
+                          │   210 │   │   """                    │              
+                          │                                      │              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/server.py:140   │              
+                          │ in accept                            │              
+                          │                                      │              
+                          │   137 │   │   │   │   accept_header, │              
+                          │   138 │   │   │   │   extensions_hea │              
+                          │   139 │   │   │   │   protocol_heade │              
+                          │ ❱ 140 │   │   │   ) = self.process_r │              
+                          │   141 │   │   except InvalidOrigin a │              
+                          │   142 │   │   │   request._exception │              
+                          │   143 │   │   │   self.handshake_exc │              
+                          │                                      │              
+                          │ /home/data/czh/Third_Party/baselines │              
+                          │ /SimpleNav/.venv/lib/python3.10/site │              
+                          │ -packages/websockets/server.py:235   │              
+                          │ in process_request                   │              
+                          │                                      │              
+                          │   232 │   │   │   [parse_connection( │              
+                          │   233 │   │   )                      │              
+                          │   234 │   │   if not any(value.lower │              
+                          │ ❱ 235 │   │   │   raise InvalidUpgra │              
+                          │   236 │   │   │   │   "Connection",  │              
+                          │   237 │   │   │   )                  │              
+                          │   238                                │              
+                          ╰──────────────────────────────────────╯              
+                          InvalidUpgrade: invalid Connection                    
+                          header: close                                         

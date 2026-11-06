@@ -1,0 +1,31 @@
+[
+  {
+    "episode_uid": "scope_stage2_train:1",
+    "source_episode_id": "1",
+    "scene_id": "7y3sRwLe3Va",
+    "instruction": "Go around the right side of the center unit and stop by the right side doorway with the dining table and mirror in it.",
+    "success": 0,
+    "oracle_success": 0,
+    "final_distance": 5.257741430475682,
+    "path_length": 0.0,
+    "gt_path_length": 7.240866344252394,
+    "steps": 1,
+    "failure": "RuntimeError: Policy predict failed: ValueError('explicit deterministic or training-sampling mode required')",
+    "failure_type": "model_prediction",
+    "termination_reason": "failure",
+    "failure_traceback": "Traceback (most recent call last):\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/benchmark/common/runner/worker.py\", line 128, in _run_episode\n    response = model.predict(frames=frames, instruction=instruction)\n  File \"/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py\", line 76, in predict\n    response = self.client.predict(frames=frames, instruction=instruction)\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py\", line 47, in predict\n    return self._request(\"predict\", dict(frames=frames, instruction=instruction))\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py\", line 39, in _request\n    raise RuntimeError(f\"Policy {method} failed: {response['error']}\")\nRuntimeError: Policy predict failed: ValueError('explicit deterministic or training-sampling mode required')\n",
+    "nDTW": 0.3902583508692347,
+    "wall_seconds": 2.647121684625745,
+    "training": {
+      "episode_id": "1",
+      "transitions": 0,
+      "updated": false,
+      "trace_paths": [],
+      "bootstrap_saved": false,
+      "actor_unchanged": true,
+      "backbone_unchanged": true,
+      "backbone_frozen_no_grad": true,
+      "adapter_frozen_unchanged": true
+    }
+  }
+]

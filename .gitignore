@@ -8,6 +8,8 @@ Experiment/SCOPE/legacy_runtime/
 *.npz
 *.pt
 !Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt
+!Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/actor_initial.pt
+!Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/episode_boundary_*.pt
 *.pth
 *.safetensors
 *.glb

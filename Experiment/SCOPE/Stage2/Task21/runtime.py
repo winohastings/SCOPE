@@ -15,8 +15,10 @@ from data_guard import PARTITION, STAGE1, sha256
 sys.path.insert(0, str(ROOT))
 if __package__:
     from .fusion import CAMERAS, VERSION, Focus, SpatialFusion
+    from .incremental import IncrementalPerception
 else:
     from fusion import CAMERAS, VERSION, Focus, SpatialFusion
+    from incremental import IncrementalPerception
 
 
 class FusionPolicy(ScopePolicy):
@@ -34,6 +36,7 @@ class FusionPolicy(ScopePolicy):
             self.load_fusion(checkpoint)
         self.enabled = True
         self.requests = ()
+        self.perception_controller = None
         self.last_current = None
         self.last_grids = []
         self.last_blocks = []
@@ -58,11 +61,19 @@ class FusionPolicy(ScopePolicy):
             if tuple(current.shape) != (4, 16, 2560):
                 raise ValueError(f"native current contract changed: {current.shape}")
             self.last_native = current.detach().clone()
-            if self.enabled and self.requests:
+            if self.enabled and (self.requests or self.perception_controller is not None):
                 torch.cuda.synchronize()
                 began = time.perf_counter()
-                updates = [(focus, self.native_encode([focus.crop(self.raw)])[0][0]) for focus in self.requests]
-                current = self.fusion(current, updates)
+                perception = self.begin_perception(current)
+                try:
+                    if self.perception_controller is not None:
+                        self.perception_controller(perception)
+                    else:
+                        for focus in self.requests:
+                            perception.acquire(focus)
+                    current = perception.current
+                finally:
+                    perception.finish()
                 torch.cuda.synchronize()
                 self.last_focus_ms = (time.perf_counter() - began) * 1000
                 for position, tokens in zip(positions, current, strict=True):
@@ -94,14 +105,23 @@ class FusionPolicy(ScopePolicy):
         tokens = encode_qwen35_postmerge_batched(visual, processed["pixel_values"].to(device="cuda", dtype=visual.dtype), grids)
         return list(zip(tokens, grids.cpu().tolist(), strict=True))
 
-    def predict_session(self, session, *, frames, instruction, focus=()):
+    def begin_perception(self, current):
+        if not self.calibrated:
+            raise RuntimeError("incremental perception requires calibrated Adapter")
+        return IncrementalPerception(current, self.fusion,
+                                     lambda focus: self.native_encode([focus.crop(self.raw)])[0][0])
+
+    def predict_session(self, session, *, frames, instruction, focus=(), controller=None):
         if len(focus) > 4 or not all(isinstance(request, Focus) for request in focus):
             raise ValueError("expected up to four Focus requests")
         if focus and not self.calibrated:
             raise RuntimeError("Focus navigation requires a calibrated adapter checkpoint")
+        if controller is not None and (focus or not self.calibrated or not self.enabled):
+            raise ValueError("controller requires calibrated enabled fusion and no fixed requests")
         if any(frame.get("policy_mode", "glance_only") != "glance_only" for frame in frames):
             raise ValueError("fusion runtime uses Glance base, never appended Focus blocks")
         self.requests = tuple(focus)
+        self.perception_controller = controller
         self.last_focus_ms = 0.0
         frames = [dict(frame, policy_mode="glance_only") for frame in frames]
         try:
@@ -111,6 +131,7 @@ class FusionPolicy(ScopePolicy):
             return response
         finally:
             self.requests = ()
+            self.perception_controller = None
 
     def predict_center(self, session, *, frames, instruction, camera=0):
         return self.predict_session(session, frames=frames, instruction=instruction, focus=(Focus(camera),))

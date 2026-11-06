@@ -1,0 +1,20 @@
+{
+  "episode_id": "2",
+  "transitions": 8,
+  "updated": false,
+  "trace_paths": [
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0000.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0001.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0002.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0003.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0004.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0005.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0006.pt",
+    "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0007.pt"
+  ],
+  "bootstrap_saved": true,
+  "actor_unchanged": true,
+  "backbone_unchanged": true,
+  "backbone_frozen_no_grad": true,
+  "adapter_frozen_unchanged": true
+}

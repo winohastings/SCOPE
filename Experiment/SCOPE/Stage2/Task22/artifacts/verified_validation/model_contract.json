@@ -1,0 +1,19 @@
+{
+  "actor_parameters": 2293073,
+  "provenance": {
+    "backbone_sha256": "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa",
+    "adapter_sha256": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+    "partition_sha256": "18033c0569b13230777d2df2c20150b60d1e0776d6500622aed33f0acce8fd77",
+    "schema": "agm-task22-v1"
+  },
+  "mode": "training-sampling",
+  "seed": 222,
+  "source_hashes": {
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/run_habitat.py": "5c05823c20e2ce38244afe488b376bc43344aeac9643705bd0c72126ecf862e4",
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/validate.py": "6c88fedfe52d74bc78c80d09fc6761d069d358c285668c6178c4f6b9164f5d10",
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/actor_runtime.py": "d4985cf27a8eaad0fcf74e7b8e6bdd65bc509eb46ef8caa8572780a4a66fe7a9",
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/server.py": "4312b1c1bde244d6306144058c41f784c5f4f4bd5a9b8f012eb17c10287d3db1",
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/trajectory.py": "068ec23ca9beb50c59dfbf806c20b12d4ce19444a11423cb9cc6a7b4220913a6",
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/actor.py": "3106e782889223149fcfae33e95abdcae1ca3ab074cd92f457d8943e92d30962"
+  }
+}

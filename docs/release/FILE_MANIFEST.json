@@ -1,13 +1,13 @@
 [
   {
     "path": ".gitattributes",
-    "bytes": 73,
-    "sha256": "717f32f68a8c87a0f23d5a670d311f89187574ab4de4c6d9907980c5b55cf46f"
+    "bytes": 105,
+    "sha256": "56f59ea5a49dee265255bd6732539298e13f80ea9137d48737c02420e95a31da"
   },
   {
     "path": ".gitignore",
-    "bytes": 485,
-    "sha256": "81ac15b50bc24fb2e5a6f3a461ee886d2d514afcae3120bbb3f188a908842c86"
+    "bytes": 636,
+    "sha256": "49003fdc695eb76dba683e5238f8e887067369cd184ed4343410b57b49077cba"
   },
   {
     "path": "Experiment/SCOPE/README.md",
@@ -3350,9 +3350,439 @@
     "sha256": "d4e08a43d8680b2af6396604c1257584cbedd79a75ef3da68d9478690d58f5b2"
   },
   {
+    "path": "Experiment/SCOPE/Stage2/Task21/incremental.py",
+    "bytes": 1758,
+    "sha256": "ede6d794cb8b18456646d6a3d5a0581344f077dd69c49bfce9089391e4adceea"
+  },
+  {
     "path": "Experiment/SCOPE/Stage2/Task21/runtime.py",
-    "bytes": 5901,
-    "sha256": "2d2ae9c972eed44b1edb6b262d44ed6d034b384218adba0fdf65b9196a8d0b6c"
+    "bytes": 6992,
+    "sha256": "0f67bbabd2d0cf0b1379f7dc1a3e74242650bd20ac66aa8acfd4ec1c36e17414"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/README.md",
+    "bytes": 5950,
+    "sha256": "e85be45cdd8328c1c6997c3443b57cddc0a0907714124c8cb2945a566756a0d1"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/REPORT.md",
+    "bytes": 12246,
+    "sha256": "ffaf617e37f0ea426c3a591823867fdd591307e4a1149f99c0c9594790d47b8d"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/TRACE_SCHEMA.md",
+    "bytes": 5818,
+    "sha256": "1586e717409556a7ca8c60e7bb7d1ab32efa79f2bc68f8314f7fb917cf9ee2ec"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/actor.py",
+    "bytes": 9421,
+    "sha256": "3106e782889223149fcfae33e95abdcae1ca3ab074cd92f457d8943e92d30962"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/actor_runtime.py",
+    "bytes": 11600,
+    "sha256": "d4985cf27a8eaad0fcf74e7b8e6bdd65bc509eb46ef8caa8572780a4a66fe7a9"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/config.yaml",
+    "bytes": 1959,
+    "sha256": "3fe230ff419c9bbacd53225f32e5015a409408ad2dbf40df4f33f1edc88fd0a0"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/episodes.json",
+    "bytes": 4787,
+    "sha256": "873265603765b8d408da3d5972605c46a1d33a7edda2d5b79a10a9bbe2142651"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/freeze_audit.json",
+    "bytes": 131,
+    "sha256": "006359fa1ce8d9a034dfed9ca75589a9c6bef012d43b30d6a29a8ac320bd313e"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1180,
+    "sha256": "b742e85c42ec543443ef63f01d1b4c6772640fad7fd0ac8c0a8522f7127888ae"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 7759,
+    "sha256": "4c2eb4255ebc0881f308eec48b5878d3fc1480e8407d4c2c17132325296a887a"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "bytes": 1147,
+    "sha256": "2132ed0d98add3ce217e6f53385f7aad2360b30cbe29cba502492b2a8861767f"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "bytes": 7784,
+    "sha256": "ad90d692de1580696194159e1a0c95b7474c38671226b1cd837dc59b2a9b9477"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/results.json",
+    "bytes": 3637,
+    "sha256": "34ef57d926d51e81686cec0295aa0fb0a414f974711d2d022241eb0a47a5938b"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/actor_initial.pt",
+    "bytes": 9198604,
+    "sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/episode_boundary_1c4ff92715ae4e98b5e7e765335f0ab1.pt",
+    "bytes": 3133,
+    "sha256": "d526214c190633eaabfd75e1e8360e9fea8aed51c6da6c93aee40c936b9ed332"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/episode_boundary_4b840bc387a3401d9f44eef61afaabf5.pt",
+    "bytes": 3133,
+    "sha256": "fdff46d43c5b96a0a0b2009ddaa13e02426d0bab7e72f1b67edbca62f2eedde6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/episode_boundary_53130d626b3f4257af2f917fa7d17839.pt",
+    "bytes": 2941,
+    "sha256": "21f58dfbd98fb65041dc479a7fc40491f03b948ea3f2bc1b3051f29ab8e04afe"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/episode_boundary_fdedacad9fe3498389d2db008e88bf07.pt",
+    "bytes": 3133,
+    "sha256": "39051f04a642fb1c0e4af1963d85ba08a079d08f27c1c617e691343e5ef0ac98"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/finish_1c4ff92715ae4e98b5e7e765335f0ab1.json",
+    "bytes": 1122,
+    "sha256": "81b3cfaed0f3b6e7a1b00cfe05d9f2474fb113e11c5c560353eeb05063412bd6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/finish_4b840bc387a3401d9f44eef61afaabf5.json",
+    "bytes": 1122,
+    "sha256": "f2fd74cade3557c67d09f5a08320add1bcabaff583141e82b7613623f27483e6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/finish_53130d626b3f4257af2f917fa7d17839.json",
+    "bytes": 903,
+    "sha256": "5aff3d7dce605d68b6d92da7c24900d95ed50950886d74bf1213a75ca192215b"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/finish_fdedacad9fe3498389d2db008e88bf07.json",
+    "bytes": 1122,
+    "sha256": "adb0a0b4b12c137e36fc8059c660ebc971ec7d7e19d8dc4b7da4733761821897"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/model_contract.json",
+    "bytes": 1300,
+    "sha256": "93001deb884824d60f8596e03d5296842133b325af44abc6cabb2030711e8e0d"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/scope.jsonl",
+    "bytes": 212304,
+    "sha256": "f0c0fd7929db889a55d2b0265cf40b727d850a82a05d23c773989f881d6f295d"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/trace_summary.json",
+    "bytes": 33430,
+    "sha256": "af740e0658d483d2f7cd5da73e8d092d6cf7e0f0f9ee012fbd5cf24672476e1f"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0000.pt.gz",
+    "bytes": 2659305,
+    "sha256": "71ef8d8c8d1d5c1163d19b2e7e50123e9d6f30be5b3f644a48e8f04812eb4528"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0001.pt.gz",
+    "bytes": 2666022,
+    "sha256": "88a9313b0c6eee869ead14b33dd9d7eccbe1d9a08ee981e68e725d44221023e3"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0002.pt.gz",
+    "bytes": 2663407,
+    "sha256": "e780655471f364068389a2f15f121940a20bc3afa2d1cbe9505c01aaa6f29d03"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0003.pt.gz",
+    "bytes": 2667184,
+    "sha256": "672c503613e37fa4c3da9d2d27f73091a486095d4348354310e606f86a0da909"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0004.pt.gz",
+    "bytes": 2665844,
+    "sha256": "65be632f313de02b870bc7e2857b0e6fde4830b0405cdd2a82df7ffa6b426456"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0005.pt.gz",
+    "bytes": 2664782,
+    "sha256": "d2e80e17959e6b48e40040e6a460de19ff22da0f221bb362cdaed10b276309d4"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0006.pt.gz",
+    "bytes": 2665584,
+    "sha256": "5ef58018425375308b210728ae83f5e4446cd39c8ae85d8a0184a031fd946f64"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/1c4ff92715ae4e98b5e7e765335f0ab1_0007.pt.gz",
+    "bytes": 3191792,
+    "sha256": "4def19880b6122bf075037e72ace4784c894715bd9c826fcb8368ec3eb711886"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0000.pt.gz",
+    "bytes": 2659984,
+    "sha256": "c0fdb3416418ddc7a89db167b70844b0d6371cf8be3be863009d00e0dccca9a0"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0001.pt.gz",
+    "bytes": 1068921,
+    "sha256": "64840a13d4cff2a0465c486249f1b6f08a3b6697344c775b0a072b8d4b34f880"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0002.pt.gz",
+    "bytes": 2665423,
+    "sha256": "267013120f083a01bd1e7a13188563e329c39c1e498600a1bd97067dfd885e81"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0003.pt.gz",
+    "bytes": 1066418,
+    "sha256": "c8ae9e9f07d32bdb53e00a318401bae7c2120ad452d5139e8b24b1f7baa36578"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0004.pt.gz",
+    "bytes": 2662951,
+    "sha256": "a49d943a6cbc1a4faee9aebe391131f04a5547e1a3253b5d78854ac1a3214882"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0005.pt.gz",
+    "bytes": 2660777,
+    "sha256": "e238a62d57c4600bf6a07dbc1ca933879b16721fcc8246496f591a2c701b13d7"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0006.pt.gz",
+    "bytes": 1064599,
+    "sha256": "cf790b17b53edef63dca86a874998149e806317a49ef35a6f129e720d285fa43"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/4b840bc387a3401d9f44eef61afaabf5_0007.pt.gz",
+    "bytes": 3192588,
+    "sha256": "edab93a4ec514adc781269349e1c90634ae47177c8894eb4c52d33138c3a225a"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/53130d626b3f4257af2f917fa7d17839_0000.pt.gz",
+    "bytes": 1066965,
+    "sha256": "d39d4331af0e305dfd63995f0c86f13fe0c524693f71182944d9a929351a03d7"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/53130d626b3f4257af2f917fa7d17839_0001.pt.gz",
+    "bytes": 1068518,
+    "sha256": "ef35ba853e3e81d4bf655f3750a4f4596a5301247ae2e4a6779b0020eb517256"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/53130d626b3f4257af2f917fa7d17839_0002.pt.gz",
+    "bytes": 2669610,
+    "sha256": "afeade70f18789ec81140a77cc5d38efe7724f1b1a5129c6182e135178cdd86a"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/53130d626b3f4257af2f917fa7d17839_0003.pt.gz",
+    "bytes": 1068858,
+    "sha256": "fd88c573c08a8612072cf784cb193792ff40d5b87a689cf004b1495eb10db6fc"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/53130d626b3f4257af2f917fa7d17839_0004.pt.gz",
+    "bytes": 1602405,
+    "sha256": "ea3c86ffb570bac8b6b04d2928fe4d5c4fcaa9739a6c193471cfb7d1472a6ef8"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/53130d626b3f4257af2f917fa7d17839_0005.pt.gz",
+    "bytes": 1069103,
+    "sha256": "e9453e6fed01c7a74c1f764baf5ff99eccfce994ed477c0dd42e1ee691238a9e"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0000.pt.gz",
+    "bytes": 2663777,
+    "sha256": "c1d1bc456b98eeef6c8e48a1d4f051cf12c97da20efae7f17e3bf4bd5768ac10"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0001.pt.gz",
+    "bytes": 2671599,
+    "sha256": "bada3db1bb7ff098124fa72fdb0efa641094a9b14b15693e89ee62f29ea2eede"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0002.pt.gz",
+    "bytes": 2669480,
+    "sha256": "8503b7575c78701f6a8da1ed3c3347c5b871ca2ab377fd472862a09ff6102a4c"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0003.pt.gz",
+    "bytes": 2672716,
+    "sha256": "00be9eaed687687448f7e9c47e113e8adecba1e0edb29657c6138282032a33f6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0004.pt.gz",
+    "bytes": 2666054,
+    "sha256": "f853196e7fdea72bb6aeddce73a282b1265d7f2b165fe41b38ce8603ae383aea"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0005.pt.gz",
+    "bytes": 2666390,
+    "sha256": "929ae28480bcb95dd2f84b79fd63d140423510e9e83367295d8fd07511a803ab"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0006.pt.gz",
+    "bytes": 2668659,
+    "sha256": "8d19f29a37160246fd1ff61d01382382345f7f6d7743c054292d02f71378197f"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/traces/fdedacad9fe3498389d2db008e88bf07_0007.pt.gz",
+    "bytes": 3199374,
+    "sha256": "871394c629302c6c1e0bb22b1362665d3e2155528a7ccc2b23818dbbf39d5473"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/config.yaml",
+    "bytes": 1958,
+    "sha256": "5bf142b42268b684f7aa01d1aa49c2c1b37e61852b704cf84a1f1e060b0ef0d6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/episodes.json",
+    "bytes": 4787,
+    "sha256": "873265603765b8d408da3d5972605c46a1d33a7edda2d5b79a10a9bbe2142651"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/freeze_audit.json",
+    "bytes": 131,
+    "sha256": "006359fa1ce8d9a034dfed9ca75589a9c6bef012d43b30d6a29a8ac320bd313e"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1201,
+    "sha256": "f420a7ca011b097e43ad759db2fd5abad1b01c69bc91307bb8bfcd06c6f8e1f9"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 4910,
+    "sha256": "25ad88d27c80da7bd9ab14c92b22bd99dfef53e409eb9c3bcbb9c3717b41502b"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "bytes": 1149,
+    "sha256": "32908338656d26ded8a10da4895d94ccb01007badaedab78628444f7db0b56af"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "bytes": 7732,
+    "sha256": "3e66d69e2914580468abdc63bd5b9cf8dc3cd772f5f7bc66d4989e461e897e64"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/results.json",
+    "bytes": 3422,
+    "sha256": "25343240f04258095cc9b471ca874128ecb058ef08a87f0c9feb74af01832633"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_habitat_final_deterministic.log",
+    "bytes": 5203,
+    "sha256": "caf872b404dc429aa1b71756537ec1e85025563bd984820cc448c81a710075ac"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_habitat_final_sampling.log",
+    "bytes": 5004,
+    "sha256": "95ad67674c7d04b00013e40af48d9e0d4cdc59ef23237ccc690e08a3af635a3c"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_habitat_sampling.log",
+    "bytes": 4371,
+    "sha256": "6b05d65544060a78752addadef8d34873b916c2aff8838a1d95c30a5ef0b8400"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_server.log",
+    "bytes": 15206,
+    "sha256": "d4440a0b8277df85a97b52dd6aefcbf3be9f5113980ad20205de8afe17ff98f0"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_server_final.log",
+    "bytes": 15742,
+    "sha256": "4d21c00af04a2fe06b37c2740db1dcd0d4144e35e6cf1975179d6a2298477402"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_server_release.log",
+    "bytes": 15748,
+    "sha256": "2370279d161ac4f3de6217ec9c77598e431d9b60ba457fb94c1adbe732fc7f59"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_tests_all.log",
+    "bytes": 1002,
+    "sha256": "b379c1879d96aeb8de569dcd81f482642b099e53bf5e2cb5c2d726cda38e67fd"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_tests_verified.log",
+    "bytes": 166,
+    "sha256": "3b738a9e4a5665ef695d464891a6ad2587195bb0864eb3263ee7b9f9254a9c24"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_validate_final.log",
+    "bytes": 2212,
+    "sha256": "b78f0caf3885314a1660792747d4cb19e8f926a98eb163edcec6471c295a7b11"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_validate_verified.log",
+    "bytes": 4780,
+    "sha256": "e0a7f550525ea7e3f14be4989bf1466e790441aa48d8928db46c36c047e7514b"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/results.json",
+    "bytes": 3668,
+    "sha256": "349e7c80ba2200803778cd2e14b901392a4f8e0d92cdeac93e56afa9a05c538e"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/results.json",
+    "bytes": 3450,
+    "sha256": "6e2097c8684b1eb7f973da28ccab50ba7cbd9141c1291414e6acb5ab0d089f0b"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/sampling/results.json",
+    "bytes": 1968,
+    "sha256": "db3ed5ad2e2138ede7828c54d070fd03a54d4552413920d4ba7d216c6390c1d3"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/VALIDATION.json",
+    "bytes": 23028,
+    "sha256": "4a3d63604bab509d4eca0f4e1f3c87182d82f173413cfa69b44b909856c9fc6c"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/VALIDATION.json",
+    "bytes": 23028,
+    "sha256": "33dff9817891513da21ed734f6cd086855ca8e1262011c619f4daa269566c107"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/model_contract.json",
+    "bytes": 1300,
+    "sha256": "52048cfd25c7051e4c1b01c9235902e7064d03a0d957796423479bc15fe7c304"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/scope.jsonl",
+    "bytes": 49989,
+    "sha256": "382b97249d5452adae674dc38fdeb0a3a7c22d4d82b4dc384cc95d1d66f15d4a"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/config.json",
+    "bytes": 445,
+    "sha256": "2dfef1b41fb6cf7043189e7f4bcc1d395d4d408b5c0440d8eead64eb35295b85"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/run_habitat.py",
+    "bytes": 2499,
+    "sha256": "5c05823c20e2ce38244afe488b376bc43344aeac9643705bd0c72126ecf862e4"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/server.py",
+    "bytes": 3948,
+    "sha256": "4312b1c1bde244d6306144058c41f784c5f4f4bd5a9b8f012eb17c10287d3db1"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/trajectory.py",
+    "bytes": 8575,
+    "sha256": "068ec23ca9beb50c59dfbf806c20b12d4ce19444a11423cb9cc6a7b4220913a6"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/validate.py",
+    "bytes": 10603,
+    "sha256": "6c88fedfe52d74bc78c80d09fc6761d069d358c285668c6178c4f6b9164f5d10"
   },
   {
     "path": "Experiment/SCOPE/Stage2/UNIT_AND_INTEGRATION_TESTS.md",
@@ -3985,9 +4415,14 @@
     "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
   },
   {
+    "path": "Plans/AGM_method.md",
+    "bytes": 18816,
+    "sha256": "cdca3a2231d355dad0aabbdc5119cb66d1094dc6bff5d56f43e3572370acf933"
+  },
+  {
     "path": "README.md",
-    "bytes": 5572,
-    "sha256": "a12dc4a601b50c820f639eaf63cbd0971b748fd894409f1fcaca85c121ef75ef"
+    "bytes": 6045,
+    "sha256": "7860639bcfed11d3161d1c7fb98fee86de4a2721e16792e463c11641ea798d2f"
   },
   {
     "path": "docs/Logs/2026-11-05-simplenav-r2r-rxr-baseline-smoke.md",
@@ -4135,6 +4570,11 @@
     "sha256": "01ea669aa3fa14325e801bf4242a6c0218fd468de4eb6ce02c0ae6edcd35fa4d"
   },
   {
+    "path": "docs/Tasks/Stage2/stage2_task2.2_actor_closed_loop.md",
+    "bytes": 2211,
+    "sha256": "7d5139f4c940f2044d14f3e842ac2a5e6edd8e2b5bf780d30106bb887ce07d73"
+  },
+  {
     "path": "docs/Tasks/Stage2/stage2_task4_focus_benefit_judge.md",
     "bytes": 4468,
     "sha256": "6d66da4a97defc89552952e5e631817862b192cac58bd721e470533f15c57d67"
@@ -4176,8 +4616,8 @@
   },
   {
     "path": "docs/release/SOURCE_MAP.json",
-    "bytes": 255243,
-    "sha256": "df88c9934afb829e6a4261930732d03a1539d121e94029bc7c1b8a597931e589"
+    "bytes": 284492,
+    "sha256": "73096ebad0c1e5646211b67f09046a99dd226ee2a137dba01b174ea61604c7da"
   },
   {
     "path": "docs/release/STAGE2_EXCLUDED_FILES.json",
@@ -4235,9 +4675,44 @@
     "sha256": "98c6bec3431782ce11d63199b14ac65de764ee812825b3e32a78646933a58073"
   },
   {
+    "path": "docs/release/TASK22_CPU_REPLAY.json",
+    "bytes": 439,
+    "sha256": "4bc9796ddcce93b16c1664450402747124fd54cd67f669f0dce9065051c7cc45"
+  },
+  {
+    "path": "docs/release/TASK22_EXCLUDED_FILES.json",
+    "bytes": 72178,
+    "sha256": "7677144f943084ffda0f3e1f403fcca6b573caa3bd09f80949585fcc992d85ba"
+  },
+  {
+    "path": "docs/release/TASK22_PROTOCOL_REGRESSION.log",
+    "bytes": 102,
+    "sha256": "9b51edf968e62ae056b4494f820ec2854629469f91e246f590422ad6e1c12fef"
+  },
+  {
+    "path": "docs/release/TASK22_RELEASE.md",
+    "bytes": 3780,
+    "sha256": "2e324c34231eb26d060283478bee19de70220ceeedc0b6eb2e134c56320e1d91"
+  },
+  {
+    "path": "docs/release/TASK22_SCOPE_REGRESSION.log",
+    "bytes": 166,
+    "sha256": "4a154df774e8d01340c16218c4cc5d3d66c9a2254f82f9e3a826115b4b96f6e4"
+  },
+  {
+    "path": "docs/release/TASK22_SOURCE_MAP.json",
+    "bytes": 29493,
+    "sha256": "046d23a0ae751082023cac72a4206846480e668389b674a4f4e7d1638829105a"
+  },
+  {
     "path": "docs/release/VALIDATION.md",
     "bytes": 3375,
     "sha256": "b2906a14646d3a38b492b9d07022ece9ae93c0fab283773fe33fd7205d30d000"
+  },
+  {
+    "path": "docs/release/task22_before_sources/Task21/runtime.py",
+    "bytes": 5901,
+    "sha256": "2d2ae9c972eed44b1edb6b262d44ed6d034b384218adba0fdf65b9196a8d0b6c"
   },
   {
     "path": "patches/legacy_scope.patch",
@@ -4280,6 +4755,11 @@
     "sha256": "62345e5a5c1ba6ac3b30311d7531492a0ed718d56aa61026b36353bc68e5cee3"
   },
   {
+    "path": "tests/test_scope_task22.py",
+    "bytes": 13971,
+    "sha256": "e2815124f7be49fd835444eb2a5b795544f270eb067f51777d39fb820773532d"
+  },
+  {
     "path": "tests/test_scope_vision.py",
     "bytes": 1302,
     "sha256": "e8ebbb929331125aa1b8577b2802533c0b6307168a34634d01b97cc5b4f34cd0"
@@ -4298,6 +4778,11 @@
     "path": "tests/test_task21_archive.py",
     "bytes": 1158,
     "sha256": "f70b24a84bdde3969d50aaf2fe3ef026e5409b9fef6358d768ceefc5f8fa9208"
+  },
+  {
+    "path": "tests/test_task22_archive.py",
+    "bytes": 867,
+    "sha256": "ab9d40f1302e528bc21ad332a9a352de62e7369ada4699e6ef49a760f91effd1"
   },
   {
     "path": "third_party/README.md",
@@ -4333,5 +4818,10 @@
     "path": "tools/verify_task21_release.py",
     "bytes": 3625,
     "sha256": "a50ab1413c215322ff1c22e1740ba8d4bb5f41087b01483f713fe76e4ad9b00e"
+  },
+  {
+    "path": "tools/verify_task22_release.py",
+    "bytes": 4987,
+    "sha256": "8e18b875e6e1338f5b2435b7d18c846a7bb62792da7133ead7a404304e3cee36"
   }
 ]

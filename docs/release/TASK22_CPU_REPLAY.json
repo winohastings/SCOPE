@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "device": "CPU",
+  "loader": "torch.load(weights_only=True)",
+  "transitions": 30,
+  "episode_counts": [
+    8,
+    8,
+    6,
+    8
+  ],
+  "truncated_with_bootstrap": 3,
+  "actor_parameters": 2293073,
+  "actor_sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190",
+  "no_grad_replay_max_error": 1.9073486328125e-06,
+  "gradient_replay_max_error": 1.9073486328125e-06,
+  "optimizer_updates": 0
+}

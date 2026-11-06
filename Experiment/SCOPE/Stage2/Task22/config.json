@@ -1,0 +1,17 @@
+{
+  "schema": "agm-task22-v1",
+  "seed": 222,
+  "mode": "training-sampling",
+  "hidden": 192,
+  "spatial_layers": 2,
+  "heads": 4,
+  "ffn": 768,
+  "max_focus": 4,
+  "initial_stop_probability": 0.25,
+  "initial_latent_std": 0.8,
+  "latent_std_bounds": [0.1, 1.5],
+  "patch_size": 192,
+  "max_navigation_transitions_per_episode": 200,
+  "adapter_checkpoint": "Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt",
+  "rl_training": false
+}

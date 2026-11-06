@@ -1,0 +1,44 @@
+{
+  "episode_uid": "scope_stage2_train:2",
+  "source_episode_id": "2",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Go around the kitchen island and wait between the tall cabinet and wine fridge.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 1.282753227628524,
+  "path_length": 8.683487528935075,
+  "gt_path_length": 7.240866344252394,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "max_steps",
+  "failure_traceback": null,
+  "nDTW": 0.23240005344067238,
+  "metrics": {
+    "SR": 0.0,
+    "OSR": 1.0,
+    "NE": 1.282753227628524,
+    "SPL": 0.0,
+    "nDTW": 0.23240005344067238,
+    "path_length": 8.683487528935075,
+    "steps_taken": 8.0
+  },
+  "schema_version": 2,
+  "benchmark": "SCOPE-Stage1-Feasibility-v1",
+  "run_name": "task22-training-sampling",
+  "input_namespace": "scope_stage2_train",
+  "input_root": "/home/data/czh/Third_Party/tasks",
+  "source": "vlnce_r2r",
+  "status": "completed",
+  "attempt_id": "stage2-pilot",
+  "worker_index": 0,
+  "physical_gpu_id": 1,
+  "backend": {
+    "type": "habitat",
+    "kwargs": {}
+  },
+  "paths": {
+    "data": "data",
+    "image_dirs": []
+  }
+}

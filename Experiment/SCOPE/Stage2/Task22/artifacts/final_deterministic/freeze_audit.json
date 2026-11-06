@@ -1,0 +1,6 @@
+{
+  "actor_unchanged": true,
+  "backbone_unchanged": true,
+  "backbone_frozen_no_grad": true,
+  "adapter_frozen_unchanged": true
+}

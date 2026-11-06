@@ -1,0 +1,19 @@
+E.......................................................................
+======================================================================
+ERROR: test_perception_sampler (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_perception_sampler
+Traceback (most recent call last):
+  File "/home/data/anaconda3/envs/py310/lib/python3.10/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/data/anaconda3/envs/py310/lib/python3.10/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/home/data/czh/AdaPercVLN/tests/test_perception_sampler.py", line 9, in <module>
+    from scripts.plan_perception_margin_eval import preflight
+ModuleNotFoundError: No module named 'scripts.plan_perception_margin_eval'
+
+
+----------------------------------------------------------------------
+Ran 72 tests in 4.733s
+
+FAILED (errors=1)

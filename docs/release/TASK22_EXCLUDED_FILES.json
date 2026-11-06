@@ -1,0 +1,1328 @@
+[
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/FILES_MANIFEST.tsv",
+    "bytes": 49944,
+    "sha256": "f8ac192ff59d0d6eaa6cfbd71f072922a2e42889354b0ef50923ad724770e134",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/__pycache__/actor.cpython-310.pyc",
+    "bytes": 9313,
+    "sha256": "a581b68f79cb4f6b7d6f8a59bdb9ea6715a18057615c961f660ebd0cda2e497e",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/__pycache__/actor_runtime.cpython-310.pyc",
+    "bytes": 10564,
+    "sha256": "a9b514add7dba2cdba17e8435b95dd44a68449f4d9a89eeadb32a881bc623e00",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/__pycache__/trajectory.cpython-310.pyc",
+    "bytes": 7123,
+    "sha256": "3c35649bf7f51014e19b26f644db8c76d833b5500147cd670f81420e1a812690",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6719,
+    "sha256": "c5b4c130920b021718e278ab1ac476f708087c157ae63f01ec27c4530abcae42",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6724,
+    "sha256": "d2c13383e4d00cbc59765482909b2cc9abe96f88749ca235a05b53c3338b3c7b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6684,
+    "sha256": "ebb07f19f6bf8dcd348968bf7278d9ff4cb3c437fdb07d603f7c13f3308e1757",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6654,
+    "sha256": "126f3863fa1c4e3ad956b60e4c426b29b9227f2770fa326d53e7ab4d2d6b9444",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6645,
+    "sha256": "d29f4f6e7d5d0068b269a3d534a13e0a71f0eac362abd7918127af9068cbc106",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000040.json",
+    "bytes": 6660,
+    "sha256": "ebcdefd2272876553c22c09bd98508bc3ef8aeb016a560f8320f322f68e44016",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000048.json",
+    "bytes": 6698,
+    "sha256": "d966aaed25ae450fd980baf720262ffd384f5b508cd572870a8c5a3ce9157960",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000056.json",
+    "bytes": 6651,
+    "sha256": "8aaccdd2744f4f3ad00056dff8d36b1a37047fe376bd7777b9ef3ce3b2810812",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 4255,
+    "sha256": "0ea47fc0a1252e443590f14133f8d639452032b1766e0e1537b5efa2ebe04a09",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8988,
+    "sha256": "7fbc21e532252ada9014af26a2c02879717b7cc377ca43b587581d69a14d564d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 13682,
+    "sha256": "62ae343fb640da0faf7dc2aafa095619430263f41b5b6c0e19ce00156fc2f759",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 17810,
+    "sha256": "d5e0d674ffb2de5e4eedf096c117aa778918856c45c8a1556224d65f9317de31",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 17795,
+    "sha256": "0cf52af5ee29239de15623450e676f0a77db972e702025c9354dbe071229b9ac",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 17807,
+    "sha256": "0a1f679d6d12f9a3d53abdc32d138e0bd3eec0aaffd7b83fb6932fb2eec4005b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00006.json",
+    "bytes": 17819,
+    "sha256": "c734e793a02df755d54df582390165178947e56789f556e7c1509538a5252edf",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00007.json",
+    "bytes": 17787,
+    "sha256": "724f4a956dad6c4489c07b707a2122789e57366627c0a1bf262870a997c409f4",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6678,
+    "sha256": "2cf64c32b4f7740e8e9df64116da48ba6bdff9b489ad24f0073957b782f9eea0",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6684,
+    "sha256": "f81d50e3162c336fc9df5f26c0d19e5164a65ce4a4ab7c6ca3d050d5abddfb53",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6704,
+    "sha256": "3cd205433006795663a1b599e60bf7d0ad14e627f082e5417c0c0a3431a166b2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6711,
+    "sha256": "1c12deeed7a0a6929d98f93b3098c5b2be2cc22b3cc21887b19224b88ef58ae2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6710,
+    "sha256": "3e3a3a50d763631648c2d2faac458c21581c6873e19dcaced16954bf0bfec693",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6693,
+    "sha256": "ac6e2bab28d6ee77576e6c28be14dfdb1b1fec106ffdf9e10e28884b3b6fc682",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6681,
+    "sha256": "27869201881b0c7711139e755f8d1b1c2d1be3ca6d2b384b2938a41bcaa9f245",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6651,
+    "sha256": "eefffcc431aca0140fc0f4ab58ad344fe778724bd9950a5ddcc2cb4a35bc9433",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 4242,
+    "sha256": "daa7300ad471c3599fed9f0052e2638c0c6d15a34c536e8f81e2c27967e3c309",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 8968,
+    "sha256": "23bb44ff8971efde7f0462c4da9092f930a337b16287bb45f0701a67f1681999",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 13680,
+    "sha256": "83224181bed57478317a4b5abf7ddf8e2d4761afeae560b7f8ab966fa2fe3a9b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 17801,
+    "sha256": "1c6c036c0446458ad8a1bfebe4dd2fe58755b936c60467b7917bc5b8753113ec",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 17831,
+    "sha256": "7eb431a9bcc12f6727f973c408d0e1d1b84a9c2c711c4c9afbc9540dbc29e678",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 17831,
+    "sha256": "2e513b263a3c6d67d9655ccebd1954c6a98b6684442121f09b5a71c8acf1d5cc",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 17808,
+    "sha256": "fa046e99b4fcf0d5a9829a93ed7e2e0ad9c225bdc3620d1cb73065df843748b0",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 17809,
+    "sha256": "3d8b51cbb7f2ec9ca44dc06d9e46b7170612773b5457161d86a1c7f673d69175",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/ready.json",
+    "bytes": 51,
+    "sha256": "28d360d76b4d561a5dc38abfbe440bc43d44ec955b9d4f141aa0e5e482200167",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6725,
+    "sha256": "b7dc68ff3e4d999ea2c0b59c8609bad5715cbcff97935b768336c94ca912b83a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6661,
+    "sha256": "2113a998f26e42f3b61fe77e525081dc707c2d2c75fe3409af41735dc9b2a572",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6644,
+    "sha256": "0ddfa3d9c962b44e403f11671d16d0c26a34cd85e6e7271229a8ce41518e0b18",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6679,
+    "sha256": "fd78e18af3797bc449816bc9595b964888e9d933b696dc5a953afa233a8e49ce",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6724,
+    "sha256": "b29e9c2c0115e48c15a568783e8c44db419c4c2f7926b7a21c73580f76d0042a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 4251,
+    "sha256": "8366a557049851c44f9507155f01b0d20da73a123e5030c9b5f7ce40d63d6a7a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8946,
+    "sha256": "f36ed56abf8bde67a5543ab1ede23b2fd5d12b7a5f0ec9d27206f167c9984b47",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 13655,
+    "sha256": "289839f76bfa5bd55708ba69c300e30a8e8922fe0aaa17af90bb7e4589895d59",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 17815,
+    "sha256": "700f463f3979fc3b652aaa01a727b1affdcd777ab3e9d8a4b542268a63378007",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 17823,
+    "sha256": "d8cd570bf9af370101da0a572ac7876afaf1f447009fef7e48f665eecbc89c8b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 16921,
+    "sha256": "0897fc9dffa3e8f9df868850cb32aa4afd77b674764ba5ae13bac8903786ffc9",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6663,
+    "sha256": "a1f1c9e80fd30e1614c64d7858cbc00defb33e8019f24f70d743253c9b519a41",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6701,
+    "sha256": "2fedce6e588594312ebeb47ac80ae3f353334ab091103e66200ab3364bee6b75",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6688,
+    "sha256": "a4513153afc89c4bb0fe328873aaf2ce85d2e01b9205b2d5f3577da9e703378c",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6696,
+    "sha256": "709dadfbb5229080a2082b497d81255f2d7fa9f7740bf92a6e8c043ca2b90ee1",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6678,
+    "sha256": "da32f79d92fbb998c18c9dad60841565421b1d91364c023bc9a5303f7785a147",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6653,
+    "sha256": "4cfe5564abd13af9bfbf6cb9cde507e8767a6dfe6b9f95991cb0bee17754c6ad",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6659,
+    "sha256": "098be2b3f97653d41bf2f986437bb1f9979b0593ad9aba9fc1a7096eca2b3c96",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6649,
+    "sha256": "43cdc1af2dee0bcf8fc71a399d529fdb9d7d4159f2f969b6d81f897a33de088d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 4230,
+    "sha256": "6a8ef48fbc66a6bac1371fc463ad9964606d72875a9721fc8cd5b6e9577b4105",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 8971,
+    "sha256": "812198c9111d1239103f934be26cb85e0a827d51a37d76d31646e6708a4dcce6",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 13666,
+    "sha256": "6a043ee3b47812ae751d04c467ac13e2ebfa39f03dbfe5d9a46adeabcb41b393",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 17810,
+    "sha256": "6d977f87d7fa250def5496271a7fb587a9d59f0eba6d59a1b1ce1c5b748fb415",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 17793,
+    "sha256": "0484b469c38c998be330ef774284fca4f8a3bc9ee93dc1794e47d5aa37e559c0",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 17773,
+    "sha256": "3f9472036503f5fcbd9f58eeb2a2935d0e3e53965bb8f40f316e2313bce41bdc",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 17781,
+    "sha256": "f557248d192868af594086a3a4382a5a2fdbd7a6f01016a4d0d8b1b3bd03a204",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 17808,
+    "sha256": "1b523a1ff2855fce61dc00210c3029dcca86ad4a9359f1172b530c51c03b4804",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_validation/actor_initial.pt",
+    "bytes": 9198604,
+    "sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/final_validation/model_contract.json",
+    "bytes": 1300,
+    "sha256": "93001deb884824d60f8596e03d5296842133b325af44abc6cabb2030711e8e0d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_habitat_deterministic.log",
+    "bytes": 5234,
+    "sha256": "153635b01b53677b4833a9310d52b4c77e1ba78226cd03135076ba409bab58d3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_habitat_release_sampling.log",
+    "bytes": 5032,
+    "sha256": "37caddaabd9f6e31e7441e2350776fab99cefd69a0524b35cb66f12fee1100cc",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_tests.log",
+    "bytes": 127,
+    "sha256": "715396d9ec104ff551d43f7b4682624859219e1ecd9c21ec1b0376c68baf906d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_tests_final.log",
+    "bytes": 166,
+    "sha256": "7ca50c0578434f74cb2885e423772cb40365b9ccd0fbcd58c4a9c2901ae914d6",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_tests_scope.log",
+    "bytes": 161,
+    "sha256": "f3ad9a6c602127905985f0373002563768c750f1efba1bacfcebbd9c2668d2a0",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/logs/task22_validate.log",
+    "bytes": 4910,
+    "sha256": "4c93727ec1feb416108455a5484bae149eea76e6641f81957d98bfebbc5178c7",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/config.yaml",
+    "bytes": 1961,
+    "sha256": "c83e480861b34e14a605cedb7fb07ae0817fb24c6ec890fd29b4ce218e39a02e",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/episodes.json",
+    "bytes": 4787,
+    "sha256": "873265603765b8d408da3d5972605c46a1d33a7edda2d5b79a10a9bbe2142651",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/freeze_audit.json",
+    "bytes": 131,
+    "sha256": "006359fa1ce8d9a034dfed9ca75589a9c6bef012d43b30d6a29a8ac320bd313e",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6719,
+    "sha256": "c5b4c130920b021718e278ab1ac476f708087c157ae63f01ec27c4530abcae42",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6724,
+    "sha256": "d2c13383e4d00cbc59765482909b2cc9abe96f88749ca235a05b53c3338b3c7b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6684,
+    "sha256": "ebb07f19f6bf8dcd348968bf7278d9ff4cb3c437fdb07d603f7c13f3308e1757",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6654,
+    "sha256": "126f3863fa1c4e3ad956b60e4c426b29b9227f2770fa326d53e7ab4d2d6b9444",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6645,
+    "sha256": "d29f4f6e7d5d0068b269a3d534a13e0a71f0eac362abd7918127af9068cbc106",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000040.json",
+    "bytes": 6660,
+    "sha256": "ebcdefd2272876553c22c09bd98508bc3ef8aeb016a560f8320f322f68e44016",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000048.json",
+    "bytes": 6698,
+    "sha256": "d966aaed25ae450fd980baf720262ffd384f5b508cd572870a8c5a3ce9157960",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000056.json",
+    "bytes": 6651,
+    "sha256": "8aaccdd2744f4f3ad00056dff8d36b1a37047fe376bd7777b9ef3ce3b2810812",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1180,
+    "sha256": "b742e85c42ec543443ef63f01d1b4c6772640fad7fd0ac8c0a8522f7127888ae",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 4253,
+    "sha256": "3f1dfa5b53c6edcecf5f6d0d708241755b3be85a19fadb69d9c199929fb39e24",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8989,
+    "sha256": "f54452c243e658062bb539c94063cf2cc6bf1c02305e1ae9ed42f5c050748b69",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 13682,
+    "sha256": "2c0c3c66de6f9d95f54a5987a21dd1edfbbcaa46bbf3dae11470447081e3d1dc",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 17811,
+    "sha256": "f1a82fa74fcc463dcc4bde8f30246b908218bb62a05fda11e06a34e0dbbf40f6",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 17795,
+    "sha256": "808bc8d332172cad3e7b2cad7e643e8cd98b95d307210292d71e2a82b2cca43f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 17809,
+    "sha256": "d6bbc67aa169bd9213240e8643554c12e3e44536bd8c965328d9edafeae0b96a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00006.json",
+    "bytes": 17817,
+    "sha256": "e8c4bb515705eb2f0544214a357c9dedf326d6587bb13a2957f9bc32f9f44504",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00007.json",
+    "bytes": 17784,
+    "sha256": "6d9cccc0e4fb1630f46f0b9ba24d214bcaf4090c89bd68187175cda90333e58d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 7759,
+    "sha256": "4c2eb4255ebc0881f308eec48b5878d3fc1480e8407d4c2c17132325296a887a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6678,
+    "sha256": "2cf64c32b4f7740e8e9df64116da48ba6bdff9b489ad24f0073957b782f9eea0",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6684,
+    "sha256": "f81d50e3162c336fc9df5f26c0d19e5164a65ce4a4ab7c6ca3d050d5abddfb53",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6704,
+    "sha256": "3cd205433006795663a1b599e60bf7d0ad14e627f082e5417c0c0a3431a166b2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6711,
+    "sha256": "1c12deeed7a0a6929d98f93b3098c5b2be2cc22b3cc21887b19224b88ef58ae2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6710,
+    "sha256": "3e3a3a50d763631648c2d2faac458c21581c6873e19dcaced16954bf0bfec693",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6693,
+    "sha256": "ac6e2bab28d6ee77576e6c28be14dfdb1b1fec106ffdf9e10e28884b3b6fc682",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6681,
+    "sha256": "27869201881b0c7711139e755f8d1b1c2d1be3ca6d2b384b2938a41bcaa9f245",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6651,
+    "sha256": "eefffcc431aca0140fc0f4ab58ad344fe778724bd9950a5ddcc2cb4a35bc9433",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "bytes": 1147,
+    "sha256": "2132ed0d98add3ce217e6f53385f7aad2360b30cbe29cba502492b2a8861767f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 4243,
+    "sha256": "ad2039c2c12513aa84639c6aff7196b570d8356674d96fd42c0f7ea17ce963c5",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 8969,
+    "sha256": "28f5524fcd1457f0b56b0057b72182d1f3632b9b38b5f676fbcf0773119b2ead",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 13686,
+    "sha256": "0d56ab0844651e7f97962db00fd14c59b7c0f8579f9e606d5f55090bca7e7d65",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 17802,
+    "sha256": "92a26ccde79bea21df6c36e0c558b96c90cea67fb04ad31e477893881f944e0d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 17830,
+    "sha256": "9140d2e260869649efba013a7b9e532549206b55141c1b909d58d1be4c7cc610",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 17827,
+    "sha256": "01106ef372634bb5bfa0756e0756a3026219923bba38005956f77fedf530092d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 17809,
+    "sha256": "7509166e64293ce9eca741a1b58ea4689a5252053ab9075455c1761c8fa8fb3f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 17812,
+    "sha256": "ea307e4d639ba1ed3824f477bfa7d7fe6c674a984086fc0c43ab65206fa0e69d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_deterministic/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "bytes": 7784,
+    "sha256": "ad90d692de1580696194159e1a0c95b7474c38671226b1cd837dc59b2a9b9477",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/actor_initial.pt",
+    "bytes": 9198604,
+    "sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/episode_boundary_0613052f0d3446288a797a18b6a07dd5.pt",
+    "bytes": 2941,
+    "sha256": "297538b31a3978435d0e63d8b534a126616fc87688ad3dd3824ef85e186a7c36",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/episode_boundary_637bf0e82033498286574578a3493b30.pt",
+    "bytes": 3133,
+    "sha256": "c6ae9f0b8d232aa1657be47a4128efa9be04cd4d5b9eb5f530e281c163e0bc69",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/episode_boundary_6994904a626d4a9da7522deb004b65ee.pt",
+    "bytes": 3133,
+    "sha256": "3b73eba0d9aba50a577ceae3b66adc12db978f2b6aa6aae7a194ecd8d16bff22",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/episode_boundary_7ad24e53de72492e881e18f122c66901.pt",
+    "bytes": 3133,
+    "sha256": "4dc918b50db07e152b55c333a376a6cbcd897977699370a647b6f0b3feac482d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/finish_0613052f0d3446288a797a18b6a07dd5.json",
+    "bytes": 915,
+    "sha256": "72b7aa3641aee36142cfe4427e241dc67136c070b7fbc4f713127c92e5809f10",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/finish_637bf0e82033498286574578a3493b30.json",
+    "bytes": 1138,
+    "sha256": "556955b9a83c061f9d2caa3f170c893f324258cc26292725701f638e23edade3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/finish_6994904a626d4a9da7522deb004b65ee.json",
+    "bytes": 1138,
+    "sha256": "87ee5cfb694324a393052445a876d76368aa815e2f5ea5c4881a6c5626afe66d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/finish_7ad24e53de72492e881e18f122c66901.json",
+    "bytes": 1138,
+    "sha256": "059ce21e252504c018404d8dd9736c3a52bbd501e63d4779ee0320352eee5095",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/model_contract.json",
+    "bytes": 1156,
+    "sha256": "6b353d3f8656cdc706f678da6985b33f3a7c77aa5d8d9864c1ce54f0ef61e50b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/ready.json",
+    "bytes": 51,
+    "sha256": "28d360d76b4d561a5dc38abfbe440bc43d44ec955b9d4f141aa0e5e482200167",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/scope.jsonl",
+    "bytes": 212318,
+    "sha256": "2240edec1aeef6f7da20521490019f97c2e87d63e842ab9acf787176f22035b6",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/trace_summary.json",
+    "bytes": 33456,
+    "sha256": "b3caaf53aa06b9a90ee8173581965c4bc37d6cd976a3f96cfa4bb7602d25bb1e",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0000.pt",
+    "bytes": 1341874,
+    "sha256": "220965fca95211bfa8f4590f463556a1bf617618827050f849ba95d914938155",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0001.pt",
+    "bytes": 1342322,
+    "sha256": "c99ace62d16225b1a15409c7ea8ee45488b0b7f3e6fe62a2046bef6797fc5150",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0002.pt",
+    "bytes": 3352870,
+    "sha256": "cce0081a287d32cbe568edc56b4b26c02ddf72baeaa70d0294909cdb9ec56206",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0003.pt",
+    "bytes": 1343154,
+    "sha256": "a891e205b1eaf30d973626d77d37482270b4c374f9ade0553c837584a07f4711",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0004.pt",
+    "bytes": 2013018,
+    "sha256": "72b14e9402ba6d3d462cef7ec92a6aeb0a6e32b7edef011ad0c85aa0a6743ad3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0005.pt",
+    "bytes": 1342834,
+    "sha256": "dbacb82a2f96b743d74b284c9ecedcec32c950636f8f4325750db9a6d8a9337a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0000.pt",
+    "bytes": 3351974,
+    "sha256": "6e78188895935cb5dc085ffe29ef511de6b162cdb6dd7090320b17a5d4c9b492",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0001.pt",
+    "bytes": 3352422,
+    "sha256": "8bf0e6b8fd78166f4a89e7fb6dc3a468ec100144e425a937d66940a18f111b05",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0002.pt",
+    "bytes": 3352870,
+    "sha256": "0cc8ef28dcde4c55bdfd0b474e76c0d994b05fdefa551cc2ce38ab9a18ef387c",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0003.pt",
+    "bytes": 3353254,
+    "sha256": "0ea862759b8536fc51d4154b75570557d4b1ae158bc3db766cc7a84fbf965a85",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0004.pt",
+    "bytes": 3353254,
+    "sha256": "adfed71e1d74f9d08f392af981eb3499f76e1389c1aaa8af77a000cf6fccd224",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0005.pt",
+    "bytes": 3353254,
+    "sha256": "72380efc6a452b37703f6cb310afe61345f296335ed9ff8da910a2c4179301b6",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0006.pt",
+    "bytes": 3353254,
+    "sha256": "13de2a078b971a376b80fdd3f969e3f270a1d39184a91ac50ef5e66cb11de5a4",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0007.pt",
+    "bytes": 4020796,
+    "sha256": "d4ecb110c2bf06a8b1536b838d50aa7209204901cfb9476a804f0843928e63fd",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0000.pt",
+    "bytes": 3351974,
+    "sha256": "2a385dc159a198191306db3b3e641b8de6651d4439c6a5945ec1fffcacf4e60f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0001.pt",
+    "bytes": 3352422,
+    "sha256": "ff6c2d2f2fd05d87f35b52ea7f3689c4680884c31c7078fb7eeaa731cd587fc2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0002.pt",
+    "bytes": 3352870,
+    "sha256": "2f1df7ee08f8a07470a98832f097f041678703a98c185fdcaf4617720617100f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0003.pt",
+    "bytes": 3353254,
+    "sha256": "297955604e6128d2c02e9661449b7051a7a0ff13f7caa7148ecb313a6f5100d2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0004.pt",
+    "bytes": 3353254,
+    "sha256": "1a80890e85a8990b9c8ba185b4e12b00936d0475088fcb64c0a5596b983119bb",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0005.pt",
+    "bytes": 3353254,
+    "sha256": "6207e39ab1af11ee49bc7e94fa8d4cb8b81b3b20c6856eb069022e7192073c0b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0006.pt",
+    "bytes": 3353254,
+    "sha256": "93bec3245b99d87ee721729a04b97fef0a14c9c6af12d0873b5e28a1f04314db",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0007.pt",
+    "bytes": 4020796,
+    "sha256": "8c0845ecc118814cd4b559b521001cb0882ee78952399927da123203e1644d4f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0000.pt",
+    "bytes": 3351974,
+    "sha256": "5f3ea63136cee481515f4a181ec3e366251da58a70c2504ac817768fa3d43fa6",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0001.pt",
+    "bytes": 1342322,
+    "sha256": "d98c0abb2623347e665b93f394e67cede28ae4102e69c75f241f707e3062b873",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0002.pt",
+    "bytes": 3352298,
+    "sha256": "9800f104c2d6c8852121e8d8eadb7212a86c729da88881bea37957b535725649",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0003.pt",
+    "bytes": 1343154,
+    "sha256": "2416f3983912206001b48c228110777e7ce18f64930ebca5fb88e240183996a7",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0004.pt",
+    "bytes": 3353254,
+    "sha256": "fb0559bbddbd87a8975b68f00f45105e76842b5be47f87a95427842c22f31f1d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0005.pt",
+    "bytes": 3353254,
+    "sha256": "265cac35882953a83d8b80839164e9967891252040fe37a0043bb686527e4d52",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0006.pt",
+    "bytes": 1343154,
+    "sha256": "2b49eec4d4fa1272066e92626e6e90242587e93ef8a416944be040c1e5f684a2",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0007.pt",
+    "bytes": 4020224,
+    "sha256": "5daf36ee35cdd7673c60bb8c3675457e28425142dbbe19d82fe42509909c1551",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/config.yaml",
+    "bytes": 1960,
+    "sha256": "1653199ecd6cfc187e0082b9cbc1e6c16b7a04e5064d5fe13ff75c3afe067d8b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/episodes.json",
+    "bytes": 4787,
+    "sha256": "873265603765b8d408da3d5972605c46a1d33a7edda2d5b79a10a9bbe2142651",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/freeze_audit.json",
+    "bytes": 131,
+    "sha256": "006359fa1ce8d9a034dfed9ca75589a9c6bef012d43b30d6a29a8ac320bd313e",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000000.json",
+    "bytes": 6725,
+    "sha256": "b7dc68ff3e4d999ea2c0b59c8609bad5715cbcff97935b768336c94ca912b83a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000008.json",
+    "bytes": 6661,
+    "sha256": "2113a998f26e42f3b61fe77e525081dc707c2d2c75fe3409af41735dc9b2a572",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000016.json",
+    "bytes": 6644,
+    "sha256": "0ddfa3d9c962b44e403f11671d16d0c26a34cd85e6e7271229a8ce41518e0b18",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000024.json",
+    "bytes": 6679,
+    "sha256": "fd78e18af3797bc449816bc9595b964888e9d933b696dc5a953afa233a8e49ce",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/data/000032.json",
+    "bytes": 6724,
+    "sha256": "b29e9c2c0115e48c15a568783e8c44db419c4c2f7926b7a21c73580f76d0042a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 1201,
+    "sha256": "f420a7ca011b097e43ad759db2fd5abad1b01c69bc91307bb8bfcd06c6f8e1f9",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00000.json",
+    "bytes": 4253,
+    "sha256": "73415e0b28dc95ba2ae4719a21e1ae80fee1854693981202a035100abef1c9d1",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00001.json",
+    "bytes": 8946,
+    "sha256": "ce48d6e6e4963c9590c89864eda30a386b1b25fb9d8b2bd247fdd4b202d29989",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00002.json",
+    "bytes": 13656,
+    "sha256": "59eea2c068cced5cea75a35c03ab64d192e3b79ed2517863e2c81e6ec57a7230",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00003.json",
+    "bytes": 17819,
+    "sha256": "dbc9f335018010efcb9671eb8b380eebaef923eb359c795d091e46b434c20d98",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00004.json",
+    "bytes": 17822,
+    "sha256": "47ae61e4f54239ba4fba93b06a868344a78a5cad17535fd6fd474863148d3384",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/scope_00005.json",
+    "bytes": 16919,
+    "sha256": "bcfbc6efb77180d3c2a242936d276ee2f9031a357d805a5f221386f331d66bb5",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 4910,
+    "sha256": "25ad88d27c80da7bd9ab14c92b22bd99dfef53e409eb9c3bcbb9c3717b41502b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000000.json",
+    "bytes": 6663,
+    "sha256": "a1f1c9e80fd30e1614c64d7858cbc00defb33e8019f24f70d743253c9b519a41",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000008.json",
+    "bytes": 6701,
+    "sha256": "2fedce6e588594312ebeb47ac80ae3f353334ab091103e66200ab3364bee6b75",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000016.json",
+    "bytes": 6688,
+    "sha256": "a4513153afc89c4bb0fe328873aaf2ce85d2e01b9205b2d5f3577da9e703378c",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000024.json",
+    "bytes": 6696,
+    "sha256": "709dadfbb5229080a2082b497d81255f2d7fa9f7740bf92a6e8c043ca2b90ee1",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000032.json",
+    "bytes": 6678,
+    "sha256": "da32f79d92fbb998c18c9dad60841565421b1d91364c023bc9a5303f7785a147",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000040.json",
+    "bytes": 6653,
+    "sha256": "4cfe5564abd13af9bfbf6cb9cde507e8767a6dfe6b9f95991cb0bee17754c6ad",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000048.json",
+    "bytes": 6659,
+    "sha256": "098be2b3f97653d41bf2f986437bb1f9979b0593ad9aba9fc1a7096eca2b3c96",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/data/000056.json",
+    "bytes": 6649,
+    "sha256": "43cdc1af2dee0bcf8fc71a399d529fdb9d7d4159f2f969b6d81f897a33de088d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/eval_info.json",
+    "bytes": 1149,
+    "sha256": "32908338656d26ded8a10da4895d94ccb01007badaedab78628444f7db0b56af",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00000.json",
+    "bytes": 4229,
+    "sha256": "da6af1f6f58cf7e4a1a1d4a8ef544b3009d81082e64e924ee2c1bd6bf53fc791",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00001.json",
+    "bytes": 8971,
+    "sha256": "c628be69f907ffddb0fc8253fb80b8048862ff0a69b97f0e5efdbd839750e0ae",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00002.json",
+    "bytes": 13668,
+    "sha256": "94c2a86c8bca3668c780fdac9e073a707bcb841dfbc9b7019f82e800135952c8",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00003.json",
+    "bytes": 17813,
+    "sha256": "aa4f0de9d7986985d31946590e8ef9bff4410e8975b40b432186ed0f49624645",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00004.json",
+    "bytes": 17792,
+    "sha256": "8b2e0701522952d4b26e4af13dfc282c1da4fa49aa17aaf2d496f65da659557f",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00005.json",
+    "bytes": 17774,
+    "sha256": "f08c363e799fe933d30da3dcb93d81c0cd5e187afcbad5e059262817d72c8293",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00006.json",
+    "bytes": 17780,
+    "sha256": "2a32c392e49d36cc79383df7de36402deac408d80f932f66ecbe77a3d1118e4d",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/scope_00007.json",
+    "bytes": 17810,
+    "sha256": "a1b0cacfab5188918e9f481861632e5e9bc55d4c1cddf65ed562ff271d730a3c",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/release_sampling/logs/7y3sRwLe3Va/scope_stage2_train/2/trajectory.json",
+    "bytes": 7732,
+    "sha256": "3e66d69e2914580468abdc63bd5b9cf8dc3cd772f5f7bc66d4989e461e897e64",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/runtime/actor_initial.pt",
+    "bytes": 9198604,
+    "sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/runtime/episode_boundary_7ad49bb5025c4ed98bbe238a710cc56b.pt",
+    "bytes": 2237,
+    "sha256": "345399aaba3f81609baae8573a67a3dca2e7f6f937d954ea9b8395ba67db1b0b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/runtime/finish_7ad49bb5025c4ed98bbe238a710cc56b.json",
+    "bytes": 241,
+    "sha256": "7f77402187f04c9861110c96a7ac209e05ce2d5ead200b80777c65de2bed36a1",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/runtime/model_contract.json",
+    "bytes": 1156,
+    "sha256": "d2a46a2f84299aee3e2a3a7d42efc527a0ad077e3940a3ee4f6bc4b11447787b",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/runtime/ready.json",
+    "bytes": 51,
+    "sha256": "28d360d76b4d561a5dc38abfbe440bc43d44ec955b9d4f141aa0e5e482200167",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/sampling/config.yaml",
+    "bytes": 1952,
+    "sha256": "7ef930bbde38bfa56653c92489ac1dcd18b2cb2aaae56918673eaeca68741557",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/sampling/episodes.json",
+    "bytes": 4787,
+    "sha256": "873265603765b8d408da3d5972605c46a1d33a7edda2d5b79a10a9bbe2142651",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/eval_info.json",
+    "bytes": 2194,
+    "sha256": "7f5bf2399e802492eddbfab409d36eec59fe4e0026a279805434400364301697",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/sampling/logs/7y3sRwLe3Va/scope_stage2_train/1/trajectory.json",
+    "bytes": 138,
+    "sha256": "11dc1e760570d6ab3806645f710e4fad3b34ee377dd0c461cdfe86c8c513d83a",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/actor_initial.pt",
+    "bytes": 9198604,
+    "sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_1_0.pt",
+    "bytes": 329632,
+    "sha256": "c001f2e508c2d431519af0ee71d7e8412b849851c938545102f059690cdde708",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_1_1.pt",
+    "bytes": 657576,
+    "sha256": "31f69e1c631e705364b32576e49d8221fa486eee13ab443fda54c3d708af2ead",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_1_2.pt",
+    "bytes": 985520,
+    "sha256": "527f27378be0704fd4cdd61ee1e821df9e6405192138638a8ef340121b4bc486",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_1_3.pt",
+    "bytes": 1313528,
+    "sha256": "da435d5562a39501df52fd317aec1d382fb59161ab2a14ae751c6b278e4da2b3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_1_4.pt",
+    "bytes": 1641472,
+    "sha256": "870f8143c22c45b91b5104f1d754cf26991fed61debb3a38e85076862b488ab1",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_2_0.pt",
+    "bytes": 329632,
+    "sha256": "142056249b80f2547fad98a6d9a9bc13abfbf6cfbb84a6b988f5058c41f9f15c",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_2_1.pt",
+    "bytes": 657576,
+    "sha256": "16579c97ae5664db8801619d448554bbca35b727d3754fd7faebd20a36135ab3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_2_2.pt",
+    "bytes": 985520,
+    "sha256": "ab5e47d8a13d6dbfce0291d0cda6a543433528fdc8cd831b25c1cae21c095694",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_2_3.pt",
+    "bytes": 1313528,
+    "sha256": "fe66bfa61a13472e9ce7a7df4063329337ecb67a928228453598ca5f485cdb43",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/intervention_2_4.pt",
+    "bytes": 1641472,
+    "sha256": "e6e52f928de20d2a3e6c4e5a5a6b1ac7567dba392e7c7b0f3a8d5e8bf370f825",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/model_contract.json",
+    "bytes": 1300,
+    "sha256": "3235798c0160557511f848e9ce10536e3f78f3b229a2b4dfa3fcacc44750b2bd",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/validation/scope.jsonl",
+    "bytes": 49989,
+    "sha256": "9459149840e391efc89df45d2bd9827ed1fa2b0cca0e6d61d095d6e3759b17da",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/actor_initial.pt",
+    "bytes": 9198604,
+    "sha256": "32e1878f6fec4a687f4905eb81ea37c012867ca5c3811642a34d250f8b8ca190",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_1_0.pt",
+    "bytes": 329632,
+    "sha256": "c001f2e508c2d431519af0ee71d7e8412b849851c938545102f059690cdde708",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_1_1.pt",
+    "bytes": 657576,
+    "sha256": "31f69e1c631e705364b32576e49d8221fa486eee13ab443fda54c3d708af2ead",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_1_2.pt",
+    "bytes": 985520,
+    "sha256": "527f27378be0704fd4cdd61ee1e821df9e6405192138638a8ef340121b4bc486",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_1_3.pt",
+    "bytes": 1313528,
+    "sha256": "da435d5562a39501df52fd317aec1d382fb59161ab2a14ae751c6b278e4da2b3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_1_4.pt",
+    "bytes": 1641472,
+    "sha256": "870f8143c22c45b91b5104f1d754cf26991fed61debb3a38e85076862b488ab1",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_2_0.pt",
+    "bytes": 329632,
+    "sha256": "142056249b80f2547fad98a6d9a9bc13abfbf6cfbb84a6b988f5058c41f9f15c",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_2_1.pt",
+    "bytes": 657576,
+    "sha256": "16579c97ae5664db8801619d448554bbca35b727d3754fd7faebd20a36135ab3",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_2_2.pt",
+    "bytes": 985520,
+    "sha256": "ab5e47d8a13d6dbfce0291d0cda6a543433528fdc8cd831b25c1cae21c095694",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_2_3.pt",
+    "bytes": 1313528,
+    "sha256": "fe66bfa61a13472e9ce7a7df4063329337ecb67a928228453598ca5f485cdb43",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task22/artifacts/verified_validation/intervention_2_4.pt",
+    "bytes": 1641472,
+    "sha256": "e6e52f928de20d2a3e6c4e5a5a6b1ac7567dba392e7c7b0f3a8d5e8bf370f825",
+    "reason": "Cache, duplicate per-step data, superseded attempt or redundant validation tensor"
+  }
+]

@@ -1,0 +1,907 @@
+{
+  "passed": false,
+  "reload_equal": true,
+  "actor_parameters": 2293073,
+  "replay_max_error": 1.9073486328125e-06,
+  "grad_enabled_replay_max_error": 2.09808349609375e-05,
+  "focus_histogram": {
+    "training-sampling:0": 7,
+    "training-sampling:4": 4,
+    "training-sampling:1": 1,
+    "deterministic:4": 16,
+    "training-sampling:3": 2
+  },
+  "camera_counts": {
+    "0": 12,
+    "1": 66,
+    "3": 7,
+    "2": 2
+  },
+  "entropy_mean": {
+    "stop": 0.5623351335525513,
+    "camera": 1.3641386032104492,
+    "position_latent": 2.391589884905471,
+    "joint_latent": 3.379131454782388
+  },
+  "execution": [
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0000.pt",
+      "episode": "1",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 0,
+      "actual_displacement": [
+        0.19392330944538116,
+        1.1647084951400757,
+        0.0,
+        1.5309643745422363
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0001.pt",
+      "episode": "1",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 32,
+      "actual_displacement": [
+        0.007854626514017582,
+        0.4975287914276123,
+        0.0,
+        1.2659177780151367
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0002.pt",
+      "episode": "1",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 64,
+      "actual_displacement": [
+        0.016690000891685486,
+        -0.04913673922419548,
+        0.0,
+        0.4011860489845276
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0003.pt",
+      "episode": "1",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        -0.4324783980846405,
+        -1.0200140476226807,
+        0.0,
+        -1.8869338035583496
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0004.pt",
+      "episode": "1",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 1,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.1024599075317383,
+        0.25177764892578125,
+        0.0,
+        0.3320043087005615
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/0613052f0d3446288a797a18b6a07dd5_0005.pt",
+      "episode": "1",
+      "mode": "training-sampling",
+      "executed": false,
+      "terminated": true,
+      "truncated": false,
+      "navigation_done": true,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        0.0,
+        -0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0000.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 0,
+      "actual_displacement": [
+        -0.31245124340057373,
+        0.6393585801124573,
+        0.0,
+        2.104137897491455
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0001.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 32,
+      "actual_displacement": [
+        0.6566866636276245,
+        -0.4031735956668854,
+        0.0,
+        -0.6696912050247192
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0002.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 64,
+      "actual_displacement": [
+        1.246705412864685,
+        -0.383652001619339,
+        0.0,
+        -0.169783353805542
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0003.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.0465154647827148,
+        0.5067334175109863,
+        0.0,
+        0.638587236404419
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0004.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        0.1013743206858635,
+        -0.6637440323829651,
+        0.0,
+        -2.050731658935547
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0005.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        -0.17594438791275024,
+        -0.601900041103363,
+        0.0,
+        -1.5447508096694946
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0006.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.3900262117385864,
+        -0.037957120686769485,
+        0.0,
+        0.15063226222991943
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/637bf0e82033498286574578a3493b30_0007.pt",
+      "episode": "2",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": true,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        0.13312466442584991,
+        -0.5020806789398193,
+        0.0,
+        -1.5150882005691528
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0000.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 0,
+      "actual_displacement": [
+        0.1685529500246048,
+        1.1542444229125977,
+        0.0,
+        1.5098743438720703
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0001.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 32,
+      "actual_displacement": [
+        0.571213960647583,
+        -0.04683695733547211,
+        0.0,
+        -1.6244946718215942
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0002.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 64,
+      "actual_displacement": [
+        -0.015666691586375237,
+        -0.8432444930076599,
+        0.0,
+        -1.4223721027374268
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0003.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        -0.40242600440979004,
+        -0.4262160658836365,
+        0.0,
+        -2.033869743347168
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0004.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        0.12542855739593506,
+        -0.28701725602149963,
+        0.0,
+        0.6004346013069153
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0005.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        -0.1705833375453949,
+        -0.8945073485374451,
+        0.0,
+        -1.4844404458999634
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0006.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.2506675720214844,
+        -0.307615727186203,
+        0.0,
+        0.22351336479187012
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/6994904a626d4a9da7522deb004b65ee_0007.pt",
+      "episode": "1",
+      "mode": "deterministic",
+      "executed": true,
+      "terminated": false,
+      "truncated": true,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        0.2085379809141159,
+        0.04870186373591423,
+        0.0,
+        -0.058597683906555176
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0000.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 0,
+      "actual_displacement": [
+        -0.31314703822135925,
+        0.599077045917511,
+        0.0,
+        2.2894022464752197
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0001.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 32,
+      "actual_displacement": [
+        0.18500837683677673,
+        -0.9415323734283447,
+        0.0,
+        -1.2548450231552124
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0002.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 3,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 64,
+      "actual_displacement": [
+        0.6816949248313904,
+        0.7657091021537781,
+        0.0,
+        0.9084744453430176
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0003.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.0611189603805542,
+        -0.39001354575157166,
+        0.0,
+        -0.30390846729278564
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0004.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        0.5334710478782654,
+        0.7334933280944824,
+        0.0,
+        0.9182982444763184
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0005.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 4,
+      "perception_termination": "budget",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.0268760919570923,
+        0.4320580065250397,
+        0.0,
+        0.3231329917907715
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0006.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": false,
+      "navigation_done": false,
+      "focus_count": 0,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        1.0863722562789917,
+        0.47957634925842285,
+        0.0,
+        0.5342026352882385
+      ]
+    },
+    {
+      "trace": "Experiment/SCOPE/Stage2/Task22/artifacts/release_runtime/traces/7ad24e53de72492e881e18f122c66901_0007.pt",
+      "episode": "2",
+      "mode": "training-sampling",
+      "executed": true,
+      "terminated": false,
+      "truncated": true,
+      "navigation_done": false,
+      "focus_count": 3,
+      "perception_termination": "policy_stop",
+      "current_tokens": 64,
+      "history_blocks": 92,
+      "actual_displacement": [
+        -0.09413573890924454,
+        -1.2472420930862427,
+        0.0,
+        -1.5279961824417114
+      ]
+    }
+  ],
+  "no_focus": [
+    {
+      "episode": "1",
+      "tick": 0,
+      "token_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "1",
+      "tick": 1,
+      "token_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "1",
+      "tick": 2,
+      "token_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "2",
+      "tick": 0,
+      "token_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "2",
+      "tick": 1,
+      "token_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "2",
+      "tick": 2,
+      "token_max_abs": 0.0,
+      "action_max_abs": 0.0,
+      "grids_equal": true,
+      "stop_equal": true
+    }
+  ],
+  "interventions": [
+    {
+      "episode": "1",
+      "focus_count": 0,
+      "feature_max_abs_from_no_focus": 0.0,
+      "action_max_abs_from_no_focus": 0.0,
+      "current_tokens": 64,
+      "roi": []
+    },
+    {
+      "episode": "1",
+      "focus_count": 1,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.038720130920410156,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "1",
+      "focus_count": 2,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.031916141510009766,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "1",
+      "focus_count": 3,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.10791635513305664,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ],
+        [
+          234,
+          199,
+          426,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "1",
+      "focus_count": 4,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.12640166282653809,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ],
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "2",
+      "focus_count": 0,
+      "feature_max_abs_from_no_focus": 0.0,
+      "action_max_abs_from_no_focus": 0.0,
+      "current_tokens": 64,
+      "roi": []
+    },
+    {
+      "episode": "2",
+      "focus_count": 1,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.021570682525634766,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "2",
+      "focus_count": 2,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.024180889129638672,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "2",
+      "focus_count": 3,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.03843727707862854,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ],
+        [
+          234,
+          199,
+          426,
+          391
+        ]
+      ]
+    },
+    {
+      "episode": "2",
+      "focus_count": 4,
+      "feature_max_abs_from_no_focus": 0.96875,
+      "action_max_abs_from_no_focus": 0.024102717638015747,
+      "current_tokens": 64,
+      "roi": [
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ],
+        [
+          234,
+          199,
+          426,
+          391
+        ],
+        [
+          86,
+          199,
+          278,
+          391
+        ]
+      ]
+    }
+  ],
+  "reproducibility": [
+    {
+      "episode": "1",
+      "mode": "deterministic",
+      "action_max_abs": 0.0,
+      "focus_counts": [
+        4,
+        4
+      ],
+      "logprob_max_abs": 0.0
+    },
+    {
+      "episode": "1",
+      "mode": "training-sampling",
+      "action_max_abs": 0.0,
+      "focus_counts": [
+        0,
+        0
+      ],
+      "logprob_max_abs": 0.0
+    },
+    {
+      "episode": "2",
+      "mode": "deterministic",
+      "action_max_abs": 0.0,
+      "focus_counts": [
+        4,
+        4
+      ],
+      "logprob_max_abs": 0.0
+    },
+    {
+      "episode": "2",
+      "mode": "training-sampling",
+      "action_max_abs": 0.0,
+      "focus_counts": [
+        0,
+        0
+      ],
+      "logprob_max_abs": 0.0
+    }
+  ],
+  "freeze_audit": {
+    "actor_unchanged": true,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true
+  },
+  "optimizer_updates": 0
+}
