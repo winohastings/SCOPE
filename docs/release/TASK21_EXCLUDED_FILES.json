@@ -1,0 +1,98 @@
+[
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/FILES_MANIFEST.tsv",
+    "bytes": 3749,
+    "sha256": "a656f20fcd339b700b5ea3f4685175c27c9cb57735af810dba9c649e87242997",
+    "reason": "Superseded calibration attempt or original full inventory"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/__pycache__/fusion.cpython-310.pyc",
+    "bytes": 5486,
+    "sha256": "c400c85404a7b42304710bd3f6e0ccb936cbe367ba58907dfbca2aa5812fff0e",
+    "reason": "Python cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/__pycache__/runtime.cpython-310.pyc",
+    "bytes": 6419,
+    "sha256": "e0ae54a213ff32ddcb2781af75e31cb7d533abe2b662dede31e45d56a213a96a",
+    "reason": "Python cache"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/calibration/adapter.pt",
+    "bytes": 2204,
+    "sha256": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+    "reason": "Superseded calibration attempt or original full inventory"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/calibration/calibration.json",
+    "bytes": 13746,
+    "sha256": "3a4d99bcc187cf60df9229630c0b8b695866c457233d0463458fe8395c4269dc",
+    "reason": "Superseded calibration attempt or original full inventory"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/calibration/scope.jsonl",
+    "bytes": 30252,
+    "sha256": "c922fd1106ef4731a378ef5710c3620beec86f6761c7a55d25925aa94b049248",
+    "reason": "Superseded calibration attempt or original full inventory"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/calibration/validation.json",
+    "bytes": 9029,
+    "sha256": "b7eafdb459ca48d15f63b1c293f1fdc5bb486228fe1e9129045de6aa1ed52083",
+    "reason": "Superseded calibration attempt or original full inventory"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_1.npz",
+    "bytes": 633905,
+    "sha256": "5b6e5cd295a41f977ce46d7a281620896bd2698482fad839d0aff4b21b568446",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_2.npz",
+    "bytes": 633905,
+    "sha256": "5b6e5cd295a41f977ce46d7a281620896bd2698482fad839d0aff4b21b568446",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_3.npz",
+    "bytes": 633905,
+    "sha256": "5b6e5cd295a41f977ce46d7a281620896bd2698482fad839d0aff4b21b568446",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_4.npz",
+    "bytes": 582126,
+    "sha256": "d1e7d4adad94c866d2b5a7900dd1f6705d82801b8660cac7070d5e1a73bef2e4",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_5.npz",
+    "bytes": 582126,
+    "sha256": "d1e7d4adad94c866d2b5a7900dd1f6705d82801b8660cac7070d5e1a73bef2e4",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_6.npz",
+    "bytes": 582126,
+    "sha256": "d1e7d4adad94c866d2b5a7900dd1f6705d82801b8660cac7070d5e1a73bef2e4",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_7.npz",
+    "bytes": 696195,
+    "sha256": "ecf172eac53d5b5698c2126a8353d6f6ce5bf796c72d4eb563250f23c8c2f379",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/episode_8.npz",
+    "bytes": 696195,
+    "sha256": "ecf172eac53d5b5698c2126a8353d6f6ce5bf796c72d4eb563250f23c8c2f379",
+    "reason": "Captured RGB data excluded; manifest and hashes retained"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/calibration.log",
+    "bytes": 4333,
+    "sha256": "8af850394a0328ebe960bcb0bd0c4aa2063fa8de9a998f4bab2fc69eb6346163",
+    "reason": "Superseded calibration attempt or original full inventory"
+  }
+]

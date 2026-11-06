@@ -2,6 +2,18 @@
 
 这是从 AdaPercVLN 定向整理的 SCOPE 方法、Stage1 可行性与 Stage2 Task4 架构验证归档，不是 Habitat、R2R、RxR 或 SimpleNav 官方仓库的镜像。
 
+## Stage2 Task2.1 更新
+
+`Experiment/SCOPE/Stage2/Task21/` 实现192×192原图裁剪→256×256编码，并将Focus按真实面积覆盖写回对应相机的4×4网格。当前输出始终为 `(4,16,2560)`，不沿用Task4追加Focus token的路径；历史BATS另计。
+
+仅校准一个门参数：96个校准样本、32个诊断样本、120步，最终gate=0.796728；6次无Focus回放的特征和动作差均为0。诊断BF16覆盖区MSE约下降79.57%，不是导航性能提升证据。最终2.2KB `artifacts/release/adapter.pt` 随代码发布；不包含采集RGB数据和预训练导航权重。
+
+```bash
+python3.11 tools/verify_task21_release.py
+```
+
+发布范围及限制见 `docs/release/TASK21_RELEASE.md`。本次不运行Task2.2、Actor/RL或完整闭环评估。
+
 ## Stage2 Task4 更新
 
 `Experiment/SCOPE/Stage2/` 新增可复用当前视觉特征、统一语言条件 ROI Actor、独立 Critic、真实执行反馈 State GRU、顺序 Focus 记忆、感知 STOP 与 PPO/GAE。全部 Stage1 文件保持原样；具体文件范围和排除项见 `docs/release/STAGE2_RELEASE.md`。

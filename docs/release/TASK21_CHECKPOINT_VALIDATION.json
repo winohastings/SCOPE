@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "loader": "torch.load(weights_only=True, map_location=cpu)",
+  "parameters": 1,
+  "gate": 0.7967281341552734,
+  "checkpoint_sha256": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+  "backbone_sha256": "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa",
+  "partition_and_capture_hashes_match": true,
+  "config_and_episode_ids_match": true
+}

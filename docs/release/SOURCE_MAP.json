@@ -4888,5 +4888,119 @@
     "source": "docs/Logs/Task3/STAGE2_REVIEW_REPORT.md",
     "source_sha256": "c8719f01382a965c05753f958423ec0e83ed044cd6d54c4129e498bd85cf095e",
     "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/README.md",
+    "source": "Experiment/SCOPE/Stage2/Task21/README.md",
+    "source_sha256": "4f71bb44761e83ec717c7957203a48f2f1eb46d9729738670d0e239a55a0581e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/REPORT.md",
+    "source": "Experiment/SCOPE/Stage2/Task21/REPORT.md",
+    "source_sha256": "b4f59f3d93c2370c1a141c3d74f2974329e4ee7a3bd5b8c009c614667a7e7aad",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/manifest.json",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/capture/manifest.json",
+    "source_sha256": "64fb4cf8933f0ab65740324500d5bafe8bdcddad569c470e89227eca9563dcb3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/capture.log",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/capture.log",
+    "source_sha256": "224f49884ee20fbd89c4f5a76c84da28d22c20a9265760b61236c33d9062d09e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/release.log",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/release.log",
+    "source_sha256": "9b3a1466fe8f2b20a6e1e4ce39dd1abf4204ef3e6fbae12f6465c386cff816e2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/tests_all.log",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/tests_all.log",
+    "source_sha256": "8344a6e02367ad5d0c7699e6401e7c120af5123cc76aeebfd5fd7262556c9103",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/tests_scope.log",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/logs/tests_scope.log",
+    "source_sha256": "94c84e638c52574a645b8d4514622694e92d3c5328afff752793b7721aa7b319",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt",
+    "source_sha256": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/release/calibration.json",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/release/calibration.json",
+    "source_sha256": "66738bf93eeb1b2f9a4e6e36eafaa2084290a35b199fdd99dc1e4bcade606069",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/release/scope.jsonl",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/release/scope.jsonl",
+    "source_sha256": "b968078ebea892b094bedcb2e237c093834038fec0deb1e998793bf30c49fcea",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/artifacts/release/validation.json",
+    "source": "Experiment/SCOPE/Stage2/Task21/artifacts/release/validation.json",
+    "source_sha256": "e5c66364142fe20002937f1d46edc91a8744a8d918e3d7cc3d11acad6251798d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/calibrate.py",
+    "source": "Experiment/SCOPE/Stage2/Task21/calibrate.py",
+    "source_sha256": "fb9c4cc7a33fd345ff6cb233204ecadbebe3394177ae4d4c51972700f4f3d5d8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/capture.py",
+    "source": "Experiment/SCOPE/Stage2/Task21/capture.py",
+    "source_sha256": "0e9e5ddaa77d0f5283de0df45bcb60bb03da3dec38fa3582bad070f62f6f6e83",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/config.json",
+    "source": "Experiment/SCOPE/Stage2/Task21/config.json",
+    "source_sha256": "8f62520625eb19e9b82b87be6b7548e9c5e9f44eb9a3031bd45c9b3a4e61b612",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/fusion.py",
+    "source": "Experiment/SCOPE/Stage2/Task21/fusion.py",
+    "source_sha256": "d4e08a43d8680b2af6396604c1257584cbedd79a75ef3da68d9478690d58f5b2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task21/runtime.py",
+    "source": "Experiment/SCOPE/Stage2/Task21/runtime.py",
+    "source_sha256": "2d2ae9c972eed44b1edb6b262d44ed6d034b384218adba0fdf65b9196a8d0b6c",
+    "encoding": "identity"
+  },
+  {
+    "path": "tests/test_scope_task21.py",
+    "source": "tests/test_scope_task21.py",
+    "source_sha256": "62345e5a5c1ba6ac3b30311d7531492a0ed718d56aa61026b36353bc68e5cee3",
+    "encoding": "identity"
+  },
+  {
+    "path": "docs/Tasks/Stage2/stage2_task2.1_vision_adapter_fusion.md",
+    "source": "docs/Tasks/Stage2/stage2_task2.1_vision_adapter_fusion.md",
+    "source_sha256": "01ea669aa3fa14325e801bf4242a6c0218fd468de4eb6ce02c0ae6edcd35fa4d",
+    "encoding": "identity"
+  },
+  {
+    "path": "docs/Tasks/Stage2/stage2_0_fixed_infra.md",
+    "source": "docs/Tasks/Stage2/stage2_0_fixed_infra.md",
+    "source_sha256": "f1f8eb13e2c4bbaaa7b5190bc56435605ecf66ecc055bcab0a2c8a1cac937dcc",
+    "encoding": "identity"
   }
 ]

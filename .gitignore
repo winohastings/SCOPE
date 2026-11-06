@@ -7,6 +7,7 @@ __pycache__/
 Experiment/SCOPE/legacy_runtime/
 *.npz
 *.pt
+!Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt
 *.pth
 *.safetensors
 *.glb

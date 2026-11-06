@@ -1,0 +1,88 @@
+11/06 [18:30:05] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/home/data/czh/Third_Party/baselin                   
+                          es/SimpleNav/local/checkpoints/vlnc                   
+                          e/navvla_qwen35_cpm_rxr/checkpoints                   
+                          /steps_8000_pytorch_model.pt`                         
+                 INFO     | >> [*]  normalised config from    share_tools.py:522
+                          version_id=None to '0.21'                             
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:  40%|███▉      | 286/723 [00:00<00:00, 2857.37it/s]Loading weights:  79%|███████▉  | 572/723 [00:00<00:00, 2608.23it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 3034.38it/s]
+Total number of DiT parameters:  157032448
+encoded episode 1 (1/8)
+encoded episode 2 (2/8)
+encoded episode 3 (3/8)
+encoded episode 4 (4/8)
+encoded episode 5 (5/8)
+encoded episode 6 (6/8)
+encoded episode 7 (7/8)
+encoded episode 8 (8/8)
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+{
+  "passed": true,
+  "gate": 0.7967281341552734,
+  "metrics": {
+    "calibration": {
+      "glance": {
+        "covered_mse": 0.005211811512708664,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "initial": {
+        "covered_mse": 0.005018723197281361,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "calibrated": {
+        "covered_mse": 0.0013043575454503298,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "deployed_bfloat16": {
+        "covered_mse": 0.0013044554507359862,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "samples": 96
+    },
+    "diagnostic": {
+      "glance": {
+        "covered_mse": 0.006026035640388727,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "initial": {
+        "covered_mse": 0.005791937001049519,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "calibrated": {
+        "covered_mse": 0.0012311574537307024,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "deployed_bfloat16": {
+        "covered_mse": 0.0012311118189245462,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "samples": 32
+    }
+  }
+}

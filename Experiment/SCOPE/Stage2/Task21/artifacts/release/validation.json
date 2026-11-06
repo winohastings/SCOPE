@@ -1,0 +1,583 @@
+{
+  "passed": true,
+  "version": "task21-area-overlap-v1",
+  "gate": 0.7967281341552734,
+  "metrics": {
+    "calibration": {
+      "glance": {
+        "covered_mse": 0.005211811512708664,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "initial": {
+        "covered_mse": 0.005018723197281361,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "calibrated": {
+        "covered_mse": 0.0013043575454503298,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "deployed_bfloat16": {
+        "covered_mse": 0.0013044554507359862,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "samples": 96
+    },
+    "diagnostic": {
+      "glance": {
+        "covered_mse": 0.006026035640388727,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "initial": {
+        "covered_mse": 0.005791937001049519,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "calibrated": {
+        "covered_mse": 0.0012311574537307024,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "deployed_bfloat16": {
+        "covered_mse": 0.0012311118189245462,
+        "noncovered_max_abs": 0.0,
+        "noncovered_mse": 0.0
+      },
+      "samples": 32
+    }
+  },
+  "measured_grids": {
+    "glance": {
+      "grids": [
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "shape": [
+        4,
+        16,
+        2560
+      ]
+    },
+    "teacher": {
+      "grid": [
+        1,
+        32,
+        32
+      ],
+      "shape": [
+        256,
+        2560
+      ]
+    },
+    "focus": {
+      "grid": [
+        1,
+        16,
+        16
+      ],
+      "shape": [
+        64,
+        2560
+      ]
+    }
+  },
+  "no_focus_checks": [
+    {
+      "episode": "7",
+      "tick": 0,
+      "action_max_abs": 0.0,
+      "feature_max_abs": 0.0,
+      "context_grids": [
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "7",
+      "tick": 1,
+      "action_max_abs": 0.0,
+      "feature_max_abs": 0.0,
+      "context_grids": [
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "7",
+      "tick": 2,
+      "action_max_abs": 0.0,
+      "feature_max_abs": 0.0,
+      "context_grids": [
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "8",
+      "tick": 0,
+      "action_max_abs": 0.0,
+      "feature_max_abs": 0.0,
+      "context_grids": [
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "8",
+      "tick": 1,
+      "action_max_abs": 0.0,
+      "feature_max_abs": 0.0,
+      "context_grids": [
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "grids_equal": true,
+      "stop_equal": true
+    },
+    {
+      "episode": "8",
+      "tick": 2,
+      "action_max_abs": 0.0,
+      "feature_max_abs": 0.0,
+      "context_grids": [
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ],
+        [
+          1,
+          8,
+          8
+        ]
+      ],
+      "grids_equal": true,
+      "stop_equal": true
+    }
+  ],
+  "timing": [
+    {
+      "focus_count": 0,
+      "encoding_and_fusion_ms": [
+        28.64544652402401,
+        28.747234493494034,
+        28.650183230638504,
+        28.836009092628956,
+        28.46305351704359
+      ],
+      "mean_ms": 28.66838537156582,
+      "vision_only_ms": [
+        26.463380083441734,
+        26.49681270122528,
+        26.479417458176613,
+        26.646025478839874,
+        26.341036893427372
+      ],
+      "vision_only_mean_ms": 26.485334523022175,
+      "shape": [
+        4,
+        16,
+        2560
+      ],
+      "navigation_current_tokens": 64,
+      "runtime_noncovered_max_abs": 0.0,
+      "runtime_covered_max_abs": 0.0,
+      "vision_encoded_postmerge_tokens": 64
+    },
+    {
+      "focus_count": 1,
+      "encoding_and_fusion_ms": [
+        54.03067357838154,
+        53.56074869632721,
+        53.900450468063354,
+        53.54606918990612,
+        53.13367862254381
+      ],
+      "mean_ms": 53.63432411104441,
+      "vision_only_ms": [
+        48.035966232419014,
+        47.74814750999212,
+        47.90762532502413,
+        47.79945872724056,
+        47.486632131040096
+      ],
+      "vision_only_mean_ms": 47.795565985143185,
+      "shape": [
+        4,
+        16,
+        2560
+      ],
+      "navigation_current_tokens": 64,
+      "runtime_noncovered_max_abs": 0.0,
+      "runtime_covered_max_abs": 0.8125,
+      "vision_encoded_postmerge_tokens": 128
+    },
+    {
+      "focus_count": 2,
+      "encoding_and_fusion_ms": [
+        81.45301137119532,
+        78.05245649069548,
+        78.26849352568388,
+        79.48957849293947,
+        79.45748511701822
+      ],
+      "mean_ms": 79.34420499950647,
+      "vision_only_ms": [
+        72.15633429586887,
+        68.81651189178228,
+        68.90161614865065,
+        69.57500521093607,
+        69.52531449496746
+      ],
+      "vision_only_mean_ms": 69.79495640844107,
+      "shape": [
+        4,
+        16,
+        2560
+      ],
+      "navigation_current_tokens": 64,
+      "runtime_noncovered_max_abs": 0.0,
+      "runtime_covered_max_abs": 1.5546875,
+      "vision_encoded_postmerge_tokens": 192
+    },
+    {
+      "focus_count": 3,
+      "encoding_and_fusion_ms": [
+        103.36748324334621,
+        103.39247900992632,
+        103.83270028978586,
+        103.6883620545268,
+        103.1195567920804
+      ],
+      "mean_ms": 103.48011627793312,
+      "vision_only_ms": [
+        90.25628212839365,
+        90.41004814207554,
+        90.8606955781579,
+        90.82101006060839,
+        90.16906097531319
+      ],
+      "vision_only_mean_ms": 90.50341937690973,
+      "shape": [
+        4,
+        16,
+        2560
+      ],
+      "navigation_current_tokens": 64,
+      "runtime_noncovered_max_abs": 0.0,
+      "runtime_covered_max_abs": 2.0625,
+      "vision_encoded_postmerge_tokens": 256
+    },
+    {
+      "focus_count": 4,
+      "encoding_and_fusion_ms": [
+        128.3502085134387,
+        127.940583974123,
+        128.68774309754372,
+        129.96405642479658,
+        129.74257301539183
+      ],
+      "mean_ms": 128.93703300505877,
+      "vision_only_ms": [
+        111.681604757905,
+        111.23733408749104,
+        112.07362730056047,
+        112.75850981473923,
+        112.96371091157198
+      ],
+      "vision_only_mean_ms": 112.14295737445354,
+      "shape": [
+        4,
+        16,
+        2560
+      ],
+      "navigation_current_tokens": 64,
+      "runtime_noncovered_max_abs": 0.0,
+      "runtime_covered_max_abs": 2.0625,
+      "vision_encoded_postmerge_tokens": 320
+    }
+  ],
+  "backbone_parameters_unchanged": true,
+  "backbone_frozen_and_no_grad": true,
+  "adapter_frozen": true,
+  "checkpoint_reload_equal": true,
+  "checkpoint_sha256": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+  "elapsed_seconds": 17.234433543868363,
+  "calibration_episode_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "diagnostic_episode_ids": [
+    "7",
+    "8"
+  ],
+  "scene_ids": [
+    "7y3sRwLe3Va",
+    "7y3sRwLe3Va",
+    "7y3sRwLe3Va",
+    "5LpN3gDmAk7",
+    "5LpN3gDmAk7",
+    "5LpN3gDmAk7",
+    "7y3sRwLe3Va",
+    "7y3sRwLe3Va"
+  ],
+  "limitations": [
+    "8 train initial states only; diagnostic episodes may share calibration scenes",
+    "no-focus checks replay static observations with BATS history; not full closed-loop navigation",
+    "teacher supervision restricted geometrically; full-image encoder itself has global receptive field"
+  ]
+}
