@@ -1,0 +1,7 @@
+{
+  "samples": 276,
+  "component_rows": 552,
+  "meaning": "post-update retained-state gradient diagnostics; policy surrogate and entropy regularization separated; no optimizer steps",
+  "signed_stop_bias": "negative loss gradient would increase STOP output bias under plain gradient descent; Adam and shared trunk prevent treating this as an exact historical update",
+  "warning": "STOP-only samples can have camera/position gradients from entropy regularization, not from chosen camera/position action credit"
+}

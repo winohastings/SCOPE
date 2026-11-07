@@ -1,0 +1,64 @@
+{
+  "episode_uid": "agm_ppo_val_seen:284",
+  "source_episode_id": "284",
+  "scene_id": "SN83YJsR3w2",
+  "instruction": "Leave the bathroom, make a slight left, walk through the bedroom, leave the bedroom, and wait.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.979331016540527,
+  "path_length": 1.7810318795964122,
+  "gt_path_length": 9.769881248474121,
+  "steps": 3,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.20305766069755687,
+  "purpose": "val_seen",
+  "wall_seconds": 3.231848300434649,
+  "training": {
+    "episode_id": "284",
+    "transitions": 3,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/54f0d4b9cfbd47f5b324b0bbfc11febd_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/54f0d4b9cfbd47f5b324b0bbfc11febd_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/54f0d4b9cfbd47f5b324b0bbfc11febd_0002.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "284",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_54f0d4b9cfbd47f5b324b0bbfc11febd.pt",
+      "transitions": 3,
+      "reward_sum": -0.7432028452555339,
+      "focus_histogram": {
+        "4": 3
+      },
+      "camera_histogram": {
+        "1": 12
+      },
+      "entropy": {
+        "stop": 0.687595730026563,
+        "camera": 0.5141531477371851,
+        "position_latent": 1.7887591024239857
+      },
+      "start_geodesic_distance": 9.58128833770752,
+      "final_geodesic_distance": 10.979331016540527,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 2020.4676128923893,
+      "perception_ms": 330.132519826293
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7432028452555339,
+  "focus_mean": 4.0
+}

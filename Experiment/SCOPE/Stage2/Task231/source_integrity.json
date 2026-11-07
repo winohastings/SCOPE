@@ -1,0 +1,24 @@
+{
+  "original_artifact_files_checked": 15918,
+  "artifact_failures": [],
+  "original_actor_source_files_checked": 6,
+  "source_failures": [],
+  "original_run_unchanged": true,
+  "environment_caveat": "Current model/Habitat versions recorded; original run has no complete package lock, so byte-identical historical environment is not asserted.",
+  "camera_semantics": {
+    "order": [
+      "front",
+      "left",
+      "right",
+      "rear"
+    ],
+    "habitat_yaw_radians": [
+      0,
+      1.5707963267948966,
+      -1.5707963267948966,
+      3.141592653589793
+    ],
+    "source": "/home/data/czh/Third_Party/baselines/SimpleNav/benchmark/common/simulators/habitat/vlnce031_runtime.py:310",
+    "check": "source sensor orientation/mapping plus FusionPolicy runtime camera-order assertion; not a new physical calibration"
+  }
+}

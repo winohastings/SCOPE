@@ -1,0 +1,69 @@
+{
+  "episode_uid": "agm_ppo_val_seen:540",
+  "source_episode_id": "540",
+  "scene_id": "Vvot9Ly1tCj",
+  "instruction": "Head toward dinning area walk past then make a left and enter bedroom area, and wait.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.0698535442352295,
+  "path_length": 9.210486637428403,
+  "gt_path_length": 11.237812995910645,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8894214564167578,
+  "purpose": "val_seen",
+  "wall_seconds": 12.657316666096449,
+  "training": {
+    "episode_id": "540",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/facb7482b6a44e6cbd9dbeecac15b156_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "540",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_facb7482b6a44e6cbd9dbeecac15b156.pt",
+      "transitions": 8,
+      "reward_sum": 2.172305949529012,
+      "focus_histogram": {
+        "4": 8
+      },
+      "camera_histogram": {
+        "1": 32
+      },
+      "entropy": {
+        "stop": 0.5838037673383951,
+        "camera": 0.9104001820087433,
+        "position_latent": 2.4353204742074013
+      },
+      "start_geodesic_distance": 10.65444278717041,
+      "final_geodesic_distance": 2.0698535442352295,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9049.20720309019,
+      "perception_ms": 1076.6892349347472
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.172305949529012,
+  "focus_mean": 4.0
+}

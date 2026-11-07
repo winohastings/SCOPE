@@ -1,0 +1,8 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/snapshots/actor_0000.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/snapshots/actor_0000.pt",
+  "bytes": 12706391,
+  "sha256": "6902980f82c66522a17a5039441ff43e6f17871ab1b8231cc711012b491724e5",
+  "uploaded": false,
+  "restore": "Obtain the original trusted local tensor and verify SHA256. Placeholder is not loadable."
+}

@@ -1,0 +1,183 @@
+{
+  "heldout_critic": [
+    {
+      "transitions": 0,
+      "subset": "all_bootstrapped",
+      "states": 507,
+      "explained_variance": 5.185853407263519e-05,
+      "mse": 1.266265133018915,
+      "target_mean": -0.1646802324152598,
+      "prediction_mean": 0.09346449997871233
+    },
+    {
+      "transitions": 0,
+      "subset": "terminal_episodes_only",
+      "states": 307,
+      "explained_variance": -0.0005219394028583846,
+      "mse": 1.7679205767102337,
+      "target_mean": 0.06203743182492947,
+      "prediction_mean": 0.09488757714896132
+    },
+    {
+      "transitions": 1033,
+      "subset": "all_bootstrapped",
+      "states": 490,
+      "explained_variance": 0.041761767565636876,
+      "mse": 1.5914232269086253,
+      "target_mean": 0.4382563990188498,
+      "prediction_mean": 0.27493833780136645
+    },
+    {
+      "transitions": 1033,
+      "subset": "terminal_episodes_only",
+      "states": 365,
+      "explained_variance": -2.0546716973157686e-05,
+      "mse": 1.92173567907841,
+      "target_mean": 0.7568143996725205,
+      "prediction_mean": 0.31495078692901624
+    },
+    {
+      "transitions": 2054,
+      "subset": "all_bootstrapped",
+      "states": 476,
+      "explained_variance": 0.004281784899766716,
+      "mse": 1.32583674654051,
+      "target_mean": 0.20546968531519907,
+      "prediction_mean": 0.27401828455950034
+    },
+    {
+      "transitions": 2054,
+      "subset": "terminal_episodes_only",
+      "states": 251,
+      "explained_variance": -0.02155636111788306,
+      "mse": 2.045370256419101,
+      "target_mean": 0.7217733066559652,
+      "prediction_mean": 0.29477560609222886
+    },
+    {
+      "transitions": 3100,
+      "subset": "all_bootstrapped",
+      "states": 481,
+      "explained_variance": 0.0025579470758145817,
+      "mse": 1.27885104980216,
+      "target_mean": 0.5126859941427923,
+      "prediction_mean": 0.6889794577927698
+    },
+    {
+      "transitions": 3100,
+      "subset": "terminal_episodes_only",
+      "states": 331,
+      "explained_variance": 0.00246633105685945,
+      "mse": 1.829074378095014,
+      "target_mean": 0.516312041708233,
+      "prediction_mean": 0.690137866040371
+    },
+    {
+      "transitions": 4096,
+      "subset": "all_bootstrapped",
+      "states": 498,
+      "explained_variance": 0.0015845963354514936,
+      "mse": 2.0671588386714976,
+      "target_mean": 0.08048290866246034,
+      "prediction_mean": -0.6497942874709286
+    },
+    {
+      "transitions": 4096,
+      "subset": "terminal_episodes_only",
+      "states": 323,
+      "explained_variance": -0.00014602864891144485,
+      "mse": 3.168926624823072,
+      "target_mean": 0.5116942201308607,
+      "prediction_mean": -0.6481359708050826
+    }
+  ],
+  "training_sampling": [
+    {
+      "update_range": [
+        0,
+        14
+      ],
+      "transitions": 1033,
+      "focus_histogram": {
+        "1": 223,
+        "4": 294,
+        "0": 283,
+        "2": 137,
+        "3": 96
+      },
+      "mean_focus": 1.898354307841239,
+      "p_stop_quantiles": [
+        0.25270017981529236,
+        0.27466920018196106,
+        0.2789666473865509
+      ]
+    },
+    {
+      "update_range": [
+        14,
+        28
+      ],
+      "transitions": 1021,
+      "focus_histogram": {
+        "4": 194,
+        "2": 154,
+        "0": 338,
+        "1": 242,
+        "3": 93
+      },
+      "mean_focus": 1.5719882468168462,
+      "p_stop_quantiles": [
+        0.28200122714042664,
+        0.34176820516586304,
+        0.4041931927204132
+      ]
+    },
+    {
+      "update_range": [
+        28,
+        43
+      ],
+      "transitions": 1046,
+      "focus_histogram": {
+        "0": 610,
+        "1": 237,
+        "2": 124,
+        "4": 33,
+        "3": 42
+      },
+      "mean_focus": 0.7103250478011472,
+      "p_stop_quantiles": [
+        0.41584570705890656,
+        0.5810564458370209,
+        0.6243809461593628
+      ]
+    },
+    {
+      "update_range": [
+        43,
+        56
+      ],
+      "transitions": 996,
+      "focus_histogram": {
+        "1": 238,
+        "2": 126,
+        "0": 493,
+        "4": 73,
+        "3": 66
+      },
+      "mean_focus": 0.9839357429718876,
+      "p_stop_quantiles": [
+        0.43529264628887177,
+        0.5091559588909149,
+        0.5617996156215668
+      ]
+    }
+  ],
+  "critic_caveat": "validation data never optimized; deterministic policy differs from training sampling. MC targets bootstrap truncations; terminal-only results avoid bootstrap circularity. States are correlated within episodes.",
+  "cost_arithmetic": {
+    "reward_saved_if_same_navigation_and_4_to_0_focus": 0.04,
+    "extra_progress_meters_to_offset_four_focus_cost_in_unclipped_region": 0.6,
+    "progress_meters_to_offset_four_focus_plus_step_cost": 0.75
+  },
+  "causal_caveat": "Fixed-trajectory cost arithmetic is not evidence of navigation improvement after removing the cost; that requires newly sampled training."
+}

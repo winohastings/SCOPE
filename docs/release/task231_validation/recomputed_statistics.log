@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "counterfactual_episodes": 192,
+  "matched_branches": 128,
+  "counterfactual_statistics": "exactly match diagnosis",
+  "matched_statistics": "exactly match diagnosis",
+  "gpu_training_or_navigation_rerun": false
+}

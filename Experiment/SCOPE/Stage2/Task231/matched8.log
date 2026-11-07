@@ -1,0 +1,380 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-07 10:45:22,102 Initializing dataset R2RVLN-v1
+2026-11-07 10:45:22,141 initializing sim Sim-v0
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[10:45:22:251594]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+2026-11-07 10:45:29,036 Initializing task VLN-v0
+/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 0.7316322326660156}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.6672725677490234}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.6599931716918945}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.6643123626708984}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.7258281707763672}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.7361984252929688}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 0.658473014831543}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.7651805877685547}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 1.339156150817871}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 1.327153205871582}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 1.3386726379394531}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 1.3549823760986328}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 1.3150529861450195}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 1.299626350402832}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 1.3130159378051758}
+{"episode_uid": "agm_ppo_val_seen:303", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 1.3126373291015625}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": -0.15423011779785156}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": -0.12868309020996094}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": -0.12272262573242188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": -0.1303863525390625}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": -0.16320037841796875}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.8915786743164062}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": -0.13360214233398438}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.3234386444091797}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": -0.008970260620117188}
+{"episode_uid": "agm_ppo_val_seen:752", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": -0.008970260620117188}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 0.13007640838623047}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.14078712463378906}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.13464641571044922}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.13450908660888672}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.15739822387695312}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.09488391876220703}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 0.12279891967773438}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.14878559112548828}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": -0.3045377731323242}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": -0.2914714813232422}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": -0.2864036560058594}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": -0.2857179641723633}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": -0.30292510986328125}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": -0.3605537414550781}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": -0.30153942108154297}
+{"episode_uid": "agm_ppo_val_seen:111", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": -0.30414867401123047}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 1.0353679656982422}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 1.0852670669555664}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 1.1041898727416992}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 1.0835142135620117}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": -0.032990455627441406}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.9907245635986328}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 1.0639305114746094}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 1.1038093566894531}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": -0.1244974136352539}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.09833812713623047}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.0853271484375}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.034628868103027344}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.14540481567382812}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": -0.040076255798339844}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": -0.12449932098388672}
+{"episode_uid": "agm_ppo_val_seen:622", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": -0.08244132995605469}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": -0.43656206130981445}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": -0.4589982032775879}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": -0.4554934501647949}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": -0.4713892936706543}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": -0.4409489631652832}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": -0.4685492515563965}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": -0.48661279678344727}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": -0.4291701316833496}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": -0.9521417617797852}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": -0.9533596038818359}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": -0.9541463851928711}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": -0.9462738037109375}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": -0.9169940948486328}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": -0.9371042251586914}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": -1.0474843978881836}
+{"episode_uid": "agm_ppo_val_seen:588", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": -0.9722614288330078}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 0.5624074935913086}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.4917154312133789}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.48788928985595703}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.49832630157470703}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.5360236167907715}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.5656442642211914}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 0.49911022186279297}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.5562262535095215}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 0.761385440826416}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.7691240310668945}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.7635903358459473}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.7675938606262207}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.7554111480712891}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.7334146499633789}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 0.7038764953613281}
+{"episode_uid": "agm_ppo_val_seen:610", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.7483386993408203}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 0.24476146697998047}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.2627105712890625}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.21665287017822266}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.23430728912353516}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.39509105682373047}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.30927181243896484}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 0.21624088287353516}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.2124776840209961}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 1.1529197692871094}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 1.1450920104980469}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 1.152048110961914}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 1.1473407745361328}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 1.1622848510742188}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 1.1068782806396484}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 1.1314191818237305}
+{"episode_uid": "agm_ppo_val_seen:372", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 1.1739845275878906}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 0.4694061279296875}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 0.46846771240234375}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 0.46338844299316406}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 0.4649829864501953}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 0.4545774459838867}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 0.4553260803222656}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 0.4448375701904297}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 0, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 0.4356508255004883}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 14, "variant": "none", "restoration_valid": true, "progress": 1.9847869873046875}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 14, "variant": "learned", "restoration_valid": true, "progress": 1.977609634399414}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 28, "variant": "learned", "restoration_valid": true, "progress": 1.9728069305419922}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 56, "variant": "learned", "restoration_valid": true, "progress": 1.9775571823120117}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 28, "variant": "fixed", "restoration_valid": true, "progress": 1.958505630493164}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 28, "variant": "random", "restoration_valid": true, "progress": 1.9106550216674805}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed234", "restoration_valid": true, "progress": 1.9232301712036133}
+{"episode_uid": "agm_ppo_val_seen:138", "state_index": 1, "checkpoint_update": 28, "variant": "random_seed235", "restoration_valid": true, "progress": 1.9963750839233398}

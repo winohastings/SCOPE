@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:752",
+  "source_episode_id": "752",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Exit laundry room and turn left.  Go down stairs.  At the bottom of the stairs turn right and then go straight into the bedroom.  Stop in the doorway of the bedroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.3194305896759033,
+  "path_length": 18.29149143246468,
+  "gt_path_length": 15.070976257324219,
+  "steps": 16,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7538560134665774,
+  "purpose": "val_seen",
+  "wall_seconds": 23.95951669383794,
+  "training": {
+    "episode_id": "752",
+    "transitions": 16,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/6e48157a7ffc4228a99b966b9482b090_0015.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "752",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/episode_boundary_6e48157a7ffc4228a99b966b9482b090.pt",
+      "transitions": 16,
+      "reward_sum": 2.089131720860799,
+      "focus_histogram": {
+        "4": 16
+      },
+      "camera_histogram": {
+        "1": 64
+      },
+      "entropy": {
+        "stop": 0.5833241445943713,
+        "camera": 0.9173603029921651,
+        "position_latent": 2.437913801521063
+      },
+      "start_geodesic_distance": 13.65640640258789,
+      "final_geodesic_distance": 0.3194305896759033,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15572.178632952273,
+      "perception_ms": 1776.4668483287096
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.7465988464095277,
+  "reward_sum": 2.089131720860799,
+  "focus_mean": 4.0
+}

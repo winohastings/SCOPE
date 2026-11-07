@@ -1,0 +1,70 @@
+{
+  "episode_uid": "agm_ppo_val_seen:514",
+  "source_episode_id": "514",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "walk forward and stop after exiting the room.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.2678893208503723,
+  "path_length": 6.496134614571929,
+  "gt_path_length": 5.128785610198975,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7962921656276047,
+  "purpose": "val_seen",
+  "wall_seconds": 12.476720082573593,
+  "training": {
+    "episode_id": "514",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0713238e5305450a954c62e2398487c8_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "514",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/episode_boundary_0713238e5305450a954c62e2398487c8.pt",
+      "transitions": 9,
+      "reward_sum": 1.8805363138516744,
+      "focus_histogram": {
+        "4": 9
+      },
+      "camera_histogram": {
+        "1": 36
+      },
+      "entropy": {
+        "stop": 0.5847198367118835,
+        "camera": 0.9369962861140569,
+        "position_latent": 2.43638942639033
+      },
+      "start_geodesic_distance": 5.225934028625488,
+      "final_geodesic_distance": 0.2678893208503723,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8768.591270782053,
+      "perception_ms": 974.4198396801949
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.8044682474563927,
+  "reward_sum": 1.8805363138516744,
+  "focus_mean": 4.0
+}

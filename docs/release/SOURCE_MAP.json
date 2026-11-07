@@ -11983,5 +11983,2903 @@
     "source": "docs/index.md",
     "source_sha256": "98d1efe8eb68fcf92d3b79a272b0645a3da0d83ae1515cc218c962f68d12f183",
     "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/FILES_MANIFEST.tsv.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/FILES_MANIFEST.tsv",
+    "source_sha256": "b93b9dda6ae9572b2381ae721b588759c734c6bc4be560442d1fd86f43c25baf",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/README.md",
+    "source": "Experiment/SCOPE/Stage2/Task231/README.md",
+    "source_sha256": "69d35a3c1f882da4a324ec92f2d66531204f25aef1380caaa8eb516443c731b8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/REPORT.md",
+    "source": "Experiment/SCOPE/Stage2/Task231/REPORT.md",
+    "source_sha256": "493075a204ec47261e2f2e1df8625640fab6864b9e5051e66f8a9970cdf3eb04",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/INCOMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/INCOMPLETE.json",
+    "source_sha256": "364682b7ff512af4758ca8708b0f57df33e4972a2a15a6f7fde08bd9e0fcdf0a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/counterfactual_results.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/counterfactual_results.json",
+    "source_sha256": "d7df775145288bfc8383380a863cb4851981d2b7699ef1f2c0fc99c60eda7c93",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_forced4_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_forced4_009/config.yaml",
+    "source_sha256": "e511799220ba1356ef43de160cae62a70e4dcb25810f0c3f760f5caad015ff24",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_000/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_000/config.yaml",
+    "source_sha256": "2ac99e427449daee74bc30dfc04dc8df55480cdc772fe41178df0ed886f8a510",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_000/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_000/result.json",
+    "source_sha256": "12b33eb584df4a4e17d643e37f95b7aa12cd1d2092730660594bee82f169ef0c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_001/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_001/config.yaml",
+    "source_sha256": "707643232ed28df01ba1c0a1f31ca6ecf8e0406d69cf491ebb9ce2e1eb4aa41b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_001/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_001/result.json",
+    "source_sha256": "5ec24e1ecf1f2ed9e41a7803db6f02b38fa2525074853dbff6a86f4bb74c9f3b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_004/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_004/config.yaml",
+    "source_sha256": "fce0a290d4493cd55d774589bae19e6e0ca4e6f9f7adbf926e5cbffca1ee8663",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_004/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_004/result.json",
+    "source_sha256": "40438883e970850218eec184172cfbabe9732793df92df4fa12d01328b5b4cd1",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_005/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_005/config.yaml",
+    "source_sha256": "9c011b7e65ef2b5c882b3cda72965fddb12e7c85b15f0fe88042d3c7d70b35ce",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_005/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_005/result.json",
+    "source_sha256": "2c7192cb605c862993fae88e312358f9fb741f0f5c631f0745edf513c63392c6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_007/config.yaml",
+    "source_sha256": "d3368c237bc607585f1eb9e1f60678deb6531d3b684bdb7fb759bfe8cff16e27",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_007/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_007/result.json",
+    "source_sha256": "55310c910d220d249cf0549e57b49a90510f6b384c819b5cfdfa384576438f83",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_009/config.yaml",
+    "source_sha256": "099b67cf2439886bbb28fc04d149c06d1645af93381f14c29e29aa983490c003",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_009/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_009/result.json",
+    "source_sha256": "db87636ea9f44f10385ceecc962b5bea9045927a841edbbddd724e4d8c8a2e2d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_015/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_015/config.yaml",
+    "source_sha256": "0c05dc04e8b3c9607c1472c05b94a2924d447566e3dc1ba7fd206d71311fd15c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_015/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_015/result.json",
+    "source_sha256": "090898bd2cc8f4168da0ba7a5e6c34d6ba2bcb769e6bfbb476c5889c90bc5a8b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_018/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_018/config.yaml",
+    "source_sha256": "47dc2c8700c67b9ce54e65bfa9df269d8a6d2a121cbaf995d549d1f41c4afc39",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_018/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_018/result.json",
+    "source_sha256": "5a1be81de83b25277822fa8a6995ad60d6ba678d66838384115bbfb63bcafed3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_026/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_026/config.yaml",
+    "source_sha256": "4aa33bd64aa3e2e95fa2ac7ed9cb429399c606a805ff2b26775435e4c79ee5e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_026/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_026/result.json",
+    "source_sha256": "89d3e80ea7918e8c37fa37908931a1763e401dcf2dc04e1cc8b7ee6897ad73cd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_027/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_027/config.yaml",
+    "source_sha256": "abd5ced7f67e98d87a5e29fc6e2b56c7ca12aeb661011c8f5418575df7deef4d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_027/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_027/result.json",
+    "source_sha256": "5cc344ebeb4979d05467abc6836785db06462520af9e593ef02d3c44f4d80af7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_029/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_029/config.yaml",
+    "source_sha256": "e099d12ded947afb16cdeec55eb7efb5888917b8292ccaaeedc2a326da469bd3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_029/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_029/result.json",
+    "source_sha256": "505d8c6f6833ea9afad214f71bb75e74c7644eb04d7ea4fadc65a5f02cdd663c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_031/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_031/config.yaml",
+    "source_sha256": "6066b3928a39cf26f53875b666a169dc49d376c50fef884dfeedc18062cbb3d5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_031/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes/u0056_native_031/result.json",
+    "source_sha256": "b91666132b4651f3b1c134b19970c1b7e4c5aa45a32d9b8378ea95150ebfa438",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes_summary.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/episodes_summary.json",
+    "source_sha256": "17c42cf41a36312155d73d0e1717887994b9ed81ef9cf78cd1c63808e9d13cdb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/model_contract.json",
+    "source_sha256": "73ca5dc78c8ebf77072d9b5b91794214a1668dfcf6e7f6ad9538a615d1e25eb0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/scope.jsonl",
+    "source_sha256": "45ffe12ad62b8544b656b670493c4f1719cea300f9f8a528d0919bb5bbe10bae",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/trace_summary.json.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/trace_summary.json",
+    "source_sha256": "d455d28c68646b219c4d24d3061a743b27f73250a82feb7e7f3d71dc355b85ed",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/training_config.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/training_config.json",
+    "source_sha256": "cef856cb1388d82a0257abafa5736f07c6f691866c81d514e4bbc84217c6a9f4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/training_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/runtime/training_contract.json",
+    "source_sha256": "f7bf61ca3de31f4cf0ad0c9014fdf350522f1452d99c94aa17f5dc6f06cafecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/selection.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/selection.json",
+    "source_sha256": "09055633550b578f165b9c065fcbd9cf69b39108a3e12368ab20370b1dc3ef57",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/server.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual12/server.log",
+    "source_sha256": "234b2cc9fe33fbc46cabfd6da5ee0617746dbb66db47b3ef9367f4d19daf8fad",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/INCOMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/INCOMPLETE.json",
+    "source_sha256": "364682b7ff512af4758ca8708b0f57df33e4972a2a15a6f7fde08bd9e0fcdf0a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/continuation.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/continuation.json",
+    "source_sha256": "4ea2c62f19227d218245c8e2520cd9e437ee20e67490622e8110369b25fa771f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/counterfactual_results.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/counterfactual_results.json",
+    "source_sha256": "92a0cb4fdafc69b021fd60e5c2fcb3a162c27a1489eb1733c69f32096eabcdb6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_007/config.yaml",
+    "source_sha256": "135e8804b70add90a0d8f23edcaa51a6646b8aaf02898c8c8b9d0ef4c6b73f89",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_007/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_007/result.json",
+    "source_sha256": "cc9e1baf883e8b2877e820ef061d70eab6f79ff754e2215bfb6fa00a395b4452",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_009/config.yaml",
+    "source_sha256": "ff8e56ad1c708f5ecdd97a588bde39ec2d78b731333c1d17bca62ab85524a945",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_009/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_forced4_009/result.json",
+    "source_sha256": "e39c68f527b33db1c32328abe69c952b8a5fe5c43da51231bbc2a71e246ce33a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_007/config.yaml",
+    "source_sha256": "66d0903f5354553e4c5c0d8980c14d162e94f788eb63bae373989fd91dcebc90",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_007/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_007/result.json",
+    "source_sha256": "b9280f704bc28c14fe02db7ffdc9e3fa7f3d84e7549dc7e81c5675c9712578ec",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_009/config.yaml",
+    "source_sha256": "7e2b4ad2e8019bb0a21856f9f2ee4a3b20b55eab84636cb64c0ac991be74c96d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_009/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0014_native_009/result.json",
+    "source_sha256": "76ae1a08b5355fa093312608e408745bbd928fb9c83100e76dcbe3fc0c24b049",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_forced4_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_forced4_009/config.yaml",
+    "source_sha256": "ec9550287691bd57333219e08372c347acbc4483a706f57544c80670827085c8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_forced4_009/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_forced4_009/result.json",
+    "source_sha256": "8e0bc0b635cc28234fcf928cee0a53f10603efc2bef9f461735a093eb2544fea",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_native_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_native_007/config.yaml",
+    "source_sha256": "8928845baeaa98535f5a4d1c79e5d5fc7a4c83587364fcf1794d1e48a65da4e8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_native_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_native_009/config.yaml",
+    "source_sha256": "83b9649ccf2743beec404f5da5f3aec11d90ed5753db0086d5bd6e3bc964ee7f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_native_009/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0028_native_009/result.json",
+    "source_sha256": "d1857f1c604a600a8ccc655b3bcea4ea133e3b9c5d9d92ab45ca8e950c131fb1",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_007/config.yaml",
+    "source_sha256": "289914b4188a45e3bc9c55c6cfe1e88540743ce4decff128e24335d1a032d024",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_007/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_007/result.json",
+    "source_sha256": "8991181acab48193af2d8a9e1d2899a77611cf0a3bc5c988b8cb50641eaa62e7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_009/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_009/config.yaml",
+    "source_sha256": "7890846f83d6f50e08b61cd8cf96b6d78ca7cec05f94e86a4709d329e54d5035",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_009/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes/u0056_forced4_009/result.json",
+    "source_sha256": "c0fea38568f4b8f3defb0cb0ff66497437f22260013574e32dfe981c7e919e37",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes_summary.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/episodes_summary.json",
+    "source_sha256": "6de5b0a250b834384d1db6fc167f51a833445c5e11af430b654566a8de300b7f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/model_contract.json",
+    "source_sha256": "73ca5dc78c8ebf77072d9b5b91794214a1668dfcf6e7f6ad9538a615d1e25eb0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/scope.jsonl",
+    "source_sha256": "46dd087862f8c44a0c0603ea685dbdb759df516d164405a935c7c375c3bceb7f",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/trace_summary.json.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/trace_summary.json",
+    "source_sha256": "ddf9a28bf183227b70e41d608329d4383f04184aed04a34e9ff0c6bd132b77fd",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/training_config.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/training_config.json",
+    "source_sha256": "cef856cb1388d82a0257abafa5736f07c6f691866c81d514e4bbc84217c6a9f4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/training_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/training_contract.json",
+    "source_sha256": "f7bf61ca3de31f4cf0ad0c9014fdf350522f1452d99c94aa17f5dc6f06cafecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/selection.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/selection.json",
+    "source_sha256": "3341d4744c18e6debd56b94247b5dd89b09a64e0b629e7b62548478badeb50b8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/server.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/server.log",
+    "source_sha256": "5850db066d9f3b2559e1039aeb59495c9aa5215307f060a283da804c2dac75b4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/COMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/COMPLETE.json",
+    "source_sha256": "d2ea176c76d22e473ad772e0fecbb2e6cef40fbd50d335669f7ce829e7f72c4e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/continuation.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/continuation.json",
+    "source_sha256": "7572fca309a43441bb91116aeafcd120c77ae08c8fa7e7df24b35bc6da8e25ca",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/counterfactual_results.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/counterfactual_results.json",
+    "source_sha256": "7c6efa6c41b63928ebe79dd21e8c3ba381665c845b80cfc3cb3320b1ff69c88c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_002/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_002/config.yaml",
+    "source_sha256": "ee048b4373f118dc896e47ce2af6a65098536321c30a75903069401784b95dec",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_002/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_002/result.json",
+    "source_sha256": "4614d228924faf8c0a5cb2dc0ec082c0181c30379a1e42b3554c69c87d7354a7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_003/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_003/config.yaml",
+    "source_sha256": "c2299a8bf7f9fd001fdb3c1bc38ae47635cbbf4a5c32554f1b1c698b314e4ec5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_003/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_003/result.json",
+    "source_sha256": "3855a52e99884d3ba73ce96170dd2ad952be7d47b25c2f354ad16794859ca9ef",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_004/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_004/config.yaml",
+    "source_sha256": "664ddd14ea9cb070a728551074b3b03539cdcfb586afc794db712c92943bfae4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_004/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_004/result.json",
+    "source_sha256": "2ac3e126094d22b73e927e40ff5d6269f5e830c00b1aff3961e3e2e52c2f16e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_006/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_006/config.yaml",
+    "source_sha256": "dfbf712288a8612914a39445cb0263829d87847e4122bdda81ff6cc07e91d570",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_006/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_006/result.json",
+    "source_sha256": "e6a622d3fb91f8d2009f6e6d6e6a394d9ddcc5f8981753c6686a0a2217a9e1f2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_010/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_010/config.yaml",
+    "source_sha256": "a90f4dd0f1492e24175917f9cff88bac1582f3c9dea7d4be7c9008b83b274cd2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_010/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_010/result.json",
+    "source_sha256": "03825cebbd493c523c43e660bf0b5771b480b7e8e0a5c42f8bf12e59659fc5ab",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_014/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_014/config.yaml",
+    "source_sha256": "2d716364f977bfa93237aaac377cc665a445d9f72beecb501d676996e0c27d31",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_014/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_014/result.json",
+    "source_sha256": "ee485c6801a70c938274313886fe26e46247d391bceb0483a8344bfea13b41e2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_017/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_017/config.yaml",
+    "source_sha256": "3e41ddc1295bb85d93bccc82a89ae697c4b8c2cf31c3f09a5ae7ac15f5794ac9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_017/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_017/result.json",
+    "source_sha256": "7609e8f920df58a80008f1ad4a63a8f417a2c2e6bf5705c884ff5ba5286d20a6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_018/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_018/config.yaml",
+    "source_sha256": "c329e4e37695b2436fd82011b30dc35e820cfa6533abde550743e8bace6ea7fd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_018/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_018/result.json",
+    "source_sha256": "435bce726f46f79c43af7c6bdc7c7606407718dba92a827becccc9e7470b9afd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_021/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_021/config.yaml",
+    "source_sha256": "2cf25223539070ed5f92fe351afe2a540ac73a54c12c84d7ec380322f556151c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_021/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_021/result.json",
+    "source_sha256": "aa502e901b6debdaa7e88daef64df9690b4eb565c050d48f190c691c49f53426",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_022/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_022/config.yaml",
+    "source_sha256": "90aab6c6d27d2ea7519838b37346703ef21e69666d43c7e32457e83c94b5db22",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_022/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_022/result.json",
+    "source_sha256": "a398e96721bef9722e55740d4a1651ace2748ef2122d9410f2671ab5b50076d8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_025/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_025/config.yaml",
+    "source_sha256": "176bbe8cfb79634f9d52c9798633be507a712102d962a1e44c3c20d8867f4315",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_025/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_025/result.json",
+    "source_sha256": "df50f9442e8094f2878890174e96a8db95955539cdf058b026a424d00a2054bf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_026/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_026/config.yaml",
+    "source_sha256": "cd768af5b2d1de5d940218979e23b3e69ac1f71e0ce61fc258641e320c1a1504",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_026/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_026/result.json",
+    "source_sha256": "74887ded1a25d27308db6389bb29da016e3636e113d664c6df290c9481595e9b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_027/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_027/config.yaml",
+    "source_sha256": "0eb733b951d24a0a7477b4b1c435459ddd93b81960d2364b698bb7a85d2fe3e7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_027/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_027/result.json",
+    "source_sha256": "70dd54e0d7f6a9244eee511b2ad09137c1f0e6897482eeaa3c9eecee3cf08918",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_028/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_028/config.yaml",
+    "source_sha256": "2878ce3401d77dbc9b0e7561803d1dbc6d50bb38353a1dbc4ad83301223a01b1",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_028/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_028/result.json",
+    "source_sha256": "45fa5f357c4bb696b12109d5524a706ba1058e33d1030d2ad51a0cdb83ef0a5f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_031/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_031/config.yaml",
+    "source_sha256": "e24e8ca116e043d58bb9f0585c470878e290db088e5b51ab8dbad6e57de68ed0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_031/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_forced4_031/result.json",
+    "source_sha256": "ef734ba09068959f42bc634f2d4921a1aa98aed9d219e1cc3561b2c279c50eee",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_002/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_002/config.yaml",
+    "source_sha256": "5db380281edc6d7862f11697b28a1bc9a93b71baf4454f3c065ce314694f33af",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_002/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_002/result.json",
+    "source_sha256": "a746bc99df40d83780f780b76dc52bad94844c7fa7e29c4650f3ad1d02837e74",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_003/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_003/config.yaml",
+    "source_sha256": "438c5509afdb90899a34bb5d9127998d8d663ec205699676cfaee84b4ad07a76",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_003/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_003/result.json",
+    "source_sha256": "671dcfbf140e29faa68c48191fcb193fa6df612c959f578a03862d73b370acf4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_004/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_004/config.yaml",
+    "source_sha256": "8282b319fcc142f67d35939d8b8ec705cc97798b2d8dbce681092fd27b858db9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_004/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_004/result.json",
+    "source_sha256": "0d2dde873fb69734f7c25349f96afad4b89891b4f8a7631e2531a0d6e14c2ef6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_006/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_006/config.yaml",
+    "source_sha256": "7cc64868ea560f281541a10f5664de90b49be0bcec2021391d24f9130edc0b38",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_006/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_006/result.json",
+    "source_sha256": "9aca5d69ec3e659495ad7b247ba4a1ae827e18fd2d2fbda1299ecb423e429d9f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_010/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_010/config.yaml",
+    "source_sha256": "5df1710ce82dbad296f2f17ba283f9d4c1efe8c3092fdd0c313116b94d85e45a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_010/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_010/result.json",
+    "source_sha256": "e6b07df28be3815531b4b663696648c643807e39b5405a622a077ebcf848b3c4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_014/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_014/config.yaml",
+    "source_sha256": "e60f967a05d3e09779d81c6987a4327c4e7a7c81324278e37e75bb18f8fb4c10",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_014/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_014/result.json",
+    "source_sha256": "872862d9ee3076d748c1f754fcc9bdf35731ea2a91592702656cd8c05cd0dd65",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_017/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_017/config.yaml",
+    "source_sha256": "67c9ac2948c4dd424bf4bf94a5c03692ae45060e76539fc34475ff78ca8ec30a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_017/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_017/result.json",
+    "source_sha256": "80592483afe0436c4de0ab7b2a622d690110e7ea8068dd3f23e4439a7f511d3c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_018/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_018/config.yaml",
+    "source_sha256": "13070424d0b007d9f5cfebba2bb82718e2ed4058bf32ea6b4a1992ee44b56894",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_018/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_018/result.json",
+    "source_sha256": "f28ad7f354a2b7cc7e5e41d922ac05bd0127f56dce6fd32e71d089c5eed4b171",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_021/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_021/config.yaml",
+    "source_sha256": "000c18e65164a28a36d4cf074214458606c7a3a3f04c56df52a57526054359b8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_021/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_021/result.json",
+    "source_sha256": "35603ad440ddc6edb473f11324366c31e1768aec84063e51d54a3351dd8ac296",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_022/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_022/config.yaml",
+    "source_sha256": "b0f34eb56a9cb224e2d574f451e7dcb938a4856b95026b50a681aa623a280bcb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_022/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_022/result.json",
+    "source_sha256": "e8b310c46b57667c66f38f7062c95d669e3911108c1f33d3b5c89e519432bd32",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_025/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_025/config.yaml",
+    "source_sha256": "a6ea89b68dbc31004b031d45704472893f325288c4cb737f0c7e63588be3c424",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_025/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_025/result.json",
+    "source_sha256": "a0c8642d1290b301684afe16bac760f40c7fa478b84063a2cbc4471f9c792b47",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_026/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_026/config.yaml",
+    "source_sha256": "e689f031c6cb47e4cd8ae7b0e88558c1d68d4cc13ac7c3f79a629d92f3587d06",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_026/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_026/result.json",
+    "source_sha256": "be5d7f73a1e24b998d659d1db3acb9c5fe280479560d5fa77ad74211bdf07769",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_027/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_027/config.yaml",
+    "source_sha256": "c8cb86818c14bb8b19dd130ca8afbc9c390907477943301b1f44386a3dacb97b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_027/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_027/result.json",
+    "source_sha256": "e76f8ae67092c2e88a0cc02cfeb70866df6644956371531ec6f8a0521ca3b8b4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_028/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_028/config.yaml",
+    "source_sha256": "cfd941b67ac7a98dd621a1db8efd98876ebd26834c69c8fa9dedab09a0575ebc",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_028/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_028/result.json",
+    "source_sha256": "87cf9996a7f436d6c41ef005753d0ed1dd94efa513cc9c3bb8ffa24171d620d9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_031/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_031/config.yaml",
+    "source_sha256": "f0d2cd4e3a8fdb8dcf7489c7c51f3021bb6341f80528886160dfd14df261ce4d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_031/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0014_native_031/result.json",
+    "source_sha256": "62a172a07a043f5edec3e18da9025e25d4a318f4af66587c95f7cd094d563bd7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_002/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_002/config.yaml",
+    "source_sha256": "62c373b9513f72913575a65e1d989a3e298c04b3a1ac8f874518f32a1d160c66",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_002/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_002/result.json",
+    "source_sha256": "62ed18fab9478a90455cff0252600cf8af833527de416a5736fb443740cbbb73",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_003/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_003/config.yaml",
+    "source_sha256": "31acd9e4d06901e6d0a9fb2b1d4452a61f01b561722e1d727a36aaea67a9be1e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_003/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_003/result.json",
+    "source_sha256": "06645e6b96db692bcbffdc1f4c331e85c673fa68e0868404a0c157dc4ad8dc46",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_004/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_004/config.yaml",
+    "source_sha256": "17816d01d036a2b63a52091fb3b0f3070792fc55a87ad99500f8de02579330b5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_004/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_004/result.json",
+    "source_sha256": "63b1cf0faef9cbbc7667edff911392d9d6c44a1a12e612d05c3f6297c4814b03",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_006/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_006/config.yaml",
+    "source_sha256": "b62b22e116cde68a4e9f4520b960a6c686d4118236c3556e92eb1020976d0cc5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_006/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_006/result.json",
+    "source_sha256": "b989ce95b2948b223ffebd3b43e8e9ebb285bedf3eeb9b4f21a7bcd8f2c278eb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_010/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_010/config.yaml",
+    "source_sha256": "77f92e95229e9e4c466fef64daea06cb0dbe300c3805b23b191a13bae6eb957c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_010/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_010/result.json",
+    "source_sha256": "9ce62d06c036d736c834c35aa405eb26d5580ab9731bc3e758049936d02fdf7e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_014/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_014/config.yaml",
+    "source_sha256": "24a41bee07bf919b62d01f272d8be4ec541b88b95173eb2a95c9732ba6bac0b8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_014/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_014/result.json",
+    "source_sha256": "3342f27cf1735d365705724b1f9a1bc1289ee44f1962b70bd7272a6764373f29",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_017/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_017/config.yaml",
+    "source_sha256": "d275c3739e0bb2908b09295ec4dfe4645242b98e43a9376aaa5a733ec8f490fe",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_017/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_017/result.json",
+    "source_sha256": "842159d3d2a2e59f5a8306d0b9d44a89b21b0248c61cd9f0a52151bd8fa1b281",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_018/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_018/config.yaml",
+    "source_sha256": "5f4c43cdba447eab2ce6e9d0ffd0e9023261145f2204a86d9d87e5d546f5a1e0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_018/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_018/result.json",
+    "source_sha256": "1b859a153d0b7c06d6235871e5237286ede27af1d1ef9c360510c5d53e94171c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_021/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_021/config.yaml",
+    "source_sha256": "125e66f8e719736236f64ba2e27b8fbc4b3ae234c1a95e598856dbd12f97235f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_021/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_021/result.json",
+    "source_sha256": "584d4b2e62aa55a4fa5b0c22a76e54f921df5b0010d431f4a09424824365825b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_022/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_022/config.yaml",
+    "source_sha256": "9daedd147bf6e3986d78ee29643515e7b57a7bf63978e86c8e6cd39cea1b4838",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_022/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_022/result.json",
+    "source_sha256": "673e79a968900b52699abb7f6e77b6cb2d8e1fd80243f7dd96078d4bc335530d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_025/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_025/config.yaml",
+    "source_sha256": "d478b6815bd90870b68c767b2e40c26c3d78e773881c2f66a7640d0113b0f39f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_025/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_025/result.json",
+    "source_sha256": "6a837eb43e76a0563dcb7f15a421aa5670025cd64b1e47498443c335559cc21f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_026/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_026/config.yaml",
+    "source_sha256": "7f77e790c9c79bc410339a8b18552569487523c5b10496e1a2a8f223566a0ce2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_026/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_026/result.json",
+    "source_sha256": "728fec23b182c34278ef719fed0feab8a931bc76f0f53dc8ff723e0c20463d5e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_027/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_027/config.yaml",
+    "source_sha256": "19cda2f3f92e759d4b3c3be19080b94cb9d95939cb473fd064d2fab3ba9248a8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_027/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_027/result.json",
+    "source_sha256": "d0ee88009ba27ffe0c514d6752280fb610167b3dd47f079b1fa2d245948059bf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_028/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_028/config.yaml",
+    "source_sha256": "fb1275c78ea9f17691de8bb0b42b4ffd2fb8886bcad479bc6b9dde196efd24fd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_028/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_028/result.json",
+    "source_sha256": "5166be9b4e98298b48036c66c7a72409c637da654de2ea565b6013cb98f21a1b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_031/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_031/config.yaml",
+    "source_sha256": "2812def53a2f59e15eb6561d3ed423d84f703ce23464ba781c116f505659e266",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_031/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_forced4_031/result.json",
+    "source_sha256": "f59cf97f0f2c09040b33ef5977be63d4384995cf1a2692e334b50c74d7b24f75",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_002/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_002/config.yaml",
+    "source_sha256": "a1bd77c946119775962fb2cace97cbbbf95d948fb001bc7008dca7247b3c7b47",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_002/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_002/result.json",
+    "source_sha256": "26c77af0bf60bfa66434c7d2b701727c9817691645cacc8400758c4bb11c8289",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_003/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_003/config.yaml",
+    "source_sha256": "4bc8b1a049d557e6fde6826ff6216451603f46b692bd793236471df93617ac8d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_003/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_003/result.json",
+    "source_sha256": "535dff34a40b8d3d57e100ec374225dd7775b6b614f448e314b696a62d0e8c4c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_004/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_004/config.yaml",
+    "source_sha256": "792be7e562b6f095e5046b52bc72e47dd0ff3b1779d9fa6a94cde577259039c9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_004/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_004/result.json",
+    "source_sha256": "f95d4dfb2e43edf88fc19abbdc650937ff5ce8ce8692ac39adc5930074a0940d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_006/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_006/config.yaml",
+    "source_sha256": "c7872de5af84ba46dc2b3d081bed599a4d36ea595a652bf736c4dd810734d79b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_006/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_006/result.json",
+    "source_sha256": "a97e755b5651302a06d9f515fb578c603817480eb574e61cfcfd1cf3a9422328",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_010/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_010/config.yaml",
+    "source_sha256": "708866dd5225f8181b576f497f8022fd61dffb4c4fdfc2f40ef7d041f362e63d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_010/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_010/result.json",
+    "source_sha256": "eff2bd71e899d1c7640ea32b307887ce16dc0f3c45e9c4ac3c375f0a25050310",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_014/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_014/config.yaml",
+    "source_sha256": "4b204f0f35c4479eb048db8bd95353fba7f988de5ff77f8c884eaf30f8b03941",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_014/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_014/result.json",
+    "source_sha256": "6165f13922390053d924296b4e271d0a12a3e79ef9de0e615cf35b2ddd8b9dce",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_017/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_017/config.yaml",
+    "source_sha256": "c0e793f15115079b0aaf2fcdb90f18ea627131d36d22e53d051e9d7c563bfba3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_017/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_017/result.json",
+    "source_sha256": "6d51f473e8646b09967e51e6e66c3d8038177091a69cc4ca8503dc883dcbca1c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_018/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_018/config.yaml",
+    "source_sha256": "5f857f45f12bfd56692c77ffb1aaa84afd0fc635375e1a9ca042f06f21c5b877",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_018/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_018/result.json",
+    "source_sha256": "f7d3c78374bbd80b7b252f4eba23cd89b2e286d2391d3c4b5411e94902c0c782",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_021/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_021/config.yaml",
+    "source_sha256": "cf5ea91186a4a3ef4419bc27474310cbdabb9415fd4c4f216e426a8a464b8595",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_021/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_021/result.json",
+    "source_sha256": "feb5f390dcd15fed4da60b65f2cfd1825ff00a5495460dcc848bb01506605273",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_022/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_022/config.yaml",
+    "source_sha256": "3001d177295d0fdd96e7cff15ec24199e207553d0e023c58c5f8e491d7e89291",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_022/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_022/result.json",
+    "source_sha256": "eac619a33efa812f6ae34ca8e5c14ccca0533ec247c8cd9076d94910e052d510",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_025/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_025/config.yaml",
+    "source_sha256": "04b1a4e4d356266a9b6b5a8ad9d8aeda128d38f39089531192e3e5e5f758c31f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_025/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_025/result.json",
+    "source_sha256": "7b601220af7e352c26fc15c340da472bc2599a82338f2b2536e7c85b9ceafbdb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_026/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_026/config.yaml",
+    "source_sha256": "5d980388ea8b73b08e7dc2975b8f379af273c63231dd179c82769a08f4c61976",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_026/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_026/result.json",
+    "source_sha256": "70342953242c650022ddc0eff93d7d89d7bc9c351370bed653d58ffa2531d909",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_027/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_027/config.yaml",
+    "source_sha256": "31f05d09c7dea31db39ca20ce190f5b56a394e1c74f359b51d34e62fa2911969",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_027/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_027/result.json",
+    "source_sha256": "8851144b5f4ab63e5bd6661e0830ebd8ac4f1e3b0780506271823495343c4bcf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_028/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_028/config.yaml",
+    "source_sha256": "f08bf7dbd953c2de27408da73d3b87b802697014d73089f8192d98592c17065f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_028/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_028/result.json",
+    "source_sha256": "71035397186d36ba4bffa0f21ae78d7f1bf16b7f6d1a0d931adfddd19565d9b5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_031/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_031/config.yaml",
+    "source_sha256": "2456ad0c390212a043cd3f206300f7cde5e5050d403ab0429fafa765007e87b6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_031/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0028_native_031/result.json",
+    "source_sha256": "fe9801de24d2e8ce621cd8afd86b28b8a4deefe837f3e0f82c73b285ebf7b280",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_002/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_002/config.yaml",
+    "source_sha256": "1a36501bd44ab394f414b34ca2733265a969084ddf98fb2c3ee2e33228de82b4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_002/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_002/result.json",
+    "source_sha256": "cc5ffee87560dc42618530c825816dcbada7e343c7090fa0299de25357acbf87",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_003/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_003/config.yaml",
+    "source_sha256": "673c60a77c8f8075e27a1078833766a16e16cc50cabf6ff0d8683dfd3fd38db2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_003/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_003/result.json",
+    "source_sha256": "37e5d6c336f9e562896cdcd85e920c45c1aaaf071cd7e257c326b40e626780c0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_004/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_004/config.yaml",
+    "source_sha256": "b88b150369942cc312f02b85dbf193d31764466847765f53ea6307983da64c48",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_004/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_004/result.json",
+    "source_sha256": "0a05eb9d3282d38d4fc1458c47ec380cba679f6b8311522127ccccc09fd7bf35",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_006/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_006/config.yaml",
+    "source_sha256": "de983e7217a6ff23770429a1d6ff6aec1529ed39673f061e419c63cd4d47f3f0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_006/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_006/result.json",
+    "source_sha256": "c9a96df1c69e6414bc4ed9fae44e74b203a8b534fbb513fdd0ab1563bb1d5ccd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_010/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_010/config.yaml",
+    "source_sha256": "f88bb1d539620262e815fa40acaf2ccf67ccd70a211373d71f306f7a3c8d06bb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_010/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_010/result.json",
+    "source_sha256": "528824d1c5c2764c693b993ff9cc9ac84efecb2ff423c27d96b4a14d5e3161a9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_014/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_014/config.yaml",
+    "source_sha256": "87e70f23f3f559892bd0d83e7c35b600cd72d98530dcada5a1d128160edb7029",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_014/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_014/result.json",
+    "source_sha256": "3461d8aa55d7d188bd2cfa05fbd9cb56bd07510583651607df8aa96c89c0f953",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_017/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_017/config.yaml",
+    "source_sha256": "5854b367ec93eefa0cc4ac350dbcf61dbd5e1a88b32eb121829961187c879c0f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_017/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_017/result.json",
+    "source_sha256": "32daa1960495f55dd7892e1b8af73f35872190d8bf19f45e10b1c2d69b2f2a22",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_018/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_018/config.yaml",
+    "source_sha256": "19c007eebaef474df148d1e17e9745f504cfe608ec42190cfd5e0d85e1360501",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_018/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_018/result.json",
+    "source_sha256": "98f9d78f59c352b01cb72cd375cd189a83e1e45390a96d565b0a7a224e890735",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_021/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_021/config.yaml",
+    "source_sha256": "bcd5aa9be2fde4098bbf65bc2a98346172095123e7248a0e55688a9bd7583b24",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_021/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_021/result.json",
+    "source_sha256": "464c65b6d6fcd63f1071b7df2ebbbb2f28b678bb94a13d8f8fd1c091b086ef2f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_022/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_022/config.yaml",
+    "source_sha256": "898e2dddd9783a72a0db07a4483238df03070c844cc7b53cc2182ad7f2e58d78",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_022/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_022/result.json",
+    "source_sha256": "6dc38898701909ca45250a721b3982b023a14fa5c7a83c2f33f4377321c8fe9b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_025/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_025/config.yaml",
+    "source_sha256": "85e387bd9072a7496747cfe837e8155622d086216ade67fb8bce3c20bb6f6e86",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_025/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_025/result.json",
+    "source_sha256": "72f94ab8057e7255794424a86716ee7b54e957f4444988233abccbadff8d9605",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_026/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_026/config.yaml",
+    "source_sha256": "9a057fcf383b36e206b0155e811e7ee1a49a28e42e802ec30f261f6fe2b9fc0c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_026/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_026/result.json",
+    "source_sha256": "df98d2778bb48737bd15554a4ba7333ea94e824e073c4e2fd6cbe91116133c37",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_027/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_027/config.yaml",
+    "source_sha256": "e6ab6dce8c324323fd596478273fa36cb5edca594f35dcc0aa7e7cc530c7a776",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_027/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_027/result.json",
+    "source_sha256": "30fc17c28b204475794a312d4c850f27a2845d353bd85c2efa890b0b05ac29a7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_028/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_028/config.yaml",
+    "source_sha256": "911ee1e3cda3023dee39dc66d3eec43fd986f510dd768e6e178e3358ad54d7a6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_028/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_028/result.json",
+    "source_sha256": "5a467ae4c535c9687af4d6e6dd08c967ed4c4f573f1c2b5616cea0c5266ad5ce",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_031/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_031/config.yaml",
+    "source_sha256": "46e682f9f0036935c2d82f01aa24004b799692697738e0f56e56eab46b8244bd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_031/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_forced4_031/result.json",
+    "source_sha256": "53725256e25da269319c7090d574d70f6dd7ee239dc800e1bac80a1155e8347e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_002/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_002/config.yaml",
+    "source_sha256": "8869d46325d707207a578f7d554c712c5a725e4da7afdc5f171e1eef5dca56e7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_002/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_002/result.json",
+    "source_sha256": "9808322b4e90d8c52946cf46709ce2e3769d37e79000a25715f211aada9f856d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_003/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_003/config.yaml",
+    "source_sha256": "a20f4aa3ddec2ae84d1439bfc084a9263b3a73c0aecd3dca0f142797a9fd09ed",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_003/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_003/result.json",
+    "source_sha256": "c60b2863f091b27179f4d8d8e632e66884c7c02d907b8880289ca8afc0a30e38",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_006/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_006/config.yaml",
+    "source_sha256": "826e1e7ece41e5e3d7d34b9914fd341efb8658724981a6dc6837444777117790",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_006/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_006/result.json",
+    "source_sha256": "823d3fd2741f014fd5070e1bf0576291134ae2797cba86bc4d427fbdd38cdadd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_010/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_010/config.yaml",
+    "source_sha256": "9b07356d5f45e9dd72d167bd6d42905bf81af49daee9e304f57fa2e570afdb9b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_010/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_010/result.json",
+    "source_sha256": "6b058b5be3dda0f99e9de74eafc81faaca92520ed11d8c081940a83d6dd0d5dd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_014/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_014/config.yaml",
+    "source_sha256": "b253fe722603ce86180dc8dc39e28dd4fd77160cce9076137d8e68f0d521534d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_014/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_014/result.json",
+    "source_sha256": "5f1ee04aa578c00fb0ba40a1cd214b7d3262fdf5f50a0b160984187226e04e38",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_017/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_017/config.yaml",
+    "source_sha256": "7fcf853dc52e3c2696431aa53fc7f7e8c7be377c33aca67e333743da470a16b8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_017/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_017/result.json",
+    "source_sha256": "3ebd69dbe9e0f3e995ac621d4fe78d48a26b4b64c37007ec46dcfd16606f8834",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_021/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_021/config.yaml",
+    "source_sha256": "6d870687dbf284fe12685607f647d67e86249bdbcc322f9e3102b434a2da0974",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_021/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_021/result.json",
+    "source_sha256": "c5ee71334be8d385398d3a8419f534c931e12cf271964542fc75068fa55bad70",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_022/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_022/config.yaml",
+    "source_sha256": "1490e269f0cef23f94a3c9f72f6c51205df167da703715311cd4b29b1c79eec3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_022/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_022/result.json",
+    "source_sha256": "070b5124009bd03c4f700201f5a0cda98640e7f0520354ba39ad7ad4dd85b616",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_025/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_025/config.yaml",
+    "source_sha256": "e8d6a0bf300e049dd062c840338a8f49e99aa033f141e66aed77335b3d5c0276",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_025/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_025/result.json",
+    "source_sha256": "c79e34c58c4840a7c8ad40a2ce70ac744cf44e3cdf0ca223fd1042c8c9f124b2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_028/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_028/config.yaml",
+    "source_sha256": "9e00941c038a3f4d6e42f8a578fc0689a38da6725411c18af25d5431c72949a9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_028/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes/u0056_native_028/result.json",
+    "source_sha256": "acb57aecfb6c9888348d5da6d65ee03cf11d1c5e390823ef250fd53afa82bb9f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes_summary.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/episodes_summary.json",
+    "source_sha256": "d2812d9b24a022492eba091c3969dbd9fa1f4c096f8cca3fd1d4d856c9ea249b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/model_contract.json",
+    "source_sha256": "73ca5dc78c8ebf77072d9b5b91794214a1668dfcf6e7f6ad9538a615d1e25eb0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/scope.jsonl",
+    "source_sha256": "ae38d1319ab919f8a0b1cca09d715f7accd1e2d9781bb5bf5642314bf9e3e4c4",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/trace_summary.json.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/trace_summary.json",
+    "source_sha256": "3672347401dfeba91a4559f38bd2e657e013086fd062c70624c2af7ddb3bc089",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/training_config.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/training_config.json",
+    "source_sha256": "cef856cb1388d82a0257abafa5736f07c6f691866c81d514e4bbc84217c6a9f4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/training_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/training_contract.json",
+    "source_sha256": "f7bf61ca3de31f4cf0ad0c9014fdf350522f1452d99c94aa17f5dc6f06cafecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/selection.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/selection.json",
+    "source_sha256": "23244324bdd37184049ae62f4e83793f53b09d0df4a2def199ecdcea8310a7e6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/server.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/server.log",
+    "source_sha256": "9cb1f0d463b953f37d4cc5aa2788a1713c0d0af294e491c9f35c35097b34b0ad",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/COMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/COMPLETE.json",
+    "source_sha256": "d2ea176c76d22e473ad772e0fecbb2e6cef40fbd50d335669f7ce829e7f72c4e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/continuation.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/continuation.json",
+    "source_sha256": "15636a99b969fe9c6dac23593ddf678f9a61389a1be10c8b64a4a8a80ccd2321",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/counterfactual_results.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/counterfactual_results.json",
+    "source_sha256": "933b24049dc666e4667d9e418034d074ec4c2756f647279e05674c951a850f5c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_000/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_000/config.yaml",
+    "source_sha256": "14b02d14144509b5c01d049713c277943abe2ada415817017e4556c14395142e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_000/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_000/result.json",
+    "source_sha256": "2445e41a872cd8adbd296e0c6b204bd737e5958d2f2eb83a048b583617c254be",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_001/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_001/config.yaml",
+    "source_sha256": "6fe8ddcef14c4316016b4625f465bcf4def1134e1219d1699cf8ad90ad3ad87f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_001/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_001/result.json",
+    "source_sha256": "19889ba04578bb25b42d03a26e097958a78b6c600f7c1b1e1cc1eb2dade6c9d6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_005/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_005/config.yaml",
+    "source_sha256": "7e27fef618402024e1ec9d67228b77a3304af90c14a67d664e4d062f07019414",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_005/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_005/result.json",
+    "source_sha256": "ca2fe925b21206ff99e80004ccb70bba0f83fa0fda2f7740116ca624aabaf6ff",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_008/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_008/config.yaml",
+    "source_sha256": "e59a6477dff1dc6920052c30e7a0dd81f7610c8d193e773886081ddd1c950f8a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_008/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_008/result.json",
+    "source_sha256": "292070074f28f25b751b6cd7a84ca6908127b8ea33e88089e6b629f375d01b60",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_011/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_011/config.yaml",
+    "source_sha256": "1d4aacf5cc8bf61351a9528d0d2e73d4396ccb772b7a2116aca43fc38eb88108",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_011/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_011/result.json",
+    "source_sha256": "b115ce5052851f20057524fdb8a0166bc4700dc7832baace21003da0cf70a12c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_012/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_012/config.yaml",
+    "source_sha256": "8c90b4e5a54388fad2622642623e525d44d073ef467b30ee851119fd7cf02bee",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_012/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_012/result.json",
+    "source_sha256": "a5f8bc0e6734329f293bb52ef60c6b0f3597b1602db422cffde8ec77cae0c8b5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_013/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_013/config.yaml",
+    "source_sha256": "02d43b9b65f9b852a13752454385e67f791e47aedd67068ee1f5909401806553",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_013/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_013/result.json",
+    "source_sha256": "09a32aef35297b6e2ea6fd3968c2a63c61da9da96e8d341df4ceacab8823d570",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_015/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_015/config.yaml",
+    "source_sha256": "31eba449d896b250958142f86544d94620b93605cf01baba28f979d7fb4b7d71",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_015/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_015/result.json",
+    "source_sha256": "74793dfd11f1340d7b715a753447f2a2185629a17d34c7f3355b69f9c13a22ef",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_016/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_016/config.yaml",
+    "source_sha256": "2a06259bd0abb02ce83ed4471cc89e235f63c2296f52e608cee72a84cc7df80e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_016/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_016/result.json",
+    "source_sha256": "94c2fcbe062ef71b29a97af820be5e44a04210292712c167e37c972c001e0fef",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_019/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_019/config.yaml",
+    "source_sha256": "b36f95564810ecdfc69a36a3f35f7695b1670fb5d38abd0efff21685a0751bb9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_019/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_019/result.json",
+    "source_sha256": "3b3b09c7222564cd981a72a3f55fefb91311882b4e216644665582cb80fda775",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_020/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_020/config.yaml",
+    "source_sha256": "f8b3f1fa563ad35d14ea5d862e822570b56b07bb497b8344a6894392bbc274c6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_020/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_020/result.json",
+    "source_sha256": "a5b49d9d3dcae7f21ada09f0f30d1f3280222a992c42c01c2b33d5132af6ad55",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_023/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_023/config.yaml",
+    "source_sha256": "1609530024175c0a1efaa13fa841fc90e3a0f32940c152c60d40e2014eb9f646",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_023/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_023/result.json",
+    "source_sha256": "84d6d3b6664e8a09a38e9e54a10a8fccc2130d269c9139c8f147c993488f3171",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_024/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_024/config.yaml",
+    "source_sha256": "7047569d41f152ff5e4434a029c3ecc90ca3ce4fdcdf3f4df04bb52c8289476a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_024/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_024/result.json",
+    "source_sha256": "62eae03fa62f404f972cb6b85c0c330acd7792c983eac8d52cb0791218c97256",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_029/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_029/config.yaml",
+    "source_sha256": "0fb4b1d0bf663198192c41efe1a5a4b26a204483ed2f0b6f9c88d4fce52e554f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_029/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_029/result.json",
+    "source_sha256": "3a472d8a67fb25103c9b9853cf25b5610de7bea38a58b4e2de706543ac856e9a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_030/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_030/config.yaml",
+    "source_sha256": "bf71b6c7e29ab548fbee8c7c4ba3709f954c5873f525f3e828a1c451b0179f9f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_030/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_forced4_030/result.json",
+    "source_sha256": "da85a1d12f580b74247c34662412b4ff5ff1e0a185e08d06da030240c777c3e8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_000/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_000/config.yaml",
+    "source_sha256": "f4bb296ab6c91f6b0a08b417a9404709335b3cf2b134d4329fe2a908974ae940",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_000/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_000/result.json",
+    "source_sha256": "e2deea0ed6ba276b70cfc4d73f7d03d7c61d95b8d7bc44f03898f7499e805f93",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_001/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_001/config.yaml",
+    "source_sha256": "086236aeb24f887a1459871d12ee0afcd968954e5d30a23bb5987c7d0ed17bae",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_001/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_001/result.json",
+    "source_sha256": "a3d0755a0d0fb9ab7ba9490f86b1a9fcf2597ff4e3235dc27c8568f35e402897",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_005/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_005/config.yaml",
+    "source_sha256": "3b8166c08f92e070c550dc1f3d6800b50221c5b8a0916c4cbcd87318b2fff338",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_005/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_005/result.json",
+    "source_sha256": "8272d6b449c16425cebff9209f654d4a9cfbbf8b7798f7a08fda55cbaeac3939",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_008/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_008/config.yaml",
+    "source_sha256": "661d31c2352a569b1ef64dd7d38923b56cc0744d02f01819d8fa5342b3f8fe9d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_008/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_008/result.json",
+    "source_sha256": "91b209060ae350069988f75c572f5d1d17659aa352152a0e7c5e9e28a0a48235",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_011/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_011/config.yaml",
+    "source_sha256": "d110fdd1e936092c9fcd8371a13e7dd25e0e0366d0ee375348a43a9d0e15f039",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_011/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_011/result.json",
+    "source_sha256": "359eda0417c2994165789193ddc1ab5809b440c5b99b6fca65d8f21eb9141be7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_012/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_012/config.yaml",
+    "source_sha256": "f53dcf690dcdd1c0a4ef6e871a89654ac9a4368141837fbd9a03ecb226bce075",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_012/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_012/result.json",
+    "source_sha256": "fe7bbc0004aab0927c3dd0184ff126e7751b09cbd0a59b84b7726cd77d1662be",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_013/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_013/config.yaml",
+    "source_sha256": "4364da8f4d125fa6d36a78756c3080d5d141cf979872112ee60298423274fbce",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_013/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_013/result.json",
+    "source_sha256": "756c492c09df02d0be73f030dbba67cf8e12ff0851f922cee8935074a0e39f3f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_015/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_015/config.yaml",
+    "source_sha256": "2beec236978ad7a4a0ac77eea145f3f5bb769256cf0179cb38dccbdb17cd6a4e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_015/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_015/result.json",
+    "source_sha256": "84b7fa8837aedba21bd22dd4c44843c416c13eff17cb966dba8d23e09383a98a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_016/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_016/config.yaml",
+    "source_sha256": "53227a9b6baeaa9259d2f5176672eeb3bd2b5b89d06c332d53f8395d1bf35bfe",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_016/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_016/result.json",
+    "source_sha256": "63ea5930a1abe564f1a73958fc933c7f70490a05098fd2090c95898259cfc4e6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_019/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_019/config.yaml",
+    "source_sha256": "0a5e6553b278c3bdce9f306d6a5ae62a0a36aa3d786273e2424b677ca5cabbb1",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_019/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_019/result.json",
+    "source_sha256": "a3815818bdae15ca6401770e59552ada027fa7e8a92d4c85134a21d254518716",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_020/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_020/config.yaml",
+    "source_sha256": "51f56ffc42bd97b468172cff78234b7146010175809fa9ec6e55de444b284cec",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_020/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_020/result.json",
+    "source_sha256": "c04f9a9e4a5ab2a19a35c1c480c49cdb70e0d055d7078c76a3764624b94a5f94",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_023/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_023/config.yaml",
+    "source_sha256": "f53aa80042c1be237e45e627a23e394e3acc91138367d3ece4f787c77353d430",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_023/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_023/result.json",
+    "source_sha256": "115feb07be17f15643b50789cad9c8e4f6bdec96d5e066c87f21818436a6dde7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_024/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_024/config.yaml",
+    "source_sha256": "a51fe33f37b4dd660a13fe4d9a8d097f2648c775a5349fc1a249ba2f47308e41",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_024/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_024/result.json",
+    "source_sha256": "53dc10f6ccbd3b92eb75d6a803bae4e935d14a1fb97fa160f23100066be0fd8f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_029/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_029/config.yaml",
+    "source_sha256": "dff92aacca7be8f8cb87364e0935907c27a6a8a4e5c07ec7ad4095bdac371349",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_029/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_029/result.json",
+    "source_sha256": "72047e445df0dbd0d70ea52ed0fdf51cc5efb9fc7e407a9897ca17c061e50ccb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_030/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_030/config.yaml",
+    "source_sha256": "62dd0d7742ff50e02b35e70a660cd353650dea7cbe101df40c3f7beb9e77988e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_030/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0014_native_030/result.json",
+    "source_sha256": "48f62380e36200fa72a804a5e0cc1fd22ed6c2fd6e3b569dbea1d7d5ce282087",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_000/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_000/config.yaml",
+    "source_sha256": "a5c0db34f21e948829a2d0d809b9388fea54ec38b7bfd3f74224e18c9f765e43",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_000/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_000/result.json",
+    "source_sha256": "ed967019dbf9eddc382e15bb54eeb423ecf6d20f95e35bf648e23f2bde37aedc",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_001/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_001/config.yaml",
+    "source_sha256": "5cc5d3861cff97d12eaeb1cf30274d10a3042bf9ceae8ab9b1a4c66f7f030072",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_001/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_001/result.json",
+    "source_sha256": "338e6033da8e0374d3a584769bdac9ef3445260b33a39a95e9aef1f11fed3757",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_005/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_005/config.yaml",
+    "source_sha256": "47a1b134054d032ae167750781b3bcb449c1112d3e68c0d3c7d37f1ea8403ca4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_005/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_005/result.json",
+    "source_sha256": "8c920f82f4192ae1b6f2b5e90aad562dc442c9a8c885ff0aff4c4f4f47418413",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_007/config.yaml",
+    "source_sha256": "4a37116951b993e871f7ec6058f9e7a1fb971748d29a6c2dcf17f43bb7d20c86",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_007/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_007/result.json",
+    "source_sha256": "7da03d013d3e57618c5195e9f442dd42b25c1776a935e549f412586505dc822a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_008/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_008/config.yaml",
+    "source_sha256": "f2de20fa7e31ab4330dd94af900041c11e9010e42de89ce902922a351e9c9cc8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_008/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_008/result.json",
+    "source_sha256": "717028f47bc8ad5a47335ee6cb80fbd49f8c57ee76bdbe7a09816aa02c0129d8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_011/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_011/config.yaml",
+    "source_sha256": "a64eb93b91cc6596a4c8c15c607614c4bed02795b247b6ebf0ff8b8e6cce0028",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_011/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_011/result.json",
+    "source_sha256": "0587c8a1f8846952ac45e6cb78106846b9bdd3f15248e7083628dbd9c63d4956",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_012/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_012/config.yaml",
+    "source_sha256": "763cda3388dd3f21c5d727f405a68140057c250246204815e472a52a38c2a755",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_012/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_012/result.json",
+    "source_sha256": "a9d539dbb4364453c34929359215a3f4857bf1de27f90d879202b123880e3fb0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_013/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_013/config.yaml",
+    "source_sha256": "150a5db09659f6b29b2e7de16fe2b39536f76d3e03c9ce7bd41ca4020fd03d15",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_013/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_013/result.json",
+    "source_sha256": "8e1f75ca9f7666fca4ffc6407fddb308daf5d530a0beb325bbbba969d8b9f369",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_015/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_015/config.yaml",
+    "source_sha256": "af0cc9310a227c881fb3555e29c19584235b9384c9f0a31e75b706a63d98f616",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_015/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_015/result.json",
+    "source_sha256": "0073c64a69f71df21e8d576871d907e50e074b1182a7290927afbe1cff3ec8b6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_016/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_016/config.yaml",
+    "source_sha256": "98152d3f3394326cc35f1f973088119591843342e6c4dda608b74b113250ffeb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_016/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_016/result.json",
+    "source_sha256": "23ed007ced6bae7be95281f69cd5a345f1ecd05291d1a1986809d6c5995ef74e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_019/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_019/config.yaml",
+    "source_sha256": "68526903a98ee25a5048ec2fe0eca70cefca01f3c2ad843c9465892710881493",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_019/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_019/result.json",
+    "source_sha256": "80ca5e151a9680093b8c2abb8f7478b3f12d9a1a6653368d99587902080d3334",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_020/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_020/config.yaml",
+    "source_sha256": "b47c394af19f5bf521bb0d2400a8540d578f8228c0cb60bf8dd855522ebc8422",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_020/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_020/result.json",
+    "source_sha256": "e506a5fb687d1fb3a147d639ca28eafd30a26e3ce8ecbf6e221afe4da78e6858",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_023/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_023/config.yaml",
+    "source_sha256": "f9bd588830d8f84c5aa707540486df2fffc71d99d50441ca1c1394d884d7f141",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_023/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_023/result.json",
+    "source_sha256": "48f98d5b4b415c7ba7c54382fc3d4c34e6400faa0ba8bbea843f5f52c57f126b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_024/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_024/config.yaml",
+    "source_sha256": "29d78fc5794907081aaa734dabd79bf4702c15774011c684085be646c6feee61",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_024/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_024/result.json",
+    "source_sha256": "2ac4aaf16d90495f47337f6d219cf8e3c0877ebe43fb66edfaff36389c754fc8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_029/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_029/config.yaml",
+    "source_sha256": "ca2bc9b6102fcf881577a0497448b400f6f291e4eaa88862b256a07756f18e10",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_029/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_029/result.json",
+    "source_sha256": "41b6543de95a1780e24a8dc4ab747e21ec12ddd67f075b06fdb7ecde09aa92bf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_030/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_030/config.yaml",
+    "source_sha256": "9ec6a8443cfb314c4ddb1e32fc1f13092fe906ab8a613b6b867df76ea310120b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_030/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_forced4_030/result.json",
+    "source_sha256": "c2c39ae4e1feed4eb4e97f76fb12db606325d59c1777714d3eceafcbf3157377",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_000/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_000/config.yaml",
+    "source_sha256": "8c45d2af327c31d45e4deb8db1f9172f76a8d4e44e6aff6b0fe2b8c4e57e8681",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_000/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_000/result.json",
+    "source_sha256": "af1a709e25157e61e77894fba45e14426585b3c0ba3f9c245aacd9fcb13d40ea",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_001/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_001/config.yaml",
+    "source_sha256": "7ccf960c648ab13d5ede1708c8d942181f4a10f26d65e7ad4d2281cfd855a963",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_001/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_001/result.json",
+    "source_sha256": "e1b4918e51550ab9b829d3d5fc6316c04198cd1e6d18b38dd0aed7b912246706",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_005/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_005/config.yaml",
+    "source_sha256": "cd3f0c3967f94139926f18ad43c74d2fac71e168067ad85cda9709c44789b3cc",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_005/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_005/result.json",
+    "source_sha256": "fd45842e03f84f25007e68a4ea85334afd10fc410fb1705afc17357fee416d5a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_007/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_007/config.yaml",
+    "source_sha256": "74d1566768db81445bb7842c052689b41dde67117246e578688ce44782485bdb",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_007/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_007/result.json",
+    "source_sha256": "87af7a274ff0d4240958aa3d90b523af9ed6fdfd32cd7886266c9d29171900c2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_008/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_008/config.yaml",
+    "source_sha256": "fdfa3d26a5f6ed6dd3aeab31627cd3a3d4a3b419204ebd9a4da954d2b3f640a0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_008/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_008/result.json",
+    "source_sha256": "ed28d2124d8c3f463638bb8556ca848a3dfc277f37c2238951a9457f8a82efe4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_011/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_011/config.yaml",
+    "source_sha256": "e05c625a3de369189ffb98e5ad2c19a1c6f31f1856b55616f575812e971580da",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_011/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_011/result.json",
+    "source_sha256": "c5adaa2ac60fc06b9a73f79bf336af82908480a89d65ef56a6c8e923bf48c81e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_012/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_012/config.yaml",
+    "source_sha256": "4385c90596ebdcc56a54daf2bee35a800fe11ce6e1bf3d9cb1b61c75fc2cea39",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_012/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_012/result.json",
+    "source_sha256": "66c4a17185230573204c7673971aac7210c83a40a9a39262e32c0a6e0fdcfad9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_013/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_013/config.yaml",
+    "source_sha256": "0e1d40c8ec7e47384bfc7c2383703ceb3b1185d262f30c5297f32a8faec27206",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_013/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_013/result.json",
+    "source_sha256": "77dfcbd8977899e099c3c18b55f6a860a10b23ae1112bb129f22b2a4cbd0bd57",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_015/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_015/config.yaml",
+    "source_sha256": "9319cec65caf49ac6902967d7bc2db7e882a339ca4858260f71d21a27ad2c499",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_015/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_015/result.json",
+    "source_sha256": "36179d7e12e58844ee0cb98ff1a303436d1c053ec1f1d9e037aebf7f1270c8d3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_016/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_016/config.yaml",
+    "source_sha256": "11a904e3348df17f9bdeedea743cc097de827758a1ae81368bf4ae4d69bd956d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_016/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_016/result.json",
+    "source_sha256": "e1676ec75d937a60a648c66cf64ddd90034370403e85cf8781c6813bbe865501",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_019/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_019/config.yaml",
+    "source_sha256": "452e1b902d2a0348fe1d9c0367457d2585327ca71eceec6b45aeaa674cd203c6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_019/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_019/result.json",
+    "source_sha256": "fff05c76011d6df2ae5e4b847c1ce4177fb53d1157976e1dd4e4488e4b3d28b2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_020/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_020/config.yaml",
+    "source_sha256": "6bed5c07920ecd6505fd678c7dc96b0c37ca6f6ce680d8a51e946365023f3867",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_020/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_020/result.json",
+    "source_sha256": "4fc71d21d0724c26ea43061c706ddcfedbef5a46e4bdb4fc98a0d19fb3b286ca",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_023/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_023/config.yaml",
+    "source_sha256": "6fb181bab296d33486c8c92e397aaebc4834286fed0991b10a019dac8d8947fc",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_023/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_023/result.json",
+    "source_sha256": "f8468638e9742b38e4b2ce54afb2bb580c7fc117975ad90d68492860f8c5cbe8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_024/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_024/config.yaml",
+    "source_sha256": "f7cfd1146c2811e8965fee8673eb421d361bed5d717de12fc9fb952fea7c0501",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_024/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_024/result.json",
+    "source_sha256": "341b8e0a880eb631856c5a180aa0e60d55410c6c7deb7ad6fa26f2699086ea95",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_029/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_029/config.yaml",
+    "source_sha256": "6db6b89717a42d19097329f4fa0299bb754a66ea5218b69eaa984a4fea2d6d5a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_029/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_029/result.json",
+    "source_sha256": "46aeb406c1c8f0fbb4c05201ac80ff3e02f38ac5bf1bb0fd3e8da126f0db5dc3",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_030/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_030/config.yaml",
+    "source_sha256": "4a96dab8e827ec345912f9c3b0a4dcf7198fe0e12703962a69c87bc2fefa8e5f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_030/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0028_native_030/result.json",
+    "source_sha256": "57f2c5a1fd588605e5f6ba99e3e45adb70e48e6fac6eb398608825d52a3febb8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_000/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_000/config.yaml",
+    "source_sha256": "cfb7abcbc5875db76ef9428b89d49f3b7906ae69e437bd229ec3f63c946f5427",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_000/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_000/result.json",
+    "source_sha256": "7b0b7d2051a91d8e7a7c1290ded477d0015f95d0e61ee1548ff5fcbedae4918f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_001/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_001/config.yaml",
+    "source_sha256": "6c598549a24e9db128191159077f4681fe72bf96984603fb8598dd35e448e4f2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_001/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_001/result.json",
+    "source_sha256": "e8a4ca630756b8ee18adb56285ceeb1e83f6761fcf0c5a2ef842e73c65c58241",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_005/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_005/config.yaml",
+    "source_sha256": "b18c7b74e72d5b4bc439913b8fd8ad14a0f9d371cfdc3d90d022230d7b2ea63f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_005/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_005/result.json",
+    "source_sha256": "c9f2638ebe775957ebc0c1f75272901ee30abd8db12664b690d7e70a0d7e6293",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_008/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_008/config.yaml",
+    "source_sha256": "6b336ce283c1b9451d9bfe6d5f437c2485c79614d9da0a33aede042a202624b7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_008/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_008/result.json",
+    "source_sha256": "7e8e1602430a22df0bfd41ef7720250f6350f9c56187b37ed3f3618b98a98397",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_011/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_011/config.yaml",
+    "source_sha256": "71643df0df7d3bc5c129fc97693a0b4a6a5fca6439ba7767700afb92afeba7d4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_011/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_011/result.json",
+    "source_sha256": "80e184bff12ef1ea37e6b782def41f033fff944364cd19b244c8fc843f61a82f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_012/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_012/config.yaml",
+    "source_sha256": "bcbabee6d011e68b4853238b7ac681ecb86d85276b34f89fba5ec397ca16a69d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_012/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_012/result.json",
+    "source_sha256": "9bc49b99c02088109addcfcdc551bac0e02f90e65c316c220b6e6a22a29c1fc0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_013/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_013/config.yaml",
+    "source_sha256": "3797aa0abe0eacd746ac12afa7a127881ca98dd64fa6b762565f2668142bd810",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_013/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_013/result.json",
+    "source_sha256": "3121d1e3c0419024f4b13ed29b9c6c8bcb1f8a3e7061016ee2e2fbaf7bbad905",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_015/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_015/config.yaml",
+    "source_sha256": "7e81c5a21ead92992e696e830a353f3cdab0679a6eb6ab42e595dd7681387bd0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_015/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_015/result.json",
+    "source_sha256": "17afc5f1c0a1e05d9e5b22454797bd92df7dc2b46e7519fad83b3e5bcce5847a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_016/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_016/config.yaml",
+    "source_sha256": "b654cd5fce475629aa3fe14c818786f05655ddba3e4f9a29cd1ced90e9d7a8f2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_016/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_016/result.json",
+    "source_sha256": "6faa4e431b37c0797776104018a08f43403b5dede3d9987cf98a7818d0c2ac30",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_019/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_019/config.yaml",
+    "source_sha256": "94c014e0d781f59ff1ea2425afaac7f9a6c636afbf5186e7e73d3ba790da4768",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_019/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_019/result.json",
+    "source_sha256": "c9d68b443fbe4711455ed80e0e297ba7a29544c595cb94a4ecc80068cad52ef6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_020/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_020/config.yaml",
+    "source_sha256": "1661f89b3c73245e3b7757691df46893910389c889899422282205911b6ea63b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_020/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_020/result.json",
+    "source_sha256": "343f0b7a7bbdc648eba8003003dd3b93bf919519236b01d2070aa5ee27298562",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_023/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_023/config.yaml",
+    "source_sha256": "7e92d4ceba50b0928a44e6feebf6e706564d7771f796fe4f0d1592bc3e813724",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_023/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_023/result.json",
+    "source_sha256": "38bc808fc67028a81fc41e56fa68216da491c0fbc54394239bfb7d3b248396a7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_024/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_024/config.yaml",
+    "source_sha256": "7d1be9f68cf528c58b27ac6b07ba50735cae2d6bae1b0c08cd862d49fde094ed",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_024/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_024/result.json",
+    "source_sha256": "3c1285b5844187a8ba2169449c4d7d44f9222099f371b9cf4e6c527d29b1d91f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_029/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_029/config.yaml",
+    "source_sha256": "383252cff66e8ce1545b9f575c44b8edd5df525805f77b58f5f87ee03c835868",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_029/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_029/result.json",
+    "source_sha256": "cae33fdd168e7505ab56986fb3f56f87dfb1e7e520e456061774fd282f56602f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_030/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_030/config.yaml",
+    "source_sha256": "f4fe6a4f286f16bcd7f02d476554e08157b7948b271df8e6c6711f8afe81b8ef",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_030/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_forced4_030/result.json",
+    "source_sha256": "bb0d6d137d4119eddeea3ad9bccbeef1da4e84796d48f568fc83f0a118baa927",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_008/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_008/config.yaml",
+    "source_sha256": "fe1cce54bebc4837067fb242d64df550229c198c81428b37db8d659c005cba3e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_008/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_008/result.json",
+    "source_sha256": "55d5a730e4ef74e523bc8d39e5523a318df5ff7ad5d0ffa46fe8d41acfb22c14",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_011/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_011/config.yaml",
+    "source_sha256": "e2ad4f15d29ba9def54a5afe4aaaaa01c475c439b00ce3d354ba3cc2a9fd01ac",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_011/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_011/result.json",
+    "source_sha256": "dad6fdf469f9951c6249ed5cf51395a4d0b7c6b2163176bf1c9db0d31502ed9b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_012/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_012/config.yaml",
+    "source_sha256": "fc68609cee9f3e09df9656153641a86e7ddfecd6f69b17e4ccf6485360c2171d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_012/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_012/result.json",
+    "source_sha256": "d4cc5030e5679214703291ed23a2008cf7cf74539607ca00889bc4c13485919b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_013/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_013/config.yaml",
+    "source_sha256": "1e2dba40b1f803a705eb1ab8f4d5e5f04f30e32ec806959f2a81ca67a05d97d8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_013/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_013/result.json",
+    "source_sha256": "a5ae46b9ed9be52c9aba84c509755229bee643115279737f6db0c12eb4ea856b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_016/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_016/config.yaml",
+    "source_sha256": "ad0fcac7674147c9abead96f86d459d365c12828797b83f525e695b051a891d8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_016/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_016/result.json",
+    "source_sha256": "3c349797ac77cb1968d7e7a889e7503e0787d4e4e529d09a50db7c437f913027",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_019/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_019/config.yaml",
+    "source_sha256": "38195b6c69df1681d37e8f7c6c79a26bd7c93e414526e93fc6e0e3007e53aaa0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_019/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_019/result.json",
+    "source_sha256": "a3bf8fc795d94f4bc09c8e732623697905c0fa83863ca8d13ffb2829fa93f19c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_020/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_020/config.yaml",
+    "source_sha256": "886f160eda81c2a694da821f39c342f6bedb1e31be7bf130f224b56e874f75fe",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_020/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_020/result.json",
+    "source_sha256": "ba81e6be93e1fa2991fe737a2c60468c197ff8849179a50b7004bf56c2a49f45",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_023/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_023/config.yaml",
+    "source_sha256": "3a452373781b22904dbfc4914adaf801f333b6fe9ba9312976d417aa1c5394b8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_023/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_023/result.json",
+    "source_sha256": "7524897a1965b992559c1bd34e171f336a2947e3d1233e3aaeb9b2b560cba867",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_024/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_024/config.yaml",
+    "source_sha256": "0d2e4e5dbf5f0bef31987234fff5bcfbb045d5121156ef083fda639c14348b57",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_024/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_024/result.json",
+    "source_sha256": "5f9614d762d524fd95cf9188bcc71273be53c764408ac510f282e10d5bddad91",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_030/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_030/config.yaml",
+    "source_sha256": "1d0978a8c03f0f06c7a312532ff0cdc0c2cd364965b8f7a4922ec762713d0f95",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_030/result.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes/u0056_native_030/result.json",
+    "source_sha256": "d32dad515f9d7686e1bebf83f9966b673ee29f75d36e1a6fed4e3638ad5ec4f8",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes_summary.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/episodes_summary.json",
+    "source_sha256": "8725172bbeb1cda122a49e173780e1b20e95c83d305c35f22969915847026d96",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/model_contract.json",
+    "source_sha256": "73ca5dc78c8ebf77072d9b5b91794214a1668dfcf6e7f6ad9538a615d1e25eb0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/scope.jsonl",
+    "source_sha256": "fd4231237f7dfd5dc104db17a2081480855d781c6774eaf10953603ee5530f92",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/trace_summary.json.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/trace_summary.json",
+    "source_sha256": "f072cf7ddc48d3943096925bea33d509a2fb1d54983cc735ed431124ae937fd8",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/training_config.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/training_config.json",
+    "source_sha256": "cef856cb1388d82a0257abafa5736f07c6f691866c81d514e4bbc84217c6a9f4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/training_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/training_contract.json",
+    "source_sha256": "f7bf61ca3de31f4cf0ad0c9014fdf350522f1452d99c94aa17f5dc6f06cafecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/selection.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/selection.json",
+    "source_sha256": "ff60b5e7627d97380e351462babcd2b45f466ed56af19c26f73923fcb0b6769b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/server.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/server.log",
+    "source_sha256": "10b108647dae5dfa32d4dd2486dd412ff1056ddfb751e8dd41770b91c540b138",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/gradient_components/gradient_components.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/gradient_components/gradient_components.json",
+    "source_sha256": "10eb1a370bd9eb9a64cc08381f2c0dcbdfbddc049a617348900b93e3170d1341",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/gradient_components/head_gradient_components.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/gradient_components/head_gradient_components.csv",
+    "source_sha256": "15c6580f04d52e3fbdb67617e97174db6e9d2ca6e7a504565dfdbe6039b966bf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/COMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/COMPLETE.json",
+    "source_sha256": "3b54b913af630a17042f45f440ec1253afe5742f6fb6dc4396dd2cd719888c90",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/config.yaml",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/config.yaml",
+    "source_sha256": "990690599992f8bc647d412e681c7c72e906d097c123795609beb50c55f5f642",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/matched_results.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/matched_results.json",
+    "source_sha256": "9517e50db4d61f6c37b92ff49bf3c245080309af96946db53de4e3b3f78f70ab",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/model_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/model_contract.json",
+    "source_sha256": "73ca5dc78c8ebf77072d9b5b91794214a1668dfcf6e7f6ad9538a615d1e25eb0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/scope.jsonl.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/scope.jsonl",
+    "source_sha256": "6b727f280dcfe1eac85eb674a96400f1bc46a81099e0d0bf101efb9013debe60",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/trace_summary.json.gz",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/trace_summary.json",
+    "source_sha256": "0532400c71baa729ac7f932329a328e393d172958060695c23b320eceb6b2605",
+    "encoding": "gzip"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/training_config.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/training_config.json",
+    "source_sha256": "cef856cb1388d82a0257abafa5736f07c6f691866c81d514e4bbc84217c6a9f4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/training_contract.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/runtime/training_contract.json",
+    "source_sha256": "f7bf61ca3de31f4cf0ad0c9014fdf350522f1452d99c94aa17f5dc6f06cafecd",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/selection.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/selection.json",
+    "source_sha256": "e4cc09b68d156d007428ac4e766bce1d02b66411cb8b46de2736b719cd370cad",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/server.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/matched8/server.log",
+    "source_sha256": "fb2d0b60139ca826d4651772185fc5364e721f20048be7ceaafd7103a070436b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/COMPLETE.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/COMPLETE.json",
+    "source_sha256": "656799758c9baf931dcd7e984aaa70008e5360cd08c0b1a476c8aa8d9132e2b2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/checkpoint_policy_probe.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/checkpoint_policy_probe.csv",
+    "source_sha256": "2698fe38e6f8332fb6f328be04dac33f87a4f4e1ace76a8ef2888be5fcfbdda0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/fusion_audit.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/fusion_audit.csv",
+    "source_sha256": "c5a7f195c1f9012a7a8dd26053e65986df8bbde20c18582f94dde7aba3f67c1e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/head_gradients.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/head_gradients.csv",
+    "source_sha256": "c7eee9e7e04dea2b3c4e45375759a7f341e1069973978081072089937350b81c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/numerical_audit.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/numerical_audit.json",
+    "source_sha256": "6c168dd2721998cdb3cbc25eba7edbd76cf8978984e1c940bada2b51a5e5fcf9",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/numerical_transitions.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/numerical_transitions.csv",
+    "source_sha256": "c74bdd88df871dece05b13da1ff8bbe65c98ed9d7e2ae60218a4786af8d0e44c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/paired_episodes.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/paired_episodes.csv",
+    "source_sha256": "f425db335227199b98d01d7ffb56fbd5dd84dcbcea1f4f118405aba4a56ef0b7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/paired_statistics.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/paired_statistics.json",
+    "source_sha256": "bf5be3a3c639410de7d7f65ad3d1eee0526f78fe5163843597ae08e64ec8ce73",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/policy_probe_summary.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/policy_probe_summary.json",
+    "source_sha256": "00fa719dd2d4880c6fd96426b3db2dbc758ccb529c64792c3663c2376064e95a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/provenance.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/offline/provenance.json",
+    "source_sha256": "7dc3dbcc466d5c8efba1fca27d45ed5d45e3d585abf0a97765b7c85f84f1055a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/supplement/heldout_value_predictions.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/supplement/heldout_value_predictions.csv",
+    "source_sha256": "1ce6a4e48d771b84ce956a5a812703083422e0e124507c7facb9e62eb353379d",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/artifacts/supplement/supplement.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/artifacts/supplement/supplement.json",
+    "source_sha256": "d00396b55c138e9c129212b4210d9595f4bf796634e207a42f8484e184f25bcf",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/checkpoint_policy_probe.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/checkpoint_policy_probe.csv",
+    "source_sha256": "2698fe38e6f8332fb6f328be04dac33f87a4f4e1ace76a8ef2888be5fcfbdda0",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/counterfactual.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/counterfactual.csv",
+    "source_sha256": "a6934775d1ac5c9cdccaa95be2c7f48c8b92524e2d1ee797b15678001d67a5e4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/counterfactual.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/counterfactual.py",
+    "source_sha256": "13e335178106531845fcbc5b0220c9d3e934d9251e51571915633e5fb17afa1f",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/counterfactual12.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/counterfactual12.log",
+    "source_sha256": "e3b9b3d5c77958fd55b956e936430322ea2ef87798a6dd80226988f888bf91f6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/counterfactual32.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/counterfactual32.log",
+    "source_sha256": "67595d4a0a526d8f8acfdc10f55ab723509c26a8c0ccd6d85b68c303b5cdb602",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/counterfactual32_shard0.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/counterfactual32_shard0.log",
+    "source_sha256": "1ddc5aee8fa0ef0e6dc5772f66db1b5597ee904f50a8b4675dff36d334a13262",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/counterfactual32_shard1.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/counterfactual32_shard1.log",
+    "source_sha256": "f35ff0682db1dc71256394a778de7ed6731295dec062509d666fcc4e32c8e430",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/diagnose.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/diagnose.py",
+    "source_sha256": "82b5914850fa5e615baf1355f5759b497e5ae961341af78a8546ea5d9608b1ca",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/diagnosis.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/diagnosis.json",
+    "source_sha256": "78a7cedbb061b5b3bd911619f55aa30e11c796bb4bcd9fb65523e279bb871909",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/habitat_environment.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/habitat_environment.json",
+    "source_sha256": "471a650863b3dd8a2539a0ea81dd8c953b2051974f53a5f215c6c5b1b6d0f81e",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/matched.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/matched.py",
+    "source_sha256": "34b50e54f1fd3fa4bf8732907b5c4791dd1d9720595d9abcc667c5f2082e81e6",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/matched8.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/matched8.log",
+    "source_sha256": "6fe08e132b45f70bd4015a8f5c964f38d3994f2e1f0e31e58ebdd04214d42d30",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/matched_action_differences.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/matched_action_differences.csv",
+    "source_sha256": "d8d67896391b2ad2239c24df53df655e613867b551198153b95d26d11faac758",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/matched_counterfactual.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/matched_counterfactual.csv",
+    "source_sha256": "e573fe3af101c4b5ff80ce706da7dbabbdfb6d73fab378629ba9c3d9311b810b",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/matched_scenes.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/matched_scenes.csv",
+    "source_sha256": "0315eb1ec6d1a6bfaf1b581cdc79f471f1187a31909e38415c27dd7a4c44b476",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/offline.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/offline.log",
+    "source_sha256": "ae9a4b58d6dacb131ac323f67df4fd96525f6e6d2e165392ab3ce76ee316188a",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/paired_episodes.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/paired_episodes.csv",
+    "source_sha256": "f425db335227199b98d01d7ffb56fbd5dd84dcbcea1f4f118405aba4a56ef0b7",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/regression_tests.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/regression_tests.log",
+    "source_sha256": "83bdf1ac36b86483fd1af37f1a7f6f59584b49ee69b58c1f76e492dd53ae2c44",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/server.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/server.py",
+    "source_sha256": "38b9e12ca4ade89816d84e821c74ac7fe3a06fa2d64befa1fbdb35c8acad24c2",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/source_integrity.json",
+    "source": "Experiment/SCOPE/Stage2/Task231/source_integrity.json",
+    "source_sha256": "8958f942e7ea5a469df3a9a6d3a9e155720ce8550d42b6bc78bca5039e0736b4",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/summarize.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/summarize.py",
+    "source_sha256": "447db1d7ca15dbf5028a86811fd6d230f5005f3b8403367b4a3b98001c1937a5",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/supplement.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/supplement.py",
+    "source_sha256": "abf93ba052c3defe24f8d4ee2d7629162345ea6bcb7fa09d7e1e1d075aec023c",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/test_diagnostics.py",
+    "source": "Experiment/SCOPE/Stage2/Task231/test_diagnostics.py",
+    "source_sha256": "afd1ff03dad0f72c14a0d0e0db5e4fd657504b365d3bcea888eabe907a553c33",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/tests.log",
+    "source": "Experiment/SCOPE/Stage2/Task231/tests.log",
+    "source_sha256": "cb4b0893c1ad095466f5a4fff264cb5c39aa41cb3196ed219c998fc981e85d18",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/threshold_sensitivity.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/threshold_sensitivity.csv",
+    "source_sha256": "ee82985ce2af0375355cafbd43f51d2bba2150b085edcaee5c7d98464953ff08",
+    "encoding": "identity"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task231/validation_reward_components.csv",
+    "source": "Experiment/SCOPE/Stage2/Task231/validation_reward_components.csv",
+    "source_sha256": "3fabe584a86474fea0a63755966b81056a85f5435a6778c4f9e010a4dbb5a436",
+    "encoding": "identity"
+  },
+  {
+    "path": "docs/Tasks/Stage2/stage2_task2.3.1_failure_attribution_diagnosis.md",
+    "source": "docs/Tasks/Stage2/stage2_task2.3.1_failure_attribution_diagnosis.md",
+    "source_sha256": "3ee4cf416f1dd4e0140ade4cff114abd4406fcd2ccf37518df9386a098cca468",
+    "encoding": "identity"
   }
 ]

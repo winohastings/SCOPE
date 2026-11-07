@@ -1,0 +1,1301 @@
+{
+  "indices": [
+    9,
+    7,
+    26,
+    1,
+    27,
+    29,
+    18,
+    5,
+    4,
+    0,
+    31,
+    15
+  ],
+  "records": [
+    {
+      "episode_uid": "agm_ppo_val_seen:303",
+      "source_episode_id": "303",
+      "scene_id": "1LXtFkjw3qL",
+      "instruction": "Walk forward to the yellow sofa thing.  Walk around the yellow sofa thing and enter the door on the left.  Stand at the top of the stairs.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "303",
+        "trajectory_id": 2852,
+        "scene_id": "mp3d/1LXtFkjw3qL/1LXtFkjw3qL.glb",
+        "start_position": [
+          -2.0391299724578857,
+          3.4844110012054443,
+          15.15719985961914
+        ],
+        "start_rotation": [
+          0,
+          0.8632186385197272,
+          0,
+          -0.5048302507894594
+        ],
+        "info": {
+          "geodesic_distance": 12.5421724319458
+        },
+        "goals": [
+          {
+            "position": [
+              1.4428800344467163,
+              3.4510085582733154,
+              3.8511300086975098
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Walk forward to the yellow sofa thing.  Walk around the yellow sofa thing and enter the door on the left.  Stand at the top of the stairs.",
+        "reference_path": [
+          [
+            -2.0391299724578857,
+            3.4844110012054443,
+            15.15719985961914
+          ],
+          [
+            -2.8900198936462402,
+            3.5832509994506836,
+            10.917799949645996
+          ],
+          [
+            -2.273930072784424,
+            3.536815881729126,
+            9.101829528808594
+          ],
+          [
+            -0.7456870079040527,
+            3.5127248764038086,
+            5.9223198890686035
+          ],
+          [
+            1.4133299589157104,
+            3.4844110012054443,
+            5.161220073699951
+          ],
+          [
+            1.4428800344467163,
+            3.4510085582733154,
+            3.8511300086975098
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 13.37134075164795,
+        "reference_points": [
+          [
+            -15.15719985961914,
+            -2.0391299724578857,
+            -3.4844110012054443
+          ],
+          [
+            -10.917799949645996,
+            -2.8900198936462402,
+            -3.5832509994506836
+          ],
+          [
+            -9.101829528808594,
+            -2.273930072784424,
+            -3.536815881729126
+          ],
+          [
+            -5.9223198890686035,
+            -0.7456870079040527,
+            -3.5127248764038086
+          ],
+          [
+            -5.161220073699951,
+            1.4133299589157104,
+            -3.4844110012054443
+          ],
+          [
+            -3.8511300086975098,
+            1.4428800344467163,
+            -3.4510085582733154
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:752",
+      "source_episode_id": "752",
+      "scene_id": "1pXnuDYAj8r",
+      "instruction": "Exit laundry room and turn left.  Go down stairs.  At the bottom of the stairs turn right and then go straight into the bedroom.  Stop in the doorway of the bedroom.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "752",
+        "trajectory_id": 7163,
+        "scene_id": "mp3d/1pXnuDYAj8r/1pXnuDYAj8r.glb",
+        "start_position": [
+          6.407670021057129,
+          3.514145851135254,
+          -2.280019998550415
+        ],
+        "start_rotation": [
+          0,
+          -0.48677060546650497,
+          0,
+          -0.8735298378726236
+        ],
+        "info": {
+          "geodesic_distance": 13.65640640258789
+        },
+        "goals": [
+          {
+            "position": [
+              7.846320152282715,
+              0.11414599418640137,
+              -7.36713981628418
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Exit laundry room and turn left.  Go down stairs.  At the bottom of the stairs turn right and then go straight into the bedroom.  Stop in the doorway of the bedroom.",
+        "reference_path": [
+          [
+            6.407670021057129,
+            3.514145851135254,
+            -2.280019998550415
+          ],
+          [
+            9.927780151367188,
+            2.6300408840179443,
+            -3.7776501178741455
+          ],
+          [
+            11.380599975585938,
+            1.834434986114502,
+            -2.5129599571228027
+          ],
+          [
+            9.44890022277832,
+            0.9372111558914185,
+            -2.5088400840759277
+          ],
+          [
+            7.578169822692871,
+            0.11414599418640137,
+            -2.490380048751831
+          ],
+          [
+            7.736599922180176,
+            0.11414599418640137,
+            -3.9872000217437744
+          ],
+          [
+            7.846320152282715,
+            0.11414599418640137,
+            -7.36713981628418
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 15.070976257324219,
+        "reference_points": [
+          [
+            2.280019998550415,
+            6.407670021057129,
+            -3.514145851135254
+          ],
+          [
+            3.7776501178741455,
+            9.927780151367188,
+            -2.6300408840179443
+          ],
+          [
+            2.5129599571228027,
+            11.380599975585938,
+            -1.834434986114502
+          ],
+          [
+            2.5088400840759277,
+            9.44890022277832,
+            -0.9372111558914185
+          ],
+          [
+            2.490380048751831,
+            7.578169822692871,
+            -0.11414599418640137
+          ],
+          [
+            3.9872000217437744,
+            7.736599922180176,
+            -0.11414599418640137
+          ],
+          [
+            7.36713981628418,
+            7.846320152282715,
+            -0.11414599418640137
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:111",
+      "source_episode_id": "111",
+      "scene_id": "2n8kARJN3HM",
+      "instruction": "Turn around and exit the study area. Walk across the hall towards the white stone circular item. Walk towards the mirror and turn left on the hallway. Wait there.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "111",
+        "trajectory_id": 1242,
+        "scene_id": "mp3d/2n8kARJN3HM/2n8kARJN3HM.glb",
+        "start_position": [
+          13.653599739074707,
+          0.13123798370361328,
+          1.2347999811172485
+        ],
+        "start_rotation": [
+          0,
+          0.14429089087562869,
+          0,
+          0.9895353145847385
+        ],
+        "info": {
+          "geodesic_distance": 10.46630859375
+        },
+        "goals": [
+          {
+            "position": [
+              3.626879930496216,
+              0.13123798370361328,
+              2.8772499561309814
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Turn around and exit the study area. Walk across the hall towards the white stone circular item. Walk towards the mirror and turn left on the hallway. Wait there.",
+        "reference_path": [
+          [
+            13.653599739074707,
+            0.13123798370361328,
+            1.2347999811172485
+          ],
+          [
+            11.934399604797363,
+            0.13123798370361328,
+            1.5693999528884888
+          ],
+          [
+            9.772500038146973,
+            0.13123798370361328,
+            1.6854300498962402
+          ],
+          [
+            8.056539535522461,
+            0.13123798370361328,
+            1.5581899881362915
+          ],
+          [
+            6.303020000457764,
+            0.13123798370361328,
+            1.6000800132751465
+          ],
+          [
+            4.42195987701416,
+            0.13123798370361328,
+            1.6352399587631226
+          ],
+          [
+            3.626879930496216,
+            0.13123798370361328,
+            2.8772499561309814
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 10.747248649597168,
+        "reference_points": [
+          [
+            -1.2347999811172485,
+            13.653599739074707,
+            -0.13123798370361328
+          ],
+          [
+            -1.5693999528884888,
+            11.934399604797363,
+            -0.13123798370361328
+          ],
+          [
+            -1.6854300498962402,
+            9.772500038146973,
+            -0.13123798370361328
+          ],
+          [
+            -1.5581899881362915,
+            8.056539535522461,
+            -0.13123798370361328
+          ],
+          [
+            -1.6000800132751465,
+            6.303020000457764,
+            -0.13123798370361328
+          ],
+          [
+            -1.6352399587631226,
+            4.42195987701416,
+            -0.13123798370361328
+          ],
+          [
+            -2.8772499561309814,
+            3.626879930496216,
+            -0.13123798370361328
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:622",
+      "source_episode_id": "622",
+      "scene_id": "5LpN3gDmAk7",
+      "instruction": "Go into the hallway and to the right. Wait in the office, in front of the loveseat.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "622",
+        "trajectory_id": 6044,
+        "scene_id": "mp3d/5LpN3gDmAk7/5LpN3gDmAk7.glb",
+        "start_position": [
+          2.6445600986480713,
+          -1.0843499898910522,
+          4.1344099044799805
+        ],
+        "start_rotation": [
+          0,
+          -0.13001983092963482,
+          0,
+          -0.9915113935628925
+        ],
+        "info": {
+          "geodesic_distance": 7.8419599533081055
+        },
+        "goals": [
+          {
+            "position": [
+              8.196889877319336,
+              -1.0843499898910522,
+              0.30344900488853455
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Go into the hallway and to the right. Wait in the office, in front of the loveseat.",
+        "reference_path": [
+          [
+            2.6445600986480713,
+            -1.0843499898910522,
+            4.1344099044799805
+          ],
+          [
+            2.4623301029205322,
+            -1.0843499898910522,
+            2.726249933242798
+          ],
+          [
+            3.121380090713501,
+            -1.0843499898910522,
+            1.5800100564956665
+          ],
+          [
+            4.314909934997559,
+            -1.0843499898910522,
+            1.5126800537109375
+          ],
+          [
+            5.4905900955200195,
+            -1.0843499898910522,
+            1.5123200416564941
+          ],
+          [
+            8.196889877319336,
+            -1.0843499898910522,
+            0.30344900488853455
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 8.077232360839844,
+        "reference_points": [
+          [
+            -4.1344099044799805,
+            2.6445600986480713,
+            1.0843499898910522
+          ],
+          [
+            -2.726249933242798,
+            2.4623301029205322,
+            1.0843499898910522
+          ],
+          [
+            -1.5800100564956665,
+            3.121380090713501,
+            1.0843499898910522
+          ],
+          [
+            -1.5126800537109375,
+            4.314909934997559,
+            1.0843499898910522
+          ],
+          [
+            -1.5123200416564941,
+            5.4905900955200195,
+            1.0843499898910522
+          ],
+          [
+            -0.30344900488853455,
+            8.196889877319336,
+            1.0843499898910522
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:588",
+      "source_episode_id": "588",
+      "scene_id": "5q7pvUzZiYa",
+      "instruction": "Turn right and pass by the table. Continue down the wall and stop.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "588",
+        "trajectory_id": 5647,
+        "scene_id": "mp3d/5q7pvUzZiYa/5q7pvUzZiYa.glb",
+        "start_position": [
+          3.4699900150299072,
+          3.203425407409668,
+          -1.6597100496292114
+        ],
+        "start_rotation": [
+          0,
+          0.8798806679526837,
+          0,
+          -0.4751947076337647
+        ],
+        "info": {
+          "geodesic_distance": 7.73178243637085
+        },
+        "goals": [
+          {
+            "position": [
+              9.610549926757812,
+              3.203425407409668,
+              0.7540670037269592
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Turn right and pass by the table. Continue down the wall and stop.",
+        "reference_path": [
+          [
+            3.4699900150299072,
+            3.203425407409668,
+            -1.6597100496292114
+          ],
+          [
+            4.034890174865723,
+            3.203425407409668,
+            0.3001039922237396
+          ],
+          [
+            5.724780082702637,
+            3.203425407409668,
+            0.37062400579452515
+          ],
+          [
+            7.914690017700195,
+            3.203425407409668,
+            0.42166799306869507
+          ],
+          [
+            9.610549926757812,
+            3.203425407409668,
+            0.7540670037269592
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 7.649598121643066,
+        "reference_points": [
+          [
+            1.6597100496292114,
+            3.4699900150299072,
+            -3.203425407409668
+          ],
+          [
+            -0.3001039922237396,
+            4.034890174865723,
+            -3.203425407409668
+          ],
+          [
+            -0.37062400579452515,
+            5.724780082702637,
+            -3.203425407409668
+          ],
+          [
+            -0.42166799306869507,
+            7.914690017700195,
+            -3.203425407409668
+          ],
+          [
+            -0.7540670037269592,
+            9.610549926757812,
+            -3.203425407409668
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:610",
+      "source_episode_id": "610",
+      "scene_id": "759xd9YjKW5",
+      "instruction": "Enter the home office and take a left.  Head inside the bedroom and wait there.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "610",
+        "trajectory_id": 5857,
+        "scene_id": "mp3d/759xd9YjKW5/759xd9YjKW5.glb",
+        "start_position": [
+          -11.480600357055664,
+          3.2966651916503906,
+          -3.7759499549865723
+        ],
+        "start_rotation": [
+          0,
+          -0.7804523366889896,
+          0,
+          -0.6252152830479242
+        ],
+        "info": {
+          "geodesic_distance": 7.822494029998779
+        },
+        "goals": [
+          {
+            "position": [
+              -4.411210060119629,
+              3.2966651916503906,
+              -1.8527699708938599
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Enter the home office and take a left.  Head inside the bedroom and wait there.",
+        "reference_path": [
+          [
+            -11.480600357055664,
+            3.2966651916503906,
+            -3.7759499549865723
+          ],
+          [
+            -11.319999694824219,
+            3.2966651916503906,
+            -1.4264099597930908
+          ],
+          [
+            -9.371529579162598,
+            3.2966651916503906,
+            -2.0429298877716064
+          ],
+          [
+            -7.653600215911865,
+            3.2966651916503906,
+            -2.608870029449463
+          ],
+          [
+            -4.411210060119629,
+            3.2966651916503906,
+            -1.8527699708938599
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 9.536832809448242,
+        "reference_points": [
+          [
+            3.7759499549865723,
+            -11.480600357055664,
+            -3.2966651916503906
+          ],
+          [
+            1.4264099597930908,
+            -11.319999694824219,
+            -3.2966651916503906
+          ],
+          [
+            2.0429298877716064,
+            -9.371529579162598,
+            -3.2966651916503906
+          ],
+          [
+            2.608870029449463,
+            -7.653600215911865,
+            -3.2966651916503906
+          ],
+          [
+            1.8527699708938599,
+            -4.411210060119629,
+            -3.2966651916503906
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:372",
+      "source_episode_id": "372",
+      "scene_id": "82sE5b5pLXE",
+      "instruction": "Turn left and exit the room. Once out, turn left and walk forward and then turn right. Go up the small stairs. Once at the top, turn left and walk forward out the doors leading outside. Stop once you are outside the door.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "372",
+        "trajectory_id": 3755,
+        "scene_id": "mp3d/82sE5b5pLXE/82sE5b5pLXE.glb",
+        "start_position": [
+          -6.771510124206543,
+          -0.4622059762477875,
+          -5.725510120391846
+        ],
+        "start_rotation": [
+          0,
+          0.9878566566949545,
+          0,
+          0.15536803346720587
+        ],
+        "info": {
+          "geodesic_distance": 13.210885047912598
+        },
+        "goals": [
+          {
+            "position": [
+              -18.003799438476562,
+              0.33779406547546387,
+              -12.250499725341797
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Turn left and exit the room. Once out, turn left and walk forward and then turn right. Go up the small stairs. Once at the top, turn left and walk forward out the doors leading outside. Stop once you are outside the door.",
+        "reference_path": [
+          [
+            -6.771510124206543,
+            -0.4622059762477875,
+            -5.725510120391846
+          ],
+          [
+            -8.413080215454102,
+            -0.4622059762477875,
+            -6.648399829864502
+          ],
+          [
+            -9.953559875488281,
+            -0.4622059762477875,
+            -6.558050155639648
+          ],
+          [
+            -11.308099746704102,
+            -0.4274347424507141,
+            -8.292679786682129
+          ],
+          [
+            -14.035499572753906,
+            0.33779406547546387,
+            -10.156599998474121
+          ],
+          [
+            -17.283899307250977,
+            0.33779406547546387,
+            -11.840900421142578
+          ],
+          [
+            -18.003799438476562,
+            0.33779406547546387,
+            -12.250499725341797
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 13.505759239196777,
+        "reference_points": [
+          [
+            5.725510120391846,
+            -6.771510124206543,
+            0.4622059762477875
+          ],
+          [
+            6.648399829864502,
+            -8.413080215454102,
+            0.4622059762477875
+          ],
+          [
+            6.558050155639648,
+            -9.953559875488281,
+            0.4622059762477875
+          ],
+          [
+            8.292679786682129,
+            -11.308099746704102,
+            0.4274347424507141
+          ],
+          [
+            10.156599998474121,
+            -14.035499572753906,
+            -0.33779406547546387
+          ],
+          [
+            11.840900421142578,
+            -17.283899307250977,
+            -0.33779406547546387
+          ],
+          [
+            12.250499725341797,
+            -18.003799438476562,
+            -0.33779406547546387
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:138",
+      "source_episode_id": "138",
+      "scene_id": "B6ByNegPMKs",
+      "instruction": "Start moving forward down the corridor. You will pass offices on your left and right. Keep going until the hallway down the hallway until you get to an exit sign on your right and what looks like some lockers in front of you. There will also be a brown door with an exit sign above it in front of you.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "138",
+        "trajectory_id": 1563,
+        "scene_id": "mp3d/B6ByNegPMKs/B6ByNegPMKs.glb",
+        "start_position": [
+          37.362300872802734,
+          0.08020400255918503,
+          28.600200653076172
+        ],
+        "start_rotation": [
+          0,
+          0.999966500560225,
+          0,
+          -0.008185215778313694
+        ],
+        "info": {
+          "geodesic_distance": 15.430036544799805
+        },
+        "goals": [
+          {
+            "position": [
+              36.89500045776367,
+              0.08020400255918503,
+              13.248900413513184
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Start moving forward down the corridor. You will pass offices on your left and right. Keep going until the hallway down the hallway until you get to an exit sign on your right and what looks like some lockers in front of you. There will also be a brown door with an exit sign above it in front of you.",
+        "reference_path": [
+          [
+            37.362300872802734,
+            0.08020400255918503,
+            28.600200653076172
+          ],
+          [
+            36.541099548339844,
+            0.08020400255918503,
+            24.840499877929688
+          ],
+          [
+            36.52399826049805,
+            0.08020400255918503,
+            22.91119956970215
+          ],
+          [
+            36.37590026855469,
+            0.08020400255918503,
+            20.096799850463867
+          ],
+          [
+            36.42539978027344,
+            0.08020400255918503,
+            17.787799835205078
+          ],
+          [
+            36.69770050048828,
+            0.08020400255918503,
+            15.31659984588623
+          ],
+          [
+            36.89500045776367,
+            0.08020400255918503,
+            13.248900413513184
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 15.468788146972656,
+        "reference_points": [
+          [
+            -28.600200653076172,
+            37.362300872802734,
+            -0.08020400255918503
+          ],
+          [
+            -24.840499877929688,
+            36.541099548339844,
+            -0.08020400255918503
+          ],
+          [
+            -22.91119956970215,
+            36.52399826049805,
+            -0.08020400255918503
+          ],
+          [
+            -20.096799850463867,
+            36.37590026855469,
+            -0.08020400255918503
+          ],
+          [
+            -17.787799835205078,
+            36.42539978027344,
+            -0.08020400255918503
+          ],
+          [
+            -15.31659984588623,
+            36.69770050048828,
+            -0.08020400255918503
+          ],
+          [
+            -13.248900413513184,
+            36.89500045776367,
+            -0.08020400255918503
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:514",
+      "source_episode_id": "514",
+      "scene_id": "D7N2EKCX4Sj",
+      "instruction": "walk forward and stop after exiting the room.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "514",
+        "trajectory_id": 5076,
+        "scene_id": "mp3d/D7N2EKCX4Sj/D7N2EKCX4Sj.glb",
+        "start_position": [
+          -7.745910167694092,
+          0.20792198181152344,
+          3.5765700340270996
+        ],
+        "start_rotation": [
+          0,
+          0.6554636108391995,
+          0,
+          0.7552267572495287
+        ],
+        "info": {
+          "geodesic_distance": 5.2259345054626465
+        },
+        "goals": [
+          {
+            "position": [
+              -2.7039599418640137,
+              0.10193780064582825,
+              3.87746000289917
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "walk forward and stop after exiting the room.",
+        "reference_path": [
+          [
+            -7.745910167694092,
+            0.20792198181152344,
+            3.5765700340270996
+          ],
+          [
+            -6.597209930419922,
+            0.20792198181152344,
+            3.6718099117279053
+          ],
+          [
+            -4.861839771270752,
+            0.14604982733726501,
+            3.5545198917388916
+          ],
+          [
+            -3.325930118560791,
+            0.04510597512125969,
+            3.912519931793213
+          ],
+          [
+            -3.0077009201049805,
+            0.007922172546386719,
+            3.8226523399353027
+          ],
+          [
+            -2.7039599418640137,
+            0.10193780064582825,
+            3.87746000289917
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 5.128785610198975,
+        "reference_points": [
+          [
+            -3.5765700340270996,
+            -7.745910167694092,
+            -0.20792198181152344
+          ],
+          [
+            -3.6718099117279053,
+            -6.597209930419922,
+            -0.20792198181152344
+          ],
+          [
+            -3.5545198917388916,
+            -4.861839771270752,
+            -0.14604982733726501
+          ],
+          [
+            -3.912519931793213,
+            -3.325930118560791,
+            -0.04510597512125969
+          ],
+          [
+            -3.8226523399353027,
+            -3.0077009201049805,
+            -0.007922172546386719
+          ],
+          [
+            -3.87746000289917,
+            -2.7039599418640137,
+            -0.10193780064582825
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:595",
+      "source_episode_id": "595",
+      "scene_id": "E9uDoFAP3SH",
+      "instruction": "Walk across the room and wait by the window on the left.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "595",
+        "trajectory_id": 5725,
+        "scene_id": "mp3d/E9uDoFAP3SH/E9uDoFAP3SH.glb",
+        "start_position": [
+          -0.47356799244880676,
+          0.24438095092773438,
+          7.195189952850342
+        ],
+        "start_rotation": [
+          0,
+          0.7755658785102496,
+          0,
+          -0.6312666378723216
+        ],
+        "info": {
+          "geodesic_distance": 12.798300743103027
+        },
+        "goals": [
+          {
+            "position": [
+              -3.240920066833496,
+              0.24438095092773438,
+              -5.288859844207764
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Walk across the room and wait by the window on the left.",
+        "reference_path": [
+          [
+            -0.47356799244880676,
+            0.24438095092773438,
+            7.195189952850342
+          ],
+          [
+            -2.7539899349212646,
+            0.24438095092773438,
+            4.17917013168335
+          ],
+          [
+            -2.506589889526367,
+            0.24438095092773438,
+            0.6547679901123047
+          ],
+          [
+            -2.6666100025177,
+            0.24438095092773438,
+            -2.7983601093292236
+          ],
+          [
+            -3.240920066833496,
+            0.24438095092773438,
+            -5.288859844207764
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 13.326866149902344,
+        "reference_points": [
+          [
+            -7.195189952850342,
+            -0.47356799244880676,
+            -0.24438095092773438
+          ],
+          [
+            -4.17917013168335,
+            -2.7539899349212646,
+            -0.24438095092773438
+          ],
+          [
+            -0.6547679901123047,
+            -2.506589889526367,
+            -0.24438095092773438
+          ],
+          [
+            2.7983601093292236,
+            -2.6666100025177,
+            -0.24438095092773438
+          ],
+          [
+            5.288859844207764,
+            -3.240920066833496,
+            -0.24438095092773438
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:607",
+      "source_episode_id": "607",
+      "scene_id": "JeFG25nYj2p",
+      "instruction": "Walk towards the fridge. Turn left and walk around the corner to the right. Stop in front of the doorway before reaching the bookshelf.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "607",
+        "trajectory_id": 5850,
+        "scene_id": "mp3d/JeFG25nYj2p/JeFG25nYj2p.glb",
+        "start_position": [
+          5.983650207519531,
+          0.09358400106430054,
+          -6.157939910888672
+        ],
+        "start_rotation": [
+          0,
+          0.9850727854955552,
+          0,
+          0.17213833761259542
+        ],
+        "info": {
+          "geodesic_distance": 8.060117721557617
+        },
+        "goals": [
+          {
+            "position": [
+              7.785459995269775,
+              0.09358400106430054,
+              0.1665789932012558
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Walk towards the fridge. Turn left and walk around the corner to the right. Stop in front of the doorway before reaching the bookshelf.",
+        "reference_path": [
+          [
+            5.983650207519531,
+            0.09358400106430054,
+            -6.157939910888672
+          ],
+          [
+            5.801310062408447,
+            0.09358400106430054,
+            -4.974609851837158
+          ],
+          [
+            5.94789981842041,
+            0.09358400106430054,
+            -3.213670015335083
+          ],
+          [
+            8.10122013092041,
+            0.09358400106430054,
+            -2.492069959640503
+          ],
+          [
+            7.785459995269775,
+            0.09358400106430054,
+            0.1665789932012558
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 7.912672996520996,
+        "reference_points": [
+          [
+            6.157939910888672,
+            5.983650207519531,
+            -0.09358400106430054
+          ],
+          [
+            4.974609851837158,
+            5.801310062408447,
+            -0.09358400106430054
+          ],
+          [
+            3.213670015335083,
+            5.94789981842041,
+            -0.09358400106430054
+          ],
+          [
+            2.492069959640503,
+            8.10122013092041,
+            -0.09358400106430054
+          ],
+          [
+            -0.1665789932012558,
+            7.785459995269775,
+            -0.09358400106430054
+          ]
+        ]
+      }
+    },
+    {
+      "episode_uid": "agm_ppo_val_seen:548",
+      "source_episode_id": "548",
+      "scene_id": "PX4nDJXEHrG",
+      "instruction": "Go to the bear rug on the floor. Go to the top of the staircase. Go to the toilet.",
+      "source": "vlnce_r2r",
+      "input_namespace": "agm_ppo_val_seen",
+      "input_root": "/home/data/czh/Third_Party/tasks",
+      "payload": {
+        "episode_id": "548",
+        "trajectory_id": 5354,
+        "scene_id": "mp3d/PX4nDJXEHrG/PX4nDJXEHrG.glb",
+        "start_position": [
+          -4.906620025634766,
+          3.115546703338623,
+          -3.2272400856018066
+        ],
+        "start_rotation": [
+          0,
+          -0.06415957317709904,
+          0,
+          0.9979396520680659
+        ],
+        "info": {
+          "geodesic_distance": 12.012240409851074
+        },
+        "goals": [
+          {
+            "position": [
+              -14.567899703979492,
+              3.115546703338623,
+              -7.122529983520508
+            ],
+            "radius": 3.0
+          }
+        ],
+        "instruction": "Go to the bear rug on the floor. Go to the top of the staircase. Go to the toilet.",
+        "reference_path": [
+          [
+            -4.906620025634766,
+            3.115546703338623,
+            -3.2272400856018066
+          ],
+          [
+            -6.302649974822998,
+            3.115546703338623,
+            -3.1158199310302734
+          ],
+          [
+            -9.426969528198242,
+            3.115546703338623,
+            -2.0102601051330566
+          ],
+          [
+            -11.55270004272461,
+            3.115546703338623,
+            -3.250430107116699
+          ],
+          [
+            -12.96780014038086,
+            3.115546703338623,
+            -5.544410228729248
+          ],
+          [
+            -13.952699661254883,
+            3.115546703338623,
+            -7.167079925537109
+          ],
+          [
+            -14.567899703979492,
+            3.115546703338623,
+            -7.122529983520508
+          ]
+        ],
+        "task_name": "r2r",
+        "split": "val_seen",
+        "gt_path_length": 12.386001586914062,
+        "reference_points": [
+          [
+            3.2272400856018066,
+            -4.906620025634766,
+            -3.115546703338623
+          ],
+          [
+            3.1158199310302734,
+            -6.302649974822998,
+            -3.115546703338623
+          ],
+          [
+            2.0102601051330566,
+            -9.426969528198242,
+            -3.115546703338623
+          ],
+          [
+            3.250430107116699,
+            -11.55270004272461,
+            -3.115546703338623
+          ],
+          [
+            5.544410228729248,
+            -12.96780014038086,
+            -3.115546703338623
+          ],
+          [
+            7.167079925537109,
+            -13.952699661254883,
+            -3.115546703338623
+          ],
+          [
+            7.122529983520508,
+            -14.567899703979492,
+            -3.115546703338623
+          ]
+        ]
+      }
+    }
+  ],
+  "selection": "scene round-robin; original within-scene order; no outcome selection"
+}

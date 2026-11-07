@@ -1,0 +1,76 @@
+{
+  "episode_uid": "agm_ppo_val_seen:536",
+  "source_episode_id": "536",
+  "scene_id": "cV4RVeZvu5T",
+  "instruction": "Walk past the floral couch.  Exit through door.  Walk straight until you reach a wooden chest on the floor.  Turn left, and walk out the door with crucifix.  Wait by doormat.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.9941274523735046,
+  "path_length": 15.662471305113286,
+  "gt_path_length": 8.98599624633789,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5738412797114574,
+  "purpose": "val_seen",
+  "wall_seconds": 25.154989244416356,
+  "training": {
+    "episode_id": "536",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/fadd39abcc824dc7a534b1c40eab35e3_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "536",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_fadd39abcc824dc7a534b1c40eab35e3.pt",
+      "transitions": 15,
+      "reward_sum": 1.7814009229342143,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.5838519026835759,
+        "camera": 0.9032485286394755,
+        "position_latent": 2.436019790172577
+      },
+      "start_geodesic_distance": 8.965141296386719,
+      "final_geodesic_distance": 0.9941274523735046,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 17642.930760979652,
+      "perception_ms": 2002.7809049934149
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.5723963429359895,
+  "reward_sum": 1.7814009229342143,
+  "focus_mean": 4.0
+}

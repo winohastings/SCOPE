@@ -1,0 +1,69 @@
+{
+  "episode_uid": "agm_ppo_val_seen:588",
+  "source_episode_id": "588",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Turn right and pass by the table. Continue down the wall and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.0853800773620605,
+  "path_length": 7.526805475354195,
+  "gt_path_length": 7.649598121643066,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.1681178840954998,
+  "purpose": "val_seen",
+  "wall_seconds": 10.613060993142426,
+  "training": {
+    "episode_id": "588",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/e6c9554b2f624a1fb297a2ce3811fa94_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "588",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/episode_boundary_e6c9554b2f624a1fb297a2ce3811fa94.pt",
+      "transitions": 8,
+      "reward_sum": -0.7235731760660808,
+      "focus_histogram": {
+        "4": 8
+      },
+      "camera_histogram": {
+        "1": 32
+      },
+      "entropy": {
+        "stop": 0.5842151902616024,
+        "camera": 0.945887690410018,
+        "position_latent": 2.4389277324080467
+      },
+      "start_geodesic_distance": 7.73178243637085,
+      "final_geodesic_distance": 5.0853800773620605,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7390.276180580258,
+      "perception_ms": 871.3356135413051
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7235731760660808,
+  "focus_mean": 4.0
+}

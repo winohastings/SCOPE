@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:644",
+  "source_episode_id": "644",
+  "scene_id": "VFuaQ6m2Qom",
+  "instruction": "Walk clockwise around the bed.  After passing the fireplace, there are three doors.  Go through the door on the left with the circular tub in it and stop just after entering this room.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.8533637523651123,
+  "path_length": 17.558802873827517,
+  "gt_path_length": 10.647575378417969,
+  "steps": 16,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.21598491585372678,
+  "purpose": "val_seen",
+  "wall_seconds": 26.98859201464802,
+  "training": {
+    "episode_id": "644",
+    "transitions": 16,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/52eb455f608b4fdf86e1278f3ae55264_0015.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "644",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_52eb455f608b4fdf86e1278f3ae55264.pt",
+      "transitions": 16,
+      "reward_sum": -0.9502459685007731,
+      "focus_histogram": {
+        "4": 16
+      },
+      "camera_histogram": {
+        "1": 64
+      },
+      "entropy": {
+        "stop": 0.6653115665540099,
+        "camera": 1.09252243116498,
+        "position_latent": 2.3806907795369625
+      },
+      "start_geodesic_distance": 9.099674224853516,
+      "final_geodesic_distance": 3.8533637523651123,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 18966.24673437327,
+      "perception_ms": 2210.153581574559
+    },
+    "collected": 2054,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.9502459685007731,
+  "focus_mean": 4.0
+}

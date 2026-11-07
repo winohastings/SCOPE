@@ -1,0 +1,71 @@
+{
+  "episode_uid": "agm_ppo_val_seen:622",
+  "source_episode_id": "622",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Go into the hallway and to the right. Wait in the office, in front of the loveseat.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.0576138496398926,
+  "path_length": 10.566111149033532,
+  "gt_path_length": 8.077232360839844,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.735761173497145,
+  "purpose": "val_seen",
+  "wall_seconds": 24.03285359032452,
+  "training": {
+    "episode_id": "622",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/0459ff17c90740d6abad4bf6a3278ff5_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "622",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_0459ff17c90740d6abad4bf6a3278ff5.pt",
+      "transitions": 10,
+      "reward_sum": 1.8856230735778807,
+      "focus_histogram": {
+        "4": 10
+      },
+      "camera_histogram": {
+        "1": 40
+      },
+      "entropy": {
+        "stop": 0.6866227194666863,
+        "camera": 0.5122231617569923,
+        "position_latent": 1.7936737358570098
+      },
+      "start_geodesic_distance": 7.8419599533081055,
+      "final_geodesic_distance": 2.0576138496398926,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9823.39666876942,
+      "perception_ms": 1110.60862056911
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.7421803388870654,
+  "reward_sum": 1.8856230735778807,
+  "focus_mean": 4.0
+}

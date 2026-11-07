@@ -62,6 +62,12 @@ R2R 隔离开发清单 64 集/组，seed=42，四组共 256 集，记录执行�
 
 仅 Glance 在这批开发样本上表现可用；当前 Fixed/Random Focus 未显示优于 Glance 的效用。单 seed、开发场景来自原 train，不能声称统计显著、val_unseen 泛化或学习型策略有效。
 
+## Stage2 / Task231
+
+失败归因与匹配反事实诊断已发布，见 [发布说明与关键日志索引](docs/release/TASK231_RELEASE.md)。包含 192 集反事实对照、128 个匹配分支、1280 次 Actor 探针及历史 4096-transition 数值审计；**未进行新训练**。forced4 的局部恢复不构成显著提升或泛化结论。权重仍留本地，仅上传占位。
+
+使用 `python3.11 tools/verify_task231_release.py` 离线核验保留证据；完整诊断重跑仍依赖原机器权重、场景与完整 traces。
+
 ## Stage2 / Task23
 
 Task23 导航级 PPO/GAE 与独立 Critic 的实现、文档和关键实验数据已归档，见 [发布说明](docs/release/TASK23_RELEASE.md)。完成 4096 个真实训练 transitions / 56 轮更新；最终确定性策略零 Focus 退化，不宣称有效论文基线。训练后 OpenGL 清理 exit 134 如实保留。

@@ -1,0 +1,68 @@
+{
+  "episode_uid": "agm_ppo_val_seen:329",
+  "source_episode_id": "329",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Leave the bedroom and go straight. Take the first left into a new hallway. Stop in the doorway of the bathroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.12514710426330566,
+  "path_length": 5.156796568073332,
+  "gt_path_length": 5.434553146362305,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8524324617104998,
+  "purpose": "val_seen",
+  "wall_seconds": 10.81294308975339,
+  "training": {
+    "episode_id": "329",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/0a42873de7d94beabd73ea2380e68bd8_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "329",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/episode_boundary_0a42873de7d94beabd73ea2380e68bd8.pt",
+      "transitions": 7,
+      "reward_sum": 1.9374144395192463,
+      "focus_histogram": {
+        "4": 7
+      },
+      "camera_histogram": {
+        "1": 28
+      },
+      "entropy": {
+        "stop": 0.5825576782226562,
+        "camera": 0.9278679490089417,
+        "position_latent": 2.43617411170687
+      },
+      "start_geodesic_distance": 4.436363697052002,
+      "final_geodesic_distance": 0.12514710426330566,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7927.664466202259,
+      "perception_ms": 960.5520656332374
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.860294494554689,
+  "reward_sum": 1.9374144395192463,
+  "focus_mean": 4.0
+}

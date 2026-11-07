@@ -1,0 +1,66 @@
+{
+  "episode_uid": "agm_ppo_val_seen:190",
+  "source_episode_id": "190",
+  "scene_id": "e9zR4mvMWw7",
+  "instruction": "walk away from the toilet and exit the bathroom through the door on the left. Walk down the hallway and stop in front of the first doorway on the left.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6923178434371948,
+  "path_length": 6.103437556419522,
+  "gt_path_length": 5.19726037979126,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8238740254288733,
+  "purpose": "val_seen",
+  "wall_seconds": 16.531784251332283,
+  "training": {
+    "episode_id": "190",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/d21a52e58f3c43189839820b8c281d33_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "190",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_d21a52e58f3c43189839820b8c281d33.pt",
+      "transitions": 7,
+      "reward_sum": 2.209776199658712,
+      "focus_histogram": {
+        "0": 7
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.6861629656382969,
+        "camera": 0.5084141492843628,
+        "position_latent": 1.793482712336949
+      },
+      "start_geodesic_distance": 4.888960838317871,
+      "final_geodesic_distance": 0.6923178434371948,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5760.646952316165,
+      "perception_ms": 34.69215612858534
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.8010175893707181,
+  "reward_sum": 2.209776199658712,
+  "focus_mean": 0.0
+}

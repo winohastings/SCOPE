@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:595",
+  "source_episode_id": "595",
+  "scene_id": "E9uDoFAP3SH",
+  "instruction": "Walk across the room and wait by the window on the left.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.8597378134727478,
+  "path_length": 19.53391333669424,
+  "gt_path_length": 13.326866149902344,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3973192702985364,
+  "purpose": "val_seen",
+  "wall_seconds": 21.90057055745274,
+  "training": {
+    "episode_id": "595",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2b48de62808a4413a3369b66c6b188a9_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "595",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_2b48de62808a4413a3369b66c6b188a9.pt",
+      "transitions": 15,
+      "reward_sum": 2.0459041953086854,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 56,
+        "2": 4
+      },
+      "entropy": {
+        "stop": 0.6642580111821492,
+        "camera": 1.0942800323168436,
+        "position_latent": 2.3816131711006165
+      },
+      "start_geodesic_distance": 12.798300743103027,
+      "final_geodesic_distance": 0.8597378134727478,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14336.266504600644,
+      "perception_ms": 1627.8399303555489
+    },
+    "collected": 2054,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.6551836553437329,
+  "reward_sum": 2.0459041953086854,
+  "focus_mean": 4.0
+}

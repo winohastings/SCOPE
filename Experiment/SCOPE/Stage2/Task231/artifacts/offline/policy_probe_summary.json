@@ -1,0 +1,196 @@
+{
+  "summaries": [
+    {
+      "transitions": 0,
+      "split": "train",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "stop_ge_045": 0.0,
+      "stop_ge_050": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 1.3643137281760573
+    },
+    {
+      "transitions": 0,
+      "split": "val_seen",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "stop_ge_045": 0.0,
+      "stop_ge_050": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 1.3636365057900548
+    },
+    {
+      "transitions": 1033,
+      "split": "train",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.2689836919307709,
+        0.27060239017009735,
+        0.2720390439033508
+      ],
+      "stop_ge_045": 0.0,
+      "stop_ge_050": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.9293408268131316
+    },
+    {
+      "transitions": 1033,
+      "split": "val_seen",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.26925485730171206,
+        0.270595908164978,
+        0.2717767894268036
+      ],
+      "stop_ge_045": 0.0,
+      "stop_ge_050": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.9274141700007021
+    },
+    {
+      "transitions": 2054,
+      "split": "train",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.3808012932538986,
+        0.3842424601316452,
+        0.3868817538022995
+      ],
+      "stop_ge_045": 0.0,
+      "stop_ge_050": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 0.9296875,
+        "2": 0.0703125,
+        "3": 0.0
+      },
+      "camera_entropy": 1.0831687590107322
+    },
+    {
+      "transitions": 2054,
+      "split": "val_seen",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.38095428347587584,
+        0.3835235685110092,
+        0.3861034959554672
+      ],
+      "stop_ge_045": 0.0,
+      "stop_ge_050": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 0.953125,
+        "2": 0.046875,
+        "3": 0.0
+      },
+      "camera_entropy": 1.0841214833781123
+    },
+    {
+      "transitions": 3100,
+      "split": "train",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.5110488295555115,
+        0.5382188260555267,
+        0.5657817423343658
+      ],
+      "stop_ge_045": 1.0,
+      "stop_ge_050": 0.9453125,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.7493321606889367
+    },
+    {
+      "transitions": 3100,
+      "split": "val_seen",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.5079766690731049,
+        0.5422214865684509,
+        0.5628989934921265
+      ],
+      "stop_ge_045": 1.0,
+      "stop_ge_050": 0.9453125,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.7457544035278261
+    },
+    {
+      "transitions": 4096,
+      "split": "train",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.5599487721920013,
+        0.5716685950756073,
+        0.5841218590736389
+      ],
+      "stop_ge_045": 1.0,
+      "stop_ge_050": 1.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.5203055222518742
+    },
+    {
+      "transitions": 4096,
+      "split": "val_seen",
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.5590891599655151,
+        0.5724427998065948,
+        0.5814185857772827
+      ],
+      "stop_ge_045": 1.0,
+      "stop_ge_050": 1.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.5183145119808614
+    }
+  ],
+  "focus_count_limitation": "Actor-only pre-Focus states cannot determine future fused observations. Count columns are explicitly stationary-p/first-decision proxies, not actual sequential expected counts; actual deterministic counts come from rollouts.",
+  "inputs": "Only detached ActorState whitelist; no reward, GT, teacher, scene or success inputs."
+}

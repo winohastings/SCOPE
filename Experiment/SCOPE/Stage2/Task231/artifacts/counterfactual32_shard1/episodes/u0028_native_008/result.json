@@ -1,0 +1,72 @@
+{
+  "episode_uid": "agm_ppo_val_seen:736",
+  "source_episode_id": "736",
+  "scene_id": "kEZ7cmS4wCh",
+  "instruction": "Walk out of the room and take a left to walk down the hallway. Take another right, and continue to walk down the hallway towards the staircase. Walk to the staircase that leads downstairs and stop right at the top of them.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 3.2958567142486572,
+  "path_length": 11.59513625036925,
+  "gt_path_length": 13.874488830566406,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7808697770412132,
+  "purpose": "val_seen",
+  "wall_seconds": 18.732917234301567,
+  "training": {
+    "episode_id": "736",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/b59301ac0f1d4d47b3b86dbfeb98b22a_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "736",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_b59301ac0f1d4d47b3b86dbfeb98b22a.pt",
+      "transitions": 11,
+      "reward_sum": -0.4019418875376383,
+      "focus_histogram": {
+        "4": 11
+      },
+      "camera_histogram": {
+        "1": 44
+      },
+      "entropy": {
+        "stop": 0.6673862487077713,
+        "camera": 1.0749345882372423,
+        "position_latent": 2.379921653053977
+      },
+      "start_geodesic_distance": 13.016728401184082,
+      "final_geodesic_distance": 3.2958567142486572,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13037.329098209739,
+      "perception_ms": 1471.332961693406
+    },
+    "collected": 2054,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.4019418875376383,
+  "focus_mean": 4.0
+}

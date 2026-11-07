@@ -1,0 +1,8 @@
+{
+  "python": "3.9.19 | packaged by conda-forge | (main, Mar 20 2024, 12:50:21) \n[GCC 12.3.0]",
+  "habitat-sim": "0.3.3",
+  "habitat-lab": "0.3.1",
+  "numpy": "1.26.4",
+  "torch": "2.1.2",
+  "magnum": "0.0.0"
+}

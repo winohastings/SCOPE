@@ -1,0 +1,72 @@
+{
+  "episode_uid": "agm_ppo_val_seen:648",
+  "source_episode_id": "648",
+  "scene_id": "sT4fr6TAbpF",
+  "instruction": "Exit the room using the door on the left. Wait in the hallway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.37561577558517456,
+  "path_length": 9.054476995486766,
+  "gt_path_length": 7.839620113372803,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7657617268451068,
+  "purpose": "val_seen",
+  "wall_seconds": 15.803832947276533,
+  "training": {
+    "episode_id": "648",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/898e8fcc84d441898a80d708749845b9_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "648",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/episode_boundary_898e8fcc84d441898a80d708749845b9.pt",
+      "transitions": 11,
+      "reward_sum": 1.9154162287712098,
+      "focus_histogram": {
+        "4": 11
+      },
+      "camera_histogram": {
+        "1": 44
+      },
+      "entropy": {
+        "stop": 0.5832483876835216,
+        "camera": 0.9547413831407373,
+        "position_latent": 2.4379393620924517
+      },
+      "start_geodesic_distance": 7.35685920715332,
+      "final_geodesic_distance": 0.37561577558517456,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10796.350869350135,
+      "perception_ms": 1187.8899643197656
+    },
+    "collected": 1033,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.8125106740919846,
+  "reward_sum": 1.9154162287712098,
+  "focus_mean": 4.0
+}

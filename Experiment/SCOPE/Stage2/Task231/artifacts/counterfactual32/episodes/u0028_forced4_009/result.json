@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:303",
+  "source_episode_id": "303",
+  "scene_id": "1LXtFkjw3qL",
+  "instruction": "Walk forward to the yellow sofa thing.  Walk around the yellow sofa thing and enter the door on the left.  Stand at the top of the stairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.1111959218978882,
+  "path_length": 14.192504307255149,
+  "gt_path_length": 13.37134075164795,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7742946978546982,
+  "purpose": "val_seen",
+  "wall_seconds": 17.591296846047044,
+  "training": {
+    "episode_id": "303",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/traces/1d74a547c481446cae335f69e12a0668_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "303",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32/runtime/episode_boundary_1d74a547c481446cae335f69e12a0668.pt",
+      "transitions": 12,
+      "reward_sum": 2.162065100669861,
+      "focus_histogram": {
+        "4": 12
+      },
+      "camera_histogram": {
+        "1": 48
+      },
+      "entropy": {
+        "stop": 0.6662046735485395,
+        "camera": 1.0894644757111867,
+        "position_latent": 2.3805989772081375
+      },
+      "start_geodesic_distance": 12.5421724319458,
+      "final_geodesic_distance": 1.1111959218978882,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11692.811132408679,
+      "perception_ms": 1315.1560053229332
+    },
+    "collected": 2054,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.883718064156887,
+  "reward_sum": 2.162065100669861,
+  "focus_mean": 4.0
+}

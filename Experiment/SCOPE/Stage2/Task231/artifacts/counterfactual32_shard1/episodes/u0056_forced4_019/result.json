@@ -1,0 +1,68 @@
+{
+  "episode_uid": "agm_ppo_val_seen:8",
+  "source_episode_id": "8",
+  "scene_id": "r1Q1Z4BcV1o",
+  "instruction": "Walk past the water fountain and turn left. Walk to the doorway directly across from the stairs.  Stop in the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.867422342300415,
+  "path_length": 7.431359684094787,
+  "gt_path_length": 11.910073280334473,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7874929517087804,
+  "purpose": "val_seen",
+  "wall_seconds": 10.91142432577908,
+  "training": {
+    "episode_id": "8",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/cee8600624b149a89f0d9dd117f34b93_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "8",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_cee8600624b149a89f0d9dd117f34b93.pt",
+      "transitions": 7,
+      "reward_sum": 2.089407777786255,
+      "focus_histogram": {
+        "4": 7
+      },
+      "camera_histogram": {
+        "1": 28
+      },
+      "entropy": {
+        "stop": 0.6825311694826398,
+        "camera": 0.5253544279507228,
+        "position_latent": 1.7862971467631203
+      },
+      "start_geodesic_distance": 9.458539009094238,
+      "final_geodesic_distance": 2.867422342300415,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7627.150435931981,
+      "perception_ms": 934.5497069880366
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.089407777786255,
+  "focus_mean": 4.0
+}

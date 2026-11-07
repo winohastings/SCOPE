@@ -1,0 +1,367 @@
+{
+  "rounds": [
+    {
+      "transitions": 0,
+      "SR": {
+        "mean": 0.34375,
+        "ci95": [
+          0.1875,
+          0.5
+        ],
+        "episodes": 32
+      },
+      "OSR": 0.65625,
+      "oracle_but_failed": 10,
+      "truncated": 8
+    },
+    {
+      "transitions": 1033,
+      "SR": {
+        "mean": 0.5625,
+        "ci95": [
+          0.40625,
+          0.71875
+        ],
+        "episodes": 32
+      },
+      "OSR": 0.75,
+      "oracle_but_failed": 6,
+      "truncated": 5
+    },
+    {
+      "transitions": 2054,
+      "SR": {
+        "mean": 0.4375,
+        "ci95": [
+          0.28125,
+          0.625
+        ],
+        "episodes": 32
+      },
+      "OSR": 0.6875,
+      "oracle_but_failed": 8,
+      "truncated": 9
+    },
+    {
+      "transitions": 3100,
+      "SR": {
+        "mean": 0.375,
+        "ci95": [
+          0.21875,
+          0.5625
+        ],
+        "episodes": 32
+      },
+      "OSR": 0.65625,
+      "oracle_but_failed": 9,
+      "truncated": 6
+    },
+    {
+      "transitions": 4096,
+      "SR": {
+        "mean": 0.34375,
+        "ci95": [
+          0.1875,
+          0.5
+        ],
+        "episodes": 32
+      },
+      "OSR": 0.6875,
+      "oracle_but_failed": 11,
+      "truncated": 7
+    }
+  ],
+  "comparisons": {
+    "0->1033": {
+      "success_to_failure": 0,
+      "failure_to_success": 7,
+      "exact_mcnemar_p": 0.015625,
+      "delta_SR": {
+        "mean": 0.21875,
+        "ci95": [
+          0.09375,
+          0.375
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": 0.13241269832868421,
+        "ci95": [
+          0.03325294442580989,
+          0.2438650242070142
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": 0.06413871348680905,
+        "ci95": [
+          -0.029997949062327,
+          0.15386308604702262
+        ],
+        "episodes": 32
+      }
+    },
+    "0->2054": {
+      "success_to_failure": 1,
+      "failure_to_success": 4,
+      "exact_mcnemar_p": 0.375,
+      "delta_SR": {
+        "mean": 0.09375,
+        "ci95": [
+          -0.03125,
+          0.21875
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": 0.08170165765766815,
+        "ci95": [
+          -0.009340135945045312,
+          0.1859220456348664
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": 0.08517894416690636,
+        "ci95": [
+          -0.008702503299174566,
+          0.18276369724811764
+        ],
+        "episodes": 32
+      }
+    },
+    "0->3100": {
+      "success_to_failure": 3,
+      "failure_to_success": 4,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": 0.03125,
+        "ci95": [
+          -0.125,
+          0.1875
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.0026721893330246896,
+        "ci95": [
+          -0.13296265200276908,
+          0.12420568602775853
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": 0.02726733029858143,
+        "ci95": [
+          -0.08612432239622714,
+          0.13902034720709544
+        ],
+        "episodes": 32
+      }
+    },
+    "0->4096": {
+      "success_to_failure": 3,
+      "failure_to_success": 3,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": 0.0,
+        "ci95": [
+          -0.15625,
+          0.15625
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.02894126318667287,
+        "ci95": [
+          -0.1501102397061616,
+          0.08480589886740975
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": 0.003946970467373178,
+        "ci95": [
+          -0.10047739544877611,
+          0.10649004964773269
+        ],
+        "episodes": 32
+      }
+    },
+    "1033->2054": {
+      "success_to_failure": 6,
+      "failure_to_success": 2,
+      "exact_mcnemar_p": 0.2890625,
+      "delta_SR": {
+        "mean": -0.125,
+        "ci95": [
+          -0.28125,
+          0.03125
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.05071104067101606,
+        "ci95": [
+          -0.17487164082363563,
+          0.06849166568980633
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": 0.021040230680097298,
+        "ci95": [
+          -0.07615168999289261,
+          0.11800066561511638
+        ],
+        "episodes": 32
+      }
+    },
+    "1033->3100": {
+      "success_to_failure": 8,
+      "failure_to_success": 2,
+      "exact_mcnemar_p": 0.109375,
+      "delta_SR": {
+        "mean": -0.1875,
+        "ci95": [
+          -0.375,
+          0.0
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.1350848876617089,
+        "ci95": [
+          -0.2837690881989545,
+          0.008493371472968206
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.03687138318822763,
+        "ci95": [
+          -0.1676847833736478,
+          0.09541401993755934
+        ],
+        "episodes": 32
+      }
+    },
+    "1033->4096": {
+      "success_to_failure": 8,
+      "failure_to_success": 1,
+      "exact_mcnemar_p": 0.0390625,
+      "delta_SR": {
+        "mean": -0.21875,
+        "ci95": [
+          -0.375,
+          -0.0625
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.16135396151535708,
+        "ci95": [
+          -0.29909474959265714,
+          -0.03072439559390283
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.06019174301943589,
+        "ci95": [
+          -0.18133990467917116,
+          0.06180583113302634
+        ],
+        "episodes": 32
+      }
+    },
+    "2054->3100": {
+      "success_to_failure": 6,
+      "failure_to_success": 4,
+      "exact_mcnemar_p": 0.75390625,
+      "delta_SR": {
+        "mean": -0.0625,
+        "ci95": [
+          -0.25,
+          0.125
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.08437384699069284,
+        "ci95": [
+          -0.23795898159614734,
+          0.06447568269237593
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.05791161386832493,
+        "ci95": [
+          -0.17510378546578056,
+          0.061135259045171586
+        ],
+        "episodes": 32
+      }
+    },
+    "2054->4096": {
+      "success_to_failure": 6,
+      "failure_to_success": 3,
+      "exact_mcnemar_p": 0.5078125,
+      "delta_SR": {
+        "mean": -0.09375,
+        "ci95": [
+          -0.28125,
+          0.09375
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.11064292084434102,
+        "ci95": [
+          -0.25306468591126285,
+          0.025757937480843224
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.0812319736995332,
+        "ci95": [
+          -0.186508985168892,
+          0.023473093308241797
+        ],
+        "episodes": 32
+      }
+    },
+    "3100->4096": {
+      "success_to_failure": 1,
+      "failure_to_success": 0,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": -0.03125,
+        "ci95": [
+          -0.09375,
+          0.0
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.02626907385364818,
+        "ci95": [
+          -0.0800676625749279,
+          0.0013404139052585074
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.02332035983120825,
+        "ci95": [
+          -0.07145141444614105,
+          0.002888289724471961
+        ],
+        "episodes": 32
+      }
+    }
+  },
+  "bootstrap": "20000 episode-paired percentile draws, seed231, exploratory unadjusted comparisons"
+}

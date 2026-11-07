@@ -1,0 +1,80 @@
+{
+  "episode_uid": "agm_ppo_val_seen:548",
+  "source_episode_id": "548",
+  "scene_id": "PX4nDJXEHrG",
+  "instruction": "Go to the bear rug on the floor. Go to the top of the staircase. Go to the toilet.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.219267845153809,
+  "path_length": 19.351684305351228,
+  "gt_path_length": 12.386001586914062,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.08319330755028703,
+  "purpose": "val_seen",
+  "wall_seconds": 46.764766552485526,
+  "training": {
+    "episode_id": "548",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/traces/2821eab3d87b407f924e91a5edfdd5d7_0018.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "548",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard1/runtime/episode_boundary_2821eab3d87b407f924e91a5edfdd5d7.pt",
+      "transitions": 19,
+      "reward_sum": -1.1971351623535156,
+      "focus_histogram": {
+        "4": 19
+      },
+      "camera_histogram": {
+        "1": 76
+      },
+      "entropy": {
+        "stop": 0.6851194610721186,
+        "camera": 0.5154231033827129,
+        "position_latent": 1.7906209293164705
+      },
+      "start_geodesic_distance": 12.012240409851074,
+      "final_geodesic_distance": 8.219267845153809,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 19177.50965524465,
+      "perception_ms": 2109.3088891357183
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1971351623535156,
+  "focus_mean": 4.0
+}

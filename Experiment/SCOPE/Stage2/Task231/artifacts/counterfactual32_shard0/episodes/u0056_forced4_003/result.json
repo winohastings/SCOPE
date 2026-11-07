@@ -1,0 +1,70 @@
+{
+  "episode_uid": "agm_ppo_val_seen:159",
+  "source_episode_id": "159",
+  "scene_id": "i5noydFURQK",
+  "instruction": "Exit room through barn style door and head straight down hallway towards the painting on the wall. Turn right into the bedroom. Take a hard left through the mirrored door. Turn slight left and wait by the white floor length shelves.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6547465324401855,
+  "path_length": 8.110328013659455,
+  "gt_path_length": 7.825236797332764,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8313926755798365,
+  "purpose": "val_seen",
+  "wall_seconds": 12.44013951625675,
+  "training": {
+    "episode_id": "159",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/traces/39f8071a42af47eaa4fd1187a749e693_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "159",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/artifacts/counterfactual32_shard0/runtime/episode_boundary_39f8071a42af47eaa4fd1187a749e693.pt",
+      "transitions": 9,
+      "reward_sum": 1.966119352976481,
+      "focus_histogram": {
+        "4": 9
+      },
+      "camera_histogram": {
+        "1": 36
+      },
+      "entropy": {
+        "stop": 0.6842067986726761,
+        "camera": 0.5283766372336282,
+        "position_latent": 1.7870116763644748
+      },
+      "start_geodesic_distance": 6.896536827087402,
+      "final_geodesic_distance": 0.6547465324401855,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8412.995363585651,
+      "perception_ms": 958.9267671108246
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.8503400621370949,
+  "reward_sum": 1.966119352976481,
+  "focus_mean": 4.0
+}
