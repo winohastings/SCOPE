@@ -1,0 +1,8 @@
+{
+  "Gate0": "PASS",
+  "Gate1": "INCONCLUSIVE",
+  "Gate2": "NOT_RUN",
+  "Gate3": "NOT_RUN",
+  "downstream_locked": true,
+  "reason": "offline heldout learning signal did not improve under preregistered budget; stop downstream"
+}

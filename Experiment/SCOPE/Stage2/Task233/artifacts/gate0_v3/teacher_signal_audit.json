@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "checks": {
+    "evaluation_count": true,
+    "heldout_count": true,
+    "integrity": true,
+    "credible_label_fraction": true,
+    "teacher_beats_stop": true,
+    "teacher_beats_fixed": true,
+    "teacher_beats_random": true
+  },
+  "heldout_credible_fraction": 0.5,
+  "gate_effects": [
+    {
+      "comparison": "teacher_minus_stop",
+      "mean": 0.07307162880897522,
+      "ci_low": 0.018276783823966983,
+      "ci_high": 0.1959984719753266,
+      "episodes": 16,
+      "anchors": 32
+    },
+    {
+      "comparison": "teacher_minus_fixed",
+      "mean": 0.04471296817064285,
+      "ci_low": 0.011831261031329636,
+      "ci_high": 0.10731939449906368,
+      "episodes": 16,
+      "anchors": 32
+    },
+    {
+      "comparison": "teacher_minus_random",
+      "mean": 0.07438816378513971,
+      "ci_low": 0.021760636692245827,
+      "ci_high": 0.18144720687220514,
+      "episodes": 16,
+      "anchors": 32
+    }
+  ],
+  "anchors": 72,
+  "branches": 1006,
+  "thresholds": {
+    "calibration_anchors": 8,
+    "progress_noise_max": 0.0,
+    "gt_noise_max": 0.0,
+    "min_progress_m": 0.02,
+    "min_gt_margin": 0.0001,
+    "minimum_confident_fraction": 0.25,
+    "minimum_evaluation_anchors": 64,
+    "minimum_heldout_anchors": 32,
+    "paired_ci_level": 0.9833333333333333,
+    "bootstrap_episode_replicates": 10000,
+    "seed": 233,
+    "calibration_rows_sha256": "1909dc9efb2f7d6d48f8e8b754762238c3dccf2f024eb58146565fdce2f7ce11"
+  },
+  "heldout_mean_rank_correlation": 0.8225806451612901,
+  "rank_correlation_nonconstant_anchors": 31,
+  "complete": {
+    "branches": 1006,
+    "native_steps_including_replay": 12072,
+    "wall_seconds": 1624.3655826933682,
+    "exclusions": [],
+    "audit": {
+      "checks": {
+        "backbone_frozen": true,
+        "adapter_unchanged": true,
+        "actor_unchanged": true
+      },
+      "model_predictions": 1006,
+      "focus_encoder_calls": 2300,
+      "optimizer_updates": 0,
+      "critic_training_samples": 0
+    }
+  },
+  "result_sha256": "19785acfe7b9dda517c7211214880cc7c242a76cb3dd86227b7cbbd218ded2d1",
+  "optimizer_updates": 0,
+  "SR_SPL": "NOT_RUN: one-chunk counterfactuals are not complete navigation episodes",
+  "heldout_critic": "NOT_RUN: no Critic used or trained in Gate0"
+}

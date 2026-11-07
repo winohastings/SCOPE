@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "train_only": true,
+    "disjoint_trajectories": true,
+    "no_optimization": true,
+    "teacher_not_group": true,
+    "token_budget": true,
+    "restoration": true,
+    "coordinate_roundtrip": true,
+    "trusted_assets": true,
+    "source_unchanged": true,
+    "all_eight_candidates_executed": true,
+    "scoring_replay": true,
+    "original_latent_preserved_float32": true,
+    "prediction_accounting": true,
+    "focus_call_accounting": true,
+    "calibration_frozen_evidence": true
+  },
+  "max_score_error": 0.0,
+  "max_latent_float32_error": 1.1194242199863425e-07,
+  "verification_source_sha256": "df6c8b0fc1cf39016fca78e04dcfd2172fd488c3ebd3b5135db5dc620af429d6",
+  "scope": "independent arithmetic/geometry/accounting audit; does not change preregistered Gate0",
+  "camera_scope": "real fixed-prefix incremental histories; not autonomous four-Focus learned-policy performance"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "BLOCKED",
+  "checks": {
+    "gate0_pass": true,
+    "minimum_unique_anchors": false,
+    "train_teacher_anchors": false,
+    "heldout_not_used_for_warmup": true,
+    "all_labels_train_split": true,
+    "no_optimizer_update": true
+  },
+  "unique_anchors": 72,
+  "teacher_train_anchors": 32,
+  "heldout_anchors": 32,
+  "required_unique_anchors": 128,
+  "reason": "Gate1 requires fresh 128-256 unique anchors; duplicate/replayed Gate0 states are forbidden",
+  "gate0_teacher_signal_audit_sha256": "3998feb775786324109c93736d7f42bcb7646ff6114df995db7061b98ceb2875",
+  "warmup_optimizer_updates": 0,
+  "critic_training_samples": 0,
+  "data_kind": "teacher_candidate_only; not on_policy_group"
+}

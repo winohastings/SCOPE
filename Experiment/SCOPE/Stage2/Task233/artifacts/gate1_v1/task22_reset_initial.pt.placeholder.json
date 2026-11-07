@@ -1,0 +1,8 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/task22_reset_initial.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/task22_reset_initial.pt",
+  "bytes": 9198205,
+  "sha256": "f93ad343d53f8d4aba107b8f7f9c3b352be4d32e4f8f88596747456174698206",
+  "uploaded": false,
+  "restore": "Obtain the trusted original local checkpoint and verify SHA256; placeholder is not loadable."
+}

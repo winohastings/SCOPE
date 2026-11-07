@@ -1,0 +1,4 @@
+{
+  "error": "RuntimeError('teacher model server startup failed; inspect server.log')",
+  "optimizer_updates": 0
+}

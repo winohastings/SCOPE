@@ -1,0 +1,9 @@
+{
+  "Gate0": "PASS_PARENT",
+  "anchor_expansion": "COMPLETE",
+  "Gate1": "NOT_RUN",
+  "Gate2": "NOT_RUN",
+  "Gate3": "NOT_RUN",
+  "optimizer_updates": 0,
+  "note": "256 anchors collected, not 256 high-confidence labels; no claim Gate1 passed"
+}

@@ -1,0 +1,30 @@
+{
+  "passed": false,
+  "checks": {
+    "source_and_old_artifact_integrity": false,
+    "STOP_parameters_unchanged": true,
+    "no_heldout_gradient_samples": true,
+    "pilot_selection_labels_not_in_pilot_fit": true,
+    "final_fit_exactly_credible_train": true,
+    "no_group_or_critic": true,
+    "optimizer_steps_match": true,
+    "cpu_metric_replay": true,
+    "finite_training_log": true,
+    "actor_changed": true,
+    "early_stop_honored": true
+  },
+  "changed_unaccounted_inputs": [
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/spatial_warmup.py"
+  ],
+  "post_run_source_substitutions": {},
+  "max_cpu_metric_error": 2.36587667679089e-07,
+  "checkpoint_sha256": "ff54bfb7f8ae9e6083d6bc9d09c4657ec6d36c0c0030d482d694d8396cd8e98c",
+  "optimizer_steps": {
+    "task22_reset": 27,
+    "update14_reset": 27,
+    "warmup": 132
+  },
+  "initialization_top1_tie_warning": "uniform camera logits and zero means tie four central candidates; top1 uses first argmax, not tie-adjusted accuracy",
+  "inference": "heldout NLL degradation independently triggers early stop; j/split shift prevents attributing this solely to architecture",
+  "verifier_sha256": "ff9cfa74033c13b17791aea2eba91b0cd64221d9aafbf2b04163e6af1990c1d3"
+}

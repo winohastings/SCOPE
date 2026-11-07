@@ -1,0 +1,9 @@
+{
+  "Gate0": "BLOCKED",
+  "Gate1": "NOT_RUN",
+  "Gate2": "NOT_RUN",
+  "Gate3": "NOT_RUN",
+  "downstream_locked": true,
+  "reason": "RuntimeError('teacher model server startup failed; inspect server.log')",
+  "optimizer_updates": 0
+}

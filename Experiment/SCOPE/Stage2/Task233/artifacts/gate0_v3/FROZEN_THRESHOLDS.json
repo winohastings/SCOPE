@@ -1,0 +1,14 @@
+{
+  "calibration_anchors": 8,
+  "progress_noise_max": 0.0,
+  "gt_noise_max": 0.0,
+  "min_progress_m": 0.02,
+  "min_gt_margin": 0.0001,
+  "minimum_confident_fraction": 0.25,
+  "minimum_evaluation_anchors": 64,
+  "minimum_heldout_anchors": 32,
+  "paired_ci_level": 0.9833333333333333,
+  "bootstrap_episode_replicates": 10000,
+  "seed": 233,
+  "calibration_rows_sha256": "1909dc9efb2f7d6d48f8e8b754762238c3dccf2f024eb58146565fdce2f7ce11"
+}

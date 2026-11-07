@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "candidate_scoring_and_geometry_replayed": 3646,
+  "max_score_error": 0.0,
+  "teacher_states_verified": 256,
+  "state_input_identity": "exact",
+  "training_or_navigation_rerun": false
+}

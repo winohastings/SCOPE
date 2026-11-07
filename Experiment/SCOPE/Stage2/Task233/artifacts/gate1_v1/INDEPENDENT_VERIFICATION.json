@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checks": {
+    "source_and_old_artifact_integrity": true,
+    "teacher_labels_recomputed": true,
+    "STOP_parameters_unchanged": true,
+    "no_heldout_gradient_samples": true,
+    "pilot_selection_labels_not_in_pilot_fit": true,
+    "final_fit_exactly_credible_train": true,
+    "no_group_or_critic": true,
+    "optimizer_steps_match": true,
+    "cpu_metric_replay": true,
+    "finite_training_log": true,
+    "actor_changed": true,
+    "early_stop_honored": true
+  },
+  "changed_unaccounted_inputs": [],
+  "post_run_source_substitutions": {
+    "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/spatial_warmup.py": {
+      "executed_source_snapshot": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/source_snapshot/spatial_warmup.py",
+      "executed_sha256": "ff5a9e629c69c485cc0cdbfdef43270537fda11a25d1c753d584c85ff75a3625",
+      "current_sha256": "ecfc1d3ac20bcd9681376182143769bc80b82bb25a814ab4044a6cd8a21fe137",
+      "reason": "post-run guard prevents modifying existing outputs on rejected rerun"
+    }
+  },
+  "max_cpu_metric_error": 2.36587667679089e-07,
+  "checkpoint_sha256": "ff54bfb7f8ae9e6083d6bc9d09c4657ec6d36c0c0030d482d694d8396cd8e98c",
+  "optimizer_steps": {
+    "task22_reset": 27,
+    "update14_reset": 27,
+    "warmup": 132
+  },
+  "initialization_top1_tie_warning": "uniform camera logits and zero means tie four central candidates; top1 uses first argmax, not tie-adjusted accuracy",
+  "inference": "heldout NLL degradation independently triggers early stop; j/split shift prevents attributing this solely to architecture",
+  "verifier_sha256": "2873aacbb9bd4aa5778ee3f14d451480d53be30f8cd4c180ce2785517884589c"
+}

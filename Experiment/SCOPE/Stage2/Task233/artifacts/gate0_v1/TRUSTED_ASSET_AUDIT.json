@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt",
+      "expected": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595",
+      "actual": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/DATA_MANIFEST.json",
+      "expected": "e061d5a9932c1db6f5753f4ca48a0c8f86c43e58e51f86db5ac57be7b7fbf1ea",
+      "actual": "e061d5a9932c1db6f5753f4ca48a0c8f86c43e58e51f86db5ac57be7b7fbf1ea"
+    }
+  ]
+}

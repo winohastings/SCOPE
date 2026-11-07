@@ -1,0 +1,92 @@
+[
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_00_state_0.pt",
+    "bytes": 668426,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_00_state_1.pt",
+    "bytes": 668426,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_01_state_0.pt",
+    "bytes": 668490,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_01_state_1.pt",
+    "bytes": 668490,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_02_state_0.pt",
+    "bytes": 668490,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_02_state_1.pt",
+    "bytes": 668490,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_03_state_0.pt",
+    "bytes": 668554,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_03_state_1.pt",
+    "bytes": 668554,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_04_state_0.pt",
+    "bytes": 668426,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_04_state_1.pt",
+    "bytes": 668426,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_05_state_0.pt",
+    "bytes": 668490,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate0_v2/runtime/states/episode_05_state_1.pt",
+    "bytes": 668490,
+    "reason": "failed-attempt state tensor, cache or empty log"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/task22_reset_initial.pt",
+    "bytes": 9198205,
+    "sha256": "f93ad343d53f8d4aba107b8f7f9c3b352be4d32e4f8f88596747456174698206",
+    "reason": "local checkpoint; placeholder only"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/task22_reset_last.pt",
+    "bytes": 27410192,
+    "sha256": "03608c8df6cf3229834fd2d1ea2a8ab122d35b13ba38eafe17f3ee342e1aea98",
+    "reason": "local checkpoint; placeholder only"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/update14_reset_initial.pt",
+    "bytes": 9198347,
+    "sha256": "a4db9b2a8fa9445d3707ba015cc255affd720da297801e4f4ea7af13dccdbdab",
+    "reason": "local checkpoint; placeholder only"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/update14_reset_last.pt",
+    "bytes": 27410772,
+    "sha256": "d003178e196263f68837f03ceee4d0f43b1eeeb6e6d73554604e2db4aaa6e2d5",
+    "reason": "local checkpoint; placeholder only"
+  },
+  {
+    "path": "Experiment/SCOPE/Stage2/Task233/artifacts/gate1_v1/warmup_last.pt",
+    "bytes": 27409156,
+    "sha256": "ff54bfb7f8ae9e6083d6bc9d09c4657ec6d36c0c0030d482d694d8396cd8e98c",
+    "reason": "local checkpoint; placeholder only"
+  }
+]

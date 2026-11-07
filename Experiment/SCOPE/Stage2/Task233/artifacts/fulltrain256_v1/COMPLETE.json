@@ -1,0 +1,18 @@
+{
+  "branches": 2640,
+  "native_steps_including_replay": 32448,
+  "completed_anchors": 192,
+  "wall_seconds": 4445.644283896312,
+  "exclusions": [],
+  "audit": {
+    "checks": {
+      "backbone_frozen": true,
+      "adapter_unchanged": true,
+      "actor_unchanged": true
+    },
+    "model_predictions": 2640,
+    "focus_encoder_calls": 6048,
+    "optimizer_updates": 0,
+    "critic_training_samples": 0
+  }
+}

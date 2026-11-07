@@ -1,0 +1,29 @@
+{
+  "full_train": {
+    "episodes": 10819,
+    "scenes": 61,
+    "trajectories": 3603
+  },
+  "previous_pool": {
+    "episodes": 9837,
+    "scenes": 54,
+    "trajectories": 3276
+  },
+  "previous_selection": {
+    "episodes": 36,
+    "scenes": 36,
+    "trajectories": 36
+  },
+  "new_reserve": {
+    "episodes": 3567,
+    "scenes": 61,
+    "trajectories": 3567
+  },
+  "excluded_old_trajectories": 36,
+  "source": "/home/data/czh/Third_Party/tasks/R2R-CE/R2R_VLNCE_v1-3_preprocessed/train/train.json.gz",
+  "source_sha256": "f9340166cfaef49885c859f260546a2f81bb4f7d970fd66847fb213178038be1",
+  "seed": 233256,
+  "newly_authorized_train_episodes": 982,
+  "validation_splits_accessed": false,
+  "historical_train_dev_note": "7 former train-development scenes now authorized for teacher data; no longer blind train-heldout evidence"
+}

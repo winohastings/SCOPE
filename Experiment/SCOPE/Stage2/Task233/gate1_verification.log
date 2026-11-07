@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/verify_warmup.py", line 120, in <module>
+    main()
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/verify_warmup.py", line 116, in main
+    verify(args.output)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/verify_warmup.py", line 107, in verify
+    raise AssertionError(report)
+AssertionError: {'passed': False, 'checks': {'source_and_old_artifact_integrity': False, 'STOP_parameters_unchanged': True, 'no_heldout_gradient_samples': True, 'pilot_selection_labels_not_in_pilot_fit': True, 'final_fit_exactly_credible_train': True, 'no_group_or_critic': True, 'optimizer_steps_match': True, 'cpu_metric_replay': True, 'finite_training_log': True, 'actor_changed': True, 'early_stop_honored': True}, 'changed_unaccounted_inputs': ['/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/spatial_warmup.py'], 'post_run_source_substitutions': {}, 'max_cpu_metric_error': 2.36587667679089e-07, 'checkpoint_sha256': 'ff54bfb7f8ae9e6083d6bc9d09c4657ec6d36c0c0030d482d694d8396cd8e98c', 'optimizer_steps': {'task22_reset': 27, 'update14_reset': 27, 'warmup': 132}, 'initialization_top1_tie_warning': 'uniform camera logits and zero means tie four central candidates; top1 uses first argmax, not tie-adjusted accuracy', 'inference': 'heldout NLL degradation independently triggers early stop; j/split shift prevents attributing this solely to architecture', 'verifier_sha256': 'ff9cfa74033c13b17791aea2eba91b0cd64221d9aafbf2b04163e6af1990c1d3'}

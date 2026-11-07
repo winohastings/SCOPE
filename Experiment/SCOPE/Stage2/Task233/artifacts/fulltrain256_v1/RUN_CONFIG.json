@@ -1,0 +1,12 @@
+{
+  "target_noncalibration_total": 256,
+  "retained": 64,
+  "new_target": 192,
+  "calibration_separate": 8,
+  "wall_hours": 3.0,
+  "partition_rule": "every fourth fresh episode heldout",
+  "replacement_rule": "next frozen reserve only for unavailable second live state or duplicate physical state; never outcome gain",
+  "criterion": "any complete valid anchor counts; retain low/negative/margin-tied samples",
+  "optimizer_updates": 0,
+  "protocol_sha256": "3a473d9d5a897574aad92beecf8b4ce1d55aa5fee8375f08b4808f0ce5235201"
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4",
+    "transformers": "5.12.1",
+    "websockets": "16.1.1",
+    "scipy": "1.15.3",
+    "Pillow": "12.3.0"
+  }
+}

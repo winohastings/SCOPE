@@ -62,6 +62,12 @@ R2R 隔离开发清单 64 集/组，seed=42，四组共 256 集，记录执行�
 
 仅 Glance 在这批开发样本上表现可用；当前 Fixed/Random Focus 未显示优于 Glance 的效用。单 seed、开发场景来自原 train，不能声称统计显著、val_unseen 泛化或学习型策略有效。
 
+## Stage2 / Task233
+
+导航价值教师、全train扩采及空间监督热启动已归档，见 [发布说明及关键日志](docs/release/TASK233_RELEASE.md)。最终 **Gate0=PASS、Gate1=INCONCLUSIVE、Gate2/3=NOT_RUN**：可信heldout NLL/top1退化，停止下游。保存256个非校准anchor和8个校准状态数据、候选证据及186次监督更新日志；5个模型checkpoint仅占位。不宣称SR/SPL提升或已执行Group/PPO。
+
+运行 `python3.11 tools/verify_task233_release.py` 只读核验发布包。
+
 ## Stage2 / Task232
 
 定向短续训与 C/C0 新增覆盖奖励探索已归档，见 [发布说明及关键训练日志](docs/release/TASK232_RELEASE.md)。A/B/C0/C各新增512条训练数据，U门禁64条，总计2112；未通过扩训/空间探索门槛，不宣称找到Task233稳定配置。OpenGL清理异常如实保留。**权重仅发布83个占位文件，完整权重和traces保留本地。**

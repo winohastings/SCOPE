@@ -1,0 +1,19 @@
+{"phase": "task22_reset", "epoch": 1, "updates": 9, "mean_batch_loss": 3.996651437547472}
+{"phase": "task22_reset", "epoch": 2, "updates": 18, "mean_batch_loss": 3.887431912951999}
+{"phase": "task22_reset", "epoch": 3, "updates": 27, "mean_batch_loss": 3.7468918429480658}
+{"phase": "update14_reset", "epoch": 1, "updates": 9, "mean_batch_loss": 3.9945445325639515}
+{"phase": "update14_reset", "epoch": 2, "updates": 18, "mean_batch_loss": 3.8856195873684354}
+{"phase": "update14_reset", "epoch": 3, "updates": 27, "mean_batch_loss": 3.7420654561784534}
+{"phase": "warmup", "epoch": 1, "updates": 11, "mean_batch_loss": 3.7062491937117144}
+{"phase": "warmup", "epoch": 2, "updates": 22, "mean_batch_loss": 3.664611512964422}
+{"phase": "warmup", "epoch": 3, "updates": 33, "mean_batch_loss": 3.771485913883556}
+{"phase": "warmup", "epoch": 4, "updates": 44, "mean_batch_loss": 3.626966584812511}
+{"phase": "warmup", "epoch": 5, "updates": 55, "mean_batch_loss": 3.5727486176924272}
+{"phase": "warmup", "epoch": 6, "updates": 66, "mean_batch_loss": 3.395203178579157}
+{"phase": "warmup", "epoch": 7, "updates": 77, "mean_batch_loss": 3.41121524030512}
+{"phase": "warmup", "epoch": 8, "updates": 88, "mean_batch_loss": 3.3350438204678623}
+{"phase": "warmup", "epoch": 9, "updates": 99, "mean_batch_loss": 3.1215788559480147}
+{"phase": "warmup", "epoch": 10, "updates": 110, "mean_batch_loss": 3.1743195923891934}
+{"phase": "warmup", "epoch": 11, "updates": 121, "mean_batch_loss": 2.843243945728649}
+{"phase": "warmup", "epoch": 12, "updates": 132, "mean_batch_loss": 2.720102700320157}
+{"offline_check": "INCONCLUSIVE", "checks": {"heldout_nll_decreased": false, "heldout_candidate_top1_improved": false, "sources_unchanged": true}, "before": {"teacher_heldout_all": {"count": 80, "weighted_nll": 3.7153359993638158, "top1": 0.1625, "camera_hit": 0.325}, "teacher_heldout_confident": {"count": 37, "weighted_nll": 3.6030588385741744, "top1": 0.32432432432432434, "camera_hit": 0.5135135135135135}, "teacher_train_all": {"count": 176, "weighted_nll": 3.8003182265491806, "top1": 0.17045454545454544, "camera_hit": 0.4034090909090909}, "teacher_train_confident": {"count": 81, "weighted_nll": 3.793220217846677, "top1": 0.20987654320987653, "camera_hit": 0.4691358024691358}}, "after": {"teacher_heldout_all": {"count": 80, "weighted_nll": 4.358877939751541, "top1": 0.0875, "camera_hit": 0.3125}, "teacher_heldout_confident": {"count": 37, "weighted_nll": 4.018137064189098, "top1": 0.10810810810810811, "camera_hit": 0.4864864864864865}, "teacher_train_all": {"count": 176, "weighted_nll": 3.3072386877657003, "top1": 0.1875, "camera_hit": 0.4090909090909091}, "teacher_train_confident": {"count": 81, "weighted_nll": 2.5929859349136986, "top1": 0.2839506172839506, "camera_hit": 0.5185185185185185}}, "optimizer_updates_by_phase": {"task22_reset": 27, "update14_reset": 27, "warmup": 132}, "optimizer_updates": 186, "wall_seconds": 44.6526507018134, "Gate1": "INCONCLUSIVE", "requires_real_navigation_acceptance": true, "SR_SPL": "NOT_RUN", "heldout_critic": "NOT_RUN: no Critic used", "new_teacher_calls": 0, "reason": "offline heldout learning signal did not improve under preregistered budget; stop downstream"}

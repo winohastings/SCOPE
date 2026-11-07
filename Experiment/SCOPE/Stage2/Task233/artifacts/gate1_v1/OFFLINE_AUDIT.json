@@ -1,0 +1,73 @@
+{
+  "offline_check": "INCONCLUSIVE",
+  "checks": {
+    "heldout_nll_decreased": false,
+    "heldout_candidate_top1_improved": false,
+    "sources_unchanged": true
+  },
+  "before": {
+    "teacher_heldout_all": {
+      "count": 80,
+      "weighted_nll": 3.7153359993638158,
+      "top1": 0.1625,
+      "camera_hit": 0.325
+    },
+    "teacher_heldout_confident": {
+      "count": 37,
+      "weighted_nll": 3.6030588385741744,
+      "top1": 0.32432432432432434,
+      "camera_hit": 0.5135135135135135
+    },
+    "teacher_train_all": {
+      "count": 176,
+      "weighted_nll": 3.8003182265491806,
+      "top1": 0.17045454545454544,
+      "camera_hit": 0.4034090909090909
+    },
+    "teacher_train_confident": {
+      "count": 81,
+      "weighted_nll": 3.793220217846677,
+      "top1": 0.20987654320987653,
+      "camera_hit": 0.4691358024691358
+    }
+  },
+  "after": {
+    "teacher_heldout_all": {
+      "count": 80,
+      "weighted_nll": 4.358877939751541,
+      "top1": 0.0875,
+      "camera_hit": 0.3125
+    },
+    "teacher_heldout_confident": {
+      "count": 37,
+      "weighted_nll": 4.018137064189098,
+      "top1": 0.10810810810810811,
+      "camera_hit": 0.4864864864864865
+    },
+    "teacher_train_all": {
+      "count": 176,
+      "weighted_nll": 3.3072386877657003,
+      "top1": 0.1875,
+      "camera_hit": 0.4090909090909091
+    },
+    "teacher_train_confident": {
+      "count": 81,
+      "weighted_nll": 2.5929859349136986,
+      "top1": 0.2839506172839506,
+      "camera_hit": 0.5185185185185185
+    }
+  },
+  "optimizer_updates_by_phase": {
+    "task22_reset": 27,
+    "update14_reset": 27,
+    "warmup": 132
+  },
+  "optimizer_updates": 186,
+  "wall_seconds": 44.6526507018134,
+  "Gate1": "INCONCLUSIVE",
+  "requires_real_navigation_acceptance": true,
+  "SR_SPL": "NOT_RUN",
+  "heldout_critic": "NOT_RUN: no Critic used",
+  "new_teacher_calls": 0,
+  "reason": "offline heldout learning signal did not improve under preregistered budget; stop downstream"
+}

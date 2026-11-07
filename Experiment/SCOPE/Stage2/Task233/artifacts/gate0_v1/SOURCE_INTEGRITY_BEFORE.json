@@ -1,0 +1,16 @@
+{
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/DATA_MANIFEST.json": "e061d5a9932c1db6f5753f4ca48a0c8f86c43e58e51f86db5ac57be7b7fbf1ea",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/REPORT.md": "96ee13d604c3bfc1240202479140cda7438a9a5c56a44853afe302fb1668b161",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/C_REPORT.md": "133578e0bb9cbe047c4079f749dbf7db88395efd15b902749d2683c17040f0fc",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/C_MECHANISM.md": "324fb225282226d110c894d24939bdafa5bbe8f2325b0c0ca8f4731da6da108d",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task231/REPORT.md": "493075a204ec47261e2f2e1df8625640fab6864b9e5051e66f8a9970cdf3eb04",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/TEACHER_PROTOCOL.md": "7ce601ea95afa85728a1f5c5573783efbab7220309ee793336cbf714e25094b6",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/test_gate0.py": "03b6cf6987c4a529a915a9f5efb7ca13b616d1bbbeb20cacf141b09592f7205b",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/analyze.py": "2b21bbd920c4a2d5d5e3b03fe50a655b938b13eced7e2099e879a51cab706e77",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/expert_scoring.py": "831b3c596e552e97ca57949ae6e4a246185b9aaa9e2c462e60b5392aa190bb0d",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/gate0.py": "50255924b349981abda47c381e344c85a80acf902ccc05b6e84d1f85d3f21a7e",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/server.py": "f15447fc181ff81ed0c2f02e3e70d1c8e7e5b3ae21101550b86bd526b8096eb8",
+  "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/teacher_candidates.py": "49da0736c231442ef4ae9b73b9bcc747514e552b9dee7b8fc3c6b1008d8f2194"
+}

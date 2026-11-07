@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "branches_checked": 237,
+  "actor_states_checked": 17,
+  "score_replay_max_error": 0.0,
+  "calibration_hash_matches": true,
+  "outcome_selection": false
+}

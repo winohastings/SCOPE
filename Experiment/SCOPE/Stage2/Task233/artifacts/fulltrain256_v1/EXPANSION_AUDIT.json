@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "target": 256,
+  "unique_noncalibration_anchors": 256,
+  "new_anchors": 192,
+  "retained_parent_noncalibration_anchors": 64,
+  "scenes": 61,
+  "trajectories": 128,
+  "partitions": {
+    "teacher_train": 176,
+    "teacher_heldout": 80
+  },
+  "state_sources": {
+    "expert_start": 128,
+    "learner_induced": 128
+  },
+  "credible_labels": 118,
+  "credible_label_count_not_target": true,
+  "all_61_scenes_represented": true,
+  "parent_unchanged": true,
+  "no_training_or_group": true,
+  "new_branch_count": 2640
+}

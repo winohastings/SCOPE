@@ -1,0 +1,5 @@
+{
+  "stopped": true,
+  "reason": "Gate1 requires fresh 128-256 unique anchors; duplicate/replayed Gate0 states are forbidden",
+  "do_not_duplicate_states": true
+}

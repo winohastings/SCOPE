@@ -1,0 +1,14 @@
+{
+  "seed": 233301,
+  "pilot_epochs": 3,
+  "epochs": 12,
+  "batch_size": 8,
+  "lr": 0.0001,
+  "STOP_loss": false,
+  "STOP_execution": "bypassed in future fixed N2/N4 environment evaluation",
+  "device": "cuda:0",
+  "protocol_sha256": "fd5c543be8832c5ec52844e517b9a40ac4709fb90c982cd42b30fa1e9894eb44",
+  "dataset": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task233/artifacts/fulltrain256_v1",
+  "critic_training": false,
+  "heldout_used_for_gradients": false
+}

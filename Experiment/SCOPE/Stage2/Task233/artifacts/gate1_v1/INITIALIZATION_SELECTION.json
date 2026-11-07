@@ -1,0 +1,12 @@
+{
+  "internal_nll": {
+    "task22_reset": 3.6372669561534607,
+    "update14_reset": 3.635945232603643
+  },
+  "chosen": "update14_reset",
+  "external_heldout_used": false,
+  "pilot_updates": {
+    "task22_reset": 27,
+    "update14_reset": 27
+  }
+}

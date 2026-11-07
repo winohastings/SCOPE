@@ -1,0 +1,12 @@
+{
+  "python": "3.9.19 | packaged by conda-forge | (main, Mar 20 2024, 12:50:21) \n[GCC 12.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "habitat-lab": "0.3.1",
+    "habitat-sim": "0.3.3",
+    "numpy": "1.26.4",
+    "websockets": "15.0.1",
+    "scipy": "1.13.1",
+    "gym": "0.23.0"
+  }
+}

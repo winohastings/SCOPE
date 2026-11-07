@@ -1,0 +1,11 @@
+{
+  "Gate0": "PASS",
+  "Gate1": "BLOCKED",
+  "Gate2": "NOT_RUN",
+  "Gate3": "NOT_RUN",
+  "downstream_locked": true,
+  "failed_checks": [],
+  "teacher_signal_audit_sha256": "3998feb775786324109c93736d7f42bcb7646ff6114df995db7061b98ceb2875",
+  "optimizer_updates": 0,
+  "gate1_block_reason": "Gate1 requires fresh 128-256 unique anchors; duplicate/replayed Gate0 states are forbidden"
+}
