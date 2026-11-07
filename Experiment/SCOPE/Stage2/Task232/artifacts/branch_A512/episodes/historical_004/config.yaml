@@ -1,0 +1,76 @@
+benchmark:
+  name: SCOPE-Stage1-Feasibility-v1
+  class_path: benchmark.vlnce.benchmark:VLNCEBenchmark
+  max_steps: 200
+  max_samples: 64
+  kwargs:
+    task_name: r2r
+    split: val_seen
+    success_distance: 3.0
+    stop_on_success_radius: false
+    distance_metric: geodesic
+input:
+  type: vlnce_r2r
+  adapter_class_path: benchmark.vlnce.inputs:VLNCEInputAdapter
+  namespace: scope_feasibility_dev
+  path: /home/data/czh/Third_Party/tasks
+  task_name: r2r
+  split: val_seen
+model:
+  uri: ws://127.0.0.1:10240
+  statistics_key: vln_train_train
+  seed: 233
+  request_timeout_sec: 120.0
+env:
+  type: habitat
+  backend_class_path: benchmark.common.simulators.habitat.backend:VLNCE031HabitatBackend
+  kwargs:
+    data_root: /home/data/czh/Third_Party/tasks
+    scenes_dir: /home/data/czh/Third_Party/scenes/mp3d
+    split: val_seen
+    success_distance: 3.0
+    image_size: 512
+    camera_height: 1.25
+    max_episode_steps: 200
+    task_name: r2r
+    seed: 0
+    continuous_control_mode: collision_slide_pose_delta
+    capture_action_observations: true
+    action_adapter_class_path: benchmark.common.simulators.habitat.action_adapter:BodyFrameContinuousActionAdapter
+    action_adapter_kwargs:
+      step_scale: 1.0
+      min_delta: 0.001
+      enable_lateral: true
+      lateral_sign: -1.0
+      yaw_sign: -1.0
+      action_index: 0
+    execute_waypoints_per_step: 8
+parallel:
+  gpu_ids:
+  - 1
+  worker_timeout_sec: 0
+  worker_python: /home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/bin/python
+output:
+  root: /home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/episodes/historical_004
+  run_name: historical_004
+  save_step_artifacts: false
+  save_images: false
+  action_observation_image_policy: step
+  image_cameras:
+  - front
+  - left
+  - right
+  - rear
+  metrics:
+  - SR
+  - OSR
+  - NE
+  - SPL
+  - nDTW
+  - path_length
+  - steps_taken
+stop_rule: mean_adjacent_waypoint_translation
+stop_threshold: 0.03
+observation:
+  fps: 1.0
+policy_mode: glance_only

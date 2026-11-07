@@ -1,0 +1,87 @@
+{
+  "episode_uid": "agm_ppo_val_seen:536",
+  "source_episode_id": "536",
+  "scene_id": "cV4RVeZvu5T",
+  "instruction": "Walk past the floral couch.  Exit through door.  Walk straight until you reach a wooden chest on the floor.  Turn left, and walk out the door with crucifix.  Wait by doormat.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 4.504006385803223,
+  "path_length": 20.27860209904611,
+  "gt_path_length": 8.98599624633789,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.30940775645498036,
+  "purpose": "val_seen",
+  "wall_seconds": 36.01626325212419,
+  "training": {
+    "episode_id": "536",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/37c1734375d34e70af26482572f12c08_0018.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "536",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_37c1734375d34e70af26482572f12c08.pt",
+      "transitions": 19,
+      "reward_sum": -1.1525910059611002,
+      "focus_histogram": {
+        "4": 19
+      },
+      "camera_histogram": {
+        "1": 76
+      },
+      "entropy": {
+        "stop": 0.6268244534730911,
+        "camera": 1.142610910691713,
+        "position_latent": 2.429280450469569
+      },
+      "start_geodesic_distance": 8.965141296386719,
+      "final_geodesic_distance": 4.504006385803223,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 18932.450549677014,
+      "perception_ms": 2062.555253505707
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.2974089940388997,
+      "focus_cost": -0.7600000000000001,
+      "step_cost": -0.19000000000000003,
+      "terminal": -0.5,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1525910059611002,
+  "focus_mean": 4.0
+}

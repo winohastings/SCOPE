@@ -1,0 +1,86 @@
+{
+  "episode_uid": "agm_ppo_val_seen:338",
+  "source_episode_id": "338",
+  "scene_id": "ZMojNkEp431",
+  "instruction": "Go straight then turn right and pass the many desks until you get to the ping pong table. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.5606873631477356,
+  "path_length": 19.327985893236473,
+  "gt_path_length": 13.5897216796875,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5184300635573855,
+  "purpose": "val_seen",
+  "wall_seconds": 35.54780943505466,
+  "training": {
+    "episode_id": "338",
+    "transitions": 18,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e5bdce54bec34d458ebd22130e490898_0017.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "338",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_e5bdce54bec34d458ebd22130e490898.pt",
+      "transitions": 18,
+      "reward_sum": 1.9603542764981587,
+      "focus_histogram": {
+        "4": 18
+      },
+      "camera_histogram": {
+        "1": 72
+      },
+      "entropy": {
+        "stop": 0.6283734258678224,
+        "camera": 1.1401081946161058,
+        "position_latent": 2.4358084532949658
+      },
+      "start_geodesic_distance": 13.466001510620117,
+      "final_geodesic_distance": 0.5606873631477356,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 17597.829008474946,
+      "perception_ms": 1985.732746310532
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.8603542764981589,
+      "focus_cost": -0.7200000000000001,
+      "step_cost": -0.18000000000000002,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.696710023745016,
+  "reward_sum": 1.9603542764981587,
+  "focus_mean": 4.0
+}

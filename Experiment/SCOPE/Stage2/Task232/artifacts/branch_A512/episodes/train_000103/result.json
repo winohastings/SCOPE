@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:1815",
+  "source_episode_id": "1815",
+  "scene_id": "r47D5H71a5s",
+  "instruction": "Proceed straight through wooden door. Turn left and enter doorway immediately at your left. Stay to the left and walk straight past wooden rock and plant display and towards sinks. Wait behind metal trashcan and next to corner of rock \r\n and plant display.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.0815036296844482,
+  "path_length": 5.25947851408273,
+  "gt_path_length": 6.269512541964114,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8579575822741328,
+  "purpose": "train",
+  "wall_seconds": 15.824188911356032,
+  "training": {
+    "episode_id": "1815",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae3a659adaea4ff5bb95bde72bd471d8_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1815",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_ae3a659adaea4ff5bb95bde72bd471d8.pt",
+      "transitions": 7,
+      "reward_sum": 2.153255052566528,
+      "focus_histogram": {
+        "0": 3,
+        "4": 1,
+        "2": 2,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 7,
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6261733770370483,
+        "camera": 0.9068878690401713,
+        "position_latent": 2.515338150660197
+      },
+      "start_geodesic_distance": 5.767829418182373,
+      "final_geodesic_distance": 2.0815036296844482,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6067.262654192746,
+      "perception_ms": 292.56780073046684
+    },
+    "collected": 1461,
+    "buffer_transitions": 22,
+    "reward_components": {
+      "progress": 0.24575505256652833,
+      "focus_cost": -0.0225,
+      "step_cost": -0.07,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.153255052566528,
+  "focus_mean": 1.2857142857142858
+}

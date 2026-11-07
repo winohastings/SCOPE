@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:722",
+  "source_episode_id": "722",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Exit the bedroom and turn left. Go around the corner and down the hallway. Make a right turn and stop in the doorway on the right.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 11.747217178344727,
+  "path_length": 10.24072996294126,
+  "gt_path_length": 13.298575401306152,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.24272766901590548,
+  "purpose": "val_seen",
+  "wall_seconds": 27.516377590596676,
+  "training": {
+    "episode_id": "722",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/7f3dae4ca2bf484dbbf48de891ef24ed_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "722",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/episode_boundary_7f3dae4ca2bf484dbbf48de891ef24ed.pt",
+      "transitions": 10,
+      "reward_sum": -1.015390141805013,
+      "focus_histogram": {
+        "4": 10
+      },
+      "camera_histogram": {
+        "1": 40
+      },
+      "entropy": {
+        "stop": 0.5821392074227333,
+        "camera": 0.905095799267292,
+        "position_latent": 2.43346985578537
+      },
+      "start_geodesic_distance": 11.516365051269531,
+      "final_geodesic_distance": 11.747217178344727,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10482.502531260252,
+      "perception_ms": 1211.8765292689204
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.015390141805012953,
+      "focus_cost": -0.39999999999999997,
+      "step_cost": -0.09999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.015390141805013,
+  "focus_mean": 4.0
+}

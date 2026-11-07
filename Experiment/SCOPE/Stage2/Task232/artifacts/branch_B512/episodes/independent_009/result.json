@@ -1,0 +1,76 @@
+{
+  "episode_uid": "agm_ppo_val_seen:220",
+  "source_episode_id": "220",
+  "scene_id": "82sE5b5pLXE",
+  "instruction": "Go down the stairs and turn right, walking past the piano and up the two steps. Continue forward and walk down the 5 steps. Stop when you get down the steps.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.930127143859863,
+  "path_length": 5.425255389942322,
+  "gt_path_length": 9.16011905670166,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.1426998734298873,
+  "purpose": "val_seen",
+  "wall_seconds": 20.958712969906628,
+  "training": {
+    "episode_id": "220",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/85c1a8193a2a466a80e0b90a9ddba0e5_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "220",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_85c1a8193a2a466a80e0b90a9ddba0e5.pt",
+      "transitions": 9,
+      "reward_sum": -0.971374257405599,
+      "focus_histogram": {
+        "4": 9
+      },
+      "camera_histogram": {
+        "1": 36
+      },
+      "entropy": {
+        "stop": 0.5965661240948571,
+        "camera": 0.8677754650513331,
+        "position_latent": 2.4281275934643216
+      },
+      "start_geodesic_distance": 8.609513282775879,
+      "final_geodesic_distance": 8.930127143859863,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10466.98473393917,
+      "perception_ms": 1228.8210950791836
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.021374257405598993,
+      "focus_cost": -0.36,
+      "step_cost": -0.09,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.971374257405599,
+  "focus_mean": 4.0
+}

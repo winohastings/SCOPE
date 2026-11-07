@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "parent": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt",
+  "parent_sha256": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595",
+  "new_manifest_sha256": "7ca6c9c1684ab5cab4e839a8d8a8194ebdf59a53ce4c8aff9760122af4b6d54a",
+  "train_order_identical": true,
+  "independent_episodes": 32,
+  "independent_trajectory_overlap": 0,
+  "train_cursor": 70,
+  "optimizer_rule": "retain all moments and steps; B changes only param-group LR",
+  "buffer_empty": true,
+  "actor_critic_old_snapshots_rng_bitwise_equal": true,
+  "probe_states": 256,
+  "geometry_states": 64,
+  "diagnosis_sha256": "78a7cedbb061b5b3bd911619f55aa30e11c796bb4bcd9fb65523e279bb871909",
+  "diagnosis_report_sha256": "493075a204ec47261e2f2e1df8625640fab6864b9e5051e66f8a9970cdf3eb04"
+}

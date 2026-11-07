@@ -1,0 +1,80 @@
+{
+  "episode_uid": "agm_ppo_val_seen:421",
+  "source_episode_id": "421",
+  "scene_id": "759xd9YjKW5",
+  "instruction": "Go across the room beyond the stairs, and down the narrow hall and through the kitchen.  Wait at the door to the gym.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.30173859000205994,
+  "path_length": 14.748891992960125,
+  "gt_path_length": 11.102397918701172,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7067233170126054,
+  "purpose": "val_seen",
+  "wall_seconds": 29.87627111840993,
+  "training": {
+    "episode_id": "421",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/1f9af0eecff7408daca6b18a234437dd_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "421",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_1f9af0eecff7408daca6b18a234437dd.pt",
+      "transitions": 12,
+      "reward_sum": 2.2389666423532697,
+      "focus_histogram": {
+        "4": 12
+      },
+      "camera_histogram": {
+        "1": 48
+      },
+      "entropy": {
+        "stop": 0.6542091766993204,
+        "camera": 0.9124934896826744,
+        "position_latent": 2.5866276621818542
+      },
+      "start_geodesic_distance": 11.083898544311523,
+      "final_geodesic_distance": 0.30173859000205994,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14607.711584307253,
+      "perception_ms": 1682.255184277892
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.718810663620631,
+      "focus_cost": -0.4799999999999999,
+      "step_cost": -0.11999999999999998,
+      "terminal": 2.0,
+      "coverage_bonus": 0.12015597873263886
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7515072013275329,
+  "reward_sum": 2.2389666423532697,
+  "focus_mean": 4.0
+}

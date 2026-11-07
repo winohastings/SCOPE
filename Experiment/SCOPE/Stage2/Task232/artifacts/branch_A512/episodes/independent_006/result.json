@@ -1,0 +1,74 @@
+{
+  "episode_uid": "agm_ppo_val_seen:510",
+  "source_episode_id": "510",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Exit the bathroom. Turn left and exit the room using the door on the left. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.2712075412273407,
+  "path_length": 5.613494283054024,
+  "gt_path_length": 6.109432220458984,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.9263174422847281,
+  "purpose": "val_seen",
+  "wall_seconds": 20.811471284367144,
+  "training": {
+    "episode_id": "510",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/ae324ef36ccc4b99a4e1af70fdda1dda_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "510",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_ae324ef36ccc4b99a4e1af70fdda1dda.pt",
+      "transitions": 7,
+      "reward_sum": 2.1733420487244923,
+      "focus_histogram": {
+        "4": 7
+      },
+      "camera_histogram": {
+        "1": 28
+      },
+      "entropy": {
+        "stop": 0.6206799660410199,
+        "camera": 0.9069725509200778,
+        "position_latent": 2.482035321848733
+      },
+      "start_geodesic_distance": 4.971338272094727,
+      "final_geodesic_distance": 0.2712075412273407,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8168.180427514017,
+      "perception_ms": 963.1123067811131
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.31334204872449234,
+      "focus_cost": -0.07,
+      "step_cost": -0.07,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.8856049407767577,
+  "reward_sum": 2.1733420487244923,
+  "focus_mean": 4.0
+}

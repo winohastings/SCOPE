@@ -1,0 +1,79 @@
+{
+  "episode_uid": "agm_ppo_val_seen:387",
+  "source_episode_id": "387",
+  "scene_id": "b8cTxDM8gDG",
+  "instruction": "Exit the room and go straight until you get to the stairs. U Turn right and go out the door that leads to the outside and wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.9521329402923584,
+  "path_length": 10.270626900251955,
+  "gt_path_length": 7.848029136657715,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5416340911240696,
+  "purpose": "val_seen",
+  "wall_seconds": 24.422539136372507,
+  "training": {
+    "episode_id": "387",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/cd9d9e6800a34d1281e57436c8eb48e4_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "387",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_cd9d9e6800a34d1281e57436c8eb48e4.pt",
+      "transitions": 11,
+      "reward_sum": 1.7221850872039794,
+      "focus_histogram": {
+        "4": 11
+      },
+      "camera_histogram": {
+        "1": 44
+      },
+      "entropy": {
+        "stop": 0.627237552946264,
+        "camera": 1.1456102701750668,
+        "position_latent": 2.4320862076499243
+      },
+      "start_geodesic_distance": 6.034909248352051,
+      "final_geodesic_distance": 1.9521329402923584,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10601.91616229713,
+      "perception_ms": 1186.7330633103848
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.27218508720397944,
+      "focus_cost": -0.43999999999999995,
+      "step_cost": -0.10999999999999999,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.5875891809684962,
+  "reward_sum": 1.7221850872039794,
+  "focus_mean": 4.0
+}

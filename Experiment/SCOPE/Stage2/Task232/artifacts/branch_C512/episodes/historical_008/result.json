@@ -1,0 +1,75 @@
+{
+  "episode_uid": "agm_ppo_val_seen:514",
+  "source_episode_id": "514",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "walk forward and stop after exiting the room.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.7920856475830078,
+  "path_length": 4.465218659490347,
+  "gt_path_length": 5.128785610198975,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7790821509651185,
+  "purpose": "val_seen",
+  "wall_seconds": 28.98971334192902,
+  "training": {
+    "episode_id": "514",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/e2e6ea4caa6e44dd808cea22428f6d9e_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "514",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_e2e6ea4caa6e44dd808cea22428f6d9e.pt",
+      "transitions": 7,
+      "reward_sum": 1.9489753087361654,
+      "focus_histogram": {
+        "4": 7
+      },
+      "camera_histogram": {
+        "1": 28
+      },
+      "entropy": {
+        "stop": 0.6550134590693882,
+        "camera": 0.9010535478591919,
+        "position_latent": 2.5846368159566606
+      },
+      "start_geodesic_distance": 5.225934028625488,
+      "final_geodesic_distance": 1.7920856475830078,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6430.774351581931,
+      "perception_ms": 774.4110785424709
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.228923225402832,
+      "focus_cost": -0.28,
+      "step_cost": -0.07,
+      "terminal": 2.0,
+      "coverage_bonus": 0.07005208333333333
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 1.9489753087361654,
+  "focus_mean": 4.0
+}

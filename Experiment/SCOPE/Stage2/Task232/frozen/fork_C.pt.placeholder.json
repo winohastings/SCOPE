@@ -1,0 +1,8 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task232/frozen/fork_C.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/frozen/fork_C.pt",
+  "bytes": 50846458,
+  "sha256": "f741fe5f389b357e1f3bf6b079da71e4f4d3bc634641a0e31d8b00b6bfdcc700",
+  "uploaded": false,
+  "restore": "Obtain this trusted local file and verify SHA256 before loading; placeholder is not loadable."
+}

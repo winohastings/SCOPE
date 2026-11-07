@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:329",
+  "source_episode_id": "329",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Leave the bedroom and go straight. Take the first left into a new hallway. Stop in the doorway of the bathroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6068200469017029,
+  "path_length": 5.802453288575634,
+  "gt_path_length": 5.434553146362305,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8777085057826617,
+  "purpose": "val_seen",
+  "wall_seconds": 16.756813080981374,
+  "training": {
+    "episode_id": "329",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/950dc0feec7748b980c3bb42ce2e3cd7_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/950dc0feec7748b980c3bb42ce2e3cd7_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/950dc0feec7748b980c3bb42ce2e3cd7_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/950dc0feec7748b980c3bb42ce2e3cd7_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/950dc0feec7748b980c3bb42ce2e3cd7_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/950dc0feec7748b980c3bb42ce2e3cd7_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "329",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_950dc0feec7748b980c3bb42ce2e3cd7.pt",
+      "transitions": 6,
+      "reward_sum": 1.9553029100100199,
+      "focus_histogram": {
+        "4": 6
+      },
+      "camera_histogram": {
+        "1": 24
+      },
+      "entropy": {
+        "stop": 0.5950020253658295,
+        "camera": 0.873161273698012,
+        "position_latent": 2.4280303021272025
+      },
+      "start_geodesic_distance": 4.436363697052002,
+      "final_geodesic_distance": 0.6068200469017029,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5277.115684002638,
+      "perception_ms": 653.934801928699
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.25530291001001987,
+      "focus_cost": -0.24000000000000002,
+      "step_cost": -0.060000000000000005,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7645668954865511,
+  "reward_sum": 1.9553029100100199,
+  "focus_mean": 4.0
+}

@@ -1,0 +1,45 @@
+{
+  "A": {
+    "eligible": false,
+    "checks": {
+      "fixed_zero_focus_fraction_le_010": true,
+      "independent_zero_focus_fraction_le_010": true,
+      "four_focus_coverage_gain_ge_25pct": false,
+      "repeated_roi_fraction_drop_ge_015": false,
+      "independent_SR_loss_le_one_episode": false,
+      "independent_SPL_loss_le_003": false,
+      "historical_SR_loss_le_two_episodes": false,
+      "terminal_only_EV_loss_le_005": false,
+      "all_engineering_gates": true
+    },
+    "failed": [
+      "four_focus_coverage_gain_ge_25pct",
+      "repeated_roi_fraction_drop_ge_015",
+      "independent_SR_loss_le_one_episode",
+      "independent_SPL_loss_le_003",
+      "historical_SR_loss_le_two_episodes",
+      "terminal_only_EV_loss_le_005"
+    ]
+  },
+  "B": {
+    "eligible": false,
+    "checks": {
+      "fixed_zero_focus_fraction_le_010": true,
+      "independent_zero_focus_fraction_le_010": true,
+      "four_focus_coverage_gain_ge_25pct": false,
+      "repeated_roi_fraction_drop_ge_015": false,
+      "independent_SR_loss_le_one_episode": true,
+      "independent_SPL_loss_le_003": false,
+      "historical_SR_loss_le_two_episodes": false,
+      "terminal_only_EV_loss_le_005": false,
+      "all_engineering_gates": true
+    },
+    "failed": [
+      "four_focus_coverage_gain_ge_25pct",
+      "repeated_roi_fraction_drop_ge_015",
+      "independent_SPL_loss_le_003",
+      "historical_SR_loss_le_two_episodes",
+      "terminal_only_EV_loss_le_005"
+    ]
+  }
+}

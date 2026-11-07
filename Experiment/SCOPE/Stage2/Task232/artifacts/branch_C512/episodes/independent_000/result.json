@@ -1,0 +1,76 @@
+{
+  "episode_uid": "agm_ppo_val_seen:97",
+  "source_episode_id": "97",
+  "scene_id": "17DRP5sb8fy",
+  "instruction": "Walk past curved sofa. Walk past bed. Wait at bathroom door threshold.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.16373296082019806,
+  "path_length": 6.622254129499197,
+  "gt_path_length": 5.698899269104004,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7769878872663344,
+  "purpose": "val_seen",
+  "wall_seconds": 15.790188577026129,
+  "training": {
+    "episode_id": "97",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/5e3ecd53104d48d4a5e49ec2892ebfa9_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "97",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_5e3ecd53104d48d4a5e49ec2892ebfa9.pt",
+      "transitions": 8,
+      "reward_sum": 1.998668794433276,
+      "focus_histogram": {
+        "4": 8
+      },
+      "camera_histogram": {
+        "1": 32
+      },
+      "entropy": {
+        "stop": 0.6533612962812185,
+        "camera": 0.8892892263829708,
+        "position_latent": 2.5896564573049545
+      },
+      "start_geodesic_distance": 4.942983627319336,
+      "final_geodesic_distance": 0.16373296082019806,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7650.187202729285,
+      "perception_ms": 886.6519313305616
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.3186167110999425,
+      "focus_cost": -0.32,
+      "step_cost": -0.08,
+      "terminal": 2.0,
+      "coverage_bonus": 0.08005208333333333
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7464201057009489,
+  "reward_sum": 1.998668794433276,
+  "focus_mean": 4.0
+}

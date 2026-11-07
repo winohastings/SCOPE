@@ -1,0 +1,11 @@
+{
+  "output": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512",
+  "branch": "C",
+  "mode": "train",
+  "budget": 512,
+  "port": 10240,
+  "model_gpu": "0",
+  "gate": "Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/TRAINING_GATE.json",
+  "resume": null,
+  "extension_decision": null
+}

@@ -1,0 +1,81 @@
+{
+  "episode_uid": "scope_stage2_train:8978",
+  "source_episode_id": "8978",
+  "scene_id": "p5wJjkQkbXX",
+  "instruction": "Head toward the room with the white couch.  Go left toward the kitchen and then to the front door.  Turn left down the hall and stop in front of the stairs.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.056273460388184,
+  "path_length": 7.845203747740015,
+  "gt_path_length": 15.549241194176382,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.33816825798823513,
+  "purpose": "train",
+  "wall_seconds": 29.92719440162182,
+  "training": {
+    "episode_id": "8978",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/46b9fbb52b2940f2a206e458c33a8ce6_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8978",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_46b9fbb52b2940f2a206e458c33a8ce6.pt",
+      "transitions": 10,
+      "reward_sum": -0.28374065399169923,
+      "focus_histogram": {
+        "0": 4,
+        "4": 3,
+        "3": 3
+      },
+      "camera_histogram": {
+        "1": 14,
+        "0": 4,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.6258818251746041,
+        "camera": 0.9159811011382512,
+        "position_latent": 2.512456774711609
+      },
+      "start_geodesic_distance": 14.587663650512695,
+      "final_geodesic_distance": 9.056273460388184,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9577.385448850691,
+      "perception_ms": 634.0134460479021
+    },
+    "collected": 1542,
+    "buffer_transitions": 103,
+    "reward_components": {
+      "progress": 0.36875934600830085,
+      "focus_cost": -0.052500000000000005,
+      "step_cost": -0.09999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.28374065399169923,
+  "focus_mean": 2.1
+}

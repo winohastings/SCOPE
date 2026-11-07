@@ -1,0 +1,92 @@
+{
+  "episode_uid": "agm_ppo_val_seen:78",
+  "source_episode_id": "78",
+  "scene_id": "VLzqgDo317F",
+  "instruction": "Go to the table with the mirror above it. Go through the doorway to the left of the table. Continue to the fireplace and turn left.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 12.351068496704102,
+  "path_length": 28.565343105932698,
+  "gt_path_length": 9.7639741897583,
+  "steps": 25,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "habitat_done",
+  "failure_traceback": null,
+  "nDTW": 0.0009732386470613219,
+  "purpose": "val_seen",
+  "wall_seconds": 52.18338458798826,
+  "training": {
+    "episode_id": "78",
+    "transitions": 25,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0018.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0019.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0020.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0021.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0022.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0023.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/9e903ed4765141e69954d3d3810c2759_0024.pt"
+    ],
+    "bootstrap_saved": true,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "78",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_9e903ed4765141e69954d3d3810c2759.pt",
+      "transitions": 25,
+      "reward_sum": -1.4555796941121417,
+      "focus_histogram": {
+        "4": 25
+      },
+      "camera_histogram": {
+        "1": 100
+      },
+      "entropy": {
+        "stop": 0.5968008410930633,
+        "camera": 0.9373298001289367,
+        "position_latent": 2.4348640918731688
+      },
+      "start_geodesic_distance": 9.267373085021973,
+      "final_geodesic_distance": 12.351068496704102,
+      "terminated": false,
+      "truncated": true,
+      "model_ms": 24993.39651502669,
+      "perception_ms": 2745.075114071369
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.20557969411214191,
+      "focus_cost": -1.0000000000000002,
+      "step_cost": -0.25000000000000006,
+      "terminal": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.4555796941121417,
+  "focus_mean": 4.0
+}

@@ -1,0 +1,7 @@
+.checking file sample.txt
+patching file sample.txt
+.......................
+----------------------------------------------------------------------
+Ran 24 tests in 36.314s
+
+OK

@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:628",
+  "source_episode_id": "628",
+  "scene_id": "EDJbREhghzL",
+  "instruction": "Go down the stairs, and take a right. Go down the hall and past the sitting area. Enter the bathroom on the right and stop in front of the sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 13.976354598999023,
+  "path_length": 13.496453192085028,
+  "gt_path_length": 9.926826477050781,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.01538299481677234,
+  "purpose": "val_seen",
+  "wall_seconds": 29.646982033737004,
+  "training": {
+    "episode_id": "628",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/17d54963e98e4f4792674282be7fbb7b_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "628",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_17d54963e98e4f4792674282be7fbb7b.pt",
+      "transitions": 15,
+      "reward_sum": -1.0909128824869794,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.6239623963832855,
+        "camera": 0.8840107162793477,
+        "position_latent": 2.484387950102488
+      },
+      "start_geodesic_distance": 9.612661361694336,
+      "final_geodesic_distance": 13.976354598999023,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14719.8973800987,
+      "perception_ms": 1663.4592590853572
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.2909128824869792,
+      "focus_cost": -0.15,
+      "step_cost": -0.15,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.0909128824869794,
+  "focus_mean": 4.0
+}

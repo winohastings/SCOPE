@@ -1,0 +1,76 @@
+{
+  "episode_uid": "agm_ppo_val_seen:548",
+  "source_episode_id": "548",
+  "scene_id": "PX4nDJXEHrG",
+  "instruction": "Go to the bear rug on the floor. Go to the top of the staircase. Go to the toilet.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 12.091902732849121,
+  "path_length": 11.353738171514124,
+  "gt_path_length": 12.386001586914062,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.17580267252491172,
+  "purpose": "val_seen",
+  "wall_seconds": 32.94624044839293,
+  "training": {
+    "episode_id": "548",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/2b7cb24249ae4a84aabe09b31a60df30_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "548",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/episode_boundary_2b7cb24249ae4a84aabe09b31a60df30.pt",
+      "transitions": 11,
+      "reward_sum": -0.6153108215332032,
+      "focus_histogram": {
+        "0": 11
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.684366150335832,
+        "camera": 0.5102421668442813,
+        "position_latent": 1.792028004472906
+      },
+      "start_geodesic_distance": 12.012240409851074,
+      "final_geodesic_distance": 12.091902732849121,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10218.178728595376,
+      "perception_ms": 64.91966731846333
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.005310821533203123,
+      "focus_cost": 0.0,
+      "step_cost": -0.10999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6153108215332032,
+  "focus_mean": 0.0
+}

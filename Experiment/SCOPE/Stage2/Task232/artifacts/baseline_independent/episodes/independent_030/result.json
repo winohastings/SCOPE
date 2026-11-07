@@ -1,0 +1,83 @@
+{
+  "episode_uid": "agm_ppo_val_seen:706",
+  "source_episode_id": "706",
+  "scene_id": "ac26ZMwG7aT",
+  "instruction": "Exit through the bathroom door.  Turn left, and walk straight down the hallway.  When you reach the end of the hallway turn left into the kitchen area. Wait by the counter top.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.869719386100769,
+  "path_length": 16.882247915957123,
+  "gt_path_length": 13.879916191101074,
+  "steps": 16,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6025836038267047,
+  "purpose": "val_seen",
+  "wall_seconds": 42.92181550245732,
+  "training": {
+    "episode_id": "706",
+    "transitions": 16,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/1577a619c7d94327a215d440497b2b58_0015.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "706",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/episode_boundary_1577a619c7d94327a215d440497b2b58.pt",
+      "transitions": 16,
+      "reward_sum": 1.9346773227055867,
+      "focus_histogram": {
+        "4": 16
+      },
+      "camera_histogram": {
+        "1": 64
+      },
+      "entropy": {
+        "stop": 0.5835193442180753,
+        "camera": 0.9363559419289231,
+        "position_latent": 2.437799137085676
+      },
+      "start_geodesic_distance": 12.88987922668457,
+      "final_geodesic_distance": 1.869719386100769,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 18810.914831236005,
+      "perception_ms": 2160.880161449313
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.7346773227055867,
+      "focus_cost": -0.64,
+      "step_cost": -0.16,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7635167597853506,
+  "reward_sum": 1.9346773227055867,
+  "focus_mean": 4.0
+}

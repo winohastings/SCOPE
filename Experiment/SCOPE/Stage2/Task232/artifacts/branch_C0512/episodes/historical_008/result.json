@@ -1,0 +1,75 @@
+{
+  "episode_uid": "agm_ppo_val_seen:514",
+  "source_episode_id": "514",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "walk forward and stop after exiting the room.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.099355697631836,
+  "path_length": 4.043870556401089,
+  "gt_path_length": 5.128785610198975,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7889736727844521,
+  "purpose": "val_seen",
+  "wall_seconds": 29.4930437207222,
+  "training": {
+    "episode_id": "514",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/030c9a6e25e141298ed97744904dfcef_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "514",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_030c9a6e25e141298ed97744904dfcef.pt",
+      "transitions": 7,
+      "reward_sum": 1.8584385553995768,
+      "focus_histogram": {
+        "4": 7
+      },
+      "camera_histogram": {
+        "1": 28
+      },
+      "entropy": {
+        "stop": 0.6284103840589523,
+        "camera": 1.1257397787911552,
+        "position_latent": 2.4326233778681075
+      },
+      "start_geodesic_distance": 5.225934028625488,
+      "final_geodesic_distance": 2.099355697631836,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6340.9593822434545,
+      "perception_ms": 766.1992348730564
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.2084385553995768,
+      "focus_cost": -0.28,
+      "step_cost": -0.07,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 1.8584385553995768,
+  "focus_mean": 4.0
+}

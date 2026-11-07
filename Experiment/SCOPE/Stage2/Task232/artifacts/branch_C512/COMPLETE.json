@@ -1,0 +1,52 @@
+{
+  "mode": "train",
+  "branch": "C",
+  "status": {
+    "collected": 1545,
+    "trained": 1545,
+    "buffer_transitions": 0,
+    "updates": 20,
+    "optimizer_steps": 216,
+    "validation_transitions": 2077,
+    "cursor": {
+      "train_episode_index": 106,
+      "validation_round": 0,
+      "next_validation_at": 1289
+    },
+    "best": null,
+    "last_episode": {
+      "purpose": "val_seen",
+      "episode_id": "150",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_cd70dba8222143539dca0b82135a0ec4.pt",
+      "transitions": 11,
+      "reward_sum": 2.1784509380658466,
+      "focus_histogram": {
+        "4": 11
+      },
+      "camera_histogram": {
+        "1": 44
+      },
+      "entropy": {
+        "stop": 0.6525384512814608,
+        "camera": 0.8930999772115187,
+        "position_latent": 2.5857402032071892
+      },
+      "start_geodesic_distance": 9.6182222366333,
+      "final_geodesic_distance": 0.34380191564559937,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12502.57262121886,
+      "perception_ms": 1429.2437275871634
+    },
+    "split": "val_seen"
+  },
+  "freeze_audit": {
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true
+  },
+  "wall_seconds": 4104.111362767406,
+  "new_training_transitions": 512,
+  "fork_added_trained_transitions": 512
+}

@@ -1,0 +1,87 @@
+{
+  "episode_uid": "scope_stage2_train:2354",
+  "source_episode_id": "2354",
+  "scene_id": "E9uDoFAP3SH",
+  "instruction": "walk left around table to and go straight passed the chairs to the wall of doors. Stand in front of the middle door and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.4892963767051697,
+  "path_length": 10.86653792852303,
+  "gt_path_length": 7.977192889092123,
+  "steps": 13,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6502562920568984,
+  "purpose": "train",
+  "wall_seconds": 46.54626046307385,
+  "training": {
+    "episode_id": "2354",
+    "transitions": 13,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2aa7dc1df579489ea2ddb4c575fca379_0012.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "2354",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_2aa7dc1df579489ea2ddb4c575fca379.pt",
+      "transitions": 13,
+      "reward_sum": 2.310202009148068,
+      "focus_histogram": {
+        "4": 1,
+        "2": 1,
+        "0": 6,
+        "1": 4,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 8,
+        "2": 4,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.584270510673523,
+        "camera": 0.9846578478813172,
+        "position_latent": 2.4386396503448484
+      },
+      "start_geodesic_distance": 7.3823981285095215,
+      "final_geodesic_distance": 0.4892963767051697,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14875.408053398132,
+      "perception_ms": 593.3066438883543
+    },
+    "collected": 1046,
+    "buffer_transitions": 13,
+    "reward_components": {
+      "progress": 0.45954011678695683,
+      "focus_cost": -0.12999999999999998,
+      "step_cost": -0.12999999999999998,
+      "terminal": 2.0,
+      "coverage_bonus": 0.1106618923611111
+    }
+  },
+  "SR": 1,
+  "SPL": 0.6793698395081137,
+  "reward_sum": 2.310202009148068,
+  "focus_mean": 1.0
+}

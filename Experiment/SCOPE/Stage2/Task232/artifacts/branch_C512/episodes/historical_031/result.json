@@ -1,0 +1,79 @@
+{
+  "episode_uid": "agm_ppo_val_seen:150",
+  "source_episode_id": "150",
+  "scene_id": "vyrNrziPKCB",
+  "instruction": "Turn to the left and walk around the pool table to the stairs. Walk down the stairs and wait at the bottom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.34380191564559937,
+  "path_length": 11.737089334055781,
+  "gt_path_length": 10.24142837524414,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8090667041012478,
+  "purpose": "val_seen",
+  "wall_seconds": 43.8598299222067,
+  "training": {
+    "episode_id": "150",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/cd70dba8222143539dca0b82135a0ec4_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "150",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_cd70dba8222143539dca0b82135a0ec4.pt",
+      "transitions": 11,
+      "reward_sum": 2.1784509380658466,
+      "focus_histogram": {
+        "4": 11
+      },
+      "camera_histogram": {
+        "1": 44
+      },
+      "entropy": {
+        "stop": 0.6525384512814608,
+        "camera": 0.8930999772115187,
+        "position_latent": 2.5857402032071892
+      },
+      "start_geodesic_distance": 9.6182222366333,
+      "final_geodesic_distance": 0.34380191564559937,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12502.57262121886,
+      "perception_ms": 1429.2437275871634
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.6182946880658469,
+      "focus_cost": -0.43999999999999995,
+      "step_cost": -0.10999999999999999,
+      "terminal": 2.0,
+      "coverage_bonus": 0.11015625000000001
+    }
+  },
+  "SR": 1,
+  "SPL": 0.8194725253326243,
+  "reward_sum": 2.1784509380658466,
+  "focus_mean": 4.0
+}

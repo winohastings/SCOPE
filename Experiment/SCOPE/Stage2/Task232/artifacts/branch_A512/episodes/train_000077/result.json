@@ -1,0 +1,81 @@
+{
+  "episode_uid": "scope_stage2_train:2348",
+  "source_episode_id": "2348",
+  "scene_id": "mJXqzFtmKg4",
+  "instruction": "Leave the bathroom and make a right to go in the living room. Then make a left in the living room and walk to the dining room and wait.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.913922131061554,
+  "path_length": 8.497627899982035,
+  "gt_path_length": 7.9124888457417555,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8540831203396905,
+  "purpose": "train",
+  "wall_seconds": 23.49565050471574,
+  "training": {
+    "episode_id": "2348",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4b45ff09a1e84b6b970e5632ef446190_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "2348",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_4b45ff09a1e84b6b970e5632ef446190.pt",
+      "transitions": 9,
+      "reward_sum": 2.3143458930651346,
+      "focus_histogram": {
+        "1": 3,
+        "4": 3,
+        "2": 2,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 17,
+        "2": 3,
+        "3": 2
+      },
+      "entropy": {
+        "stop": 0.5949004058326993,
+        "camera": 0.9503891297749111,
+        "position_latent": 2.4323473317282542
+      },
+      "start_geodesic_distance": 7.804110527038574,
+      "final_geodesic_distance": 0.913922131061554,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8089.591182768345,
+      "perception_ms": 635.8431037515402
+    },
+    "collected": 1122,
+    "buffer_transitions": 9,
+    "reward_components": {
+      "progress": 0.4593458930651348,
+      "focus_cost": -0.055,
+      "step_cost": -0.09,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.9183869450267496,
+  "reward_sum": 2.3143458930651346,
+  "focus_mean": 2.4444444444444446
+}

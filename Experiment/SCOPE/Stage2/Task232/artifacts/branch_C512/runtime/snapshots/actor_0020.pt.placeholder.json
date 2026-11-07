@@ -1,0 +1,8 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/snapshots/actor_0020.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/snapshots/actor_0020.pt",
+  "bytes": 12706519,
+  "sha256": "6b97417d60ec5de64fa556e875c10e883f42f93983dd8c3869d7ee5b846792ad",
+  "uploaded": false,
+  "restore": "Obtain this trusted local file and verify SHA256 before loading; placeholder is not loadable."
+}

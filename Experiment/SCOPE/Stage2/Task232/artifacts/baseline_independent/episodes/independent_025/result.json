@@ -1,0 +1,92 @@
+{
+  "episode_uid": "agm_ppo_val_seen:232",
+  "source_episode_id": "232",
+  "scene_id": "Vvot9Ly1tCj",
+  "instruction": "Walk straight until you pass a clear glass table and chairs then wait by the white marble table with the three grey benches.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 16.533432006835938,
+  "path_length": 26.20814833091572,
+  "gt_path_length": 9.068546295166016,
+  "steps": 25,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "habitat_done",
+  "failure_traceback": null,
+  "nDTW": 0.00011935892533203083,
+  "purpose": "val_seen",
+  "wall_seconds": 55.44544613547623,
+  "training": {
+    "episode_id": "232",
+    "transitions": 25,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0018.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0019.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0020.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0021.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0022.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0023.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/f1e46e16fba94ba19accb73f84f75c70_0024.pt"
+    ],
+    "bootstrap_saved": true,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "232",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/episode_boundary_f1e46e16fba94ba19accb73f84f75c70.pt",
+      "transitions": 25,
+      "reward_sum": -1.758409372965495,
+      "focus_histogram": {
+        "4": 25
+      },
+      "camera_histogram": {
+        "1": 100
+      },
+      "entropy": {
+        "stop": 0.5851440089941025,
+        "camera": 0.969383789896965,
+        "position_latent": 2.4402994990348814
+      },
+      "start_geodesic_distance": 8.907291412353516,
+      "final_geodesic_distance": 16.533432006835938,
+      "terminated": false,
+      "truncated": true,
+      "model_ms": 29058.525448665023,
+      "perception_ms": 3247.9464132338762
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.5084093729654948,
+      "focus_cost": -1.0000000000000002,
+      "step_cost": -0.25000000000000006,
+      "terminal": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.758409372965495,
+  "focus_mean": 4.0
+}

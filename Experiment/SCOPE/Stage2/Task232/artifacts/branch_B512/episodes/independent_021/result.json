@@ -1,0 +1,80 @@
+{
+  "episode_uid": "agm_ppo_val_seen:578",
+  "source_episode_id": "578",
+  "scene_id": "Uxmj2M2itWa",
+  "instruction": "Leave the bathroom and go right. Exit the bedroom onto the patio. Go to the stairs. Stop on the second stair from the bottom.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.840564727783203,
+  "path_length": 1.0691749996040016,
+  "gt_path_length": 8.833552360534668,
+  "steps": 13,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2827710856278261,
+  "purpose": "val_seen",
+  "wall_seconds": 26.470846536569297,
+  "training": {
+    "episode_id": "578",
+    "transitions": 13,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/a3b42ce3edc5435f8f835c214284cf1b_0012.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "578",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_a3b42ce3edc5435f8f835c214284cf1b.pt",
+      "transitions": 13,
+      "reward_sum": -1.1609717686971028,
+      "focus_histogram": {
+        "4": 13
+      },
+      "camera_histogram": {
+        "1": 52
+      },
+      "entropy": {
+        "stop": 0.5969705891150695,
+        "camera": 0.8782535264125237,
+        "position_latent": 2.432413477164048
+      },
+      "start_geodesic_distance": 9.67598819732666,
+      "final_geodesic_distance": 9.840564727783203,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12540.989524684846,
+      "perception_ms": 1423.1430124491453
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.010971768697102919,
+      "focus_cost": -0.5199999999999999,
+      "step_cost": -0.12999999999999998,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1609717686971028,
+  "focus_mean": 4.0
+}

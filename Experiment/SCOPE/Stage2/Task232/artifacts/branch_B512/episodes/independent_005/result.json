@@ -1,0 +1,80 @@
+{
+  "episode_uid": "agm_ppo_val_seen:153",
+  "source_episode_id": "153",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Turn right and then another right, walking to the end of the living room. Turn left after the table and stop in the doorway to outside.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.696634292602539,
+  "path_length": 12.348364988574758,
+  "gt_path_length": 10.243245124816895,
+  "steps": 13,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.03603192562173441,
+  "purpose": "val_seen",
+  "wall_seconds": 32.37262336630374,
+  "training": {
+    "episode_id": "153",
+    "transitions": 13,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/7037d8aefb1e46308c1a7df1632da4df_0012.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "153",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_7037d8aefb1e46308c1a7df1632da4df.pt",
+      "transitions": 13,
+      "reward_sum": -1.2465642929077148,
+      "focus_histogram": {
+        "4": 13
+      },
+      "camera_histogram": {
+        "1": 52
+      },
+      "entropy": {
+        "stop": 0.5958833018174539,
+        "camera": 0.8439983989183719,
+        "position_latent": 2.4277280477377086
+      },
+      "start_geodesic_distance": 9.248169898986816,
+      "final_geodesic_distance": 10.696634292602539,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15680.820161476731,
+      "perception_ms": 1780.7846618816257
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.09656429290771486,
+      "focus_cost": -0.5199999999999999,
+      "step_cost": -0.12999999999999998,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.2465642929077148,
+  "focus_mean": 4.0
+}

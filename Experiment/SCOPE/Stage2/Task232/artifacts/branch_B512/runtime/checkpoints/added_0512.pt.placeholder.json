@@ -1,0 +1,8 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/checkpoints/added_0512.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/checkpoints/added_0512.pt",
+  "bytes": 50855366,
+  "sha256": "be2631d9e338f5878175e69ac6ae4bd198d1e52da88a7c44c926f04908194daa",
+  "uploaded": false,
+  "restore": "Obtain this trusted local file and verify SHA256 before loading; placeholder is not loadable."
+}

@@ -1,0 +1,1121 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-07 13:54:34,416 Initializing dataset R2RVLN-v1
+2026-11-07 13:54:35,162 initializing sim Sim-v0
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[13:54:35:272333]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+2026-11-07 13:54:48,062 Initializing task VLN-v0
+/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "2354", "steps": 13, "SR": 1, "SPL": 0.6793698395081137, "reward_sum": 2.310202009148068, "focus_mean": 1.0, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "1641", "steps": 17, "SR": 1, "SPL": 0.5376137220106006, "reward_sum": 2.191317184898588, "focus_mean": 1.5294117647058822, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "8612", "steps": 6, "SR": 1, "SPL": 0.6584988519615483, "reward_sum": 2.081886352962918, "focus_mean": 2.3333333333333335, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "4543", "steps": 10, "SR": 0, "SPL": 0.0, "reward_sum": -0.44335383945041235, "focus_mean": 2.2, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7555", "steps": 9, "SR": 1, "SPL": 0.9721732324914564, "reward_sum": 2.4544501982794866, "focus_mean": 1.0, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7537", "steps": 8, "SR": 0, "SPL": 0.0, "reward_sum": -0.23836452696058485, "focus_mean": 1.25, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "4288", "steps": 17, "SR": 0, "SPL": 0.0, "reward_sum": -0.9742740631103517, "focus_mean": 3.0, "failure": null}
+{"branch": "C", "added_trained": 80, "batch": 80, "ratio_error": 0.0, "actor_change": 0.25581997310655774, "critic_change": 0.6410293708771334}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "2348", "steps": 9, "SR": 1, "SPL": 0.9183869450267496, "reward_sum": 2.3242672255304124, "focus_mean": 2.4444444444444446, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "3651", "steps": 14, "SR": 1, "SPL": 0.5346506308071582, "reward_sum": 2.1689120342996384, "focus_mean": 1.8571428571428572, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "196", "steps": 11, "SR": 1, "SPL": 0.9611782318655794, "reward_sum": 2.6421719255712297, "focus_mean": 1.4545454545454546, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "5721", "steps": 4, "SR": 1, "SPL": 1.0, "reward_sum": 2.2024308331807454, "focus_mean": 2.75, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7599", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.42323451571994364, "focus_mean": 2.16, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "10113", "steps": 8, "SR": 1, "SPL": 1.0, "reward_sum": 2.2250057861540053, "focus_mean": 1.25, "failure": null}
+{"branch": "C", "added_trained": 151, "batch": 71, "ratio_error": 0.0, "actor_change": 0.2812718838434301, "critic_change": 0.4603214887145474}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "3751", "steps": 16, "SR": 0, "SPL": 0.0, "reward_sum": -0.8701176113552518, "focus_mean": 1.875, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "5583", "steps": 8, "SR": 0, "SPL": 0.0, "reward_sum": -0.9867674107021757, "focus_mean": 1.875, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "10244", "steps": 9, "SR": 0, "SPL": 0.0, "reward_sum": -0.49485664791531037, "focus_mean": 1.3333333333333333, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "1259", "steps": 11, "SR": 0, "SPL": 0.0, "reward_sum": -1.0288906224568686, "focus_mean": 2.3636363636363638, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "1954", "steps": 5, "SR": 0, "SPL": 0.0, "reward_sum": -0.6893891949123807, "focus_mean": 1.6, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "4986", "steps": 12, "SR": 0, "SPL": 0.0, "reward_sum": -1.2878055657280816, "focus_mean": 2.5, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "1300", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.5500854619344074, "focus_mean": 2.04, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7259", "steps": 11, "SR": 1, "SPL": 0.819207386060076, "reward_sum": 2.3664793411890668, "focus_mean": 2.1818181818181817, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7444", "steps": 8, "SR": 0, "SPL": 0.0, "reward_sum": 0.37255280600653756, "focus_mean": 2.875, "failure": null}
+{"branch": "C", "added_trained": 256, "batch": 105, "ratio_error": 0.0, "actor_change": 0.30340388146563047, "critic_change": 0.4883231745200944}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "4365", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.0284221733940972, "focus_mean": 1.92, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7166", "steps": 8, "SR": 0, "SPL": 0.0, "reward_sum": -0.7820372560289172, "focus_mean": 1.25, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7432", "steps": 10, "SR": 1, "SPL": 0.9416533585470392, "reward_sum": 2.4640371075603698, "focus_mean": 1.5, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "2126", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.1815542051527235, "focus_mean": 1.28, "failure": null}
+{"branch": "C", "added_trained": 324, "batch": 68, "ratio_error": 0.0, "actor_change": 0.28036677133256854, "critic_change": 0.4626710519889978}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "5921", "steps": 6, "SR": 0, "SPL": 0.0, "reward_sum": -0.49753797531127936, "focus_mean": 2.0, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "3125", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.11219471825493704, "focus_mean": 1.84, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "7398", "steps": 12, "SR": 1, "SPL": 0.8913628290985445, "reward_sum": 2.4346194691128202, "focus_mean": 0.75, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "9495", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": 0.47745249854193794, "focus_mean": 1.52, "failure": null}
+{"branch": "C", "added_trained": 392, "batch": 68, "ratio_error": 0.0, "actor_change": 0.283877734020984, "critic_change": 0.34083469321836746}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "8520", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.20446449279785162, "focus_mean": 0.84, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "4920", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.031979861789279466, "focus_mean": 1.12, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "1692", "steps": 11, "SR": 1, "SPL": 0.8728997906644715, "reward_sum": 2.4697297167778016, "focus_mean": 1.0, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "1815", "steps": 23, "SR": 1, "SPL": 0.274762882968388, "reward_sum": 2.0273710136943395, "focus_mean": 1.8695652173913044, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "3591", "steps": 11, "SR": 1, "SPL": 0.8631682429565849, "reward_sum": 2.4372195927302043, "focus_mean": 1.8181818181818181, "failure": null}
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.230.02
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+{"purpose": "train", "source_episode_id": "10379", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.280867051018609, "focus_mean": 1.76, "failure": null}
+{"branch": "C", "added_trained": 512, "batch": 120, "ratio_error": 0.0, "actor_change": 0.3223066024596663, "critic_change": 0.5164991076638962}
+2026-11-07 14:17:58,268 Initializing dataset R2RVLN-v1
+2026-11-07 14:17:58,306 initializing sim Sim-v0
+[14:17:58:325872]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+2026-11-07 14:18:04,999 Initializing task VLN-v0
+/home/data/czh/AdaPercVLN/Assumption/assumption1/envs/correctnav_hab033/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+{"purpose": "val_seen", "source_episode_id": "97", "steps": 8, "SR": 1, "SPL": 0.7464201057009489, "reward_sum": 1.998668794433276, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "590", "steps": 21, "SR": 0, "SPL": 0.0, "reward_sum": -1.1929519399007162, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "382", "steps": 17, "SR": 1, "SPL": 0.8887474848480281, "reward_sum": 2.162561895582411, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "611", "steps": 14, "SR": 0, "SPL": 0.0, "reward_sum": -0.8290667978922526, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "533", "steps": 18, "SR": 0, "SPL": 0.0, "reward_sum": -0.5224168141682942, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "153", "steps": 13, "SR": 0, "SPL": 0.0, "reward_sum": -1.1301400417751737, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "510", "steps": 6, "SR": 1, "SPL": 1.0, "reward_sum": 2.0060089461008705, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "421", "steps": 12, "SR": 1, "SPL": 0.7515072013275329, "reward_sum": 2.2389666423532697, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "722", "steps": 8, "SR": 0, "SPL": 0.0, "reward_sum": -0.8342915344238282, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "220", "steps": 18, "SR": 1, "SPL": 0.45691677822303606, "reward_sum": 1.8044074447949727, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "167", "steps": 16, "SR": 1, "SPL": 0.6079760888458823, "reward_sum": 2.007192380428314, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "696", "steps": 19, "SR": 0, "SPL": 0.0, "reward_sum": -1.3565248870849609, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "38", "steps": 9, "SR": 0, "SPL": 0.0, "reward_sum": -0.894753155178494, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "194", "steps": 17, "SR": 0, "SPL": 0.0, "reward_sum": -1.7243948618570966, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "628", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.2708723322550457, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "583", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.3133456717597113, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "131", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.5254954221513536, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "749", "steps": 13, "SR": 0, "SPL": 0.0, "reward_sum": -0.8559598922729493, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "764", "steps": 8, "SR": 1, "SPL": 0.9974070479794798, "reward_sum": 2.1177511938412983, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "443", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.5203368928697374, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "667", "steps": 20, "SR": 1, "SPL": 0.3585993541651998, "reward_sum": 1.6325823936197492, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "578", "steps": 18, "SR": 0, "SPL": 0.0, "reward_sum": -1.1953656302558051, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "680", "steps": 17, "SR": 1, "SPL": 0.9091280842566482, "reward_sum": 2.1721339996655784, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "552", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.37309490203857426, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "506", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.9991751480102542, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "232", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.5735313669840494, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "672", "steps": 15, "SR": 0, "SPL": 0.0, "reward_sum": -1.0389261288113065, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "287", "steps": 18, "SR": 1, "SPL": 0.47484335395415517, "reward_sum": 1.8038323020935059, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "307", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.9592740376790366, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "136", "steps": 15, "SR": 1, "SPL": 0.8677369807683583, "reward_sum": 2.0907764911651614, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "706", "steps": 7, "SR": 0, "SPL": 0.0, "reward_sum": -0.5857826148139106, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "387", "steps": 14, "SR": 1, "SPL": 0.4500605976607369, "reward_sum": 1.7765279428164165, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "303", "steps": 14, "SR": 1, "SPL": 0.8972355347879384, "reward_sum": 2.2380774505933125, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "752", "steps": 20, "SR": 0, "SPL": 0.0, "reward_sum": -0.6747707430521648, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "111", "steps": 12, "SR": 0, "SPL": 0.0, "reward_sum": -1.07401735941569, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "622", "steps": 9, "SR": 0, "SPL": 0.0, "reward_sum": -0.9310958650377061, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "588", "steps": 9, "SR": 0, "SPL": 0.0, "reward_sum": -0.6967840173509386, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "610", "steps": 15, "SR": 0, "SPL": 0.0, "reward_sum": -1.2604453341166177, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "372", "steps": 10, "SR": 0, "SPL": 0.0, "reward_sum": -0.334584223429362, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "138", "steps": 15, "SR": 1, "SPL": 0.8206209614565328, "reward_sum": 2.2722284507751467, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "514", "steps": 7, "SR": 1, "SPL": 1.0, "reward_sum": 1.9489753087361654, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "595", "steps": 19, "SR": 0, "SPL": 0.0, "reward_sum": -1.6716785558064777, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "607", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.5113928320672778, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "548", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.026972427368164, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "206", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.7101102987925212, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "284", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.9573497729831273, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "329", "steps": 6, "SR": 1, "SPL": 0.769904223277893, "reward_sum": 1.9971394856770832, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "644", "steps": 15, "SR": 0, "SPL": 0.0, "reward_sum": -0.7457547728220622, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "78", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.3555776256985133, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "540", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.3765981928507487, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "759", "steps": 24, "SR": 0, "SPL": 0.0, "reward_sum": -1.4887546581692168, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "338", "steps": 19, "SR": 1, "SPL": 0.6751792772815989, "reward_sum": 2.0314732058842977, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "212", "steps": 18, "SR": 0, "SPL": 0.0, "reward_sum": -0.6901934655507406, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "536", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.5024844121932983, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "98", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -1.3988301595052082, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "190", "steps": 10, "SR": 1, "SPL": 0.6264277591675378, "reward_sum": 1.7920794614156086, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "159", "steps": 9, "SR": 1, "SPL": 0.8515481514286957, "reward_sum": 2.083222936789195, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "736", "steps": 20, "SR": 0, "SPL": 0.0, "reward_sum": -0.8216421127319337, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "290", "steps": 15, "SR": 0, "SPL": 0.0, "reward_sum": -1.0154976060655383, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "8", "steps": 10, "SR": 1, "SPL": 0.9550049850709181, "reward_sum": 2.142465558052063, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "107", "steps": 25, "SR": 0, "SPL": 0.0, "reward_sum": -0.5303739980856574, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "265", "steps": 17, "SR": 1, "SPL": 0.6571300081180698, "reward_sum": 1.8708588568369549, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "648", "steps": 10, "SR": 1, "SPL": 0.8346094789237251, "reward_sum": 2.0026447661717732, "focus_mean": 4.0, "failure": null}
+{"purpose": "val_seen", "source_episode_id": "150", "steps": 11, "SR": 1, "SPL": 0.8194725253326243, "reward_sum": 2.1784509380658466, "focus_mean": 4.0, "failure": null}
+GL::Context::current(): no current context

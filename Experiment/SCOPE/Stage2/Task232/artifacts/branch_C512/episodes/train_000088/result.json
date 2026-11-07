@@ -1,0 +1,87 @@
+{
+  "episode_uid": "scope_stage2_train:4986",
+  "source_episode_id": "4986",
+  "scene_id": "sT4fr6TAbpF",
+  "instruction": "Turn around and enter the house. Go to the right side of the petition and walk across the room. Once you pass the 2nd chair on your right, turn into the doorway and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 18.92584991455078,
+  "path_length": 11.682067313231528,
+  "gt_path_length": 10.854227703774864,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.013303375267615663,
+  "purpose": "train",
+  "wall_seconds": 25.036870589479804,
+  "training": {
+    "episode_id": "4986",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/3742195db4594155b2b4c06aea32c2f3_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "4986",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_3742195db4594155b2b4c06aea32c2f3.pt",
+      "transitions": 12,
+      "reward_sum": -1.2878055657280816,
+      "focus_histogram": {
+        "1": 2,
+        "2": 3,
+        "3": 2,
+        "0": 1,
+        "4": 4
+      },
+      "camera_histogram": {
+        "1": 18,
+        "2": 10,
+        "0": 1,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.6087109242614946,
+        "camera": 0.9067442683797133,
+        "position_latent": 2.4433800044812655
+      },
+      "start_geodesic_distance": 9.99588394165039,
+      "final_geodesic_distance": 18.92584991455078,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11476.275118999183,
+      "perception_ms": 888.8677805662155
+    },
+    "collected": 1245,
+    "buffer_transitions": 61,
+    "reward_components": {
+      "progress": -0.5953310648600261,
+      "focus_cost": -0.3,
+      "step_cost": -0.11999999999999998,
+      "terminal": -0.5,
+      "coverage_bonus": 0.22752549913194445
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.2878055657280816,
+  "focus_mean": 2.5
+}

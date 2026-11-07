@@ -1,0 +1,71 @@
+{
+  "episode_uid": "agm_ppo_val_seen:510",
+  "source_episode_id": "510",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Exit the bathroom. Turn left and exit the room using the door on the left. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.2704415321350098,
+  "path_length": 2.935544917359948,
+  "gt_path_length": 6.109432220458984,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8282651370308751,
+  "purpose": "val_seen",
+  "wall_seconds": 15.090432770550251,
+  "training": {
+    "episode_id": "510",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ba7abf8b90d94ca4914f0b4280eac9c1_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ba7abf8b90d94ca4914f0b4280eac9c1_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ba7abf8b90d94ca4914f0b4280eac9c1_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ba7abf8b90d94ca4914f0b4280eac9c1_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "510",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_ba7abf8b90d94ca4914f0b4280eac9c1.pt",
+      "transitions": 4,
+      "reward_sum": 1.980059782663981,
+      "focus_histogram": {
+        "4": 4
+      },
+      "camera_histogram": {
+        "1": 16
+      },
+      "entropy": {
+        "stop": 0.5961170718073845,
+        "camera": 0.8725266754627228,
+        "position_latent": 2.4291033297777176
+      },
+      "start_geodesic_distance": 4.971338272094727,
+      "final_geodesic_distance": 2.2704415321350098,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3852.9272647574544,
+      "perception_ms": 545.3109256923199
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.18005978266398107,
+      "focus_cost": -0.16,
+      "step_cost": -0.04,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 1.980059782663981,
+  "focus_mean": 4.0
+}

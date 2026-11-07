@@ -1,0 +1,80 @@
+{
+  "episode_uid": "scope_stage2_train:1300",
+  "source_episode_id": "1300",
+  "scene_id": "r1Q1Z4BcV1o",
+  "instruction": "Turn around a the blackboard, make a left at the water fountain and head through the doorframe. Angle left and move straight, keeping the table with the white tablecloth on your left side. Make a slight right and walk straight, waiting at the bottom of the stairwell.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.426151275634766,
+  "path_length": 6.456047439947724,
+  "gt_path_length": 10.201104360225191,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.20979949277518617,
+  "purpose": "train",
+  "wall_seconds": 22.5491257654503,
+  "training": {
+    "episode_id": "1300",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49c9491132d24528bfcdfe0bc977a9a5_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1300",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_49c9491132d24528bfcdfe0bc977a9a5.pt",
+      "transitions": 8,
+      "reward_sum": -0.6666936238606771,
+      "focus_histogram": {
+        "3": 2,
+        "4": 3,
+        "1": 1,
+        "2": 2
+      },
+      "camera_histogram": {
+        "1": 15,
+        "3": 3,
+        "2": 5
+      },
+      "entropy": {
+        "stop": 0.609088414481708,
+        "camera": 0.9226512653487069,
+        "position_latent": 2.445394958768572
+      },
+      "start_geodesic_distance": 8.98824691772461,
+      "final_geodesic_distance": 9.426151275634766,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7356.561794877052,
+      "perception_ms": 669.6572713553905
+    },
+    "collected": 1250,
+    "buffer_transitions": 66,
+    "reward_components": {
+      "progress": -0.02919362386067713,
+      "focus_cost": -0.0575,
+      "step_cost": -0.08,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6666936238606771,
+  "focus_mean": 2.875
+}

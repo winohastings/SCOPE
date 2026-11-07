@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "fresh_transitions": 64,
+  "historical_forward_bitwise_equal": true,
+  "restore_bitwise_equal": true,
+  "freeze": {
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true
+  }
+}

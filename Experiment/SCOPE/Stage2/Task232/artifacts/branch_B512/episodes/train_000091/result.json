@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:7444",
+  "source_episode_id": "7444",
+  "scene_id": "EDJbREhghzL",
+  "instruction": "Exit bedroom. Walk straight passed the bed and exit room. Turn left and walk towards the staircase. Stop on the second step from the bottom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.9156395792961121,
+  "path_length": 9.86679736012593,
+  "gt_path_length": 9.770446223040844,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.9101298893230214,
+  "purpose": "train",
+  "wall_seconds": 22.800314731895924,
+  "training": {
+    "episode_id": "7444",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c2700267c20448eda5a08e0eaf6ba09b_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7444",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_c2700267c20448eda5a08e0eaf6ba09b.pt",
+      "transitions": 10,
+      "reward_sum": 2.230162297089895,
+      "focus_histogram": {
+        "2": 2,
+        "0": 1,
+        "1": 2,
+        "4": 5
+      },
+      "camera_histogram": {
+        "1": 17,
+        "3": 3,
+        "2": 4,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.5839192117414167,
+        "camera": 0.9278271755864543,
+        "position_latent": 2.436893947662846
+      },
+      "start_geodesic_distance": 9.768074035644531,
+      "final_geodesic_distance": 0.9156395792961121,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11381.77039846778,
+      "perception_ms": 934.5184108242393
+    },
+    "collected": 1284,
+    "buffer_transitions": 251,
+    "reward_components": {
+      "progress": 0.5901622970898948,
+      "focus_cost": -0.26000000000000006,
+      "step_cost": -0.09999999999999999,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.9899943901878068,
+  "reward_sum": 2.230162297089895,
+  "focus_mean": 2.6
+}

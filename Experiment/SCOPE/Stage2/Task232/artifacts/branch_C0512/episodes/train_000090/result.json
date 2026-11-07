@@ -1,0 +1,80 @@
+{
+  "episode_uid": "scope_stage2_train:7259",
+  "source_episode_id": "7259",
+  "scene_id": "rPc6DW4iMge",
+  "instruction": "Turn around and enter the hall. Turn left and enter the bedroom. Walk past the bed, enter the bathroom and wait in front of the sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 6.390824794769287,
+  "path_length": 4.894878030754626,
+  "gt_path_length": 9.153203300340136,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "max_steps",
+  "failure_traceback": null,
+  "nDTW": 0.5085570838090343,
+  "purpose": "train",
+  "wall_seconds": 17.639717589132488,
+  "training": {
+    "episode_id": "7259",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/4fb1943f465742b19bc72aafcdefe3cd_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/4fb1943f465742b19bc72aafcdefe3cd_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/4fb1943f465742b19bc72aafcdefe3cd_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/4fb1943f465742b19bc72aafcdefe3cd_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/4fb1943f465742b19bc72aafcdefe3cd_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/4fb1943f465742b19bc72aafcdefe3cd_0005.pt"
+    ],
+    "bootstrap_saved": true,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7259",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_4fb1943f465742b19bc72aafcdefe3cd.pt",
+      "transitions": 6,
+      "reward_sum": -0.06913938522338867,
+      "focus_histogram": {
+        "0": 1,
+        "4": 2,
+        "3": 1,
+        "1": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 5,
+        "1": 8,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.6072543627685971,
+        "camera": 0.894295033481386,
+        "position_latent": 2.436821791860792
+      },
+      "start_geodesic_distance": 8.353734016418457,
+      "final_geodesic_distance": 6.390824794769287,
+      "terminated": false,
+      "truncated": true,
+      "model_ms": 5342.720940709114,
+      "perception_ms": 413.23707811534405
+    },
+    "collected": 1289,
+    "buffer_transitions": 105,
+    "reward_components": {
+      "progress": 0.13086061477661132,
+      "focus_cost": -0.13999999999999999,
+      "step_cost": -0.060000000000000005,
+      "terminal": 0.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.06913938522338867,
+  "focus_mean": 2.3333333333333335
+}

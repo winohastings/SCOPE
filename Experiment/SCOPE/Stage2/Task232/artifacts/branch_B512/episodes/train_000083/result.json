@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:3751",
+  "source_episode_id": "3751",
+  "scene_id": "2n8kARJN3HM",
+  "instruction": "Walk down the stairs. Turn left and continue down the second flight. Wait on the fourth step from the bottom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.8770923614501953,
+  "path_length": 8.417226784862578,
+  "gt_path_length": 6.404364587019017,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.48428599374445724,
+  "purpose": "train",
+  "wall_seconds": 25.771822159178555,
+  "training": {
+    "episode_id": "3751",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ae6027e2ae314a48a671a6ee28bee92a_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3751",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_ae6027e2ae314a48a671a6ee28bee92a.pt",
+      "transitions": 8,
+      "reward_sum": 2.040494194030762,
+      "focus_histogram": {
+        "2": 1,
+        "3": 1,
+        "0": 3,
+        "1": 3
+      },
+      "camera_histogram": {
+        "1": 8
+      },
+      "entropy": {
+        "stop": 0.5827243402600288,
+        "camera": 0.8708427399396896,
+        "position_latent": 2.4321229606866837
+      },
+      "start_geodesic_distance": 4.884505271911621,
+      "final_geodesic_distance": 1.8770923614501953,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8772.452815435827,
+      "perception_ms": 332.09463581442833
+    },
+    "collected": 1201,
+    "buffer_transitions": 168,
+    "reward_components": {
+      "progress": 0.20049419403076169,
+      "focus_cost": -0.08,
+      "step_cost": -0.08,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.5802986419108781,
+  "reward_sum": 2.040494194030762,
+  "focus_mean": 1.0
+}

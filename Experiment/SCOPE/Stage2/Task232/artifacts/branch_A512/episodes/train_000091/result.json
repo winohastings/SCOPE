@@ -1,0 +1,87 @@
+{
+  "episode_uid": "scope_stage2_train:7444",
+  "source_episode_id": "7444",
+  "scene_id": "EDJbREhghzL",
+  "instruction": "Exit bedroom. Walk straight passed the bed and exit room. Turn left and walk towards the staircase. Stop on the second step from the bottom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.561795175075531,
+  "path_length": 12.617503968067467,
+  "gt_path_length": 9.770446223040844,
+  "steps": 13,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7199733556879996,
+  "purpose": "train",
+  "wall_seconds": 25.760610942728817,
+  "training": {
+    "episode_id": "7444",
+    "transitions": 13,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/e825bc3d94b4408a8dad3571093869dd_0012.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7444",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_e825bc3d94b4408a8dad3571093869dd.pt",
+      "transitions": 13,
+      "reward_sum": 2.4012519240379335,
+      "focus_histogram": {
+        "2": 2,
+        "0": 2,
+        "1": 2,
+        "4": 6,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 18,
+        "3": 3,
+        "2": 10,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.6089173868298531,
+        "camera": 0.9258343994617462,
+        "position_latent": 2.4433123767375946
+      },
+      "start_geodesic_distance": 9.768074035644531,
+      "final_geodesic_distance": 0.561795175075531,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13089.06738832593,
+      "perception_ms": 1042.4670986831188
+    },
+    "collected": 1274,
+    "buffer_transitions": 90,
+    "reward_components": {
+      "progress": 0.6137519240379333,
+      "focus_cost": -0.0825,
+      "step_cost": -0.12999999999999998,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7741684932587057,
+  "reward_sum": 2.4012519240379335,
+  "focus_mean": 2.5384615384615383
+}

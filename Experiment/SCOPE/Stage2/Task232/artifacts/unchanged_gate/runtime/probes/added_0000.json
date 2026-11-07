@@ -1,0 +1,60 @@
+{
+  "heads": {
+    "train": {
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.2689836919307709,
+        0.27060239017009735,
+        0.2720390439033508
+      ],
+      "zero_focus_first_step_fraction": 0.0,
+      "stop_ge_045_fraction": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.9293408268131316,
+      "KL_from_fork": {
+        "stop": 0.0,
+        "camera": 0.0,
+        "position": 0.0
+      }
+    },
+    "val_seen": {
+      "states": 128,
+      "p_stop_P10_P50_P90": [
+        0.26925485730171206,
+        0.270595908164978,
+        0.2717767894268036
+      ],
+      "zero_focus_first_step_fraction": 0.0,
+      "stop_ge_045_fraction": 0.0,
+      "camera_top1_fractions": {
+        "0": 0.0,
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "camera_entropy": 0.9274141700007021,
+      "KL_from_fork": {
+        "stop": 0.0,
+        "camera": 0.0,
+        "position": 0.0
+      }
+    }
+  },
+  "geometry_states": 64,
+  "geometry": {
+    "forced4_coverage": 0.03515911102294922,
+    "forced4_repeated_roi_fraction": 1.0,
+    "forced4_unique_cameras": 1.0,
+    "forced4_focus_count": 4.0,
+    "native_coverage": 0.03515911102294922,
+    "native_repeated_roi_fraction": 1.0,
+    "native_unique_cameras": 1.0,
+    "native_focus_count": 4.0
+  },
+  "geometry_caveat": "frozen reference intermediate ActorStates; conditional ROI geometry, not fresh fused-feature closed-loop behavior"
+}

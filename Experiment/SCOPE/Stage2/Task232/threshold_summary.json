@@ -1,0 +1,119 @@
+{
+  "checkpoint": "original4096/update0056",
+  "groups": [
+    {
+      "threshold": 0.45,
+      "episodes": 12,
+      "SR": 0.3333333333333333,
+      "SPL": 0.20647758704185112,
+      "nDTW": 0.2858564687959086,
+      "focus_mean": 0.0
+    },
+    {
+      "threshold": 0.5,
+      "episodes": 12,
+      "SR": 0.3333333333333333,
+      "SPL": 0.20647758704185112,
+      "nDTW": 0.2858564687959086,
+      "focus_mean": 0.0
+    },
+    {
+      "threshold": 0.6,
+      "episodes": 12,
+      "SR": 0.4166666666666667,
+      "SPL": 0.3419975662913081,
+      "nDTW": 0.4398941490093163,
+      "focus_mean": 4.0
+    }
+  ],
+  "paired_vs_050": {
+    "0.45": {
+      "success_to_failure": 0,
+      "failure_to_success": 0,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 12
+      },
+      "delta_SPL": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 12
+      },
+      "delta_nDTW": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 12
+      }
+    },
+    "0.5": {
+      "success_to_failure": 0,
+      "failure_to_success": 0,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 12
+      },
+      "delta_SPL": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 12
+      },
+      "delta_nDTW": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 12
+      }
+    },
+    "0.6": {
+      "success_to_failure": 2,
+      "failure_to_success": 3,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": 0.08333333333333333,
+        "ci95": [
+          -0.25,
+          0.4166666666666667
+        ],
+        "episodes": 12
+      },
+      "delta_SPL": {
+        "mean": 0.13551997924945702,
+        "ci95": [
+          -0.11775203815748982,
+          0.40318842228802426
+        ],
+        "episodes": 12
+      },
+      "delta_nDTW": {
+        "mean": 0.15403768021340775,
+        "ci95": [
+          -0.006405298952617474,
+          0.3325388440798961
+        ],
+        "episodes": 12
+      }
+    }
+  },
+  "scope": "fixed original historical quick12; .50 historical values already independently reproduced by Task231; evaluation-only, not learning evidence"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "agm-ppo-only-v1",
+  "mode": "PPO-only",
+  "seed": 233,
+  "initial_actor": "Experiment/SCOPE/Stage2/Task22/artifacts/final_runtime/actor_initial.pt",
+  "budget": 512,
+  "continuation_budgets": [
+    1024
+  ],
+  "rollout_minimum": 64,
+  "epochs": 2,
+  "minibatch_states": 16,
+  "actor_learning_rate": 0.0001,
+  "critic_learning_rate": 0.0002,
+  "weight_decay": 0.01,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip": 0.2,
+  "gradient_clip": 1.0,
+  "critic_loss_weight": 0.5,
+  "entropy_weights": {
+    "stop": 0.001,
+    "camera": 0.001,
+    "position_latent": 0.0001
+  },
+  "kl_stop_threshold": 0.05,
+  "normalize_advantage": true,
+  "max_navigation_steps": 200,
+  "max_habitat_steps": 200,
+  "validation_split": "val_seen",
+  "validation_episodes": 64,
+  "validation_every_transitions": 256,
+  "validation_selection": "seeded scene-balanced fixed subset, SR then SPL, earlier checkpoint wins ties",
+  "validation_mode": "deterministic",
+  "group_sampling": false,
+  "wall_time_limit_hours": 6.0,
+  "task232_branch": "A",
+  "focus_cost": 0.0025,
+  "fork_transitions": 1033,
+  "parent_checkpoint_sha256": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595",
+  "protocol_sha256": "3d9971bed9fd75df15350d12663558e380643e014248942104eb3421f2cf92e0",
+  "probe_manifest_sha256": "d85b116f46a91450a7a8086829d0a06451f2ae3bcc81919c708b173a4603032d"
+}

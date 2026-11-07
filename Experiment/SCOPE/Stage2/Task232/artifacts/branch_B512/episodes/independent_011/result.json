@@ -1,0 +1,71 @@
+{
+  "episode_uid": "agm_ppo_val_seen:696",
+  "source_episode_id": "696",
+  "scene_id": "B6ByNegPMKs",
+  "instruction": "Walk down the hall towards the exit sign and turn right. Walk into the first door on the left and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.508934020996094,
+  "path_length": 2.2630609050393105,
+  "gt_path_length": 10.374549865722656,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.24329433774792722,
+  "purpose": "val_seen",
+  "wall_seconds": 45.485832451842725,
+  "training": {
+    "episode_id": "696",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/695f5749f5764d39892247c83b7b8082_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/695f5749f5764d39892247c83b7b8082_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/695f5749f5764d39892247c83b7b8082_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/695f5749f5764d39892247c83b7b8082_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "696",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_695f5749f5764d39892247c83b7b8082.pt",
+      "transitions": 4,
+      "reward_sum": -0.7232592264811198,
+      "focus_histogram": {
+        "4": 4
+      },
+      "camera_histogram": {
+        "1": 16
+      },
+      "entropy": {
+        "stop": 0.5968429893255234,
+        "camera": 0.8866034857928753,
+        "position_latent": 2.4319894909858704
+      },
+      "start_geodesic_distance": 9.160045623779297,
+      "final_geodesic_distance": 9.508934020996094,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3900.0236075371504,
+      "perception_ms": 562.5368533656001
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.023259226481119825,
+      "focus_cost": -0.16,
+      "step_cost": -0.04,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7232592264811198,
+  "focus_mean": 4.0
+}

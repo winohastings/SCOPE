@@ -1,0 +1,86 @@
+{
+  "episode_uid": "scope_stage2_train:3591",
+  "source_episode_id": "3591",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Locate the stairs. Travel to the right of the stairs and into the room with lots of white chairs. Turn left and enter the room with a large mirror.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.1256729364395142,
+  "path_length": 11.407977549126372,
+  "gt_path_length": 10.93944438323843,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8107681333089378,
+  "purpose": "train",
+  "wall_seconds": 27.624368481338024,
+  "training": {
+    "episode_id": "3591",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c9a35b87d6b54564b8fe579adc6f052a_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3591",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_c9a35b87d6b54564b8fe579adc6f052a.pt",
+      "transitions": 11,
+      "reward_sum": 2.4372195927302043,
+      "focus_histogram": {
+        "0": 3,
+        "4": 2,
+        "2": 4,
+        "1": 1,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 14,
+        "3": 2,
+        "0": 3,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6457553793644083,
+        "camera": 0.9803996414973818,
+        "position_latent": 2.5199629438334497
+      },
+      "start_geodesic_distance": 9.847003936767578,
+      "final_geodesic_distance": 1.1256729364395142,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10233.596884645522,
+      "perception_ms": 620.5230532214046
+    },
+    "collected": 1520,
+    "buffer_transitions": 95,
+    "reward_components": {
+      "progress": 0.5814220666885378,
+      "focus_cost": -0.19999999999999998,
+      "step_cost": -0.10999999999999999,
+      "terminal": 2.0,
+      "coverage_bonus": 0.16579752604166667
+    }
+  },
+  "SR": 1,
+  "SPL": 0.8631682429565849,
+  "reward_sum": 2.4372195927302043,
+  "focus_mean": 1.8181818181818181
+}

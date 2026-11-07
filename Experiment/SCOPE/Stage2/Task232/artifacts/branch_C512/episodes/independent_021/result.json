@@ -1,0 +1,86 @@
+{
+  "episode_uid": "agm_ppo_val_seen:578",
+  "source_episode_id": "578",
+  "scene_id": "Uxmj2M2itWa",
+  "instruction": "Leave the bathroom and go right. Exit the bedroom onto the patio. Go to the stairs. Stop on the second stair from the bottom.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.31193733215332,
+  "path_length": 6.641901761409827,
+  "gt_path_length": 8.833552360534668,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.29849593765837173,
+  "purpose": "val_seen",
+  "wall_seconds": 35.06269211322069,
+  "training": {
+    "episode_id": "578",
+    "transitions": 18,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/9d97f3cd0a9446beb22d5924b6c1258a_0017.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "578",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_9d97f3cd0a9446beb22d5924b6c1258a.pt",
+      "transitions": 18,
+      "reward_sum": -1.1953656302558051,
+      "focus_histogram": {
+        "4": 18
+      },
+      "camera_histogram": {
+        "1": 72
+      },
+      "entropy": {
+        "stop": 0.6522949578033553,
+        "camera": 0.8919076174497604,
+        "position_latent": 2.5857756468984814
+      },
+      "start_geodesic_distance": 9.67598819732666,
+      "final_geodesic_distance": 9.31193733215332,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 18070.26770710945,
+      "perception_ms": 2034.8477074876428
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.024270057678222594,
+      "focus_cost": -0.7200000000000001,
+      "step_cost": -0.18000000000000002,
+      "terminal": -0.5,
+      "coverage_bonus": 0.18036431206597225
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1953656302558051,
+  "focus_mean": 4.0
+}

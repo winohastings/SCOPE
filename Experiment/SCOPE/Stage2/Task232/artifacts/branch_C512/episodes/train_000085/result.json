@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:10244",
+  "source_episode_id": "10244",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Walk until your in the next room. Make a right into the room on the right. Stop in front of the water heater.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.3910932540893555,
+  "path_length": 8.456025836057961,
+  "gt_path_length": 5.632494830696575,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.36149363118299604,
+  "purpose": "train",
+  "wall_seconds": 17.431401336565614,
+  "training": {
+    "episode_id": "10244",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/ca9ea6c40bd74d87ad4b7e07b67af5a9_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10244",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_ca9ea6c40bd74d87ad4b7e07b67af5a9.pt",
+      "transitions": 9,
+      "reward_sum": -0.49485664791531037,
+      "focus_histogram": {
+        "1": 3,
+        "0": 3,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "3": 2,
+        "1": 8,
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6087871998548507,
+        "camera": 0.9158059656620026,
+        "position_latent": 2.4418872356414796
+      },
+      "start_geodesic_distance": 5.051939010620117,
+      "final_geodesic_distance": 3.3910932540893555,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8144.0404783934355,
+      "perception_ms": 392.9235367104411
+    },
+    "collected": 1217,
+    "buffer_transitions": 33,
+    "reward_components": {
+      "progress": 0.11072305043538407,
+      "focus_cost": -0.12,
+      "step_cost": -0.09,
+      "terminal": -0.5,
+      "coverage_bonus": 0.10442030164930555
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.49485664791531037,
+  "focus_mean": 1.3333333333333333
+}

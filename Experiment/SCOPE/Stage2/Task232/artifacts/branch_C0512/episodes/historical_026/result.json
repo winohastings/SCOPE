@@ -1,0 +1,72 @@
+{
+  "episode_uid": "agm_ppo_val_seen:290",
+  "source_episode_id": "290",
+  "scene_id": "mJXqzFtmKg4",
+  "instruction": "Enter the room go out the door on the right turn left and wait right at the living room entrance.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.488927841186523,
+  "path_length": 2.9053177693858743,
+  "gt_path_length": 6.244618892669678,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2934344399127804,
+  "purpose": "val_seen",
+  "wall_seconds": 17.74617304932326,
+  "training": {
+    "episode_id": "290",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/d8dc0e06ce4f414ba517d8c27df454be_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/d8dc0e06ce4f414ba517d8c27df454be_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/d8dc0e06ce4f414ba517d8c27df454be_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/d8dc0e06ce4f414ba517d8c27df454be_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "290",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_d8dc0e06ce4f414ba517d8c27df454be.pt",
+      "transitions": 4,
+      "reward_sum": -0.8508221944173178,
+      "focus_histogram": {
+        "4": 4
+      },
+      "camera_histogram": {
+        "1": 16
+      },
+      "entropy": {
+        "stop": 0.6272063925862312,
+        "camera": 1.143445372581482,
+        "position_latent": 2.432958722114563
+      },
+      "start_geodesic_distance": 6.226594924926758,
+      "final_geodesic_distance": 8.488927841186523,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3095.522833056748,
+      "perception_ms": 433.6379570886493
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.15082219441731776,
+      "focus_cost": -0.16,
+      "step_cost": -0.04,
+      "terminal": -0.5,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8508221944173178,
+  "focus_mean": 4.0
+}

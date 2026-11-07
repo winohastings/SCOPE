@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:540",
+  "source_episode_id": "540",
+  "scene_id": "Vvot9Ly1tCj",
+  "instruction": "Head toward dinning area walk past then make a left and enter bedroom area, and wait.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 7.985734939575195,
+  "path_length": 11.404410983901471,
+  "gt_path_length": 11.237812995910645,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4597493510554814,
+  "purpose": "val_seen",
+  "wall_seconds": 26.298083372414112,
+  "training": {
+    "episode_id": "540",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/713a228f97ea4cd8b1f23f2c2bced9e8_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "540",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_713a228f97ea4cd8b1f23f2c2bced9e8.pt",
+      "transitions": 10,
+      "reward_sum": -0.8220861434936524,
+      "focus_histogram": {
+        "4": 10
+      },
+      "camera_histogram": {
+        "1": 40
+      },
+      "entropy": {
+        "stop": 0.5965310335159302,
+        "camera": 0.8719665199518204,
+        "position_latent": 2.4292937219142914
+      },
+      "start_geodesic_distance": 10.65444278717041,
+      "final_geodesic_distance": 7.985734939575195,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9559.350171126425,
+      "perception_ms": 1098.9163890480995
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.1779138565063476,
+      "focus_cost": -0.39999999999999997,
+      "step_cost": -0.09999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8220861434936524,
+  "focus_mean": 4.0
+}

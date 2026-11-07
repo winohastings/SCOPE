@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:7166",
+  "source_episode_id": "7166",
+  "scene_id": "aayBHfsNo7d",
+  "instruction": "Walk down hallway to bedroom, turn left and enter bathroom, stop at sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.934051513671875,
+  "path_length": 3.6313121477141976,
+  "gt_path_length": 8.52901467192536,
+  "steps": 5,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.23213072005373542,
+  "purpose": "train",
+  "wall_seconds": 13.669674606062472,
+  "training": {
+    "episode_id": "7166",
+    "transitions": 5,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/0eda5ee4e26643ac8271cab89ff340a0_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/0eda5ee4e26643ac8271cab89ff340a0_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/0eda5ee4e26643ac8271cab89ff340a0_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/0eda5ee4e26643ac8271cab89ff340a0_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/0eda5ee4e26643ac8271cab89ff340a0_0004.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7166",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_0eda5ee4e26643ac8271cab89ff340a0.pt",
+      "transitions": 5,
+      "reward_sum": -0.7330642318725586,
+      "focus_histogram": {
+        "2": 3,
+        "0": 2
+      },
+      "camera_histogram": {
+        "1": 6
+      },
+      "entropy": {
+        "stop": 0.588418879292228,
+        "camera": 0.7721701806241815,
+        "position_latent": 2.4363819902593438
+      },
+      "start_geodesic_distance": 8.088088035583496,
+      "final_geodesic_distance": 9.934051513671875,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3871.582008898258,
+      "perception_ms": 192.6220804452896
+    },
+    "collected": 1294,
+    "buffer_transitions": 5,
+    "reward_components": {
+      "progress": -0.1230642318725586,
+      "focus_cost": -0.06,
+      "step_cost": -0.05,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7330642318725586,
+  "focus_mean": 1.2
+}

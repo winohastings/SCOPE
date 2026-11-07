@@ -1,0 +1,78 @@
+{
+  "episode_uid": "agm_ppo_val_seen:136",
+  "source_episode_id": "136",
+  "scene_id": "aayBHfsNo7d",
+  "instruction": "Go all the way to the glass double doors and stop in the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.227738857269287,
+  "path_length": 12.772637842223048,
+  "gt_path_length": 12.603466033935547,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7961797392473267,
+  "purpose": "val_seen",
+  "wall_seconds": 23.70573435537517,
+  "training": {
+    "episode_id": "136",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/6abeb20cc1f4463691cd914e6cd121ae_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "136",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_6abeb20cc1f4463691cd914e6cd121ae.pt",
+      "transitions": 11,
+      "reward_sum": 2.470410645802816,
+      "focus_histogram": {
+        "4": 11
+      },
+      "camera_histogram": {
+        "1": 44
+      },
+      "entropy": {
+        "stop": 0.6228778470646251,
+        "camera": 0.8996098596941341,
+        "position_latent": 2.4803586060350593
+      },
+      "start_geodesic_distance": 12.583898544311523,
+      "final_geodesic_distance": 2.227738857269287,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10675.083072856069,
+      "perception_ms": 1219.5958970114589
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.6904106458028156,
+      "focus_cost": -0.10999999999999999,
+      "step_cost": -0.10999999999999999,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.9852231543520633,
+  "reward_sum": 2.470410645802816,
+  "focus_mean": 4.0
+}

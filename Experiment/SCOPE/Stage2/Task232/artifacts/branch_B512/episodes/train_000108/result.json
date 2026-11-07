@@ -1,0 +1,72 @@
+{
+  "episode_uid": "scope_stage2_train:8978",
+  "source_episode_id": "8978",
+  "scene_id": "p5wJjkQkbXX",
+  "instruction": "Head toward the room with the white couch.  Go left toward the kitchen and then to the front door.  Turn left down the hall and stop in front of the stairs.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 12.851232528686523,
+  "path_length": 2.4235822558403015,
+  "gt_path_length": 15.549241194176382,
+  "steps": 3,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "max_steps",
+  "failure_traceback": null,
+  "nDTW": 0.1589238160848651,
+  "purpose": "train",
+  "wall_seconds": 18.834865513257682,
+  "training": {
+    "episode_id": "8978",
+    "transitions": 3,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/37c6307e290a47c596244b0a5025b598_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/37c6307e290a47c596244b0a5025b598_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/37c6307e290a47c596244b0a5025b598_0002.pt"
+    ],
+    "bootstrap_saved": true,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8978",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_37c6307e290a47c596244b0a5025b598.pt",
+      "transitions": 3,
+      "reward_sum": 0.005762074788411453,
+      "focus_histogram": {
+        "4": 2,
+        "0": 1
+      },
+      "camera_histogram": {
+        "1": 7,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.5892145170105828,
+        "camera": 0.8190713127454122,
+        "position_latent": 2.4401025242275662
+      },
+      "start_geodesic_distance": 14.587663650512695,
+      "final_geodesic_distance": 12.851232528686523,
+      "terminated": false,
+      "truncated": true,
+      "model_ms": 2163.9889208599925,
+      "perception_ms": 256.6805612295866
+    },
+    "collected": 1545,
+    "buffer_transitions": 256,
+    "reward_components": {
+      "progress": 0.11576207478841147,
+      "focus_cost": -0.08,
+      "step_cost": -0.03,
+      "terminal": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": 0.005762074788411453,
+  "focus_mean": 2.6666666666666665
+}

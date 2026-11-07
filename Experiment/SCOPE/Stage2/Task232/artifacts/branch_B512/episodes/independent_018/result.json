@@ -1,0 +1,75 @@
+{
+  "episode_uid": "agm_ppo_val_seen:764",
+  "source_episode_id": "764",
+  "scene_id": "Pm6F8kyY3z2",
+  "instruction": "Walk past the left side of the bed and stop in the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.0684657096862793,
+  "path_length": 6.926056078635156,
+  "gt_path_length": 7.189547061920166,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8134502336507066,
+  "purpose": "val_seen",
+  "wall_seconds": 13.520853868685663,
+  "training": {
+    "episode_id": "764",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/c5df06bce6ba45df9bbadfed60def127_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "764",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_c5df06bce6ba45df9bbadfed60def127.pt",
+      "transitions": 8,
+      "reward_sum": 2.006364345550537,
+      "focus_histogram": {
+        "4": 8
+      },
+      "camera_histogram": {
+        "1": 32
+      },
+      "entropy": {
+        "stop": 0.5967638324946165,
+        "camera": 0.8757750764489174,
+        "position_latent": 2.4290587827563286
+      },
+      "start_geodesic_distance": 7.163930892944336,
+      "final_geodesic_distance": 1.0684657096862793,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7420.042717829347,
+      "perception_ms": 876.8338970839977
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.40636434555053713,
+      "focus_cost": -0.32,
+      "step_cost": -0.08,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.006364345550537,
+  "focus_mean": 4.0
+}

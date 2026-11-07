@@ -1,0 +1,80 @@
+{
+  "episode_uid": "scope_stage2_train:8672",
+  "source_episode_id": "8672",
+  "scene_id": "vyrNrziPKCB",
+  "instruction": "Exit bathroom turn left in hall, walk straight into sitting room. Wait at floral chair.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.38688850402832,
+  "path_length": 8.104519439628348,
+  "gt_path_length": 11.97568651431148,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4431961338090727,
+  "purpose": "train",
+  "wall_seconds": 38.00646279938519,
+  "training": {
+    "episode_id": "8672",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/5e606d1e8dbf47bdb7af9ef31eb4f652_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8672",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_5e606d1e8dbf47bdb7af9ef31eb4f652.pt",
+      "transitions": 8,
+      "reward_sum": -0.4326250203450521,
+      "focus_histogram": {
+        "1": 2,
+        "2": 2,
+        "0": 3,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "3": 1,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.626427973017973,
+        "camera": 0.9124469546710744,
+        "position_latent": 2.513297543806188
+      },
+      "start_geodesic_distance": 10.972513198852539,
+      "final_geodesic_distance": 8.38688850402832,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7042.148114182055,
+      "perception_ms": 325.44733583927155
+    },
+    "collected": 1532,
+    "buffer_transitions": 93,
+    "reward_components": {
+      "progress": 0.17237497965494789,
+      "focus_cost": -0.024999999999999998,
+      "step_cost": -0.08,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.4326250203450521,
+  "focus_mean": 1.25
+}

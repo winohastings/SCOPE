@@ -1,0 +1,285 @@
+{
+  "branch": "C0",
+  "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/checkpoints/added_0512.pt",
+  "checkpoint_sha256": "0f5b12be206402f778cf0fb92d9a6ee8c7cf1e1235c99f3d9a581ece4aa6e3ca",
+  "added_trained_transitions": 512,
+  "updates": 6,
+  "update_batch_sizes": [
+    80,
+    71,
+    105,
+    77,
+    66,
+    113
+  ],
+  "in_sample_critic_EV_by_update": [
+    -0.0138932466506958,
+    0.035872042179107666,
+    0.016156554222106934,
+    0.02815490961074829,
+    0.020235061645507812,
+    0.09507930278778076
+  ],
+  "optimizer_hyperparameters": {
+    "actor_learning_rate": 0.0001,
+    "critic_learning_rate": 0.0002,
+    "rollout_minimum": 64,
+    "focus_cost": 0.01
+  },
+  "new_optimizer_steps": 70,
+  "ratio_max_error": 0.0,
+  "update_seconds": 40.8177455374971,
+  "subsets": {
+    "train": {
+      "transitions": 512,
+      "focus_distribution": {
+        "0": 146,
+        "1": 114,
+        "2": 84,
+        "3": 45,
+        "4": 123
+      },
+      "camera_histogram": {
+        "0": 58,
+        "1": 530,
+        "2": 256,
+        "3": 65
+      },
+      "camera_probability_mean_by_focus_index": {
+        "0": [
+          0.06448948383331299,
+          0.6016131043434143,
+          0.2780454456806183,
+          0.05585221201181412
+        ],
+        "1": [
+          0.06614162772893906,
+          0.5977563858032227,
+          0.2796555161476135,
+          0.056446537375450134
+        ],
+        "2": [
+          0.06608889251947403,
+          0.5991634726524353,
+          0.2776187062263489,
+          0.05712887644767761
+        ],
+        "3": [
+          0.06680992990732193,
+          0.5970520973205566,
+          0.2788454294204712,
+          0.05729265883564949
+        ]
+      },
+      "focus_mean": 1.775390625,
+      "zero_focus_fraction": 0.28515625,
+      "coverage_mean": 0.05168868415057659,
+      "four_focus_samples": 123,
+      "four_focus_coverage": 0.10752146806174177,
+      "four_focus_repeat_fraction": 0.013550135501355013,
+      "four_focus_unique_cameras": 2.1707317073170733,
+      "model_seconds": 493.2396014062688,
+      "perception_seconds": 28.634995121508837,
+      "reward_components": {
+        "progress": 7.709159666299821,
+        "focus_cost": -9.09,
+        "step_cost": -5.12,
+        "terminal": 22.0,
+        "coverage_bonus": 0.0
+      },
+      "episodes": 36,
+      "wall_seconds": 1283.9303481122479
+    },
+    "historical": {
+      "transitions": 514,
+      "focus_distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 514
+      },
+      "camera_histogram": {
+        "0": 0,
+        "1": 2056,
+        "2": 0,
+        "3": 0
+      },
+      "camera_probability_mean_by_focus_index": {
+        "0": [
+          0.09748128801584244,
+          0.5162303447723389,
+          0.301321417093277,
+          0.0849670022726059
+        ],
+        "1": [
+          0.09940928220748901,
+          0.5137525200843811,
+          0.3009960651397705,
+          0.08584247529506683
+        ],
+        "2": [
+          0.10047079622745514,
+          0.5113071799278259,
+          0.30038854479789734,
+          0.08783365786075592
+        ],
+        "3": [
+          0.10143931955099106,
+          0.5094770193099976,
+          0.29996055364608765,
+          0.08912317454814911
+        ]
+      },
+      "focus_mean": 4.0,
+      "zero_focus_fraction": 0.0,
+      "coverage_mean": 0.03516836203489786,
+      "four_focus_samples": 514,
+      "four_focus_coverage": 0.03516836203489786,
+      "four_focus_repeat_fraction": 1.0,
+      "four_focus_unique_cameras": 1.0,
+      "model_seconds": 518.732294476591,
+      "perception_seconds": 57.80588080268353,
+      "episodes": 32,
+      "SR": 0.40625,
+      "SPL": 0.2933646136257054,
+      "nDTW": 0.3628549000211043,
+      "oracle_success": 0.5625,
+      "reward_sum": 0.15659348554909228,
+      "critic": {
+        "branch_all_bootstrapped": {
+          "transitions": 514,
+          "EV": 0.0064850982582980166,
+          "MSE": 1.2705493435033977,
+          "prediction_mean": 0.16637718673172164,
+          "return_mean": 0.1991545566111498
+        },
+        "branch_terminal_only": {
+          "transitions": 314,
+          "EV": -0.0008221611744017032,
+          "MSE": 1.7771680299012036,
+          "prediction_mean": 0.17476333378796366,
+          "return_mean": 0.5838419900260595
+        },
+        "original_all_bootstrapped": {
+          "transitions": 514,
+          "EV": 0.0064850982582980166,
+          "MSE": 1.2705493435033977,
+          "prediction_mean": 0.16637718673172164,
+          "return_mean": 0.1991545566111498
+        },
+        "original_terminal_only": {
+          "transitions": 314,
+          "EV": -0.0008221611744017032,
+          "MSE": 1.7771680299012036,
+          "prediction_mean": 0.17476333378796366,
+          "return_mean": 0.5838419900260595
+        }
+      }
+    },
+    "independent": {
+      "transitions": 489,
+      "focus_distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 489
+      },
+      "camera_histogram": {
+        "0": 0,
+        "1": 1956,
+        "2": 0,
+        "3": 0
+      },
+      "camera_probability_mean_by_focus_index": {
+        "0": [
+          0.0970996767282486,
+          0.5112261772155762,
+          0.30680403113365173,
+          0.08486999571323395
+        ],
+        "1": [
+          0.09901203215122223,
+          0.5088440179824829,
+          0.306408166885376,
+          0.08573605120182037
+        ],
+        "2": [
+          0.10006293654441833,
+          0.5064070224761963,
+          0.3058168888092041,
+          0.0877133309841156
+        ],
+        "3": [
+          0.10105317085981369,
+          0.5045760273933411,
+          0.3053549826145172,
+          0.08901592344045639
+        ]
+      },
+      "focus_mean": 4.0,
+      "zero_focus_fraction": 0.0,
+      "coverage_mean": 0.035173474645322084,
+      "four_focus_samples": 489,
+      "four_focus_coverage": 0.035173474645322084,
+      "four_focus_repeat_fraction": 1.0,
+      "four_focus_unique_cameras": 1.0,
+      "model_seconds": 489.56996798235923,
+      "perception_seconds": 54.67799630109221,
+      "episodes": 32,
+      "SR": 0.28125,
+      "SPL": 0.2109142969617195,
+      "nDTW": 0.3340337194524486,
+      "oracle_success": 0.4375,
+      "reward_sum": -0.25486580738797787,
+      "critic": {
+        "branch_all_bootstrapped": {
+          "transitions": 489,
+          "EV": 0.0009826412447818678,
+          "MSE": 1.2962574134553224,
+          "prediction_mean": 0.1720715522126186,
+          "return_mean": -0.13453447981703395
+        },
+        "branch_terminal_only": {
+          "transitions": 339,
+          "EV": -0.0005387380733656855,
+          "MSE": 1.6694618396212622,
+          "prediction_mean": 0.1763391411453925,
+          "return_mean": -0.018020783872185295
+        },
+        "original_all_bootstrapped": {
+          "transitions": 489,
+          "EV": 0.0009826412447818678,
+          "MSE": 1.2962574134553224,
+          "prediction_mean": 0.1720715522126186,
+          "return_mean": -0.13453447981703395
+        },
+        "original_terminal_only": {
+          "transitions": 339,
+          "EV": -0.0005387380733656855,
+          "MSE": 1.6694618396212622,
+          "prediction_mean": 0.1763391411453925,
+          "return_mean": -0.018020783872185295
+        }
+      }
+    }
+  },
+  "system_gpu_samples": {
+    "0": {
+      "samples": 518,
+      "peak_memory_MiB": 12273.0,
+      "sampled_system_Wh": 124.14166463473536
+    },
+    "1": {
+      "samples": 518,
+      "peak_memory_MiB": 23900.0,
+      "sampled_system_Wh": 137.48609134030684
+    }
+  },
+  "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+  "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+  "partial": false,
+  "total_run_wall_seconds_including_startup_probes_evaluation": 3955.3033930575475,
+  "fresh_training_transitions_this_run": 512
+}

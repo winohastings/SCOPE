@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:1259",
+  "source_episode_id": "1259",
+  "scene_id": "JeFG25nYj2p",
+  "instruction": "Turn around at the start, moving straight down the hallway, keeping the paintings to your right side, keep going straight and wait in front of the door with the copper handle.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 11.047441482543945,
+  "path_length": 11.236050945473835,
+  "gt_path_length": 5.533956376431245,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.0032805868377999182,
+  "purpose": "train",
+  "wall_seconds": 25.420336258597672,
+  "training": {
+    "episode_id": "1259",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/956c32e2c14e49359665ef83206412f3_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1259",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_956c32e2c14e49359665ef83206412f3.pt",
+      "transitions": 11,
+      "reward_sum": -1.2388496271769205,
+      "focus_histogram": {
+        "2": 4,
+        "4": 4,
+        "0": 1,
+        "1": 2
+      },
+      "camera_histogram": {
+        "1": 16,
+        "2": 9,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.5824910167491797,
+        "camera": 0.9000721375147501,
+        "position_latent": 2.4342105677633574
+      },
+      "start_geodesic_distance": 5.514697074890137,
+      "final_geodesic_distance": 11.047441482543945,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12536.636618897319,
+      "perception_ms": 946.4531494304538
+    },
+    "collected": 1226,
+    "buffer_transitions": 193,
+    "reward_components": {
+      "progress": -0.3688496271769206,
+      "focus_cost": -0.26000000000000006,
+      "step_cost": -0.10999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.2388496271769205,
+  "focus_mean": 2.3636363636363638
+}

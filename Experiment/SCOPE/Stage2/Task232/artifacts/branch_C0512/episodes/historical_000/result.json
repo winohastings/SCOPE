@@ -1,0 +1,83 @@
+{
+  "episode_uid": "agm_ppo_val_seen:303",
+  "source_episode_id": "303",
+  "scene_id": "1LXtFkjw3qL",
+  "instruction": "Walk forward to the yellow sofa thing.  Walk around the yellow sofa thing and enter the door on the left.  Stand at the top of the stairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.08496147394180298,
+  "path_length": 14.98780883429572,
+  "gt_path_length": 13.37134075164795,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7354664663998339,
+  "purpose": "val_seen",
+  "wall_seconds": 34.75082946103066,
+  "training": {
+    "episode_id": "303",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/647fb954629744369fc2c4807f061472_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "303",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_647fb954629744369fc2c4807f061472.pt",
+      "transitions": 15,
+      "reward_sum": 2.0804807305336,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.62718612353007,
+        "camera": 1.152749764919281,
+        "position_latent": 2.4318613330523173
+      },
+      "start_geodesic_distance": 12.5421724319458,
+      "final_geodesic_distance": 0.08496147394180298,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14764.858365058899,
+      "perception_ms": 1626.583058387041
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.8304807305335998,
+      "focus_cost": -0.6,
+      "step_cost": -0.15,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.8368249535746871,
+  "reward_sum": 2.0804807305336,
+  "focus_mean": 4.0
+}

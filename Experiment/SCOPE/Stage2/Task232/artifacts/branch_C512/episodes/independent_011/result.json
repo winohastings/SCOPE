@@ -1,0 +1,87 @@
+{
+  "episode_uid": "agm_ppo_val_seen:696",
+  "source_episode_id": "696",
+  "scene_id": "B6ByNegPMKs",
+  "instruction": "Walk down the hall towards the exit sign and turn right. Walk into the first door on the left and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.614950180053711,
+  "path_length": 9.058246991131455,
+  "gt_path_length": 10.374549865722656,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.13016551539039709,
+  "purpose": "val_seen",
+  "wall_seconds": 68.1212605824694,
+  "training": {
+    "episode_id": "696",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/c3c7c90c8ba746ff83914b2bce94ecc7_0018.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "696",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_c3c7c90c8ba746ff83914b2bce94ecc7.pt",
+      "transitions": 19,
+      "reward_sum": -1.3565248870849609,
+      "focus_histogram": {
+        "4": 19
+      },
+      "camera_histogram": {
+        "1": 76
+      },
+      "entropy": {
+        "stop": 0.6538099662253731,
+        "camera": 0.9087109252026206,
+        "position_latent": 2.5897227117889807
+      },
+      "start_geodesic_distance": 9.160045623779297,
+      "final_geodesic_distance": 10.614950180053711,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 19134.639849886298,
+      "perception_ms": 2117.6855014637113
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.09699363708496092,
+      "focus_cost": -0.7600000000000001,
+      "step_cost": -0.19000000000000003,
+      "terminal": -0.5,
+      "coverage_bonus": 0.19046874999999996
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.3565248870849609,
+  "focus_mean": 4.0
+}

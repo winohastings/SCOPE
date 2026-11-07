@@ -1,0 +1,87 @@
+{
+  "episode_uid": "agm_ppo_val_seen:552",
+  "source_episode_id": "552",
+  "scene_id": "VFuaQ6m2Qom",
+  "instruction": "Walk past the concrete fire pit with ceramic pots on top. Continue down the porch area past the first sofa and continue past the next set of sofas. Continue down the porch and walk past the potted plants towards the lighted sitting area ahead.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.711254119873047,
+  "path_length": 22.951363496482372,
+  "gt_path_length": 11.988304138183594,
+  "steps": 20,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.014441854252976448,
+  "purpose": "val_seen",
+  "wall_seconds": 47.93663997389376,
+  "training": {
+    "episode_id": "552",
+    "transitions": 20,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0018.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ea4864e4b4a4467fa44bca7cfcf3abf8_0019.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "552",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_ea4864e4b4a4467fa44bca7cfcf3abf8.pt",
+      "transitions": 20,
+      "reward_sum": -1.1119023005167645,
+      "focus_histogram": {
+        "4": 20
+      },
+      "camera_histogram": {
+        "1": 80
+      },
+      "entropy": {
+        "stop": 0.5992853380739689,
+        "camera": 0.9456216104328632,
+        "position_latent": 2.435649499297142
+      },
+      "start_geodesic_distance": 14.532719612121582,
+      "final_geodesic_distance": 8.711254119873047,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 20132.72345624864,
+      "perception_ms": 2212.2003193944693
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.38809769948323564,
+      "focus_cost": -0.8000000000000002,
+      "step_cost": -0.20000000000000004,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1119023005167645,
+  "focus_mean": 4.0
+}

@@ -1,0 +1,71 @@
+{
+  "episode_uid": "agm_ppo_val_seen:514",
+  "source_episode_id": "514",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "walk forward and stop after exiting the room.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.481829881668091,
+  "path_length": 3.430508612655103,
+  "gt_path_length": 5.128785610198975,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7741248971579696,
+  "purpose": "val_seen",
+  "wall_seconds": 26.578427507542074,
+  "training": {
+    "episode_id": "514",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/59b32a29dba64644b18c4a761b3baf44_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/59b32a29dba64644b18c4a761b3baf44_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/59b32a29dba64644b18c4a761b3baf44_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/59b32a29dba64644b18c4a761b3baf44_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "514",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_59b32a29dba64644b18c4a761b3baf44.pt",
+      "transitions": 4,
+      "reward_sum": 1.9829402764638264,
+      "focus_histogram": {
+        "4": 4
+      },
+      "camera_histogram": {
+        "1": 16
+      },
+      "entropy": {
+        "stop": 0.5971224531531334,
+        "camera": 0.8869534246623516,
+        "position_latent": 2.426413267850876
+      },
+      "start_geodesic_distance": 5.225934028625488,
+      "final_geodesic_distance": 2.481829881668091,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3962.5344770029187,
+      "perception_ms": 569.6951802819967
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.18294027646382643,
+      "focus_cost": -0.16,
+      "step_cost": -0.04,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 1.9829402764638264,
+  "focus_mean": 4.0
+}

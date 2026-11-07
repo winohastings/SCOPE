@@ -1,0 +1,76 @@
+{
+  "episode_uid": "agm_ppo_val_seen:611",
+  "source_episode_id": "611",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Exit the bedroom. Go to the drum set.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 4.359382152557373,
+  "path_length": 6.013489020988345,
+  "gt_path_length": 7.319060802459717,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5167902861440908,
+  "purpose": "val_seen",
+  "wall_seconds": 18.711269119754434,
+  "training": {
+    "episode_id": "611",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/2fb52adedf614d68adfd8e332f64a038_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "611",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_2fb52adedf614d68adfd8e332f64a038.pt",
+      "transitions": 9,
+      "reward_sum": -0.4949155616760254,
+      "focus_histogram": {
+        "4": 9
+      },
+      "camera_histogram": {
+        "1": 36
+      },
+      "entropy": {
+        "stop": 0.6216666648785273,
+        "camera": 0.9231743613878886,
+        "position_latent": 2.479723632335663
+      },
+      "start_geodesic_distance": 7.135648727416992,
+      "final_geodesic_distance": 4.359382152557373,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8801.964808255434,
+      "perception_ms": 988.7991948053241
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.1850844383239746,
+      "focus_cost": -0.09,
+      "step_cost": -0.09,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.4949155616760254,
+  "focus_mean": 4.0
+}

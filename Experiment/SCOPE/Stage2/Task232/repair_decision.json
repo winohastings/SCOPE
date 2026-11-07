@@ -1,0 +1,2086 @@
+{
+  "task": "Task2.3.2",
+  "date": "2026-11-07",
+  "stage": "512-transition screening",
+  "fork": {
+    "passed": true,
+    "parent": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt",
+    "parent_sha256": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595",
+    "new_manifest_sha256": "7ca6c9c1684ab5cab4e839a8d8a8194ebdf59a53ce4c8aff9760122af4b6d54a",
+    "train_order_identical": true,
+    "independent_episodes": 32,
+    "independent_trajectory_overlap": 0,
+    "train_cursor": 70,
+    "optimizer_rule": "retain all moments and steps; B changes only param-group LR",
+    "buffer_empty": true,
+    "actor_critic_old_snapshots_rng_bitwise_equal": true,
+    "probe_states": 256,
+    "geometry_states": 64,
+    "diagnosis_sha256": "78a7cedbb061b5b3bd911619f55aa30e11c796bb4bcd9fb65523e279bb871909",
+    "diagnosis_report_sha256": "493075a204ec47261e2f2e1df8625640fab6864b9e5051e66f8a9970cdf3eb04"
+  },
+  "baseline": {
+    "branch": "U",
+    "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/checkpoints/added_0000.pt",
+    "checkpoint_sha256": "a2a2644da39c4ee99c21f25fab57da94d60ced6e545d43c0f1619bf5fc865f34",
+    "added_trained_transitions": 0,
+    "updates": 0,
+    "update_batch_sizes": [],
+    "in_sample_critic_EV_by_update": [],
+    "optimizer_hyperparameters": {
+      "actor_learning_rate": 0.0001,
+      "critic_learning_rate": 0.0002,
+      "rollout_minimum": 64,
+      "focus_cost": 0.01
+    },
+    "new_optimizer_steps": 0,
+    "ratio_max_error": 0,
+    "update_seconds": 0,
+    "subsets": {
+      "independent": {
+        "transitions": 483,
+        "focus_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 483
+        },
+        "focus_mean": 4.0,
+        "zero_focus_fraction": 0.0,
+        "coverage_mean": 0.03516762301048137,
+        "four_focus_samples": 483,
+        "four_focus_coverage": 0.03516762301048137,
+        "four_focus_repeat_fraction": 1.0,
+        "four_focus_unique_cameras": 1.0,
+        "model_seconds": 559.1239981716499,
+        "perception_seconds": 62.915394187904894,
+        "episodes": 32,
+        "SR": 0.375,
+        "SPL": 0.30261677512515595,
+        "nDTW": 0.349016882398784,
+        "oracle_success": 0.5,
+        "reward_sum": 0.043718784395605254,
+        "critic": {
+          "branch_all_bootstrapped": {
+            "transitions": 483,
+            "EV": 0.042795485591910154,
+            "MSE": 1.3060512631580954,
+            "prediction_mean": 0.2611220298724453,
+            "return_mean": 0.13322729752310136
+          },
+          "branch_terminal_only": {
+            "transitions": 283,
+            "EV": 0.04756931397008701,
+            "MSE": 1.8295171666441474,
+            "prediction_mean": 0.2609250843327479,
+            "return_mean": 0.48020840675953785
+          },
+          "original_all_bootstrapped": {
+            "transitions": 483,
+            "EV": 0.042795485591910154,
+            "MSE": 1.3060512631580954,
+            "prediction_mean": 0.2611220298724453,
+            "return_mean": 0.13322729752310136
+          },
+          "original_terminal_only": {
+            "transitions": 283,
+            "EV": 0.04756931397008701,
+            "MSE": 1.8295171666441474,
+            "prediction_mean": 0.2609250843327479,
+            "return_mean": 0.48020840675953785
+          }
+        }
+      }
+    },
+    "system_gpu_samples": {
+      "0": {
+        "samples": 193,
+        "peak_memory_MiB": 12293.0,
+        "sampled_system_Wh": 31.185700353902575
+      },
+      "1": {
+        "samples": 193,
+        "peak_memory_MiB": 16332.0,
+        "sampled_system_Wh": 45.394103484053424
+      }
+    },
+    "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+    "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+    "partial": false,
+    "total_run_wall_seconds_including_startup_probes_evaluation": 1344.6557957651094,
+    "fresh_training_transitions_this_run": 0
+  },
+  "branches": {
+    "A": {
+      "branch": "A",
+      "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/checkpoints/added_0512.pt",
+      "checkpoint_sha256": "69d6512a588887e75bb7c765a5060161699c09d3c98a060b2eec21b47d57141a",
+      "added_trained_transitions": 512,
+      "updates": 6,
+      "update_batch_sizes": [
+        80,
+        71,
+        105,
+        76,
+        74,
+        106
+      ],
+      "in_sample_critic_EV_by_update": [
+        -0.011285543441772461,
+        0.04982459545135498,
+        0.027468323707580566,
+        0.023066699504852295,
+        0.0898403525352478,
+        0.061774373054504395
+      ],
+      "optimizer_hyperparameters": {
+        "actor_learning_rate": 0.0001,
+        "critic_learning_rate": 0.0002,
+        "rollout_minimum": 64,
+        "focus_cost": 0.0025
+      },
+      "new_optimizer_steps": 68,
+      "ratio_max_error": 0.0,
+      "update_seconds": 42.33414458204061,
+      "subsets": {
+        "train": {
+          "transitions": 512,
+          "focus_distribution": {
+            "0": 139,
+            "1": 117,
+            "2": 78,
+            "3": 51,
+            "4": 127
+          },
+          "focus_mean": 1.82421875,
+          "zero_focus_fraction": 0.271484375,
+          "coverage_mean": 0.05258064530789852,
+          "four_focus_samples": 127,
+          "four_focus_coverage": 0.10658867152657096,
+          "four_focus_repeat_fraction": 0.010498687664041995,
+          "four_focus_unique_cameras": 2.1338582677165356,
+          "model_seconds": 484.9700134135783,
+          "perception_seconds": 29.13026233576238,
+          "reward_components": {
+            "progress": 8.56421706676483,
+            "terminal": 29.0,
+            "focus_cost": -2.335,
+            "step_cost": -5.120000000000001
+          },
+          "episodes": 40,
+          "wall_seconds": 1328.7281881477684
+        },
+        "historical": {
+          "transitions": 484,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 484
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.03518688777261529,
+          "four_focus_samples": 484,
+          "four_focus_coverage": 0.03518688777261529,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 502.6462148902938,
+          "perception_seconds": 56.63570677116513,
+          "episodes": 32,
+          "SR": 0.34375,
+          "SPL": 0.2746139988346611,
+          "nDTW": 0.3671111657225073,
+          "oracle_success": 0.625,
+          "reward_sum": 0.4493634906038642,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 484,
+              "EV": -0.010108319158494528,
+              "MSE": 1.407781968699329,
+              "prediction_mean": 1.0238453659636915,
+              "return_mean": 0.5585549761484044
+            },
+            "branch_terminal_only": {
+              "transitions": 309,
+              "EV": -0.008709254416514822,
+              "MSE": 2.1204850944666944,
+              "prediction_mean": 1.0276535423442383,
+              "return_mean": 0.41348723330377923
+            },
+            "original_all_bootstrapped": {
+              "transitions": 484,
+              "EV": -0.009013614448480034,
+              "MSE": 1.7698426110730932,
+              "prediction_mean": 1.0238453659636915,
+              "return_mean": 0.29556070824765185
+            },
+            "original_terminal_only": {
+              "transitions": 309,
+              "EV": -0.008409532925427454,
+              "MSE": 2.4703508505914664,
+              "prediction_mean": 1.0276535423442383,
+              "return_mean": 0.2057247107369891
+            }
+          }
+        },
+        "independent": {
+          "transitions": 540,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 540
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.03519319958157009,
+          "four_focus_samples": 540,
+          "four_focus_coverage": 0.03519319958157009,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 562.002200730145,
+          "perception_seconds": 62.647980886511505,
+          "episodes": 32,
+          "SR": 0.28125,
+          "SPL": 0.2193578980881578,
+          "nDTW": 0.3252050626495243,
+          "oracle_success": 0.46875,
+          "reward_sum": 0.2894707630077998,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 540,
+              "EV": -0.0007825428989558514,
+              "MSE": 1.0704580322069133,
+              "prediction_mean": 1.0355034938565006,
+              "return_mean": 0.6295671458032351
+            },
+            "branch_terminal_only": {
+              "transitions": 265,
+              "EV": -0.00511130237819879,
+              "MSE": 2.002053178689198,
+              "prediction_mean": 1.02793352648897,
+              "return_mean": 0.5576164318949803
+            },
+            "original_all_bootstrapped": {
+              "transitions": 540,
+              "EV": -0.002062485240900802,
+              "MSE": 1.4297556012362342,
+              "prediction_mean": 1.0355034938565006,
+              "return_mean": 0.3357126808458759
+            },
+            "original_terminal_only": {
+              "transitions": 265,
+              "EV": -0.005394228601195428,
+              "MSE": 2.254458737932467,
+              "prediction_mean": 1.02793352648897,
+              "return_mean": 0.3329408472913522
+            }
+          }
+        }
+      },
+      "system_gpu_samples": {
+        "0": {
+          "samples": 531,
+          "peak_memory_MiB": 12293.0,
+          "sampled_system_Wh": 133.12042450623616
+        },
+        "1": {
+          "samples": 531,
+          "peak_memory_MiB": 23976.0,
+          "sampled_system_Wh": 131.25353213447104
+        }
+      },
+      "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+      "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+      "partial": false,
+      "total_run_wall_seconds_including_startup_probes_evaluation": 4064.2640818897635,
+      "fresh_training_transitions_this_run": 512
+    },
+    "B": {
+      "branch": "B",
+      "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/checkpoints/added_0512.pt",
+      "checkpoint_sha256": "be2631d9e338f5878175e69ac6ae4bd198d1e52da88a7c44c926f04908194daa",
+      "added_trained_transitions": 512,
+      "updates": 2,
+      "update_batch_sizes": [
+        256,
+        256
+      ],
+      "in_sample_critic_EV_by_update": [
+        0.12536287307739258,
+        0.43128299713134766
+      ],
+      "optimizer_hyperparameters": {
+        "actor_learning_rate": 3e-05,
+        "critic_learning_rate": 0.0001,
+        "rollout_minimum": 128,
+        "focus_cost": 0.01
+      },
+      "new_optimizer_steps": 64,
+      "ratio_max_error": 0.0,
+      "update_seconds": 43.50732760038227,
+      "subsets": {
+        "train": {
+          "transitions": 512,
+          "focus_distribution": {
+            "0": 120,
+            "1": 113,
+            "2": 94,
+            "3": 35,
+            "4": 150
+          },
+          "focus_mean": 1.96484375,
+          "zero_focus_fraction": 0.234375,
+          "coverage_mean": 0.05566823109984398,
+          "four_focus_samples": 150,
+          "four_focus_coverage": 0.10429160435994467,
+          "four_focus_repeat_fraction": 0.01111111111111111,
+          "four_focus_unique_cameras": 2.0533333333333332,
+          "model_seconds": 514.0161503097042,
+          "perception_seconds": 32.67753025889397,
+          "reward_components": {
+            "progress": 8.971427243451279,
+            "terminal": 31.0,
+            "focus_cost": -10.06,
+            "step_cost": -5.120000000000001
+          },
+          "episodes": 39,
+          "wall_seconds": 1357.920413439162
+        },
+        "historical": {
+          "transitions": 474,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 474
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.035160112984572785,
+          "four_focus_samples": 474,
+          "four_focus_coverage": 0.035160112984572785,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 478.2003423254937,
+          "perception_seconds": 53.60275869257748,
+          "episodes": 32,
+          "SR": 0.375,
+          "SPL": 0.2822879525535353,
+          "nDTW": 0.35807340594589243,
+          "oracle_success": 0.5,
+          "reward_sum": 0.04161683463801938,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 474,
+              "EV": 0.12755078703841316,
+              "MSE": 1.2181328209302082,
+              "prediction_mean": 0.674719485159539,
+              "return_mean": 0.19879661026616866
+            },
+            "branch_terminal_only": {
+              "transitions": 299,
+              "EV": 0.109214870528208,
+              "MSE": 1.5602300215687288,
+              "prediction_mean": 0.7510667330146235,
+              "return_mean": 0.37269400955951854
+            },
+            "original_all_bootstrapped": {
+              "transitions": 474,
+              "EV": 0.12755078703841316,
+              "MSE": 1.2181328209302082,
+              "prediction_mean": 0.674719485159539,
+              "return_mean": 0.19879661026616866
+            },
+            "original_terminal_only": {
+              "transitions": 299,
+              "EV": 0.109214870528208,
+              "MSE": 1.5602300215687288,
+              "prediction_mean": 0.7510667330146235,
+              "return_mean": 0.37269400955951854
+            }
+          }
+        },
+        "independent": {
+          "transitions": 545,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 545
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.03516128960005734,
+          "four_focus_samples": 545,
+          "four_focus_coverage": 0.03516128960005734,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 575.6388180898502,
+          "perception_seconds": 64.38808773085475,
+          "episodes": 32,
+          "SR": 0.34375,
+          "SPL": 0.25778463040398436,
+          "nDTW": 0.28007389059566756,
+          "oracle_success": 0.53125,
+          "reward_sum": -0.1101884298337003,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 545,
+              "EV": 0.017009979565787536,
+              "MSE": 1.379020023111457,
+              "prediction_mean": 0.5837920625343782,
+              "return_mean": 0.14703667740405788
+            },
+            "branch_terminal_only": {
+              "transitions": 320,
+              "EV": -0.027516044475687007,
+              "MSE": 1.7938567328002109,
+              "prediction_mean": 0.6242953355191275,
+              "return_mean": 0.42648285779407047
+            },
+            "original_all_bootstrapped": {
+              "transitions": 545,
+              "EV": 0.017009979565787536,
+              "MSE": 1.379020023111457,
+              "prediction_mean": 0.5837920625343782,
+              "return_mean": 0.14703667740405788
+            },
+            "original_terminal_only": {
+              "transitions": 320,
+              "EV": -0.027516044475687007,
+              "MSE": 1.7938567328002109,
+              "prediction_mean": 0.6242953355191275,
+              "return_mean": 0.42648285779407047
+            }
+          }
+        }
+      },
+      "system_gpu_samples": {
+        "0": {
+          "samples": 540,
+          "peak_memory_MiB": 12293.0,
+          "sampled_system_Wh": 124.91764034883376
+        },
+        "1": {
+          "samples": 540,
+          "peak_memory_MiB": 23976.0,
+          "sampled_system_Wh": 143.91552186710678
+        }
+      },
+      "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+      "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+      "partial": false,
+      "total_run_wall_seconds_including_startup_probes_evaluation": 4074.37909081392,
+      "fresh_training_transitions_this_run": 512
+    }
+  },
+  "extension_eligibility": {
+    "A": {
+      "eligible": false,
+      "checks": {
+        "fixed_zero_focus_fraction_le_010": true,
+        "independent_zero_focus_fraction_le_010": true,
+        "four_focus_coverage_gain_ge_25pct": false,
+        "repeated_roi_fraction_drop_ge_015": false,
+        "independent_SR_loss_le_one_episode": false,
+        "independent_SPL_loss_le_003": false,
+        "historical_SR_loss_le_two_episodes": false,
+        "terminal_only_EV_loss_le_005": false,
+        "all_engineering_gates": true
+      },
+      "failed": [
+        "four_focus_coverage_gain_ge_25pct",
+        "repeated_roi_fraction_drop_ge_015",
+        "independent_SR_loss_le_one_episode",
+        "independent_SPL_loss_le_003",
+        "historical_SR_loss_le_two_episodes",
+        "terminal_only_EV_loss_le_005"
+      ]
+    },
+    "B": {
+      "eligible": false,
+      "checks": {
+        "fixed_zero_focus_fraction_le_010": true,
+        "independent_zero_focus_fraction_le_010": true,
+        "four_focus_coverage_gain_ge_25pct": false,
+        "repeated_roi_fraction_drop_ge_015": false,
+        "independent_SR_loss_le_one_episode": true,
+        "independent_SPL_loss_le_003": false,
+        "historical_SR_loss_le_two_episodes": false,
+        "terminal_only_EV_loss_le_005": false,
+        "all_engineering_gates": true
+      },
+      "failed": [
+        "four_focus_coverage_gain_ge_25pct",
+        "repeated_roi_fraction_drop_ge_015",
+        "independent_SPL_loss_le_003",
+        "historical_SR_loss_le_two_episodes",
+        "terminal_only_EV_loss_le_005"
+      ]
+    }
+  },
+  "paired_evaluation": {
+    "A": {
+      "historical": {
+        "success_to_failure": 9,
+        "failure_to_success": 2,
+        "exact_mcnemar_p": 0.0654296875,
+        "delta_SR": {
+          "mean": -0.21875,
+          "ci95": [
+            -0.40625,
+            -0.03125
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.1472378309773808,
+          "ci95": [
+            -0.2997200717321424,
+            0.005684268114927878
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.05721160664744426,
+          "ci95": [
+            -0.1922373899764625,
+            0.07751626198568452
+          ],
+          "episodes": 32
+        }
+      },
+      "independent": {
+        "success_to_failure": 4,
+        "failure_to_success": 1,
+        "exact_mcnemar_p": 0.375,
+        "delta_SR": {
+          "mean": -0.09375,
+          "ci95": [
+            -0.21875,
+            0.03125
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.08325887703699815,
+          "ci95": [
+            -0.18511570251753365,
+            0.0004071811839879024
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.023811819749259736,
+          "ci95": [
+            -0.10413011834078505,
+            0.05014118515760972
+          ],
+          "episodes": 32
+        }
+      }
+    },
+    "B": {
+      "historical": {
+        "success_to_failure": 6,
+        "failure_to_success": 0,
+        "exact_mcnemar_p": 0.03125,
+        "delta_SR": {
+          "mean": -0.1875,
+          "ci95": [
+            -0.3125,
+            -0.0625
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.1395638772585066,
+          "ci95": [
+            -0.25748331800162666,
+            -0.034418627521565666
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.0662493664240591,
+          "ci95": [
+            -0.1581037619482019,
+            0.025936874393038004
+          ],
+          "episodes": 32
+        }
+      },
+      "independent": {
+        "success_to_failure": 3,
+        "failure_to_success": 2,
+        "exact_mcnemar_p": 1.0,
+        "delta_SR": {
+          "mean": -0.03125,
+          "ci95": [
+            -0.15625,
+            0.09375
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.044832144721171585,
+          "ci95": [
+            -0.15952277164852202,
+            0.057514603166434114
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.06894299180311647,
+          "ci95": [
+            -0.1771259201149987,
+            0.027297596401350432
+          ],
+          "episodes": 32
+        }
+      }
+    }
+  },
+  "A_plus_B": {
+    "train_A_plus_B_now": false,
+    "complementary_evidence": false,
+    "rationale": "Only propose a separately labeled combination if A spatial improvement and B held-out baseline quality are both supported; no combination training authorized by this automated report.",
+    "next": "do not combine unsupported fixes; consider an isolated lightweight repetition-constraint diagnostic"
+  },
+  "qualified_for_extension": [],
+  "budgets": {
+    "unchanged_gate_fresh": 64,
+    "A_fresh": 512,
+    "B_fresh": 512,
+    "restore_replays_are_not_new_data": true
+  },
+  "heldout_scope": "independent episode AND trajectory from historical32; not necessarily scene-disjoint and now a development set, not an untouched final test",
+  "control_limitation": "U has 64 fresh transitions for engineering consistency, not a budget-matched 512 unchanged-training arm; comparisons to the 1033 baseline do not isolate repair benefit over ordinary 512-step continuation",
+  "spatial_probe_scope": "fixed historical intermediate-state geometry is conditional; extension gate uses real held-out four-Focus union coverage",
+  "retraining_adapter": false,
+  "GA_PPO": false,
+  "original_modules_changed": false,
+  "threshold_diagnostic": {
+    "checkpoint": "original4096/update0056",
+    "groups": [
+      {
+        "threshold": 0.45,
+        "episodes": 12,
+        "SR": 0.3333333333333333,
+        "SPL": 0.20647758704185112,
+        "nDTW": 0.2858564687959086,
+        "focus_mean": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "episodes": 12,
+        "SR": 0.3333333333333333,
+        "SPL": 0.20647758704185112,
+        "nDTW": 0.2858564687959086,
+        "focus_mean": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "episodes": 12,
+        "SR": 0.4166666666666667,
+        "SPL": 0.3419975662913081,
+        "nDTW": 0.4398941490093163,
+        "focus_mean": 4.0
+      }
+    ],
+    "paired_vs_050": {
+      "0.45": {
+        "success_to_failure": 0,
+        "failure_to_success": 0,
+        "exact_mcnemar_p": 1.0,
+        "delta_SR": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 12
+        },
+        "delta_SPL": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 12
+        },
+        "delta_nDTW": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 12
+        }
+      },
+      "0.5": {
+        "success_to_failure": 0,
+        "failure_to_success": 0,
+        "exact_mcnemar_p": 1.0,
+        "delta_SR": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 12
+        },
+        "delta_SPL": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 12
+        },
+        "delta_nDTW": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 12
+        }
+      },
+      "0.6": {
+        "success_to_failure": 2,
+        "failure_to_success": 3,
+        "exact_mcnemar_p": 1.0,
+        "delta_SR": {
+          "mean": 0.08333333333333333,
+          "ci95": [
+            -0.25,
+            0.4166666666666667
+          ],
+          "episodes": 12
+        },
+        "delta_SPL": {
+          "mean": 0.13551997924945702,
+          "ci95": [
+            -0.11775203815748982,
+            0.40318842228802426
+          ],
+          "episodes": 12
+        },
+        "delta_nDTW": {
+          "mean": 0.15403768021340775,
+          "ci95": [
+            -0.006405298952617474,
+            0.3325388440798961
+          ],
+          "episodes": 12
+        }
+      }
+    },
+    "scope": "fixed original historical quick12; .50 historical values already independently reproduced by Task231; evaluation-only, not learning evidence"
+  },
+  "source_integrity": {
+    "original_Task23_files_checked": 15918,
+    "failures": [],
+    "Task231_diagnosis_report_unchanged": true,
+    "actor_source_files_checked": 6,
+    "actor_source_failures": []
+  },
+  "execution_health": {
+    "branch_A512": {
+      "complete_artifact_present": true,
+      "evaluation_counts": {
+        "evaluation_independent.json": 32,
+        "evaluation_historical.json": 32
+      },
+      "new_training_transitions": 512,
+      "opengl_context_error_in_log": true,
+      "note": "COMPLETE is written before cleanup; a cleanup failure does not imply a clean process exit. Evaluation count and failure fields independently checked."
+    },
+    "branch_B512": {
+      "complete_artifact_present": true,
+      "evaluation_counts": {
+        "evaluation_independent.json": 32,
+        "evaluation_historical.json": 32
+      },
+      "new_training_transitions": 512,
+      "opengl_context_error_in_log": true,
+      "note": "COMPLETE is written before cleanup; a cleanup failure does not imply a clean process exit. Evaluation count and failure fields independently checked."
+    },
+    "thresholds": {
+      "complete_artifact_present": true,
+      "evaluation_counts": {
+        "threshold_results.json": 24
+      },
+      "new_training_transitions": 0,
+      "opengl_context_error_in_log": false,
+      "note": "COMPLETE is written before cleanup; a cleanup failure does not imply a clean process exit. Evaluation count and failure fields independently checked."
+    }
+  },
+  "matched_initial_states": {
+    "results": {
+      "BASE": {
+        "valid_states": 32,
+        "coverage": 0.03517341613769531,
+        "repeated_roi_fraction": 1.0,
+        "progress_delta": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 32
+        }
+      },
+      "A": {
+        "valid_states": 32,
+        "coverage": 0.03519630432128906,
+        "repeated_roi_fraction": 1.0,
+        "progress_delta": {
+          "mean": -0.0007480978965759277,
+          "ci95": [
+            -0.01674380600452423,
+            0.010821159929037082
+          ],
+          "episodes": 32
+        }
+      },
+      "B": {
+        "valid_states": 32,
+        "coverage": 0.03516197204589844,
+        "repeated_roi_fraction": 1.0,
+        "progress_delta": {
+          "mean": 0.0014890581369400024,
+          "ci95": [
+            -0.006186605617403984,
+            0.00796760469675064
+          ],
+          "episodes": 32
+        }
+      }
+    },
+    "scope": "same 32 independent episode resets; exact detached initial state/pose/context grids equality; actual online sequential Focus encoding, not a frozen-intermediate-state proxy; only first chunk, not full-episode causality"
+  },
+  "original_document_adapter_C_review": {
+    "task": "Task2.3.2 C",
+    "source_sha256": {
+      "diagnosis.json": "78a7cedbb061b5b3bd911619f55aa30e11c796bb4bcd9fb65523e279bb871909",
+      "REPORT.md": "493075a204ec47261e2f2e1df8625640fab6864b9e5051e66f8a9970cdf3eb04",
+      "artifacts/matched8/matched_results.json": "9517e50db4d61f6c37b92ff49bf3c245080309af96946db53de4e3b3f78f70ab",
+      "artifacts/matched8/COMPLETE.json": "3b54b913af630a17042f45f440ec1253afe5742f6fb6dc4396dd2cd719888c90"
+    },
+    "evidence": {
+      "chunks": 128,
+      "valid_chunks": 128,
+      "states": 16,
+      "episode_clustered_progress_contrasts_meters": {
+        "2054_learned_minus_random3": {
+          "mean": -0.01205581426620484,
+          "ci95": [
+            -0.08750637720028559,
+            0.042720874150594085
+          ],
+          "episodes": 8
+        },
+        "u14_learned_minus_no_focus": {
+          "mean": 0.010068386793136597,
+          "ci95": [
+            -0.017959075421094893,
+            0.04979240894317627
+          ],
+          "episodes": 8
+        },
+        "u28_learned_minus_no_focus": {
+          "mean": 0.00753176212310791,
+          "ci95": [
+            -0.020911216735839844,
+            0.04869341850280762
+          ],
+          "episodes": 8
+        },
+        "u56_learned_minus_no_focus": {
+          "mean": 0.005522310733795166,
+          "ci95": [
+            -0.016156554222106934,
+            0.036459740996360776
+          ],
+          "episodes": 8
+        },
+        "2054_learned_minus_fixed": {
+          "mean": 0.05074501037597656,
+          "ci95": [
+            -0.037928004562854764,
+            0.1976300209760664
+          ],
+          "episodes": 8
+        },
+        "2054_learned_minus_1033_learned": {
+          "mean": -0.0025366246700286865,
+          "ci95": [
+            -0.008024584501981735,
+            0.00149779170751571
+          ],
+          "episodes": 8
+        }
+      },
+      "token_change_progress_delta_correlation_descriptive": 0.04991652526611007,
+      "scope": "1 chunk, independently reset + deterministic prefix replay; pose/instruction/full image history/pre-Focus/BATS blocks verified. Three random ROI seeds averaged before episode-level bootstrap; no final-SR claim."
+    },
+    "glance_unchanged_existing_states": 16,
+    "negative_interval_contrasts": [],
+    "status": "not_triggered_insufficient_H3_evidence",
+    "repair_executed": false,
+    "new_training_transitions": 0,
+    "new_environment_evaluations": 0,
+    "interpretation": "Existing-data review, not a new intervention or proof that Adapter is harmless. All reported paired intervals span zero; failed A/B does not establish H3. Original user constraints retain fusion and forbid Adapter retraining.",
+    "gate_scope": "Retrospective conservative evidence review, not a preregistered hypothesis test. A negative interval alone would still not identify Adapter as the cause."
+  },
+  "new_C_coverage_novelty": {
+    "task": "Task2.3.2 new C coverage novelty",
+    "protocol": "C_PROTOCOL.md",
+    "beta": 0.01,
+    "new_training": {
+      "C": 512,
+      "C0": 512
+    },
+    "reports": {
+      "C0": {
+        "branch": "C0",
+        "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/checkpoints/added_0512.pt",
+        "checkpoint_sha256": "0f5b12be206402f778cf0fb92d9a6ee8c7cf1e1235c99f3d9a581ece4aa6e3ca",
+        "added_trained_transitions": 512,
+        "updates": 6,
+        "update_batch_sizes": [
+          80,
+          71,
+          105,
+          77,
+          66,
+          113
+        ],
+        "in_sample_critic_EV_by_update": [
+          -0.0138932466506958,
+          0.035872042179107666,
+          0.016156554222106934,
+          0.02815490961074829,
+          0.020235061645507812,
+          0.09507930278778076
+        ],
+        "optimizer_hyperparameters": {
+          "actor_learning_rate": 0.0001,
+          "critic_learning_rate": 0.0002,
+          "rollout_minimum": 64,
+          "focus_cost": 0.01
+        },
+        "new_optimizer_steps": 70,
+        "ratio_max_error": 0.0,
+        "update_seconds": 40.8177455374971,
+        "subsets": {
+          "train": {
+            "transitions": 512,
+            "focus_distribution": {
+              "0": 146,
+              "1": 114,
+              "2": 84,
+              "3": 45,
+              "4": 123
+            },
+            "camera_histogram": {
+              "0": 58,
+              "1": 530,
+              "2": 256,
+              "3": 65
+            },
+            "camera_probability_mean_by_focus_index": {
+              "0": [
+                0.06448948383331299,
+                0.6016131043434143,
+                0.2780454456806183,
+                0.05585221201181412
+              ],
+              "1": [
+                0.06614162772893906,
+                0.5977563858032227,
+                0.2796555161476135,
+                0.056446537375450134
+              ],
+              "2": [
+                0.06608889251947403,
+                0.5991634726524353,
+                0.2776187062263489,
+                0.05712887644767761
+              ],
+              "3": [
+                0.06680992990732193,
+                0.5970520973205566,
+                0.2788454294204712,
+                0.05729265883564949
+              ]
+            },
+            "focus_mean": 1.775390625,
+            "zero_focus_fraction": 0.28515625,
+            "coverage_mean": 0.05168868415057659,
+            "four_focus_samples": 123,
+            "four_focus_coverage": 0.10752146806174177,
+            "four_focus_repeat_fraction": 0.013550135501355013,
+            "four_focus_unique_cameras": 2.1707317073170733,
+            "model_seconds": 493.2396014062688,
+            "perception_seconds": 28.634995121508837,
+            "reward_components": {
+              "progress": 7.709159666299821,
+              "focus_cost": -9.09,
+              "step_cost": -5.12,
+              "terminal": 22.0,
+              "coverage_bonus": 0.0
+            },
+            "episodes": 36,
+            "wall_seconds": 1283.9303481122479
+          },
+          "historical": {
+            "transitions": 514,
+            "focus_distribution": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 514
+            },
+            "camera_histogram": {
+              "0": 0,
+              "1": 2056,
+              "2": 0,
+              "3": 0
+            },
+            "camera_probability_mean_by_focus_index": {
+              "0": [
+                0.09748128801584244,
+                0.5162303447723389,
+                0.301321417093277,
+                0.0849670022726059
+              ],
+              "1": [
+                0.09940928220748901,
+                0.5137525200843811,
+                0.3009960651397705,
+                0.08584247529506683
+              ],
+              "2": [
+                0.10047079622745514,
+                0.5113071799278259,
+                0.30038854479789734,
+                0.08783365786075592
+              ],
+              "3": [
+                0.10143931955099106,
+                0.5094770193099976,
+                0.29996055364608765,
+                0.08912317454814911
+              ]
+            },
+            "focus_mean": 4.0,
+            "zero_focus_fraction": 0.0,
+            "coverage_mean": 0.03516836203489786,
+            "four_focus_samples": 514,
+            "four_focus_coverage": 0.03516836203489786,
+            "four_focus_repeat_fraction": 1.0,
+            "four_focus_unique_cameras": 1.0,
+            "model_seconds": 518.732294476591,
+            "perception_seconds": 57.80588080268353,
+            "episodes": 32,
+            "SR": 0.40625,
+            "SPL": 0.2933646136257054,
+            "nDTW": 0.3628549000211043,
+            "oracle_success": 0.5625,
+            "reward_sum": 0.15659348554909228,
+            "critic": {
+              "branch_all_bootstrapped": {
+                "transitions": 514,
+                "EV": 0.0064850982582980166,
+                "MSE": 1.2705493435033977,
+                "prediction_mean": 0.16637718673172164,
+                "return_mean": 0.1991545566111498
+              },
+              "branch_terminal_only": {
+                "transitions": 314,
+                "EV": -0.0008221611744017032,
+                "MSE": 1.7771680299012036,
+                "prediction_mean": 0.17476333378796366,
+                "return_mean": 0.5838419900260595
+              },
+              "original_all_bootstrapped": {
+                "transitions": 514,
+                "EV": 0.0064850982582980166,
+                "MSE": 1.2705493435033977,
+                "prediction_mean": 0.16637718673172164,
+                "return_mean": 0.1991545566111498
+              },
+              "original_terminal_only": {
+                "transitions": 314,
+                "EV": -0.0008221611744017032,
+                "MSE": 1.7771680299012036,
+                "prediction_mean": 0.17476333378796366,
+                "return_mean": 0.5838419900260595
+              }
+            }
+          },
+          "independent": {
+            "transitions": 489,
+            "focus_distribution": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 489
+            },
+            "camera_histogram": {
+              "0": 0,
+              "1": 1956,
+              "2": 0,
+              "3": 0
+            },
+            "camera_probability_mean_by_focus_index": {
+              "0": [
+                0.0970996767282486,
+                0.5112261772155762,
+                0.30680403113365173,
+                0.08486999571323395
+              ],
+              "1": [
+                0.09901203215122223,
+                0.5088440179824829,
+                0.306408166885376,
+                0.08573605120182037
+              ],
+              "2": [
+                0.10006293654441833,
+                0.5064070224761963,
+                0.3058168888092041,
+                0.0877133309841156
+              ],
+              "3": [
+                0.10105317085981369,
+                0.5045760273933411,
+                0.3053549826145172,
+                0.08901592344045639
+              ]
+            },
+            "focus_mean": 4.0,
+            "zero_focus_fraction": 0.0,
+            "coverage_mean": 0.035173474645322084,
+            "four_focus_samples": 489,
+            "four_focus_coverage": 0.035173474645322084,
+            "four_focus_repeat_fraction": 1.0,
+            "four_focus_unique_cameras": 1.0,
+            "model_seconds": 489.56996798235923,
+            "perception_seconds": 54.67799630109221,
+            "episodes": 32,
+            "SR": 0.28125,
+            "SPL": 0.2109142969617195,
+            "nDTW": 0.3340337194524486,
+            "oracle_success": 0.4375,
+            "reward_sum": -0.25486580738797787,
+            "critic": {
+              "branch_all_bootstrapped": {
+                "transitions": 489,
+                "EV": 0.0009826412447818678,
+                "MSE": 1.2962574134553224,
+                "prediction_mean": 0.1720715522126186,
+                "return_mean": -0.13453447981703395
+              },
+              "branch_terminal_only": {
+                "transitions": 339,
+                "EV": -0.0005387380733656855,
+                "MSE": 1.6694618396212622,
+                "prediction_mean": 0.1763391411453925,
+                "return_mean": -0.018020783872185295
+              },
+              "original_all_bootstrapped": {
+                "transitions": 489,
+                "EV": 0.0009826412447818678,
+                "MSE": 1.2962574134553224,
+                "prediction_mean": 0.1720715522126186,
+                "return_mean": -0.13453447981703395
+              },
+              "original_terminal_only": {
+                "transitions": 339,
+                "EV": -0.0005387380733656855,
+                "MSE": 1.6694618396212622,
+                "prediction_mean": 0.1763391411453925,
+                "return_mean": -0.018020783872185295
+              }
+            }
+          }
+        },
+        "system_gpu_samples": {
+          "0": {
+            "samples": 518,
+            "peak_memory_MiB": 12273.0,
+            "sampled_system_Wh": 124.14166463473536
+          },
+          "1": {
+            "samples": 518,
+            "peak_memory_MiB": 23900.0,
+            "sampled_system_Wh": 137.48609134030684
+          }
+        },
+        "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+        "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+        "partial": false,
+        "total_run_wall_seconds_including_startup_probes_evaluation": 3955.3033930575475,
+        "fresh_training_transitions_this_run": 512
+      },
+      "C": {
+        "branch": "C",
+        "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/checkpoints/added_0512.pt",
+        "checkpoint_sha256": "23be9095cd62c615f335cd9af6f2e6b6d2d36585f3656febfbbc06c07d8cc8cf",
+        "added_trained_transitions": 512,
+        "updates": 6,
+        "update_batch_sizes": [
+          80,
+          71,
+          105,
+          68,
+          68,
+          120
+        ],
+        "in_sample_critic_EV_by_update": [
+          -0.011653780937194824,
+          0.048570871353149414,
+          0.023980677127838135,
+          0.027545571327209473,
+          0.031081855297088623,
+          0.05610215663909912
+        ],
+        "optimizer_hyperparameters": {
+          "actor_learning_rate": 0.0001,
+          "critic_learning_rate": 0.0002,
+          "rollout_minimum": 64,
+          "focus_cost": 0.01
+        },
+        "new_optimizer_steps": 70,
+        "ratio_max_error": 0.0,
+        "update_seconds": 40.05160038918257,
+        "subsets": {
+          "train": {
+            "transitions": 512,
+            "focus_distribution": {
+              "0": 158,
+              "1": 113,
+              "2": 77,
+              "3": 43,
+              "4": 121
+            },
+            "camera_histogram": {
+              "0": 63,
+              "1": 573,
+              "2": 191,
+              "3": 53
+            },
+            "camera_probability_mean_by_focus_index": {
+              "0": [
+                0.07007717341184616,
+                0.6491290330886841,
+                0.23436033725738525,
+                0.04643331840634346
+              ],
+              "1": [
+                0.0710601881146431,
+                0.6503897309303284,
+                0.23219193518161774,
+                0.04635796323418617
+              ],
+              "2": [
+                0.07050438970327377,
+                0.6496434807777405,
+                0.23273438215255737,
+                0.047117698937654495
+              ],
+              "3": [
+                0.07074755430221558,
+                0.6447553038597107,
+                0.2364192008972168,
+                0.04807813838124275
+              ]
+            },
+            "focus_mean": 1.71875,
+            "zero_focus_fraction": 0.30859375,
+            "coverage_mean": 0.04911899194121361,
+            "four_focus_samples": 121,
+            "four_focus_coverage": 0.1051039813963835,
+            "four_focus_repeat_fraction": 0.013774104683195591,
+            "four_focus_unique_cameras": 2.0826446280991737,
+            "model_seconds": 490.85664732102305,
+            "perception_seconds": 27.604789760895073,
+            "reward_components": {
+              "progress": 7.310436221957207,
+              "focus_cost": -8.799999999999999,
+              "step_cost": -5.120000000000001,
+              "terminal": 24.0,
+              "coverage_bonus": 7.1534716796875015
+            },
+            "episodes": 36,
+            "wall_seconds": 1302.7747547011822
+          },
+          "historical": {
+            "transitions": 539,
+            "focus_distribution": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 539
+            },
+            "camera_histogram": {
+              "0": 0,
+              "1": 2156,
+              "2": 0,
+              "3": 0
+            },
+            "camera_probability_mean_by_focus_index": {
+              "0": [
+                0.09888976812362671,
+                0.7060481309890747,
+                0.1531803011894226,
+                0.04188140481710434
+              ],
+              "1": [
+                0.1015242412686348,
+                0.7046020030975342,
+                0.15195567905902863,
+                0.0419178269803524
+              ],
+              "2": [
+                0.10223810374736786,
+                0.7051203846931458,
+                0.1503870040178299,
+                0.042254697531461716
+              ],
+              "3": [
+                0.10373815149068832,
+                0.7041223645210266,
+                0.1493789255619049,
+                0.04276061803102493
+              ]
+            },
+            "focus_mean": 4.0,
+            "zero_focus_fraction": 0.0,
+            "coverage_mean": 0.03519564258808992,
+            "four_focus_samples": 539,
+            "four_focus_coverage": 0.03519564258808992,
+            "four_focus_repeat_fraction": 1.0,
+            "four_focus_unique_cameras": 1.0,
+            "model_seconds": 540.5451691923663,
+            "perception_seconds": 60.4531753892079,
+            "episodes": 32,
+            "SR": 0.34375,
+            "SPL": 0.27834790327642295,
+            "nDTW": 0.337303337042381,
+            "oracle_success": 0.625,
+            "reward_sum": 0.0557096245595151,
+            "critic": {
+              "branch_all_bootstrapped": {
+                "transitions": 539,
+                "EV": 0.005270968468085169,
+                "MSE": 1.6123474471234402,
+                "prediction_mean": 0.973196502519229,
+                "return_mean": 0.2688310432166735
+              },
+              "branch_terminal_only": {
+                "transitions": 314,
+                "EV": 0.004427122783651649,
+                "MSE": 2.2265128456162335,
+                "prediction_mean": 0.9720090327748827,
+                "return_mean": 0.2792559802959959
+              },
+              "original_all_bootstrapped": {
+                "transitions": 539,
+                "EV": 0.005052873291312987,
+                "MSE": 1.7975738237844403,
+                "prediction_mean": 0.973196502519229,
+                "return_mean": 0.17350585356625625
+              },
+              "original_terminal_only": {
+                "transitions": 314,
+                "EV": 0.004404953119059085,
+                "MSE": 2.3744208055494953,
+                "prediction_mean": 0.9720090327748827,
+                "return_mean": 0.20182343812369144
+              }
+            }
+          },
+          "independent": {
+            "transitions": 541,
+            "focus_distribution": {
+              "0": 0,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 541
+            },
+            "camera_histogram": {
+              "0": 0,
+              "1": 2164,
+              "2": 0,
+              "3": 0
+            },
+            "camera_probability_mean_by_focus_index": {
+              "0": [
+                0.09988869726657867,
+                0.6977221965789795,
+                0.1599975973367691,
+                0.0423915833234787
+              ],
+              "1": [
+                0.10252387821674347,
+                0.6963373422622681,
+                0.15871205925941467,
+                0.04242610186338425
+              ],
+              "2": [
+                0.10322050005197525,
+                0.6969342827796936,
+                0.15708982944488525,
+                0.04275556653738022
+              ],
+              "3": [
+                0.10475818067789078,
+                0.6959435343742371,
+                0.15602359175682068,
+                0.04327471926808357
+              ]
+            },
+            "focus_mean": 4.0,
+            "zero_focus_fraction": 0.0,
+            "coverage_mean": 0.035195153213472774,
+            "four_focus_samples": 541,
+            "four_focus_coverage": 0.035195153213472774,
+            "four_focus_repeat_fraction": 1.0,
+            "four_focus_unique_cameras": 1.0,
+            "model_seconds": 554.9536641668528,
+            "perception_seconds": 61.79535417817533,
+            "episodes": 32,
+            "SR": 0.375,
+            "SPL": 0.26591697117906266,
+            "nDTW": 0.32978745869636616,
+            "oracle_success": 0.5625,
+            "reward_sum": 0.1598659485847585,
+            "critic": {
+              "branch_all_bootstrapped": {
+                "transitions": 541,
+                "EV": 0.0006302129986512917,
+                "MSE": 1.474606974649976,
+                "prediction_mean": 0.9770289075572918,
+                "return_mean": 0.45908895784902354
+              },
+              "branch_terminal_only": {
+                "transitions": 341,
+                "EV": 0.0008836585486983184,
+                "MSE": 2.057000051087822,
+                "prediction_mean": 0.974998602769242,
+                "return_mean": 0.49925146955865
+              },
+              "original_all_bootstrapped": {
+                "transitions": 541,
+                "EV": 0.0006117582680458256,
+                "MSE": 1.6066983950607356,
+                "prediction_mean": 0.9770289075572918,
+                "return_mean": 0.3649879812235611
+              },
+              "original_terminal_only": {
+                "transitions": 341,
+                "EV": 0.001007313780517216,
+                "MSE": 2.1525452729082275,
+                "prediction_mean": 0.974998602769242,
+                "return_mean": 0.4204998870175796
+              }
+            }
+          }
+        },
+        "system_gpu_samples": {
+          "0": {
+            "samples": 550,
+            "peak_memory_MiB": 12273.0,
+            "sampled_system_Wh": 132.7157595036758
+          },
+          "1": {
+            "samples": 550,
+            "peak_memory_MiB": 23900.0,
+            "sampled_system_Wh": 129.7445379584409
+          }
+        },
+        "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+        "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+        "partial": false,
+        "total_run_wall_seconds_including_startup_probes_evaluation": 4104.111362767406,
+        "fresh_training_transitions_this_run": 512
+      }
+    },
+    "audits": {
+      "C0": {
+        "passed": true,
+        "fresh_transitions_updated_once": 512,
+        "max_abs_errors": {
+          "reward": 0.0,
+          "components": 2.7755575615628914e-17,
+          "returns": 0.0,
+          "advantages": 0.0
+        },
+        "scope": "independent reconstruction from fresh traces, compared against actual saved PPO GAE targets; recovery replay is not double-counted",
+        "process_exit_code": 134,
+        "opengl_cleanup_error": true
+      },
+      "C": {
+        "passed": true,
+        "fresh_transitions_updated_once": 512,
+        "max_abs_errors": {
+          "reward": 0.0,
+          "components": 2.7755575615628914e-17,
+          "returns": 0.0,
+          "advantages": 0.0
+        },
+        "scope": "independent reconstruction from fresh traces, compared against actual saved PPO GAE targets; recovery replay is not double-counted",
+        "process_exit_code": 134,
+        "opengl_cleanup_error": true
+      }
+    },
+    "paired": {
+      "C_minus_C0_independent": {
+        "success_to_failure": 2,
+        "failure_to_success": 5,
+        "exact_mcnemar_p": 0.453125,
+        "delta_SR": {
+          "mean": 0.09375,
+          "ci95": [
+            -0.0625,
+            0.25
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": 0.055002674217343187,
+          "ci95": [
+            -0.07472712225376439,
+            0.1876299168970442
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.004246260756082455,
+          "ci95": [
+            -0.11120974483887956,
+            0.10613976553005591
+          ],
+          "episodes": 32
+        }
+      },
+      "C_minus_C0_historical": {
+        "success_to_failure": 4,
+        "failure_to_success": 2,
+        "exact_mcnemar_p": 0.6875,
+        "delta_SR": {
+          "mean": -0.0625,
+          "ci95": [
+            -0.21875,
+            0.09375
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.015016710349282453,
+          "ci95": [
+            -0.10955773078798729,
+            0.08941831471531761
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.02555156297872327,
+          "ci95": [
+            -0.10141768239629559,
+            0.05115357567478935
+          ],
+          "episodes": 32
+        }
+      },
+      "C0_minus_BASE_independent": {
+        "success_to_failure": 7,
+        "failure_to_success": 4,
+        "exact_mcnemar_p": 0.548828125,
+        "delta_SR": {
+          "mean": -0.09375,
+          "ci95": [
+            -0.28125,
+            0.09375
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.09170247816343643,
+          "ci95": [
+            -0.23766106634131545,
+            0.04978453725787518
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.014983162946335409,
+          "ci95": [
+            -0.11653668458855701,
+            0.0826507587540557
+          ],
+          "episodes": 32
+        }
+      },
+      "C_minus_BASE_independent": {
+        "success_to_failure": 4,
+        "failure_to_success": 4,
+        "exact_mcnemar_p": 1.0,
+        "delta_SR": {
+          "mean": 0.0,
+          "ci95": [
+            -0.1875,
+            0.1875
+          ],
+          "episodes": 32
+        },
+        "delta_SPL": {
+          "mean": -0.03669980394609326,
+          "ci95": [
+            -0.16839293261482394,
+            0.09006841822706035
+          ],
+          "episodes": 32
+        },
+        "delta_nDTW": {
+          "mean": -0.019229423702417855,
+          "ci95": [
+            -0.12263664129413994,
+            0.07773041088484794
+          ],
+          "episodes": 32
+        }
+      }
+    },
+    "same_initial_state": {
+      "BASE": {
+        "states": 32,
+        "progress_delta_vs_C0": {
+          "mean": -0.01504981517791748,
+          "ci95": [
+            -0.04340102449059487,
+            0.0028291061520576448
+          ],
+          "episodes": 32
+        },
+        "coverage": 0.03517341613769531,
+        "repeat": 1.0
+      },
+      "C0": {
+        "states": 32,
+        "progress_delta_vs_C0": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "episodes": 32
+        },
+        "coverage": 0.03517913818359375,
+        "repeat": 1.0
+      },
+      "C": {
+        "states": 32,
+        "progress_delta_vs_C0": {
+          "mean": -0.0019303709268569946,
+          "ci95": [
+            -0.025125119462609292,
+            0.02343035079538817
+          ],
+          "episodes": 32
+        },
+        "coverage": 0.03517910838127136,
+        "repeat": 1.0
+      }
+    },
+    "spatial_checks": {
+      "N4_coverage_gain_ge_25pct": false,
+      "N4_repeat_drop_ge_015": false
+    },
+    "exploration_screen_passed": false,
+    "automatic_extension": false,
+    "Task233_configuration_approved": false,
+    "feature_JS_or_KL_reward_used": false,
+    "adapter_retrained": false,
+    "gate_note": "Exploration screen is distinct from navigation benefit; beta fixed before run; no automatic extra budget.",
+    "mechanism_attribution": {
+      "branches": {
+        "C": {
+          "branch": "C",
+          "transitions": 512,
+          "camera_counts": [
+            63,
+            573,
+            191,
+            53
+          ],
+          "first_camera_counts": [
+            27,
+            224,
+            82,
+            21
+          ],
+          "geometric_bonus_at_beta_001": 7.153471679687479,
+          "actual_beta": 0.01,
+          "first_focus_share_of_bonus": 0.49486461378632646,
+          "later_focus_novelty_ge_095_fraction": 0.4049429657794677,
+          "sum_absolute_original_reward": 61.330284585058756,
+          "sum_absolute_progress_reward": 25.21581025471292,
+          "sum_absolute_terminal_reward": 36.0,
+          "bonus_focus_count_correlation": 0.9640143852858576,
+          "counterfactual_mean_bonus_gain_same_count_distinct_cameras": 0.0032158756256103517,
+          "updates": [
+            {
+              "branch": "C",
+              "update": 15,
+              "transitions": 80,
+              "base_adv_std": 1.1148933172225952,
+              "bonus_adv_std": 0.06537002325057983,
+              "base_camera_output_bias_loss_gradient": [
+                -0.014175749630190897,
+                0.0036158322408912148,
+                -0.06898273580063155,
+                0.07954264885119917
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                0.0015995157410071028,
+                -0.001741701761865607,
+                0.00011431189379452686,
+                2.787410480427719e-05
+              ],
+              "base_bonus_camera_gradient_cosine": -0.137635465661312,
+              "bonus_base_camera_gradient_norm_ratio": 0.02227340188585214,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.04435028415173292
+            },
+            {
+              "branch": "C",
+              "update": 16,
+              "transitions": 71,
+              "base_adv_std": 0.6507100462913513,
+              "bonus_adv_std": 0.06877978891134262,
+              "base_camera_output_bias_loss_gradient": [
+                0.02621327647100644,
+                -0.04824742036475053,
+                0.10141322158199528,
+                -0.07937908534049311
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.007029095512033666,
+                0.005370703865981143,
+                -0.004295744291797586,
+                0.00595413670202608
+              ],
+              "base_bonus_camera_gradient_cosine": -0.8398180532752174,
+              "bonus_base_camera_gradient_norm_ratio": 0.08211290072029404,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.017351391725242138
+            },
+            {
+              "branch": "C",
+              "update": 17,
+              "transitions": 105,
+              "base_adv_std": 0.8981453776359558,
+              "bonus_adv_std": 0.047495078295469284,
+              "base_camera_output_bias_loss_gradient": [
+                -0.08170097603822306,
+                0.015861665521397363,
+                0.07289821444715,
+                -0.007058907563505184
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                0.0007292307509967699,
+                -0.002189570507436801,
+                0.0005069535481896336,
+                0.0009533861038734857
+              ],
+              "base_bonus_camera_gradient_cosine": -0.22686540468881033,
+              "bonus_base_camera_gradient_norm_ratio": 0.022982669554019668,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.07406426128000021
+            },
+            {
+              "branch": "C",
+              "update": 18,
+              "transitions": 68,
+              "base_adv_std": 0.7274396419525146,
+              "bonus_adv_std": 0.05752944573760033,
+              "base_camera_output_bias_loss_gradient": [
+                -0.028829331383644134,
+                0.055301044865229396,
+                -0.04473689684449371,
+                0.018265175463198068
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.0003348889930481725,
+                -0.0006554016695908748,
+                0.004144561081345334,
+                -0.003154270760441802
+              ],
+              "base_bonus_camera_gradient_cosine": -0.6496942836853982,
+              "bonus_base_camera_gradient_norm_ratio": 0.06667241183889379,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.0193648898974061
+            },
+            {
+              "branch": "C",
+              "update": 19,
+              "transitions": 68,
+              "base_adv_std": 0.6851223111152649,
+              "bonus_adv_std": 0.057802580296993256,
+              "base_camera_output_bias_loss_gradient": [
+                0.0061086677908723875,
+                -0.016549630162686374,
+                0.014227469671719522,
+                -0.0037865100373202535
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.004249879047112199,
+                -9.544907666989745e-05,
+                0.0017828063830236302,
+                0.002562522513373008
+              ],
+              "base_bonus_camera_gradient_cosine": -0.0719536737040773,
+              "bonus_base_camera_gradient_norm_ratio": 0.22953083737866561,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.04748441092669964
+            },
+            {
+              "branch": "C",
+              "update": 20,
+              "transitions": 120,
+              "base_adv_std": 0.5895829200744629,
+              "bonus_adv_std": 0.053156156092882156,
+              "base_camera_output_bias_loss_gradient": [
+                -0.03250384333699362,
+                -0.04225467203045277,
+                0.084116388786772,
+                -0.009357880655680956
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.002245974961916741,
+                0.0009693566243978403,
+                0.004753276885021359,
+                -0.0034766586959967217
+              ],
+              "base_bonus_camera_gradient_cosine": 0.728076940053203,
+              "bonus_base_camera_gradient_norm_ratio": 0.06375276368284039,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.14195175631903112
+            }
+          ],
+          "gradient_scope": "Exact initial-ratio-one unclipped surrogate gradient for camera_head final output bias only, summed over chosen decisions and averaged by navigation states; base and bonus centered with common shaped-advantage std. Excludes entropy, shared trunk, later minibatches, clipping and Adam history. C0 bonus is counterfactual diagnostic, not actual training.",
+          "counterfactual_scope": "geometry-only relabeling to distinct cameras, same number/coordinates; not a navigation intervention or off-policy training"
+        },
+        "C0": {
+          "branch": "C0",
+          "transitions": 512,
+          "camera_counts": [
+            58,
+            530,
+            256,
+            65
+          ],
+          "first_camera_counts": [
+            27,
+            209,
+            105,
+            25
+          ],
+          "geometric_bonus_at_beta_001": 7.527710232204834,
+          "actual_beta": 0.0,
+          "first_focus_share_of_bonus": 0.4862036246217155,
+          "later_focus_novelty_ge_095_fraction": 0.4419889502762431,
+          "sum_absolute_original_reward": 59.67710041602451,
+          "sum_absolute_progress_reward": 26.37684284845991,
+          "sum_absolute_terminal_reward": 34.0,
+          "bonus_focus_count_correlation": 0.9636837689652815,
+          "counterfactual_mean_bonus_gain_same_count_distinct_cameras": 0.0030513472027248805,
+          "updates": [
+            {
+              "branch": "C0",
+              "update": 15,
+              "transitions": 80,
+              "base_adv_std": 1.1148933172225952,
+              "bonus_adv_std": 0.06537002325057983,
+              "base_camera_output_bias_loss_gradient": [
+                -0.014175749630190897,
+                0.0036158322408912148,
+                -0.06898273580063155,
+                0.07954264885119917
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                0.0015995157410071028,
+                -0.001741701761865607,
+                0.00011431189379452686,
+                2.787410480427719e-05
+              ],
+              "base_bonus_camera_gradient_cosine": -0.137635465661312,
+              "bonus_base_camera_gradient_norm_ratio": 0.02227340188585214,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.04691438730806112
+            },
+            {
+              "branch": "C0",
+              "update": 16,
+              "transitions": 71,
+              "base_adv_std": 0.5635659098625183,
+              "bonus_adv_std": 0.06874033808708191,
+              "base_camera_output_bias_loss_gradient": [
+                0.030743356375753202,
+                -0.023178762407906173,
+                0.07094756809741189,
+                -0.07851216371084911
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.008227202415671802,
+                0.0034919377726366947,
+                -0.002187331445619502,
+                0.006922595620538331
+              ],
+              "base_bonus_camera_gradient_cosine": -0.7963509546234016,
+              "bonus_base_camera_gradient_norm_ratio": 0.10225606419516368,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.017351391725242138
+            },
+            {
+              "branch": "C0",
+              "update": 17,
+              "transitions": 105,
+              "base_adv_std": 0.7856594324111938,
+              "bonus_adv_std": 0.054416950792074203,
+              "base_camera_output_bias_loss_gradient": [
+                -0.011480203947447105,
+                0.00914953074379314,
+                0.020570483341917672,
+                -0.018239811415571943
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                0.0026331929731655285,
+                0.0012970299621062199,
+                -0.0026164788881933338,
+                -0.0013137430406221582
+              ],
+              "base_bonus_camera_gradient_cosine": -0.3732064769133279,
+              "bonus_base_camera_gradient_norm_ratio": 0.1330222973874501,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.07530417745666844
+            },
+            {
+              "branch": "C0",
+              "update": 18,
+              "transitions": 77,
+              "base_adv_std": 0.8519456386566162,
+              "bonus_adv_std": 0.054568156599998474,
+              "base_camera_output_bias_loss_gradient": [
+                -0.0383067779979885,
+                0.1556124523713809,
+                -0.14215781271674255,
+                0.024852148006227277
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.001255464548926341,
+                -0.002635925309094367,
+                0.007041016269499298,
+                -0.003149625985845103
+              ],
+              "base_bonus_camera_gradient_cosine": -0.8103377058421521,
+              "bonus_base_camera_gradient_norm_ratio": 0.03824286084462564,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.1318374827504158
+            },
+            {
+              "branch": "C0",
+              "update": 19,
+              "transitions": 66,
+              "base_adv_std": 0.6191322207450867,
+              "bonus_adv_std": 0.05911664292216301,
+              "base_camera_output_bias_loss_gradient": [
+                -0.016324424951064554,
+                0.13251084558123966,
+                -0.17492533999892196,
+                0.05873892122589851
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.003746203065597356,
+                -0.004138658795906553,
+                0.0044884159500371175,
+                0.003396446102262551
+              ],
+              "base_bonus_camera_gradient_cosine": -0.5942197787977318,
+              "bonus_base_camera_gradient_norm_ratio": 0.03480605542795456,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.16060790419578552
+            },
+            {
+              "branch": "C0",
+              "update": 20,
+              "transitions": 113,
+              "base_adv_std": 0.7340734004974365,
+              "bonus_adv_std": 0.058130934834480286,
+              "base_camera_output_bias_loss_gradient": [
+                0.017969214971221538,
+                -0.00835042551325396,
+                0.04378110875021103,
+                -0.053399905310594756
+              ],
+              "bonus_camera_output_bias_loss_gradient": [
+                -0.0037257421875113495,
+                -0.0015006414793846121,
+                0.006631811720414885,
+                -0.0014054276842326906
+              ],
+              "base_bonus_camera_gradient_cosine": 0.5493628824004635,
+              "bonus_base_camera_gradient_norm_ratio": 0.10968392939422161,
+              "kl_early_stop": false,
+              "mean_logged_clip_fraction": 0.13830820191651583
+            }
+          ],
+          "gradient_scope": "Exact initial-ratio-one unclipped surrogate gradient for camera_head final output bias only, summed over chosen decisions and averaged by navigation states; base and bonus centered with common shaped-advantage std. Excludes entropy, shared trunk, later minibatches, clipping and Adam history. C0 bonus is counterfactual diagnostic, not actual training.",
+          "counterfactual_scope": "geometry-only relabeling to distinct cameras, same number/coordinates; not a navigation intervention or off-policy training"
+        }
+      },
+      "synthetic_geometry_checks": [
+        {
+          "case": "same_roi_same_camera",
+          "bonus": 0.01,
+          "cost_plus_bonus": -0.03
+        },
+        {
+          "case": "same_roi_four_cameras",
+          "bonus": 0.04,
+          "cost_plus_bonus": 0.0
+        }
+      ],
+      "gradient_formula_audit": {
+        "passed": true,
+        "decisions": 17,
+        "max_error": 1.7881393432617188e-07,
+        "scope": "actual update14 camera output bias autograd vs stored probability score; no optimizer update"
+      },
+      "not_established": [
+        "beta is causally too small",
+        "coverage encoder ignores history",
+        "larger beta would improve navigation",
+        "micro-step credit would fix the issue"
+      ]
+    }
+  },
+  "total_fresh_training_including_new_C_control": 2112
+}

@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:622",
+  "source_episode_id": "622",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Go into the hallway and to the right. Wait in the office, in front of the loveseat.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.912300109863281,
+  "path_length": 8.253487487323582,
+  "gt_path_length": 8.077232360839844,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3028761892768649,
+  "purpose": "val_seen",
+  "wall_seconds": 24.159565223380923,
+  "training": {
+    "episode_id": "622",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/2eb5e107435c4aa190fdd643643dbf09_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "622",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_2eb5e107435c4aa190fdd643643dbf09.pt",
+      "transitions": 9,
+      "reward_sum": -0.9310958650377061,
+      "focus_histogram": {
+        "4": 9
+      },
+      "camera_histogram": {
+        "1": 36
+      },
+      "entropy": {
+        "stop": 0.6523404982354906,
+        "camera": 0.8656785736481348,
+        "position_latent": 2.5867749717500477
+      },
+      "start_geodesic_distance": 7.8419599533081055,
+      "final_geodesic_distance": 8.912300109863281,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9166.425164788961,
+      "perception_ms": 1063.230361789465
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.07135601043701173,
+      "focus_cost": -0.36,
+      "step_cost": -0.09,
+      "terminal": -0.5,
+      "coverage_bonus": 0.09026014539930556
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.9310958650377061,
+  "focus_mean": 4.0
+}

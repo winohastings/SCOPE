@@ -1,0 +1,82 @@
+{
+  "episode_uid": "scope_stage2_train:1692",
+  "source_episode_id": "1692",
+  "scene_id": "PX4nDJXEHrG",
+  "instruction": "Leave the room and take a right. Walk straight past the kitchen and into the living room. Go down the first three steps and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.43262779712677,
+  "path_length": 10.016242554411292,
+  "gt_path_length": 10.771234624156934,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8711705151842376,
+  "purpose": "train",
+  "wall_seconds": 30.15810075867921,
+  "training": {
+    "episode_id": "1692",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/63dd1bd1ddeb4c1dbfd6ac838b6cdc99_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1692",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_63dd1bd1ddeb4c1dbfd6ac838b6cdc99.pt",
+      "transitions": 9,
+      "reward_sum": 2.2942456865310668,
+      "focus_histogram": {
+        "0": 3,
+        "1": 2,
+        "4": 3,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 9,
+        "3": 2,
+        "2": 5,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.58948211307111,
+        "camera": 0.8399474102517833,
+        "position_latent": 2.438473483790522
+      },
+      "start_geodesic_distance": 9.746313095092773,
+      "final_geodesic_distance": 1.43262779712677,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8106.138764880598,
+      "perception_ms": 503.48633993417025
+    },
+    "collected": 1456,
+    "buffer_transitions": 167,
+    "reward_components": {
+      "progress": 0.554245686531067,
+      "focus_cost": -0.17,
+      "step_cost": -0.09,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.9730508264099856,
+  "reward_sum": 2.2942456865310668,
+  "focus_mean": 1.8888888888888888
+}

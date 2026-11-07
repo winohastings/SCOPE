@@ -1,0 +1,83 @@
+{
+  "episode_uid": "agm_ppo_val_seen:644",
+  "source_episode_id": "644",
+  "scene_id": "VFuaQ6m2Qom",
+  "instruction": "Walk clockwise around the bed.  After passing the fireplace, there are three doors.  Go through the door on the left with the circular tub in it and stop just after entering this room.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.7875583171844482,
+  "path_length": 17.567499404773116,
+  "gt_path_length": 10.647575378417969,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.23923326081492313,
+  "purpose": "val_seen",
+  "wall_seconds": 38.620974784716964,
+  "training": {
+    "episode_id": "644",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d3219526ded04602aca6f07b1bfa6b99_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "644",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_d3219526ded04602aca6f07b1bfa6b99.pt",
+      "transitions": 15,
+      "reward_sum": -0.7457547728220622,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.6550018022457759,
+        "camera": 0.9073006560405096,
+        "position_latent": 2.587271730105082
+      },
+      "start_geodesic_distance": 9.099674224853516,
+      "final_geodesic_distance": 3.7875583171844482,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14740.293134003878,
+      "perception_ms": 1650.0736828893423
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.35414106051127103,
+      "focus_cost": -0.6,
+      "step_cost": -0.15,
+      "terminal": -0.5,
+      "coverage_bonus": 0.15010416666666668
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7457547728220622,
+  "focus_mean": 4.0
+}

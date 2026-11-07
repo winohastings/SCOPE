@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "paired_comparisons_recomputed": 8,
+  "bootstrap_McNemar": "exactly match recorded results",
+  "AB_extension_and_C_exploration_gates": "exactly match recorded decisions",
+  "training_or_navigation_rerun": false
+}

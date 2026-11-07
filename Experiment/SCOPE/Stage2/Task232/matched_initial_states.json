@@ -1,0 +1,44 @@
+{
+  "results": {
+    "BASE": {
+      "valid_states": 32,
+      "coverage": 0.03517341613769531,
+      "repeated_roi_fraction": 1.0,
+      "progress_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 32
+      }
+    },
+    "A": {
+      "valid_states": 32,
+      "coverage": 0.03519630432128906,
+      "repeated_roi_fraction": 1.0,
+      "progress_delta": {
+        "mean": -0.0007480978965759277,
+        "ci95": [
+          -0.01674380600452423,
+          0.010821159929037082
+        ],
+        "episodes": 32
+      }
+    },
+    "B": {
+      "valid_states": 32,
+      "coverage": 0.03516197204589844,
+      "repeated_roi_fraction": 1.0,
+      "progress_delta": {
+        "mean": 0.0014890581369400024,
+        "ci95": [
+          -0.006186605617403984,
+          0.00796760469675064
+        ],
+        "episodes": 32
+      }
+    }
+  },
+  "scope": "same 32 independent episode resets; exact detached initial state/pose/context grids equality; actual online sequential Focus encoding, not a frozen-intermediate-state proxy; only first chunk, not full-episode causality"
+}

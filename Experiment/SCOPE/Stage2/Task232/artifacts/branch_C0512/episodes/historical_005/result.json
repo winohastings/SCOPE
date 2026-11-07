@@ -1,0 +1,88 @@
+{
+  "episode_uid": "agm_ppo_val_seen:610",
+  "source_episode_id": "610",
+  "scene_id": "759xd9YjKW5",
+  "instruction": "Enter the home office and take a left.  Head inside the bedroom and wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.1313235759735107,
+  "path_length": 13.30776858178433,
+  "gt_path_length": 9.536832809448242,
+  "steps": 20,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.28142821383031047,
+  "purpose": "val_seen",
+  "wall_seconds": 40.09357182029635,
+  "training": {
+    "episode_id": "610",
+    "transitions": 20,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0018.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16b89084753b4b4dbb3154128d5b8409_0019.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "610",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_16b89084753b4b4dbb3154128d5b8409.pt",
+      "transitions": 20,
+      "reward_sum": 1.3794113636016845,
+      "focus_histogram": {
+        "4": 20
+      },
+      "camera_histogram": {
+        "1": 80
+      },
+      "entropy": {
+        "stop": 0.6270961239933968,
+        "camera": 1.1407745644450187,
+        "position_latent": 2.4295745700597764
+      },
+      "start_geodesic_distance": 7.822494029998779,
+      "final_geodesic_distance": 2.1313235759735107,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 19878.15443519503,
+      "perception_ms": 2167.455648072064
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.3794113636016846,
+      "focus_cost": -0.8000000000000002,
+      "step_cost": -0.20000000000000004,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.5878141013592773,
+  "reward_sum": 1.3794113636016845,
+  "focus_mean": 4.0
+}

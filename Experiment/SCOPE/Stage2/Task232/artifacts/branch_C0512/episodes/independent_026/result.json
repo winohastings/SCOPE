@@ -1,0 +1,86 @@
+{
+  "episode_uid": "agm_ppo_val_seen:672",
+  "source_episode_id": "672",
+  "scene_id": "VzqfbhrpDEA",
+  "instruction": "Walk past the dining table and past the stairs into the doorway just past the stairs.  When you see the window with curtains, turn left and walk a few steps until you are in front of some cabinets.  Stop in front of the sink on the marble counter in between the cabinets displaying glassware.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.6967920064926147,
+  "path_length": 18.643483937368728,
+  "gt_path_length": 9.345142364501953,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.27433225079516665,
+  "purpose": "val_seen",
+  "wall_seconds": 85.84337679855525,
+  "training": {
+    "episode_id": "672",
+    "transitions": 18,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/ba0b403c085e42beaff3987fcdfb6796_0017.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "672",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_ba0b403c085e42beaff3987fcdfb6796.pt",
+      "transitions": 18,
+      "reward_sum": 1.5955243825912475,
+      "focus_histogram": {
+        "4": 18
+      },
+      "camera_histogram": {
+        "1": 72
+      },
+      "entropy": {
+        "stop": 0.6272222954365942,
+        "camera": 1.1448980818192165,
+        "position_latent": 2.431718726952871
+      },
+      "start_geodesic_distance": 9.129657745361328,
+      "final_geodesic_distance": 1.6967920064926147,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 17705.81315457821,
+      "perception_ms": 1957.9990282654762
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.4955243825912476,
+      "focus_cost": -0.7200000000000001,
+      "step_cost": -0.18000000000000002,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.4896969780987112,
+  "reward_sum": 1.5955243825912475,
+  "focus_mean": 4.0
+}

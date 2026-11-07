@@ -1,0 +1,91 @@
+{
+  "episode_uid": "scope_stage2_train:1641",
+  "source_episode_id": "1641",
+  "scene_id": "B6ByNegPMKs",
+  "instruction": "Leave the room and turn left. Go inside the first door on the left and stand in front of the rug to the right of the tables.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.26617327332496643,
+  "path_length": 12.55536513356492,
+  "gt_path_length": 8.19127972006996,
+  "steps": 17,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4983075912635071,
+  "purpose": "train",
+  "wall_seconds": 63.11560436990112,
+  "training": {
+    "episode_id": "1641",
+    "transitions": 17,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/7f8a85a7769341408828558a934ea0d6_0016.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1641",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_7f8a85a7769341408828558a934ea0d6.pt",
+      "transitions": 17,
+      "reward_sum": 2.002250887155533,
+      "focus_histogram": {
+        "0": 8,
+        "4": 5,
+        "1": 3,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 20,
+        "2": 4,
+        "3": 1,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.5833888022523177,
+        "camera": 0.9202860233030821,
+        "position_latent": 2.438873297289798
+      },
+      "start_geodesic_distance": 6.749936580657959,
+      "final_geodesic_distance": 0.26617327332496643,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15515.980180352926,
+      "perception_ms": 779.1888350620866
+    },
+    "collected": 1063,
+    "buffer_transitions": 30,
+    "reward_components": {
+      "progress": 0.43225088715553284,
+      "focus_cost": -0.26,
+      "step_cost": -0.17,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.5376137220106006,
+  "reward_sum": 2.002250887155533,
+  "focus_mean": 1.5294117647058822
+}

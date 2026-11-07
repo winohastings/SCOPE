@@ -1,0 +1,81 @@
+{
+  "episode_uid": "agm_ppo_val_seen:307",
+  "source_episode_id": "307",
+  "scene_id": "ZMojNkEp431",
+  "instruction": "Head around the table and go the main area left of the long table.  Go to the middle of the room next to the ping pong table and stop.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 8.080524444580078,
+  "path_length": 15.09121896175202,
+  "gt_path_length": 8.938544273376465,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.05352961236691514,
+  "purpose": "val_seen",
+  "wall_seconds": 27.547351577319205,
+  "training": {
+    "episode_id": "307",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9a62e40f8ecb4a8d980828aa15cecbf1_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "307",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_9a62e40f8ecb4a8d980828aa15cecbf1.pt",
+      "transitions": 14,
+      "reward_sum": -0.8561391321818034,
+      "focus_histogram": {
+        "4": 14
+      },
+      "camera_histogram": {
+        "1": 56
+      },
+      "entropy": {
+        "stop": 0.6234386978404862,
+        "camera": 0.8880885594657489,
+        "position_latent": 2.482457344021116
+      },
+      "start_geodesic_distance": 6.938437461853027,
+      "final_geodesic_distance": 8.080524444580078,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13697.607673704624,
+      "perception_ms": 1570.729280821979
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.07613913218180333,
+      "focus_cost": -0.13999999999999999,
+      "step_cost": -0.13999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8561391321818034,
+  "focus_mean": 4.0
+}

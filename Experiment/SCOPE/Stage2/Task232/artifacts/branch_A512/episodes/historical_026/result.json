@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:290",
+  "source_episode_id": "290",
+  "scene_id": "mJXqzFtmKg4",
+  "instruction": "Enter the room go out the door on the right turn left and wait right at the living room entrance.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 6.8108930587768555,
+  "path_length": 10.054025112418458,
+  "gt_path_length": 6.244618892669678,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.01398440974965993,
+  "purpose": "val_seen",
+  "wall_seconds": 36.70566975604743,
+  "training": {
+    "episode_id": "290",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/856d5ec0e3fa4639b4566f5c4be230a1_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "290",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_856d5ec0e3fa4639b4566f5c4be230a1.pt",
+      "transitions": 15,
+      "reward_sum": -0.8389532089233399,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.6213851352532704,
+        "camera": 0.8877124230066935,
+        "position_latent": 2.4831242163976035
+      },
+      "start_geodesic_distance": 6.226594924926758,
+      "final_geodesic_distance": 6.8108930587768555,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15084.39445309341,
+      "perception_ms": 1723.944834433496
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.038953208923339894,
+      "focus_cost": -0.15,
+      "step_cost": -0.15,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8389532089233399,
+  "focus_mean": 4.0
+}

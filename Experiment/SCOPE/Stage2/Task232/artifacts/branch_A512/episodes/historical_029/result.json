@@ -1,0 +1,84 @@
+{
+  "episode_uid": "agm_ppo_val_seen:265",
+  "source_episode_id": "265",
+  "scene_id": "s8pcmisQ38h",
+  "instruction": "Go up the stairs then turn left and go up the stairs on the left seven steps and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.36779096722602844,
+  "path_length": 13.811285242438316,
+  "gt_path_length": 10.127840995788574,
+  "steps": 17,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7469117836027802,
+  "purpose": "val_seen",
+  "wall_seconds": 33.3938551703468,
+  "training": {
+    "episode_id": "265",
+    "transitions": 17,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/89eb1c1c05014486afeb70c939b32d32_0016.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "265",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_89eb1c1c05014486afeb70c939b32d32.pt",
+      "transitions": 17,
+      "reward_sum": 2.31553831855456,
+      "focus_histogram": {
+        "4": 17
+      },
+      "camera_histogram": {
+        "1": 68
+      },
+      "entropy": {
+        "stop": 0.6222734056851443,
+        "camera": 0.8825879167107975,
+        "position_latent": 2.4798207107712242
+      },
+      "start_geodesic_distance": 10.200865745544434,
+      "final_geodesic_distance": 0.36779096722602844,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 16555.836686864495,
+      "perception_ms": 1879.6596536412835
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.6555383185545605,
+      "focus_cost": -0.17,
+      "step_cost": -0.17,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7385891730191737,
+  "reward_sum": 2.31553831855456,
+  "focus_mean": 4.0
+}

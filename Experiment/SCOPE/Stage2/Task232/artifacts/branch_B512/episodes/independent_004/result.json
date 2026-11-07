@@ -1,0 +1,81 @@
+{
+  "episode_uid": "agm_ppo_val_seen:533",
+  "source_episode_id": "533",
+  "scene_id": "2n8kARJN3HM",
+  "instruction": "Walk out of the bathroom and turn right. Walk around the bed and turn left outside the bedroom. Walk right through the entryway and walk to the top of the stairs and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6167265772819519,
+  "path_length": 15.917101237457246,
+  "gt_path_length": 13.659833908081055,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6626578928239115,
+  "purpose": "val_seen",
+  "wall_seconds": 38.570896523073316,
+  "training": {
+    "episode_id": "533",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/ce8daeba2a614a18b167551521e7b0e3_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "533",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_ce8daeba2a614a18b167551521e7b0e3.pt",
+      "transitions": 14,
+      "reward_sum": 2.1702660441398622,
+      "focus_histogram": {
+        "4": 14
+      },
+      "camera_histogram": {
+        "1": 56
+      },
+      "entropy": {
+        "stop": 0.5958219734685761,
+        "camera": 0.8493224627205304,
+        "position_latent": 2.4268802659852162
+      },
+      "start_geodesic_distance": 13.670717239379883,
+      "final_geodesic_distance": 0.6167265772819519,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 16759.5487665385,
+      "perception_ms": 1942.1305041760206
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.870266044139862,
+      "focus_cost": -0.5599999999999999,
+      "step_cost": -0.13999999999999999,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.8588697800833852,
+  "reward_sum": 2.1702660441398622,
+  "focus_mean": 4.0
+}

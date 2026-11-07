@@ -1,0 +1,87 @@
+{
+  "episode_uid": "agm_ppo_val_seen:590",
+  "source_episode_id": "590",
+  "scene_id": "1LXtFkjw3qL",
+  "instruction": "Exit the room to the left of the bookshelves, go straight through, turn left after the plant, cross the room to the right of the television, step near the glass door and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.765188217163086,
+  "path_length": 19.234097464941442,
+  "gt_path_length": 16.014493942260742,
+  "steps": 20,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.1490127320096769,
+  "purpose": "val_seen",
+  "wall_seconds": 43.964701756834984,
+  "training": {
+    "episode_id": "590",
+    "transitions": 20,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0018.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/3bdc23da6ca046a7a41f5ae936d70892_0019.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "590",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_3bdc23da6ca046a7a41f5ae936d70892.pt",
+      "transitions": 20,
+      "reward_sum": -1.2785619099934897,
+      "focus_histogram": {
+        "4": 20
+      },
+      "camera_histogram": {
+        "1": 80
+      },
+      "entropy": {
+        "stop": 0.5962571412324905,
+        "camera": 0.8678301587700844,
+        "position_latent": 2.4304784804582598
+      },
+      "start_geodesic_distance": 14.086759567260742,
+      "final_geodesic_distance": 10.765188217163086,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 20033.251317217946,
+      "perception_ms": 2196.7260483652353
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.2214380900065104,
+      "focus_cost": -0.8000000000000002,
+      "step_cost": -0.20000000000000004,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.2785619099934897,
+  "focus_mean": 4.0
+}

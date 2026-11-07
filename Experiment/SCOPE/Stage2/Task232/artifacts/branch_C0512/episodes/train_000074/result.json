@@ -1,0 +1,82 @@
+{
+  "episode_uid": "scope_stage2_train:7555",
+  "source_episode_id": "7555",
+  "scene_id": "VFuaQ6m2Qom",
+  "instruction": "Go downstairs and turn left. Entering the small room with the phone, veer left towards the small statue in the alcove. Stop inside the last door on the left, which contains a plunge pool with a painted sky.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.3440098762512207,
+  "path_length": 9.81835918687284,
+  "gt_path_length": 11.090902115865635,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8380500716903967,
+  "purpose": "train",
+  "wall_seconds": 28.00244323257357,
+  "training": {
+    "episode_id": "7555",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/3fd92ff1ab124ca5bc5024e2d72b6a9d_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7555",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_3fd92ff1ab124ca5bc5024e2d72b6a9d.pt",
+      "transitions": 9,
+      "reward_sum": 2.3667424074808756,
+      "focus_histogram": {
+        "0": 3,
+        "1": 3,
+        "2": 3
+      },
+      "camera_histogram": {
+        "0": 2,
+        "2": 3,
+        "1": 3,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.5828954842355516,
+        "camera": 0.9085503386126624,
+        "position_latent": 2.4361208809746637
+      },
+      "start_geodesic_distance": 9.545145988464355,
+      "final_geodesic_distance": 1.3440098762512207,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8651.830825023353,
+      "perception_ms": 362.2211338952184
+    },
+    "collected": 1088,
+    "buffer_transitions": 55,
+    "reward_components": {
+      "progress": 0.5467424074808758,
+      "focus_cost": -0.09,
+      "step_cost": -0.09,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.9721732324914564,
+  "reward_sum": 2.3667424074808756,
+  "focus_mean": 1.0
+}

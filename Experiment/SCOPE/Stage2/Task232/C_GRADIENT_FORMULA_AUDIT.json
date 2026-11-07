@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "decisions": 17,
+  "max_error": 1.7881393432617188e-07,
+  "scope": "actual update14 camera output bias autograd vs stored probability score; no optimizer update"
+}

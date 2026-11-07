@@ -1,0 +1,186 @@
+{
+  "branch": "A",
+  "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/checkpoints/added_0512.pt",
+  "checkpoint_sha256": "69d6512a588887e75bb7c765a5060161699c09d3c98a060b2eec21b47d57141a",
+  "added_trained_transitions": 512,
+  "updates": 6,
+  "update_batch_sizes": [
+    80,
+    71,
+    105,
+    76,
+    74,
+    106
+  ],
+  "in_sample_critic_EV_by_update": [
+    -0.011285543441772461,
+    0.04982459545135498,
+    0.027468323707580566,
+    0.023066699504852295,
+    0.0898403525352478,
+    0.061774373054504395
+  ],
+  "optimizer_hyperparameters": {
+    "actor_learning_rate": 0.0001,
+    "critic_learning_rate": 0.0002,
+    "rollout_minimum": 64,
+    "focus_cost": 0.0025
+  },
+  "new_optimizer_steps": 68,
+  "ratio_max_error": 0.0,
+  "update_seconds": 42.33414458204061,
+  "subsets": {
+    "train": {
+      "transitions": 512,
+      "focus_distribution": {
+        "0": 139,
+        "1": 117,
+        "2": 78,
+        "3": 51,
+        "4": 127
+      },
+      "focus_mean": 1.82421875,
+      "zero_focus_fraction": 0.271484375,
+      "coverage_mean": 0.05258064530789852,
+      "four_focus_samples": 127,
+      "four_focus_coverage": 0.10658867152657096,
+      "four_focus_repeat_fraction": 0.010498687664041995,
+      "four_focus_unique_cameras": 2.1338582677165356,
+      "model_seconds": 484.9700134135783,
+      "perception_seconds": 29.13026233576238,
+      "reward_components": {
+        "progress": 8.56421706676483,
+        "terminal": 29.0,
+        "focus_cost": -2.335,
+        "step_cost": -5.120000000000001
+      },
+      "episodes": 40,
+      "wall_seconds": 1328.7281881477684
+    },
+    "historical": {
+      "transitions": 93,
+      "focus_distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 93
+      },
+      "focus_mean": 4.0,
+      "zero_focus_fraction": 0.0,
+      "coverage_mean": 0.03519167951358262,
+      "four_focus_samples": 93,
+      "four_focus_coverage": 0.03519167951358262,
+      "four_focus_repeat_fraction": 1.0,
+      "four_focus_unique_cameras": 1.0,
+      "model_seconds": 97.83658133167773,
+      "perception_seconds": 10.895613562315702,
+      "episodes": 5,
+      "SR": 0.0,
+      "SPL": 0.0,
+      "nDTW": 0.22320713081506655,
+      "oracle_success": 0.4,
+      "reward_sum": -0.23967625768979395,
+      "critic": {
+        "branch_all_bootstrapped": {
+          "transitions": 93,
+          "EV": 0.005139271871280826,
+          "MSE": 0.5620520286847402,
+          "prediction_mean": 1.019334961650192,
+          "return_mean": 0.5943445154463608
+        },
+        "branch_terminal_only": {
+          "transitions": 18,
+          "EV": -0.4369231732259218,
+          "MSE": 2.5705877354714683,
+          "prediction_mean": 1.0211296710703108,
+          "return_mean": -0.5752130714768967
+        },
+        "original_all_bootstrapped": {
+          "transitions": 93,
+          "EV": 0.005712143095600308,
+          "MSE": 0.907601948037996,
+          "prediction_mean": 1.019334961650192,
+          "return_mean": 0.2753329430816031
+        },
+        "original_terminal_only": {
+          "transitions": 18,
+          "EV": -0.3025302989903511,
+          "MSE": 3.0660401081937816,
+          "prediction_mean": 1.0211296710703108,
+          "return_mean": -0.7212822384370463
+        }
+      }
+    },
+    "independent": {
+      "transitions": 540,
+      "focus_distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 540
+      },
+      "focus_mean": 4.0,
+      "zero_focus_fraction": 0.0,
+      "coverage_mean": 0.03519319958157009,
+      "four_focus_samples": 540,
+      "four_focus_coverage": 0.03519319958157009,
+      "four_focus_repeat_fraction": 1.0,
+      "four_focus_unique_cameras": 1.0,
+      "model_seconds": 562.002200730145,
+      "perception_seconds": 62.647980886511505,
+      "episodes": 32,
+      "SR": 0.28125,
+      "SPL": 0.2193578980881578,
+      "nDTW": 0.3252050626495243,
+      "oracle_success": 0.46875,
+      "reward_sum": 0.2894707630077998,
+      "critic": {
+        "branch_all_bootstrapped": {
+          "transitions": 540,
+          "EV": -0.0007825428989558514,
+          "MSE": 1.0704580322069133,
+          "prediction_mean": 1.0355034938565006,
+          "return_mean": 0.6295671458032351
+        },
+        "branch_terminal_only": {
+          "transitions": 265,
+          "EV": -0.00511130237819879,
+          "MSE": 2.002053178689198,
+          "prediction_mean": 1.02793352648897,
+          "return_mean": 0.5576164318949803
+        },
+        "original_all_bootstrapped": {
+          "transitions": 540,
+          "EV": -0.002062485240900802,
+          "MSE": 1.4297556012362342,
+          "prediction_mean": 1.0355034938565006,
+          "return_mean": 0.3357126808458759
+        },
+        "original_terminal_only": {
+          "transitions": 265,
+          "EV": -0.005394228601195428,
+          "MSE": 2.254458737932467,
+          "prediction_mean": 1.02793352648897,
+          "return_mean": 0.3329408472913522
+        }
+      }
+    }
+  },
+  "system_gpu_samples": {
+    "0": {
+      "samples": 404,
+      "peak_memory_MiB": 12293.0,
+      "sampled_system_Wh": 99.58246043099693
+    },
+    "1": {
+      "samples": 404,
+      "peak_memory_MiB": 22865.0,
+      "sampled_system_Wh": 94.8125794560913
+    }
+  },
+  "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+  "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+  "partial": true
+}

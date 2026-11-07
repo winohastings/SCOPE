@@ -1,0 +1,87 @@
+{
+  "episode_uid": "agm_ppo_val_seen:382",
+  "source_episode_id": "382",
+  "scene_id": "1pXnuDYAj8r",
+  "instruction": "Walk out from behind the piano and towards the dining room table. Once you reach the table, turn left and enter the next room with a table. Once in that room, turn left and then stop in front of the mantle.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 11.930426597595215,
+  "path_length": 13.805638853926212,
+  "gt_path_length": 17.116138458251953,
+  "steps": 20,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.06312730630778449,
+  "purpose": "val_seen",
+  "wall_seconds": 47.982437970116735,
+  "training": {
+    "episode_id": "382",
+    "transitions": 20,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0018.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/04b9a3ff36eb4a6a8a1275c0b78a11f3_0019.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "382",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_04b9a3ff36eb4a6a8a1275c0b78a11f3.pt",
+      "transitions": 20,
+      "reward_sum": -0.6994338989257813,
+      "focus_histogram": {
+        "4": 20
+      },
+      "camera_histogram": {
+        "1": 80
+      },
+      "entropy": {
+        "stop": 0.6222067050635814,
+        "camera": 0.8724224209785462,
+        "position_latent": 2.482014337182045
+      },
+      "start_geodesic_distance": 14.938918113708496,
+      "final_geodesic_distance": 11.930426597595215,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 20119.11462340504,
+      "perception_ms": 2246.265650726855
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.20056610107421874,
+      "focus_cost": -0.20000000000000004,
+      "step_cost": -0.20000000000000004,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6994338989257813,
+  "focus_mean": 4.0
+}

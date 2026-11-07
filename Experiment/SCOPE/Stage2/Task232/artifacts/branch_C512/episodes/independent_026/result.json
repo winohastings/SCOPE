@@ -1,0 +1,83 @@
+{
+  "episode_uid": "agm_ppo_val_seen:672",
+  "source_episode_id": "672",
+  "scene_id": "VzqfbhrpDEA",
+  "instruction": "Walk past the dining table and past the stairs into the doorway just past the stairs.  When you see the window with curtains, turn left and walk a few steps until you are in front of some cabinets.  Stop in front of the sink on the marble counter in between the cabinets displaying glassware.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 8.218233108520508,
+  "path_length": 16.291182799031958,
+  "gt_path_length": 9.345142364501953,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.22588301254265794,
+  "purpose": "val_seen",
+  "wall_seconds": 81.78398207575083,
+  "training": {
+    "episode_id": "672",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/8ab768aa8d144ca2b1469054fa3fb101_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "672",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_8ab768aa8d144ca2b1469054fa3fb101.pt",
+      "transitions": 15,
+      "reward_sum": -1.0389261288113065,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.6543177376190822,
+        "camera": 0.898349545399348,
+        "position_latent": 2.588068191210429
+      },
+      "start_geodesic_distance": 9.129657745361328,
+      "final_geodesic_distance": 8.218233108520508,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15007.226252928376,
+      "perception_ms": 1701.135410927236
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.06076164245605469,
+      "focus_cost": -0.6,
+      "step_cost": -0.15,
+      "terminal": -0.5,
+      "coverage_bonus": 0.15031222873263891
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.0389261288113065,
+  "focus_mean": 4.0
+}

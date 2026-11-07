@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "mode": "forward",
+  "checked": {
+    "episode_uid": "scope_stage2_train:2354",
+    "transitions": 13,
+    "state_action_logprob_value": "bitwise_equal"
+  },
+  "first": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/episodes/train_000070/result.json",
+  "second": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/episodes/train_000070/result.json"
+}

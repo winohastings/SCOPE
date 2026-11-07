@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:680",
+  "source_episode_id": "680",
+  "scene_id": "V2XKFyX4ASd",
+  "instruction": "Go through the door and to the right around the railing. Walk straight passed all of the chairs and stop in the last doorway on the right.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.8774871826171875,
+  "path_length": 14.434678467107005,
+  "gt_path_length": 13.633417129516602,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6258542612568407,
+  "purpose": "val_seen",
+  "wall_seconds": 36.635348128154874,
+  "training": {
+    "episode_id": "680",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/14da95901a2b46a38dd3ab6e5612feee_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "680",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_14da95901a2b46a38dd3ab6e5612feee.pt",
+      "transitions": 15,
+      "reward_sum": 1.9449217478434244,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.5969924201567968,
+        "camera": 0.8956178317467371,
+        "position_latent": 2.428529425462087
+      },
+      "start_geodesic_distance": 13.301313400268555,
+      "final_geodesic_distance": 2.8774871826171875,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15143.03270354867,
+      "perception_ms": 1720.656568184495
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.6949217478434245,
+      "focus_cost": -0.6,
+      "step_cost": -0.15,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.9214831788999592,
+  "reward_sum": 1.9449217478434244,
+  "focus_mean": 4.0
+}

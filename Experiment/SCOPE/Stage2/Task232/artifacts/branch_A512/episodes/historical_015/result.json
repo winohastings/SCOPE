@@ -1,0 +1,81 @@
+{
+  "episode_uid": "agm_ppo_val_seen:644",
+  "source_episode_id": "644",
+  "scene_id": "VFuaQ6m2Qom",
+  "instruction": "Walk clockwise around the bed.  After passing the fireplace, there are three doors.  Go through the door on the left with the circular tub in it and stop just after entering this room.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.4126715660095215,
+  "path_length": 16.880112817976624,
+  "gt_path_length": 10.647575378417969,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.32123351915558135,
+  "purpose": "val_seen",
+  "wall_seconds": 36.95566698908806,
+  "training": {
+    "episode_id": "644",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/71b53b5d15c345fd8af207e47251194b_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "644",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_71b53b5d15c345fd8af207e47251194b.pt",
+      "transitions": 14,
+      "reward_sum": -0.4008664894104003,
+      "focus_histogram": {
+        "4": 14
+      },
+      "camera_histogram": {
+        "1": 56
+      },
+      "entropy": {
+        "stop": 0.6231393398983138,
+        "camera": 0.8876847252249718,
+        "position_latent": 2.4847809204033444
+      },
+      "start_geodesic_distance": 9.099674224853516,
+      "final_geodesic_distance": 3.4126715660095215,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13685.034284368157,
+      "perception_ms": 1540.6155372038484
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.37913351058959954,
+      "focus_cost": -0.13999999999999999,
+      "step_cost": -0.13999999999999999,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.4008664894104003,
+  "focus_mean": 4.0
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "mode": "restore",
+  "checked": [
+    "Actor",
+    "Critic",
+    "old snapshots",
+    "optimizer",
+    "RNG",
+    "cursor",
+    "buffer"
+  ],
+  "first": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/checkpoints/restore_after.pt",
+  "second": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/checkpoints/restore_repeated.pt"
+}

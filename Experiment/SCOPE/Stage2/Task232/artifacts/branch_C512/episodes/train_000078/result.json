@@ -1,0 +1,88 @@
+{
+  "episode_uid": "scope_stage2_train:3651",
+  "source_episode_id": "3651",
+  "scene_id": "Uxmj2M2itWa",
+  "instruction": "Keep going straight at the top of the stairs and walk out onto the deck.  Once outside, turn right and go through the door going back into the house.  Stop in the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.34587544202804565,
+  "path_length": 10.478145502042025,
+  "gt_path_length": 6.4369685938387695,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6307855406843507,
+  "purpose": "train",
+  "wall_seconds": 27.110284201800823,
+  "training": {
+    "episode_id": "3651",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/73adc6524c20410493781f1fc8ea0fd0_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3651",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_73adc6524c20410493781f1fc8ea0fd0.pt",
+      "transitions": 14,
+      "reward_sum": 2.1689120342996384,
+      "focus_histogram": {
+        "1": 6,
+        "2": 2,
+        "0": 2,
+        "4": 4
+      },
+      "camera_histogram": {
+        "2": 3,
+        "1": 18,
+        "0": 4,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.5948462817404006,
+        "camera": 0.9276285900010003,
+        "position_latent": 2.433277448018392
+      },
+      "start_geodesic_distance": 5.602147102355957,
+      "final_geodesic_distance": 0.34587544202804565,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13064.968701452017,
+      "perception_ms": 778.1354887410998
+    },
+    "collected": 1136,
+    "buffer_transitions": 23,
+    "reward_components": {
+      "progress": 0.3504181106885276,
+      "focus_cost": -0.26,
+      "step_cost": -0.13999999999999999,
+      "terminal": 2.0,
+      "coverage_bonus": 0.21849392361111114
+    }
+  },
+  "SR": 1,
+  "SPL": 0.5346506308071582,
+  "reward_sum": 2.1689120342996384,
+  "focus_mean": 1.8571428571428572
+}

@@ -1,0 +1,6 @@
+{
+  "added_transitions": 256,
+  "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/checkpoints/added_0256.pt",
+  "trained": 1289,
+  "update": 17
+}

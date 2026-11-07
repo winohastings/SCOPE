@@ -1,0 +1,76 @@
+{
+  "episode_uid": "scope_stage2_train:8612",
+  "source_episode_id": "8612",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Walk down the wood floored hallway past the open doors and framed photographs on the walls. Continue down the stairwell at the end of the hall down the first few steps.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.3255863189697266,
+  "path_length": 7.794340191408992,
+  "gt_path_length": 5.18808334321921,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.678087580692233,
+  "purpose": "train",
+  "wall_seconds": 15.797553924843669,
+  "training": {
+    "episode_id": "8612",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/traces/ddcf07e1e4e941b489ac847b509c4b62_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/traces/ddcf07e1e4e941b489ac847b509c4b62_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/traces/ddcf07e1e4e941b489ac847b509c4b62_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/traces/ddcf07e1e4e941b489ac847b509c4b62_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/traces/ddcf07e1e4e941b489ac847b509c4b62_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/traces/ddcf07e1e4e941b489ac847b509c4b62_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8612",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/episode_boundary_ddcf07e1e4e941b489ac847b509c4b62.pt",
+      "transitions": 6,
+      "reward_sum": 1.9871318499247232,
+      "focus_histogram": {
+        "4": 3,
+        "1": 2,
+        "0": 1
+      },
+      "camera_histogram": {
+        "1": 9,
+        "2": 5
+      },
+      "entropy": {
+        "stop": 0.5835383464308346,
+        "camera": 0.9526635688893935,
+        "position_latent": 2.4374148845672607
+      },
+      "start_geodesic_distance": 5.132564067840576,
+      "final_geodesic_distance": 2.3255863189697266,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 4895.05438413471,
+      "perception_ms": 392.3759814351797
+    },
+    "collected": 1069,
+    "buffer_transitions": 36,
+    "reward_components": {
+      "progress": 0.1871318499247233,
+      "focus_cost": -0.14,
+      "step_cost": -0.060000000000000005,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.6584988519615483,
+  "reward_sum": 1.9871318499247232,
+  "focus_mean": 2.3333333333333335
+}

@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:611",
+  "source_episode_id": "611",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Exit the bedroom. Go to the drum set.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.6724319458007812,
+  "path_length": 11.04329965193756,
+  "gt_path_length": 7.319060802459717,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.35807768668623713,
+  "purpose": "val_seen",
+  "wall_seconds": 26.43229554966092,
+  "training": {
+    "episode_id": "611",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/38d40207814945119828fb0e8b5dc86d_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "611",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_38d40207814945119828fb0e8b5dc86d.pt",
+      "transitions": 14,
+      "reward_sum": -0.8290667978922526,
+      "focus_histogram": {
+        "4": 14
+      },
+      "camera_histogram": {
+        "1": 56
+      },
+      "entropy": {
+        "stop": 0.653251166854586,
+        "camera": 0.9011175526039941,
+        "position_latent": 2.5849784229482924
+      },
+      "start_geodesic_distance": 7.135648727416992,
+      "final_geodesic_distance": 3.6724319458007812,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13644.090679474175,
+      "perception_ms": 1548.3927642926574
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.23088111877441408,
+      "focus_cost": -0.5599999999999999,
+      "step_cost": -0.13999999999999999,
+      "terminal": -0.5,
+      "coverage_bonus": 0.14005208333333333
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8290667978922526,
+  "focus_mean": 4.0
+}

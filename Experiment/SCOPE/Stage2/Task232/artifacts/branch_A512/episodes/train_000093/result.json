@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:7166",
+  "source_episode_id": "7166",
+  "scene_id": "aayBHfsNo7d",
+  "instruction": "Walk down hallway to bedroom, turn left and enter bathroom, stop at sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.715472221374512,
+  "path_length": 5.010892198886722,
+  "gt_path_length": 8.52901467192536,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.1403630495976198,
+  "purpose": "train",
+  "wall_seconds": 16.26714820601046,
+  "training": {
+    "episode_id": "7166",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/7728263b7b6943c1a4f6edf98ebd38a3_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7166",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_7728263b7b6943c1a4f6edf98ebd38a3.pt",
+      "transitions": 7,
+      "reward_sum": -0.7701589457194011,
+      "focus_histogram": {
+        "0": 4,
+        "4": 2,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 2,
+        "3": 1,
+        "1": 7
+      },
+      "entropy": {
+        "stop": 0.6136549989382426,
+        "camera": 0.9343489130338033,
+        "position_latent": 2.447685162226359
+      },
+      "start_geodesic_distance": 8.088088035583496,
+      "final_geodesic_distance": 10.715472221374512,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5965.475104749203,
+      "perception_ms": 301.98374949395657
+    },
+    "collected": 1296,
+    "buffer_transitions": 7,
+    "reward_components": {
+      "progress": -0.17515894571940108,
+      "focus_cost": -0.025,
+      "step_cost": -0.07,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7701589457194011,
+  "focus_mean": 1.4285714285714286
+}

@@ -1,0 +1,87 @@
+{
+  "episode_uid": "agm_ppo_val_seen:220",
+  "source_episode_id": "220",
+  "scene_id": "82sE5b5pLXE",
+  "instruction": "Go down the stairs and turn right, walking past the piano and up the two steps. Continue forward and walk down the 5 steps. Stop when you get down the steps.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.1716841459274292,
+  "path_length": 20.538219538284466,
+  "gt_path_length": 9.16011905670166,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.10478437237973319,
+  "purpose": "val_seen",
+  "wall_seconds": 35.92274372652173,
+  "training": {
+    "episode_id": "220",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/e3d19bf0944743d09b9bea09dca62056_0018.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "220",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_e3d19bf0944743d09b9bea09dca62056.pt",
+      "transitions": 19,
+      "reward_sum": 1.5458552757898967,
+      "focus_histogram": {
+        "4": 19
+      },
+      "camera_histogram": {
+        "1": 76
+      },
+      "entropy": {
+        "stop": 0.6268849710100576,
+        "camera": 1.1549754817234843,
+        "position_latent": 2.431193602712531
+      },
+      "start_geodesic_distance": 8.609513282775879,
+      "final_geodesic_distance": 1.1716841459274292,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 19330.90064395219,
+      "perception_ms": 2156.8112056702375
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.4958552757898967,
+      "focus_cost": -0.7600000000000001,
+      "step_cost": -0.19000000000000003,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.41919472458297724,
+  "reward_sum": 1.5458552757898967,
+  "focus_mean": 4.0
+}

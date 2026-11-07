@@ -1,0 +1,87 @@
+{
+  "episode_uid": "scope_stage2_train:3591",
+  "source_episode_id": "3591",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Locate the stairs. Travel to the right of the stairs and into the room with lots of white chairs. Turn left and enter the room with a large mirror.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.7629141807556152,
+  "path_length": 13.076696700416505,
+  "gt_path_length": 10.93944438323843,
+  "steps": 13,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6038218658539515,
+  "purpose": "train",
+  "wall_seconds": 31.26269406452775,
+  "training": {
+    "episode_id": "3591",
+    "transitions": 13,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d11c914f26a64d869bda2058b0a83873_0012.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3591",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_d11c914f26a64d869bda2058b0a83873.pt",
+      "transitions": 13,
+      "reward_sum": 2.346439317067464,
+      "focus_histogram": {
+        "0": 3,
+        "4": 3,
+        "2": 4,
+        "1": 2,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 18,
+        "3": 2,
+        "0": 4,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6269291349819728,
+        "camera": 0.9226547615868704,
+        "position_latent": 2.510493108204433
+      },
+      "start_geodesic_distance": 9.847003936767578,
+      "final_geodesic_distance": 1.7629141807556152,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12421.856963075697,
+      "perception_ms": 777.9186069965363
+    },
+    "collected": 1474,
+    "buffer_transitions": 35,
+    "reward_components": {
+      "progress": 0.5389393170674642,
+      "focus_cost": -0.0625,
+      "step_cost": -0.12999999999999998,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7530192190244759,
+  "reward_sum": 2.346439317067464,
+  "focus_mean": 1.9230769230769231
+}

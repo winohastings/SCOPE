@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "fresh_transitions_updated_once": 512,
+  "max_abs_errors": {
+    "reward": 0.0,
+    "components": 2.7755575615628914e-17,
+    "returns": 0.0,
+    "advantages": 0.0
+  },
+  "scope": "independent reconstruction from fresh traces, compared against actual saved PPO GAE targets; recovery replay is not double-counted"
+}

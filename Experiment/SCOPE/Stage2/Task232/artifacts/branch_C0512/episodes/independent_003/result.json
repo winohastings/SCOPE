@@ -1,0 +1,75 @@
+{
+  "episode_uid": "agm_ppo_val_seen:611",
+  "source_episode_id": "611",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Exit the bedroom. Go to the drum set.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 4.987940788269043,
+  "path_length": 4.93758708704263,
+  "gt_path_length": 7.319060802459717,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4182020859839854,
+  "purpose": "val_seen",
+  "wall_seconds": 15.233262650668621,
+  "training": {
+    "episode_id": "611",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/77a2fd8b34ea4016980b63494cc351b5_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "611",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_77a2fd8b34ea4016980b63494cc351b5.pt",
+      "transitions": 7,
+      "reward_sum": -0.7068194707234701,
+      "focus_histogram": {
+        "4": 7
+      },
+      "camera_histogram": {
+        "1": 28
+      },
+      "entropy": {
+        "stop": 0.6270898708275386,
+        "camera": 1.1624037495681219,
+        "position_latent": 2.430658996105194
+      },
+      "start_geodesic_distance": 7.135648727416992,
+      "final_geodesic_distance": 4.987940788269043,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6363.049367442727,
+      "perception_ms": 777.849655598402
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.1431805292765299,
+      "focus_cost": -0.28,
+      "step_cost": -0.07,
+      "terminal": -0.5,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7068194707234701,
+  "focus_mean": 4.0
+}

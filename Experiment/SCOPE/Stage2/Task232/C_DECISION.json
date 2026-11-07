@@ -1,0 +1,1140 @@
+{
+  "task": "Task2.3.2 new C coverage novelty",
+  "protocol": "C_PROTOCOL.md",
+  "beta": 0.01,
+  "new_training": {
+    "C": 512,
+    "C0": 512
+  },
+  "reports": {
+    "C0": {
+      "branch": "C0",
+      "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/checkpoints/added_0512.pt",
+      "checkpoint_sha256": "0f5b12be206402f778cf0fb92d9a6ee8c7cf1e1235c99f3d9a581ece4aa6e3ca",
+      "added_trained_transitions": 512,
+      "updates": 6,
+      "update_batch_sizes": [
+        80,
+        71,
+        105,
+        77,
+        66,
+        113
+      ],
+      "in_sample_critic_EV_by_update": [
+        -0.0138932466506958,
+        0.035872042179107666,
+        0.016156554222106934,
+        0.02815490961074829,
+        0.020235061645507812,
+        0.09507930278778076
+      ],
+      "optimizer_hyperparameters": {
+        "actor_learning_rate": 0.0001,
+        "critic_learning_rate": 0.0002,
+        "rollout_minimum": 64,
+        "focus_cost": 0.01
+      },
+      "new_optimizer_steps": 70,
+      "ratio_max_error": 0.0,
+      "update_seconds": 40.8177455374971,
+      "subsets": {
+        "train": {
+          "transitions": 512,
+          "focus_distribution": {
+            "0": 146,
+            "1": 114,
+            "2": 84,
+            "3": 45,
+            "4": 123
+          },
+          "camera_histogram": {
+            "0": 58,
+            "1": 530,
+            "2": 256,
+            "3": 65
+          },
+          "camera_probability_mean_by_focus_index": {
+            "0": [
+              0.06448948383331299,
+              0.6016131043434143,
+              0.2780454456806183,
+              0.05585221201181412
+            ],
+            "1": [
+              0.06614162772893906,
+              0.5977563858032227,
+              0.2796555161476135,
+              0.056446537375450134
+            ],
+            "2": [
+              0.06608889251947403,
+              0.5991634726524353,
+              0.2776187062263489,
+              0.05712887644767761
+            ],
+            "3": [
+              0.06680992990732193,
+              0.5970520973205566,
+              0.2788454294204712,
+              0.05729265883564949
+            ]
+          },
+          "focus_mean": 1.775390625,
+          "zero_focus_fraction": 0.28515625,
+          "coverage_mean": 0.05168868415057659,
+          "four_focus_samples": 123,
+          "four_focus_coverage": 0.10752146806174177,
+          "four_focus_repeat_fraction": 0.013550135501355013,
+          "four_focus_unique_cameras": 2.1707317073170733,
+          "model_seconds": 493.2396014062688,
+          "perception_seconds": 28.634995121508837,
+          "reward_components": {
+            "progress": 7.709159666299821,
+            "focus_cost": -9.09,
+            "step_cost": -5.12,
+            "terminal": 22.0,
+            "coverage_bonus": 0.0
+          },
+          "episodes": 36,
+          "wall_seconds": 1283.9303481122479
+        },
+        "historical": {
+          "transitions": 514,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 514
+          },
+          "camera_histogram": {
+            "0": 0,
+            "1": 2056,
+            "2": 0,
+            "3": 0
+          },
+          "camera_probability_mean_by_focus_index": {
+            "0": [
+              0.09748128801584244,
+              0.5162303447723389,
+              0.301321417093277,
+              0.0849670022726059
+            ],
+            "1": [
+              0.09940928220748901,
+              0.5137525200843811,
+              0.3009960651397705,
+              0.08584247529506683
+            ],
+            "2": [
+              0.10047079622745514,
+              0.5113071799278259,
+              0.30038854479789734,
+              0.08783365786075592
+            ],
+            "3": [
+              0.10143931955099106,
+              0.5094770193099976,
+              0.29996055364608765,
+              0.08912317454814911
+            ]
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.03516836203489786,
+          "four_focus_samples": 514,
+          "four_focus_coverage": 0.03516836203489786,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 518.732294476591,
+          "perception_seconds": 57.80588080268353,
+          "episodes": 32,
+          "SR": 0.40625,
+          "SPL": 0.2933646136257054,
+          "nDTW": 0.3628549000211043,
+          "oracle_success": 0.5625,
+          "reward_sum": 0.15659348554909228,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 514,
+              "EV": 0.0064850982582980166,
+              "MSE": 1.2705493435033977,
+              "prediction_mean": 0.16637718673172164,
+              "return_mean": 0.1991545566111498
+            },
+            "branch_terminal_only": {
+              "transitions": 314,
+              "EV": -0.0008221611744017032,
+              "MSE": 1.7771680299012036,
+              "prediction_mean": 0.17476333378796366,
+              "return_mean": 0.5838419900260595
+            },
+            "original_all_bootstrapped": {
+              "transitions": 514,
+              "EV": 0.0064850982582980166,
+              "MSE": 1.2705493435033977,
+              "prediction_mean": 0.16637718673172164,
+              "return_mean": 0.1991545566111498
+            },
+            "original_terminal_only": {
+              "transitions": 314,
+              "EV": -0.0008221611744017032,
+              "MSE": 1.7771680299012036,
+              "prediction_mean": 0.17476333378796366,
+              "return_mean": 0.5838419900260595
+            }
+          }
+        },
+        "independent": {
+          "transitions": 489,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 489
+          },
+          "camera_histogram": {
+            "0": 0,
+            "1": 1956,
+            "2": 0,
+            "3": 0
+          },
+          "camera_probability_mean_by_focus_index": {
+            "0": [
+              0.0970996767282486,
+              0.5112261772155762,
+              0.30680403113365173,
+              0.08486999571323395
+            ],
+            "1": [
+              0.09901203215122223,
+              0.5088440179824829,
+              0.306408166885376,
+              0.08573605120182037
+            ],
+            "2": [
+              0.10006293654441833,
+              0.5064070224761963,
+              0.3058168888092041,
+              0.0877133309841156
+            ],
+            "3": [
+              0.10105317085981369,
+              0.5045760273933411,
+              0.3053549826145172,
+              0.08901592344045639
+            ]
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.035173474645322084,
+          "four_focus_samples": 489,
+          "four_focus_coverage": 0.035173474645322084,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 489.56996798235923,
+          "perception_seconds": 54.67799630109221,
+          "episodes": 32,
+          "SR": 0.28125,
+          "SPL": 0.2109142969617195,
+          "nDTW": 0.3340337194524486,
+          "oracle_success": 0.4375,
+          "reward_sum": -0.25486580738797787,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 489,
+              "EV": 0.0009826412447818678,
+              "MSE": 1.2962574134553224,
+              "prediction_mean": 0.1720715522126186,
+              "return_mean": -0.13453447981703395
+            },
+            "branch_terminal_only": {
+              "transitions": 339,
+              "EV": -0.0005387380733656855,
+              "MSE": 1.6694618396212622,
+              "prediction_mean": 0.1763391411453925,
+              "return_mean": -0.018020783872185295
+            },
+            "original_all_bootstrapped": {
+              "transitions": 489,
+              "EV": 0.0009826412447818678,
+              "MSE": 1.2962574134553224,
+              "prediction_mean": 0.1720715522126186,
+              "return_mean": -0.13453447981703395
+            },
+            "original_terminal_only": {
+              "transitions": 339,
+              "EV": -0.0005387380733656855,
+              "MSE": 1.6694618396212622,
+              "prediction_mean": 0.1763391411453925,
+              "return_mean": -0.018020783872185295
+            }
+          }
+        }
+      },
+      "system_gpu_samples": {
+        "0": {
+          "samples": 518,
+          "peak_memory_MiB": 12273.0,
+          "sampled_system_Wh": 124.14166463473536
+        },
+        "1": {
+          "samples": 518,
+          "peak_memory_MiB": 23900.0,
+          "sampled_system_Wh": 137.48609134030684
+        }
+      },
+      "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+      "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+      "partial": false,
+      "total_run_wall_seconds_including_startup_probes_evaluation": 3955.3033930575475,
+      "fresh_training_transitions_this_run": 512
+    },
+    "C": {
+      "branch": "C",
+      "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/checkpoints/added_0512.pt",
+      "checkpoint_sha256": "23be9095cd62c615f335cd9af6f2e6b6d2d36585f3656febfbbc06c07d8cc8cf",
+      "added_trained_transitions": 512,
+      "updates": 6,
+      "update_batch_sizes": [
+        80,
+        71,
+        105,
+        68,
+        68,
+        120
+      ],
+      "in_sample_critic_EV_by_update": [
+        -0.011653780937194824,
+        0.048570871353149414,
+        0.023980677127838135,
+        0.027545571327209473,
+        0.031081855297088623,
+        0.05610215663909912
+      ],
+      "optimizer_hyperparameters": {
+        "actor_learning_rate": 0.0001,
+        "critic_learning_rate": 0.0002,
+        "rollout_minimum": 64,
+        "focus_cost": 0.01
+      },
+      "new_optimizer_steps": 70,
+      "ratio_max_error": 0.0,
+      "update_seconds": 40.05160038918257,
+      "subsets": {
+        "train": {
+          "transitions": 512,
+          "focus_distribution": {
+            "0": 158,
+            "1": 113,
+            "2": 77,
+            "3": 43,
+            "4": 121
+          },
+          "camera_histogram": {
+            "0": 63,
+            "1": 573,
+            "2": 191,
+            "3": 53
+          },
+          "camera_probability_mean_by_focus_index": {
+            "0": [
+              0.07007717341184616,
+              0.6491290330886841,
+              0.23436033725738525,
+              0.04643331840634346
+            ],
+            "1": [
+              0.0710601881146431,
+              0.6503897309303284,
+              0.23219193518161774,
+              0.04635796323418617
+            ],
+            "2": [
+              0.07050438970327377,
+              0.6496434807777405,
+              0.23273438215255737,
+              0.047117698937654495
+            ],
+            "3": [
+              0.07074755430221558,
+              0.6447553038597107,
+              0.2364192008972168,
+              0.04807813838124275
+            ]
+          },
+          "focus_mean": 1.71875,
+          "zero_focus_fraction": 0.30859375,
+          "coverage_mean": 0.04911899194121361,
+          "four_focus_samples": 121,
+          "four_focus_coverage": 0.1051039813963835,
+          "four_focus_repeat_fraction": 0.013774104683195591,
+          "four_focus_unique_cameras": 2.0826446280991737,
+          "model_seconds": 490.85664732102305,
+          "perception_seconds": 27.604789760895073,
+          "reward_components": {
+            "progress": 7.310436221957207,
+            "focus_cost": -8.799999999999999,
+            "step_cost": -5.120000000000001,
+            "terminal": 24.0,
+            "coverage_bonus": 7.1534716796875015
+          },
+          "episodes": 36,
+          "wall_seconds": 1302.7747547011822
+        },
+        "historical": {
+          "transitions": 539,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 539
+          },
+          "camera_histogram": {
+            "0": 0,
+            "1": 2156,
+            "2": 0,
+            "3": 0
+          },
+          "camera_probability_mean_by_focus_index": {
+            "0": [
+              0.09888976812362671,
+              0.7060481309890747,
+              0.1531803011894226,
+              0.04188140481710434
+            ],
+            "1": [
+              0.1015242412686348,
+              0.7046020030975342,
+              0.15195567905902863,
+              0.0419178269803524
+            ],
+            "2": [
+              0.10223810374736786,
+              0.7051203846931458,
+              0.1503870040178299,
+              0.042254697531461716
+            ],
+            "3": [
+              0.10373815149068832,
+              0.7041223645210266,
+              0.1493789255619049,
+              0.04276061803102493
+            ]
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.03519564258808992,
+          "four_focus_samples": 539,
+          "four_focus_coverage": 0.03519564258808992,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 540.5451691923663,
+          "perception_seconds": 60.4531753892079,
+          "episodes": 32,
+          "SR": 0.34375,
+          "SPL": 0.27834790327642295,
+          "nDTW": 0.337303337042381,
+          "oracle_success": 0.625,
+          "reward_sum": 0.0557096245595151,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 539,
+              "EV": 0.005270968468085169,
+              "MSE": 1.6123474471234402,
+              "prediction_mean": 0.973196502519229,
+              "return_mean": 0.2688310432166735
+            },
+            "branch_terminal_only": {
+              "transitions": 314,
+              "EV": 0.004427122783651649,
+              "MSE": 2.2265128456162335,
+              "prediction_mean": 0.9720090327748827,
+              "return_mean": 0.2792559802959959
+            },
+            "original_all_bootstrapped": {
+              "transitions": 539,
+              "EV": 0.005052873291312987,
+              "MSE": 1.7975738237844403,
+              "prediction_mean": 0.973196502519229,
+              "return_mean": 0.17350585356625625
+            },
+            "original_terminal_only": {
+              "transitions": 314,
+              "EV": 0.004404953119059085,
+              "MSE": 2.3744208055494953,
+              "prediction_mean": 0.9720090327748827,
+              "return_mean": 0.20182343812369144
+            }
+          }
+        },
+        "independent": {
+          "transitions": 541,
+          "focus_distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 541
+          },
+          "camera_histogram": {
+            "0": 0,
+            "1": 2164,
+            "2": 0,
+            "3": 0
+          },
+          "camera_probability_mean_by_focus_index": {
+            "0": [
+              0.09988869726657867,
+              0.6977221965789795,
+              0.1599975973367691,
+              0.0423915833234787
+            ],
+            "1": [
+              0.10252387821674347,
+              0.6963373422622681,
+              0.15871205925941467,
+              0.04242610186338425
+            ],
+            "2": [
+              0.10322050005197525,
+              0.6969342827796936,
+              0.15708982944488525,
+              0.04275556653738022
+            ],
+            "3": [
+              0.10475818067789078,
+              0.6959435343742371,
+              0.15602359175682068,
+              0.04327471926808357
+            ]
+          },
+          "focus_mean": 4.0,
+          "zero_focus_fraction": 0.0,
+          "coverage_mean": 0.035195153213472774,
+          "four_focus_samples": 541,
+          "four_focus_coverage": 0.035195153213472774,
+          "four_focus_repeat_fraction": 1.0,
+          "four_focus_unique_cameras": 1.0,
+          "model_seconds": 554.9536641668528,
+          "perception_seconds": 61.79535417817533,
+          "episodes": 32,
+          "SR": 0.375,
+          "SPL": 0.26591697117906266,
+          "nDTW": 0.32978745869636616,
+          "oracle_success": 0.5625,
+          "reward_sum": 0.1598659485847585,
+          "critic": {
+            "branch_all_bootstrapped": {
+              "transitions": 541,
+              "EV": 0.0006302129986512917,
+              "MSE": 1.474606974649976,
+              "prediction_mean": 0.9770289075572918,
+              "return_mean": 0.45908895784902354
+            },
+            "branch_terminal_only": {
+              "transitions": 341,
+              "EV": 0.0008836585486983184,
+              "MSE": 2.057000051087822,
+              "prediction_mean": 0.974998602769242,
+              "return_mean": 0.49925146955865
+            },
+            "original_all_bootstrapped": {
+              "transitions": 541,
+              "EV": 0.0006117582680458256,
+              "MSE": 1.6066983950607356,
+              "prediction_mean": 0.9770289075572918,
+              "return_mean": 0.3649879812235611
+            },
+            "original_terminal_only": {
+              "transitions": 341,
+              "EV": 0.001007313780517216,
+              "MSE": 2.1525452729082275,
+              "prediction_mean": 0.974998602769242,
+              "return_mean": 0.4204998870175796
+            }
+          }
+        }
+      },
+      "system_gpu_samples": {
+        "0": {
+          "samples": 550,
+          "peak_memory_MiB": 12273.0,
+          "sampled_system_Wh": 132.7157595036758
+        },
+        "1": {
+          "samples": 550,
+          "peak_memory_MiB": 23900.0,
+          "sampled_system_Wh": 129.7445379584409
+        }
+      },
+      "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+      "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+      "partial": false,
+      "total_run_wall_seconds_including_startup_probes_evaluation": 4104.111362767406,
+      "fresh_training_transitions_this_run": 512
+    }
+  },
+  "audits": {
+    "C0": {
+      "passed": true,
+      "fresh_transitions_updated_once": 512,
+      "max_abs_errors": {
+        "reward": 0.0,
+        "components": 2.7755575615628914e-17,
+        "returns": 0.0,
+        "advantages": 0.0
+      },
+      "scope": "independent reconstruction from fresh traces, compared against actual saved PPO GAE targets; recovery replay is not double-counted",
+      "process_exit_code": 134,
+      "opengl_cleanup_error": true
+    },
+    "C": {
+      "passed": true,
+      "fresh_transitions_updated_once": 512,
+      "max_abs_errors": {
+        "reward": 0.0,
+        "components": 2.7755575615628914e-17,
+        "returns": 0.0,
+        "advantages": 0.0
+      },
+      "scope": "independent reconstruction from fresh traces, compared against actual saved PPO GAE targets; recovery replay is not double-counted",
+      "process_exit_code": 134,
+      "opengl_cleanup_error": true
+    }
+  },
+  "paired": {
+    "C_minus_C0_independent": {
+      "success_to_failure": 2,
+      "failure_to_success": 5,
+      "exact_mcnemar_p": 0.453125,
+      "delta_SR": {
+        "mean": 0.09375,
+        "ci95": [
+          -0.0625,
+          0.25
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": 0.055002674217343187,
+        "ci95": [
+          -0.07472712225376439,
+          0.1876299168970442
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.004246260756082455,
+        "ci95": [
+          -0.11120974483887956,
+          0.10613976553005591
+        ],
+        "episodes": 32
+      }
+    },
+    "C_minus_C0_historical": {
+      "success_to_failure": 4,
+      "failure_to_success": 2,
+      "exact_mcnemar_p": 0.6875,
+      "delta_SR": {
+        "mean": -0.0625,
+        "ci95": [
+          -0.21875,
+          0.09375
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.015016710349282453,
+        "ci95": [
+          -0.10955773078798729,
+          0.08941831471531761
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.02555156297872327,
+        "ci95": [
+          -0.10141768239629559,
+          0.05115357567478935
+        ],
+        "episodes": 32
+      }
+    },
+    "C0_minus_BASE_independent": {
+      "success_to_failure": 7,
+      "failure_to_success": 4,
+      "exact_mcnemar_p": 0.548828125,
+      "delta_SR": {
+        "mean": -0.09375,
+        "ci95": [
+          -0.28125,
+          0.09375
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.09170247816343643,
+        "ci95": [
+          -0.23766106634131545,
+          0.04978453725787518
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.014983162946335409,
+        "ci95": [
+          -0.11653668458855701,
+          0.0826507587540557
+        ],
+        "episodes": 32
+      }
+    },
+    "C_minus_BASE_independent": {
+      "success_to_failure": 4,
+      "failure_to_success": 4,
+      "exact_mcnemar_p": 1.0,
+      "delta_SR": {
+        "mean": 0.0,
+        "ci95": [
+          -0.1875,
+          0.1875
+        ],
+        "episodes": 32
+      },
+      "delta_SPL": {
+        "mean": -0.03669980394609326,
+        "ci95": [
+          -0.16839293261482394,
+          0.09006841822706035
+        ],
+        "episodes": 32
+      },
+      "delta_nDTW": {
+        "mean": -0.019229423702417855,
+        "ci95": [
+          -0.12263664129413994,
+          0.07773041088484794
+        ],
+        "episodes": 32
+      }
+    }
+  },
+  "same_initial_state": {
+    "BASE": {
+      "states": 32,
+      "progress_delta_vs_C0": {
+        "mean": -0.01504981517791748,
+        "ci95": [
+          -0.04340102449059487,
+          0.0028291061520576448
+        ],
+        "episodes": 32
+      },
+      "coverage": 0.03517341613769531,
+      "repeat": 1.0
+    },
+    "C0": {
+      "states": 32,
+      "progress_delta_vs_C0": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "episodes": 32
+      },
+      "coverage": 0.03517913818359375,
+      "repeat": 1.0
+    },
+    "C": {
+      "states": 32,
+      "progress_delta_vs_C0": {
+        "mean": -0.0019303709268569946,
+        "ci95": [
+          -0.025125119462609292,
+          0.02343035079538817
+        ],
+        "episodes": 32
+      },
+      "coverage": 0.03517910838127136,
+      "repeat": 1.0
+    }
+  },
+  "spatial_checks": {
+    "N4_coverage_gain_ge_25pct": false,
+    "N4_repeat_drop_ge_015": false
+  },
+  "exploration_screen_passed": false,
+  "automatic_extension": false,
+  "Task233_configuration_approved": false,
+  "feature_JS_or_KL_reward_used": false,
+  "adapter_retrained": false,
+  "gate_note": "Exploration screen is distinct from navigation benefit; beta fixed before run; no automatic extra budget.",
+  "mechanism_attribution": {
+    "branches": {
+      "C": {
+        "branch": "C",
+        "transitions": 512,
+        "camera_counts": [
+          63,
+          573,
+          191,
+          53
+        ],
+        "first_camera_counts": [
+          27,
+          224,
+          82,
+          21
+        ],
+        "geometric_bonus_at_beta_001": 7.153471679687479,
+        "actual_beta": 0.01,
+        "first_focus_share_of_bonus": 0.49486461378632646,
+        "later_focus_novelty_ge_095_fraction": 0.4049429657794677,
+        "sum_absolute_original_reward": 61.330284585058756,
+        "sum_absolute_progress_reward": 25.21581025471292,
+        "sum_absolute_terminal_reward": 36.0,
+        "bonus_focus_count_correlation": 0.9640143852858576,
+        "counterfactual_mean_bonus_gain_same_count_distinct_cameras": 0.0032158756256103517,
+        "updates": [
+          {
+            "branch": "C",
+            "update": 15,
+            "transitions": 80,
+            "base_adv_std": 1.1148933172225952,
+            "bonus_adv_std": 0.06537002325057983,
+            "base_camera_output_bias_loss_gradient": [
+              -0.014175749630190897,
+              0.0036158322408912148,
+              -0.06898273580063155,
+              0.07954264885119917
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              0.0015995157410071028,
+              -0.001741701761865607,
+              0.00011431189379452686,
+              2.787410480427719e-05
+            ],
+            "base_bonus_camera_gradient_cosine": -0.137635465661312,
+            "bonus_base_camera_gradient_norm_ratio": 0.02227340188585214,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.04435028415173292
+          },
+          {
+            "branch": "C",
+            "update": 16,
+            "transitions": 71,
+            "base_adv_std": 0.6507100462913513,
+            "bonus_adv_std": 0.06877978891134262,
+            "base_camera_output_bias_loss_gradient": [
+              0.02621327647100644,
+              -0.04824742036475053,
+              0.10141322158199528,
+              -0.07937908534049311
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.007029095512033666,
+              0.005370703865981143,
+              -0.004295744291797586,
+              0.00595413670202608
+            ],
+            "base_bonus_camera_gradient_cosine": -0.8398180532752174,
+            "bonus_base_camera_gradient_norm_ratio": 0.08211290072029404,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.017351391725242138
+          },
+          {
+            "branch": "C",
+            "update": 17,
+            "transitions": 105,
+            "base_adv_std": 0.8981453776359558,
+            "bonus_adv_std": 0.047495078295469284,
+            "base_camera_output_bias_loss_gradient": [
+              -0.08170097603822306,
+              0.015861665521397363,
+              0.07289821444715,
+              -0.007058907563505184
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              0.0007292307509967699,
+              -0.002189570507436801,
+              0.0005069535481896336,
+              0.0009533861038734857
+            ],
+            "base_bonus_camera_gradient_cosine": -0.22686540468881033,
+            "bonus_base_camera_gradient_norm_ratio": 0.022982669554019668,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.07406426128000021
+          },
+          {
+            "branch": "C",
+            "update": 18,
+            "transitions": 68,
+            "base_adv_std": 0.7274396419525146,
+            "bonus_adv_std": 0.05752944573760033,
+            "base_camera_output_bias_loss_gradient": [
+              -0.028829331383644134,
+              0.055301044865229396,
+              -0.04473689684449371,
+              0.018265175463198068
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.0003348889930481725,
+              -0.0006554016695908748,
+              0.004144561081345334,
+              -0.003154270760441802
+            ],
+            "base_bonus_camera_gradient_cosine": -0.6496942836853982,
+            "bonus_base_camera_gradient_norm_ratio": 0.06667241183889379,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.0193648898974061
+          },
+          {
+            "branch": "C",
+            "update": 19,
+            "transitions": 68,
+            "base_adv_std": 0.6851223111152649,
+            "bonus_adv_std": 0.057802580296993256,
+            "base_camera_output_bias_loss_gradient": [
+              0.0061086677908723875,
+              -0.016549630162686374,
+              0.014227469671719522,
+              -0.0037865100373202535
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.004249879047112199,
+              -9.544907666989745e-05,
+              0.0017828063830236302,
+              0.002562522513373008
+            ],
+            "base_bonus_camera_gradient_cosine": -0.0719536737040773,
+            "bonus_base_camera_gradient_norm_ratio": 0.22953083737866561,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.04748441092669964
+          },
+          {
+            "branch": "C",
+            "update": 20,
+            "transitions": 120,
+            "base_adv_std": 0.5895829200744629,
+            "bonus_adv_std": 0.053156156092882156,
+            "base_camera_output_bias_loss_gradient": [
+              -0.03250384333699362,
+              -0.04225467203045277,
+              0.084116388786772,
+              -0.009357880655680956
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.002245974961916741,
+              0.0009693566243978403,
+              0.004753276885021359,
+              -0.0034766586959967217
+            ],
+            "base_bonus_camera_gradient_cosine": 0.728076940053203,
+            "bonus_base_camera_gradient_norm_ratio": 0.06375276368284039,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.14195175631903112
+          }
+        ],
+        "gradient_scope": "Exact initial-ratio-one unclipped surrogate gradient for camera_head final output bias only, summed over chosen decisions and averaged by navigation states; base and bonus centered with common shaped-advantage std. Excludes entropy, shared trunk, later minibatches, clipping and Adam history. C0 bonus is counterfactual diagnostic, not actual training.",
+        "counterfactual_scope": "geometry-only relabeling to distinct cameras, same number/coordinates; not a navigation intervention or off-policy training"
+      },
+      "C0": {
+        "branch": "C0",
+        "transitions": 512,
+        "camera_counts": [
+          58,
+          530,
+          256,
+          65
+        ],
+        "first_camera_counts": [
+          27,
+          209,
+          105,
+          25
+        ],
+        "geometric_bonus_at_beta_001": 7.527710232204834,
+        "actual_beta": 0.0,
+        "first_focus_share_of_bonus": 0.4862036246217155,
+        "later_focus_novelty_ge_095_fraction": 0.4419889502762431,
+        "sum_absolute_original_reward": 59.67710041602451,
+        "sum_absolute_progress_reward": 26.37684284845991,
+        "sum_absolute_terminal_reward": 34.0,
+        "bonus_focus_count_correlation": 0.9636837689652815,
+        "counterfactual_mean_bonus_gain_same_count_distinct_cameras": 0.0030513472027248805,
+        "updates": [
+          {
+            "branch": "C0",
+            "update": 15,
+            "transitions": 80,
+            "base_adv_std": 1.1148933172225952,
+            "bonus_adv_std": 0.06537002325057983,
+            "base_camera_output_bias_loss_gradient": [
+              -0.014175749630190897,
+              0.0036158322408912148,
+              -0.06898273580063155,
+              0.07954264885119917
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              0.0015995157410071028,
+              -0.001741701761865607,
+              0.00011431189379452686,
+              2.787410480427719e-05
+            ],
+            "base_bonus_camera_gradient_cosine": -0.137635465661312,
+            "bonus_base_camera_gradient_norm_ratio": 0.02227340188585214,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.04691438730806112
+          },
+          {
+            "branch": "C0",
+            "update": 16,
+            "transitions": 71,
+            "base_adv_std": 0.5635659098625183,
+            "bonus_adv_std": 0.06874033808708191,
+            "base_camera_output_bias_loss_gradient": [
+              0.030743356375753202,
+              -0.023178762407906173,
+              0.07094756809741189,
+              -0.07851216371084911
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.008227202415671802,
+              0.0034919377726366947,
+              -0.002187331445619502,
+              0.006922595620538331
+            ],
+            "base_bonus_camera_gradient_cosine": -0.7963509546234016,
+            "bonus_base_camera_gradient_norm_ratio": 0.10225606419516368,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.017351391725242138
+          },
+          {
+            "branch": "C0",
+            "update": 17,
+            "transitions": 105,
+            "base_adv_std": 0.7856594324111938,
+            "bonus_adv_std": 0.054416950792074203,
+            "base_camera_output_bias_loss_gradient": [
+              -0.011480203947447105,
+              0.00914953074379314,
+              0.020570483341917672,
+              -0.018239811415571943
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              0.0026331929731655285,
+              0.0012970299621062199,
+              -0.0026164788881933338,
+              -0.0013137430406221582
+            ],
+            "base_bonus_camera_gradient_cosine": -0.3732064769133279,
+            "bonus_base_camera_gradient_norm_ratio": 0.1330222973874501,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.07530417745666844
+          },
+          {
+            "branch": "C0",
+            "update": 18,
+            "transitions": 77,
+            "base_adv_std": 0.8519456386566162,
+            "bonus_adv_std": 0.054568156599998474,
+            "base_camera_output_bias_loss_gradient": [
+              -0.0383067779979885,
+              0.1556124523713809,
+              -0.14215781271674255,
+              0.024852148006227277
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.001255464548926341,
+              -0.002635925309094367,
+              0.007041016269499298,
+              -0.003149625985845103
+            ],
+            "base_bonus_camera_gradient_cosine": -0.8103377058421521,
+            "bonus_base_camera_gradient_norm_ratio": 0.03824286084462564,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.1318374827504158
+          },
+          {
+            "branch": "C0",
+            "update": 19,
+            "transitions": 66,
+            "base_adv_std": 0.6191322207450867,
+            "bonus_adv_std": 0.05911664292216301,
+            "base_camera_output_bias_loss_gradient": [
+              -0.016324424951064554,
+              0.13251084558123966,
+              -0.17492533999892196,
+              0.05873892122589851
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.003746203065597356,
+              -0.004138658795906553,
+              0.0044884159500371175,
+              0.003396446102262551
+            ],
+            "base_bonus_camera_gradient_cosine": -0.5942197787977318,
+            "bonus_base_camera_gradient_norm_ratio": 0.03480605542795456,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.16060790419578552
+          },
+          {
+            "branch": "C0",
+            "update": 20,
+            "transitions": 113,
+            "base_adv_std": 0.7340734004974365,
+            "bonus_adv_std": 0.058130934834480286,
+            "base_camera_output_bias_loss_gradient": [
+              0.017969214971221538,
+              -0.00835042551325396,
+              0.04378110875021103,
+              -0.053399905310594756
+            ],
+            "bonus_camera_output_bias_loss_gradient": [
+              -0.0037257421875113495,
+              -0.0015006414793846121,
+              0.006631811720414885,
+              -0.0014054276842326906
+            ],
+            "base_bonus_camera_gradient_cosine": 0.5493628824004635,
+            "bonus_base_camera_gradient_norm_ratio": 0.10968392939422161,
+            "kl_early_stop": false,
+            "mean_logged_clip_fraction": 0.13830820191651583
+          }
+        ],
+        "gradient_scope": "Exact initial-ratio-one unclipped surrogate gradient for camera_head final output bias only, summed over chosen decisions and averaged by navigation states; base and bonus centered with common shaped-advantage std. Excludes entropy, shared trunk, later minibatches, clipping and Adam history. C0 bonus is counterfactual diagnostic, not actual training.",
+        "counterfactual_scope": "geometry-only relabeling to distinct cameras, same number/coordinates; not a navigation intervention or off-policy training"
+      }
+    },
+    "synthetic_geometry_checks": [
+      {
+        "case": "same_roi_same_camera",
+        "bonus": 0.01,
+        "cost_plus_bonus": -0.03
+      },
+      {
+        "case": "same_roi_four_cameras",
+        "bonus": 0.04,
+        "cost_plus_bonus": 0.0
+      }
+    ],
+    "gradient_formula_audit": {
+      "passed": true,
+      "decisions": 17,
+      "max_error": 1.7881393432617188e-07,
+      "scope": "actual update14 camera output bias autograd vs stored probability score; no optimizer update"
+    },
+    "not_established": [
+      "beta is causally too small",
+      "coverage encoder ignores history",
+      "larger beta would improve navigation",
+      "micro-step credit would fix the issue"
+    ]
+  }
+}

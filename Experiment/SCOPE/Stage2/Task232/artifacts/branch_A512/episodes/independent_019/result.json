@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:443",
+  "source_episode_id": "443",
+  "scene_id": "S9hNv5qa7GM",
+  "instruction": "Turn around and exit the door to your right. Once out, turn left and walk across the kitchen. Turn right into the dining room and out the other side. Once out turn left and walk to the first door on your right. Stop once you enter the bedroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.4535739421844482,
+  "path_length": 15.57904583401978,
+  "gt_path_length": 12.897455215454102,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7247812258666905,
+  "purpose": "val_seen",
+  "wall_seconds": 31.90798091609031,
+  "training": {
+    "episode_id": "443",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/9b9cad5f9f544f0db62011f0aa8bf57d_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "443",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_9b9cad5f9f544f0db62011f0aa8bf57d.pt",
+      "transitions": 15,
+      "reward_sum": 2.4077397187550864,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.6222090631723404,
+        "camera": 0.8698360949754715,
+        "position_latent": 2.4825939575831097
+      },
+      "start_geodesic_distance": 12.069669723510742,
+      "final_geodesic_distance": 1.4535739421844482,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14934.322451241314,
+      "perception_ms": 1676.7605766654015
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.7077397187550862,
+      "focus_cost": -0.15,
+      "step_cost": -0.15,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.774737416662216,
+  "reward_sum": 2.4077397187550864,
+  "focus_mean": 4.0
+}

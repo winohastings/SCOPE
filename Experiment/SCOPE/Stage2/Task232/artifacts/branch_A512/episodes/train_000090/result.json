@@ -1,0 +1,85 @@
+{
+  "episode_uid": "scope_stage2_train:7259",
+  "source_episode_id": "7259",
+  "scene_id": "rPc6DW4iMge",
+  "instruction": "Turn around and enter the hall. Turn left and enter the bedroom. Walk past the bed, enter the bathroom and wait in front of the sink.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.5546029806137085,
+  "path_length": 10.197337278164923,
+  "gt_path_length": 9.153203300340136,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8532523807520681,
+  "purpose": "train",
+  "wall_seconds": 24.843017851002514,
+  "training": {
+    "episode_id": "7259",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/d2caf06198fc45999b35aef8c532898d_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7259",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_d2caf06198fc45999b35aef8c532898d.pt",
+      "transitions": 11,
+      "reward_sum": 2.34994206905365,
+      "focus_histogram": {
+        "0": 3,
+        "4": 4,
+        "3": 1,
+        "1": 1,
+        "2": 2
+      },
+      "camera_histogram": {
+        "2": 6,
+        "1": 13,
+        "3": 2,
+        "0": 3
+      },
+      "entropy": {
+        "stop": 0.6072451626100848,
+        "camera": 0.8838268230038304,
+        "position_latent": 2.4383494238699637
+      },
+      "start_geodesic_distance": 8.353734016418457,
+      "final_geodesic_distance": 0.5546029806137085,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10563.938266597688,
+      "perception_ms": 717.8323566913605
+    },
+    "collected": 1261,
+    "buffer_transitions": 77,
+    "reward_components": {
+      "progress": 0.5199420690536499,
+      "focus_cost": -0.06,
+      "step_cost": -0.10999999999999999,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.819207386060076,
+  "reward_sum": 2.34994206905365,
+  "focus_mean": 2.1818181818181817
+}

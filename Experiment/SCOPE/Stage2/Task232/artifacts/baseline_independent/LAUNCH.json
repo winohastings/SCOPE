@@ -1,0 +1,11 @@
+{
+  "output": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent",
+  "branch": "U",
+  "mode": "baseline",
+  "budget": 512,
+  "port": 10241,
+  "model_gpu": "1",
+  "gate": null,
+  "resume": null,
+  "extension_decision": null
+}

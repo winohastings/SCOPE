@@ -1,0 +1,83 @@
+{
+  "episode_uid": "agm_ppo_val_seen:136",
+  "source_episode_id": "136",
+  "scene_id": "aayBHfsNo7d",
+  "instruction": "Go all the way to the glass double doors and stop in the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.2222511768341064,
+  "path_length": 14.5019733204972,
+  "gt_path_length": 12.603466033935547,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6933023686163993,
+  "purpose": "val_seen",
+  "wall_seconds": 30.90731962956488,
+  "training": {
+    "episode_id": "136",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/fdef2880ee594830bf3bb679f17524ea_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "136",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_fdef2880ee594830bf3bb679f17524ea.pt",
+      "transitions": 15,
+      "reward_sum": 2.0907764911651614,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.6551748802264531,
+        "camera": 0.9437419732411703,
+        "position_latent": 2.5852386633555096
+      },
+      "start_geodesic_distance": 12.583898544311523,
+      "final_geodesic_distance": 2.2222511768341064,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14964.211196638644,
+      "perception_ms": 1696.2633319199085
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.6907764911651613,
+      "focus_cost": -0.6,
+      "step_cost": -0.15,
+      "terminal": 2.0,
+      "coverage_bonus": 0.15
+    }
+  },
+  "SR": 1,
+  "SPL": 0.8677369807683583,
+  "reward_sum": 2.0907764911651614,
+  "focus_mean": 4.0
+}

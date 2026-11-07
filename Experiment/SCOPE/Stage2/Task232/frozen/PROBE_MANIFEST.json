@@ -1,0 +1,1607 @@
+{
+  "pre_focus": [
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6e5048b1a78f4f928eb0853d7201cb61_0000.pt",
+      "sha256": "a14ba8cff70147f09fbcf162c42bc672486ea5a90069c334db9776e17169fa2c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/87846d27ad264932856f4cfdbb703e54_0000.pt",
+      "sha256": "a437e251d0834b7f9f30c4e2f82f6731c1bcdb8332612dbd4884429ca5fc732a"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/88d28c7096cd471396ac781538bc5725_0000.pt",
+      "sha256": "6cb53ef538f7087279d1aea03110cfb3725c0337a4659968ddbab642c5dd9610"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/75babf5818ba4b76874f6fc787bf5df4_0000.pt",
+      "sha256": "522544362f07b47f508312011651b7c718b3528600eae770f335b36a7f39af69"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2fc41fcc91d84cfb865b16d9b3485023_0000.pt",
+      "sha256": "a1bc3c0be2ea4a7100b434fde56f2edf079c4abd9892a24fa63606edf4f215d9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0000.pt",
+      "sha256": "90f9b7fb8b552ae06dc14e560900d68624bc220303bb7ab7c84310fa9ae53f2b"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2371cb94d9f3423bb1b9f915b695b8fa_0000.pt",
+      "sha256": "ef23d46bc172d7816f5b3056c803512afd066d317b7008bf063bef763c52d3b0"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b12ab7f444f4c68915817f8c248042b_0000.pt",
+      "sha256": "2d9b809721c0ef6a660818106f6606817dc7957206da035a9408008bde52cdac"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/373ef16e42aa49e7b0ee3fdf2aee3041_0000.pt",
+      "sha256": "ad9d7146d380ed3d718f01343f3482c64a6da064e108d4168e0a2c36796183f9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0373becdb9394e2bb4dd08676e0fd65b_0000.pt",
+      "sha256": "3d81a68067be9d125ee1ca5eae10fb4ef33ecd6e7bb50677b359417eeb73bf14"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b7429b188b784be0b4a3869f73b215ef_0000.pt",
+      "sha256": "080f975cbbe4597d0917295cffd4ce2b1c2e412f67c7145be4112b1fcf219332"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed5ae179493649edb0d31127fb28f7ff_0000.pt",
+      "sha256": "2b68d41b401bbd1a3da4012da45276f3d89cca4bf660b1268031d56da4d37a69"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/5268951f575247288621f373c36217d7_0000.pt",
+      "sha256": "4891f15b6a2187b2eba633b399d501173a7c11e5fead5fb6dfe0b7da1c71b738"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cd66dae97b164289b38ac6d40671171f_0000.pt",
+      "sha256": "5f9c2c621563ee8ba1deeceb5404df59374b922b6141795c369a7f29f1445649"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/39b47c493b7c4d71b7d22421b77df45c_0000.pt",
+      "sha256": "ef9538519512e226fac15f70e29ac64584c85e1c60d56735b339cf5e47aa5743"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/d7fc4df4d723448ebe41dc3cb0b45c99_0000.pt",
+      "sha256": "c76f37c62f2402281af73b0ef51a52ab9762d500a18053ba3ec8ca2f02561dce"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7a4ce0983ad4455ba99865dd0a380d76_0000.pt",
+      "sha256": "f8e58d9b7721801ff768d1bf2e908a47cd2f1f98d8ba6726cca564317487abec"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/5ee0fb0c91ee4179897febe45e3cf633_0000.pt",
+      "sha256": "99c7f678fe0adc6aa37645007c57425767e3d5ca7e3f8809b02c62f7e9aac1fb"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cebf2d6723b74d4eb906e19f02510dab_0000.pt",
+      "sha256": "1f10a76beecba31442206edd2dbb93cf50b02a2dfcc6d3f79d427a6ad1d7e1d4"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/51d7725e40604dc6acd557f2090e9e50_0000.pt",
+      "sha256": "70b705060555460f4675a145cf9a5f90bbda20384d43fafbc435cd7127afbebe"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0000.pt",
+      "sha256": "e768a4e190de0736f955b27f04e6e35ccbe236bab1d6bf302c288f10b1f4c2bf"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0000.pt",
+      "sha256": "78e99a226ea14d9df9d3b1887bb906543f6b9a6ca04e4ec09ef8a3adbe49d0ac"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6c2579a3330341af920506d6fea4aaef_0000.pt",
+      "sha256": "a60a7e65d734b13168e3fde01a30e1474e771e4459abcc5ccc5de8b6ac7a0c83"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0000.pt",
+      "sha256": "0e0e3b133e78f364fa1b3134c337e4d6e480dd7db0036a51a7127963acb8ae0f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/61dfcdf1aad24c579c2168992860417d_0000.pt",
+      "sha256": "2f12a5159760844056b68c642152cdf0713ac58b81d55d8a92b095b7b8f436d9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/22fc04a32ed04bdeb806415a376b0523_0000.pt",
+      "sha256": "e4a43ee3152cee5f8171caa1eb40abfcd472c20141f88b030e17984562590ef0"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c087c33a5037401b887d1d0366a08a96_0000.pt",
+      "sha256": "a70c304960d0654ab687114de2ef62611b87c295b4e50f5ed5db81436e8989e1"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9164b21503f7438486c2126370177a97_0000.pt",
+      "sha256": "4a67ae9f1f9d988c3692946981ec5ffb09c8b007256a2cc990a869b9baefda16"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25367df132024cb1842e0bbf7d964541_0000.pt",
+      "sha256": "7c07fefb30f8e140f17ab09d093c9ecf22b5190ec620cb8023f69c6b466ea1da"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8e9b90e40f644e59a76a3381e0a0c457_0000.pt",
+      "sha256": "db94bc53f97ed0201a50b913431c3025654e4dc915d03fe23ef2339a851db514"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b783dbf0566940f2a0622d71ca5a7a0e_0000.pt",
+      "sha256": "507617a5bde3b6b9f33ee0dd2f2072ef1b98c9d6835cfd8724b682f3c45c9490"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/73b2d658000f461087eb59b0dd30516d_0000.pt",
+      "sha256": "9e00e4147b7828e7d65fed1510622991fba9a947d4cb916705cb8e3ff76e7bb6"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0000.pt",
+      "sha256": "0a4a91c34ea29693d7353e5519d32f3a7b23ef139c094d6cab8356558159948f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/be8f7077740444549da2a0242d7a1b3f_0000.pt",
+      "sha256": "5881f4ae80d070cc7e988288557a415a13b873bba99904f9e88cd2fac4d12be8"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0ec4bf21f689442f9456c13dd0cd2470_0000.pt",
+      "sha256": "59141c2f63d3b5f94ed4e254bdeb6fdeb970b00f92a96a9412862b39f2efce19"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2348d7d412f54356afed074b2b5e5d94_0000.pt",
+      "sha256": "1704ce0d331ccf5934c6d4e204692fdafe3a7077e091743ff2c085ae6ee65956"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ad05c9133ecf420387292c4474672175_0000.pt",
+      "sha256": "23f045355d402e73673118df213e994bd00633a9497aaf93c928ba1f29d1da7b"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/727060ec89694a78a2515104e7090c02_0000.pt",
+      "sha256": "35bc7bfda42a742f909e4afa99d601e098c8ef69deeebeb7dd9fdec718017eef"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0000.pt",
+      "sha256": "79d78e196d0495320ddc3e6994507752a1b86c6d2b904c1e94f49d3f0f5ee640"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/af2fcb0b4b90460ab5ea6cc4075e8369_0000.pt",
+      "sha256": "aec8d893d8ce8016cd44ab87d3fe7d19ea1870502bddea0d3952ddb4cb8705b1"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/5665030ea8e74ef491199c15ad8fa964_0000.pt",
+      "sha256": "7ae4e8d406bd57f33dd8d5556c3162031f78e3829c08563f25af7d73b30acb9a"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/948472774bd248d397ce0d6e2744ef8b_0000.pt",
+      "sha256": "1aec5f013e3184e5c139a9b597e5a25dfa0e4f64b9485a56a80688c00eb9d945"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7f18e1b7a8d548f78007f0dbaddddb42_0000.pt",
+      "sha256": "76cfb1ba5ccb219645b8f2b9d08478bab7b8ea168bdad089c202026d0ed12608"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1032fc32953f4c8895534e6efc690580_0000.pt",
+      "sha256": "d3611af447bf7163cc76b71a238327e98a3b67a91fc7af0978cc505956db13c0"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/912304bbd4e047e79b6aa26df0b90aee_0000.pt",
+      "sha256": "10256cd2402b0d3e8ba06460d27c1ad824f8c718a3105375afa927fd71618685"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0000.pt",
+      "sha256": "5edbd0729529aaf7ce4c22e5427cc7e744ab53aaa24e42b5ccb6689d93722c6f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/18340bda65ba4b96a29119bbc993c304_0000.pt",
+      "sha256": "530e621fbd1229d7d0bd246223909b688ce24de3167a435e42e49885d3537a1c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4b1c24729f43404491362d41f0283963_0000.pt",
+      "sha256": "082167f73ffda42688cab2775dbbb60c866d17b35054718321bdc883e601a0fd"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/5e229d1d98664d2eaff0c6788bb0e287_0000.pt",
+      "sha256": "6759c142cecbc52dc1977d63dea99355d11242fdbfe76a9c4a5c856642839d61"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/abb9fbd5681a4a0cbac925bf98d2baf3_0000.pt",
+      "sha256": "71cc12e44257c8638a3b35d1bd63d681d5f2d3710a7b1425cee93857bb62cb36"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0000.pt",
+      "sha256": "213cefc0009b5ccd7615047788c364d98b182c346e1f9a60f4173a541e139315"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/44dfcaf668684b4981a46b464f006bf4_0000.pt",
+      "sha256": "88d789e1ee367871e3c3468897baa1733e918ea15359868c5f447090ac742508"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/361d9614fd99455cb0f75c38701d1f0a_0000.pt",
+      "sha256": "2073d0357680715121e00fd39c2e3474e0afa293ec37925e9d94ca35d41b37d0"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2fa24731b24a4d08b31c2195c2009da0_0000.pt",
+      "sha256": "1b0455f6aa769b1e2ec8c941ab9bdbcbd392665da6636af3170fa9ed919a33a6"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/440925c4f7c84a039901b23622bbac63_0000.pt",
+      "sha256": "a95c0263e9e31116c717b2e6c3e08dce5c00d1c144be64743b37a1cec6b04770"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f5962f9b883c4c1e87587abf2980a9f1_0000.pt",
+      "sha256": "6bff0fee8e13dae607a78132f82fa25d749d71e090680cbed41e695d5ad287fa"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/332a2895712b450c8da0361c289159e3_0000.pt",
+      "sha256": "3c122b6531ab3e44091a06af58a5cce32fbcda68900c77968b50d5d6bde1f2d9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ba48092cfbca441283d8aab0973692d4_0000.pt",
+      "sha256": "dbadbb1e37c5d425cd51dd7754f3f439f8b6005326af305555290ad262b57d8e"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7a1a5e9e127f4ed8a4b547d53c82c8ca_0000.pt",
+      "sha256": "07e8ca00745030eb171d5e13011c506728f41588e01f81b5ddfed6d42b24dcb2"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2188c154ef29445ba9279ab8ab9d9d9f_0000.pt",
+      "sha256": "c5d90ffe47345352e3a8b732c35c6efc576094e4a37403ab55cc5a6912978a51"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/46b5f4b661c646cd83a9c433e508b339_0000.pt",
+      "sha256": "e4fc5b0afdd0a6b5bcf3a4571e7e757ff40e350d42e5df73f35468ad89502a08"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2e7837c4c1c84a709d12f0e71c8f036b_0000.pt",
+      "sha256": "daf4b8f0ef60d1cba6aa11214bab775cc853501fd4e0deb768664cad735d839f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbd5186f93c74abd97c1e7d8c7570bbf_0000.pt",
+      "sha256": "d0090f7fe850fbb1776e87a640e74aa307a14f64a8a47ba6d5dafa2fdf9cfa07"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e4b0c352fe6e43eb9725cf75e78756ef_0000.pt",
+      "sha256": "c525c6438a52485aae038cfc3c2e37209ebf07ecf4a6b5d53e26003e02ac014f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/32ac4c512fdf41ff9166decbc15a5e25_0000.pt",
+      "sha256": "667818d34353fe29d4c59192a8aebc92ff60b32b67199958567da3212cdbfe54"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9ae2114d2db5484f8b50bd1a09b896dd_0000.pt",
+      "sha256": "654dd49b8a1aa533b0d3ac304ea7cdd8669ba73b9544c61bb90ff0059deb4b18"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34199373f5674bcfb2bc14d41fd05d93_0000.pt",
+      "sha256": "b50ffbfaf4bcd2d004dbf14070642232aeb75229684c62aa95b74fa781636acb"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e1a6db6fc05b4791b0df6edfdf3145ed_0000.pt",
+      "sha256": "5cbd490db1bb71f137dc0e31c6539e94f7fe6a135d44c948262ab79aef0a5657"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2e7a9bb2a16844b88134d70484b59c4a_0000.pt",
+      "sha256": "91a1836acdb4effd29f958bf163ae4f615e1e845fad747fcfad7ed02f23f0cee"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/5eecdc42a0d545b39b91c50c9e91c163_0000.pt",
+      "sha256": "8f51cfb0a504f1e5c47e8a3ede4972de09fd294eb1a33ef10f0c4b2d6ed147ae"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f6f74372b48947919ab13e2a80838bb4_0000.pt",
+      "sha256": "aec3322482462a36a793ee261c216e8bca9a6b218fe1c53f956d691e4e4aed5c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/47125004484a471a9cf241921c1c042b_0000.pt",
+      "sha256": "c686b78f2f06cd00e38318d965fffb88331fb44fca2020b456b77c1e9c60c63c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/88cf4ecfef5441ca8fdf049284375319_0000.pt",
+      "sha256": "d2cf769ddc4760223b52d10d5bc6870cb7e8a58ff8a6bf3fd92dc2766bbec90c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/af5d255bcc3948169d646f76753fa453_0000.pt",
+      "sha256": "0c9f15318c62011ef393da26e655ffca1588571552c7d123d5562051433704ab"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e343fe9903f54c03ab3d120a5b9924ef_0000.pt",
+      "sha256": "147d02e7dc197774cc2d7a533ea82970649c9bc71277e6ccd3c0bd8e060ad918"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f416e40a68134d2b8813fa4d066479ec_0000.pt",
+      "sha256": "e32297ee1c99db52a66f6cdb711906dc007917a37d57a67c920b02ff04d0dae9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a45bc510a5d3434aaa9aa199260384f8_0000.pt",
+      "sha256": "252b5c82899d7c17d21cabbac205e5ddd538cd07c0edc1e6cba6a76a0b155ad3"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1fe7850c6e04c44bab128bf4771f882_0000.pt",
+      "sha256": "ff7896c792f8d32638a6dac0e3ad7e59774570cc8213a483bb4361fdfb06a806"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e31a62cdec314eb9bf196e6a2370a3c1_0000.pt",
+      "sha256": "1a1e4db64929c6e9857f540e71fdddd943bb7ffb12855db18b765f9882f77771"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2d0de2f928214b7ea8fd7bf018f7e425_0000.pt",
+      "sha256": "1cff8650addc9abe3d0f17fd295c1ea78136666affaaddfac5e96e73bd9e110c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/d097e12eea7f4a8eabaaa489eac74d0c_0000.pt",
+      "sha256": "d9958457b1c44748d4ba39b5cb1c7e9bd2751a95bb2b43ef99761eac850a9c1d"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3eeb67e430144a6385f4192f0973e342_0000.pt",
+      "sha256": "a8215ea9634d62f6db2416f71dc5b3a9623cf6efde67b9c792c1b5e943587b21"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/141963eaaf344a8eb634a39f32a2758f_0000.pt",
+      "sha256": "5accffcde3fa188fb1d917daeb3653213a70a2f3e27a18353d9bd9d66c02ce1e"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/445f7d80ddad42cfa182180c1c0190e4_0000.pt",
+      "sha256": "17903ada42e71503bc136565735a6f3199c6a88ad2f535df88f0bcc75ea595b7"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c8665977255b4159ae6d14a4673cfdb3_0000.pt",
+      "sha256": "92056e5422e3259a3280b277b0f56c76d41d8e998a542ebf089bef7c2f65bbf4"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0e642c2970a14eb7b8053e201c16f3ba_0000.pt",
+      "sha256": "fc548b99b94abf5831159ceaf0de25230b5072e15554194e40f16011d3e77f02"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97fd52a2ee53480195496849b504799a_0000.pt",
+      "sha256": "617d8e63f652ac8817444a561f53c8e1fe597d99de9a6c8a4b3b30c367ef2ba4"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0000.pt",
+      "sha256": "7bcaf83a257b96a3c88dddaca16d998543432c006567002114cde28510cefbe0"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97b07521d7d545dc851f73e8b459d00a_0000.pt",
+      "sha256": "7275f756adc59f738c842a01720929864dbb21839fc3354d0d5161974ca8af8e"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/556830f47f504fcabf9479ca49a8daf0_0000.pt",
+      "sha256": "e452fc25d419c041b3876aa96c7f9074018910e0f8ebe3c0fcfcb4f1dbc67d7a"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e5ee209f8c6c4ba8b1b22fa05b0f5260_0000.pt",
+      "sha256": "21f59b7e6277f5620c4178dd02dd94a30f8944a0bdd2e25a1521a330a5856e7b"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1b4fe1fa34714027a97db265522cee06_0000.pt",
+      "sha256": "e3997be8ff88c29d31425f921a1cf766a24797259b429e37f6b599975b60fd70"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8353f8ac0d58402a9589be75df7b03a4_0000.pt",
+      "sha256": "01b462a69a17e5707789e04c35ba368f206dd2b325217e986ba4c37d461d5d2c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0000.pt",
+      "sha256": "de8444f2e56d6d29a5af40a1db959998bc51217921d0a73fa988f4d9841656ce"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/eb05d1aac5734949839a76954164b4af_0000.pt",
+      "sha256": "90ab95a9e8ae3a244a3a78c187e361f73583a1712861fe26fd024f3d8222bf01"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0694aa510dea4827907731c6bc3d36bd_0000.pt",
+      "sha256": "20f7fb7803f77989417502f1be92c5060128204ee3dcdc719569a99ec8714afd"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e2422e04479d4c3283062f87ef4abcb5_0000.pt",
+      "sha256": "d8fddb270c77d1a2dfd9b980e2b4b9787f647eaa37a6f6a624aca64eb633df2a"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/5231bf10f1984efc8c4952c41ff4679c_0000.pt",
+      "sha256": "d05372cd7b02b1350bf0e951d1e3598154b38f8e36729015e375e6b81f8ba75e"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/09856f48680d45e3b91bd6f824325ba6_0000.pt",
+      "sha256": "d8b5ffc515bbf83cbca3be5cb39d1cadec45025fafeae65c42a6627dbd6eec59"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce3a476f01674b969f72f8cc6427acfe_0000.pt",
+      "sha256": "092d7236a58945a18edbdb40348d6f2bf3aef010a0e4079353fd48668315c74d"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0267434bfab746d48e19fc19740c2303_0000.pt",
+      "sha256": "ab079e1053f56fc05121df83b3958feace24865e242783ae662637c497652b35"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/423996a28fe343ce853274eb51de0e7f_0000.pt",
+      "sha256": "f534f2849f806d3f7e8198202e65a19321f774ff962da985973a081a71ee4c4b"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6dd5b8baeb0e481baf5d8edf1b32b029_0000.pt",
+      "sha256": "1a202080781f0076d616f268ab2df9a939dd91e574abbc644d11cd73a6452e59"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/714437fae12c4b209cb6a040d8218a0e_0000.pt",
+      "sha256": "a1ab7985c91109c269d1c97c22fc2c56502ccb1b032700e0d54c92617d86b3f1"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/317d147c9309433d83e2d88d8d8c6078_0000.pt",
+      "sha256": "85fcd320924f31bc2e60585c763028f70f180e5a7e269cea16b9c277597bc1e9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c7e79b49c21f42c3b645569b3003b63e_0000.pt",
+      "sha256": "b31b2bcc21f1cd8f52c337c71e35f2c39d3633bc84db5a48c087c76988919284"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/790a48bb67a34ea6a39be6286b7d32cb_0000.pt",
+      "sha256": "a7b8a0d1346fc403a989b1bb419703ec09172cbb48bbb30a23cf19bd87121ee4"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0000.pt",
+      "sha256": "db606b1ef080434dc85327015772e65c54209792d36a6652ccbfbd849e04c504"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2af9aba9a3e43f99fd9b48a83df4b66_0000.pt",
+      "sha256": "0e357c6fe2fca2bc4dfaeaed0624059466a2b3b99e2a8ff61edba1b1839d1842"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/d4fd16f5fdb2448f9261ef79eef9828f_0000.pt",
+      "sha256": "37fd643b02f375681eb1d6859be1332c0e962ae756b9d7bb63cd8a039a839d1b"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/74f6cf1e5e5445f494dba6ff755926e5_0000.pt",
+      "sha256": "fece97d6ca028f5c2dc51dc20d5dd277584be66ae3452264c5240b38999ceb98"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/497896fde6e04f1593817e54e5c6f9b5_0000.pt",
+      "sha256": "2f4ee8d13a113bb171663aa0728e5a22dd4f99ec8117432727348cdc00216ed9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/194dae2c6d11411e92cac58ec2085689_0000.pt",
+      "sha256": "a3811332cf07388db0baf59ba78e40fd264e14a47209afb0a4e316f8c1ca2152"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7bbfd455aeba4c78a564be0e82ab1734_0000.pt",
+      "sha256": "ac1af219969b2a0d1d40f42d4c397a6a3a50d69094c665411979c0cd7b21ba30"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89abd632c32d41ddb0dcc7b9ff73774c_0000.pt",
+      "sha256": "0292adfe8072ba8d3fba56d995d81c04e5096a5626a8235a43e13f7ddce5eaa9"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/42092b346bb040cdb559c5091a193b33_0000.pt",
+      "sha256": "aacd62c47832d0205ec11f3da560aa2802e0726b113b5487120220d16492dde2"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e683f4de04fc45f3bbc169d2bfba4f6d_0000.pt",
+      "sha256": "d7a58821779efda12940b4d73e4d20ebe9df3ae9e04b6c949324877355a0cb9d"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0000.pt",
+      "sha256": "8edb430ce823dedf680c8e7fa7853c79ab865d993f9bfd99d444c3bb3264292c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0000.pt",
+      "sha256": "2461f5822a26508d65b4c585fc137b30f694ea07d110bc00c4f3895f71c31e5f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2a163c20d83d4983931161f53683215b_0000.pt",
+      "sha256": "66f0d6765cc76f0c0fe6efaf209dd26829b5128d3e39a272ad18af1b6efaeb6c"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0000.pt",
+      "sha256": "1bd9e42eb7097eb297c7f6a6feea9709c254907c3600a98b4a398f9c5aaa47cc"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6196a6bd48314b1c91258813a52abefa_0000.pt",
+      "sha256": "38ca2429bc5d96bd69729a7b1987c8493cf6562d68404ab4a7e05c8f8b7a7af4"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e28106e8010d4f63ae830589f33a4534_0000.pt",
+      "sha256": "2a7a9ae8b5d14b7e8a6d5094dc1e4d74c322fc42f046a3277f94eeba69bb3aa0"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c6f06bad86bd449eba9d92f7553c4d45_0000.pt",
+      "sha256": "5e82f4b005b0abb120586462c9e2a8b621209af946a8fb095c4b8c91399f142f"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0000.pt",
+      "sha256": "073afab7631b55458ce8d1030097b43c63c5605f9a51ad38e6090fe7338f4afc"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/90478e3eb9f7426d933fda02af812f96_0000.pt",
+      "sha256": "657cc25156b7ebdf641834e985ede6d070e23ad12e522ee849dc1448357ae368"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/016926c66ce74bb89601c36091744df5_0000.pt",
+      "sha256": "e1301cdfa4faa3509e4cb49408cb143cf2ad78b7f5a65b99e973c92b86df2575"
+    },
+    {
+      "split": "train",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3f0f4c52b39446a19b0ec5fdf00cd0aa_0000.pt",
+      "sha256": "878f36228a0d9de4cbbc7e0ecca47387d1d013ac605a5a3b2b30b213a7ea811b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/91ff52a69ace4d988fdd06c52ed404cd_0000.pt",
+      "sha256": "74d6e1b24168fae54f4010a5bedeb56a12f0ec2ae51604a0f038a11e9b499eb0"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/70c1167ce8504f969d07b1efaa498415_0000.pt",
+      "sha256": "4457cb328b27e7bdf21e9991151b6ead863ca11b9812ae9bab637a6ef66e390a"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/66f399966b5f45e9adb8385bacbe9de4_0000.pt",
+      "sha256": "226d0be8b56d987a437315f5544a0acf1972131e6fe2bd98db77482e1b6603d8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ad02a60cea0141898d806ff7d4fc3535_0000.pt",
+      "sha256": "7c00f2ad2bedcf22cf5c47e9566440c8046217e5e10a394dc543f102f943c7f6"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3e6d866e33544518ae6372aad0b03833_0000.pt",
+      "sha256": "a9478749ebc1c838b5b110616ebadd71d3c3341aa9b5ffb49d3911426c59ca85"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2d60ad79484147a58ce6e4a2763d1665_0000.pt",
+      "sha256": "93b8d638ef6356fa4cbbc5c9cc42bec11e43114ebd2131047b493d5578a00c81"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0599c9d755844a5e9b557b157fb6015a_0000.pt",
+      "sha256": "9cba45715fa59158ecd19ae5bb3e54bc5ebf0b16b9bfc85c70b1ea6680dbc142"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8d176782d8ce4b37a38b3e110bbf4ccf_0000.pt",
+      "sha256": "dbc8202ffa6192951fb251322378c5dec3de40a7492c383a9273a6bea2407e38"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dd4a5db82c7540a586e66162f6c7fdb3_0000.pt",
+      "sha256": "8b5485cde74fad3edbff797c97e98fa94bde187b4e9fe5ed19d7c8ea69def23b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c5d96f1b099e47a4a0602d4367cf07b1_0000.pt",
+      "sha256": "4424892c35838a7213bb002063e80f6b2bb6aac90fe46d869536d1a19acfa50b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cdd20d4324994e5a8c49a8eb19c50b76_0000.pt",
+      "sha256": "e493ac89441abe6f02ff088f42e4d5dd711177b16a18fac38b2b84112dd9a176"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/203d45aa8ea54765ae0b5c0768062fc3_0000.pt",
+      "sha256": "ce6706bed9c4a24428fa065d3a2cc81b0f0ea34d838c4856a8ccf49b559cae94"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/363e3b27d5c84d6791a91136947cc2b0_0000.pt",
+      "sha256": "555dd3b5572c3c6f5e8d157574317bec36a1331a26a115b0220a6559aa3166f6"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb6e80ed8bb14731a9ebeef703b8a135_0000.pt",
+      "sha256": "1c6dbadfacb58304cb39a06f9456e80b1912aa68a6d812f4a7bffe4f576510da"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0000.pt",
+      "sha256": "e557b00552375482c64ec693ae7d15d2c73b222b34fe7629dd8921c6c3f2522e"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/802e6f3789c1411aacf0e4c2d1c3af0d_0000.pt",
+      "sha256": "f5084c7c052368cb0925ece3dd276cf3f09d3aa48e6e7d22b4d1763ace4b4f3b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dbb61fd09d7848b6a04aa84707be9f59_0000.pt",
+      "sha256": "495fb15bf10e878198fe231a3950d9f68ecacf54afeb2a05fe364f109aaef27b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2eb578e6e8be4e3fb869b2422d2b39ae_0000.pt",
+      "sha256": "77d09ac98d93e6c66ee7d1f016bf60eadace78aca3667e098900e6266c8df1f8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6f270a3ab13641b9a1112e29127b9968_0000.pt",
+      "sha256": "853e2baba86aabe5f52858d3402115163c820981bb8a6fe60a08b03a62813c03"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fa1e8bcdee4e40c4ad69705c10dd8d14_0000.pt",
+      "sha256": "b64c99a47b9ab4111569b8bcbde24fb7a1e34e982ccaa3adf5a6712655e6eb14"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/926032c14f334efe947100fba06932c9_0000.pt",
+      "sha256": "6e8034eb0d7a6550eef7376e7f693b9843f91338c857cbcbf321b418a22e9dfc"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/29e47e98b8484567a451fba119779677_0000.pt",
+      "sha256": "60ea457b8fb4dfa557c5574c8ccb678be014c1939c3997e9897277778ff0e996"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e7fa3783b540434aafd1871000bb41f5_0000.pt",
+      "sha256": "466e687ddc715c60caa62f2b8fd0db9d5a74b6ceae8441843fa98ea38c03d66e"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4c3f3990b3064617ae02a96545496a8b_0000.pt",
+      "sha256": "da4ccc74091862c3d4aef48fe908feae2ed1c7d08041e539486f9485b32fcc6b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3dac7855849045f9b055dfa5764ef23b_0000.pt",
+      "sha256": "2b7cd873a33cd98a364523b66f580f823a3885fd1c38ecdf05031d71e8743bc9"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0000.pt",
+      "sha256": "7ab4deb314ee1b68384eed991aed8d4f4890442088638ecd0eec13edfa5f0a35"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6544530c154b4a74b7856325ad49df3a_0000.pt",
+      "sha256": "0c48e1a3af6710470b6c88d68e1465aecf8faadb77bf9f550ceed7f07dea8ec1"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/354fefb0bf0b45a7b6f116d2fde86a1f_0000.pt",
+      "sha256": "ee8701b5632c786224bf309b52d6e705c672b2ea73bdbef693acce17b5248bd5"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb1743a4aae54ff1970362249ea0eebe_0000.pt",
+      "sha256": "6e0c419c52552f417b18189b26f16947ec2b4149b6e7c075cb4d47d2d5ffc999"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/72128c2d9a4e4d2896e39ce9187b8518_0000.pt",
+      "sha256": "07bb3aa5099d55218f05fa140aecf0bf733b28e3267843fa6114980a4eb81fbc"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1f32f0d05f7842de858c60ab19312293_0000.pt",
+      "sha256": "d24d5acb264e7d776cefc8df85e639279718b6f0dd33926006ea989ac233c2d2"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2ac4efc9ff764a9882276906d3715c8d_0000.pt",
+      "sha256": "7e3381031779dec4275ceca6a2ee4524e5a62223b7203930b32f89c9285e618f"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/91ff52a69ace4d988fdd06c52ed404cd_0001.pt",
+      "sha256": "0c87453b04d5ca4fdc22e6d58b4feb0e9f68f388c96a4e7fe8e78a4748f0055a"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/70c1167ce8504f969d07b1efaa498415_0001.pt",
+      "sha256": "27cb0d896b80baefc7d9b5b895f25af4e9fe20719c0cc259adf00990a78dbbe5"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/66f399966b5f45e9adb8385bacbe9de4_0001.pt",
+      "sha256": "80b6b20281b76f48b099955536f565e581addc004411b26c9a67b87ccd55de0c"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ad02a60cea0141898d806ff7d4fc3535_0001.pt",
+      "sha256": "6a04df03b76a5dfbd4b3c8e6a2d1b62d9d5661d764f69129da895915407e49fa"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3e6d866e33544518ae6372aad0b03833_0001.pt",
+      "sha256": "aecbab9e78d5cdf5c89e3af48be7227c781e67b74f055ca521541a939f15abda"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2d60ad79484147a58ce6e4a2763d1665_0001.pt",
+      "sha256": "72d0dfca40ac9fa7c8c839821da4c3149fe4c7a763ff237c798c9920f3e692f3"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0599c9d755844a5e9b557b157fb6015a_0001.pt",
+      "sha256": "e7d41eba09dd2b33e66b309c657d01f33c7bdbafaf62310b558a0e7fa6f8f819"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8d176782d8ce4b37a38b3e110bbf4ccf_0001.pt",
+      "sha256": "b3e47d0fa5e8fdfc3eae8d3c8d87b1e3e6115ee34d8a0e4c66c55a047321aa75"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dd4a5db82c7540a586e66162f6c7fdb3_0001.pt",
+      "sha256": "5473da770f2d1043b5d2ab6f7cd130f4cf7a798e8220e0f9f7dde1fef01279e5"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c5d96f1b099e47a4a0602d4367cf07b1_0001.pt",
+      "sha256": "89e597e4f20d13c24cbd65e050ecb99419b77e443ceb5a88b632e93f356c4bf6"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cdd20d4324994e5a8c49a8eb19c50b76_0001.pt",
+      "sha256": "9daa52e9c0b1ff46189f3602b134d06d9ac4b1629253595603dc0c2adb0fb060"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/203d45aa8ea54765ae0b5c0768062fc3_0001.pt",
+      "sha256": "b14ed523439e574961daecb63cdf8e95f0f70e97e9bec02094d0c68f4f1550e7"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/363e3b27d5c84d6791a91136947cc2b0_0001.pt",
+      "sha256": "7b0e1a33d0b755e10981fa55b189c9027921a889b1e66161028965991f5ebd8b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb6e80ed8bb14731a9ebeef703b8a135_0001.pt",
+      "sha256": "51729f82b9bfff376a1574af57b4d7cd0283456f96a08001bbd5b842c9037726"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0001.pt",
+      "sha256": "278ea642624dcb44f8dc717d5317d652df3fe2fd9a6d81d25412d225fddbc011"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/802e6f3789c1411aacf0e4c2d1c3af0d_0001.pt",
+      "sha256": "2040e36fc42843ab5e9a3a9e9feaaa3d091c0be680ef10500db0082236dd2c43"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dbb61fd09d7848b6a04aa84707be9f59_0001.pt",
+      "sha256": "ddbb308a7e840c861fcdb68f49dacfe63204284069e5341b3dc78fead8cc88a8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2eb578e6e8be4e3fb869b2422d2b39ae_0001.pt",
+      "sha256": "3fcde8a4d93482e9ace7291d9a5bea1ef1839bef5771ea5030e1bc100f02d011"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6f270a3ab13641b9a1112e29127b9968_0001.pt",
+      "sha256": "183eead8278140772169b08f3f12ff610bdbcfc2b130dfcbdfc9faeec3cb8aa0"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fa1e8bcdee4e40c4ad69705c10dd8d14_0001.pt",
+      "sha256": "847f3b775ac3bdc7a22c4b0653e5a5ff53603043927447c8010ffac91ed85dfe"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/926032c14f334efe947100fba06932c9_0001.pt",
+      "sha256": "bf040ca67950b974a9e560f15b243b754395ab75a03ac77d859901d923863358"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/29e47e98b8484567a451fba119779677_0001.pt",
+      "sha256": "0e4d1c24a355a8f47a64ea12009f81a6f6761e39a25ab8ffe3fb6c64855a59a6"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e7fa3783b540434aafd1871000bb41f5_0001.pt",
+      "sha256": "72f606b7308c8c7908e46a864f5bb0791964869b08d39b2cbf3af9363f2218fa"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4c3f3990b3064617ae02a96545496a8b_0001.pt",
+      "sha256": "0c71fded41a486105cf45b95059b8450751ef2418dde2538d749d7c346a84d7a"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3dac7855849045f9b055dfa5764ef23b_0001.pt",
+      "sha256": "5956a1e4a9446d5f67bc3d248d20a2f31fc8d613d2aee6615af8d3af14f38c16"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0001.pt",
+      "sha256": "2304d5e0f3cdf1212dba4cb370eef0a1c3502d63b20f1b4390f6afdfde7256e8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6544530c154b4a74b7856325ad49df3a_0001.pt",
+      "sha256": "d3b9897c14a5907138049d79804ff88423b592d53e1e0a5ec601f2d41783404b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/354fefb0bf0b45a7b6f116d2fde86a1f_0001.pt",
+      "sha256": "8bce55c4b6dfca89f0e241a79fc4c688774ce15d2ef5b98e64a25d55b788975c"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb1743a4aae54ff1970362249ea0eebe_0001.pt",
+      "sha256": "af31cf0224ee673181f2a8a72c3748cea34de9f5705d0fcaffc764d6e1b4e48a"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/72128c2d9a4e4d2896e39ce9187b8518_0001.pt",
+      "sha256": "4ac10a8c27e9336e969ba8ff3997240e9ba8ec0f4603a4caa116f535409915b4"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1f32f0d05f7842de858c60ab19312293_0001.pt",
+      "sha256": "289d508e39c76a13b08a527e7082d3a8df786af6b4408f6ab305f259dc4366a2"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2ac4efc9ff764a9882276906d3715c8d_0001.pt",
+      "sha256": "ad4ad67b2f7422f3fe3fffb9087e09ab8fa9ad1b16b0262a06650078fa2e8e7b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/91ff52a69ace4d988fdd06c52ed404cd_0002.pt",
+      "sha256": "9622287ec5c6e4a8f74eea068b6717ae60e2af10b63648a259d614c2f2348ad2"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/70c1167ce8504f969d07b1efaa498415_0002.pt",
+      "sha256": "a4527970826be13a7045d754a1bfd79f9d0869e4488a39d6374dc616123b8b2b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/66f399966b5f45e9adb8385bacbe9de4_0002.pt",
+      "sha256": "ed2140c6fbb779d8b24b57c5a6ba191989370a4290159e8b15ab976c27ec4436"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ad02a60cea0141898d806ff7d4fc3535_0002.pt",
+      "sha256": "ce0a8acf4d27194d25fa69472d109119c795c0ca7edd13fcdb2086b6031c8d98"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3e6d866e33544518ae6372aad0b03833_0002.pt",
+      "sha256": "908797d6b2c8be3294aae8b4cd3f65fea36b8bc85fa41a535c8b845289e9dfd3"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2d60ad79484147a58ce6e4a2763d1665_0002.pt",
+      "sha256": "2519b412f6c9e3998f3b3127fd9056917d9d2dd56beeee845e76c413d938dd72"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0599c9d755844a5e9b557b157fb6015a_0002.pt",
+      "sha256": "aae016a1500e38939a793f92ad6f7b042d876de25dc18c161af0059eb457a97d"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8d176782d8ce4b37a38b3e110bbf4ccf_0002.pt",
+      "sha256": "2dee9d648ca7e3330a83c6c0ea19adb3c457137233a605aad2e2dee5559f033e"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dd4a5db82c7540a586e66162f6c7fdb3_0002.pt",
+      "sha256": "58a97bcfde26dd8444e894293de014b17eb7c4109e8edee0922ab2ff359c9eaf"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c5d96f1b099e47a4a0602d4367cf07b1_0002.pt",
+      "sha256": "133548b1ee97afdc715015636d333800ef1754ac839191b35b31437ce772075c"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cdd20d4324994e5a8c49a8eb19c50b76_0002.pt",
+      "sha256": "eb6450276168ecaaaf777c7c0d0a7882b9c803168d86fd262a92c0d46e77c7d6"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/203d45aa8ea54765ae0b5c0768062fc3_0002.pt",
+      "sha256": "6a82651c0450f31551a33603eabd14fd1275bd4118f273e33d462d6980e4c5b9"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/363e3b27d5c84d6791a91136947cc2b0_0002.pt",
+      "sha256": "c07673b6aa823c7d3ed2af7302a402e6547aebc0772fc17269236822d6a32dd7"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb6e80ed8bb14731a9ebeef703b8a135_0002.pt",
+      "sha256": "7d0a6a11d908e801cfcfd0b4b659678bbd97ebe7a0d203ba059ed2e1589b19ac"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0002.pt",
+      "sha256": "2bb9518b2400c849b47e711a73675dd8cd3ca4d175614247288c47cd741edac5"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/802e6f3789c1411aacf0e4c2d1c3af0d_0002.pt",
+      "sha256": "8332cb11b28a1f0bbc2c45b9318b72a76df1c2dc4773dbf0fe073ccd9344deb9"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dbb61fd09d7848b6a04aa84707be9f59_0002.pt",
+      "sha256": "f1d322e0ab1a406fb30c6d6d62c0ead42a5fd212d6a3f9d5293294e070ad7391"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2eb578e6e8be4e3fb869b2422d2b39ae_0002.pt",
+      "sha256": "cb74dc30e08279726c9315c55bda51cd6253d3561e28c5a7ea56f64be744e30a"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6f270a3ab13641b9a1112e29127b9968_0002.pt",
+      "sha256": "8295ecc798bac79395a768b1c56867c37bf9f6b555f0f4b84a1ca347f4f8e91e"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fa1e8bcdee4e40c4ad69705c10dd8d14_0002.pt",
+      "sha256": "b0ca7f8f4f1ad2e222a8b5f454017c89fa7be4ca6e6be199e778245f14321fe5"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/926032c14f334efe947100fba06932c9_0002.pt",
+      "sha256": "68878e4eab90afc2ab9df0c2127e4a5b2311b2db1e9a1b2f040a28a01f466732"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/29e47e98b8484567a451fba119779677_0002.pt",
+      "sha256": "9feaecff8a5702f5702c43ee57ceaf8279d1faa27b41d8e4ddeb19f029c883e0"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e7fa3783b540434aafd1871000bb41f5_0002.pt",
+      "sha256": "0beb052508eaade21349c522b03577340f090af213708b1c6d868f27123ba61b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4c3f3990b3064617ae02a96545496a8b_0002.pt",
+      "sha256": "3b5e99b1e7ae30287a9c44d4181471bdf7191c691c9895246f2894d413cd5ffa"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3dac7855849045f9b055dfa5764ef23b_0002.pt",
+      "sha256": "c65663633a5a71c6a35d1efa762a6836263c3848f58e1711901e2fd01511a4c0"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0002.pt",
+      "sha256": "3776012f38c4ea8826deb07b111dc1c6f5e74c3e4f3b82612cf9997ae9d2b336"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6544530c154b4a74b7856325ad49df3a_0002.pt",
+      "sha256": "7fcffd8a36f5e1b2b6ae42284a12082c226c94896c2bd8256a41ec5f2f8eb8dd"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/354fefb0bf0b45a7b6f116d2fde86a1f_0002.pt",
+      "sha256": "2856b9a42e9fb25ef6be8bdda9f0f71e4b6eaff694a0256bb723ffcbe4cf93b3"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb1743a4aae54ff1970362249ea0eebe_0002.pt",
+      "sha256": "0bf15caee512d90de738cce868e4799099b442a77d1196b546c26d55290c305b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/72128c2d9a4e4d2896e39ce9187b8518_0002.pt",
+      "sha256": "66ca795621a0bd6603a69a4b829759bcd634b50f8022d66a5aba2029af08f243"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1f32f0d05f7842de858c60ab19312293_0002.pt",
+      "sha256": "1bab38398a440f3a8e7dfdbf3c4e6a83b47c236be654078fc8ebc3ce48642d5f"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2ac4efc9ff764a9882276906d3715c8d_0002.pt",
+      "sha256": "6aae52d88b2c4dc1f9b7925a48a48437ac540b1e08528f5fe9a66c1b6b87c978"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/91ff52a69ace4d988fdd06c52ed404cd_0003.pt",
+      "sha256": "2b5cd660c352e9f16d19a0cb16a5e51ea5fca4b7fb88b9387dc073c8ad837dea"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/70c1167ce8504f969d07b1efaa498415_0003.pt",
+      "sha256": "dbc446ca3442854999f8eef8ef33079919cb09d970f1d27d25e164141fda3753"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/66f399966b5f45e9adb8385bacbe9de4_0003.pt",
+      "sha256": "a85f5574cf8118a523f0ab8ea125ba92f730dc72aed4a4c29a01272d4f7a57dc"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ad02a60cea0141898d806ff7d4fc3535_0003.pt",
+      "sha256": "d7e9d6d6dd3d4b516321a1f3e506530dd8c4dcc6c51366e004f0e6b3d96aa834"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3e6d866e33544518ae6372aad0b03833_0003.pt",
+      "sha256": "a7db18ebe97be90d600c1c1caf1c120ce72be84767c3117a10d0860257dd6456"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2d60ad79484147a58ce6e4a2763d1665_0003.pt",
+      "sha256": "b0608461c7cb86f7115a66a8c3f170250292f0b42f45b691483d2c237ded12b8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0599c9d755844a5e9b557b157fb6015a_0003.pt",
+      "sha256": "394d1d6bd9e7179ba0cfbbbf431b546f0cdf83295f5b4689dcd56da362d15164"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8d176782d8ce4b37a38b3e110bbf4ccf_0003.pt",
+      "sha256": "ce261a5018884b22bcfb407829d7347d0232e1bb096bea620d0764a5fb1509a6"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dd4a5db82c7540a586e66162f6c7fdb3_0003.pt",
+      "sha256": "7e7bdd6b7fc73ca096a0f103bb0814a2fbfd0ac1f91a5cef45e5392f8f804921"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c5d96f1b099e47a4a0602d4367cf07b1_0003.pt",
+      "sha256": "8b12a3bf714e828b874d63d97888b5035198e317bf80c2756b74784279acb291"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cdd20d4324994e5a8c49a8eb19c50b76_0003.pt",
+      "sha256": "c3f23291428521eae435e762e2b6e3c608250ecfc9aea737623ace84a7b84457"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/363e3b27d5c84d6791a91136947cc2b0_0003.pt",
+      "sha256": "f66f64c107943af5d2f14ad531f16c4921b42d412dd45bf723e6a54684df42cb"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb6e80ed8bb14731a9ebeef703b8a135_0003.pt",
+      "sha256": "2ce5bd73a5c51f27ae0a8200b6dd604c9d98205fc1f7701631eb60d3ae7df7d8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0003.pt",
+      "sha256": "ec1aff3f90699163f9c6f24e7a88e6ddddf99a4e8384a175e5b1daf2d47b61dc"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/802e6f3789c1411aacf0e4c2d1c3af0d_0003.pt",
+      "sha256": "be3a6e6983efd6f5504b39a6ac2adb0788a49f659de72342c9f398a4f018af37"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dbb61fd09d7848b6a04aa84707be9f59_0003.pt",
+      "sha256": "18381f2aac59c4719326bb4ba5a089e3b9e4dff5850549b0915b086cf1704f21"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2eb578e6e8be4e3fb869b2422d2b39ae_0003.pt",
+      "sha256": "7473da338a318bbf236032a8681577b6dc985c9c818e6ae37789ad7d73d0f840"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6f270a3ab13641b9a1112e29127b9968_0003.pt",
+      "sha256": "4426594c68584fcce7eae6ca688d13304b051b504d71650b5eb867328d1e6e5f"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fa1e8bcdee4e40c4ad69705c10dd8d14_0003.pt",
+      "sha256": "ccccba3581df352866f06f8021deb1aac320382cf597aab1b247e8a7b2d31b2e"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/926032c14f334efe947100fba06932c9_0003.pt",
+      "sha256": "d67667aaaab85ed71eae0496b1c1bb591c0214641008254d06a661ac2ca2dcc8"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/29e47e98b8484567a451fba119779677_0003.pt",
+      "sha256": "100ec1d529ceb6a96c716fe68f6cc6550e89c826454b6a9b2e3c57c623af99c1"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e7fa3783b540434aafd1871000bb41f5_0003.pt",
+      "sha256": "0717d2171f81e7db90427c1b02af6b87bac7e201c25773e2f6ef60b84f701c9b"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4c3f3990b3064617ae02a96545496a8b_0003.pt",
+      "sha256": "3ecc2d90c8a23f6dba441c0737b91a1d0c2130056da43bdae402c668d06f2959"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3dac7855849045f9b055dfa5764ef23b_0003.pt",
+      "sha256": "0169bdc013e5dc690966320dbe47165e5a8143d2dde2cd0b8e1102da388717c3"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0003.pt",
+      "sha256": "72027b579070909ec3d5cbd2cee9bd9a8ef695e8c743496c4cb2cf6041a6ab76"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6544530c154b4a74b7856325ad49df3a_0003.pt",
+      "sha256": "79c4e1b2eb61bbcd3c67c89b8aae71de289df83639afce158bcfaf063fb7f3ab"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/354fefb0bf0b45a7b6f116d2fde86a1f_0003.pt",
+      "sha256": "48cf6eee73f7c82f88d7fcafef293675f279c86e5592c013d42970f796120544"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb1743a4aae54ff1970362249ea0eebe_0003.pt",
+      "sha256": "971a858baaaefed743910a97e639cc4e6144a3b887b91f4337039b02b4813f9d"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/72128c2d9a4e4d2896e39ce9187b8518_0003.pt",
+      "sha256": "f7204d56c42df5e86264123b9ee9303a1f7078d79a76697838679e0eee4c8aa0"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1f32f0d05f7842de858c60ab19312293_0003.pt",
+      "sha256": "cc5674b0d6f834d57d3b96da1e9062f86126bb628e712105d43f99829328aefb"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2ac4efc9ff764a9882276906d3715c8d_0003.pt",
+      "sha256": "c44ab398b42ec0a3403003a95bf7cb21578a735799657d7dd61102bf7c7405ab"
+    },
+    {
+      "split": "val_seen",
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/91ff52a69ace4d988fdd06c52ed404cd_0004.pt",
+      "sha256": "9a888f3d114b0ded1ac5a6bee51f14c8ce03a20d2037bcf01a5051b13216f046"
+    }
+  ],
+  "geometry": [
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/eb5db8acc2584ef2b89e0bc69e1b1701_0000.pt",
+      "sha256": "624eb5fe873387af8c2c29176a54842c8fb36d8e5ad178027b338b9e41fa65da",
+      "scene": "E9uDoFAP3SH"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/eb5db8acc2584ef2b89e0bc69e1b1701_0001.pt",
+      "sha256": "b8b65c1da4cd29c5873dbf63f138e5cd0334ab0ba7cf448ebc5fb92ba9d3a16c",
+      "scene": "E9uDoFAP3SH"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/127aefdd5a4048b8aa2ecfc95ff731e0_0000.pt",
+      "sha256": "1a2855c1f5e8bd50086ec8910cdbacd0aa23e6c5ff4f54442bd8b38a78732ee9",
+      "scene": "5LpN3gDmAk7"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/127aefdd5a4048b8aa2ecfc95ff731e0_0001.pt",
+      "sha256": "cfb0126b8c6b77d738fedb40a874673d0ff851bc0a64760b53bd505c3bec2813",
+      "scene": "5LpN3gDmAk7"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c65810608a7d493987ad647fc68baf68_0000.pt",
+      "sha256": "5833536a826311b712740616255a7db492f580d8d4e152db111e88f09837858a",
+      "scene": "dhjEzFoUFzH"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c65810608a7d493987ad647fc68baf68_0001.pt",
+      "sha256": "3373f6fb752443872a65b321afb79ea049c44c395236c7082c33a09550988998",
+      "scene": "dhjEzFoUFzH"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6196b0a719cc476ca11216d543c13f01_0000.pt",
+      "sha256": "e54182810be1601ce9b080ca82da4e6cc24736c68de1d1f40411c7093c33f6ea",
+      "scene": "i5noydFURQK"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6196b0a719cc476ca11216d543c13f01_0001.pt",
+      "sha256": "c9eb2394a2d6b4252badc7d060895cc1463e4704cd20b0a0e110561eaa64b895",
+      "scene": "i5noydFURQK"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9157c0e343ae44dda16a5e06c0e2248d_0000.pt",
+      "sha256": "9cd450634d50d79a1949f9996a345eb6d27aa1bef3f9893eb3a25b756ed3d225",
+      "scene": "D7N2EKCX4Sj"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9157c0e343ae44dda16a5e06c0e2248d_0001.pt",
+      "sha256": "d15d65f60526aafc4c2466ad165104991732c0aec65cdf45e437309ee594cfa2",
+      "scene": "D7N2EKCX4Sj"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b86947e32864b1a96a311d4c2ca40b9_0000.pt",
+      "sha256": "c3a7ede728956536bbde47f23d357f75df2e3238108a0b818ff21bc2c5308f44",
+      "scene": "B6ByNegPMKs"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b86947e32864b1a96a311d4c2ca40b9_0001.pt",
+      "sha256": "2f4c03a86a5fc7d5c365172f19a62f3daac4deb3735451fc4858ced045d0a1e7",
+      "scene": "B6ByNegPMKs"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9c1f0f9e83e4fe2a77cfec61d719fdf_0000.pt",
+      "sha256": "a6536c3db9049c08fd9787ffca5f5aee59743199b6afeb4cf18bfa1f1991879a",
+      "scene": "mJXqzFtmKg4"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9c1f0f9e83e4fe2a77cfec61d719fdf_0001.pt",
+      "sha256": "e1839a80914eb8e27f50f7ce9b37cd478127f4d8aff85bbec646f9a0306abf3e",
+      "scene": "mJXqzFtmKg4"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c8314be678ff4bb0a27f47477dac9f50_0000.pt",
+      "sha256": "e2507403b2620296f35d5a6d1ebb74d9266beab2431e97117c632512fabf906d",
+      "scene": "1pXnuDYAj8r"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c8314be678ff4bb0a27f47477dac9f50_0001.pt",
+      "sha256": "86549e643bdd64e64f354a8efaaa80c0e2572231507e3cfa7057b3eb5efac288",
+      "scene": "1pXnuDYAj8r"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/58ea005460a34c4a921260c626739a68_0000.pt",
+      "sha256": "1070b1576dad5c2b46343e367d6f794495800124024ac5c079bc0a9e157700d5",
+      "scene": "kEZ7cmS4wCh"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/58ea005460a34c4a921260c626739a68_0001.pt",
+      "sha256": "08a6c7e40629e689cafe57d8fe13bd4ffc6f883297ca89f399bfb5217e64f6cf",
+      "scene": "kEZ7cmS4wCh"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/da081a0ac9cf43fd8b0f33643757832f_0000.pt",
+      "sha256": "6f4734d30494ca6b2f0f3b18d44c784b8bda07a9bae04f0540b277b23249fffe",
+      "scene": "1LXtFkjw3qL"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/da081a0ac9cf43fd8b0f33643757832f_0001.pt",
+      "sha256": "e510e9f649aa7961c41085cd7c72378593be1d192f656652d01abb6d7edb3b20",
+      "scene": "1LXtFkjw3qL"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cbce1a0558de4ca982f5cb2fcfa5c85d_0000.pt",
+      "sha256": "a7176ab19ec919b292da8a9149f4a0571834a999fb6dcfb52f17d10555b3474c",
+      "scene": "ULsKaCPVFJR"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/cbce1a0558de4ca982f5cb2fcfa5c85d_0001.pt",
+      "sha256": "c4ebecd9422ce1a6c197f84a238c43985bc95fe3acdeead195325b6a1238b73b",
+      "scene": "ULsKaCPVFJR"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7dc923d4595d492483db48d6a561be63_0000.pt",
+      "sha256": "4012f6726b670370874b35a58cc5f510b9b01958feb57473f69b5b6dd91b5cfe",
+      "scene": "SN83YJsR3w2"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7dc923d4595d492483db48d6a561be63_0001.pt",
+      "sha256": "d525d3fa2fe0bd322f3a88213e97764ec1d706f28d0256b163a5e366dbaee91c",
+      "scene": "SN83YJsR3w2"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2b8d12b3a5a547258def90512c87bb11_0000.pt",
+      "sha256": "726290b6dfb7882e4ddfe5ce34eb17cfee70aa2c09b1c2d6c5a45437b86e1a08",
+      "scene": "s8pcmisQ38h"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2b8d12b3a5a547258def90512c87bb11_0001.pt",
+      "sha256": "83debbc2e2a578873edc82444e9ddd4b90f6f8d5e5acf134d1c14552e90224f7",
+      "scene": "s8pcmisQ38h"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8cfa8911c4fc474781ca080adaa7fe38_0000.pt",
+      "sha256": "e8a5221a520632e67478c85e187b9cde305dfd0912d0979142c329911fc58678",
+      "scene": "cV4RVeZvu5T"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8cfa8911c4fc474781ca080adaa7fe38_0001.pt",
+      "sha256": "76b18d563527d0f64733e4359037db551ee233bcb172ff19c3d8bfc10e823264",
+      "scene": "cV4RVeZvu5T"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fff92055975744a7adb1df67fa1cb3d5_0000.pt",
+      "sha256": "6d275969dc9df2ef800528a0cfb24d6a68684b80d63283a5dc56bc1dbfc607f3",
+      "scene": "rPc6DW4iMge"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fff92055975744a7adb1df67fa1cb3d5_0001.pt",
+      "sha256": "083d13e2da121db4f3e9b14f479e6737a7643064c2e2f7d2e72c77496eb4bccc",
+      "scene": "rPc6DW4iMge"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/71c1cd88b3834bdc95f21f729c2c1676_0000.pt",
+      "sha256": "11d717859ad80152d35409c8f63d3cd271b831e2b88a8120909997f0c4981dba",
+      "scene": "PX4nDJXEHrG"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/71c1cd88b3834bdc95f21f729c2c1676_0001.pt",
+      "sha256": "e9c6d0f3f5cd175a08ef8069fe5fe783e11582e4efeef89f78af391e44210b04",
+      "scene": "PX4nDJXEHrG"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dcdc01ea5f3f4f24baf5439204765464_0000.pt",
+      "sha256": "ca328775eec075f6381aa9b324fcc0bfd43838725357ae56f6cad08fa36f1206",
+      "scene": "Vvot9Ly1tCj"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/dcdc01ea5f3f4f24baf5439204765464_0001.pt",
+      "sha256": "50ed8662a6f77c8bcc8d6d525e85723215e97c715e2794b198ac3d398923be53",
+      "scene": "Vvot9Ly1tCj"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/403bc0b1aaa843168d84321fc39379ad_0000.pt",
+      "sha256": "365e1f429ff969819668d4678c21da48077158134fe157c43c9dea1c0482ef7f",
+      "scene": "sT4fr6TAbpF"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/403bc0b1aaa843168d84321fc39379ad_0001.pt",
+      "sha256": "dc2e195c350451c2f328db04f6b0f460f9cb11fe5595667f136b2e4c3488326e",
+      "scene": "sT4fr6TAbpF"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb6ea424173b49d18f0bf7c9c60657c9_0000.pt",
+      "sha256": "3ca468fae2c527e01790f312632505120ffb63b67ebc578dac7f213df8da00c2",
+      "scene": "82sE5b5pLXE"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fb6ea424173b49d18f0bf7c9c60657c9_0001.pt",
+      "sha256": "df16c9f46dcd89a5f8c2015035bbb9215710fdddeb07835f759c8ec3a598a474",
+      "scene": "82sE5b5pLXE"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6519116a19e7441c8e5ec16fb1ed8d43_0000.pt",
+      "sha256": "293f6a29ea1a3981bc8c37cca71761004af6db64011026e6abf9680faf41819f",
+      "scene": "r1Q1Z4BcV1o"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6519116a19e7441c8e5ec16fb1ed8d43_0001.pt",
+      "sha256": "a3cf4e01a972a1e3806e4605aa6f3b32850dba71a2f62b29a07e3bb553195719",
+      "scene": "r1Q1Z4BcV1o"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6000f572d06f4dae99eb770c8885fd1f_0000.pt",
+      "sha256": "025b9ffd83274f49e0e8c0c38e8e0d075db42be726efabf7f0c9330d5da8e659",
+      "scene": "e9zR4mvMWw7"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6000f572d06f4dae99eb770c8885fd1f_0001.pt",
+      "sha256": "c9b8fb7b607a06be157ef1dcf04848bb4f752c0fc962777a69fbd5a8807a466c",
+      "scene": "e9zR4mvMWw7"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4813dd55c8794d52b4cbfa8557e04ca9_0000.pt",
+      "sha256": "f469ddbadcb62a5f23a186ffc959faf63a4d69a23efd488c3523577fa92f5965",
+      "scene": "S9hNv5qa7GM"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4813dd55c8794d52b4cbfa8557e04ca9_0001.pt",
+      "sha256": "10469df3897743842aef473465c15e03edd74a570c430f7bd75955805d778f81",
+      "scene": "S9hNv5qa7GM"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8bd2b094e67a4be39b19f6096416acc1_0000.pt",
+      "sha256": "a06a9249a66e96cb4ca2296163363f9471bcd2171d9596fc15a39ed652d09091",
+      "scene": "VLzqgDo317F"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8bd2b094e67a4be39b19f6096416acc1_0001.pt",
+      "sha256": "dd7484392ce7ed5c32e81e693a10c88203d373c2fe3e5cdf4dc9d2bb846e0991",
+      "scene": "VLzqgDo317F"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e396db8eace84cce809736798ebe34c2_0000.pt",
+      "sha256": "4e2db5bc65bd7f9d3cc5b9841f5f22284506dda63d147a8eeccc86771a93f674",
+      "scene": "VFuaQ6m2Qom"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e396db8eace84cce809736798ebe34c2_0001.pt",
+      "sha256": "68f3c039a296d1752a7e7169770d5762147aa609461807d4701ea94ca51d1df6",
+      "scene": "VFuaQ6m2Qom"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/99e54b6de3b143edabdcfd4ef892160d_0000.pt",
+      "sha256": "92fa82906a74c892fd9e8f5fa9f6018f1308c2fa81e60cc1a06d09a79c4f8b8b",
+      "scene": "vyrNrziPKCB"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/99e54b6de3b143edabdcfd4ef892160d_0001.pt",
+      "sha256": "69e457eb447e6e1e3298ee6644288b4f72ff02ea8685af4efa2aff4c5f78fb0a",
+      "scene": "vyrNrziPKCB"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34252c91f73449e6ac81514ac7f0ace1_0000.pt",
+      "sha256": "3a66b6799cdb35f3964d7d152f27d8af7b6a316171fe1a349a1e1f8b1091c143",
+      "scene": "VzqfbhrpDEA"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34252c91f73449e6ac81514ac7f0ace1_0001.pt",
+      "sha256": "e2b90aaba8bd4c70ae69de701c5cfd6915b3bc83e72cefae2dbf76d60c9d7f46",
+      "scene": "VzqfbhrpDEA"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/120650b07798470d8d28477277f9e008_0000.pt",
+      "sha256": "000b7f292a4511934bca04774c68a93cbe22139aa2ab284509f539a096b88f84",
+      "scene": "2n8kARJN3HM"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/120650b07798470d8d28477277f9e008_0001.pt",
+      "sha256": "9daa5e7896fd27d1bdc672442fa2438e5a2915e11619442f2bf760143d7f5c55",
+      "scene": "2n8kARJN3HM"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/eca5fb7e7e5548f3ad86e345641f1a57_0000.pt",
+      "sha256": "8032fd8f1b4fbc10602a28ed5d686a65adb1560f677348d88c396e5bf4b2d587",
+      "scene": "5q7pvUzZiYa"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/eca5fb7e7e5548f3ad86e345641f1a57_0001.pt",
+      "sha256": "d86f91c4aefa1e939355f0b4f7e7811a6d12ce5c8a58b0b1960c612c05f8aa74",
+      "scene": "5q7pvUzZiYa"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/28a5d5f821f148db8addd73a23e595ae_0000.pt",
+      "sha256": "a8a0f1ba3a6f941dba38e3e2e9a8bf736486febe9a4591272e75e5a99acce6d8",
+      "scene": "ac26ZMwG7aT"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/28a5d5f821f148db8addd73a23e595ae_0001.pt",
+      "sha256": "fece037600481a88dfce5220b10ca40feb1c397fa21509630fcb82bb260ca944",
+      "scene": "ac26ZMwG7aT"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/37b1db2645d9413dba786d3d59b06747_0000.pt",
+      "sha256": "cc5ba7ba474384670c2b4ac92f114056ffcb0df5c671e6f17ed385f1dfe2b76a",
+      "scene": "759xd9YjKW5"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/37b1db2645d9413dba786d3d59b06747_0001.pt",
+      "sha256": "57cffc0f5e76032e1b6af1cba2d59baccb47041614bd846b850c86bfc81502ef",
+      "scene": "759xd9YjKW5"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/535bf4c68a564b809a5d4400c8f12a60_0000.pt",
+      "sha256": "e411b99258747a6b9d40b38e5a76108e84905b32ef5b8c67f1d432e0d7bff51f",
+      "scene": "ZMojNkEp431"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/535bf4c68a564b809a5d4400c8f12a60_0001.pt",
+      "sha256": "8e5573423336e0341ec663013759bae1cdfe68714020e27a6c50b24c28c68b10",
+      "scene": "ZMojNkEp431"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9c8c94862c0a46d5a4d782dc2fcffc99_0000.pt",
+      "sha256": "6c4e8276ca39b37b76e83bda9dc26932794d07710d78f0d222c951a43e22155c",
+      "scene": "JeFG25nYj2p"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9c8c94862c0a46d5a4d782dc2fcffc99_0001.pt",
+      "sha256": "43458df61bcba83730656e6d1ed22e158655018e90ea655ca08c03c0060d23da",
+      "scene": "JeFG25nYj2p"
+    }
+  ],
+  "geometry_scope": "frozen historical forced-four intermediate states; not fresh fused-feature rollout"
+}

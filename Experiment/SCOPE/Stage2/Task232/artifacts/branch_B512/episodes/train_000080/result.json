@@ -1,0 +1,75 @@
+{
+  "episode_uid": "scope_stage2_train:5721",
+  "source_episode_id": "5721",
+  "scene_id": "sT4fr6TAbpF",
+  "instruction": "Exit the bedroom and walk down the hall. Wait in front of the door directly ahead.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.0626903772354126,
+  "path_length": 4.439543846063316,
+  "gt_path_length": 5.440440224530434,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.9506925010679407,
+  "purpose": "train",
+  "wall_seconds": 13.37261541839689,
+  "training": {
+    "episode_id": "5721",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/e97ae6bf4a004c998be75361135e1af7_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/e97ae6bf4a004c998be75361135e1af7_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/e97ae6bf4a004c998be75361135e1af7_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/e97ae6bf4a004c998be75361135e1af7_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5721",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_e97ae6bf4a004c998be75361135e1af7.pt",
+      "transitions": 4,
+      "reward_sum": 2.141800840695699,
+      "focus_histogram": {
+        "3": 1,
+        "4": 1,
+        "2": 2
+      },
+      "camera_histogram": {
+        "2": 3,
+        "3": 2,
+        "1": 6
+      },
+      "entropy": {
+        "stop": 0.583211179290499,
+        "camera": 0.9178811098848071,
+        "position_latent": 2.4361723320824757
+      },
+      "start_geodesic_distance": 5.439702987670898,
+      "final_geodesic_distance": 1.0626903772354126,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3730.0778971984982,
+      "perception_ms": 399.62418284267187
+    },
+    "collected": 1159,
+    "buffer_transitions": 126,
+    "reward_components": {
+      "progress": 0.29180084069569906,
+      "focus_cost": -0.11000000000000001,
+      "step_cost": -0.04,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.141800840695699,
+  "focus_mean": 2.75
+}

@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:611",
+  "source_episode_id": "611",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Exit the bedroom. Go to the drum set.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.6209746599197388,
+  "path_length": 11.970381692517549,
+  "gt_path_length": 7.319060802459717,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.36192711798073585,
+  "purpose": "val_seen",
+  "wall_seconds": 30.45569379720837,
+  "training": {
+    "episode_id": "611",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/traces/bdadb6ecb4114a95bfadad2968e37c7c_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "611",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/baseline_independent/runtime/episode_boundary_bdadb6ecb4114a95bfadad2968e37c7c.pt",
+      "transitions": 15,
+      "reward_sum": 1.61764493783315,
+      "focus_histogram": {
+        "4": 15
+      },
+      "camera_histogram": {
+        "1": 60
+      },
+      "entropy": {
+        "stop": 0.5836955646673838,
+        "camera": 0.9639802684386571,
+        "position_latent": 2.437216063340505
+      },
+      "start_geodesic_distance": 7.135648727416992,
+      "final_geodesic_distance": 1.6209746599197388,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 17197.941250167787,
+      "perception_ms": 1966.8513657525182
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.36764493783315016,
+      "focus_cost": -0.6,
+      "step_cost": -0.15,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.5961087048608773,
+  "reward_sum": 1.61764493783315,
+  "focus_mean": 4.0
+}

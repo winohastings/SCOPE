@@ -1,0 +1,86 @@
+{
+  "episode_uid": "agm_ppo_val_seen:548",
+  "source_episode_id": "548",
+  "scene_id": "PX4nDJXEHrG",
+  "instruction": "Go to the bear rug on the floor. Go to the top of the staircase. Go to the toilet.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.219267845153809,
+  "path_length": 19.351684305351228,
+  "gt_path_length": 12.386001586914062,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.08319330755028703,
+  "purpose": "val_seen",
+  "wall_seconds": 33.6194741493091,
+  "training": {
+    "episode_id": "548",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/6160b42de3cc471c89d1c6657f7d01da_0018.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "548",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/episode_boundary_6160b42de3cc471c89d1c6657f7d01da.pt",
+      "transitions": 19,
+      "reward_sum": -1.1971351623535156,
+      "focus_histogram": {
+        "4": 19
+      },
+      "camera_histogram": {
+        "1": 76
+      },
+      "entropy": {
+        "stop": 0.6851194610721186,
+        "camera": 0.5154231033827129,
+        "position_latent": 1.7906209293164705
+      },
+      "start_geodesic_distance": 12.012240409851074,
+      "final_geodesic_distance": 8.219267845153809,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 22810.555138625205,
+      "perception_ms": 2508.934359997511
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.2528648376464843,
+      "focus_cost": -0.7600000000000001,
+      "step_cost": -0.19000000000000003,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1971351623535156,
+  "focus_mean": 4.0
+}

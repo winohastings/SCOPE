@@ -1,0 +1,15 @@
+{
+  "actor_parameters": 2293073,
+  "critic_parameters": 874113,
+  "provenance": {
+    "backbone_sha256": "49a172dccb24fc5a04e76ed68652f383940967e11b4f7ec3b5d19da5b9bd58aa",
+    "adapter_sha256": "44174dc777ee21fbed5d7469d5cdcb9007f58c5531647708a0637bea05d21b51",
+    "partition_sha256": "18033c0569b13230777d2df2c20150b60d1e0776d6500622aed33f0acce8fd77",
+    "schema": "agm-task22-v1",
+    "training_schema": "agm-ppo-only-v1",
+    "data_manifest_sha256": "7ca6c9c1684ab5cab4e839a8d8a8194ebdf59a53ce4c8aff9760122af4b6d54a"
+  },
+  "ratio_unit": "hierarchical perception decision",
+  "reduction": "sum decisions within sequence, mean navigation states",
+  "group_sampling": false
+}

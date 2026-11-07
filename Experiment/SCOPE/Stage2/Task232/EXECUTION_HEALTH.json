@@ -1,0 +1,31 @@
+{
+  "branch_A512": {
+    "complete_artifact_present": true,
+    "evaluation_counts": {
+      "evaluation_independent.json": 32,
+      "evaluation_historical.json": 32
+    },
+    "new_training_transitions": 512,
+    "opengl_context_error_in_log": true,
+    "note": "COMPLETE is written before cleanup; a cleanup failure does not imply a clean process exit. Evaluation count and failure fields independently checked."
+  },
+  "branch_B512": {
+    "complete_artifact_present": true,
+    "evaluation_counts": {
+      "evaluation_independent.json": 32,
+      "evaluation_historical.json": 32
+    },
+    "new_training_transitions": 512,
+    "opengl_context_error_in_log": true,
+    "note": "COMPLETE is written before cleanup; a cleanup failure does not imply a clean process exit. Evaluation count and failure fields independently checked."
+  },
+  "thresholds": {
+    "complete_artifact_present": true,
+    "evaluation_counts": {
+      "threshold_results.json": 24
+    },
+    "new_training_transitions": 0,
+    "opengl_context_error_in_log": false,
+    "note": "COMPLETE is written before cleanup; a cleanup failure does not imply a clean process exit. Evaluation count and failure fields independently checked."
+  }
+}

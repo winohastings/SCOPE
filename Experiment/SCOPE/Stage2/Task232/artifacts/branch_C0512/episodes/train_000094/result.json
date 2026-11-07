@@ -1,0 +1,82 @@
+{
+  "episode_uid": "scope_stage2_train:7432",
+  "source_episode_id": "7432",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Go forward past the stairs. Stop at the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6318325400352478,
+  "path_length": 8.563143705017865,
+  "gt_path_length": 8.83533780864859,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.9336560488708959,
+  "purpose": "train",
+  "wall_seconds": 22.687736402265728,
+  "training": {
+    "episode_id": "7432",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/16c2ed8907614bb795a369897b11f9fc_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7432",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_16c2ed8907614bb795a369897b11f9fc.pt",
+      "transitions": 8,
+      "reward_sum": 2.352109016577403,
+      "focus_histogram": {
+        "1": 5,
+        "4": 1,
+        "0": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "0": 2,
+        "1": 4,
+        "3": 1,
+        "2": 4
+      },
+      "entropy": {
+        "stop": 0.6218430366781023,
+        "camera": 0.9100506802399954,
+        "position_latent": 2.4379013776779175
+      },
+      "start_geodesic_distance": 8.763467788696289,
+      "final_geodesic_distance": 0.6318325400352478,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7139.026221819222,
+      "perception_ms": 359.37272012233734
+    },
+    "collected": 1341,
+    "buffer_transitions": 52,
+    "reward_components": {
+      "progress": 0.5421090165774027,
+      "focus_cost": -0.10999999999999999,
+      "step_cost": -0.08,
+      "terminal": 2.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.352109016577403,
+  "focus_mean": 1.375
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "parent_sha256": "6cd9989635aa26602b688b91bdeb226c269f79c4151bf813d24c572775238595",
+  "full_state_bitwise_equal": true,
+  "branches": {
+    "C": {
+      "beta": 0.01,
+      "config_sha256": "6498a82146ddde81a2d0a583f2547b48916666627be329c823a1e19ca117e76d",
+      "checkpoint_sha256": "f741fe5f389b357e1f3bf6b079da71e4f4d3bc634641a0e31d8b00b6bfdcc700"
+    },
+    "C0": {
+      "beta": 0.0,
+      "config_sha256": "548a8b22f4207cd30efab19527c81a75028bebe7f77d8bff7f1d9dfadd5f9b12",
+      "checkpoint_sha256": "2c8afcbf404fa5f26dd7b905b27501c72e4e3b40484a0047be0555cae58faa6d"
+    }
+  },
+  "protocol_sha256": "9437a5eeefc21f2f1f4282ca04b2d300f2f1a0f0166c25e9b3637f8bbe8d4d6a",
+  "source_hashes": {
+    "runtime.py": "d469d8f7daeba4a8502f738f9f3d5462345f0d21d0990885b8a3afc6ed7dc20e",
+    "run.py": "4494327121ee9783a06d55072f1ed22b885c3f606070ed472a12d94694785f95",
+    "novelty.py": "9ae8da0e297538f465968af253979ec6c453e1282c4554b3e465e6e68451dca0",
+    "prepare_c.py": "fa164303906d50e817977c69ec4a763fcc40c4bc5e670e5969892c448f4a0027"
+  }
+}

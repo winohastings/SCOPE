@@ -1,0 +1,81 @@
+{
+  "episode_uid": "scope_stage2_train:10113",
+  "source_episode_id": "10113",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Walk by the left of the table and enter the entryway on the right. Then stop in the hallway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.7975088357925415,
+  "path_length": 6.670752145349979,
+  "gt_path_length": 8.053029236563367,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4000332014945373,
+  "purpose": "train",
+  "wall_seconds": 18.76406063325703,
+  "training": {
+    "episode_id": "10113",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/194631cefd2d44e3ad1f7e600187cabc_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10113",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_194631cefd2d44e3ad1f7e600187cabc.pt",
+      "transitions": 8,
+      "reward_sum": 2.2251631212234497,
+      "focus_histogram": {
+        "0": 4,
+        "4": 1,
+        "2": 1,
+        "3": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "3": 1,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.5947608211461235,
+        "camera": 0.9500642068245831,
+        "position_latent": 2.43045516575084
+      },
+      "start_geodesic_distance": 6.749955654144287,
+      "final_geodesic_distance": 1.7975088357925415,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7042.450389824808,
+      "perception_ms": 322.0896730199456
+    },
+    "collected": 1184,
+    "buffer_transitions": 71,
+    "reward_components": {
+      "progress": 0.33016312122344976,
+      "focus_cost": -0.024999999999999998,
+      "step_cost": -0.08,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.2251631212234497,
+  "focus_mean": 1.25
+}

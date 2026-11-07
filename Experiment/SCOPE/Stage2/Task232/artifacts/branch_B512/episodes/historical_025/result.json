@@ -1,0 +1,83 @@
+{
+  "episode_uid": "agm_ppo_val_seen:736",
+  "source_episode_id": "736",
+  "scene_id": "kEZ7cmS4wCh",
+  "instruction": "Walk out of the room and take a left to walk down the hallway. Take another right, and continue to walk down the hallway towards the staircase. Walk to the staircase that leads downstairs and stop right at the top of them.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 14.86715316772461,
+  "path_length": 15.35520178382285,
+  "gt_path_length": 13.874488830566406,
+  "steps": 16,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.10585653405823416,
+  "purpose": "val_seen",
+  "wall_seconds": 36.80602080002427,
+  "training": {
+    "episode_id": "736",
+    "transitions": 16,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/820d364ec7504dd2b7e78249989fed21_0015.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "736",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_820d364ec7504dd2b7e78249989fed21.pt",
+      "transitions": 16,
+      "reward_sum": -1.4233616511027019,
+      "focus_histogram": {
+        "4": 16
+      },
+      "camera_histogram": {
+        "1": 64
+      },
+      "entropy": {
+        "stop": 0.5958425654098392,
+        "camera": 0.8499106802046299,
+        "position_latent": 2.427946485579014
+      },
+      "start_geodesic_distance": 13.016728401184082,
+      "final_geodesic_distance": 14.86715316772461,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15439.20034263283,
+      "perception_ms": 1723.2886105775833
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.12336165110270185,
+      "focus_cost": -0.64,
+      "step_cost": -0.16,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.4233616511027019,
+  "focus_mean": 4.0
+}

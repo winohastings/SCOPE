@@ -1,0 +1,85 @@
+{
+  "episode_uid": "agm_ppo_val_seen:138",
+  "source_episode_id": "138",
+  "scene_id": "B6ByNegPMKs",
+  "instruction": "Start moving forward down the corridor. You will pass offices on your left and right. Keep going until the hallway down the hallway until you get to an exit sign on your right and what looks like some lockers in front of you. There will also be a brown door with an exit sign above it in front of you.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 3.99056077003479,
+  "path_length": 20.867980588576756,
+  "gt_path_length": 15.468788146972656,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.40719756304969784,
+  "purpose": "val_seen",
+  "wall_seconds": 32.84002987202257,
+  "training": {
+    "episode_id": "138",
+    "transitions": 18,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/traces/a672b84074e042be8f5fcdfbbd3c059d_0017.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "138",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/thresholds/runtime/episode_boundary_a672b84074e042be8f5fcdfbbd3c059d.pt",
+      "transitions": 18,
+      "reward_sum": -0.6373682816823324,
+      "focus_histogram": {
+        "4": 18
+      },
+      "camera_histogram": {
+        "1": 72
+      },
+      "entropy": {
+        "stop": 0.6848900674117936,
+        "camera": 0.5254555030001534,
+        "position_latent": 1.785213644305865
+      },
+      "start_geodesic_distance": 15.430036544799805,
+      "final_geodesic_distance": 3.99056077003479,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 21183.28639678657,
+      "perception_ms": 2364.845904521644
+    },
+    "collected": 1033,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.7626317183176676,
+      "focus_cost": -0.7200000000000001,
+      "step_cost": -0.18000000000000002,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6373682816823324,
+  "focus_mean": 4.0
+}

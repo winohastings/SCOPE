@@ -1,0 +1,81 @@
+{
+  "episode_uid": "scope_stage2_train:3651",
+  "source_episode_id": "3651",
+  "scene_id": "Uxmj2M2itWa",
+  "instruction": "Keep going straight at the top of the stairs and walk out onto the deck.  Once outside, turn right and go through the door going back into the house.  Stop in the doorway.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.0074591636657715,
+  "path_length": 7.787810695939697,
+  "gt_path_length": 6.4369685938387695,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2335847790825263,
+  "purpose": "train",
+  "wall_seconds": 20.46310178656131,
+  "training": {
+    "episode_id": "3651",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/f674b2ec7b7e482ab6ee102d6edccadd_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3651",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_f674b2ec7b7e482ab6ee102d6edccadd.pt",
+      "transitions": 8,
+      "reward_sum": -0.7203541374206544,
+      "focus_histogram": {
+        "1": 2,
+        "2": 2,
+        "0": 1,
+        "4": 3
+      },
+      "camera_histogram": {
+        "1": 11,
+        "2": 2,
+        "3": 2,
+        "0": 3
+      },
+      "entropy": {
+        "stop": 0.5841736067896304,
+        "camera": 0.9256376287211543,
+        "position_latent": 2.4395323421644126
+      },
+      "start_geodesic_distance": 5.602147102355957,
+      "final_geodesic_distance": 5.0074591636657715,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9019.183567725122,
+      "perception_ms": 652.6681734248996
+    },
+    "collected": 1132,
+    "buffer_transitions": 99,
+    "reward_components": {
+      "progress": 0.039645862579345666,
+      "focus_cost": -0.18,
+      "step_cost": -0.08,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7203541374206544,
+  "focus_mean": 2.25
+}

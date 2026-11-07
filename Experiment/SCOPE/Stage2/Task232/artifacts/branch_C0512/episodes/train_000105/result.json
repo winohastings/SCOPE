@@ -1,0 +1,93 @@
+{
+  "episode_uid": "scope_stage2_train:10379",
+  "source_episode_id": "10379",
+  "scene_id": "JeFG25nYj2p",
+  "instruction": "Enter the hallway through the door to the right of the bookcase. Veer left and enter the living room through the last door on the right. Stop on the left edge of the carpet.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 14.094775199890137,
+  "path_length": 24.347716568037868,
+  "gt_path_length": 10.60311078387671,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "max_steps",
+  "failure_traceback": null,
+  "nDTW": 0.016059160570327233,
+  "purpose": "train",
+  "wall_seconds": 36.155344479717314,
+  "training": {
+    "episode_id": "10379",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0017.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/traces/c8653805961b40ca86c65918c7c2a715_0018.pt"
+    ],
+    "bootstrap_saved": true,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10379",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C0512/runtime/episode_boundary_c8653805961b40ca86c65918c7c2a715.pt",
+      "transitions": 19,
+      "reward_sum": -0.834650115966797,
+      "focus_histogram": {
+        "1": 3,
+        "4": 7,
+        "0": 5,
+        "2": 4
+      },
+      "camera_histogram": {
+        "2": 18,
+        "1": 14,
+        "3": 5,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.6256245807105419,
+        "camera": 1.1322191790038465,
+        "position_latent": 2.4566126851474537
+      },
+      "start_geodesic_distance": 10.275023460388184,
+      "final_geodesic_distance": 14.094775199890137,
+      "terminated": false,
+      "truncated": true,
+      "model_ms": 18198.038103058934,
+      "perception_ms": 1150.241605937481
+    },
+    "collected": 1545,
+    "buffer_transitions": 113,
+    "reward_components": {
+      "progress": -0.2546501159667969,
+      "focus_cost": -0.39,
+      "step_cost": -0.19000000000000003,
+      "terminal": 0.0,
+      "coverage_bonus": 0.0
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.834650115966797,
+  "focus_mean": 2.0526315789473686
+}

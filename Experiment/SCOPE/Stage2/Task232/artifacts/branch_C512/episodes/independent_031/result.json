@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:387",
+  "source_episode_id": "387",
+  "scene_id": "b8cTxDM8gDG",
+  "instruction": "Exit the room and go straight until you get to the stairs. U Turn right and go out the door that leads to the outside and wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.9901151061058044,
+  "path_length": 13.409103751182556,
+  "gt_path_length": 7.848029136657715,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5421312235945998,
+  "purpose": "val_seen",
+  "wall_seconds": 29.322927492670715,
+  "training": {
+    "episode_id": "387",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/d29693ddd04e44a38612f44fc84e55b9_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "387",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_d29693ddd04e44a38612f44fc84e55b9.pt",
+      "transitions": 14,
+      "reward_sum": 1.7765279428164165,
+      "focus_histogram": {
+        "4": 14
+      },
+      "camera_histogram": {
+        "1": 56
+      },
+      "entropy": {
+        "stop": 0.6542217231222561,
+        "camera": 0.9007843690259116,
+        "position_latent": 2.588432175772531
+      },
+      "start_geodesic_distance": 6.034909248352051,
+      "final_geodesic_distance": 0.9901151061058044,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13683.750240132213,
+      "perception_ms": 1548.2677416875958
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.33631960948308304,
+      "focus_cost": -0.5599999999999999,
+      "step_cost": -0.13999999999999999,
+      "terminal": 2.0,
+      "coverage_bonus": 0.14020833333333332
+    }
+  },
+  "SR": 1,
+  "SPL": 0.4500605976607369,
+  "reward_sum": 1.7765279428164165,
+  "focus_mean": 4.0
+}

@@ -1,0 +1,84 @@
+{
+  "episode_uid": "scope_stage2_train:7398",
+  "source_episode_id": "7398",
+  "scene_id": "Vvot9Ly1tCj",
+  "instruction": "Walk past the pool on the right. Wait near the glass sliding doors going inside.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.5246821641921997,
+  "path_length": 11.512624261900783,
+  "gt_path_length": 11.546171037337885,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7847741081149581,
+  "purpose": "train",
+  "wall_seconds": 28.62132234685123,
+  "training": {
+    "episode_id": "7398",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/f01aa4458d074be086fd332ab55aeae0_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7398",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_f01aa4458d074be086fd332ab55aeae0.pt",
+      "transitions": 12,
+      "reward_sum": 2.4703583828608195,
+      "focus_histogram": {
+        "4": 1,
+        "1": 3,
+        "0": 7,
+        "2": 1
+      },
+      "camera_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6209783226251602,
+        "camera": 1.034338688850403,
+        "position_latent": 2.4917556405067445
+      },
+      "start_geodesic_distance": 10.717557907104492,
+      "final_geodesic_distance": 1.5246821641921997,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11066.988660022616,
+      "perception_ms": 324.6912229806185
+    },
+    "collected": 1377,
+    "buffer_transitions": 12,
+    "reward_components": {
+      "progress": 0.6128583828608195,
+      "focus_cost": -0.0225,
+      "step_cost": -0.11999999999999998,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.930939607103531,
+  "reward_sum": 2.4703583828608195,
+  "focus_mean": 0.75
+}

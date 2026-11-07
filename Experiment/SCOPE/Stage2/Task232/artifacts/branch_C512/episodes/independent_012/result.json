@@ -1,0 +1,77 @@
+{
+  "episode_uid": "agm_ppo_val_seen:38",
+  "source_episode_id": "38",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "Make a left and stand in the door way to the hall. Make another left in the hall. Make another left into the room next door.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 6.890040397644043,
+  "path_length": 6.6164473267272115,
+  "gt_path_length": 6.7717485427856445,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2724012679425454,
+  "purpose": "val_seen",
+  "wall_seconds": 33.54219614434987,
+  "training": {
+    "episode_id": "38",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/983005d928e543ae9d9c86270c3db5cf_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "38",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_983005d928e543ae9d9c86270c3db5cf.pt",
+      "transitions": 9,
+      "reward_sum": -0.894753155178494,
+      "focus_histogram": {
+        "4": 9
+      },
+      "camera_histogram": {
+        "1": 36
+      },
+      "entropy": {
+        "stop": 0.6540573305553861,
+        "camera": 0.9062343835830688,
+        "position_latent": 2.5865038169754877
+      },
+      "start_geodesic_distance": 6.367184638977051,
+      "final_geodesic_distance": 6.890040397644043,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9064.941361546516,
+      "perception_ms": 1018.9290586858988
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": -0.03485705057779952,
+      "focus_cost": -0.36,
+      "step_cost": -0.09,
+      "terminal": -0.5,
+      "coverage_bonus": 0.09010389539930555
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.894753155178494,
+  "focus_mean": 4.0
+}

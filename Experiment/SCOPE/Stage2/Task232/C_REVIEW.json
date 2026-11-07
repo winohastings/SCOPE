@@ -1,0 +1,74 @@
+{
+  "task": "Task2.3.2 C",
+  "source_sha256": {
+    "diagnosis.json": "78a7cedbb061b5b3bd911619f55aa30e11c796bb4bcd9fb65523e279bb871909",
+    "REPORT.md": "493075a204ec47261e2f2e1df8625640fab6864b9e5051e66f8a9970cdf3eb04",
+    "artifacts/matched8/matched_results.json": "9517e50db4d61f6c37b92ff49bf3c245080309af96946db53de4e3b3f78f70ab",
+    "artifacts/matched8/COMPLETE.json": "3b54b913af630a17042f45f440ec1253afe5742f6fb6dc4396dd2cd719888c90"
+  },
+  "evidence": {
+    "chunks": 128,
+    "valid_chunks": 128,
+    "states": 16,
+    "episode_clustered_progress_contrasts_meters": {
+      "2054_learned_minus_random3": {
+        "mean": -0.01205581426620484,
+        "ci95": [
+          -0.08750637720028559,
+          0.042720874150594085
+        ],
+        "episodes": 8
+      },
+      "u14_learned_minus_no_focus": {
+        "mean": 0.010068386793136597,
+        "ci95": [
+          -0.017959075421094893,
+          0.04979240894317627
+        ],
+        "episodes": 8
+      },
+      "u28_learned_minus_no_focus": {
+        "mean": 0.00753176212310791,
+        "ci95": [
+          -0.020911216735839844,
+          0.04869341850280762
+        ],
+        "episodes": 8
+      },
+      "u56_learned_minus_no_focus": {
+        "mean": 0.005522310733795166,
+        "ci95": [
+          -0.016156554222106934,
+          0.036459740996360776
+        ],
+        "episodes": 8
+      },
+      "2054_learned_minus_fixed": {
+        "mean": 0.05074501037597656,
+        "ci95": [
+          -0.037928004562854764,
+          0.1976300209760664
+        ],
+        "episodes": 8
+      },
+      "2054_learned_minus_1033_learned": {
+        "mean": -0.0025366246700286865,
+        "ci95": [
+          -0.008024584501981735,
+          0.00149779170751571
+        ],
+        "episodes": 8
+      }
+    },
+    "token_change_progress_delta_correlation_descriptive": 0.04991652526611007,
+    "scope": "1 chunk, independently reset + deterministic prefix replay; pose/instruction/full image history/pre-Focus/BATS blocks verified. Three random ROI seeds averaged before episode-level bootstrap; no final-SR claim."
+  },
+  "glance_unchanged_existing_states": 16,
+  "negative_interval_contrasts": [],
+  "status": "not_triggered_insufficient_H3_evidence",
+  "repair_executed": false,
+  "new_training_transitions": 0,
+  "new_environment_evaluations": 0,
+  "interpretation": "Existing-data review, not a new intervention or proof that Adapter is harmless. All reported paired intervals span zero; failed A/B does not establish H3. Original user constraints retain fusion and forbid Adapter retraining.",
+  "gate_scope": "Retrospective conservative evidence review, not a preregistered hypothesis test. A negative interval alone would still not identify Adapter as the cause."
+}

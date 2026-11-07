@@ -1,0 +1,20 @@
+{
+  "C": {
+    "update": 15,
+    "transitions": 80,
+    "bonus": 1.1644688585069447,
+    "errors": {
+      "returns": 0.0,
+      "advantages": 0.0
+    }
+  },
+  "C0": {
+    "update": 15,
+    "transitions": 80,
+    "bonus": 0.0,
+    "errors": {
+      "returns": 0.0,
+      "advantages": 0.0
+    }
+  }
+}

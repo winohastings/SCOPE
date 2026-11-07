@@ -1,0 +1,54 @@
+{
+  "branch": "U",
+  "checkpoint": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/unchanged_gate/runtime/checkpoints/added_0064.pt",
+  "checkpoint_sha256": "1fe48b2c8e719f7e36b9733ee5ebc1b11e1b5d8c3b90ea1eb87b2b0234c7fdee",
+  "added_trained_transitions": 64,
+  "updates": 1,
+  "new_optimizer_steps": 8,
+  "ratio_max_error": 0.0,
+  "update_seconds": 4.799088820815086,
+  "subsets": {
+    "train": {
+      "transitions": 64,
+      "focus_distribution": {
+        "0": 22,
+        "1": 18,
+        "2": 6,
+        "3": 4,
+        "4": 14
+      },
+      "focus_mean": 1.53125,
+      "zero_focus_fraction": 0.34375,
+      "coverage_mean": 0.04328715801239014,
+      "four_focus_samples": 14,
+      "four_focus_coverage": 0.10220050811767578,
+      "four_focus_repeat_fraction": 0.0,
+      "four_focus_unique_cameras": 2.0,
+      "model_seconds": 58.35824029985815,
+      "perception_seconds": 3.1042781146243215,
+      "reward_components": {
+        "progress": 2.172401628891627,
+        "terminal": 7.0,
+        "focus_cost": -0.98,
+        "step_cost": -0.6399999999999999
+      },
+      "episodes": 7,
+      "wall_seconds": 262.1787496851757
+    }
+  },
+  "system_gpu_samples": {
+    "0": {
+      "samples": 46,
+      "peak_memory_MiB": 12163.0,
+      "sampled_system_Wh": 8.723053325850763
+    },
+    "1": {
+      "samples": 46,
+      "peak_memory_MiB": 15616.0,
+      "sampled_system_Wh": 10.374496619123548
+    }
+  },
+  "energy_caveat": "whole GPU power during run; concurrent model/renderer/desktop workloads included, NOT exclusive per-branch energy",
+  "critic_caveat": "deterministic held-out policy differs from training sampling; truncations bootstrap own Critic, terminal-only reported separately",
+  "partial": false
+}

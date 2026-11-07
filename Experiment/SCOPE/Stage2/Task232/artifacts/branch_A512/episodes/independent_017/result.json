@@ -1,0 +1,85 @@
+{
+  "episode_uid": "agm_ppo_val_seen:749",
+  "source_episode_id": "749",
+  "scene_id": "PX4nDJXEHrG",
+  "instruction": "Enter the door on the right. Follow the right wall and stop once you've entered the doorway.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 7.538336277008057,
+  "path_length": 14.080634830286726,
+  "gt_path_length": 9.240642547607422,
+  "steps": 18,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.13056245423826582,
+  "purpose": "val_seen",
+  "wall_seconds": 46.884968446567655,
+  "training": {
+    "episode_id": "749",
+    "transitions": 18,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0010.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0011.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0012.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0013.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0014.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0015.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0016.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/20b7cffd5389434caf4dafc07b7d19f4_0017.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "749",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_20b7cffd5389434caf4dafc07b7d19f4.pt",
+      "transitions": 18,
+      "reward_sum": -0.8414808527628581,
+      "focus_histogram": {
+        "4": 18
+      },
+      "camera_histogram": {
+        "1": 72
+      },
+      "entropy": {
+        "stop": 0.6207332983613014,
+        "camera": 0.9176438500483831,
+        "position_latent": 2.4800125559171042
+      },
+      "start_geodesic_distance": 7.8161234855651855,
+      "final_geodesic_distance": 7.538336277008057,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 18155.124072916806,
+      "perception_ms": 2033.395629376173
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.018519147237141872,
+      "focus_cost": -0.18000000000000002,
+      "step_cost": -0.18000000000000002,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8414808527628581,
+  "focus_mean": 4.0
+}

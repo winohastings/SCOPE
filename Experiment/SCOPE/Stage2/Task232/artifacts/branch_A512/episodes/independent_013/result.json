@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:194",
+  "source_episode_id": "194",
+  "scene_id": "E9uDoFAP3SH",
+  "instruction": "You should go through the front door and go through the first entryway on the right. Once you go through the doorway walk to the carpet and wait.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 7.1347832679748535,
+  "path_length": 5.6072159190662205,
+  "gt_path_length": 8.43416690826416,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.40200261903035306,
+  "purpose": "val_seen",
+  "wall_seconds": 31.51700018160045,
+  "training": {
+    "episode_id": "194",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49cae86803a34597890bb252d16eea19_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49cae86803a34597890bb252d16eea19_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49cae86803a34597890bb252d16eea19_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49cae86803a34597890bb252d16eea19_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49cae86803a34597890bb252d16eea19_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/49cae86803a34597890bb252d16eea19_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "194",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_49cae86803a34597890bb252d16eea19.pt",
+      "transitions": 6,
+      "reward_sum": -0.5848912747701009,
+      "focus_histogram": {
+        "4": 6
+      },
+      "camera_histogram": {
+        "1": 24
+      },
+      "entropy": {
+        "stop": 0.6244292731086413,
+        "camera": 0.9008398056030273,
+        "position_latent": 2.4868425130844116
+      },
+      "start_geodesic_distance": 7.66141414642334,
+      "final_geodesic_distance": 7.1347832679748535,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5676.364230923355,
+      "perception_ms": 666.2441371008754
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.03510872522989908,
+      "focus_cost": -0.060000000000000005,
+      "step_cost": -0.060000000000000005,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.5848912747701009,
+  "focus_mean": 4.0
+}

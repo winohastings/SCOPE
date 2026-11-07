@@ -1,0 +1,74 @@
+{
+  "episode_uid": "agm_ppo_val_seen:510",
+  "source_episode_id": "510",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Exit the bathroom. Turn left and exit the room using the door on the left. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.282766580581665,
+  "path_length": 4.471934012603015,
+  "gt_path_length": 6.109432220458984,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8948060937339182,
+  "purpose": "val_seen",
+  "wall_seconds": 18.992529390379786,
+  "training": {
+    "episode_id": "510",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/dc12c7f9af22482b995e8d4b65611e39_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/dc12c7f9af22482b995e8d4b65611e39_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/dc12c7f9af22482b995e8d4b65611e39_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/dc12c7f9af22482b995e8d4b65611e39_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/dc12c7f9af22482b995e8d4b65611e39_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/traces/dc12c7f9af22482b995e8d4b65611e39_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "510",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_C512/runtime/episode_boundary_dc12c7f9af22482b995e8d4b65611e39.pt",
+      "transitions": 6,
+      "reward_sum": 2.0060089461008705,
+      "focus_histogram": {
+        "4": 6
+      },
+      "camera_histogram": {
+        "1": 24
+      },
+      "entropy": {
+        "stop": 0.6533557350436846,
+        "camera": 0.881942001481851,
+        "position_latent": 2.5886454979578652
+      },
+      "start_geodesic_distance": 4.971338272094727,
+      "final_geodesic_distance": 1.282766580581665,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6715.334014035761,
+      "perception_ms": 841.485052369535
+    },
+    "collected": 1545,
+    "buffer_transitions": 0,
+    "reward_components": {
+      "progress": 0.24590477943420408,
+      "focus_cost": -0.24000000000000002,
+      "step_cost": -0.060000000000000005,
+      "terminal": 2.0,
+      "coverage_bonus": 0.06010416666666667
+    }
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.0060089461008705,
+  "focus_mean": 4.0
+}

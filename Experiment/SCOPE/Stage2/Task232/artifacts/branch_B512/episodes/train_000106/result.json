@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:2851",
+  "source_episode_id": "2851",
+  "scene_id": "r47D5H71a5s",
+  "instruction": "Leave the massage room and take a right. Take a left and head down the hall and enter the room on the left. Stop inside the doorway for the reception area.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6764013171195984,
+  "path_length": 11.088115182938054,
+  "gt_path_length": 9.142109814062117,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7175059652139302,
+  "purpose": "train",
+  "wall_seconds": 23.919094117358327,
+  "training": {
+    "episode_id": "2851",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0007.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0008.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0009.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/traces/18345db7e9864d8b803b610b00295e19_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "2851",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_B512/runtime/episode_boundary_18345db7e9864d8b803b610b00295e19.pt",
+      "transitions": 11,
+      "reward_sum": 2.1593831260999043,
+      "focus_histogram": {
+        "4": 4,
+        "1": 4,
+        "2": 2,
+        "0": 1
+      },
+      "camera_histogram": {
+        "1": 17,
+        "0": 3,
+        "2": 4
+      },
+      "entropy": {
+        "stop": 0.5903736775921237,
+        "camera": 0.8518661798969391,
+        "position_latent": 2.4430672430223033
+      },
+      "start_geodesic_distance": 8.317148208618164,
+      "final_geodesic_distance": 0.6764013171195984,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12417.307374998927,
+      "perception_ms": 877.2022323682904
+    },
+    "collected": 1530,
+    "buffer_transitions": 241,
+    "reward_components": {
+      "progress": 0.5093831260999044,
+      "focus_cost": -0.24000000000000002,
+      "step_cost": -0.10999999999999999,
+      "terminal": 2.0
+    }
+  },
+  "SR": 1,
+  "SPL": 0.7500957621198107,
+  "reward_sum": 2.1593831260999043,
+  "focus_mean": 2.1818181818181817
+}

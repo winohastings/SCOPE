@@ -1,0 +1,81 @@
+{
+  "episode_uid": "scope_stage2_train:5583",
+  "source_episode_id": "5583",
+  "scene_id": "VVfe2KiqLaN",
+  "instruction": "With the pool on your left walk forward. Enter the house and stop once you are inside the bedroom on the other side of this door.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.946720123291016,
+  "path_length": 7.772096190834418,
+  "gt_path_length": 5.249152522578436,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.033807685411498395,
+  "purpose": "train",
+  "wall_seconds": 14.3129754178226,
+  "training": {
+    "episode_id": "5583",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0000.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0001.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0002.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0003.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0004.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0005.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0006.pt",
+      "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/traces/4f275849d5d3473c8200d6ddf5fd091b_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5583",
+      "boundary": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task232/artifacts/branch_A512/runtime/episode_boundary_4f275849d5d3473c8200d6ddf5fd091b.pt",
+      "transitions": 8,
+      "reward_sum": -0.9994355964660645,
+      "focus_histogram": {
+        "0": 2,
+        "4": 2,
+        "1": 2,
+        "3": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 10,
+        "2": 4,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.6095160387811207,
+        "camera": 0.9165927710987273,
+        "position_latent": 2.445177225839524
+      },
+      "start_geodesic_distance": 5.217686176300049,
+      "final_geodesic_distance": 10.946720123291016,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7097.273181192577,
+      "perception_ms": 456.07735589146614
+    },
+    "collected": 1202,
+    "buffer_transitions": 18,
+    "reward_components": {
+      "progress": -0.3819355964660645,
+      "focus_cost": -0.0375,
+      "step_cost": -0.08,
+      "terminal": -0.5
+    }
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.9994355964660645,
+  "focus_mean": 1.875
+}
