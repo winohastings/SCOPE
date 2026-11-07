@@ -1,0 +1,76 @@
+{
+  "episode_uid": "scope_stage2_train:1757",
+  "source_episode_id": "1757",
+  "scene_id": "pRbA3pwrgk9",
+  "instruction": "Walk up the stairs. Walk straight and turn right before the descending set of stairs. Wait by the ascending staircase.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 6.687152862548828,
+  "path_length": 7.330577770480886,
+  "gt_path_length": 12.743340590740345,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5345423686800552,
+  "purpose": "train",
+  "wall_seconds": 23.523787699639797,
+  "training": {
+    "episode_id": "1757",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/57e4023759cf451d95f057836f1d981b_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1757",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_57e4023759cf451d95f057836f1d981b.pt",
+      "transitions": 10,
+      "reward_sum": -0.3972448476155599,
+      "focus_histogram": {
+        "1": 6,
+        "4": 3,
+        "0": 1
+      },
+      "camera_histogram": {
+        "1": 3,
+        "2": 11,
+        "0": 2,
+        "3": 2
+      },
+      "entropy": {
+        "stop": 0.5942313361167908,
+        "camera": 1.0945862436294556,
+        "position_latent": 2.456926860809326
+      },
+      "start_geodesic_distance": 12.42848014831543,
+      "final_geodesic_distance": 6.687152862548828,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9023.300751112401,
+      "perception_ms": 533.4595628082752
+    },
+    "collected": 660,
+    "buffer_transitions": 10
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.3972448476155599,
+  "focus_mean": 1.8
+}

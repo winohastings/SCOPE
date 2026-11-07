@@ -1,0 +1,82 @@
+{
+  "episode_uid": "scope_stage2_train:7332",
+  "source_episode_id": "7332",
+  "scene_id": "B6ByNegPMKs",
+  "instruction": "Leave office and turn left down hall. Stop in empty office down the hall.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 8.630775451660156,
+  "path_length": 16.63835822790861,
+  "gt_path_length": 7.830403261297246,
+  "steps": 19,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.01630947858285299,
+  "purpose": "train",
+  "wall_seconds": 66.33451138623059,
+  "training": {
+    "episode_id": "7332",
+    "transitions": 19,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0014.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0015.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0016.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0017.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/7ea2f7899b64496888d2ce97897ffd41_0018.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7332",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_7ea2f7899b64496888d2ce97897ffd41.pt",
+      "transitions": 19,
+      "reward_sum": -0.8227399317423503,
+      "focus_histogram": {
+        "0": 15,
+        "1": 4
+      },
+      "camera_histogram": {
+        "2": 2,
+        "1": 2
+      },
+      "entropy": {
+        "stop": 0.6629363427991453,
+        "camera": 0.8692230271256488,
+        "position_latent": 2.370425628579181
+      },
+      "start_geodesic_distance": 7.239676475524902,
+      "final_geodesic_distance": 8.630775451660156,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 16742.446014657617,
+      "perception_ms": 205.94930462539196
+    },
+    "collected": 2845,
+    "buffer_transitions": 36
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8227399317423503,
+  "focus_mean": 0.21052631578947367
+}

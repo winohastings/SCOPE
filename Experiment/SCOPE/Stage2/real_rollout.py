@@ -33,6 +33,8 @@ def frame_from(observation, episode, purpose, tick=0):
 
 
 class FeedbackModel:
+    reward_purposes = ("train",)
+
     def __init__(self, client, backend, cfg, purpose, update):
         self.client, self.backend, self.cfg = client, backend, cfg
         self.purpose, self.update = purpose, update
@@ -92,11 +94,11 @@ class FeedbackModel:
             converted.append(pose.tolist())
         execution = {"before": before["body_pose"].tolist(), "after": after["body_pose"].tolist(),
                      "predicted_waypoints": actions.tolist(), "executed_poses": converted,
-                     "current_tokens": 64 + 64 * len(record["bank"]["selected"]),
+                     "current_tokens": record.get("current_visual_tokens", 64 + 64 * len(record["bank"]["selected"])),
                      "perception_ms": record["perception_ms"], "model_ms": record["model_ms"],
                      "navigation_done": done, "termination": termination, "action_executed": executed}
         teacher = None
-        if self.purpose == "train":
+        if self.purpose in self.reward_purposes:
             metrics = after["metrics"]
             teacher = {"distance_before": before["metrics"]["geodesic_distance_to_goal"],
                        "distance_after": metrics["geodesic_distance_to_goal"], "collision": collision,

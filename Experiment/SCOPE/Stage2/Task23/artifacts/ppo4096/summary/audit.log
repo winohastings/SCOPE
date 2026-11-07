@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "trained_transitions": 4096,
+  "updates": 56,
+  "max_initial_ratio_error": 0.0,
+  "findings": [
+    "final fixed-subset SR/SPL did not improve over initialization; do not claim navigation benefit",
+    "final deterministic validation uses zero Focus in over 90% of states: early-STOP collapse; do not claim useful adaptive gaze"
+  ]
+}

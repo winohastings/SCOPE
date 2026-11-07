@@ -1,0 +1,69 @@
+{
+  "episode_uid": "scope_stage2_train:6136",
+  "source_episode_id": "6136",
+  "scene_id": "S9hNv5qa7GM",
+  "instruction": "Go through the kitchen. Turn towards the left at the end of the cabinets and stand right by the kitchen table in front of the doorway to the right. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.244403123855591,
+  "path_length": 5.049085669219494,
+  "gt_path_length": 6.743662899186424,
+  "steps": 5,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8284028881050108,
+  "purpose": "train",
+  "wall_seconds": 14.408004694618285,
+  "training": {
+    "episode_id": "6136",
+    "transitions": 5,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/90478e3eb9f7426d933fda02af812f96_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/90478e3eb9f7426d933fda02af812f96_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/90478e3eb9f7426d933fda02af812f96_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/90478e3eb9f7426d933fda02af812f96_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/90478e3eb9f7426d933fda02af812f96_0004.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6136",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_90478e3eb9f7426d933fda02af812f96.pt",
+      "transitions": 5,
+      "reward_sum": 2.1918964544932047,
+      "focus_histogram": {
+        "0": 3,
+        "1": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "2": 1,
+        "1": 4
+      },
+      "entropy": {
+        "stop": 0.6402546630965339,
+        "camera": 0.7944532169236077,
+        "position_latent": 2.4330821567111545
+      },
+      "start_geodesic_distance": 6.622849941253662,
+      "final_geodesic_distance": 2.244403123855591,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3737.049838528037,
+      "perception_ms": 155.8230658993125
+    },
+    "collected": 1790,
+    "buffer_transitions": 18
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.1918964544932047,
+  "focus_mean": 1.0
+}

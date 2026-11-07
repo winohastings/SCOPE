@@ -1,0 +1,12 @@
+{
+  "training_and_validation_completed": true,
+  "driver_exit_code": 134,
+  "shutdown_error": "GL::Context::current(): no current context",
+  "error_phase": "after COMPLETE and final checkpoint persisted; Habitat/OpenGL shutdown",
+  "raw_log": "driver.log",
+  "independent_final_checkpoint_audit": "FINAL_CHECKPOINT_AUDIT.json",
+  "trace_audit": "summary/SUMMARY.json",
+  "complete_json_cursor_note": "pre-save cursor stale by one validation round; use final checkpoint cursor, fixed in subsequent run.py",
+  "final_policy_effectiveness_accepted": false,
+  "reason": "deterministic early-STOP collapse; final SR unchanged and SPL below initialization"
+}

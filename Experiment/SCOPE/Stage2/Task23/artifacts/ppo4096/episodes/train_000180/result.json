@@ -1,0 +1,75 @@
+{
+  "episode_uid": "scope_stage2_train:5845",
+  "source_episode_id": "5845",
+  "scene_id": "82sE5b5pLXE",
+  "instruction": "Exit the room then turn left and go down the hallway. Go up the steps then go straight and wait right next to the piano.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 17.451637268066406,
+  "path_length": 12.318945374339819,
+  "gt_path_length": 9.733667153581823,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.00897237809979504,
+  "purpose": "train",
+  "wall_seconds": 22.504396475851536,
+  "training": {
+    "episode_id": "5845",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ae0d67d5915e4f40b503ccf12f514f3e_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5845",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_ae0d67d5915e4f40b503ccf12f514f3e.pt",
+      "transitions": 11,
+      "reward_sum": -1.1913418197631835,
+      "focus_histogram": {
+        "0": 9,
+        "1": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 2,
+        "1": 1
+      },
+      "entropy": {
+        "stop": 0.6703123578003475,
+        "camera": 0.9941015030656543,
+        "position_latent": 2.3502445220947266
+      },
+      "start_geodesic_distance": 9.181509971618652,
+      "final_geodesic_distance": 17.451637268066406,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9650.704211555421,
+      "perception_ms": 135.8768232166767
+    },
+    "collected": 2566,
+    "buffer_transitions": 36
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1913418197631835,
+  "focus_mean": 0.2727272727272727
+}

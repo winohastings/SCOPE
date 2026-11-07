@@ -1,0 +1,27 @@
+11/06 [19:53:52] INFO     | >> [*] Loading from local         share_tools.py:370
+                          checkpoint path                                       
+                          `/home/data/czh/Third_Party/baselin                   
+                          es/SimpleNav/local/checkpoints/vlnc                   
+                          e/navvla_qwen35_cpm_rxr/checkpoints                   
+                          /steps_8000_pytorch_model.pt`                         
+                 INFO     | >> [*]  normalised config from    share_tools.py:522
+                          version_id=None to '0.21'                             
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 311/723 [00:00<00:00, 3106.74it/s]Loading weights:  86%|████████▌ | 622/723 [00:00<00:00, 2905.50it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 3267.30it/s]
+Total number of DiT parameters:  157032448
+11/06 [19:54:07] INFO     | >> server listening on 127.0.0.1:10123 server.py:341
+                 INFO     | >> connection open                     server.py:531
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/server.py", line 37, in handle
+    result = policy.predict_session(sessions[identifier], **payload)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/runtime.py", line 75, in predict_session
+    raise PermissionError("instruction/episode differs from manifest")
+PermissionError: instruction/episode differs from manifest
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/server.py", line 41, in handle
+    result = policy.finish(sessions[identifier], **payload)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/runtime.py", line 93, in finish
+    traces = load_episode_traces(boundary)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task22/trajectory.py", line 148, in load_episode_traces
+    raise ValueError("empty or failed episode cannot train")
+ValueError: empty or failed episode cannot train

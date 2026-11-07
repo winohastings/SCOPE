@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:1954",
+  "source_episode_id": "1954",
+  "scene_id": "qoiz87JEwZ2",
+  "instruction": "Turn around and exit the room. Take a right and then your first left. Wait in the doorway of the bedroom.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.870630264282227,
+  "path_length": 3.650976601522416,
+  "gt_path_length": 6.502686369056133,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.19028280286389196,
+  "purpose": "train",
+  "wall_seconds": 16.717979054898024,
+  "training": {
+    "episode_id": "1954",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/764acd75b24e41c0abe5bdaf4c9cd23d_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1954",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_764acd75b24e41c0abe5bdaf4c9cd23d.pt",
+      "transitions": 6,
+      "reward_sum": -0.8320948537190755,
+      "focus_histogram": {
+        "2": 2,
+        "1": 2,
+        "0": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "3": 3,
+        "2": 2,
+        "1": 4,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6082197427749634,
+        "camera": 0.9139964024225871,
+        "position_latent": 2.438018035888672
+      },
+      "start_geodesic_distance": 6.289207458496094,
+      "final_geodesic_distance": 8.870630264282227,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 4848.677909001708,
+      "perception_ms": 298.06474316865206
+    },
+    "collected": 1246,
+    "buffer_transitions": 62
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8320948537190755,
+  "focus_mean": 1.6666666666666667
+}

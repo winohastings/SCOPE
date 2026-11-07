@@ -1,0 +1,79 @@
+{
+  "episode_uid": "scope_stage2_train:10227",
+  "source_episode_id": "10227",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Walk outside and turn right. Walk past the reclining chairs and into the building. Stop next to the couch.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 12.450939178466797,
+  "path_length": 6.514077186351642,
+  "gt_path_length": 15.827156822082008,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.26979782196492397,
+  "purpose": "train",
+  "wall_seconds": 26.444318276830018,
+  "training": {
+    "episode_id": "10227",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/15842250897849eb8c9decf495890891_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10227",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_15842250897849eb8c9decf495890891.pt",
+      "transitions": 11,
+      "reward_sum": -0.5852819442749024,
+      "focus_histogram": {
+        "1": 6,
+        "4": 2,
+        "0": 1,
+        "3": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "2": 8,
+        "3": 2,
+        "0": 3
+      },
+      "entropy": {
+        "stop": 0.5855163016489574,
+        "camera": 1.3200454882213049,
+        "position_latent": 2.417044069085802
+      },
+      "start_geodesic_distance": 15.671710014343262,
+      "final_geodesic_distance": 12.450939178466797,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10317.818929441273,
+      "perception_ms": 580.7077661156654
+    },
+    "collected": 324,
+    "buffer_transitions": 25
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.5852819442749024,
+  "focus_mean": 1.7272727272727273
+}

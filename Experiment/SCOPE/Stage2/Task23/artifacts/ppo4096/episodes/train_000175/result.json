@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:5018",
+  "source_episode_id": "5018",
+  "scene_id": "Vvot9Ly1tCj",
+  "instruction": "Turn around 180 degrees and go into the hallway to the right in front of the kitchen island.  Walk to the end of the hallway and go into the bathroom on the right and stand to the right of the sink.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.23711156845092773,
+  "path_length": 14.464219582267106,
+  "gt_path_length": 9.209096490322711,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.37893289882142867,
+  "purpose": "train",
+  "wall_seconds": 32.70709964632988,
+  "training": {
+    "episode_id": "5018",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6655836623514ccc8ac2a93ced79314f_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5018",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_6655836623514ccc8ac2a93ced79314f.pt",
+      "transitions": 14,
+      "reward_sum": 2.341438236236572,
+      "focus_histogram": {
+        "0": 8,
+        "1": 5,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 4,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.6790570787021092,
+        "camera": 1.0344023874827795,
+        "position_latent": 2.3510637964521135
+      },
+      "start_geodesic_distance": 8.508685111999512,
+      "final_geodesic_distance": 0.23711156845092773,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12283.657423220575,
+      "perception_ms": 259.671195410192
+    },
+    "collected": 2474,
+    "buffer_transitions": 23
+  },
+  "SR": 1,
+  "SPL": 0.5882574627414409,
+  "reward_sum": 2.341438236236572,
+  "focus_mean": 0.5
+}

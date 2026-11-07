@@ -1,0 +1,76 @@
+{
+  "episode_uid": "scope_stage2_train:2826",
+  "source_episode_id": "2826",
+  "scene_id": "vyrNrziPKCB",
+  "instruction": "Walk down the hall along the banister rail on the upper floor of the home. Walk past the windows towards the mirror on the wall ahead. Turn and walk out through the door near the mirror. Walk into the bedroom and stop near the foot of the bed.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.729090690612793,
+  "path_length": 11.883914843201637,
+  "gt_path_length": 12.418026409325279,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.394079693909324,
+  "purpose": "train",
+  "wall_seconds": 44.131523753516376,
+  "training": {
+    "episode_id": "2826",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2bc7cd8f94df4f88ad19f37828db9696_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "2826",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_2bc7cd8f94df4f88ad19f37828db9696.pt",
+      "transitions": 11,
+      "reward_sum": -0.3405612818400065,
+      "focus_histogram": {
+        "0": 5,
+        "3": 2,
+        "1": 2,
+        "4": 2
+      },
+      "camera_histogram": {
+        "1": 11,
+        "2": 5
+      },
+      "entropy": {
+        "stop": 0.6409808230400086,
+        "camera": 0.815779755115509,
+        "position_latent": 2.4346759033203127
+      },
+      "start_geodesic_distance": 12.170671463012695,
+      "final_geodesic_distance": 5.729090690612793,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10071.897271089256,
+      "perception_ms": 483.9766938239336
+    },
+    "collected": 1850,
+    "buffer_transitions": 11
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.3405612818400065,
+  "focus_mean": 1.4545454545454546
+}

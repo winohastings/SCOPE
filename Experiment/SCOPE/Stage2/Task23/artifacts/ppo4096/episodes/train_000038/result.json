@@ -1,0 +1,77 @@
+{
+  "episode_uid": "scope_stage2_train:5276",
+  "source_episode_id": "5276",
+  "scene_id": "ac26ZMwG7aT",
+  "instruction": "Walk through the bedroom past the bed and hvac control module. Walk into the hall and continue through the study area. Turn the corner and walk into the next room that has a wrap around sofa and ceiling fan.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.60121089220047,
+  "path_length": 9.308055187342688,
+  "gt_path_length": 8.696229349906545,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7079155189181722,
+  "purpose": "train",
+  "wall_seconds": 31.42606787197292,
+  "training": {
+    "episode_id": "5276",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/612026ffbec44ee99eb076d96e3ba52d_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5276",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_612026ffbec44ee99eb076d96e3ba52d.pt",
+      "transitions": 10,
+      "reward_sum": 2.3031546076138816,
+      "focus_histogram": {
+        "1": 3,
+        "0": 5,
+        "4": 1,
+        "3": 1
+      },
+      "camera_histogram": {
+        "2": 3,
+        "1": 5,
+        "0": 1,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.5867415854805395,
+        "camera": 1.13702528727682,
+        "position_latent": 2.475730720319246
+      },
+      "start_geodesic_distance": 8.148530006408691,
+      "final_geodesic_distance": 0.60121089220047,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11149.675861001015,
+      "perception_ms": 410.7336634770036
+    },
+    "collected": 529,
+    "buffer_transitions": 25
+  },
+  "SR": 1,
+  "SPL": 0.8754277711512984,
+  "reward_sum": 2.3031546076138816,
+  "focus_mean": 1.0
+}

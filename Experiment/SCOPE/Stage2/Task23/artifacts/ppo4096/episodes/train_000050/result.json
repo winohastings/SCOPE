@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:6693",
+  "source_episode_id": "6693",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Make a left. Walk past the wall vent on the left. Make a right just after the bathroom. Make a right opposite the console table to the left. Wait at the threshold of the open door.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.7359943389892578,
+  "path_length": 12.613292328082025,
+  "gt_path_length": 11.160920575430152,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6690017600613712,
+  "purpose": "train",
+  "wall_seconds": 28.115813478827477,
+  "training": {
+    "episode_id": "6693",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/896526fe031a4023b87150e80218ab8a_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6693",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_896526fe031a4023b87150e80218ab8a.pt",
+      "transitions": 11,
+      "reward_sum": 2.1318529001871744,
+      "focus_histogram": {
+        "4": 6,
+        "0": 3,
+        "2": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 14,
+        "2": 10,
+        "3": 1,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.590063689276576,
+        "camera": 1.017219465225935,
+        "position_latent": 2.439091458916664
+      },
+      "start_geodesic_distance": 9.413787841796875,
+      "final_geodesic_distance": 1.7359943389892578,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10542.527582496405,
+      "perception_ms": 776.3048522174358
+    },
+    "collected": 748,
+    "buffer_transitions": 11
+  },
+  "SR": 1,
+  "SPL": 0.7463386716914642,
+  "reward_sum": 2.1318529001871744,
+  "focus_mean": 2.4545454545454546
+}

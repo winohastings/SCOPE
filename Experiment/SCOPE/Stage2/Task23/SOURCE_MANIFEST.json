@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "path": "Experiment/SCOPE/Stage2/Task22/actor_runtime.py",
+      "bytes": 11695,
+      "sha256": "6d9022f860760471a50dcd35344a9f5c0c3931984d9b7183b84a45e645090b1c"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/PROTOCOL.md",
+      "bytes": 6168,
+      "sha256": "823640f46f110d8e6ddfd0fd0bda70ebc0040b2499d2210e176099b7202f8110"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/README.md",
+      "bytes": 6239,
+      "sha256": "bacce828bce097b206e172721cc5251eb3f1da79ab10f141a77bd4d8204502fe"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/REPORT.md",
+      "bytes": 9885,
+      "sha256": "4d3f92a111ed590d1dd132a1d604a79075beeb647f4ed6ff9c1f3d62e2720720"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/TRACE_SCHEMA.md",
+      "bytes": 2553,
+      "sha256": "1d444180d1bda3b87903b6d426291f1c3e342037db4e23c124b062983f2424e7"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/audit.py",
+      "bytes": 3431,
+      "sha256": "c434f8e3bb071e7c157fdbe13a925a25cf15595c9561ac7e865da3b153bf0740"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/config.json",
+      "bytes": 997,
+      "sha256": "ffbd6738be349bf4435561f40171153b2728ca95cb3c7c8084b344b33a77d337"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/critic.py",
+      "bytes": 1779,
+      "sha256": "244ab776b64c4f2e9d1deb460946c5cd5cc02033eb480e8fd8bb27c22127836b"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/data.py",
+      "bytes": 2853,
+      "sha256": "6aa87d955911f4404dbd3e65609df0a50c1be20f92207a2a27f0661e2cb49964"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/learning.py",
+      "bytes": 15399,
+      "sha256": "699954359a0420a09a852b04bc5b6aef0a8e5a18ceb5217da0e55c90abbd0f2d"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/run.py",
+      "bytes": 15156,
+      "sha256": "f9196dcf41072632026a5ca5bd94c72ea44718261e05973be976d5cafd86c7d7"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/runtime.py",
+      "bytes": 12247,
+      "sha256": "6ab5dfb1ad6c45959faa0c676ecc36b9afd5e9f25c8fd104c1072e40aa33f6c5"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/server.py",
+      "bytes": 4332,
+      "sha256": "145910f635701242b4d76f139afa2c21de7ec62d38721abc8bf6a9a8ccdc73fe"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/Task23/summarize.py",
+      "bytes": 12895,
+      "sha256": "6dd9666531e926149fe2bb7df3eb4f4b071f1a4887309693388541ed1ce76edb"
+    },
+    {
+      "path": "Experiment/SCOPE/Stage2/real_rollout.py",
+      "bytes": 14664,
+      "sha256": "b30f7fd6ea4d0384feb894596029943209718aa7943a5312b8a6e196f14804b6"
+    },
+    {
+      "path": "docs/index.md",
+      "bytes": 2780,
+      "sha256": "98d1efe8eb68fcf92d3b79a272b0645a3da0d83ae1515cc218c962f68d12f183"
+    },
+    {
+      "path": "tests/test_scope_task23.py",
+      "bytes": 8922,
+      "sha256": "33e887d428d48567c120f77cefd1d188e99fb4a9e385c06d7a80506955eda936"
+    }
+  ],
+  "note": "final delivered source; reporting-only fixes after training are disclosed in REPORT"
+}

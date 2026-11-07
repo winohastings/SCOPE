@@ -1,0 +1,72 @@
+{
+  "episode_uid": "scope_stage2_train:7166",
+  "source_episode_id": "7166",
+  "scene_id": "aayBHfsNo7d",
+  "instruction": "Walk down hallway to bedroom, turn left and enter bathroom, stop at sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.896832466125488,
+  "path_length": 4.714261858956888,
+  "gt_path_length": 8.52901467192536,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.1324056561858035,
+  "purpose": "train",
+  "wall_seconds": 17.282644246704876,
+  "training": {
+    "episode_id": "7166",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f72fc56955d4401ebb13d83fdaee113a_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7166",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_f72fc56955d4401ebb13d83fdaee113a.pt",
+      "transitions": 7,
+      "reward_sum": -0.8572496287027995,
+      "focus_histogram": {
+        "0": 4,
+        "4": 2,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 2,
+        "3": 1,
+        "1": 7
+      },
+      "entropy": {
+        "stop": 0.6238781332969665,
+        "camera": 0.8632411241531373,
+        "position_latent": 2.447045183181763
+      },
+      "start_geodesic_distance": 8.088088035583496,
+      "final_geodesic_distance": 10.896832466125488,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5824.146024882793,
+      "perception_ms": 296.20369244366884
+    },
+    "collected": 1309,
+    "buffer_transitions": 51
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8572496287027995,
+  "focus_mean": 1.4285714285714286
+}

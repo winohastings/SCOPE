@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:7328",
+  "source_episode_id": "7328",
+  "scene_id": "e9zR4mvMWw7",
+  "instruction": "Exit the bathroom through door.  Walk through bedroom door.  Turn left.  Wait here.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.9261972904205322,
+  "path_length": 7.330315038561821,
+  "gt_path_length": 5.719973604644473,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7087145123001282,
+  "purpose": "train",
+  "wall_seconds": 21.61150930542499,
+  "training": {
+    "episode_id": "7328",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3db187bbe02f48ca93e4eace315292a1_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7328",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_3db187bbe02f48ca93e4eace315292a1.pt",
+      "transitions": 9,
+      "reward_sum": 2.1467994594573976,
+      "focus_histogram": {
+        "2": 3,
+        "0": 5,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 4,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.667679350823164,
+        "camera": 0.8911219462752342,
+        "position_latent": 2.3886255621910095
+      },
+      "start_geodesic_distance": 5.528189182281494,
+      "final_geodesic_distance": 0.9261972904205322,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7668.267969042063,
+      "perception_ms": 233.8041914626956
+    },
+    "collected": 2951,
+    "buffer_transitions": 56
+  },
+  "SR": 1,
+  "SPL": 0.7541543785226048,
+  "reward_sum": 2.1467994594573976,
+  "focus_mean": 0.7777777777777778
+}

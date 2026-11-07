@@ -1,0 +1,76 @@
+{
+  "episode_uid": "scope_stage2_train:4518",
+  "source_episode_id": "4518",
+  "scene_id": "E9uDoFAP3SH",
+  "instruction": "With a door opening directly behind you and a door to your right and left, move forward into the room ahead of you. Continue to move forward past the open staircase to your left and pass through the double door opening directly ahead of you into the next room.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 13.327529907226562,
+  "path_length": 11.550647001247853,
+  "gt_path_length": 11.944996511698587,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.10493670642154258,
+  "purpose": "train",
+  "wall_seconds": 39.48476126790047,
+  "training": {
+    "episode_id": "4518",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/97d5f1f027e245ebb958df5d8c1a7aa1_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "4518",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_97d5f1f027e245ebb958df5d8c1a7aa1.pt",
+      "transitions": 11,
+      "reward_sum": -0.8341122309366862,
+      "focus_histogram": {
+        "0": 7,
+        "2": 2,
+        "4": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "0": 3
+      },
+      "entropy": {
+        "stop": 0.6836916490605003,
+        "camera": 0.6106541094027067,
+        "position_latent": 1.8090777146188837
+      },
+      "start_geodesic_distance": 11.31584644317627,
+      "final_geodesic_distance": 13.327529907226562,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9550.139828585088,
+      "perception_ms": 291.205114684999
+    },
+    "collected": 3945,
+    "buffer_transitions": 41
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8341122309366862,
+  "focus_mean": 0.8181818181818182
+}

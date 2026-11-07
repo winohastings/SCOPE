@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:1997",
+  "source_episode_id": "1997",
+  "scene_id": "8WUmhLawc2A",
+  "instruction": "Go straight through the door, take a left, and then take your first right before stopping.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.8095310926437378,
+  "path_length": 5.892403290607035,
+  "gt_path_length": 6.521802078534512,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.798878951090541,
+  "purpose": "train",
+  "wall_seconds": 29.033776635304093,
+  "training": {
+    "episode_id": "1997",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/fbb0d7ef808447ec98417476545665ee_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1997",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_fbb0d7ef808447ec98417476545665ee.pt",
+      "transitions": 8,
+      "reward_sum": 2.119216736157735,
+      "focus_histogram": {
+        "0": 4,
+        "2": 3,
+        "1": 1
+      },
+      "camera_histogram": {
+        "2": 1,
+        "1": 5,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6905846238136292,
+        "camera": 0.7430299401283265,
+        "position_latent": 2.259839407602946
+      },
+      "start_geodesic_distance": 5.847782135009766,
+      "final_geodesic_distance": 1.8095310926437378,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6717.741699889302,
+      "perception_ms": 228.49895525723696
+    },
+    "collected": 3155,
+    "buffer_transitions": 55
+  },
+  "SR": 1,
+  "SPL": 0.9924273418846943,
+  "reward_sum": 2.119216736157735,
+  "focus_mean": 0.875
+}

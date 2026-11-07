@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:855",
+  "source_episode_id": "855",
+  "scene_id": "PX4nDJXEHrG",
+  "instruction": "Walk forward towards the door and take a right to go into the hallway. In the hallway go straight and go up the stairs stopping on the second stair.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.1137701272964478,
+  "path_length": 7.420839770697057,
+  "gt_path_length": 6.292909303175736,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8301988414407994,
+  "purpose": "train",
+  "wall_seconds": 30.535444911569357,
+  "training": {
+    "episode_id": "855",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4e0f272e793742f5a9199265b787a6e2_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "855",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_4e0f272e793742f5a9199265b787a6e2.pt",
+      "transitions": 9,
+      "reward_sum": 2.1918723154067994,
+      "focus_histogram": {
+        "1": 3,
+        "0": 6
+      },
+      "camera_histogram": {
+        "0": 1,
+        "2": 1,
+        "1": 1
+      },
+      "entropy": {
+        "stop": 0.691513771812121,
+        "camera": 1.0228162209192913,
+        "position_latent": 2.3650262554486594
+      },
+      "start_geodesic_distance": 5.7918548583984375,
+      "final_geodesic_distance": 1.1137701272964478,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7572.974494658411,
+      "perception_ms": 128.92337515950203
+    },
+    "collected": 2208,
+    "buffer_transitions": 25
+  },
+  "SR": 1,
+  "SPL": 0.7804850983670268,
+  "reward_sum": 2.1918723154067994,
+  "focus_mean": 0.3333333333333333
+}

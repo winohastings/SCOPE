@@ -1,0 +1,74 @@
+{
+  "episode_uid": "scope_stage2_train:5436",
+  "source_episode_id": "5436",
+  "scene_id": "2n8kARJN3HM",
+  "instruction": "Go upstairs, turn right and go upstairs, turn into the leftmost doorway, take a few steps and then stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.2820466756820679,
+  "path_length": 7.387968391412869,
+  "gt_path_length": 8.173296510275787,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.880291533056255,
+  "purpose": "train",
+  "wall_seconds": 25.966558514162898,
+  "training": {
+    "episode_id": "5436",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/98ae2af87326438cad4a9714f1d30252_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5436",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_98ae2af87326438cad4a9714f1d30252.pt",
+      "transitions": 8,
+      "reward_sum": 2.1263223854700724,
+      "focus_histogram": {
+        "1": 2,
+        "2": 2,
+        "0": 2,
+        "4": 2
+      },
+      "camera_histogram": {
+        "1": 7,
+        "2": 6,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.5914610326290131,
+        "camera": 1.174724942445755,
+        "position_latent": 2.442077100276947
+      },
+      "start_geodesic_distance": 6.476882457733154,
+      "final_geodesic_distance": 1.2820466756820679,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8812.4871077016,
+      "perception_ms": 518.7195893377066
+    },
+    "collected": 462,
+    "buffer_transitions": 27
+  },
+  "SR": 1,
+  "SPL": 0.8766797737333741,
+  "reward_sum": 2.1263223854700724,
+  "focus_mean": 1.75
+}

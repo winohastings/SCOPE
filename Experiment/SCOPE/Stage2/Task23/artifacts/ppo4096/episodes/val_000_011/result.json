@@ -1,0 +1,64 @@
+{
+  "episode_uid": "agm_ppo_val_seen:284",
+  "source_episode_id": "284",
+  "scene_id": "SN83YJsR3w2",
+  "instruction": "Leave the bathroom, make a slight left, walk through the bedroom, leave the bedroom, and wait.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.964722633361816,
+  "path_length": 1.811698142439127,
+  "gt_path_length": 9.769881248474121,
+  "steps": 3,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.20316134201717428,
+  "purpose": "val_seen",
+  "wall_seconds": 29.565843018703163,
+  "training": {
+    "episode_id": "284",
+    "transitions": 3,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/203d45aa8ea54765ae0b5c0768062fc3_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/203d45aa8ea54765ae0b5c0768062fc3_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/203d45aa8ea54765ae0b5c0768062fc3_0002.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "284",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_203d45aa8ea54765ae0b5c0768062fc3.pt",
+      "transitions": 3,
+      "reward_sum": -0.7422289530436199,
+      "focus_histogram": {
+        "4": 3
+      },
+      "camera_histogram": {
+        "1": 12
+      },
+      "entropy": {
+        "stop": 0.5623351335525513,
+        "camera": 1.3598473072052002,
+        "position_latent": 2.391589800516764
+      },
+      "start_geodesic_distance": 9.58128833770752,
+      "final_geodesic_distance": 10.964722633361816,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 2010.9804570674896,
+      "perception_ms": 322.3919402807951
+    },
+    "collected": 0,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7422289530436199,
+  "focus_mean": 4.0
+}

@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:265",
+  "source_episode_id": "265",
+  "scene_id": "s8pcmisQ38h",
+  "instruction": "Go up the stairs then turn left and go up the stairs on the left seven steps and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.071998357772827,
+  "path_length": 12.988049295265228,
+  "gt_path_length": 10.127840995788574,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7602533532229292,
+  "purpose": "val_seen",
+  "wall_seconds": 28.062268412671983,
+  "training": {
+    "episode_id": "265",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35f848609dcf4fd1a549374eadb0c466_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "265",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_35f848609dcf4fd1a549374eadb0c466.pt",
+      "transitions": 14,
+      "reward_sum": 2.4019244925181074,
+      "focus_histogram": {
+        "0": 14
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.688449182680675,
+        "camera": 0.7356528767517635,
+        "position_latent": 2.2430730036326816
+      },
+      "start_geodesic_distance": 10.200865745544434,
+      "final_geodesic_distance": 2.071998357772827,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11855.471120215952,
+      "perception_ms": 71.83606084436178
+    },
+    "collected": 3100,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.7854039905178942,
+  "reward_sum": 2.4019244925181074,
+  "focus_mean": 0.0
+}

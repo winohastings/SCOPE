@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:8315",
+  "source_episode_id": "8315",
+  "scene_id": "VzqfbhrpDEA",
+  "instruction": "Walk through the open door into the office area. Pass in front of the desk in the room and continue through the open double doors into the next room. Walk along the cabinet area with a sink. Walk past the bathroom and through the arched entryway ahead. Turn and walk up the first few steps of the stairwell.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 7.18166446685791,
+  "path_length": 12.411533197155222,
+  "gt_path_length": 11.990567218027174,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4016929821540138,
+  "purpose": "train",
+  "wall_seconds": 75.9151553818956,
+  "training": {
+    "episode_id": "8315",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ed380a59d2ce448db3cbb73d4d38dc3d_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8315",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_ed380a59d2ce448db3cbb73d4d38dc3d.pt",
+      "transitions": 14,
+      "reward_sum": -0.47576774597167965,
+      "focus_histogram": {
+        "1": 4,
+        "0": 7,
+        "2": 3
+      },
+      "camera_histogram": {
+        "2": 1,
+        "1": 9
+      },
+      "entropy": {
+        "stop": 0.6828715006510416,
+        "camera": 0.7798596943418185,
+        "position_latent": 2.35083802541097
+      },
+      "start_geodesic_distance": 11.145148277282715,
+      "final_geodesic_distance": 7.18166446685791,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12207.798574119806,
+      "perception_ms": 343.0821718648076
+    },
+    "collected": 3086,
+    "buffer_transitions": 56
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.47576774597167965,
+  "focus_mean": 0.7142857142857143
+}

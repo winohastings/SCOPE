@@ -1,0 +1,80 @@
+{
+  "episode_uid": "scope_stage2_train:7151",
+  "source_episode_id": "7151",
+  "scene_id": "V2XKFyX4ASd",
+  "instruction": "Exit the bathroom then turn left. When you get to the pool table turn left and go into the room on the left. Turn left and pass the tub and go into the bathroom straight ahead. Wait near the sink.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.38468071818351746,
+  "path_length": 13.470631847856566,
+  "gt_path_length": 12.418140179087661,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8297032421751005,
+  "purpose": "train",
+  "wall_seconds": 35.49533594213426,
+  "training": {
+    "episode_id": "7151",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/358ff1725fe342f691eef841de152b7c_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7151",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_358ff1725fe342f691eef841de152b7c.pt",
+      "transitions": 15,
+      "reward_sum": 2.523300541639328,
+      "focus_histogram": {
+        "4": 1,
+        "0": 12,
+        "1": 1,
+        "3": 1
+      },
+      "camera_histogram": {
+        "2": 3,
+        "1": 5
+      },
+      "entropy": {
+        "stop": 0.6782566254789179,
+        "camera": 1.0952964533459058,
+        "position_latent": 2.3701517581939697
+      },
+      "start_geodesic_distance": 11.684188842773438,
+      "final_geodesic_distance": 0.38468071818351746,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13175.10081268847,
+      "perception_ms": 283.67182053625584
+    },
+    "collected": 2158,
+    "buffer_transitions": 40
+  },
+  "SR": 1,
+  "SPL": 0.8673823896859458,
+  "reward_sum": 2.523300541639328,
+  "focus_mean": 0.5333333333333333
+}

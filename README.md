@@ -62,6 +62,12 @@ R2R 隔离开发清单 64 集/组，seed=42，四组共 256 集，记录执行�
 
 仅 Glance 在这批开发样本上表现可用；当前 Fixed/Random Focus 未显示优于 Glance 的效用。单 seed、开发场景来自原 train，不能声称统计显著、val_unseen 泛化或学习型策略有效。
 
+## Stage2 / Task23
+
+Task23 导航级 PPO/GAE 与独立 Critic 的实现、文档和关键实验数据已归档，见 [发布说明](docs/release/TASK23_RELEASE.md)。完成 4096 个真实训练 transitions / 56 轮更新；最终确定性策略零 Focus 退化，不宣称有效论文基线。训练后 OpenGL 清理 exit 134 如实保留。
+
+**Task23 checkpoint 全部保留本地，GitHub 仅保存 11 个 SHA256 占位文件。** 全量训练 traces 不上传；缩减包不支持独立完整重放。运行 `python3.11 tools/verify_task23_release.py` 校验归档与结果分母。
+
 ## 导航
 
 - `docs/Tasks/`：三个 Stage1 原始任务及 `Stage2/` 下的 Task4。

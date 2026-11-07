@@ -1,0 +1,79 @@
+{
+  "episode_uid": "scope_stage2_train:396",
+  "source_episode_id": "396",
+  "scene_id": "vyrNrziPKCB",
+  "instruction": "Leave the closet and the bathroom and go out of the bedroom into the hallway. In the hallway go past the pool table and stairs and go straight through the archway, and stop in front of the light switch.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.4918936491012573,
+  "path_length": 13.346353818895295,
+  "gt_path_length": 12.673971397291705,
+  "steps": 14,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.878337882030562,
+  "purpose": "train",
+  "wall_seconds": 47.02645414043218,
+  "training": {
+    "episode_id": "396",
+    "transitions": 14,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8a5146e051f04aef8b0a72d7cddd1044_0013.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "396",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_8a5146e051f04aef8b0a72d7cddd1044.pt",
+      "transitions": 14,
+      "reward_sum": 2.5423654254277546,
+      "focus_histogram": {
+        "1": 5,
+        "0": 7,
+        "3": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 1,
+        "1": 9
+      },
+      "entropy": {
+        "stop": 0.6857151985168457,
+        "camera": 0.7677600160241127,
+        "position_latent": 2.3511622647444406
+      },
+      "start_geodesic_distance": 12.227375030517578,
+      "final_geodesic_distance": 0.4918936491012573,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 12255.747536197305,
+      "perception_ms": 342.2478912398219
+    },
+    "collected": 3100,
+    "buffer_transitions": 70
+  },
+  "SR": 1,
+  "SPL": 0.9161584651836888,
+  "reward_sum": 2.5423654254277546,
+  "focus_mean": 0.7142857142857143
+}

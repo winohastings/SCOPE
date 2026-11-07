@@ -1,0 +1,12 @@
+[
+  {
+    "source": "Experiment/SCOPE/Stage2/Task22/actor_runtime.py",
+    "sha256": "d4985cf27a8eaad0fcf74e7b8e6bdd65bc509eb46ef8caa8572780a4a66fe7a9",
+    "snapshot": "docs/release/task23_before_sources/Experiment/SCOPE/Stage2/Task22/actor_runtime.py"
+  },
+  {
+    "source": "Experiment/SCOPE/Stage2/real_rollout.py",
+    "sha256": "c98b14f5d621643abba0253f2f6ccb9fee035108b2e8e26ba3618782dfbba573",
+    "snapshot": "docs/release/task23_before_sources/Experiment/SCOPE/Stage2/real_rollout.py"
+  }
+]

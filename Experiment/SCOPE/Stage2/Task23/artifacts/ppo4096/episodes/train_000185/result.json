@@ -1,0 +1,81 @@
+{
+  "episode_uid": "scope_stage2_train:5756",
+  "source_episode_id": "5756",
+  "scene_id": "ac26ZMwG7aT",
+  "instruction": "Turn around and go down the hallway behind you. Continue down the hallway and stop in front of the ledge with the statue.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 14.38184642791748,
+  "path_length": 18.208533593220636,
+  "gt_path_length": 12.748766151278682,
+  "steps": 16,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.021172701979843146,
+  "purpose": "train",
+  "wall_seconds": 39.20826670806855,
+  "training": {
+    "episode_id": "5756",
+    "transitions": 16,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0014.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a1eb013cd0604d21943137f8dad4ef81_0015.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5756",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_a1eb013cd0604d21943137f8dad4ef81.pt",
+      "transitions": 16,
+      "reward_sum": -0.8969964345296224,
+      "focus_histogram": {
+        "0": 8,
+        "1": 7,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "2": 2,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.6713626909255982,
+        "camera": 0.9298480176925659,
+        "position_latent": 2.3434235572814943
+      },
+      "start_geodesic_distance": 12.176899909973145,
+      "final_geodesic_distance": 14.38184642791748,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13818.822930566967,
+      "perception_ms": 326.0688055306673
+    },
+    "collected": 2653,
+    "buffer_transitions": 59
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8969964345296224,
+  "focus_mean": 0.5625
+}

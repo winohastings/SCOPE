@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:10161",
+  "source_episode_id": "10161",
+  "scene_id": "ac26ZMwG7aT",
+  "instruction": "Walk towards the room with the leather chair.  Stay to the right of the table enter the doorway on the right.   Take the next left, and walk straight down the hallway.  Enter the closet at the end of the hall.  Wait here.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 11.941617012023926,
+  "path_length": 17.54554356634617,
+  "gt_path_length": 13.289070438959548,
+  "steps": 17,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.026927024761738243,
+  "purpose": "train",
+  "wall_seconds": 42.365029823035,
+  "training": {
+    "episode_id": "10161",
+    "transitions": 17,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0014.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0015.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ee00134dfa5f4cf8a685acad074802ad_0016.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10161",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_ee00134dfa5f4cf8a685acad074802ad.pt",
+      "transitions": 17,
+      "reward_sum": -1.0158338038126629,
+      "focus_histogram": {
+        "0": 5,
+        "2": 3,
+        "3": 6,
+        "4": 3
+      },
+      "camera_histogram": {
+        "1": 29,
+        "2": 5,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.6392256474494934,
+        "camera": 0.7671577143669128,
+        "position_latent": 2.43333212852478
+      },
+      "start_geodesic_distance": 12.154109954833984,
+      "final_geodesic_distance": 11.941617012023926,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 15548.92386868596,
+      "perception_ms": 1043.962654657662
+    },
+    "collected": 1877,
+    "buffer_transitions": 38
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.0158338038126629,
+  "focus_mean": 2.1176470588235294
+}

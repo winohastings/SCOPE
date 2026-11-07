@@ -1,0 +1,74 @@
+{
+  "episode_uid": "scope_stage2_train:6058",
+  "source_episode_id": "6058",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Leave the closet and enter the bedroom. Take a left at the bed, and go into the bathroom ahead. Stop once you are in the bathroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.863712787628174,
+  "path_length": 8.054951036348939,
+  "gt_path_length": 6.280401433909849,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5910771251639017,
+  "purpose": "train",
+  "wall_seconds": 21.230889342725277,
+  "training": {
+    "episode_id": "6058",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9bebd9c3efe14d6489caa50ba5131946_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6058",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_9bebd9c3efe14d6489caa50ba5131946.pt",
+      "transitions": 8,
+      "reward_sum": 2.0070027478535972,
+      "focus_histogram": {
+        "0": 3,
+        "1": 3,
+        "2": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "2": 2,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6668662391602993,
+        "camera": 1.0750065743923187,
+        "position_latent": 2.3809766620397568
+      },
+      "start_geodesic_distance": 5.518754005432129,
+      "final_geodesic_distance": 2.863712787628174,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6845.683632418513,
+      "perception_ms": 282.28513430804014
+    },
+    "collected": 2062,
+    "buffer_transitions": 8
+  },
+  "SR": 1,
+  "SPL": 0.6851381194656659,
+  "reward_sum": 2.0070027478535972,
+  "focus_mean": 1.125
+}

@@ -1,0 +1,74 @@
+{
+  "episode_uid": "scope_stage2_train:7989",
+  "source_episode_id": "7989",
+  "scene_id": "mJXqzFtmKg4",
+  "instruction": "Walk past the bar with the chairs/stools. Pass the couches on the left and wait there.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 4.516704559326172,
+  "path_length": 7.152509263250977,
+  "gt_path_length": 8.830723581284209,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.49182704634469243,
+  "purpose": "train",
+  "wall_seconds": 21.91457326617092,
+  "training": {
+    "episode_id": "7989",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b75db486458d4d3cba2e3ae40bb6cbfa_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7989",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_b75db486458d4d3cba2e3ae40bb6cbfa.pt",
+      "transitions": 7,
+      "reward_sum": -0.3964450327555339,
+      "focus_histogram": {
+        "1": 1,
+        "4": 2,
+        "2": 1,
+        "0": 3
+      },
+      "camera_histogram": {
+        "3": 4,
+        "2": 3,
+        "0": 1,
+        "1": 3
+      },
+      "entropy": {
+        "stop": 0.5853745900094509,
+        "camera": 1.3178947418928146,
+        "position_latent": 2.4160201996564865
+      },
+      "start_geodesic_distance": 8.770029067993164,
+      "final_geodesic_distance": 4.516704559326172,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6130.219805054367,
+      "perception_ms": 336.5031089633703
+    },
+    "collected": 313,
+    "buffer_transitions": 14
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.3964450327555339,
+  "focus_mean": 1.5714285714285714
+}

@@ -1,0 +1,76 @@
+{
+  "episode_uid": "scope_stage2_train:8012",
+  "source_episode_id": "8012",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "Walk straight and past the bar. When you pass the table and chairs and get near the fireplace turn left into the hallway. Wait there.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.91953182220459,
+  "path_length": 11.34223191300407,
+  "gt_path_length": 6.920983533256126,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.12057066978096122,
+  "purpose": "train",
+  "wall_seconds": 37.26471520867199,
+  "training": {
+    "episode_id": "8012",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/239da845789d4c839b28961da96d38dc_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8012",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_239da845789d4c839b28961da96d38dc.pt",
+      "transitions": 12,
+      "reward_sum": -0.6534219106038411,
+      "focus_histogram": {
+        "1": 6,
+        "0": 5,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 3,
+        "1": 5
+      },
+      "entropy": {
+        "stop": 0.6447967082262039,
+        "camera": 1.0747656106948853,
+        "position_latent": 2.390165722370148
+      },
+      "start_geodesic_distance": 6.618203163146973,
+      "final_geodesic_distance": 5.91953182220459,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10767.328892834485,
+      "perception_ms": 282.46242459863424
+    },
+    "collected": 2010,
+    "buffer_transitions": 23
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6534219106038411,
+  "focus_mean": 0.6666666666666666
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "trained": 4096,
+  "optimizer_steps": 570,
+  "collected": 4096,
+  "buffer_boundaries": [],
+  "cursor": {
+    "train_episode_index": 276,
+    "validation_round": 5,
+    "next_validation_at": 5120
+  },
+  "validation_transitions": 2452,
+  "best": {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt",
+    "transitions": 1033,
+    "update": 14,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.5625,
+    "SPL": 0.42185182981204195,
+    "reward": 0.5581196019425988,
+    "focus_mean": 4.0,
+    "nDTW": 0.42432277236995153,
+    "round": 1
+  },
+  "all_four_models_and_two_optimizers_exact": true,
+  "device": "cpu",
+  "note": "CUDA fresh-process replay separately passed gate; final weights/optimizers loaded into fresh trainer without training"
+}

@@ -1,0 +1,71 @@
+{
+  "episode_uid": "scope_stage2_train:6838",
+  "source_episode_id": "6838",
+  "scene_id": "rPc6DW4iMge",
+  "instruction": "Turn around and walk through the living room. Then turn right and walk past the kitchen. Stand near the sofa.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.2335405349731445,
+  "path_length": 7.35429647937417,
+  "gt_path_length": 11.091862265917523,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5883849328055172,
+  "purpose": "train",
+  "wall_seconds": 20.907257267273962,
+  "training": {
+    "episode_id": "6838",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/f1c8d42fb72246f887fdf1c4f4c66fb6_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6838",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_f1c8d42fb72246f887fdf1c4f4c66fb6.pt",
+      "transitions": 8,
+      "reward_sum": -0.22822872161865226,
+      "focus_histogram": {
+        "0": 7,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 2,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.670182157646526,
+        "camera": 1.0008572123267434,
+        "position_latent": 2.3498740846460517
+      },
+      "start_geodesic_distance": 10.96010971069336,
+      "final_geodesic_distance": 5.2335405349731445,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6604.851990938187,
+      "perception_ms": 119.65623218566179
+    },
+    "collected": 2594,
+    "buffer_transitions": 64
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.22822872161865226,
+  "focus_mean": 0.375
+}

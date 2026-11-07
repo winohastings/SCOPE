@@ -1,0 +1,69 @@
+{
+  "episode_uid": "scope_stage2_train:6676",
+  "source_episode_id": "6676",
+  "scene_id": "VzqfbhrpDEA",
+  "instruction": "Walk forward through door. Turn right. Stop by the rightside sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 7.345405101776123,
+  "path_length": 1.560795127414167,
+  "gt_path_length": 7.835613112635873,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.487487766514626,
+  "purpose": "train",
+  "wall_seconds": 47.299892865121365,
+  "training": {
+    "episode_id": "6676",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9ae2114d2db5484f8b50bd1a09b896dd_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9ae2114d2db5484f8b50bd1a09b896dd_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9ae2114d2db5484f8b50bd1a09b896dd_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/9ae2114d2db5484f8b50bd1a09b896dd_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6676",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_9ae2114d2db5484f8b50bd1a09b896dd.pt",
+      "transitions": 4,
+      "reward_sum": -0.6734229087829591,
+      "focus_histogram": {
+        "4": 2,
+        "2": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "2": 3,
+        "1": 7,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.5858289691118094,
+        "camera": 0.8774736340229328,
+        "position_latent": 2.433902997236985
+      },
+      "start_geodesic_distance": 6.994061470031738,
+      "final_geodesic_distance": 7.345405101776123,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3001.695230603218,
+      "perception_ms": 306.1957787722349
+    },
+    "collected": 972,
+    "buffer_transitions": 4
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6734229087829591,
+  "focus_mean": 2.75
+}

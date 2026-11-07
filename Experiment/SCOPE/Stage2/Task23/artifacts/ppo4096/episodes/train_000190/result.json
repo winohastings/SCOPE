@@ -1,0 +1,76 @@
+{
+  "episode_uid": "scope_stage2_train:8126",
+  "source_episode_id": "8126",
+  "scene_id": "ac26ZMwG7aT",
+  "instruction": "Leave the bedroom and walk towards the front door.  Turn right and walk past the painting of the boat. Turn right and the end of the hallway.  Stop just before passing through the doorway to the bedroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.18991324305534363,
+  "path_length": 9.95668346551247,
+  "gt_path_length": 9.047279657901512,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7597880108816634,
+  "purpose": "train",
+  "wall_seconds": 31.21257260814309,
+  "training": {
+    "episode_id": "8126",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6bcca79d63e74c7cbdb178c88f29e7d3_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8126",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_6bcca79d63e74c7cbdb178c88f29e7d3.pt",
+      "transitions": 11,
+      "reward_sum": 2.2915316474437715,
+      "focus_histogram": {
+        "3": 1,
+        "0": 7,
+        "1": 2,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 5,
+        "1": 2
+      },
+      "entropy": {
+        "stop": 0.6653814713160197,
+        "camera": 0.91650680369801,
+        "position_latent": 2.3531734546025596
+      },
+      "start_geodesic_distance": 7.262887954711914,
+      "final_geodesic_distance": 0.18991324305534363,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9744.760933332145,
+      "perception_ms": 253.05834226310253
+    },
+    "collected": 2724,
+    "buffer_transitions": 56
+  },
+  "SR": 1,
+  "SPL": 0.7294485136409922,
+  "reward_sum": 2.2915316474437715,
+  "focus_mean": 0.6363636363636364
+}

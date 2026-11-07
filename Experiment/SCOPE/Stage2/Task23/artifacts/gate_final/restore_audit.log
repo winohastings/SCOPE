@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/audit.py", line 52, in <module>
+    main()
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/audit.py", line 41, in main
+    compare_nested(first[key], second[key], key)
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/audit.py", line 22, in compare_nested
+    compare_nested(first[key], second[key], f"{name}.{key}")
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/audit.py", line 27, in compare_nested
+    compare_nested(left, right, f"{name}[{index}]")
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/audit.py", line 27, in compare_nested
+    compare_nested(left, right, f"{name}[{index}]")
+  File "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/audit.py", line 29, in compare_nested
+    raise AssertionError(f"restored scalar differs: {name}: {first} vs {second}")
+AssertionError: restored scalar differs: trainer.python_rng[1][624]: 8 vs 9

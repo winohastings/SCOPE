@@ -1,0 +1,77 @@
+{
+  "episode_uid": "scope_stage2_train:8672",
+  "source_episode_id": "8672",
+  "scene_id": "vyrNrziPKCB",
+  "instruction": "Exit bathroom turn left in hall, walk straight into sitting room. Wait at floral chair.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.2999154031276703,
+  "path_length": 12.738301420584321,
+  "gt_path_length": 11.97568651431148,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.865889660292662,
+  "purpose": "train",
+  "wall_seconds": 44.31342384777963,
+  "training": {
+    "episode_id": "8672",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2f9329cfc5b541b5bf851d4c70353299_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8672",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_2f9329cfc5b541b5bf851d4c70353299.pt",
+      "transitions": 11,
+      "reward_sum": 2.4715065197149912,
+      "focus_histogram": {
+        "1": 5,
+        "2": 2,
+        "0": 3,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 7,
+        "3": 2,
+        "2": 4
+      },
+      "entropy": {
+        "stop": 0.6676344197729359,
+        "camera": 0.9168234260185905,
+        "position_latent": 2.4630680395209272
+      },
+      "start_geodesic_distance": 10.972513198852539,
+      "final_geodesic_distance": 0.2999154031276703,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9717.138400301337,
+      "perception_ms": 404.0109319612384
+    },
+    "collected": 1539,
+    "buffer_transitions": 49
+  },
+  "SR": 1,
+  "SPL": 0.8613796169967861,
+  "reward_sum": 2.4715065197149912,
+  "focus_mean": 1.1818181818181819
+}

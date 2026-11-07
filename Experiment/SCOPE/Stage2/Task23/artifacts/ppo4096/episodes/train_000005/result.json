@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:5592",
+  "source_episode_id": "5592",
+  "scene_id": "cV4RVeZvu5T",
+  "instruction": "Walk up the stairs, then continue straight into the kitchen. Turn left by the refrigerator and wait in the next room by the sink.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.4756086766719818,
+  "path_length": 13.433768154121935,
+  "gt_path_length": 9.483199188574945,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6807400084686298,
+  "purpose": "train",
+  "wall_seconds": 27.068920795805752,
+  "training": {
+    "episode_id": "5592",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/62bd3aeb6e8a4910befd2544e52c0b0b_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5592",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_62bd3aeb6e8a4910befd2544e52c0b0b.pt",
+      "transitions": 15,
+      "reward_sum": 2.170353212753932,
+      "focus_histogram": {
+        "4": 4,
+        "0": 5,
+        "2": 3,
+        "3": 1,
+        "1": 2
+      },
+      "camera_histogram": {
+        "3": 4,
+        "2": 8,
+        "0": 6,
+        "1": 9
+      },
+      "entropy": {
+        "stop": 0.5653087261476015,
+        "camera": 1.3583838437732898,
+        "position_latent": 2.398571629273264
+      },
+      "start_geodesic_distance": 9.330906867980957,
+      "final_geodesic_distance": 0.4756086766719818,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13762.818490155041,
+      "perception_ms": 795.4723509028554
+    },
+    "collected": 89,
+    "buffer_transitions": 15
+  },
+  "SR": 1,
+  "SPL": 0.6945859688011601,
+  "reward_sum": 2.170353212753932,
+  "focus_mean": 1.8
+}

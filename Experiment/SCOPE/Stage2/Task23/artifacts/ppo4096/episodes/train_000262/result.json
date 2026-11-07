@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:272",
+  "source_episode_id": "272",
+  "scene_id": "SN83YJsR3w2",
+  "instruction": "Turn right and go to the bust\r\nGo to the desk\r\nGo to the barrel\r\nGo to the mat.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 14.414255142211914,
+  "path_length": 6.471259559970349,
+  "gt_path_length": 11.057448851875854,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.07463174949399932,
+  "purpose": "train",
+  "wall_seconds": 38.543795524165034,
+  "training": {
+    "episode_id": "272",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3129eceea6ba4ddcb0d06478115f88dd_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "272",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_3129eceea6ba4ddcb0d06478115f88dd.pt",
+      "transitions": 8,
+      "reward_sum": -0.8918928782145182,
+      "focus_histogram": {
+        "0": 5,
+        "4": 1,
+        "2": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6900858879089355,
+        "camera": 0.5759801736899784,
+        "position_latent": 1.8524129816464014
+      },
+      "start_geodesic_distance": 10.78586196899414,
+      "final_geodesic_distance": 14.414255142211914,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6864.749118685722,
+      "perception_ms": 221.79315518587828
+    },
+    "collected": 3854,
+    "buffer_transitions": 16
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.8918928782145182,
+  "focus_mean": 0.875
+}

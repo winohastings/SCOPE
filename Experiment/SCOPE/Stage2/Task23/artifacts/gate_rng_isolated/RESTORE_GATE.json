@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "bitwise_equal": true,
+  "actor_critic_optimizer_rng_cursor_equal": true,
+  "first": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/gate_after.pt",
+  "restored": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/gate_repeated.pt",
+  "updates": 1,
+  "optimizer_steps": 8,
+  "trained_transitions": 64
+}

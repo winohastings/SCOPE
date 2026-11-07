@@ -1,0 +1,2 @@
+transitions,update,actor_loss,critic_loss,KL,clip_fraction,STOP_entropy,camera_entropy,position_entropy,actor_change,critic_change,initial_ratio_error,explained_variance,update_seconds,kl_early_stop
+64,1,0.29799474962055683,0.3714918754994869,0.015263018882251345,0.22302901931107044,0.5634023025631905,1.3520433455705643,2.3949665129184723,0.40277270757781797,0.7027067261104973,0.0,0.7995395660400391,6.786626851186156,False

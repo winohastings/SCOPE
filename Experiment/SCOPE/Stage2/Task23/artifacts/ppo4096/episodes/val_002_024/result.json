@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:150",
+  "source_episode_id": "150",
+  "scene_id": "vyrNrziPKCB",
+  "instruction": "Turn to the left and walk around the pool table to the stairs. Walk down the stairs and wait at the bottom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.4809400141239166,
+  "path_length": 11.599390795920044,
+  "gt_path_length": 10.24142837524414,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7706481325071624,
+  "purpose": "val_seen",
+  "wall_seconds": 46.50504730362445,
+  "training": {
+    "episode_id": "150",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/34d72c852f8c45c2a57d8c054b1df553_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "150",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_34d72c852f8c45c2a57d8c054b1df553.pt",
+      "transitions": 12,
+      "reward_sum": 2.0091521481672925,
+      "focus_histogram": {
+        "4": 12
+      },
+      "camera_histogram": {
+        "1": 48
+      },
+      "entropy": {
+        "stop": 0.6662155898908774,
+        "camera": 1.0766975929339726,
+        "position_latent": 2.38039730489254
+      },
+      "start_geodesic_distance": 9.6182222366333,
+      "final_geodesic_distance": 0.4809400141239166,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11555.785999633372,
+      "perception_ms": 1279.3387938290834
+    },
+    "collected": 2054,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.829200636986591,
+  "reward_sum": 2.0091521481672925,
+  "focus_mean": 4.0
+}

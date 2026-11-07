@@ -1,0 +1,9 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0028.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0028.pt",
+  "bytes": 50854777,
+  "sha256": "7898b86bde7a2cc29c2838602fa3da38b9971125e933e49f618d772495e687b8",
+  "uploaded": false,
+  "reason": "User requested checkpoint weights remain local; placeholder only.",
+  "restore": "Obtain this exact local file and verify its SHA256 before placing it at checkpoint path. Placeholder is not loadable."
+}

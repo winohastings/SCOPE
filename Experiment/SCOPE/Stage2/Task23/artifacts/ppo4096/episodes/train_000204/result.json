@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:3021",
+  "source_episode_id": "3021",
+  "scene_id": "EDJbREhghzL",
+  "instruction": "Exit the bedroom, go straight ahead and then make a quick right to the stairs and wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.40693533420562744,
+  "path_length": 14.387076006270945,
+  "gt_path_length": 8.586072728634758,
+  "steps": 15,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.642537751433928,
+  "purpose": "train",
+  "wall_seconds": 22.75773700233549,
+  "training": {
+    "episode_id": "3021",
+    "transitions": 15,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c2036023d84e4380a5294e8208de296e_0014.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3021",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_c2036023d84e4380a5294e8208de296e.pt",
+      "transitions": 15,
+      "reward_sum": 2.348208451271057,
+      "focus_histogram": {
+        "1": 5,
+        "0": 10
+      },
+      "camera_histogram": {
+        "1": 4,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6590920001268387,
+        "camera": 0.890435978770256,
+        "position_latent": 2.38213632106781
+      },
+      "start_geodesic_distance": 8.630062103271484,
+      "final_geodesic_distance": 0.40693533420562744,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 13115.851489827037,
+      "perception_ms": 212.43974100798368
+    },
+    "collected": 2935,
+    "buffer_transitions": 40
+  },
+  "SR": 1,
+  "SPL": 0.5998482318095678,
+  "reward_sum": 2.348208451271057,
+  "focus_mean": 0.3333333333333333
+}

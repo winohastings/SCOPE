@@ -1,0 +1,50 @@
+{
+  "target": 4096,
+  "collected": 4096,
+  "trained": 4096,
+  "buffer_transitions": 0,
+  "updates": 56,
+  "optimizer_steps": 570,
+  "validation_transitions": 2452,
+  "cursor": {
+    "train_episode_index": 276,
+    "validation_round": 4,
+    "next_validation_at": 4096
+  },
+  "best": {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt",
+    "transitions": 1033,
+    "update": 14,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.5625,
+    "SPL": 0.42185182981204195,
+    "reward": 0.5581196019425988,
+    "focus_mean": 4.0,
+    "nDTW": 0.42432277236995153,
+    "round": 1
+  },
+  "last_episode": {
+    "purpose": "val_seen",
+    "episode_id": "607",
+    "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_5ea2f6cbe9fe4c359ec1bd1b136b5d3a.pt",
+    "transitions": 12,
+    "reward_sum": 2.4050906596581143,
+    "focus_histogram": {
+      "0": 12
+    },
+    "camera_histogram": {},
+    "entropy": {
+      "stop": 0.6814459264278412,
+      "camera": 0.5232449769973755,
+      "position_latent": 1.7889591058095295
+    },
+    "start_geodesic_distance": 8.060117721557617,
+    "final_geodesic_distance": 0.18375782668590546,
+    "terminated": true,
+    "truncated": false,
+    "model_ms": 10559.544622898102,
+    "perception_ms": 62.24100477993488
+  },
+  "split": "train"
+}

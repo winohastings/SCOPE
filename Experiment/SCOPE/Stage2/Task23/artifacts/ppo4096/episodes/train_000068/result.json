@@ -1,0 +1,67 @@
+{
+  "episode_uid": "scope_stage2_train:3077",
+  "source_episode_id": "3077",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Turn left, walk through the bathroom, leave through the doorway, go straight down the hall, and wait in the closet.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.671650886535645,
+  "path_length": 2.2835193620994687,
+  "gt_path_length": 9.476732774713856,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.19790482503081835,
+  "purpose": "train",
+  "wall_seconds": 13.35184220969677,
+  "training": {
+    "episode_id": "3077",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2e7a9bb2a16844b88134d70484b59c4a_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2e7a9bb2a16844b88134d70484b59c4a_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2e7a9bb2a16844b88134d70484b59c4a_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2e7a9bb2a16844b88134d70484b59c4a_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3077",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_2e7a9bb2a16844b88134d70484b59c4a.pt",
+      "transitions": 4,
+      "reward_sum": -0.671420389811198,
+      "focus_histogram": {
+        "1": 1,
+        "0": 2,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 5
+      },
+      "entropy": {
+        "stop": 0.5845648497343063,
+        "camera": 0.8924155235290527,
+        "position_latent": 2.4335474371910095
+      },
+      "start_geodesic_distance": 9.450345039367676,
+      "final_geodesic_distance": 10.671650886535645,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 2860.2891471236944,
+      "perception_ms": 152.50753704458475
+    },
+    "collected": 1021,
+    "buffer_transitions": 53
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.671420389811198,
+  "focus_mean": 1.25
+}

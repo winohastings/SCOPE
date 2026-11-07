@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:2191",
+  "source_episode_id": "2191",
+  "scene_id": "r1Q1Z4BcV1o",
+  "instruction": "Turn right and walk through the living area past the table covered in a white cloth.  Walk towards the long black bench.. Turn right and stand in front of the brown rug.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6015846133232117,
+  "path_length": 12.078130002133548,
+  "gt_path_length": 8.663612250460458,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5685033712057855,
+  "purpose": "train",
+  "wall_seconds": 28.816815992817283,
+  "training": {
+    "episode_id": "2191",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/004060bd03fc4a3ca58e7e4559776ff6_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "2191",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_004060bd03fc4a3ca58e7e4559776ff6.pt",
+      "transitions": 12,
+      "reward_sum": 2.2482982643445335,
+      "focus_histogram": {
+        "1": 5,
+        "0": 4,
+        "4": 2,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 11,
+        "2": 3,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6558348846435547,
+        "camera": 0.8885318970680237,
+        "position_latent": 2.4224729442596438
+      },
+      "start_geodesic_distance": 8.376058578491211,
+      "final_geodesic_distance": 0.6015846133232117,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10698.777434416115,
+      "perception_ms": 456.5421063452959
+    },
+    "collected": 1713,
+    "buffer_transitions": 12
+  },
+  "SR": 1,
+  "SPL": 0.6934896856559432,
+  "reward_sum": 2.2482982643445335,
+  "focus_mean": 1.25
+}

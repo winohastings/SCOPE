@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:303",
+  "source_episode_id": "303",
+  "scene_id": "1LXtFkjw3qL",
+  "instruction": "Walk forward to the yellow sofa thing.  Walk around the yellow sofa thing and enter the door on the left.  Stand at the top of the stairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.1111959218978882,
+  "path_length": 14.192504307255149,
+  "gt_path_length": 13.37134075164795,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7742946978546982,
+  "purpose": "val_seen",
+  "wall_seconds": 30.4236680297181,
+  "training": {
+    "episode_id": "303",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1723ee9a5fe24293b41eab9de119fb8c_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "303",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_1723ee9a5fe24293b41eab9de119fb8c.pt",
+      "transitions": 12,
+      "reward_sum": 2.162065100669861,
+      "focus_histogram": {
+        "4": 12
+      },
+      "camera_histogram": {
+        "1": 48
+      },
+      "entropy": {
+        "stop": 0.6662046735485395,
+        "camera": 1.0894644757111867,
+        "position_latent": 2.3805989772081375
+      },
+      "start_geodesic_distance": 12.5421724319458,
+      "final_geodesic_distance": 1.1111959218978882,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11842.587126418948,
+      "perception_ms": 1291.3336781784892
+    },
+    "collected": 2054,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.883718064156887,
+  "reward_sum": 2.162065100669861,
+  "focus_mean": 4.0
+}

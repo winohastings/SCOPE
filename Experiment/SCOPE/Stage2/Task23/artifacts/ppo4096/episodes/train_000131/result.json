@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:3347",
+  "source_episode_id": "3347",
+  "scene_id": "p5wJjkQkbXX",
+  "instruction": "Leave bathroom and turn left down the hallway with the mirror. Once you reach a light colored rug, take the doorway outside on your left. Wait on the porch just past the black mat.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.176673650741577,
+  "path_length": 9.9712849506177,
+  "gt_path_length": 12.763445792994865,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8468870855576367,
+  "purpose": "train",
+  "wall_seconds": 31.080760621465743,
+  "training": {
+    "episode_id": "3347",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/ce7e17a80c404e30a2eebec86b3ea068_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3347",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_ce7e17a80c404e30a2eebec86b3ea068.pt",
+      "transitions": 10,
+      "reward_sum": 2.224463669459025,
+      "focus_histogram": {
+        "4": 4,
+        "3": 2,
+        "0": 2,
+        "2": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 15,
+        "2": 8,
+        "3": 1,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6409456172297078,
+        "camera": 0.7910436238012006,
+        "position_latent": 2.4348163912373204
+      },
+      "start_geodesic_distance": 10.793628692626953,
+      "final_geodesic_distance": 2.176673650741577,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9077.888661064208,
+      "perception_ms": 711.0715974122286
+    },
+    "collected": 1860,
+    "buffer_transitions": 21
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.224463669459025,
+  "focus_mean": 2.5
+}

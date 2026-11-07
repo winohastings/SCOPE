@@ -1,0 +1,82 @@
+{
+  "episode_uid": "agm_ppo_val_seen:759",
+  "source_episode_id": "759",
+  "scene_id": "VzqfbhrpDEA",
+  "instruction": "Walk straight ahead and up two steps. Turn right. Walk down the hall. Turn right into the first doorway. Turn right into the bathroom. Wait near the toilet.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 3.6468191146850586,
+  "path_length": 23.621151828207076,
+  "gt_path_length": 12.139131546020508,
+  "steps": 20,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.04955297298850383,
+  "purpose": "val_seen",
+  "wall_seconds": 91.71755410544574,
+  "training": {
+    "episode_id": "759",
+    "transitions": 20,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0014.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0015.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0016.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0017.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0018.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/270563116dfa4b2fa77cddfb91c24385_0019.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "759",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_270563116dfa4b2fa77cddfb91c24385.pt",
+      "transitions": 20,
+      "reward_sum": -1.1189505894978842,
+      "focus_histogram": {
+        "4": 20
+      },
+      "camera_histogram": {
+        "1": 77,
+        "0": 3
+      },
+      "entropy": {
+        "stop": 0.5623351335525513,
+        "camera": 1.3640516504645348,
+        "position_latent": 2.391589868068695
+      },
+      "start_geodesic_distance": 9.362560272216797,
+      "final_geodesic_distance": 3.6468191146850586,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 22006.97020534426,
+      "perception_ms": 2425.0072250142694
+    },
+    "collected": 0,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -1.1189505894978842,
+  "focus_mean": 4.0
+}

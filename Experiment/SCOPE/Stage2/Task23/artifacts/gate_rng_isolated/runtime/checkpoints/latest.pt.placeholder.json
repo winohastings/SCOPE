@@ -1,0 +1,9 @@
+{
+  "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/latest.pt",
+  "local_source": "/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/latest.pt",
+  "bytes": 50851770,
+  "sha256": "785358b855de29f5604fca03890058751db4d36302018411bec9b630073995f3",
+  "uploaded": false,
+  "reason": "User requested checkpoint weights remain local; placeholder only.",
+  "restore": "Obtain this exact local file and verify its SHA256 before placing it at checkpoint path. Placeholder is not loadable."
+}

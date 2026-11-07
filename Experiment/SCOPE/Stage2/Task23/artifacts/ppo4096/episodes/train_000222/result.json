@@ -1,0 +1,82 @@
+{
+  "episode_uid": "scope_stage2_train:4708",
+  "source_episode_id": "4708",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Go down the hall into the kitchen and turn right. Continue to the living room, and immediately turn left. Then, turn right again and stop at the doorway to the bodega.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.453768730163574,
+  "path_length": 17.6498052617535,
+  "gt_path_length": 13.656695177638994,
+  "steps": 17,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.17929083048847905,
+  "purpose": "train",
+  "wall_seconds": 36.96693252213299,
+  "training": {
+    "episode_id": "4708",
+    "transitions": 17,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0014.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0015.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b65e16a9e2da42688f3144349c577f06_0016.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "4708",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_b65e16a9e2da42688f3144349c577f06.pt",
+      "transitions": 17,
+      "reward_sum": -0.7132936350504557,
+      "focus_histogram": {
+        "0": 11,
+        "1": 4,
+        "2": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 8,
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6923482303435986,
+        "camera": 0.6514031566106356,
+        "position_latent": 2.0779697528252234
+      },
+      "start_geodesic_distance": 11.304364204406738,
+      "final_geodesic_distance": 10.453768730163574,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14867.516584694386,
+      "perception_ms": 349.47946202009916
+    },
+    "collected": 3197,
+    "buffer_transitions": 17
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7132936350504557,
+  "focus_mean": 0.5882352941176471
+}

@@ -1,0 +1,78 @@
+{
+  "episode_uid": "scope_stage2_train:6584",
+  "source_episode_id": "6584",
+  "scene_id": "82sE5b5pLXE",
+  "instruction": "Exit the room and turn left. Walk out the first door on the left.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.185209035873413,
+  "path_length": 10.09157741931267,
+  "gt_path_length": 8.119408004001405,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7646160834059429,
+  "purpose": "train",
+  "wall_seconds": 22.048370017670095,
+  "training": {
+    "episode_id": "6584",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b35c8756af934a1a9021ba622a04005c_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6584",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_b35c8756af934a1a9021ba622a04005c.pt",
+      "transitions": 11,
+      "reward_sum": 2.199900821050008,
+      "focus_histogram": {
+        "1": 6,
+        "0": 2,
+        "3": 1,
+        "4": 2
+      },
+      "camera_histogram": {
+        "1": 8,
+        "3": 1,
+        "0": 5,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.6391479074954987,
+        "camera": 0.9040302542539743,
+        "position_latent": 2.4092958248578586
+      },
+      "start_geodesic_distance": 8.383721351623535,
+      "final_geodesic_distance": 1.185209035873413,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9773.57872016728,
+      "perception_ms": 509.48770344257355
+    },
+    "collected": 1962,
+    "buffer_transitions": 55
+  },
+  "SR": 1,
+  "SPL": 0.8307642109130788,
+  "reward_sum": 2.199900821050008,
+  "focus_mean": 1.5454545454545454
+}

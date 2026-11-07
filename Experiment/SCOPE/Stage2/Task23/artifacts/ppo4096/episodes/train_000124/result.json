@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:175",
+  "source_episode_id": "175",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Turn right and go past the cabinets.  You'll walk through the bathroom and into a hallway with a mirror.  Stop right there.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 3.0800273418426514,
+  "path_length": 6.366660567931831,
+  "gt_path_length": 8.810291544916266,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7991212010699164,
+  "purpose": "train",
+  "wall_seconds": 19.78259681724012,
+  "training": {
+    "episode_id": "175",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/4095978f3b9748758a729be7015a79eb_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "175",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_4095978f3b9748758a729be7015a79eb.pt",
+      "transitions": 8,
+      "reward_sum": -0.32440908749898273,
+      "focus_histogram": {
+        "4": 2,
+        "1": 2,
+        "0": 3,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 11,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.639847113026513,
+        "camera": 0.7998829417758517,
+        "position_latent": 2.4331027799182467
+      },
+      "start_geodesic_distance": 8.71389102935791,
+      "final_geodesic_distance": 3.0800273418426514,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6984.541856683791,
+      "perception_ms": 355.19891511648893
+    },
+    "collected": 1785,
+    "buffer_transitions": 13
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.32440908749898273,
+  "focus_mean": 1.5
+}

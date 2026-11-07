@@ -1,0 +1,68 @@
+{
+  "episode_uid": "scope_stage2_train:5928",
+  "source_episode_id": "5928",
+  "scene_id": "i5noydFURQK",
+  "instruction": "Turn around and walk out of the bathroom into the bedroom. Walk out of the bedroom. Take your first left and wait in the room that is straight ahead.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.669818878173828,
+  "path_length": 3.2819183042738587,
+  "gt_path_length": 10.37439048690264,
+  "steps": 5,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.374366167361875,
+  "purpose": "train",
+  "wall_seconds": 12.572907817550004,
+  "training": {
+    "episode_id": "5928",
+    "transitions": 5,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c6f06bad86bd449eba9d92f7553c4d45_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c6f06bad86bd449eba9d92f7553c4d45_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c6f06bad86bd449eba9d92f7553c4d45_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c6f06bad86bd449eba9d92f7553c4d45_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c6f06bad86bd449eba9d92f7553c4d45_0004.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "5928",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_c6f06bad86bd449eba9d92f7553c4d45.pt",
+      "transitions": 5,
+      "reward_sum": -0.6319224548339843,
+      "focus_histogram": {
+        "3": 1,
+        "4": 1,
+        "0": 3
+      },
+      "camera_histogram": {
+        "1": 7
+      },
+      "entropy": {
+        "stop": 0.6405992670492693,
+        "camera": 0.7756658738309686,
+        "position_latent": 2.434222784909335
+      },
+      "start_geodesic_distance": 9.490982055664062,
+      "final_geodesic_distance": 9.669818878173828,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3787.176664918661,
+      "perception_ms": 208.37796945124865
+    },
+    "collected": 1777,
+    "buffer_transitions": 5
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6319224548339843,
+  "focus_mean": 1.4
+}

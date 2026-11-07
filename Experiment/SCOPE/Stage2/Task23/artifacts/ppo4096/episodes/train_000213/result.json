@@ -1,0 +1,69 @@
+{
+  "episode_uid": "scope_stage2_train:3812",
+  "source_episode_id": "3812",
+  "scene_id": "82sE5b5pLXE",
+  "instruction": "Exit the kitchen to the left, go straight and then left into the glass doorway leading the pool and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.1997409164905548,
+  "path_length": 5.571920613758266,
+  "gt_path_length": 5.130400538865267,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8459613370370739,
+  "purpose": "train",
+  "wall_seconds": 14.03145145997405,
+  "training": {
+    "episode_id": "3812",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35fceed8da1641eeba352faea003bf87_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35fceed8da1641eeba352faea003bf87_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35fceed8da1641eeba352faea003bf87_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35fceed8da1641eeba352faea003bf87_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35fceed8da1641eeba352faea003bf87_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/35fceed8da1641eeba352faea003bf87_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3812",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_35fceed8da1641eeba352faea003bf87.pt",
+      "transitions": 6,
+      "reward_sum": 2.208019629716873,
+      "focus_histogram": {
+        "0": 4,
+        "1": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 3
+      },
+      "entropy": {
+        "stop": 0.6895915336079068,
+        "camera": 0.7628213100963168,
+        "position_latent": 2.356630484263102
+      },
+      "start_geodesic_distance": 4.670035362243652,
+      "final_geodesic_distance": 0.1997409164905548,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 4684.994761832058,
+      "perception_ms": 111.27060744911432
+    },
+    "collected": 3047,
+    "buffer_transitions": 17
+  },
+  "SR": 1,
+  "SPL": 0.8381374549221563,
+  "reward_sum": 2.208019629716873,
+  "focus_mean": 0.5
+}

@@ -1,10 +1,9 @@
 from __future__ import annotations
 
-import hashlib
 import json
 from pathlib import Path
 
-from verify_release import ROOT, verify
+from verify_release import ROOT, historical_source, verify
 
 
 def read(path):
@@ -26,9 +25,7 @@ def verify_stage2(root=ROOT):
     require(not complete["full_training_started"] and not complete["heldout_evaluation_started"],
             "Unexpected full training or heldout evaluation")
     for relative, expected in read(artifacts / "FINAL_SOURCE_HASHES.json").items():
-        with (root / relative).open("rb") as stream:
-            actual = hashlib.file_digest(stream, "sha256").hexdigest()
-        require(actual == expected, f"Final source hash mismatch: {relative}")
+        historical_source(root, relative, expected)
     records = []
     for phase in ("train_A", "train_B", "train_C"):
         records.extend(read(artifacts / "release" / phase / "results.json"))

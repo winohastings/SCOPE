@@ -1,0 +1,13 @@
+[
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/best_val_seen.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/latest.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0000.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0028.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0043.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0056.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/gate_after.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/gate_before.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/gate_repeated.pt.placeholder.json",
+  "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/checkpoints/latest.pt.placeholder.json"
+]

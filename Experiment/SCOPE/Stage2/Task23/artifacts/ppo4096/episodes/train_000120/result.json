@@ -1,0 +1,71 @@
+{
+  "episode_uid": "scope_stage2_train:4152",
+  "source_episode_id": "4152",
+  "scene_id": "1LXtFkjw3qL",
+  "instruction": "Walk past the two chairs in the hallway and stop when the open door to the bathroom is directly on your right.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6431641578674316,
+  "path_length": 7.180892205797136,
+  "gt_path_length": 7.007604924930419,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8510660449257166,
+  "purpose": "train",
+  "wall_seconds": 20.773069771006703,
+  "training": {
+    "episode_id": "4152",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b92c058b0e9a454184e06b0abb6f12cd_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "4152",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_b92c058b0e9a454184e06b0abb6f12cd.pt",
+      "transitions": 7,
+      "reward_sum": 2.3157102902730307,
+      "focus_histogram": {
+        "0": 5,
+        "2": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 2,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6547657728195191,
+        "camera": 0.8525871872901917,
+        "position_latent": 2.418348789215088
+      },
+      "start_geodesic_distance": 6.878818511962891,
+      "final_geodesic_distance": 0.6431641578674316,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5616.130170412362,
+      "perception_ms": 116.35242495685816
+    },
+    "collected": 1745,
+    "buffer_transitions": 44
+  },
+  "SR": 1,
+  "SPL": 0.9579336821696918,
+  "reward_sum": 2.3157102902730307,
+  "focus_mean": 0.42857142857142855
+}

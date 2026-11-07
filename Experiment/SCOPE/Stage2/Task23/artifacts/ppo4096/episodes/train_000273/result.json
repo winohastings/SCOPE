@@ -1,0 +1,75 @@
+{
+  "episode_uid": "scope_stage2_train:1583",
+  "source_episode_id": "1583",
+  "scene_id": "pRbA3pwrgk9",
+  "instruction": "Go up the stairs and go straight towards the decorative rug. Walk off the rug and stop before you go down the stairs.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 5.391557693481445,
+  "path_length": 11.579154824838042,
+  "gt_path_length": 7.376540986232749,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.37914459477625195,
+  "purpose": "train",
+  "wall_seconds": 27.552398897707462,
+  "training": {
+    "episode_id": "1583",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0d2d383812bb4244a5f9e1336e42d063_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1583",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_0d2d383812bb4244a5f9e1336e42d063.pt",
+      "transitions": 12,
+      "reward_sum": -0.5645958073933919,
+      "focus_histogram": {
+        "0": 8,
+        "1": 2,
+        "2": 2
+      },
+      "camera_histogram": {
+        "1": 6
+      },
+      "entropy": {
+        "stop": 0.6877917581134372,
+        "camera": 0.5613919761445787,
+        "position_latent": 1.8468948933813307
+      },
+      "start_geodesic_distance": 7.122620582580566,
+      "final_geodesic_distance": 5.391557693481445,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 10455.354659818113,
+      "perception_ms": 223.487657494843
+    },
+    "collected": 4060,
+    "buffer_transitions": 70
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.5645958073933919,
+  "focus_mean": 0.5
+}

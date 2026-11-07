@@ -1,0 +1,71 @@
+{
+  "episode_uid": "scope_stage2_train:10376",
+  "source_episode_id": "10376",
+  "scene_id": "rPc6DW4iMge",
+  "instruction": "Go down the stairs and turn left.  Walk straight until you get into a kitchen and sitting area.  Keep walking straight with the sofas on your left and stop when you reach the second sofa.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 3.003451108932495,
+  "path_length": 8.934992840047926,
+  "gt_path_length": 10.343801270546239,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8153296029795213,
+  "purpose": "train",
+  "wall_seconds": 22.631830629892647,
+  "training": {
+    "episode_id": "10376",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/23a62967d0da4c2a96a03822d5887d7f_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10376",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_23a62967d0da4c2a96a03822d5887d7f.pt",
+      "transitions": 8,
+      "reward_sum": -0.17673925717671712,
+      "focus_histogram": {
+        "0": 5,
+        "1": 3
+      },
+      "camera_histogram": {
+        "2": 2,
+        "1": 1
+      },
+      "entropy": {
+        "stop": 0.6809089996597983,
+        "camera": 0.9991930614818226,
+        "position_latent": 2.369792179627852
+      },
+      "start_geodesic_distance": 9.502362251281738,
+      "final_geodesic_distance": 3.003451108932495,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8077.832224778831,
+      "perception_ms": 151.14249102771282
+    },
+    "collected": 2414,
+    "buffer_transitions": 27
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.17673925717671712,
+  "focus_mean": 0.375
+}

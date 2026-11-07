@@ -1,0 +1,66 @@
+{
+  "episode_uid": "scope_stage2_train:6057",
+  "source_episode_id": "6057",
+  "scene_id": "5LpN3gDmAk7",
+  "instruction": "Exit the bedroom and enter the bathroom. Wait there next to the light switch.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 6.497753143310547,
+  "path_length": 3.0418909257277846,
+  "gt_path_length": 6.280401433909849,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4456447098375165,
+  "purpose": "train",
+  "wall_seconds": 15.026431658305228,
+  "training": {
+    "episode_id": "6057",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89abd632c32d41ddb0dcc7b9ff73774c_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89abd632c32d41ddb0dcc7b9ff73774c_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89abd632c32d41ddb0dcc7b9ff73774c_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89abd632c32d41ddb0dcc7b9ff73774c_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "6057",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_89abd632c32d41ddb0dcc7b9ff73774c.pt",
+      "transitions": 4,
+      "reward_sum": -0.6252666091918946,
+      "focus_histogram": {
+        "0": 2,
+        "1": 2
+      },
+      "camera_histogram": {
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6743855675061544,
+        "camera": 0.9519592126210531,
+        "position_latent": 2.4428726037343345
+      },
+      "start_geodesic_distance": 5.518754005432129,
+      "final_geodesic_distance": 6.497753143310547,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 2695.560528896749,
+      "perception_ms": 75.04268269985914
+    },
+    "collected": 1658,
+    "buffer_transitions": 29
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6252666091918946,
+  "focus_mean": 0.5
+}

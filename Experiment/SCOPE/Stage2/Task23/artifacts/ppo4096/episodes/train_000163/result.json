@@ -1,0 +1,68 @@
+{
+  "episode_uid": "scope_stage2_train:7546",
+  "source_episode_id": "7546",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Go past the table and chairs then turn right. Turn left and exit the room. Wait there.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.0844604969024658,
+  "path_length": 4.840064834803343,
+  "gt_path_length": 6.4032844107475615,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8428019227311239,
+  "purpose": "train",
+  "wall_seconds": 16.574150137603283,
+  "training": {
+    "episode_id": "7546",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/180a4f1ba603435a9894dff24bcabd42_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/180a4f1ba603435a9894dff24bcabd42_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/180a4f1ba603435a9894dff24bcabd42_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/180a4f1ba603435a9894dff24bcabd42_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/180a4f1ba603435a9894dff24bcabd42_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/180a4f1ba603435a9894dff24bcabd42_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7546",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_180a4f1ba603435a9894dff24bcabd42.pt",
+      "transitions": 6,
+      "reward_sum": 2.2053608226776125,
+      "focus_histogram": {
+        "0": 5,
+        "1": 1
+      },
+      "camera_histogram": {
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.685364374092647,
+        "camera": 1.0363942895616804,
+        "position_latent": 2.374551296234131
+      },
+      "start_geodesic_distance": 5.21487283706665,
+      "final_geodesic_distance": 1.0844604969024658,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 4615.691974759102,
+      "perception_ms": 57.745061814785004
+    },
+    "collected": 2328,
+    "buffer_transitions": 6
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.2053608226776125,
+  "focus_mean": 0.16666666666666666
+}

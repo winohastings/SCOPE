@@ -1,0 +1,72 @@
+{
+  "episode_uid": "scope_stage2_train:7554",
+  "source_episode_id": "7554",
+  "scene_id": "VFuaQ6m2Qom",
+  "instruction": "Turn and walk down the stairs. At the bottom, turn left and walk until you reach the bench.  Enter the hallway to the left of the bench and go to the last door on the left. Enter the door and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.720698356628418,
+  "path_length": 7.765433305874467,
+  "gt_path_length": 11.090902115865635,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8087492183123108,
+  "purpose": "train",
+  "wall_seconds": 25.59608670976013,
+  "training": {
+    "episode_id": "7554",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/12e678dbbe154dd68271d682594c46ff_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7554",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_12e678dbbe154dd68271d682594c46ff.pt",
+      "transitions": 7,
+      "reward_sum": 2.3049631754557294,
+      "focus_histogram": {
+        "1": 2,
+        "4": 1,
+        "0": 3,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 7,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6866698094776699,
+        "camera": 0.6230355203151703,
+        "position_latent": 2.2064011437552318
+      },
+      "start_geodesic_distance": 9.545145988464355,
+      "final_geodesic_distance": 2.720698356628418,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5741.5039502084255,
+      "perception_ms": 247.52474203705788
+    },
+    "collected": 3262,
+    "buffer_transitions": 7
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.3049631754557294,
+  "focus_mean": 1.1428571428571428
+}

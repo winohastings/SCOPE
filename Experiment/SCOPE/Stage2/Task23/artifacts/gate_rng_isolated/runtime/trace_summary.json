@@ -1,0 +1,2314 @@
+[
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:0",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0000.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 232.08402656018734,
+    "model_ms": 1015.5734987929463,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.359194040298462,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3754234313964844
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3579658269882202,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3745017051696777
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:1",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0001.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 136.25058997422457,
+    "model_ms": 866.8427681550384,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3605718612670898,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3764562606811523
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3574721813201904,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.374131679534912
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.357320785522461,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3740181922912598
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3529841899871826,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3707656860351562
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:2",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0002.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.802103482186794,
+    "model_ms": 986.5550054237247,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3621833324432373,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3776650428771973
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:3",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0003.pt",
+    "mode": "training-sampling",
+    "focus_count": 2,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 78.2204195857048,
+    "model_ms": 1302.76408046484,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3614413738250732,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.377108573913574
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.357893705368042,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.374447822570801
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.357971429824829,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3745059967041016
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:4",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0004.pt",
+    "mode": "training-sampling",
+    "focus_count": 2,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 75.78086480498314,
+    "model_ms": 1280.415466055274,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3605477809906006,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3764381408691406
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.358184576034546,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3746657371520996
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.359321117401123,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.375518321990967
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:5",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0005.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 135.29912941157818,
+    "model_ms": 1316.1011543124914,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        3,
+        1,
+        3,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3678123950958252,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3818869590759277
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3656580448150635,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3802709579467773
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3686896562576294,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.38254451751709
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3663849830627441,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3808164596557617
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:6",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0006.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.79757259786129,
+    "model_ms": 1194.4192769005895,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3662608861923218,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.380722999572754
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:7",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0007.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.501335650682449,
+    "model_ms": 1416.044001467526,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3625977039337158,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3779754638671875
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:8",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0008.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 137.0120095089078,
+    "model_ms": 1329.0216084569693,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3,
+        0,
+        3,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.362032175064087,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.377552032470703
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3605778217315674,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.376460552215576
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3614803552627563,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3771376609802246
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3598713874816895,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3759312629699707
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:9",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0009.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.61189607530832,
+    "model_ms": 1246.1215946823359,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3616976737976074,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.37730073928833
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.362176775932312,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.377659797668457
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3634984493255615,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3786511421203613
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3650009632110596,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3797783851623535
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:10",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0010.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 106.51521105319262,
+    "model_ms": 1280.5634457617998,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3626550436019897,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.378018856048584
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3594611883163452,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3756232261657715
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3593876361846924,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.375568389892578
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.360787272453308,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3766183853149414
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:11",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0011.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.63813515752554,
+    "model_ms": 1328.253977932036,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3,
+        2,
+        2,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3631784915924072,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3784117698669434
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3613336086273193,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.377027988433838
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3626246452331543,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3779959678649902
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3593661785125732,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.375552177429199
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:12",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0012.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.288154050707817,
+    "model_ms": 833.748372271657,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3666411638259888,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3810081481933594
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:13",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0013.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.341974250972271,
+    "model_ms": 1078.274984844029,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3690547943115234,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3828186988830566
+      }
+    ]
+  },
+  {
+    "transition_id": "38dcb005bc9b4652b61161b5c6f4faf1:2930:14",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/38dcb005bc9b4652b61161b5c6f4faf1_0014.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.2081776559352875,
+    "model_ms": 1063.8169730082154,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3650782108306885,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3798365592956543
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:0",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0000.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 137.98714522272348,
+    "model_ms": 533.630246296525,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.370504379272461,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3839058876037598
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3694900274276733,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3831448554992676
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3726921081542969,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3855462074279785
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3728725910186768,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.385681629180908
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:1",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0001.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 107.79809579253197,
+    "model_ms": 808.1223638728261,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        3,
+        1,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3725647926330566,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.385451316833496
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3708698749542236,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3841795921325684
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3737837076187134,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3863654136657715
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3703330755233765,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.383777141571045
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:2",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0002.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 40.80719314515591,
+    "model_ms": 999.3924340233207,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3712654113769531,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.384476661682129
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3695945739746094,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.383223533630371
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:3",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0003.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.247192621231079,
+    "model_ms": 1200.1262633129954,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3690335750579834,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3828024864196777
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:4",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0004.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.691966205835342,
+    "model_ms": 1175.5895521491766,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3678808212280273,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3819379806518555
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:5",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0005.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 40.89038725942373,
+    "model_ms": 1211.6950396448374,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3674230575561523,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.381594657897949
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3656728267669678,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.380281925201416
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:6",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0006.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 40.96243716776371,
+    "model_ms": 1208.8238531723619,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3681246042251587,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3821210861206055
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3655264377593994,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3801722526550293
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:7",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0007.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.35937787592411,
+    "model_ms": 1172.9694651439786,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3612470626831055,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3769631385803223
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:8",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0008.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 135.39736345410347,
+    "model_ms": 1319.1301552578807,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3631198406219482,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3783674240112305
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3598241806030273,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3758955001831055
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.363595962524414,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3787245750427246
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364638328552246,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3795061111450195
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:9",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0009.pt",
+    "mode": "training-sampling",
+    "focus_count": 2,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 72.87594210356474,
+    "model_ms": 1190.0841174647212,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.360051155090332,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.376065731048584
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3561732769012451,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.373157501220703
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3554267883300781,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3725976943969727
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:10",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0010.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 134.98257752507925,
+    "model_ms": 1300.8619006723166,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3596221208572388,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.375744342803955
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.357533574104309,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3741774559020996
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3587768077850342,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.375110149383545
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3598439693450928,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.375910758972168
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:11",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0011.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.374417804181576,
+    "model_ms": 1172.6132426410913,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3657249212265015,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3803210258483887
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:12",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0012.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 134.98631119728088,
+    "model_ms": 953.6672020331025,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3662142753601074,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.380688190460205
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364304780960083,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.379255771636963
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3676576614379883,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.381770610809326
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.363129734992981,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3783750534057617
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:13",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0013.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 136.7488419637084,
+    "model_ms": 1263.9648709446192,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        2,
+        2,
+        0,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3661613464355469,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.380648612976074
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364722728729248,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3795695304870605
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.366044044494629,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.380560874938965
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3669909238815308,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.381270408630371
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:14",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0014.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.2208278104662895,
+    "model_ms": 1059.5825500786304,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3668084144592285,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.381134033203125
+      }
+    ]
+  },
+  {
+    "transition_id": "c4ca333f6ad84b038e1e2a02a06269b5:5320:15",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/c4ca333f6ad84b038e1e2a02a06269b5_0015.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 134.85680799931288,
+    "model_ms": 1183.7878786027431,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3687595129013062,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.382596969604492
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3678481578826904,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.381913661956787
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.368941068649292,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3827333450317383
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3697936534881592,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3833727836608887
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:0",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0000.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.40132776647806,
+    "model_ms": 522.421907633543,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        3,
+        2,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.368910551071167,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3827104568481445
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.366612195968628,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3809866905212402
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3675086498260498,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3816590309143066
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.363844633102417,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.378911018371582
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:1",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0001.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.150327622890472,
+    "model_ms": 721.7257535085082,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.368356466293335,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3822946548461914
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:2",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0002.pt",
+    "mode": "training-sampling",
+    "focus_count": 2,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 73.59169982373714,
+    "model_ms": 1018.4323247522116,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        0,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3660838603973389,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3805904388427734
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3643991947174072,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.379326820373535
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3662893772125244,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.380744457244873
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:3",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0003.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 106.14429507404566,
+    "model_ms": 1268.413020297885,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        1,
+        3,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.368630290031433,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.382500171661377
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3657689094543457,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3803539276123047
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3663638830184937,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.380800247192383
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3625620603561401,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.377948760986328
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:4",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0004.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 138.89819663017988,
+    "model_ms": 1309.756620787084,
+    "replay_logprob_error": 1.9073486328125e-06,
+    "bank": {
+      "selected": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.370245099067688,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.383711338043213
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3692190647125244,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3829421997070312
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3727983236312866,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3856263160705566
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3740060329437256,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3865318298339844
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:5",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0005.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 105.44536635279655,
+    "model_ms": 1311.4467393606901,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        0,
+        0,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.36928391456604,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3829903602600098
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3675049543380737,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3816561698913574
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.367395043373108,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3815736770629883
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3684537410736084,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3823676109313965
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:6",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0006.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 41.02174937725067,
+    "model_ms": 1200.968817807734,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3654823303222656,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3801393508911133
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.362289547920227,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.377744197845459
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:7",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0007.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.41326918452978,
+    "model_ms": 1537.4928480014205,
+    "replay_logprob_error": 1.9073486328125e-06,
+    "bank": {
+      "selected": [
+        3,
+        0,
+        3,
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3594609498977661,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3756232261657715
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3574893474578857,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3741445541381836
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3578901290893555,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3744449615478516
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.356550931930542,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.373440742492676
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:8",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0008.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.8549442589283,
+    "model_ms": 1301.3479355722666,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        1,
+        3,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.358818769454956,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3751416206359863
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.355397343635559,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.372575283050537
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.359250545501709,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3754653930664062
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3563785552978516,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3733115196228027
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:9",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0009.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 40.88291618973017,
+    "model_ms": 1146.3066302239895,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3693935871124268,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3830723762512207
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3684592247009277,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3823719024658203
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:10",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0010.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 134.37496777623892,
+    "model_ms": 1305.1532013341784,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        2,
+        2,
+        0,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3698251247406006,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3833961486816406
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3693761825561523,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.383059501647949
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3711494207382202,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3843894004821777
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3720760345458984,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.385084629058838
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:11",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0011.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.3475994393229485,
+    "model_ms": 1193.6719128862023,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3718875646591187,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3849430084228516
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:12",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0012.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 104.76978961378336,
+    "model_ms": 939.5011896267533,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3694953918457031,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.383148670196533
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.366793155670166,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.381122589111328
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.36671781539917,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.381065845489502
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3681628704071045,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3821496963500977
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:13",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0013.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 134.97533090412617,
+    "model_ms": 1232.599732466042,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0,
+        1,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.369183897972107,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.382915496826172
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3659133911132812,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.380462646484375
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3658015727996826,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3803787231445312
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.367527961730957,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3816733360290527
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:14",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0014.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 40.21682124584913,
+    "model_ms": 1096.4083755388856,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3674604892730713,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.381622791290283
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3646905422210693,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3795456886291504
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:15",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0015.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 132.74713326245546,
+    "model_ms": 1170.2845394611359,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3668526411056519,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.381167411804199
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3666670322418213,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3810276985168457
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3665770292282104,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.380960464477539
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3634247779846191,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.378596305847168
+      }
+    ]
+  },
+  {
+    "transition_id": "e80c64ba05664695ab3d00c9b6c25787:4296:16",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/e80c64ba05664695ab3d00c9b6c25787_0016.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.5070487111807,
+    "model_ms": 1295.7309102639556,
+    "replay_logprob_error": 1.9073486328125e-06,
+    "bank": {
+      "selected": [
+        0,
+        3,
+        2,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364928960800171,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3797240257263184
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3633253574371338,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3785219192504883
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3641085624694824,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3791089057922363
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3600339889526367,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3760533332824707
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:0",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0000.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 133.95227119326591,
+    "model_ms": 531.0660470277071,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        3,
+        2,
+        3,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3626888990402222,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3780441284179688
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3601309061050415,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3761253356933594
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3620504140853882,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.377565383911133
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3607046604156494,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.376555919647217
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:1",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0001.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 111.88208870589733,
+    "model_ms": 837.2789137065411,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        1,
+        1,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364243984222412,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3792104721069336
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3605133295059204,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3764123916625977
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364593505859375,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3794727325439453
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3653051853179932,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3800063133239746
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:2",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0002.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 136.49768382310867,
+    "model_ms": 1131.6336337476969,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        3,
+        0,
+        1,
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3632102012634277,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3784351348876953
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3610270023345947,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.376798152923584
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3609800338745117,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3767623901367188
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3638479709625244,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.378913402557373
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:3",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0003.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.65214192122221,
+    "model_ms": 1201.4484154060483,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3620929718017578,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3775973320007324
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:4",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0004.pt",
+    "mode": "training-sampling",
+    "focus_count": 2,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 75.88381599634886,
+    "model_ms": 1264.8797687143087,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        3
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3615257740020752,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3771719932556152
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3581863641738892,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.374667167663574
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3592188358306885,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.375441551208496
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:5",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0005.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.78925309330225,
+    "model_ms": 1196.55623100698,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3653168678283691,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3800153732299805
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:6",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0006.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 107.049111276865,
+    "model_ms": 1275.0942409038544,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        0,
+        1,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3624249696731567,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3778462409973145
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3607373237609863,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3765807151794434
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.364715576171875,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3795642852783203
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3663212060928345,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.380768299102783
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:7",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0007.pt",
+    "mode": "training-sampling",
+    "focus_count": 1,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 41.60034842789173,
+    "model_ms": 1234.0175341814756,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3645508289337158,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3794407844543457
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3641330003738403,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3791275024414062
+      }
+    ]
+  },
+  {
+    "transition_id": "d5c62c9bab9949128fc910f2912a1216:9586:8",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/d5c62c9bab9949128fc910f2912a1216_0008.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 134.07009653747082,
+    "model_ms": 1309.9025785923004,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3654162883758545,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.38008975982666
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3623069524765015,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3777575492858887
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.362528920173645,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3779244422912598
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.363518238067627,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.378666400909424
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:0",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0000.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 139.5580442622304,
+    "model_ms": 533.0171836540103,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        2,
+        1,
+        3,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3726320266723633,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3855013847351074
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3723903894424438,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3853201866149902
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3749518394470215,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3872413635253906
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3730028867721558,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.38577938079834
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:1",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0001.pt",
+    "mode": "training-sampling",
+    "focus_count": 4,
+    "perception_termination": "budget",
+    "current_visual_tokens": 64,
+    "perception_ms": 135.10093372315168,
+    "model_ms": 869.1892921924591,
+    "replay_logprob_error": 1.9073486328125e-06,
+    "bank": {
+      "selected": [
+        3,
+        0,
+        2,
+        1
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3732576370239258,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3859705924987793
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3724498748779297,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3853650093078613
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3718535900115967,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.384917736053467
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.369140625,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.382883071899414
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:2",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0002.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.868655793368816,
+    "model_ms": 996.2113397195935,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.375356674194336,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.387544631958008
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:3",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0003.pt",
+    "mode": "training-sampling",
+    "focus_count": 2,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 76.99671853333712,
+    "model_ms": 1295.9140855818987,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": [
+        1,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3753993511199951,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3875770568847656
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3729267120361328,
+        "position_latent": 2.391590118408203,
+        "joint_latent": 3.3857226371765137
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3725813627243042,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.385463237762451
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:4",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0004.pt",
+    "mode": "training-sampling",
+    "focus_count": 0,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 6.785680539906025,
+    "model_ms": 1207.5677989050746,
+    "replay_logprob_error": 0.0,
+    "bank": {
+      "selected": []
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.371565818786621,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.384701728820801
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:5",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0005.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 106.79524391889572,
+    "model_ms": 1312.8260485827923,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        2,
+        2,
+        0
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.374695062637329,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3870487213134766
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3736546039581299,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3862686157226562
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3743031024932861,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3867549896240234
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.374472737312317,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3868823051452637
+      }
+    ]
+  },
+  {
+    "transition_id": "0c8d901b4cc3432fa1b81ce10aee572f:4768:6",
+    "trace_path": "Experiment/SCOPE/Stage2/Task23/artifacts/gate_rng_isolated/runtime/traces/0c8d901b4cc3432fa1b81ce10aee572f_0006.pt",
+    "mode": "training-sampling",
+    "focus_count": 3,
+    "perception_termination": "policy_stop",
+    "current_visual_tokens": 64,
+    "perception_ms": 109.2088958248496,
+    "model_ms": 1282.5885638594627,
+    "replay_logprob_error": 9.5367431640625e-07,
+    "bank": {
+      "selected": [
+        0,
+        2,
+        2
+      ]
+    },
+    "entropy": [
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3749170303344727,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.3872151374816895
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3737006187438965,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.386302947998047
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.3742129802703857,
+        "position_latent": 2.391589641571045,
+        "joint_latent": 3.3866872787475586
+      },
+      {
+        "stop": 0.5623351335525513,
+        "camera": 1.371856927871704,
+        "position_latent": 2.391589879989624,
+        "joint_latent": 3.384920120239258
+      }
+    ]
+  }
+]

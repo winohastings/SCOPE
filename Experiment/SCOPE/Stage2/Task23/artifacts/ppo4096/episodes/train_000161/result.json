@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:8935",
+  "source_episode_id": "8935",
+  "scene_id": "JeFG25nYj2p",
+  "instruction": "Turn right and walk down the hall and enter the living room. Wait near the 2 chairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.055364727973938,
+  "path_length": 8.4964594040066,
+  "gt_path_length": 6.915121976936568,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7813585329680726,
+  "purpose": "train",
+  "wall_seconds": 20.039175046607852,
+  "training": {
+    "episode_id": "8935",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c9da587457fe444a9de94799b6ba8e0e_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8935",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_c9da587457fe444a9de94799b6ba8e0e.pt",
+      "transitions": 8,
+      "reward_sum": 2.2476489178339643,
+      "focus_histogram": {
+        "0": 4,
+        "1": 3,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 3,
+        "2": 1,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6903215967691861,
+        "camera": 1.036537610567533,
+        "position_latent": 2.369772489254291
+      },
+      "start_geodesic_distance": 6.720098495483398,
+      "final_geodesic_distance": 1.055364727973938,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7497.626936994493,
+      "perception_ms": 200.63502714037895
+    },
+    "collected": 2306,
+    "buffer_transitions": 58
+  },
+  "SR": 1,
+  "SPL": 0.790929277236876,
+  "reward_sum": 2.2476489178339643,
+  "focus_mean": 0.625
+}

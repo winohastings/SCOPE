@@ -1,0 +1,22 @@
+[
+  {
+    "episode_uid": "scope_stage2_train:2930",
+    "source_episode_id": "2930",
+    "scene_id": "sT4fr6TAbpF",
+    "instruction": "Exit the bedroom, turn left and wait at the exit.",
+    "success": 0,
+    "oracle_success": 0,
+    "final_distance": 5.400474548339844,
+    "path_length": 0.0,
+    "gt_path_length": 5.5157280446816115,
+    "steps": 1,
+    "failure": "RuntimeError: Policy predict failed: PermissionError('instruction/episode differs from manifest')",
+    "failure_type": "model_prediction",
+    "termination_reason": "failure",
+    "failure_traceback": "Traceback (most recent call last):\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/benchmark/common/runner/worker.py\", line 128, in _run_episode\n    response = model.predict(frames=frames, instruction=instruction)\n  File \"/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py\", line 78, in predict\n    response = self.client.predict(frames=frames, instruction=instruction)\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py\", line 47, in predict\n    return self._request(\"predict\", dict(frames=frames, instruction=instruction))\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py\", line 39, in _request\n    raise RuntimeError(f\"Policy {method} failed: {response['error']}\")\nRuntimeError: Policy predict failed: PermissionError('instruction/episode differs from manifest')\n",
+    "nDTW": 0.4260888266848989,
+    "purpose": "train",
+    "wall_seconds": 9.97519419901073,
+    "training": null
+  }
+]

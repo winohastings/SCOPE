@@ -1,0 +1,72 @@
+{
+  "episode_uid": "scope_stage2_train:4124",
+  "source_episode_id": "4124",
+  "scene_id": "ULsKaCPVFJR",
+  "instruction": "Walk down the stairs and turn right at the bottom of the stairs. Turn left in the next hallway. Immediately after turning left, wait in the hallway next to the entrance to the bathroom.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.3665754795074463,
+  "path_length": 4.444157315418124,
+  "gt_path_length": 6.563274220099758,
+  "steps": 5,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.806246557450004,
+  "purpose": "train",
+  "wall_seconds": 14.339427446946502,
+  "training": {
+    "episode_id": "4124",
+    "transitions": 5,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b12ab7f444f4c68915817f8c248042b_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b12ab7f444f4c68915817f8c248042b_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b12ab7f444f4c68915817f8c248042b_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b12ab7f444f4c68915817f8c248042b_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0b12ab7f444f4c68915817f8c248042b_0004.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "4124",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_0b12ab7f444f4c68915817f8c248042b.pt",
+      "transitions": 5,
+      "reward_sum": 2.1009303760528564,
+      "focus_histogram": {
+        "3": 1,
+        "1": 1,
+        "4": 1,
+        "0": 2
+      },
+      "camera_histogram": {
+        "1": 4,
+        "3": 1,
+        "0": 2,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.5653237104415894,
+        "camera": 1.3531961143016815,
+        "position_latent": 2.3985039393107095
+      },
+      "start_geodesic_distance": 5.830531120300293,
+      "final_geodesic_distance": 2.3665754795074463,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3964.4107185304165,
+      "perception_ms": 241.0728633403778
+    },
+    "collected": 104,
+    "buffer_transitions": 30
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.1009303760528564,
+  "focus_mean": 1.6
+}

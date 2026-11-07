@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:8960",
+  "source_episode_id": "8960",
+  "scene_id": "r47D5H71a5s",
+  "instruction": "Exit the bathroom, make a hard left and stop in the bathroom near the partition.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 7.2936296463012695,
+  "path_length": 4.663151554763317,
+  "gt_path_length": 8.53482870531219,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3727809841955999,
+  "purpose": "train",
+  "wall_seconds": 16.7470233310014,
+  "training": {
+    "episode_id": "8960",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/765aefd37f4143a793501cf7c09210b2_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8960",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_765aefd37f4143a793501cf7c09210b2.pt",
+      "transitions": 7,
+      "reward_sum": -0.6975053151448568,
+      "focus_histogram": {
+        "3": 3,
+        "1": 1,
+        "2": 2,
+        "4": 1
+      },
+      "camera_histogram": {
+        "3": 1,
+        "1": 15,
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6401084288954735,
+        "camera": 0.7714848717053732,
+        "position_latent": 2.43483958641688
+      },
+      "start_geodesic_distance": 8.081049919128418,
+      "final_geodesic_distance": 7.2936296463012695,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6026.234813965857,
+      "perception_ms": 520.028960891068
+    },
+    "collected": 1831,
+    "buffer_transitions": 59
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6975053151448568,
+  "focus_mean": 2.5714285714285716
+}

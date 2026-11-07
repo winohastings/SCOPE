@@ -1,0 +1,74 @@
+{
+  "episode_uid": "scope_stage2_train:3178",
+  "source_episode_id": "3178",
+  "scene_id": "kEZ7cmS4wCh",
+  "instruction": "Finish going down the stairs, all the way down. Then turn left and go down the three steps and wait by the table with chairs.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 12.895939826965332,
+  "path_length": 9.233077489770949,
+  "gt_path_length": 17.546985771967933,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.4559931022134249,
+  "purpose": "train",
+  "wall_seconds": 24.269949150271714,
+  "training": {
+    "episode_id": "3178",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/00f2cb2ff7fb448398a8e1b9da885b4f_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3178",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_00f2cb2ff7fb448398a8e1b9da885b4f.pt",
+      "transitions": 8,
+      "reward_sum": -0.4875529861450195,
+      "focus_histogram": {
+        "4": 1,
+        "0": 3,
+        "3": 2,
+        "1": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "2": 2,
+        "1": 11
+      },
+      "entropy": {
+        "stop": 0.6919943481683731,
+        "camera": 0.6556322574615479,
+        "position_latent": 2.0832454204559325
+      },
+      "start_geodesic_distance": 16.23264503479004,
+      "final_geodesic_distance": 12.895939826965332,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7060.215923003852,
+      "perception_ms": 386.3076204434037
+    },
+    "collected": 3205,
+    "buffer_transitions": 25
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.4875529861450195,
+  "focus_mean": 1.625
+}

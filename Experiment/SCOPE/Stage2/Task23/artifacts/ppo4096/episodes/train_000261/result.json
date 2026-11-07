@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:7765",
+  "source_episode_id": "7765",
+  "scene_id": "sT4fr6TAbpF",
+  "instruction": "Walk past the kitchen island and enter the dinning room.  Walk past the dinning room table, then turn left and enter the hallway.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 11.874995231628418,
+  "path_length": 7.760664173401892,
+  "gt_path_length": 13.224419132871882,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.27824604052194146,
+  "purpose": "train",
+  "wall_seconds": 20.396391447633505,
+  "training": {
+    "episode_id": "7765",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/c103cd860bca44c8ba096796fb30e843_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7765",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_c103cd860bca44c8ba096796fb30e843.pt",
+      "transitions": 8,
+      "reward_sum": -0.5838879903157552,
+      "focus_histogram": {
+        "0": 4,
+        "1": 2,
+        "3": 1,
+        "2": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "0": 1
+      },
+      "entropy": {
+        "stop": 0.6897743225097657,
+        "camera": 0.5785885016123454,
+        "position_latent": 1.8544076840082804
+      },
+      "start_geodesic_distance": 12.86667537689209,
+      "final_geodesic_distance": 11.874995231628418,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6664.757398888469,
+      "perception_ms": 229.05070055276155
+    },
+    "collected": 3846,
+    "buffer_transitions": 8
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.5838879903157552,
+  "focus_mean": 0.875
+}

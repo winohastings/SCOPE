@@ -1,0 +1,65 @@
+{
+  "episode_uid": "scope_stage2_train:10148",
+  "source_episode_id": "10148",
+  "scene_id": "r47D5H71a5s",
+  "instruction": "Exit the sauna, exit the massage room, take a left, go straight into the diagonal doorway, take a couple steps in and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.561853408813477,
+  "path_length": 1.2837414778769016,
+  "gt_path_length": 11.882707868683543,
+  "steps": 3,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.22500663972135748,
+  "purpose": "train",
+  "wall_seconds": 9.953699300065637,
+  "training": {
+    "episode_id": "10148",
+    "transitions": 3,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89f8ae886a0840b7a1ab2eac6a34fa39_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89f8ae886a0840b7a1ab2eac6a34fa39_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/89f8ae886a0840b7a1ab2eac6a34fa39_0002.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10148",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_89f8ae886a0840b7a1ab2eac6a34fa39.pt",
+      "transitions": 3,
+      "reward_sum": -0.469408327738444,
+      "focus_histogram": {
+        "1": 1,
+        "0": 2
+      },
+      "camera_histogram": {
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6670113503932953,
+        "camera": 0.9166065156459808,
+        "position_latent": 2.351846158504486
+      },
+      "start_geodesic_distance": 11.620728492736816,
+      "final_geodesic_distance": 10.561853408813477,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 1706.9971356540918,
+      "perception_ms": 41.929833590984344
+    },
+    "collected": 2671,
+    "buffer_transitions": 3
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.469408327738444,
+  "focus_mean": 0.3333333333333333
+}

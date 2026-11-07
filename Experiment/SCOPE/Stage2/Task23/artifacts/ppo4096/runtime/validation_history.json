@@ -1,0 +1,67 @@
+[
+  {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0000.pt",
+    "transitions": 0,
+    "update": 0,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.34375,
+    "SPL": 0.28943913148335776,
+    "reward": -0.004798724191884228,
+    "focus_mean": 4.0,
+    "nDTW": 0.3601840588831425,
+    "round": 0
+  },
+  {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0014.pt",
+    "transitions": 1033,
+    "update": 14,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.5625,
+    "SPL": 0.42185182981204195,
+    "reward": 0.5581196019425988,
+    "focus_mean": 4.0,
+    "nDTW": 0.42432277236995153,
+    "round": 1
+  },
+  {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0028.pt",
+    "transitions": 2054,
+    "update": 28,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.4375,
+    "SPL": 0.3711407891410259,
+    "reward": 0.33057668386027217,
+    "focus_mean": 4.0,
+    "nDTW": 0.44536300305004883,
+    "round": 2
+  },
+  {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0043.pt",
+    "transitions": 3100,
+    "update": 43,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.375,
+    "SPL": 0.28676694215033305,
+    "reward": 0.6321119835041464,
+    "focus_mean": 0.37953282828282825,
+    "nDTW": 0.38745138918172395,
+    "round": 3
+  },
+  {
+    "checkpoint": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/checkpoints/update_0056.pt",
+    "transitions": 4096,
+    "update": 56,
+    "split": "val_seen",
+    "episodes": 32,
+    "SR": 0.34375,
+    "SPL": 0.2604978682966848,
+    "reward": 0.586886881235987,
+    "focus_mean": 0.0,
+    "nDTW": 0.36413102935051567,
+    "round": 4
+  }
+]

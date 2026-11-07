@@ -1,0 +1,66 @@
+{
+  "episode_uid": "agm_ppo_val_seen:8",
+  "source_episode_id": "8",
+  "scene_id": "r1Q1Z4BcV1o",
+  "instruction": "Walk past the water fountain and turn left. Walk to the doorway directly across from the stairs.  Stop in the doorway.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 2.6960248947143555,
+  "path_length": 7.466291750781238,
+  "gt_path_length": 11.910073280334473,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7908292463418726,
+  "purpose": "val_seen",
+  "wall_seconds": 21.6835318217054,
+  "training": {
+    "episode_id": "8",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/aa92d582a83844c4bd8e89cd47beb757_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "8",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_aa92d582a83844c4bd8e89cd47beb757.pt",
+      "transitions": 7,
+      "reward_sum": 2.3808342742919923,
+      "focus_histogram": {
+        "0": 7
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.6876683490616935,
+        "camera": 0.7484530295644488,
+        "position_latent": 2.2453602382114957
+      },
+      "start_geodesic_distance": 9.458539009094238,
+      "final_geodesic_distance": 2.6960248947143555,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5557.924249209464,
+      "perception_ms": 35.374113358557224
+    },
+    "collected": 3100,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.3808342742919923,
+  "focus_mean": 0.0
+}

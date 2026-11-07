@@ -1,0 +1,72 @@
+{
+  "episode_uid": "agm_ppo_val_seen:588",
+  "source_episode_id": "588",
+  "scene_id": "5q7pvUzZiYa",
+  "instruction": "Turn right and pass by the table. Continue down the wall and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.279636383056641,
+  "path_length": 9.408046343829483,
+  "gt_path_length": 7.649598121643066,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.12517403261130425,
+  "purpose": "val_seen",
+  "wall_seconds": 24.41605499293655,
+  "training": {
+    "episode_id": "588",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1a1ebce8500949938bb198272110cbb1_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "588",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_1a1ebce8500949938bb198272110cbb1.pt",
+      "transitions": 10,
+      "reward_sum": -0.47652359644571946,
+      "focus_histogram": {
+        "0": 9,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 4
+      },
+      "entropy": {
+        "stop": 0.6898892796956576,
+        "camera": 0.7404378056526184,
+        "position_latent": 2.252349541737483
+      },
+      "start_geodesic_distance": 7.73178243637085,
+      "final_geodesic_distance": 5.279636383056641,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8487.01782617718,
+      "perception_ms": 152.20515243709087
+    },
+    "collected": 3100,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.47652359644571946,
+  "focus_mean": 0.4
+}

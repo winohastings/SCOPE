@@ -1,0 +1,68 @@
+{
+  "episode_uid": "scope_stage2_train:773",
+  "source_episode_id": "773",
+  "scene_id": "V2XKFyX4ASd",
+  "instruction": "Walk passed the foot of the bed and out of the bedroom. Walk up the flight of stairs in the living room area to the top.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 9.71451187133789,
+  "path_length": 4.551942249760032,
+  "gt_path_length": 9.835860429195234,
+  "steps": 5,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.36013936265171564,
+  "purpose": "train",
+  "wall_seconds": 20.06840044911951,
+  "training": {
+    "episode_id": "773",
+    "transitions": 5,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/bb267dcb4fcb45459f81fe4e1eae5e68_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/bb267dcb4fcb45459f81fe4e1eae5e68_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/bb267dcb4fcb45459f81fe4e1eae5e68_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/bb267dcb4fcb45459f81fe4e1eae5e68_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/bb267dcb4fcb45459f81fe4e1eae5e68_0004.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "773",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_bb267dcb4fcb45459f81fe4e1eae5e68.pt",
+      "transitions": 5,
+      "reward_sum": -0.5986896006266276,
+      "focus_histogram": {
+        "0": 4,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 2,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6866274103522301,
+        "camera": 0.5944288894534111,
+        "position_latent": 1.8019417822360992
+      },
+      "start_geodesic_distance": 9.434167861938477,
+      "final_geodesic_distance": 9.71451187133789,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 3683.6491990834475,
+      "perception_ms": 105.42939510196447
+    },
+    "collected": 3909,
+    "buffer_transitions": 5
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.5986896006266276,
+  "focus_mean": 0.6
+}

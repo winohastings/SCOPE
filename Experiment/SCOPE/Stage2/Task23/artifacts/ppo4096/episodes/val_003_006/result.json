@@ -1,0 +1,63 @@
+{
+  "episode_uid": "agm_ppo_val_seen:290",
+  "source_episode_id": "290",
+  "scene_id": "mJXqzFtmKg4",
+  "instruction": "Enter the room go out the door on the right turn left and wait right at the living room entrance.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 8.496208190917969,
+  "path_length": 3.321413818746805,
+  "gt_path_length": 6.244618892669678,
+  "steps": 4,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.315652888732382,
+  "purpose": "val_seen",
+  "wall_seconds": 17.195713535882533,
+  "training": {
+    "episode_id": "290",
+    "transitions": 4,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e0e33bffd80943fdaf5a3d3fdf7b2749_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e0e33bffd80943fdaf5a3d3fdf7b2749_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e0e33bffd80943fdaf5a3d3fdf7b2749_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e0e33bffd80943fdaf5a3d3fdf7b2749_0003.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "290",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_e0e33bffd80943fdaf5a3d3fdf7b2749.pt",
+      "transitions": 4,
+      "reward_sum": -0.6913075510660808,
+      "focus_histogram": {
+        "0": 4
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.6896083801984787,
+        "camera": 0.7390766143798828,
+        "position_latent": 2.251858174800873
+      },
+      "start_geodesic_distance": 6.226594924926758,
+      "final_geodesic_distance": 8.496208190917969,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 2642.109219916165,
+      "perception_ms": 19.753378815948963
+    },
+    "collected": 3100,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6913075510660808,
+  "focus_mean": 0.0
+}

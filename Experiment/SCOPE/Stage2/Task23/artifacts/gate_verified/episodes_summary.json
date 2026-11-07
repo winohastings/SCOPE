@@ -1,0 +1,22 @@
+[
+  {
+    "episode_uid": "scope_stage2_train:2930",
+    "source_episode_id": "2930",
+    "scene_id": "sT4fr6TAbpF",
+    "instruction": "Exit the bedroom, turn left and wait at the exit.",
+    "success": 0,
+    "oracle_success": 1,
+    "final_distance": 0.44783371686935425,
+    "path_length": 10.139956866507418,
+    "gt_path_length": 5.5157280446816115,
+    "steps": 15,
+    "failure": "ValueError: int is not allowed for map key when strict_map_key=True",
+    "failure_type": "model_close",
+    "termination_reason": "failure",
+    "failure_traceback": "Traceback (most recent call last):\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/benchmark/common/runner/worker.py\", line 260, in _run_episode\n    cleanup()\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/benchmark/common/runner/worker.py\", line 256, in <lambda>\n    (\"model_close\", lambda: model.close_session(session_id)),\n  File \"/home/data/czh/AdaPercVLN/Experiment/SCOPE/Stage2/real_rollout.py\", line 115, in close_session\n    self.report = self.client._request(\"finish\", {\"bootstrap_frame\": frame_from(observation, self.episode, self.purpose),\n  File \"/home/data/czh/Third_Party/baselines/SimpleNav/deployment/model_server/tools/websocket_policy_client.py\", line 33, in _request\n    response = msgpack_numpy.unpackb(self._ws.recv(timeout=self.timeout))\n  File \"msgpack/_unpacker.pyx\", line 194, in msgpack._cmsgpack.unpackb\nValueError: int is not allowed for map key when strict_map_key=True\n",
+    "nDTW": 0.42169355130140096,
+    "purpose": "train",
+    "wall_seconds": 30.59888313524425,
+    "training": null
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "episode_uid": "scope_stage2_train:4218",
+  "source_episode_id": "4218",
+  "scene_id": "759xd9YjKW5",
+  "instruction": "Exit the living room, and walk into the foyer. Walk up the stairs, and wait at the top of the landing.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 5.401068687438965,
+  "path_length": 7.978438461665064,
+  "gt_path_length": 12.432777313586925,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.622049586250199,
+  "purpose": "train",
+  "wall_seconds": 19.834636490792036,
+  "training": {
+    "episode_id": "4218",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/6a855457657649f7956f1f4421731f85_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "4218",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_6a855457657649f7956f1f4421731f85.pt",
+      "transitions": 8,
+      "reward_sum": -0.1594957987467448,
+      "focus_histogram": {
+        "0": 6,
+        "1": 2
+      },
+      "camera_histogram": {
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6854151248931885,
+        "camera": 1.0360318064689635,
+        "position_latent": 2.374679374694824
+      },
+      "start_geodesic_distance": 12.008631706237793,
+      "final_geodesic_distance": 5.401068687438965,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6533.205796033144,
+      "perception_ms": 94.06266640871763
+    },
+    "collected": 2387,
+    "buffer_transitions": 65
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.1594957987467448,
+  "focus_mean": 0.25
+}

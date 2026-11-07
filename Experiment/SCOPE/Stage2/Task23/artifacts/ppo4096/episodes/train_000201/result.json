@@ -1,0 +1,71 @@
+{
+  "episode_uid": "scope_stage2_train:3158",
+  "source_episode_id": "3158",
+  "scene_id": "JmbYfDe2QKZ",
+  "instruction": "Exit the room and turn right then wait at the top of the stairs.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.691903829574585,
+  "path_length": 7.175257069524378,
+  "gt_path_length": 5.977167199401304,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8298533808882029,
+  "purpose": "train",
+  "wall_seconds": 20.664984586648643,
+  "training": {
+    "episode_id": "3158",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/26972f0800dd4587819551b002b26ac7_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "3158",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_26972f0800dd4587819551b002b26ac7.pt",
+      "transitions": 9,
+      "reward_sum": 2.1659908135732016,
+      "focus_histogram": {
+        "0": 8,
+        "1": 1
+      },
+      "camera_histogram": {
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6580633342266082,
+        "camera": 0.8507505774497985,
+        "position_latent": 2.3647443294525146
+      },
+      "start_geodesic_distance": 5.681766033172607,
+      "final_geodesic_distance": 1.691903829574585,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7726.756670512259,
+      "perception_ms": 71.44717033952475
+    },
+    "collected": 2870,
+    "buffer_transitions": 61
+  },
+  "SR": 1,
+  "SPL": 0.7918553966944116,
+  "reward_sum": 2.1659908135732016,
+  "focus_mean": 0.1111111111111111
+}

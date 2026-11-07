@@ -20,6 +20,19 @@ def digest(path):
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
+def historical_source(root, relative, expected):
+    current = root / relative
+    if current.is_file() and digest(current) == expected:
+        return current
+    mapping = root / "docs/release/HISTORICAL_SOURCE_MAP.json"
+    for record in json.loads(mapping.read_text()) if mapping.exists() else []:
+        if record["source"] == relative and record["sha256"] == expected:
+            snapshot = root / record["snapshot"]
+            if snapshot.is_file() and not snapshot.is_symlink() and digest(snapshot) == expected:
+                return snapshot
+    raise ValueError(f"Historical source hash mismatch: {relative}")
+
+
 def verify(root=ROOT):
     manifest = json.loads((root / "docs/release/FILE_MANIFEST.json").read_text())
     for record in manifest:

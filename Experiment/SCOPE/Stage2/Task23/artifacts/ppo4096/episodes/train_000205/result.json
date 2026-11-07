@@ -1,0 +1,72 @@
+{
+  "episode_uid": "scope_stage2_train:2076",
+  "source_episode_id": "2076",
+  "scene_id": "7y3sRwLe3Va",
+  "instruction": "Walk down the hall with the construction equipment. Take a right at the end of the hall. In teh hall take a left. Stop in the hall before you pass the vent on the left.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.8794502019882202,
+  "path_length": 8.407542492845096,
+  "gt_path_length": 6.6958576508369445,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.7707485737302338,
+  "purpose": "train",
+  "wall_seconds": 22.127182773314416,
+  "training": {
+    "episode_id": "2076",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1311e1bd656f419a8fcf6d549f82c988_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "2076",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_1311e1bd656f419a8fcf6d549f82c988.pt",
+      "transitions": 7,
+      "reward_sum": 2.109919918378194,
+      "focus_histogram": {
+        "0": 2,
+        "4": 1,
+        "1": 3,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 7,
+        "2": 3
+      },
+      "entropy": {
+        "stop": 0.6732040271162987,
+        "camera": 0.9068211317062378,
+        "position_latent": 2.395664542913437
+      },
+      "start_geodesic_distance": 6.078248977661133,
+      "final_geodesic_distance": 1.8794502019882202,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 5790.596663020551,
+      "perception_ms": 301.20306368917227
+    },
+    "collected": 2942,
+    "buffer_transitions": 47
+  },
+  "SR": 1,
+  "SPL": 0.7229519188078781,
+  "reward_sum": 2.109919918378194,
+  "focus_mean": 1.4285714285714286
+}

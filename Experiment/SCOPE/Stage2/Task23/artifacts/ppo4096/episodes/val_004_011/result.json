@@ -1,0 +1,62 @@
+{
+  "episode_uid": "agm_ppo_val_seen:284",
+  "source_episode_id": "284",
+  "scene_id": "SN83YJsR3w2",
+  "instruction": "Leave the bathroom, make a slight left, walk through the bedroom, leave the bedroom, and wait.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 10.901597023010254,
+  "path_length": 1.772196372039616,
+  "gt_path_length": 9.769881248474121,
+  "steps": 3,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.2045996709919971,
+  "purpose": "val_seen",
+  "wall_seconds": 28.84538426809013,
+  "training": {
+    "episode_id": "284",
+    "transitions": 3,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e552a5acf49d48408f48e273aa1474d0_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e552a5acf49d48408f48e273aa1474d0_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/e552a5acf49d48408f48e273aa1474d0_0002.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "284",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_e552a5acf49d48408f48e273aa1474d0.pt",
+      "transitions": 3,
+      "reward_sum": -0.6180205790201823,
+      "focus_histogram": {
+        "0": 3
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.6872444947560629,
+        "camera": 0.5075040062268575,
+        "position_latent": 1.7915274699529011
+      },
+      "start_geodesic_distance": 9.58128833770752,
+      "final_geodesic_distance": 10.901597023010254,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 1663.8153055682778,
+      "perception_ms": 14.694706536829472
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.6180205790201823,
+  "focus_mean": 0.0
+}

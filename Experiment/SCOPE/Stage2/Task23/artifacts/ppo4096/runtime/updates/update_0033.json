@@ -1,0 +1,199 @@
+{
+  "update": 33,
+  "transitions": 65,
+  "total_transitions": 2387,
+  "optimizer_steps": 336,
+  "initial_ratio_max_error": 0.0,
+  "actor_parameter_l2_change": 0.1568471996857759,
+  "critic_parameter_l2_change": 0.48126140279841484,
+  "head_gradient_norms": {
+    "stop": 0.9775526523590088,
+    "camera": 0.4413689374923706,
+    "position": 0.7117092609405518,
+    "critic": 0.5573000311851501
+  },
+  "minibatches": [
+    {
+      "epoch": 0,
+      "actor_loss": -0.028774172067642212,
+      "critic_loss": 0.309609591960907,
+      "critic_mse": 0.619219183921814,
+      "ratio_mean": 1.0,
+      "approximate_kl": 0.0,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 0.18453329801559448,
+      "critic_grad_norm": 0.9141133427619934,
+      "entropy": {
+        "stop": 0.68604975938797,
+        "camera": 1.0390435457229614,
+        "position_latent": 2.374767303466797
+      }
+    },
+    {
+      "epoch": 0,
+      "actor_loss": 0.14255526661872864,
+      "critic_loss": 0.2683231234550476,
+      "critic_mse": 0.5366462469100952,
+      "ratio_mean": 0.99920254945755,
+      "approximate_kl": 1.0081699656439014e-05,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 0.7175754308700562,
+      "critic_grad_norm": 1.6775763034820557,
+      "entropy": {
+        "stop": 0.6859903335571289,
+        "camera": 1.0360363721847534,
+        "position_latent": 2.375462532043457
+      }
+    },
+    {
+      "epoch": 0,
+      "actor_loss": 0.0019062012434005737,
+      "critic_loss": 0.4007808566093445,
+      "critic_mse": 0.801561713218689,
+      "ratio_mean": 1.0041197538375854,
+      "approximate_kl": 0.00010647296585375443,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 1.8141748905181885,
+      "critic_grad_norm": 1.3985058069229126,
+      "entropy": {
+        "stop": 0.6857621669769287,
+        "camera": 1.0296118259429932,
+        "position_latent": 2.3748903274536133
+      }
+    },
+    {
+      "epoch": 0,
+      "actor_loss": 0.30647167563438416,
+      "critic_loss": 0.38230255246162415,
+      "critic_mse": 0.7646051049232483,
+      "ratio_mean": 1.0064489841461182,
+      "approximate_kl": 0.00039044671575538814,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 5.5208845138549805,
+      "critic_grad_norm": 1.2395344972610474,
+      "entropy": {
+        "stop": 0.6859479546546936,
+        "camera": 1.022287368774414,
+        "position_latent": 2.3750710487365723
+      }
+    },
+    {
+      "epoch": 0,
+      "actor_loss": -0.025124289095401764,
+      "critic_loss": 0.03147967532277107,
+      "critic_mse": 0.06295935064554214,
+      "ratio_mean": 0.9963666200637817,
+      "approximate_kl": 6.616115570068359e-06,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 0.17299602925777435,
+      "critic_grad_norm": 1.3606966733932495,
+      "entropy": {
+        "stop": 0.6870174407958984,
+        "camera": 1.0207901000976562,
+        "position_latent": 2.3737425804138184
+      }
+    },
+    {
+      "epoch": 1,
+      "actor_loss": -0.036688871681690216,
+      "critic_loss": 0.3890513479709625,
+      "critic_mse": 0.778102695941925,
+      "ratio_mean": 1.0097593069076538,
+      "approximate_kl": 0.0005911163170821965,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 3.9719672203063965,
+      "critic_grad_norm": 0.36135199666023254,
+      "entropy": {
+        "stop": 0.6854074597358704,
+        "camera": 1.014831781387329,
+        "position_latent": 2.3737783432006836
+      }
+    },
+    {
+      "epoch": 1,
+      "actor_loss": 0.582856297492981,
+      "critic_loss": 0.2803189158439636,
+      "critic_mse": 0.5606378316879272,
+      "ratio_mean": 1.0078243017196655,
+      "approximate_kl": 0.0007365792989730835,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 3.745037078857422,
+      "critic_grad_norm": 3.2282066345214844,
+      "entropy": {
+        "stop": 0.6853272914886475,
+        "camera": 1.0084054470062256,
+        "position_latent": 2.3741188049316406
+      }
+    },
+    {
+      "epoch": 1,
+      "actor_loss": -0.12524181604385376,
+      "critic_loss": 0.4074802100658417,
+      "critic_mse": 0.8149604201316833,
+      "ratio_mean": 0.9983833432197571,
+      "approximate_kl": 0.00178318761754781,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 2.759798288345337,
+      "critic_grad_norm": 0.29154589772224426,
+      "entropy": {
+        "stop": 0.6847207546234131,
+        "camera": 1.0051963329315186,
+        "position_latent": 2.3731529712677
+      }
+    },
+    {
+      "epoch": 1,
+      "actor_loss": -0.036202117800712585,
+      "critic_loss": 0.2521618604660034,
+      "critic_mse": 0.5043237209320068,
+      "ratio_mean": 1.019666314125061,
+      "approximate_kl": 0.001219627563841641,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 3.2675669193267822,
+      "critic_grad_norm": 0.46512627601623535,
+      "entropy": {
+        "stop": 0.6844698786735535,
+        "camera": 1.000963807106018,
+        "position_latent": 2.3721866607666016
+      }
+    },
+    {
+      "epoch": 1,
+      "actor_loss": 0.14161233603954315,
+      "critic_loss": 0.013462280854582787,
+      "critic_mse": 0.026924561709165573,
+      "ratio_mean": 1.035387396812439,
+      "approximate_kl": 0.0007922848453745246,
+      "clip_fraction": 0.0,
+      "actor_grad_norm": 1.2251800298690796,
+      "critic_grad_norm": 0.8194319605827332,
+      "entropy": {
+        "stop": 0.6851648092269897,
+        "camera": 0.9957900047302246,
+        "position_latent": 2.372105360031128
+      }
+    }
+  ],
+  "kl_early_stop": false,
+  "explained_variance": 0.080771803855896,
+  "return_mean": 0.4014231562614441,
+  "old_value_mean": 0.5626197457313538,
+  "value_mean": 0.47971683740615845,
+  "seconds": 3.5830815248191357,
+  "frozen_audit": {
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true
+  },
+  "old_policy_version": 32,
+  "diagnostic": false,
+  "boundary_paths": [
+    "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_180a4f1ba603435a9894dff24bcabd42.pt",
+    "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_32f305a85c25404391a373c336f3fb9e.pt",
+    "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_86311ce97872481bab56443f68c43518.pt",
+    "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_4292a31730cb451f8aed3c53916123a6.pt",
+    "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_c3e84225a2db47c791bedf19344a8c26.pt",
+    "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_6a855457657649f7956f1f4421731f85.pt"
+  ]
+}

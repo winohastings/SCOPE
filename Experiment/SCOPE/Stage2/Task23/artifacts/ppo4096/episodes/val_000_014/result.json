@@ -1,0 +1,73 @@
+{
+  "episode_uid": "agm_ppo_val_seen:107",
+  "source_episode_id": "107",
+  "scene_id": "rPc6DW4iMge",
+  "instruction": "Walk up the stairs and make a right at the end of the hall. Go into the sitting room at the end of that hall and wait.",
+  "success": 0,
+  "oracle_success": 1,
+  "final_distance": 4.638075828552246,
+  "path_length": 11.441861757542938,
+  "gt_path_length": 8.442483901977539,
+  "steps": 12,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.3949920563028312,
+  "purpose": "val_seen",
+  "wall_seconds": 27.26234902627766,
+  "training": {
+    "episode_id": "107",
+    "transitions": 12,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/2cce4540eddd4b36888bd9a1943aaa12_0011.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "107",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_2cce4540eddd4b36888bd9a1943aaa12.pt",
+      "transitions": 12,
+      "reward_sum": -0.9078190485636394,
+      "focus_histogram": {
+        "4": 12
+      },
+      "camera_histogram": {
+        "1": 48
+      },
+      "entropy": {
+        "stop": 0.5623351335525513,
+        "camera": 1.3651437312364578,
+        "position_latent": 2.3915898452202478
+      },
+      "start_geodesic_distance": 7.520790100097656,
+      "final_geodesic_distance": 4.638075828552246,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 11671.559562906623,
+      "perception_ms": 1274.7719679027796
+    },
+    "collected": 0,
+    "buffer_transitions": 0
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.9078190485636394,
+  "focus_mean": 4.0
+}

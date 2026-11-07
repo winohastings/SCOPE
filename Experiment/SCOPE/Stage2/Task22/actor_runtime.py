@@ -62,13 +62,16 @@ class ActorPolicy(FusionPolicy):
                        run_id=uuid.uuid4().hex, completed=0)
         return session
 
+    def validate_episode(self, session, frame):
+        check_episode(session["episode_id"], frame["stage2_scene"], frame["stage2_purpose"])
+
     def predict_session(self, session, *, frames, instruction):
         if session["pending"] is not None or session["terminal"]:
             raise RuntimeError("require previous action feedback and live navigation episode")
         if session["prediction_index"] >= self.config["max_navigation_transitions_per_episode"]:
             raise RuntimeError("explicit episode trace limit reached; finish instead of implicit truncation")
         frame = frames[-1]
-        check_episode(session["episode_id"], frame["stage2_scene"], frame["stage2_purpose"])
+        self.validate_episode(session, frame)
         if session["instruction"] is None:
             session["instruction"] = instruction
             session["language"] = self.language(instruction)

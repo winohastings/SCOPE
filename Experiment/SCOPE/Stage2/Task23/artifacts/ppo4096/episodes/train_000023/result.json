@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:1447",
+  "source_episode_id": "1447",
+  "scene_id": "mJXqzFtmKg4",
+  "instruction": "Go straight past the desk then turn left.  Go in the bedroom and then go into the bathroom doorway on the right and wait.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.6309601664543152,
+  "path_length": 8.231009525246918,
+  "gt_path_length": 6.619219716326806,
+  "steps": 7,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8425262439050982,
+  "purpose": "train",
+  "wall_seconds": 21.39515970647335,
+  "training": {
+    "episode_id": "1447",
+    "transitions": 7,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/68a83a6c14dd4ac88ccd856a10656249_0006.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1447",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_68a83a6c14dd4ac88ccd856a10656249.pt",
+      "transitions": 7,
+      "reward_sum": 2.1624562589327496,
+      "focus_histogram": {
+        "4": 3,
+        "0": 3,
+        "3": 1
+      },
+      "camera_histogram": {
+        "3": 2,
+        "2": 7,
+        "0": 3,
+        "1": 3
+      },
+      "entropy": {
+        "stop": 0.5853101548395658,
+        "camera": 1.3145495151218616,
+        "position_latent": 2.4168461372977807
+      },
+      "start_geodesic_distance": 6.367804050445557,
+      "final_geodesic_distance": 0.6309601664543152,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6032.714821398258,
+      "perception_ms": 436.86544243246317
+    },
+    "collected": 356,
+    "buffer_transitions": 57
+  },
+  "SR": 1,
+  "SPL": 0.7736358500028017,
+  "reward_sum": 2.1624562589327496,
+  "focus_mean": 2.142857142857143
+}

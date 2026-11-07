@@ -1,0 +1,75 @@
+{
+  "episode_uid": "scope_stage2_train:7473",
+  "source_episode_id": "7473",
+  "scene_id": "ac26ZMwG7aT",
+  "instruction": "Exit the bathroom using the door straight ahead. Walk straight until you get to a hallway. Turn right and then turn left into the bathroom. Wait near the sink.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 13.380439758300781,
+  "path_length": 5.004211668740027,
+  "gt_path_length": 13.763464719682256,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.18323248927744215,
+  "purpose": "train",
+  "wall_seconds": 27.423940237611532,
+  "training": {
+    "episode_id": "7473",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/011e38e04d9b4e3aaebd9ee64879e6f9_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "7473",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_011e38e04d9b4e3aaebd9ee64879e6f9.pt",
+      "transitions": 8,
+      "reward_sum": -0.7200625356038413,
+      "focus_histogram": {
+        "2": 1,
+        "4": 1,
+        "3": 3,
+        "1": 3
+      },
+      "camera_histogram": {
+        "0": 2,
+        "1": 13,
+        "3": 1,
+        "2": 2
+      },
+      "entropy": {
+        "stop": 0.6414594316482544,
+        "camera": 0.8059097576141357,
+        "position_latent": 2.43461256980896
+      },
+      "start_geodesic_distance": 13.979501724243164,
+      "final_geodesic_distance": 13.380439758300781,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6981.8106247112155,
+      "perception_ms": 521.2140409275889
+    },
+    "collected": 1839,
+    "buffer_transitions": 67
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7200625356038413,
+  "focus_mean": 2.25
+}

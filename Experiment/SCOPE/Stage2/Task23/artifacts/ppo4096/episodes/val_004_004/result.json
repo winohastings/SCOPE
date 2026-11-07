@@ -1,0 +1,68 @@
+{
+  "episode_uid": "agm_ppo_val_seen:514",
+  "source_episode_id": "514",
+  "scene_id": "D7N2EKCX4Sj",
+  "instruction": "walk forward and stop after exiting the room.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.7108251452445984,
+  "path_length": 6.493941214634106,
+  "gt_path_length": 5.128785610198975,
+  "steps": 9,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.6662054827513938,
+  "purpose": "val_seen",
+  "wall_seconds": 32.814856197685,
+  "training": {
+    "episode_id": "514",
+    "transitions": 9,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/1dcb3213857343f683529a356f8bd54c_0008.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "val_seen",
+      "episode_id": "514",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_1dcb3213857343f683529a356f8bd54c.pt",
+      "transitions": 9,
+      "reward_sum": 2.2110072588920593,
+      "focus_histogram": {
+        "0": 9
+      },
+      "camera_histogram": {},
+      "entropy": {
+        "stop": 0.681611504819658,
+        "camera": 0.5264620714717441,
+        "position_latent": 1.7864609426922269
+      },
+      "start_geodesic_distance": 5.225934028625488,
+      "final_geodesic_distance": 0.7108251452445984,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 7730.59996496886,
+      "perception_ms": 46.36381473392248
+    },
+    "collected": 4096,
+    "buffer_transitions": 0
+  },
+  "SR": 1,
+  "SPL": 0.8047399654386829,
+  "reward_sum": 2.2110072588920593,
+  "focus_mean": 0.0
+}

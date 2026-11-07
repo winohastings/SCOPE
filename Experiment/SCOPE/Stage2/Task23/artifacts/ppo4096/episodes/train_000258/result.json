@@ -1,0 +1,73 @@
+{
+  "episode_uid": "scope_stage2_train:1785",
+  "source_episode_id": "1785",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Walk through the pine door into the hallway. Enter the bathroom through the second door on your right. Stop in the bathroom once you pass the door.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.2238260954618454,
+  "path_length": 6.491004843264818,
+  "gt_path_length": 5.816981051225132,
+  "steps": 8,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8553077864079927,
+  "purpose": "train",
+  "wall_seconds": 17.830259459093213,
+  "training": {
+    "episode_id": "1785",
+    "transitions": 8,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/8065dad70edd49708e8b17b14ff270ef_0007.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1785",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_8065dad70edd49708e8b17b14ff270ef.pt",
+      "transitions": 8,
+      "reward_sum": 2.1705605588356653,
+      "focus_histogram": {
+        "1": 4,
+        "0": 2,
+        "2": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 8,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.6927928118144765,
+        "camera": 0.5148201900369981,
+        "position_latent": 1.9180023179334753
+      },
+      "start_geodesic_distance": 5.482234477996826,
+      "final_geodesic_distance": 0.2238260954618454,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 6727.428047917783,
+      "perception_ms": 307.76746291667223
+    },
+    "collected": 3788,
+    "buffer_transitions": 38
+  },
+  "SR": 1,
+  "SPL": 0.8445894912072497,
+  "reward_sum": 2.1705605588356653,
+  "focus_mean": 1.25
+}

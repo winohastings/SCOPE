@@ -1,0 +1,75 @@
+{
+  "episode_uid": "scope_stage2_train:945",
+  "source_episode_id": "945",
+  "scene_id": "JmbYfDe2QKZ",
+  "instruction": "Go up the stairs. Take a right and stop in the door past the exercise bike.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.888023853302002,
+  "path_length": 8.535161681007594,
+  "gt_path_length": 7.100117380657921,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.5286228522464955,
+  "purpose": "train",
+  "wall_seconds": 22.708355373702943,
+  "training": {
+    "episode_id": "945",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/3a7b5e056b8d477bb5304768e9a0cd8a_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "945",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_3a7b5e056b8d477bb5304768e9a0cd8a.pt",
+      "transitions": 10,
+      "reward_sum": 2.138143170674642,
+      "focus_histogram": {
+        "2": 1,
+        "0": 5,
+        "1": 2,
+        "4": 2
+      },
+      "camera_histogram": {
+        "1": 9,
+        "0": 3
+      },
+      "entropy": {
+        "stop": 0.6926358610391616,
+        "camera": 0.6177311152219772,
+        "position_latent": 2.233612370491028
+      },
+      "start_geodesic_distance": 6.260171413421631,
+      "final_geodesic_distance": 0.888023853302002,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8654.34777084738,
+      "perception_ms": 361.0577676445246
+    },
+    "collected": 3392,
+    "buffer_transitions": 73
+  },
+  "SR": 1,
+  "SPL": 0.7334566874522996,
+  "reward_sum": 2.138143170674642,
+  "focus_mean": 1.2
+}

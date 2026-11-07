@@ -1,0 +1,77 @@
+{
+  "episode_uid": "scope_stage2_train:8918",
+  "source_episode_id": "8918",
+  "scene_id": "r47D5H71a5s",
+  "instruction": "Turn left and exit room. Walk straight passed the barber chair. Turn left beside the exercise bike into the open door. Walk through the door and stop between the two massage tables.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.8081424236297607,
+  "path_length": 10.518934044986963,
+  "gt_path_length": 10.842472240966986,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8599636411124318,
+  "purpose": "train",
+  "wall_seconds": 21.26849708519876,
+  "training": {
+    "episode_id": "8918",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/a71a7107d78940b1aaf635e2e6209e0d_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "8918",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_a71a7107d78940b1aaf635e2e6209e0d.pt",
+      "transitions": 10,
+      "reward_sum": 2.4409390672047935,
+      "focus_histogram": {
+        "0": 5,
+        "1": 2,
+        "3": 1,
+        "2": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "1": 6,
+        "2": 3,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.6748683482408524,
+        "camera": 0.9679616928100586,
+        "position_latent": 2.4467551708221436
+      },
+      "start_geodesic_distance": 10.57222843170166,
+      "final_geodesic_distance": 0.8081424236297607,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8623.341849073768,
+      "perception_ms": 343.2700578123331
+    },
+    "collected": 1701,
+    "buffer_transitions": 72
+  },
+  "SR": 1,
+  "SPL": 1.0,
+  "reward_sum": 2.4409390672047935,
+  "focus_mean": 1.1
+}

@@ -1,0 +1,75 @@
+{
+  "episode_uid": "scope_stage2_train:290",
+  "source_episode_id": "290",
+  "scene_id": "29hnd4uzFmX",
+  "instruction": "Walk across the room to the door next to the couch, and stop.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 6.928744792938232,
+  "path_length": 10.170056293718517,
+  "gt_path_length": 6.064040152875708,
+  "steps": 10,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.025999601220273994,
+  "purpose": "train",
+  "wall_seconds": 20.188861788250506,
+  "training": {
+    "episode_id": "290",
+    "transitions": 10,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/690e538dbb1f406c94eb56d718d47614_0009.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "290",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_690e538dbb1f406c94eb56d718d47614.pt",
+      "transitions": 10,
+      "reward_sum": -0.7043637911478678,
+      "focus_histogram": {
+        "1": 2,
+        "0": 7,
+        "3": 1
+      },
+      "camera_histogram": {
+        "1": 2,
+        "3": 2,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6617146174112956,
+        "camera": 0.9009633660316467,
+        "position_latent": 2.3844184398651125
+      },
+      "start_geodesic_distance": 6.113287925720215,
+      "final_geodesic_distance": 6.928744792938232,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 8493.265815079212,
+      "perception_ms": 185.1454023271799
+    },
+    "collected": 2961,
+    "buffer_transitions": 66
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.7043637911478678,
+  "focus_mean": 0.5
+}

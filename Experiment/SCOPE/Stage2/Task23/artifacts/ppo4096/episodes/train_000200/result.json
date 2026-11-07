@@ -1,0 +1,83 @@
+{
+  "episode_uid": "scope_stage2_train:1690",
+  "source_episode_id": "1690",
+  "scene_id": "ZMojNkEp431",
+  "instruction": "Walk to your right towards the wooden down arrow sign hanging from the ceiling. When you see the floor-length Impact Hub sign turn to your left. Walk over to the hammock and stand just in front of it.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 0.30493563413619995,
+  "path_length": 18.785057889297605,
+  "gt_path_length": 11.25011565687931,
+  "steps": 16,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.662726995286729,
+  "purpose": "train",
+  "wall_seconds": 32.04375693947077,
+  "training": {
+    "episode_id": "1690",
+    "transitions": 16,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0010.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0011.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0012.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0013.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0014.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/25f81fa47d6b4ccca57660fa21beeed7_0015.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "1690",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_25f81fa47d6b4ccca57660fa21beeed7.pt",
+      "transitions": 16,
+      "reward_sum": 2.643368988831838,
+      "focus_histogram": {
+        "1": 2,
+        "2": 2,
+        "0": 10,
+        "3": 1,
+        "4": 1
+      },
+      "camera_histogram": {
+        "2": 4,
+        "1": 7,
+        "0": 2
+      },
+      "entropy": {
+        "stop": 0.6553355370249067,
+        "camera": 0.8831052141530173,
+        "position_latent": 2.3632782186780656
+      },
+      "start_geodesic_distance": 14.30547046661377,
+      "final_geodesic_distance": 0.30493563413619995,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 14031.886012293398,
+      "perception_ms": 425.03216303884983
+    },
+    "collected": 2861,
+    "buffer_transitions": 52
+  },
+  "SR": 1,
+  "SPL": 0.7615345425559755,
+  "reward_sum": 2.643368988831838,
+  "focus_mean": 0.8125
+}

@@ -1,0 +1,70 @@
+{
+  "episode_uid": "scope_stage2_train:476",
+  "source_episode_id": "476",
+  "scene_id": "E9uDoFAP3SH",
+  "instruction": "Walk down the walkway and wait at the top of the steps.",
+  "success": 0,
+  "oracle_success": 0,
+  "final_distance": 15.989173889160156,
+  "path_length": 5.752916768193245,
+  "gt_path_length": 10.609738407929367,
+  "steps": 6,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.08297542411241887,
+  "purpose": "train",
+  "wall_seconds": 31.092980788089335,
+  "training": {
+    "episode_id": "476",
+    "transitions": 6,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0927159ccdf74491a2d0907fd34a2ce6_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0927159ccdf74491a2d0907fd34a2ce6_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0927159ccdf74491a2d0907fd34a2ce6_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0927159ccdf74491a2d0907fd34a2ce6_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0927159ccdf74491a2d0907fd34a2ce6_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/0927159ccdf74491a2d0907fd34a2ce6_0005.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "476",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_0927159ccdf74491a2d0907fd34a2ce6.pt",
+      "transitions": 6,
+      "reward_sum": -0.9591897328694661,
+      "focus_histogram": {
+        "0": 4,
+        "3": 1,
+        "1": 1
+      },
+      "camera_histogram": {
+        "1": 3,
+        "2": 1
+      },
+      "entropy": {
+        "stop": 0.6925182580947876,
+        "camera": 0.6755449950695038,
+        "position_latent": 2.041660928726196
+      },
+      "start_geodesic_distance": 10.601327896118164,
+      "final_geodesic_distance": 15.989173889160156,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 4889.613991603255,
+      "perception_ms": 136.52792014181614
+    },
+    "collected": 3527,
+    "buffer_transitions": 69
+  },
+  "SR": 0,
+  "SPL": 0.0,
+  "reward_sum": -0.9591897328694661,
+  "focus_mean": 0.6666666666666666
+}

@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import shutil
 
-from verify_release import ROOT, digest, verify
+from verify_release import ROOT, digest, historical_source, verify
 
 
 def read(path):
@@ -34,7 +34,7 @@ def verify_task22(root=ROOT):
     require(contract["provenance"] == verified_contract["provenance"], "Runtime/verification model provenance differs")
     for source, expected in verified_contract["source_hashes"].items():
         relative = "Experiment/" + source.split("/Experiment/", 1)[1]
-        require(digest(root / relative) == expected, f"Runtime source hash mismatch: {relative}")
+        historical_source(root, relative, expected)
     require(digest(root / "Experiment/SCOPE/Stage2/Task21/artifacts/release/adapter.pt") == contract["provenance"]["adapter_sha256"],
             "Frozen Adapter changed")
     require(len(summary) == len(validation["execution"]) == 30, "Transition denominator mismatch")

@@ -1,0 +1,77 @@
+{
+  "episode_uid": "scope_stage2_train:10349",
+  "source_episode_id": "10349",
+  "scene_id": "82sE5b5pLXE",
+  "instruction": "Walk out of the bedroom and turn left. Turn left and walk to the right of the bathroom into the bedroom. Walk past the bed into the bathroom and stop.",
+  "success": 1,
+  "oracle_success": 1,
+  "final_distance": 1.234696626663208,
+  "path_length": 10.525494233705103,
+  "gt_path_length": 10.68054632545083,
+  "steps": 11,
+  "failure": null,
+  "failure_type": null,
+  "termination_reason": "waypoint_motion_stop",
+  "failure_traceback": null,
+  "nDTW": 0.8507076935239772,
+  "purpose": "train",
+  "wall_seconds": 22.278041817247868,
+  "training": {
+    "episode_id": "10349",
+    "transitions": 11,
+    "updated": false,
+    "trace_paths": [
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0000.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0001.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0002.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0003.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0004.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0005.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0006.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0007.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0008.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0009.pt",
+      "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/traces/b10b902de6a64fbca2fa5bf663693164_0010.pt"
+    ],
+    "bootstrap_saved": false,
+    "backbone_unchanged": true,
+    "backbone_frozen_no_grad": true,
+    "adapter_frozen_unchanged": true,
+    "old_snapshots_frozen": true,
+    "episode_summary": {
+      "purpose": "train",
+      "episode_id": "10349",
+      "boundary": "Experiment/SCOPE/Stage2/Task23/artifacts/ppo4096/runtime/episode_boundary_b10b902de6a64fbca2fa5bf663693164.pt",
+      "transitions": 11,
+      "reward_sum": 2.3415911706288655,
+      "focus_histogram": {
+        "1": 4,
+        "4": 2,
+        "0": 5
+      },
+      "camera_histogram": {
+        "2": 4,
+        "0": 1,
+        "1": 6,
+        "3": 1
+      },
+      "entropy": {
+        "stop": 0.6399603996958051,
+        "camera": 0.8932039482252938,
+        "position_latent": 2.4089365800221763
+      },
+      "start_geodesic_distance": 9.808564186096191,
+      "final_geodesic_distance": 1.234696626663208,
+      "terminated": true,
+      "truncated": false,
+      "model_ms": 9666.342839598656,
+      "perception_ms": 377.2595962509513
+    },
+    "collected": 1926,
+    "buffer_transitions": 19
+  },
+  "SR": 1,
+  "SPL": 0.9318863293551448,
+  "reward_sum": 2.3415911706288655,
+  "focus_mean": 1.0909090909090908
+}
